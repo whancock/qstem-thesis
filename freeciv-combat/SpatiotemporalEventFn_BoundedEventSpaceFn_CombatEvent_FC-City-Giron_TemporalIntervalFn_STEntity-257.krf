@@ -1,0 +1,124 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Giron) (TemporalIntervalFn STEntity-257)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Giron) (TemporalIntervalFn STEntity-257)))
+((Area (AtFn (EndFn STEntity-257) STEntity-257)) (FreecivTileArea 94))
+
+((Area (AtFn (StartFn STEntity-257) STEntity-257)) (FreecivTileArea 94))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-257) STEntity-257)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-257) STEntity-257)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-257) STEntity-257)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-257) STEntity-257)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-257) STEntity-257)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-257) STEntity-257)) (FreecivUnitCountFn 5))
+
+((citySize (AtFn (EndFn STEntity-257) STEntity-257)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-257) STEntity-257)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6169 BoundedTemporalEntity-6167)
+
+(aia-MI BoundedTemporalEntity-6170 BoundedTemporalEntity-6168)
+
+(aia-MI BoundedTemporalEntity-6172 BoundedTemporalEntity-6169)
+
+(aia-MI BoundedTemporalEntity-6173 BoundedTemporalEntity-6172)
+
+(aia-MI BoundedTemporalEntity-6175 BoundedTemporalEntity-6148)
+
+(aia-MI BoundedTemporalEntity-6176 BoundedTemporalEntity-6170)
+
+(aia-MI BoundedTemporalEntity-6187 BoundedTemporalEntity-6175)
+
+(aia-MI BoundedTemporalEntity-6191 BoundedTemporalEntity-6176)
+
+(aia-MI BoundedTemporalEntity-6195 BoundedTemporalEntity-6173)
+
+(aia-MI BoundedTemporalEntity-6197 BoundedTemporalEntity-6195)
+
+(aia-MI BoundedTemporalEntity-6219 BoundedTemporalEntity-6197)
+
+(aia-MI BoundedTemporalEntity-6220 BoundedTemporalEntity-6191)
+
+(aia-MI BoundedTemporalEntity-6229 BoundedTemporalEntity-6219)
+
+(aia-MI BoundedTemporalEntity-6230 BoundedTemporalEntity-6220)
+
+(aia-MI BoundedTemporalEntity-6242 BoundedTemporalEntity-6229)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6167)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6169)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6172)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6173)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6195)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6197)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6219)
+
+(aia-OI BoundedTemporalEntity-6230 BoundedTemporalEntity-6229)
+
+(cityOwner FC-City-Giron FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-6149 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Giron))
+
+(constantIn BoundedTemporalEntity-6167 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(currentActivity Unit-171 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Giron (FreecivLocationFn 32 6))
+
+(fcObjectAt Unit-171 (FreecivLocationFn 32 6))
+
+(footprintOf FC-City-Giron CityFootprint-FC-City-Giron)
+
+(isa CityFootprint-FC-City-Giron CityFootprint)
+
+(isa FC-City-Giron FreeCiv-City)
+
+(isa STEntity-257 DefensiveEpisodeFailure)
+
+(isa STEntity-257 SpatiotemporalEvent)
+
+(isa Unit-171 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-470933 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6169 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(nondecreasingIn BoundedTemporalEntity-6173 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(nondecreasingIn BoundedTemporalEntity-6197 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(nondecreasingIn BoundedTemporalEntity-6229 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(nondecreasingIn BoundedTemporalEntity-6230 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-470933))
+
+(nonincreasingIn BoundedTemporalEntity-6172 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(nonincreasingIn BoundedTemporalEntity-6187 ((MeasurableQuantityFn citySize) FC-City-Giron))
+
+(nonincreasingIn BoundedTemporalEntity-6195 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(nonincreasingIn BoundedTemporalEntity-6219 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(nonincreasingIn BoundedTemporalEntity-6242 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-470933))
+
+(startsAfterStartingOf BoundedTemporalEntity-6187 BoundedTemporalEntity-6149)
+
+(startsAfterStartingOf BoundedTemporalEntity-6187 BoundedTemporalEntity-6150)
+
+(startsBeforeStartingOf BoundedTemporalEntity-6230 BoundedTemporalEntity-6242)
+
+(unitOwner Unit-171 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-6150 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Giron))

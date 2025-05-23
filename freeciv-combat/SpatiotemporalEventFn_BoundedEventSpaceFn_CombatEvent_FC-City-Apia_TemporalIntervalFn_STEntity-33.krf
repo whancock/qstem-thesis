@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Apia) (TemporalIntervalFn STEntity-33)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Apia) (TemporalIntervalFn STEntity-33)))
+(aia-MI BoundedTemporalEntity-1832 BoundedTemporalEntity-1819)
+
+(aia-MI BoundedTemporalEntity-1835 BoundedTemporalEntity-1832)
+
+(aia-MI BoundedTemporalEntity-1859 BoundedTemporalEntity-1835)
+
+(aia-MI BoundedTemporalEntity-1883 BoundedTemporalEntity-1859)
+
+(aia-MI BoundedTemporalEntity-1973 BoundedTemporalEntity-1883)
+
+(cityOwner FC-City-Apia FC-Player-UNu)
+
+(constantAcrossBounds STEntity-33 ((STEMQuantityFn 6) UnitGroupFootprint-21184))
+
+(constantAcrossBounds STEntity-33 ((STEMQuantityFn 7) UnitGroupFootprint-21184))
+
+(constantIn BoundedTemporalEntity-1820 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Apia))
+
+(constantIn BoundedTemporalEntity-1982 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-21184))
+
+(constantIn BoundedTemporalEntity-1984 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-21184))
+
+(currentActivity Unit-181 FC-ActivityIdle)
+
+(defenseBonus FC-City-Apia 0)
+
+(fcObjectAt FC-City-Apia (FreecivLocationFn 39 5))
+
+(fcObjectAt Unit-181 (FreecivLocationFn 39 5))
+
+(footprintOf FC-City-Apia CityFootprint-FC-City-Apia)
+
+(hasAmount FC-City-Apia (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-33) ((STEMQuantityFn 2) CityFootprint-FC-City-Apia (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-33) ((STEMQuantityFn 5) FC-City-Apia (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-33) ((STEMQuantityFn 6) UnitGroupFootprint-21184 (FreecivUnitCountFn 3)))
+
+(holdsIn (EndFn STEntity-33) ((STEMQuantityFn 7) UnitGroupFootprint-21184 (FreecivTileArea 40)))
+
+(holdsIn (StartFn STEntity-33) ((STEMQuantityFn 2) CityFootprint-FC-City-Apia (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-33) ((STEMQuantityFn 5) FC-City-Apia (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-33) ((STEMQuantityFn 6) UnitGroupFootprint-21184 (FreecivUnitCountFn 3)))
+
+(holdsIn (StartFn STEntity-33) ((STEMQuantityFn 7) UnitGroupFootprint-21184 (FreecivTileArea 40)))
+
+(increasingIn BoundedTemporalEntity-1973 ((MeasurableQuantityFn citySize) FC-City-Apia))
+
+(isa CityFootprint-FC-City-Apia CityFootprint)
+
+(isa FC-City-Apia FreeCiv-City)
+
+(isa STEntity-33 DefensiveEpisodeFailure)
+
+(isa STEntity-33 SpatiotemporalEvent)
+
+(isa Unit-181 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-21184 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-1973 BoundedTemporalEntity-1820)
+
+(startsAfterStartingOf BoundedTemporalEntity-1973 BoundedTemporalEntity-1821)
+
+(startsAtSameTime BoundedTemporalEntity-1984 BoundedTemporalEntity-1982)
+
+(terrainAt (FreecivLocationFn 39 5) FC-Terrain-Grassland)
+
+(unitOwner Unit-181 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-1821 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Apia))

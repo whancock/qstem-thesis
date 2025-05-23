@@ -1,0 +1,70 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Trujillo) (TemporalIntervalFn STEntity-590)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Trujillo) (TemporalIntervalFn STEntity-590)))
+((Area (AtFn (EndFn STEntity-590) STEntity-590)) (FreecivTileArea 76))
+
+((Area (AtFn (StartFn STEntity-590) STEntity-590)) (FreecivTileArea 76))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-590) STEntity-590)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-590) STEntity-590)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-590) STEntity-590)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-590) STEntity-590)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-590) STEntity-590)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-590) STEntity-590)) (FreecivUnitCountFn 4))
+
+((citySize (AtFn (EndFn STEntity-590) STEntity-590)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-590) STEntity-590)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-12098 BoundedTemporalEntity-12083)
+
+(aia-MI BoundedTemporalEntity-12099 BoundedTemporalEntity-12083)
+
+(aia-MI BoundedTemporalEntity-12099 BoundedTemporalEntity-12084)
+
+(cityOwner FC-City-Trujillo FC-Player-ManuelA.Odría)
+
+(constantIn BoundedTemporalEntity-12083 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5285359))
+
+(constantIn BoundedTemporalEntity-12090 ((MeasurableQuantityFn citySize) FC-City-Trujillo))
+
+(constantIn BoundedTemporalEntity-12091 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Trujillo))
+
+(currentActivity Unit-181 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Trujillo (FreecivLocationFn 8 23))
+
+(fcObjectAt Unit-181 (FreecivLocationFn 8 23))
+
+(footprintOf FC-City-Trujillo CityFootprint-FC-City-Trujillo)
+
+(isa CityFootprint-FC-City-Trujillo CityFootprint)
+
+(isa FC-City-Trujillo FreeCiv-City)
+
+(isa STEntity-590 DefensiveEpisodeFailure)
+
+(isa STEntity-590 SpatiotemporalEvent)
+
+(isa Unit-181 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-5285359 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12098 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5285359))
+
+(nondecreasingIn BoundedTemporalEntity-12099 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5285359))
+
+(startsAtSameTime BoundedTemporalEntity-12090 BoundedTemporalEntity-12091)
+
+(startsAtSameTime BoundedTemporalEntity-12090 BoundedTemporalEntity-12092)
+
+(startsAtSameTime BoundedTemporalEntity-12099 BoundedTemporalEntity-12098)
+
+(unitOwner Unit-181 FC-Player-WangKon)
+
+(zeroIn BoundedTemporalEntity-12092 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Trujillo))

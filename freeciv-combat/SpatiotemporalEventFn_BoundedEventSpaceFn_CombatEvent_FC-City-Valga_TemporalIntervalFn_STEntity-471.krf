@@ -1,0 +1,144 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Valga) (TemporalIntervalFn STEntity-471)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Valga) (TemporalIntervalFn STEntity-471)))
+((Area (AtFn (EndFn STEntity-471) STEntity-471)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-471) STEntity-471)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-471) STEntity-471)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-471) STEntity-471)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-471) STEntity-471)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-471) STEntity-471)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Valga)
+
+((HasImprovementFn FC-Building-CityWalls) FC-City-Valga)
+
+(aia-MI BoundedTemporalEntity-9111 BoundedTemporalEntity-9096)
+
+(aia-MI BoundedTemporalEntity-9112 BoundedTemporalEntity-9098)
+
+(aia-MI BoundedTemporalEntity-9142 BoundedTemporalEntity-9115)
+
+(aia-MI BoundedTemporalEntity-9172 BoundedTemporalEntity-9116)
+
+(aia-MI BoundedTemporalEntity-9173 BoundedTemporalEntity-9117)
+
+(aia-MI BoundedTemporalEntity-9228 BoundedTemporalEntity-9142)
+
+(aia-MI BoundedTemporalEntity-9240 BoundedTemporalEntity-9172)
+
+(aia-MI BoundedTemporalEntity-9241 BoundedTemporalEntity-9111)
+
+(aia-MI BoundedTemporalEntity-9242 BoundedTemporalEntity-9112)
+
+(aia-MI BoundedTemporalEntity-9305 BoundedTemporalEntity-9228)
+
+(aia-MI BoundedTemporalEntity-9329 BoundedTemporalEntity-9305)
+
+(aia-MI BoundedTemporalEntity-9330 BoundedTemporalEntity-9242)
+
+(aia-MI BoundedTemporalEntity-9370 BoundedTemporalEntity-9241)
+
+(aia-MI BoundedTemporalEntity-9371 BoundedTemporalEntity-9330)
+
+(aia-MI BoundedTemporalEntity-9404 BoundedTemporalEntity-9329)
+
+(aia-MI BoundedTemporalEntity-9408 BoundedTemporalEntity-9404)
+
+(aia-MI BoundedTemporalEntity-9417 BoundedTemporalEntity-9408)
+
+(aia-MI BoundedTemporalEntity-9427 BoundedTemporalEntity-9370)
+
+(aia-MI BoundedTemporalEntity-9428 BoundedTemporalEntity-9370)
+
+(aia-MI BoundedTemporalEntity-9428 BoundedTemporalEntity-9371)
+
+(aia-MI BoundedTemporalEntity-9530 BoundedTemporalEntity-9517)
+
+(aia-OI BoundedTemporalEntity-9417 BoundedTemporalEntity-9116)
+
+(aia-OI BoundedTemporalEntity-9417 BoundedTemporalEntity-9117)
+
+(aia-OI BoundedTemporalEntity-9417 BoundedTemporalEntity-9172)
+
+(aia-OI BoundedTemporalEntity-9428 BoundedTemporalEntity-9096)
+
+(aia-OI BoundedTemporalEntity-9428 BoundedTemporalEntity-9111)
+
+(aia-OI BoundedTemporalEntity-9428 BoundedTemporalEntity-9241)
+
+(aia-SI BoundedTemporalEntity-9521 BoundedTemporalEntity-9517)
+
+(cityOwner FC-City-Valga FC-Player-ElizabethNicholls)
+
+(constantIn BoundedTemporalEntity-9096 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2876317))
+
+(constantIn BoundedTemporalEntity-9116 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valga))
+
+(constantIn BoundedTemporalEntity-9240 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valga))
+
+(constantIn BoundedTemporalEntity-9241 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2876317))
+
+(constantIn BoundedTemporalEntity-9367 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3138418))
+
+(constantIn BoundedTemporalEntity-9368 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3138418))
+
+(constantIn BoundedTemporalEntity-9427 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2876317))
+
+(constantIn BoundedTemporalEntity-9428 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2876317))
+
+(constantIn BoundedTemporalEntity-9517 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3226685))
+
+(constantIn BoundedTemporalEntity-9521 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3226685))
+
+(fcObjectAt FC-City-Valga (FreecivLocationFn 0 11))
+
+(fcObjectAt Unit-268 (FreecivLocationFn 0 11))
+
+(fcObjectAt Unit-413 (FreecivLocationFn 0 11))
+
+(fcObjectAt Unit-514 (FreecivLocationFn 0 11))
+
+(footprintOf FC-City-Valga CityFootprint-FC-City-Valga)
+
+(isa CityFootprint-FC-City-Valga CityFootprint)
+
+(isa FC-City-Valga FreeCiv-City)
+
+(isa STEntity-471 DefensiveEpisodeFailure)
+
+(isa STEntity-471 SpatiotemporalEvent)
+
+(isa UnitGroupFootprint-2876317 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3138418 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3226685 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-9111 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2876317))
+
+(nondecreasingIn BoundedTemporalEntity-9172 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valga))
+
+(nonincreasingIn BoundedTemporalEntity-9370 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2876317))
+
+(nonincreasingIn BoundedTemporalEntity-9417 ((MeasurableQuantityFn citySize) FC-City-Valga))
+
+(nonincreasingIn BoundedTemporalEntity-9530 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3226685))
+
+(someIn BoundedTemporalEntity-9173 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valga))
+
+(startsAfterStartingOf BoundedTemporalEntity-9417 BoundedTemporalEntity-9173)
+
+(startsAfterStartingOf BoundedTemporalEntity-9417 BoundedTemporalEntity-9240)
+
+(startsAtSameTime BoundedTemporalEntity-9368 BoundedTemporalEntity-9367)
+
+(startsAtSameTime BoundedTemporalEntity-9428 BoundedTemporalEntity-9427)
+
+(startsBeforeStartingOf BoundedTemporalEntity-9521 BoundedTemporalEntity-9530)
+
+(zeroIn BoundedTemporalEntity-9117 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valga))

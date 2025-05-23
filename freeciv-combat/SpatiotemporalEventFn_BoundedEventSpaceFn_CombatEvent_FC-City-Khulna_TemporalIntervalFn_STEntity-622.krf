@@ -1,0 +1,68 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Khulna) (TemporalIntervalFn STEntity-622)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Khulna) (TemporalIntervalFn STEntity-622)))
+((Area (AtFn (EndFn STEntity-622) STEntity-622)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-622) STEntity-622)) (FreecivTileArea 22))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-622) STEntity-622)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-622) STEntity-622)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-622) STEntity-622)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-622) STEntity-622)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-622) STEntity-622)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-622) STEntity-622)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-622) STEntity-622)) (FreecivCitizenCountFn 3))
+
+((citySize (AtFn (StartFn STEntity-622) STEntity-622)) (FreecivCitizenCountFn 3))
+
+(aia-MI BoundedTemporalEntity-13036 BoundedTemporalEntity-13023)
+
+(aia-MI BoundedTemporalEntity-13052 BoundedTemporalEntity-13036)
+
+(aia-MI BoundedTemporalEntity-13068 BoundedTemporalEntity-13052)
+
+(cityOwner FC-City-Khulna FC-Player-TomasZumalakarregiImaz)
+
+(constantIn BoundedTemporalEntity-13024 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Khulna))
+
+(constantIn BoundedTemporalEntity-13066 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6442095))
+
+(constantIn BoundedTemporalEntity-13067 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6442095))
+
+(currentActivity Unit-161 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Khulna (FreecivLocationFn 34 25))
+
+(fcObjectAt Unit-161 (FreecivLocationFn 34 25))
+
+(footprintOf FC-City-Khulna CityFootprint-FC-City-Khulna)
+
+(isa CityFootprint-FC-City-Khulna CityFootprint)
+
+(isa FC-City-Khulna FreeCiv-City)
+
+(isa STEntity-622 DefensiveEpisodeFailure)
+
+(isa STEntity-622 SpatiotemporalEvent)
+
+(isa Unit-161 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-6442095 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-13068 ((MeasurableQuantityFn citySize) FC-City-Khulna))
+
+(startsAfterStartingOf BoundedTemporalEntity-13068 BoundedTemporalEntity-13024)
+
+(startsAfterStartingOf BoundedTemporalEntity-13068 BoundedTemporalEntity-13025)
+
+(startsAtSameTime BoundedTemporalEntity-13067 BoundedTemporalEntity-13066)
+
+(unitOwner Unit-161 FC-Player-TomasZumalakarregiImaz)
+
+(zeroIn BoundedTemporalEntity-13025 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Khulna))

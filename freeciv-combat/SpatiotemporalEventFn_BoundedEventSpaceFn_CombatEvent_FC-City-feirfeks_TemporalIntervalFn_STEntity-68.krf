@@ -1,0 +1,118 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-feirfeks) (TemporalIntervalFn STEntity-68)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-feirfeks) (TemporalIntervalFn STEntity-68)))
+((HasImprovementFn FC-Building-Palace) FC-City-feirfeks)
+
+(aia-MI BoundedTemporalEntity-4102 BoundedTemporalEntity-4085)
+
+(aia-MI BoundedTemporalEntity-4104 BoundedTemporalEntity-4102)
+
+(aia-MI BoundedTemporalEntity-4122 BoundedTemporalEntity-4104)
+
+(aia-MI BoundedTemporalEntity-4123 BoundedTemporalEntity-4122)
+
+(aia-MI BoundedTemporalEntity-4238 BoundedTemporalEntity-4123)
+
+(aia-MI BoundedTemporalEntity-4449 BoundedTemporalEntity-4433)
+
+(aia-MI BoundedTemporalEntity-4451 BoundedTemporalEntity-4436)
+
+(aia-MI BoundedTemporalEntity-4501 BoundedTemporalEntity-4449)
+
+(aia-MI BoundedTemporalEntity-4502 BoundedTemporalEntity-4451)
+
+(aia-MI BoundedTemporalEntity-4508 BoundedTemporalEntity-4502)
+
+(aia-OI BoundedTemporalEntity-4508 BoundedTemporalEntity-4433)
+
+(aia-OI BoundedTemporalEntity-4508 BoundedTemporalEntity-4449)
+
+(cityOwner FC-City-feirfeks FC-Player-lojbab)
+
+(constantAcrossBounds STEntity-68 ((STEMQuantityFn 2) CityFootprint-FC-City-feirfeks))
+
+(constantAcrossBounds STEntity-68 ((STEMQuantityFn 6) UnitGroupFootprint-74063))
+
+(constantAcrossBounds STEntity-68 ((STEMQuantityFn 7) UnitGroupFootprint-74063))
+
+(constantAcrossBounds STEntity-68 ((STEMQuantityFn 5) FC-City-feirfeks))
+
+(constantIn BoundedTemporalEntity-4087 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-feirfeks))
+
+(constantIn BoundedTemporalEntity-4238 ((MeasurableQuantityFn citySize) FC-City-feirfeks))
+
+(constantIn BoundedTemporalEntity-4433 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-74058))
+
+(currentActivity Unit-282 FC-ActivityIdle)
+
+(decreasingAcrossBounds STEntity-68 ((STEMQuantityFn 7) UnitGroupFootprint-74058))
+
+(decreasingIn BoundedTemporalEntity-4501 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-74058))
+
+(defenseBonus FC-City-feirfeks 50)
+
+(fcObjectAt FC-City-feirfeks (FreecivLocationFn 2 31))
+
+(fcObjectAt Unit-282 (FreecivLocationFn 2 31))
+
+(footprintOf FC-City-feirfeks CityFootprint-FC-City-feirfeks)
+
+(hasAmount FC-City-feirfeks (MediumAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-68) ((STEMQuantityFn 2) CityFootprint-FC-City-feirfeks (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-68) ((STEMQuantityFn 5) FC-City-feirfeks (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-68) ((STEMQuantityFn 6) UnitGroupFootprint-74058 (FreecivUnitCountFn 11)))
+
+(holdsIn (EndFn STEntity-68) ((STEMQuantityFn 6) UnitGroupFootprint-74063 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-68) ((STEMQuantityFn 7) UnitGroupFootprint-74058 (FreecivTileArea 90)))
+
+(holdsIn (EndFn STEntity-68) ((STEMQuantityFn 7) UnitGroupFootprint-74063 (FreecivTileArea 8)))
+
+(holdsIn (StartFn STEntity-68) ((STEMQuantityFn 2) CityFootprint-FC-City-feirfeks (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-68) ((STEMQuantityFn 5) FC-City-feirfeks (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-68) ((STEMQuantityFn 6) UnitGroupFootprint-74058 (FreecivUnitCountFn 8)))
+
+(holdsIn (StartFn STEntity-68) ((STEMQuantityFn 6) UnitGroupFootprint-74063 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-68) ((STEMQuantityFn 7) UnitGroupFootprint-74058 (FreecivTileArea 104)))
+
+(holdsIn (StartFn STEntity-68) ((STEMQuantityFn 7) UnitGroupFootprint-74063 (FreecivTileArea 8)))
+
+(increasingAcrossBounds STEntity-68 ((STEMQuantityFn 6) UnitGroupFootprint-74058))
+
+(increasingIn BoundedTemporalEntity-4449 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-74058))
+
+(increasingIn BoundedTemporalEntity-4508 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-74058))
+
+(isa CityFootprint-FC-City-feirfeks CityFootprint)
+
+(isa FC-City-feirfeks FreeCiv-City)
+
+(isa STEntity-68 DefensiveEpisodeFailure)
+
+(isa STEntity-68 SpatiotemporalEvent)
+
+(isa Unit-282 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-74058 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-74063 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-4238 BoundedTemporalEntity-4087)
+
+(startsAfterStartingOf BoundedTemporalEntity-4238 BoundedTemporalEntity-4088)
+
+(startsAfterStartingOf BoundedTemporalEntity-4508 BoundedTemporalEntity-4501)
+
+(terrainAt (FreecivLocationFn 2 31) FC-Terrain-Forest)
+
+(unitOwner Unit-282 FC-Player-WalterHallstein)
+
+(zeroAcrossBounds STEntity-68 ((STEMQuantityFn 2) CityFootprint-FC-City-feirfeks))
+
+(zeroIn BoundedTemporalEntity-4088 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-feirfeks))

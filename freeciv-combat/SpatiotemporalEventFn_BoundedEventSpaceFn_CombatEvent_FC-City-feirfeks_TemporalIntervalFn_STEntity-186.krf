@@ -1,0 +1,106 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-feirfeks) (TemporalIntervalFn STEntity-186)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-feirfeks) (TemporalIntervalFn STEntity-186)))
+((Area (AtFn (EndFn STEntity-186) STEntity-186)) (FreecivTileArea 8))
+
+((Area (AtFn (EndFn STEntity-186) STEntity-186)) (FreecivTileArea 91))
+
+((Area (AtFn (StartFn STEntity-186) STEntity-186)) (FreecivTileArea 104))
+
+((Area (AtFn (StartFn STEntity-186) STEntity-186)) (FreecivTileArea 8))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 10))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 10))
+
+((Defenders (AtFn (StartFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-186) STEntity-186)) (FreecivUnitCountFn 8))
+
+((HasImprovementFn FC-Building-Palace) FC-City-feirfeks)
+
+((citySize (AtFn (EndFn STEntity-186) STEntity-186)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-186) STEntity-186)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-4219 BoundedTemporalEntity-4192)
+
+(aia-MI BoundedTemporalEntity-4221 BoundedTemporalEntity-4219)
+
+(aia-MI BoundedTemporalEntity-4254 BoundedTemporalEntity-4221)
+
+(aia-MI BoundedTemporalEntity-4255 BoundedTemporalEntity-4254)
+
+(aia-MI BoundedTemporalEntity-4370 BoundedTemporalEntity-4255)
+
+(aia-MI BoundedTemporalEntity-4582 BoundedTemporalEntity-4566)
+
+(aia-MI BoundedTemporalEntity-4584 BoundedTemporalEntity-4569)
+
+(aia-MI BoundedTemporalEntity-4641 BoundedTemporalEntity-4582)
+
+(aia-MI BoundedTemporalEntity-4642 BoundedTemporalEntity-4582)
+
+(aia-MI BoundedTemporalEntity-4642 BoundedTemporalEntity-4584)
+
+(aia-MI BoundedTemporalEntity-4649 BoundedTemporalEntity-4641)
+
+(aia-OI BoundedTemporalEntity-4642 BoundedTemporalEntity-4566)
+
+(aia-SI BoundedTemporalEntity-4642 BoundedTemporalEntity-4641)
+
+(cityOwner FC-City-feirfeks FC-Player-lojbab)
+
+(constantIn BoundedTemporalEntity-4194 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-feirfeks))
+
+(constantIn BoundedTemporalEntity-4370 ((MeasurableQuantityFn citySize) FC-City-feirfeks))
+
+(constantIn BoundedTemporalEntity-4566 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-276437))
+
+(currentActivity Unit-282 FC-ActivityIdle)
+
+(fcObjectAt FC-City-feirfeks (FreecivLocationFn 2 31))
+
+(fcObjectAt Unit-282 (FreecivLocationFn 2 31))
+
+(footprintOf FC-City-feirfeks CityFootprint-FC-City-feirfeks)
+
+(isa CityFootprint-FC-City-feirfeks CityFootprint)
+
+(isa FC-City-feirfeks FreeCiv-City)
+
+(isa STEntity-186 DefensiveEpisodeFailure)
+
+(isa STEntity-186 SpatiotemporalEvent)
+
+(isa Unit-282 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-276437 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-276442 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-4582 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-276437))
+
+(nondecreasingIn BoundedTemporalEntity-4649 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-276437))
+
+(nonincreasingIn BoundedTemporalEntity-4641 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-276437))
+
+(nonincreasingIn BoundedTemporalEntity-4642 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-276437))
+
+(startsAfterStartingOf BoundedTemporalEntity-4370 BoundedTemporalEntity-4194)
+
+(startsAfterStartingOf BoundedTemporalEntity-4370 BoundedTemporalEntity-4195)
+
+(startsBeforeStartingOf BoundedTemporalEntity-4642 BoundedTemporalEntity-4649)
+
+(unitOwner Unit-282 FC-Player-WalterHallstein)
+
+(zeroIn BoundedTemporalEntity-4195 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-feirfeks))

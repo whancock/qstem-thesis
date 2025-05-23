@@ -1,0 +1,356 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Dálvvadis) (TemporalIntervalFn STEntity-106)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Dálvvadis) (TemporalIntervalFn STEntity-106)))
+((HasImprovementFn FC-Building-Barracks) FC-City-Dálvvadis)
+
+((HasImprovementFn FC-Building-Palace) FC-City-Dálvvadis)
+
+(aia-MI BoundedTemporalEntity-5505 BoundedTemporalEntity-5439)
+
+(aia-MI BoundedTemporalEntity-5543 BoundedTemporalEntity-5467)
+
+(aia-MI BoundedTemporalEntity-5544 BoundedTemporalEntity-5468)
+
+(aia-MI BoundedTemporalEntity-5545 BoundedTemporalEntity-5440)
+
+(aia-MI BoundedTemporalEntity-5546 BoundedTemporalEntity-5441)
+
+(aia-MI BoundedTemporalEntity-5585 BoundedTemporalEntity-5505)
+
+(aia-MI BoundedTemporalEntity-5587 BoundedTemporalEntity-5543)
+
+(aia-MI BoundedTemporalEntity-5588 BoundedTemporalEntity-5544)
+
+(aia-MI BoundedTemporalEntity-5590 BoundedTemporalEntity-5545)
+
+(aia-MI BoundedTemporalEntity-5591 BoundedTemporalEntity-5546)
+
+(aia-MI BoundedTemporalEntity-5602 BoundedTemporalEntity-5588)
+
+(aia-MI BoundedTemporalEntity-5610 BoundedTemporalEntity-5585)
+
+(aia-MI BoundedTemporalEntity-5668 BoundedTemporalEntity-5587)
+
+(aia-MI BoundedTemporalEntity-5669 BoundedTemporalEntity-5590)
+
+(aia-MI BoundedTemporalEntity-5670 BoundedTemporalEntity-5591)
+
+(aia-MI BoundedTemporalEntity-5696 BoundedTemporalEntity-5610)
+
+(aia-MI BoundedTemporalEntity-5705 BoundedTemporalEntity-5696)
+
+(aia-MI BoundedTemporalEntity-5720 BoundedTemporalEntity-5705)
+
+(aia-MI BoundedTemporalEntity-5747 BoundedTemporalEntity-5668)
+
+(aia-MI BoundedTemporalEntity-5801 BoundedTemporalEntity-5602)
+
+(aia-MI BoundedTemporalEntity-5802 BoundedTemporalEntity-5669)
+
+(aia-MI BoundedTemporalEntity-5818 BoundedTemporalEntity-5720)
+
+(aia-MI BoundedTemporalEntity-5820 BoundedTemporalEntity-5818)
+
+(aia-MI BoundedTemporalEntity-5834 BoundedTemporalEntity-5809)
+
+(aia-MI BoundedTemporalEntity-5835 BoundedTemporalEntity-5811)
+
+(aia-MI BoundedTemporalEntity-5850 BoundedTemporalEntity-5834)
+
+(aia-MI BoundedTemporalEntity-5859 BoundedTemporalEntity-5850)
+
+(aia-MI BoundedTemporalEntity-5862 BoundedTemporalEntity-5859)
+
+(aia-MI BoundedTemporalEntity-5863 BoundedTemporalEntity-5835)
+
+(aia-MI BoundedTemporalEntity-5867 BoundedTemporalEntity-5801)
+
+(aia-MI BoundedTemporalEntity-5868 BoundedTemporalEntity-5863)
+
+(aia-MI BoundedTemporalEntity-5869 BoundedTemporalEntity-5802)
+
+(aia-MI BoundedTemporalEntity-5876 BoundedTemporalEntity-5862)
+
+(aia-MI BoundedTemporalEntity-5879 BoundedTemporalEntity-5868)
+
+(aia-MI BoundedTemporalEntity-5886 BoundedTemporalEntity-5876)
+
+(aia-MI BoundedTemporalEntity-5892 BoundedTemporalEntity-5886)
+
+(aia-MI BoundedTemporalEntity-5893 BoundedTemporalEntity-5879)
+
+(aia-MI BoundedTemporalEntity-5894 BoundedTemporalEntity-5747)
+
+(aia-MI BoundedTemporalEntity-5895 BoundedTemporalEntity-5892)
+
+(aia-MI BoundedTemporalEntity-5896 BoundedTemporalEntity-5670)
+
+(aia-MI BoundedTemporalEntity-5897 BoundedTemporalEntity-5895)
+
+(aia-MI BoundedTemporalEntity-5901 BoundedTemporalEntity-5897)
+
+(aia-MI BoundedTemporalEntity-5902 BoundedTemporalEntity-5893)
+
+(aia-MI BoundedTemporalEntity-5910 BoundedTemporalEntity-5901)
+
+(aia-MI BoundedTemporalEntity-5911 BoundedTemporalEntity-5901)
+
+(aia-MI BoundedTemporalEntity-5911 BoundedTemporalEntity-5902)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5440)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5441)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5545)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5546)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5590)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5591)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5669)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5670)
+
+(aia-OI BoundedTemporalEntity-5820 BoundedTemporalEntity-5802)
+
+(aia-OI BoundedTemporalEntity-5867 BoundedTemporalEntity-5467)
+
+(aia-OI BoundedTemporalEntity-5867 BoundedTemporalEntity-5543)
+
+(aia-OI BoundedTemporalEntity-5867 BoundedTemporalEntity-5587)
+
+(aia-OI BoundedTemporalEntity-5867 BoundedTemporalEntity-5668)
+
+(aia-OI BoundedTemporalEntity-5867 BoundedTemporalEntity-5747)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5809)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5834)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5850)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5859)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5862)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5876)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5886)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5892)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5895)
+
+(aia-OI BoundedTemporalEntity-5911 BoundedTemporalEntity-5897)
+
+(cityOwner FC-City-Dálvvadis FC-Player-OleHenrikMagga)
+
+(constantAcrossBounds STEntity-106 ((STEMQuantityFn 5) FC-City-Dálvvadis))
+
+(constantAcrossBounds STEntity-106 ((STEMQuantityFn 6) UnitGroupFootprint-93297))
+
+(constantAcrossBounds STEntity-106 ((STEMQuantityFn 6) UnitGroupFootprint-97560))
+
+(constantAcrossBounds STEntity-106 ((STEMQuantityFn 7) UnitGroupFootprint-93297))
+
+(constantIn BoundedTemporalEntity-5440 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(constantIn BoundedTemporalEntity-5467 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(constantIn BoundedTemporalEntity-5747 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(constantIn BoundedTemporalEntity-5802 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(constantIn BoundedTemporalEntity-5809 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(currentActivity Unit-249 FC-ActivityIdle)
+
+(currentActivity Unit-276 FC-ActivityIdle)
+
+(currentActivity Unit-565 FC-ActivityFortifying)
+
+(decreasingAcrossBounds STEntity-106 ((STEMQuantityFn 2) CityFootprint-FC-City-Dálvvadis))
+
+(decreasingAcrossBounds STEntity-106 ((STEMQuantityFn 6) UnitGroupFootprint-95999))
+
+(decreasingAcrossBounds STEntity-106 ((STEMQuantityFn 6) UnitGroupFootprint-98017))
+
+(decreasingAcrossBounds STEntity-106 ((STEMQuantityFn 7) UnitGroupFootprint-92558))
+
+(decreasingAcrossBounds STEntity-106 ((STEMQuantityFn 7) UnitGroupFootprint-95999))
+
+(decreasingAcrossBounds STEntity-106 ((STEMQuantityFn 7) UnitGroupFootprint-98017))
+
+(decreasingIn BoundedTemporalEntity-5587 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(decreasingIn BoundedTemporalEntity-5590 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(decreasingIn BoundedTemporalEntity-5820 ((MeasurableQuantityFn citySize) FC-City-Dálvvadis))
+
+(decreasingIn BoundedTemporalEntity-5850 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(decreasingIn BoundedTemporalEntity-5862 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(decreasingIn BoundedTemporalEntity-5867 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-92558))
+
+(decreasingIn BoundedTemporalEntity-5869 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(decreasingIn BoundedTemporalEntity-5886 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(decreasingIn BoundedTemporalEntity-5894 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(decreasingIn BoundedTemporalEntity-5895 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(decreasingIn BoundedTemporalEntity-5901 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(defenseBonus FC-City-Dálvvadis 0)
+
+(fcObjectAt FC-City-Dálvvadis (FreecivLocationFn 24 10))
+
+(fcObjectAt Unit-249 (FreecivLocationFn 24 10))
+
+(footprintOf FC-City-Dálvvadis CityFootprint-FC-City-Dálvvadis)
+
+(hasAmount FC-City-Dálvvadis (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 2) CityFootprint-FC-City-Dálvvadis (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 5) FC-City-Dálvvadis (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-92558 (FreecivUnitCountFn 8)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-93297 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-95999 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-97316 (FreecivUnitCountFn 16)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-97560 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-98017 (FreecivUnitCountFn 4)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-92558 (FreecivTileArea 23)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-93297 (FreecivTileArea 22)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-95999 (FreecivTileArea 8)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-97316 (FreecivTileArea 357)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-97560 (FreecivTileArea 35)))
+
+(holdsIn (EndFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-98017 (FreecivTileArea 64)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 2) CityFootprint-FC-City-Dálvvadis (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 5) FC-City-Dálvvadis (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-92558 (FreecivUnitCountFn 3)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-93297 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-95999 (FreecivUnitCountFn 3)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-97316 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-97560 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 6) UnitGroupFootprint-98017 (FreecivUnitCountFn 6)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-92558 (FreecivTileArea 40)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-93297 (FreecivTileArea 22)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-95999 (FreecivTileArea 25)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-97316 (FreecivTileArea 44)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-97560 (FreecivTileArea 30)))
+
+(holdsIn (StartFn STEntity-106) ((STEMQuantityFn 7) UnitGroupFootprint-98017 (FreecivTileArea 116)))
+
+(increasingAcrossBounds STEntity-106 ((STEMQuantityFn 6) UnitGroupFootprint-92558))
+
+(increasingAcrossBounds STEntity-106 ((STEMQuantityFn 6) UnitGroupFootprint-97316))
+
+(increasingAcrossBounds STEntity-106 ((STEMQuantityFn 7) UnitGroupFootprint-97316))
+
+(increasingAcrossBounds STEntity-106 ((STEMQuantityFn 7) UnitGroupFootprint-97560))
+
+(increasingIn BoundedTemporalEntity-5543 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(increasingIn BoundedTemporalEntity-5545 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(increasingIn BoundedTemporalEntity-5668 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(increasingIn BoundedTemporalEntity-5669 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(increasingIn BoundedTemporalEntity-5834 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(increasingIn BoundedTemporalEntity-5859 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(increasingIn BoundedTemporalEntity-5876 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(increasingIn BoundedTemporalEntity-5892 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(increasingIn BoundedTemporalEntity-5897 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(increasingIn BoundedTemporalEntity-5910 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-97316))
+
+(increasingIn BoundedTemporalEntity-5911 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-97316))
+
+(isa CityFootprint-FC-City-Dálvvadis CityFootprint)
+
+(isa FC-City-Dálvvadis FreeCiv-City)
+
+(isa STEntity-106 DefensiveEpisodeFailure)
+
+(isa STEntity-106 SpatiotemporalEvent)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa Unit-249 FC-Unit-Catapult)
+
+(isa Unit-276 FC-Unit-Catapult)
+
+(isa Unit-565 FC-Unit-Dragoons)
+
+(isa UnitGroupFootprint-92558 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-93297 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-95999 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-97316 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-97560 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-98017 UnitGroupFootprint)
+
+(someIn BoundedTemporalEntity-5546 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(someIn BoundedTemporalEntity-5670 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(startsAtSameTime BoundedTemporalEntity-5911 BoundedTemporalEntity-5910)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5820 BoundedTemporalEntity-5869)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5820 BoundedTemporalEntity-5896)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5867 BoundedTemporalEntity-5894)
+
+(terrainAt (FreecivLocationFn 24 10) FC-Terrain-Plains)
+
+(unitOwner Unit-249 FC-Player-Shulgi)
+
+(unitOwner Unit-565 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5441 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(zeroIn BoundedTemporalEntity-5591 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(zeroIn BoundedTemporalEntity-5896 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))

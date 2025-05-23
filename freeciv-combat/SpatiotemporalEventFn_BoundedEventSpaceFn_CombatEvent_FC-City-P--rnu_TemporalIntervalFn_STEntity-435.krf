@@ -1,0 +1,102 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pärnu) (TemporalIntervalFn STEntity-435)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pärnu) (TemporalIntervalFn STEntity-435)))
+((Area (AtFn (EndFn STEntity-435) STEntity-435)) (FreecivTileArea 29))
+
+((Area (AtFn (StartFn STEntity-435) STEntity-435)) (FreecivTileArea 46))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-435) STEntity-435)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-435) STEntity-435)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-435) STEntity-435)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-435) STEntity-435)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-435) STEntity-435)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-435) STEntity-435)) (FreecivUnitCountFn 5))
+
+((citySize (AtFn (EndFn STEntity-435) STEntity-435)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-435) STEntity-435)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-9063 BoundedTemporalEntity-9030)
+
+(aia-MI BoundedTemporalEntity-9094 BoundedTemporalEntity-9063)
+
+(aia-MI BoundedTemporalEntity-9102 BoundedTemporalEntity-9094)
+
+(aia-MI BoundedTemporalEntity-9181 BoundedTemporalEntity-9102)
+
+(aia-MI BoundedTemporalEntity-9184 BoundedTemporalEntity-9164)
+
+(aia-MI BoundedTemporalEntity-9185 BoundedTemporalEntity-9165)
+
+(aia-MI BoundedTemporalEntity-9198 BoundedTemporalEntity-9184)
+
+(aia-MI BoundedTemporalEntity-9201 BoundedTemporalEntity-9198)
+
+(aia-MI BoundedTemporalEntity-9202 BoundedTemporalEntity-9181)
+
+(aia-MI BoundedTemporalEntity-9207 BoundedTemporalEntity-9201)
+
+(aia-MI BoundedTemporalEntity-9208 BoundedTemporalEntity-9185)
+
+(aia-MI BoundedTemporalEntity-9208 BoundedTemporalEntity-9201)
+
+(aia-MI BoundedTemporalEntity-9209 BoundedTemporalEntity-9202)
+
+(aia-OI BoundedTemporalEntity-9208 BoundedTemporalEntity-9164)
+
+(aia-OI BoundedTemporalEntity-9208 BoundedTemporalEntity-9184)
+
+(aia-OI BoundedTemporalEntity-9208 BoundedTemporalEntity-9198)
+
+(cityOwner FC-City-Pärnu FC-Player-ElizabethNicholls)
+
+(constantIn BoundedTemporalEntity-9031 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pärnu))
+
+(constantIn BoundedTemporalEntity-9164 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2921060))
+
+(currentActivity Unit-276 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Pärnu (FreecivLocationFn 44 17))
+
+(fcObjectAt Unit-276 (FreecivLocationFn 44 17))
+
+(footprintOf FC-City-Pärnu CityFootprint-FC-City-Pärnu)
+
+(isa CityFootprint-FC-City-Pärnu CityFootprint)
+
+(isa FC-City-Pärnu FreeCiv-City)
+
+(isa STEntity-435 DefensiveEpisodeFailure)
+
+(isa STEntity-435 SpatiotemporalEvent)
+
+(isa Unit-276 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-2921060 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-9184 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2921060))
+
+(nondecreasingIn BoundedTemporalEntity-9201 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2921060))
+
+(nondecreasingIn BoundedTemporalEntity-9209 ((MeasurableQuantityFn citySize) FC-City-Pärnu))
+
+(nonincreasingIn BoundedTemporalEntity-9198 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2921060))
+
+(nonincreasingIn BoundedTemporalEntity-9207 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2921060))
+
+(nonincreasingIn BoundedTemporalEntity-9208 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2921060))
+
+(startsAfterStartingOf BoundedTemporalEntity-9209 BoundedTemporalEntity-9031)
+
+(startsAfterStartingOf BoundedTemporalEntity-9209 BoundedTemporalEntity-9032)
+
+(startsAtSameTime BoundedTemporalEntity-9208 BoundedTemporalEntity-9207)
+
+(unitOwner Unit-276 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-9032 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pärnu))

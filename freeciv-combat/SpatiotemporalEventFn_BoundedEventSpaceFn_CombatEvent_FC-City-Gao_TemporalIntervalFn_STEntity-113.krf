@@ -1,0 +1,102 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gao) (TemporalIntervalFn STEntity-113)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gao) (TemporalIntervalFn STEntity-113)))
+((Area (AtFn (EndFn STEntity-113) STEntity-113)) (FreecivTileArea 27))
+
+((Area (AtFn (StartFn STEntity-113) STEntity-113)) (FreecivTileArea 31))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-113) STEntity-113)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-113) STEntity-113)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-113) STEntity-113)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-113) STEntity-113)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-113) STEntity-113)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-113) STEntity-113)) (FreecivUnitCountFn 4))
+
+((citySize (AtFn (EndFn STEntity-113) STEntity-113)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-113) STEntity-113)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3020 BoundedTemporalEntity-2995)
+
+(aia-MI BoundedTemporalEntity-3043 BoundedTemporalEntity-3034)
+
+(aia-MI BoundedTemporalEntity-3044 BoundedTemporalEntity-3035)
+
+(aia-MI BoundedTemporalEntity-3048 BoundedTemporalEntity-3043)
+
+(aia-MI BoundedTemporalEntity-3049 BoundedTemporalEntity-3044)
+
+(aia-MI BoundedTemporalEntity-3050 BoundedTemporalEntity-3048)
+
+(aia-MI BoundedTemporalEntity-3051 BoundedTemporalEntity-3048)
+
+(aia-MI BoundedTemporalEntity-3051 BoundedTemporalEntity-3049)
+
+(aia-MI BoundedTemporalEntity-3052 BoundedTemporalEntity-3020)
+
+(aia-MI BoundedTemporalEntity-3055 BoundedTemporalEntity-3050)
+
+(aia-OI BoundedTemporalEntity-3051 BoundedTemporalEntity-3034)
+
+(aia-OI BoundedTemporalEntity-3051 BoundedTemporalEntity-3043)
+
+(aia-SI BoundedTemporalEntity-3051 BoundedTemporalEntity-3050)
+
+(cityOwner FC-City-Gao FC-Player-Sakura)
+
+(constantIn BoundedTemporalEntity-2996 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gao))
+
+(constantIn BoundedTemporalEntity-3034 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-131143))
+
+(currentActivity Unit-193 FC-ActivityFortifying)
+
+(currentActivity Unit-198 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Gao (FreecivLocationFn 3 24))
+
+(fcObjectAt Unit-198 (FreecivLocationFn 3 24))
+
+(footprintOf FC-City-Gao CityFootprint-FC-City-Gao)
+
+(isa CityFootprint-FC-City-Gao CityFootprint)
+
+(isa FC-City-Gao FreeCiv-City)
+
+(isa STEntity-113 DefensiveEpisodeFailure)
+
+(isa STEntity-113 SpatiotemporalEvent)
+
+(isa Unit-193 FC-Unit-Chariot)
+
+(isa Unit-198 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-131143 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-3043 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-131143))
+
+(nondecreasingIn BoundedTemporalEntity-3050 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-131143))
+
+(nondecreasingIn BoundedTemporalEntity-3051 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-131143))
+
+(nonincreasingIn BoundedTemporalEntity-3048 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-131143))
+
+(nonincreasingIn BoundedTemporalEntity-3052 ((MeasurableQuantityFn citySize) FC-City-Gao))
+
+(nonincreasingIn BoundedTemporalEntity-3055 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-131143))
+
+(startsAfterStartingOf BoundedTemporalEntity-3052 BoundedTemporalEntity-2996)
+
+(startsAfterStartingOf BoundedTemporalEntity-3052 BoundedTemporalEntity-2997)
+
+(startsBeforeStartingOf BoundedTemporalEntity-3051 BoundedTemporalEntity-3055)
+
+(unitOwner Unit-193 FC-Player-VasileLupu)
+
+(unitOwner Unit-198 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-2997 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gao))

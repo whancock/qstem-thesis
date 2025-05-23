@@ -1,0 +1,248 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Bamako) (TemporalIntervalFn STEntity-48)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Bamako) (TemporalIntervalFn STEntity-48)))
+((HasImprovementFn FC-Building-CityWalls) FC-City-Bamako)
+
+(aia-DI BoundedTemporalEntity-3246 BoundedTemporalEntity-3287)
+
+(aia-MI BoundedTemporalEntity-3175 BoundedTemporalEntity-3135)
+
+(aia-MI BoundedTemporalEntity-3176 BoundedTemporalEntity-3175)
+
+(aia-MI BoundedTemporalEntity-3189 BoundedTemporalEntity-3181)
+
+(aia-MI BoundedTemporalEntity-3190 BoundedTemporalEntity-3182)
+
+(aia-MI BoundedTemporalEntity-3195 BoundedTemporalEntity-3136)
+
+(aia-MI BoundedTemporalEntity-3196 BoundedTemporalEntity-3137)
+
+(aia-MI BoundedTemporalEntity-3246 BoundedTemporalEntity-3176)
+
+(aia-MI BoundedTemporalEntity-3287 BoundedTemporalEntity-3195)
+
+(aia-MI BoundedTemporalEntity-3318 BoundedTemporalEntity-3313)
+
+(aia-MI BoundedTemporalEntity-3319 BoundedTemporalEntity-3315)
+
+(aia-MI BoundedTemporalEntity-3322 BoundedTemporalEntity-3318)
+
+(aia-MI BoundedTemporalEntity-3326 BoundedTemporalEntity-3319)
+
+(aia-MI BoundedTemporalEntity-3338 BoundedTemporalEntity-3322)
+
+(aia-MI BoundedTemporalEntity-3339 BoundedTemporalEntity-3326)
+
+(aia-MI BoundedTemporalEntity-3343 BoundedTemporalEntity-3338)
+
+(aia-MI BoundedTemporalEntity-3356 BoundedTemporalEntity-3339)
+
+(aia-MI BoundedTemporalEntity-3364 BoundedTemporalEntity-3189)
+
+(aia-MI BoundedTemporalEntity-3365 BoundedTemporalEntity-3190)
+
+(aia-MI BoundedTemporalEntity-3371 BoundedTemporalEntity-3343)
+
+(aia-MI BoundedTemporalEntity-3372 BoundedTemporalEntity-3356)
+
+(aia-MI BoundedTemporalEntity-3381 BoundedTemporalEntity-3371)
+
+(aia-MI BoundedTemporalEntity-3387 BoundedTemporalEntity-3364)
+
+(aia-MI BoundedTemporalEntity-3388 BoundedTemporalEntity-3364)
+
+(aia-MI BoundedTemporalEntity-3388 BoundedTemporalEntity-3365)
+
+(aia-MI BoundedTemporalEntity-3389 BoundedTemporalEntity-3381)
+
+(aia-MI BoundedTemporalEntity-3390 BoundedTemporalEntity-3287)
+
+(aia-MI BoundedTemporalEntity-3391 BoundedTemporalEntity-3196)
+
+(aia-MI BoundedTemporalEntity-3393 BoundedTemporalEntity-3374)
+
+(aia-MI BoundedTemporalEntity-3394 BoundedTemporalEntity-3374)
+
+(aia-MI BoundedTemporalEntity-3394 BoundedTemporalEntity-3377)
+
+(aia-MI BoundedTemporalEntity-3402 BoundedTemporalEntity-3389)
+
+(aia-MI BoundedTemporalEntity-3403 BoundedTemporalEntity-3372)
+
+(aia-MI BoundedTemporalEntity-3403 BoundedTemporalEntity-3389)
+
+(aia-OI BoundedTemporalEntity-3246 BoundedTemporalEntity-3136)
+
+(aia-OI BoundedTemporalEntity-3246 BoundedTemporalEntity-3137)
+
+(aia-OI BoundedTemporalEntity-3246 BoundedTemporalEntity-3195)
+
+(aia-OI BoundedTemporalEntity-3246 BoundedTemporalEntity-3196)
+
+(aia-OI BoundedTemporalEntity-3388 BoundedTemporalEntity-3181)
+
+(aia-OI BoundedTemporalEntity-3388 BoundedTemporalEntity-3189)
+
+(aia-OI BoundedTemporalEntity-3403 BoundedTemporalEntity-3313)
+
+(aia-OI BoundedTemporalEntity-3403 BoundedTemporalEntity-3318)
+
+(aia-OI BoundedTemporalEntity-3403 BoundedTemporalEntity-3322)
+
+(aia-OI BoundedTemporalEntity-3403 BoundedTemporalEntity-3338)
+
+(aia-OI BoundedTemporalEntity-3403 BoundedTemporalEntity-3343)
+
+(aia-OI BoundedTemporalEntity-3403 BoundedTemporalEntity-3371)
+
+(aia-OI BoundedTemporalEntity-3403 BoundedTemporalEntity-3381)
+
+(cityOwner FC-City-Bamako FC-Player-Sakura)
+
+(constantAcrossBounds STEntity-48 ((STEMQuantityFn 5) FC-City-Bamako))
+
+(constantIn BoundedTemporalEntity-3136 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))
+
+(constantIn BoundedTemporalEntity-3181 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(constantIn BoundedTemporalEntity-3246 ((MeasurableQuantityFn citySize) FC-City-Bamako))
+
+(constantIn BoundedTemporalEntity-3287 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))
+
+(constantIn BoundedTemporalEntity-3313 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(constantIn BoundedTemporalEntity-3364 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(constantIn BoundedTemporalEntity-3374 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-58221))
+
+(currentActivity Unit-439 FC-ActivityIdle)
+
+(currentActivity Unit-449 FC-ActivityFortifying)
+
+(decreasingAcrossBounds STEntity-48 ((STEMQuantityFn 2) CityFootprint-FC-City-Bamako))
+
+(decreasingAcrossBounds STEntity-48 ((STEMQuantityFn 6) UnitGroupFootprint-55551))
+
+(decreasingAcrossBounds STEntity-48 ((STEMQuantityFn 6) UnitGroupFootprint-58221))
+
+(decreasingAcrossBounds STEntity-48 ((STEMQuantityFn 7) UnitGroupFootprint-55551))
+
+(decreasingAcrossBounds STEntity-48 ((STEMQuantityFn 7) UnitGroupFootprint-58221))
+
+(decreasingIn BoundedTemporalEntity-3322 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(decreasingIn BoundedTemporalEntity-3343 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(decreasingIn BoundedTemporalEntity-3381 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(decreasingIn BoundedTemporalEntity-3387 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(decreasingIn BoundedTemporalEntity-3388 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-55551))
+
+(decreasingIn BoundedTemporalEntity-3390 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))
+
+(decreasingIn BoundedTemporalEntity-3393 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-58221))
+
+(decreasingIn BoundedTemporalEntity-3394 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-58221))
+
+(decreasingIn BoundedTemporalEntity-3402 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(decreasingIn BoundedTemporalEntity-3403 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-57474))
+
+(defenseBonus FC-City-Bamako 50)
+
+(fcObjectAt FC-City-Bamako (FreecivLocationFn 9 27))
+
+(fcObjectAt Unit-439 (FreecivLocationFn 9 27))
+
+(footprintOf FC-City-Bamako CityFootprint-FC-City-Bamako)
+
+(hasAmount FC-City-Bamako (MediumAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 2) CityFootprint-FC-City-Bamako (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 5) FC-City-Bamako (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 6) UnitGroupFootprint-55551 (FreecivUnitCountFn 4)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 6) UnitGroupFootprint-57474 (FreecivUnitCountFn 11)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 6) UnitGroupFootprint-58221 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 7) UnitGroupFootprint-55551 (FreecivTileArea 35)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 7) UnitGroupFootprint-57474 (FreecivTileArea 25)))
+
+(holdsIn (EndFn STEntity-48) ((STEMQuantityFn 7) UnitGroupFootprint-58221 (FreecivTileArea 29)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 2) CityFootprint-FC-City-Bamako (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 5) FC-City-Bamako (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 6) UnitGroupFootprint-55551 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 6) UnitGroupFootprint-57474 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 6) UnitGroupFootprint-58221 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 7) UnitGroupFootprint-55551 (FreecivTileArea 44)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 7) UnitGroupFootprint-57474 (FreecivTileArea 22)))
+
+(holdsIn (StartFn STEntity-48) ((STEMQuantityFn 7) UnitGroupFootprint-58221 (FreecivTileArea 51)))
+
+(increasingAcrossBounds STEntity-48 ((STEMQuantityFn 6) UnitGroupFootprint-57474))
+
+(increasingAcrossBounds STEntity-48 ((STEMQuantityFn 7) UnitGroupFootprint-57474))
+
+(increasingIn BoundedTemporalEntity-3189 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(increasingIn BoundedTemporalEntity-3195 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))
+
+(increasingIn BoundedTemporalEntity-3318 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(increasingIn BoundedTemporalEntity-3338 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(increasingIn BoundedTemporalEntity-3371 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(increasingIn BoundedTemporalEntity-3389 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(isa CityFootprint-FC-City-Bamako CityFootprint)
+
+(isa FC-City-Bamako FreeCiv-City)
+
+(isa STEntity-48 DefensiveEpisodeFailure)
+
+(isa STEntity-48 SpatiotemporalEvent)
+
+(isa Unit-439 FC-Unit-Cannon)
+
+(isa Unit-449 FC-Unit-Cannon)
+
+(isa UnitGroupFootprint-55551 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-57474 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-58221 UnitGroupFootprint)
+
+(someIn BoundedTemporalEntity-3196 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))
+
+(startsAtSameTime BoundedTemporalEntity-3388 BoundedTemporalEntity-3387)
+
+(startsAtSameTime BoundedTemporalEntity-3394 BoundedTemporalEntity-3393)
+
+(startsAtSameTime BoundedTemporalEntity-3403 BoundedTemporalEntity-3402)
+
+(startsBeforeStartingOf BoundedTemporalEntity-3246 BoundedTemporalEntity-3390)
+
+(startsBeforeStartingOf BoundedTemporalEntity-3246 BoundedTemporalEntity-3391)
+
+(terrainAt (FreecivLocationFn 9 27) FC-Terrain-Forest)
+
+(unitOwner Unit-439 FC-Player-VasileLupu)
+
+(unitOwner Unit-449 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3137 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))
+
+(zeroIn BoundedTemporalEntity-3391 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))

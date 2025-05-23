@@ -1,0 +1,162 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Harare) (TemporalIntervalFn STEntity-58)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Harare) (TemporalIntervalFn STEntity-58)))
+(aia-MI BoundedTemporalEntity-3590 BoundedTemporalEntity-3569)
+
+(aia-MI BoundedTemporalEntity-3645 BoundedTemporalEntity-3590)
+
+(aia-MI BoundedTemporalEntity-3702 BoundedTemporalEntity-3645)
+
+(aia-MI BoundedTemporalEntity-3734 BoundedTemporalEntity-3671)
+
+(aia-MI BoundedTemporalEntity-3742 BoundedTemporalEntity-3702)
+
+(aia-MI BoundedTemporalEntity-3818 BoundedTemporalEntity-3812)
+
+(aia-MI BoundedTemporalEntity-3820 BoundedTemporalEntity-3815)
+
+(aia-MI BoundedTemporalEntity-3821 BoundedTemporalEntity-3734)
+
+(aia-MI BoundedTemporalEntity-3823 BoundedTemporalEntity-3818)
+
+(aia-MI BoundedTemporalEntity-3825 BoundedTemporalEntity-3823)
+
+(aia-MI BoundedTemporalEntity-3828 BoundedTemporalEntity-3825)
+
+(aia-MI BoundedTemporalEntity-3829 BoundedTemporalEntity-3820)
+
+(aia-MI BoundedTemporalEntity-3832 BoundedTemporalEntity-3742)
+
+(aia-MI BoundedTemporalEntity-3834 BoundedTemporalEntity-3828)
+
+(aia-MI BoundedTemporalEntity-3836 BoundedTemporalEntity-3828)
+
+(aia-MI BoundedTemporalEntity-3836 BoundedTemporalEntity-3829)
+
+(aia-OI BoundedTemporalEntity-3836 BoundedTemporalEntity-3812)
+
+(aia-OI BoundedTemporalEntity-3836 BoundedTemporalEntity-3818)
+
+(aia-OI BoundedTemporalEntity-3836 BoundedTemporalEntity-3823)
+
+(aia-OI BoundedTemporalEntity-3836 BoundedTemporalEntity-3825)
+
+(cityOwner FC-City-Harare FC-Player-MalandelaKaLuzumana)
+
+(constantAcrossBounds STEntity-58 ((STEMQuantityFn 2) CityFootprint-FC-City-Harare))
+
+(constantAcrossBounds STEntity-58 ((STEMQuantityFn 6) UnitGroupFootprint-61295))
+
+(constantAcrossBounds STEntity-58 ((STEMQuantityFn 7) UnitGroupFootprint-61295))
+
+(constantAcrossBounds STEntity-58 ((STEMQuantityFn 5) FC-City-Harare))
+
+(constantIn BoundedTemporalEntity-3570 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Harare))
+
+(constantIn BoundedTemporalEntity-3670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-61295))
+
+(constantIn BoundedTemporalEntity-3812 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-63140))
+
+(constantIn BoundedTemporalEntity-3821 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-61295))
+
+(constantIn BoundedTemporalEntity-3832 ((MeasurableQuantityFn citySize) FC-City-Harare))
+
+(currentActivity Unit-204 FC-ActivityIdle)
+
+(currentActivity Unit-332 FC-ActivityIdle)
+
+(decreasingAcrossBounds STEntity-58 ((STEMQuantityFn 6) UnitGroupFootprint-61376))
+
+(decreasingAcrossBounds STEntity-58 ((STEMQuantityFn 7) UnitGroupFootprint-61376))
+
+(decreasingAcrossBounds STEntity-58 ((STEMQuantityFn 7) UnitGroupFootprint-63140))
+
+(decreasingIn BoundedTemporalEntity-3823 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-63140))
+
+(decreasingIn BoundedTemporalEntity-3828 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-63140))
+
+(defenseBonus FC-City-Harare 0)
+
+(fcObjectAt FC-City-Harare (FreecivLocationFn 35 5))
+
+(fcObjectAt Unit-204 (FreecivLocationFn 35 5))
+
+(footprintOf FC-City-Harare CityFootprint-FC-City-Harare)
+
+(hasAmount FC-City-Harare (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 2) CityFootprint-FC-City-Harare (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 5) FC-City-Harare (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 6) UnitGroupFootprint-61295 (FreecivUnitCountFn 2)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 6) UnitGroupFootprint-61376 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 6) UnitGroupFootprint-63140 (FreecivUnitCountFn 8)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 7) UnitGroupFootprint-61295 (FreecivTileArea 8)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 7) UnitGroupFootprint-61376 (FreecivTileArea 8)))
+
+(holdsIn (EndFn STEntity-58) ((STEMQuantityFn 7) UnitGroupFootprint-63140 (FreecivTileArea 66)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 2) CityFootprint-FC-City-Harare (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 5) FC-City-Harare (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 6) UnitGroupFootprint-61295 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 6) UnitGroupFootprint-61376 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 6) UnitGroupFootprint-63140 (FreecivUnitCountFn 7)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 7) UnitGroupFootprint-61295 (FreecivTileArea 8)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 7) UnitGroupFootprint-61376 (FreecivTileArea 10)))
+
+(holdsIn (StartFn STEntity-58) ((STEMQuantityFn 7) UnitGroupFootprint-63140 (FreecivTileArea 80)))
+
+(increasingAcrossBounds STEntity-58 ((STEMQuantityFn 6) UnitGroupFootprint-63140))
+
+(increasingIn BoundedTemporalEntity-3818 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-63140))
+
+(increasingIn BoundedTemporalEntity-3825 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-63140))
+
+(increasingIn BoundedTemporalEntity-3834 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-63140))
+
+(increasingIn BoundedTemporalEntity-3836 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-63140))
+
+(isa CityFootprint-FC-City-Harare CityFootprint)
+
+(isa FC-City-Harare FreeCiv-City)
+
+(isa STEntity-58 DefensiveEpisodeFailure)
+
+(isa STEntity-58 SpatiotemporalEvent)
+
+(isa Unit-204 FC-Unit-Catapult)
+
+(isa Unit-332 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-61295 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-61376 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-63140 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-3821 BoundedTemporalEntity-3670)
+
+(startsAfterStartingOf BoundedTemporalEntity-3832 BoundedTemporalEntity-3570)
+
+(startsAfterStartingOf BoundedTemporalEntity-3832 BoundedTemporalEntity-3571)
+
+(startsAtSameTime BoundedTemporalEntity-3836 BoundedTemporalEntity-3834)
+
+(terrainAt (FreecivLocationFn 35 5) FC-Terrain-Plains)
+
+(unitOwner Unit-204 FC-Player-StefanMilutin)
+
+(zeroAcrossBounds STEntity-58 ((STEMQuantityFn 2) CityFootprint-FC-City-Harare))
+
+(zeroIn BoundedTemporalEntity-3571 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Harare))

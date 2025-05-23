@@ -1,0 +1,104 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Trujillo) (TemporalIntervalFn STEntity-606)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Trujillo) (TemporalIntervalFn STEntity-606)))
+((Area (AtFn (EndFn STEntity-606) STEntity-606)) (FreecivTileArea 102))
+
+((Area (AtFn (EndFn STEntity-606) STEntity-606)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-606) STEntity-606)) (FreecivTileArea 102))
+
+((Area (AtFn (StartFn STEntity-606) STEntity-606)) (FreecivTileArea 8))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 6))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (StartFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-606) STEntity-606)) (FreecivUnitCountFn 6))
+
+((citySize (AtFn (EndFn STEntity-606) STEntity-606)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-606) STEntity-606)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-12167 BoundedTemporalEntity-12090)
+
+(aia-MI BoundedTemporalEntity-12171 BoundedTemporalEntity-12163)
+
+(aia-MI BoundedTemporalEntity-12172 BoundedTemporalEntity-12165)
+
+(aia-MI BoundedTemporalEntity-12180 BoundedTemporalEntity-12171)
+
+(aia-MI BoundedTemporalEntity-12181 BoundedTemporalEntity-12172)
+
+(aia-MI BoundedTemporalEntity-12188 BoundedTemporalEntity-12180)
+
+(aia-MI BoundedTemporalEntity-12189 BoundedTemporalEntity-12180)
+
+(aia-MI BoundedTemporalEntity-12189 BoundedTemporalEntity-12181)
+
+(aia-OI BoundedTemporalEntity-12189 BoundedTemporalEntity-12163)
+
+(aia-OI BoundedTemporalEntity-12189 BoundedTemporalEntity-12171)
+
+(cityOwner FC-City-Trujillo FC-Player-Sukarno)
+
+(constantIn BoundedTemporalEntity-12091 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Trujillo))
+
+(constantIn BoundedTemporalEntity-12118 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5360045))
+
+(constantIn BoundedTemporalEntity-12119 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5360045))
+
+(constantIn BoundedTemporalEntity-12163 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(currentActivity Unit-228 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Trujillo (FreecivLocationFn 18 12))
+
+(fcObjectAt Unit-228 (FreecivLocationFn 18 12))
+
+(footprintOf FC-City-Trujillo CityFootprint-FC-City-Trujillo)
+
+(isa CityFootprint-FC-City-Trujillo CityFootprint)
+
+(isa FC-City-Trujillo FreeCiv-City)
+
+(isa STEntity-606 DefensiveEpisodeFailure)
+
+(isa STEntity-606 SpatiotemporalEvent)
+
+(isa Unit-228 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-5360045 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-5412934 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12167 ((MeasurableQuantityFn citySize) FC-City-Trujillo))
+
+(nondecreasingIn BoundedTemporalEntity-12171 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12188 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12189 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5412934))
+
+(nonincreasingIn BoundedTemporalEntity-12180 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(startsAfterStartingOf BoundedTemporalEntity-12167 BoundedTemporalEntity-12091)
+
+(startsAfterStartingOf BoundedTemporalEntity-12167 BoundedTemporalEntity-12092)
+
+(startsAtSameTime BoundedTemporalEntity-12119 BoundedTemporalEntity-12118)
+
+(startsAtSameTime BoundedTemporalEntity-12189 BoundedTemporalEntity-12188)
+
+(unitOwner Unit-228 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-12092 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Trujillo))

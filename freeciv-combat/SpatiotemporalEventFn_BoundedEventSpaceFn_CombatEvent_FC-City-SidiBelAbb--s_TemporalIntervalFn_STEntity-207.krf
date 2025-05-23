@@ -1,0 +1,134 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SidiBelAbbès) (TemporalIntervalFn STEntity-207)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SidiBelAbbès) (TemporalIntervalFn STEntity-207)))
+((HasImprovementFn FC-Building-Palace) FC-City-SidiBelAbbès)
+
+(aia-MI BoundedTemporalEntity-11122 BoundedTemporalEntity-11110)
+
+(aia-MI BoundedTemporalEntity-11135 BoundedTemporalEntity-11122)
+
+(aia-MI BoundedTemporalEntity-11150 BoundedTemporalEntity-11135)
+
+(aia-MI BoundedTemporalEntity-11218 BoundedTemporalEntity-11210)
+
+(aia-MI BoundedTemporalEntity-11219 BoundedTemporalEntity-11212)
+
+(aia-MI BoundedTemporalEntity-11223 BoundedTemporalEntity-11218)
+
+(aia-MI BoundedTemporalEntity-11224 BoundedTemporalEntity-11219)
+
+(aia-MI BoundedTemporalEntity-11226 BoundedTemporalEntity-11223)
+
+(aia-MI BoundedTemporalEntity-11227 BoundedTemporalEntity-11224)
+
+(aia-MI BoundedTemporalEntity-11228 BoundedTemporalEntity-11150)
+
+(aia-MI BoundedTemporalEntity-11231 BoundedTemporalEntity-11226)
+
+(aia-MI BoundedTemporalEntity-11232 BoundedTemporalEntity-11227)
+
+(aia-MI BoundedTemporalEntity-11234 BoundedTemporalEntity-11231)
+
+(aia-MI BoundedTemporalEntity-11238 BoundedTemporalEntity-11232)
+
+(aia-MI BoundedTemporalEntity-11241 BoundedTemporalEntity-11234)
+
+(aia-MI BoundedTemporalEntity-11242 BoundedTemporalEntity-11238)
+
+(aia-MI BoundedTemporalEntity-11244 BoundedTemporalEntity-11241)
+
+(aia-MI BoundedTemporalEntity-11246 BoundedTemporalEntity-11242)
+
+(aia-OI BoundedTemporalEntity-11246 BoundedTemporalEntity-11210)
+
+(aia-OI BoundedTemporalEntity-11246 BoundedTemporalEntity-11218)
+
+(aia-OI BoundedTemporalEntity-11246 BoundedTemporalEntity-11223)
+
+(aia-OI BoundedTemporalEntity-11246 BoundedTemporalEntity-11226)
+
+(aia-OI BoundedTemporalEntity-11246 BoundedTemporalEntity-11231)
+
+(aia-OI BoundedTemporalEntity-11246 BoundedTemporalEntity-11234)
+
+(aia-OI BoundedTemporalEntity-11246 BoundedTemporalEntity-11241)
+
+(cityOwner FC-City-SidiBelAbbès FC-Player-AoifeMacMurrough)
+
+(constantAcrossBounds STEntity-207 ((STEMQuantityFn 6) UnitGroupFootprint-176985))
+
+(constantAcrossBounds STEntity-207 ((STEMQuantityFn 7) UnitGroupFootprint-176985))
+
+(constantIn BoundedTemporalEntity-11111 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SidiBelAbbès))
+
+(constantIn BoundedTemporalEntity-11210 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(constantIn BoundedTemporalEntity-11228 ((MeasurableQuantityFn citySize) FC-City-SidiBelAbbès))
+
+(currentActivity Unit-252 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-11223 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(decreasingIn BoundedTemporalEntity-11231 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(decreasingIn BoundedTemporalEntity-11241 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(defenseBonus FC-City-SidiBelAbbès 100)
+
+(fcObjectAt FC-City-SidiBelAbbès (FreecivLocationFn 43 30))
+
+(fcObjectAt Unit-252 (FreecivLocationFn 43 30))
+
+(footprintOf FC-City-SidiBelAbbès CityFootprint-FC-City-SidiBelAbbès)
+
+(hasAmount FC-City-SidiBelAbbès (HighAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-207) ((STEMQuantityFn 2) CityFootprint-FC-City-SidiBelAbbès (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-207) ((STEMQuantityFn 5) FC-City-SidiBelAbbès (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-207) ((STEMQuantityFn 6) UnitGroupFootprint-176985 (FreecivUnitCountFn 9)))
+
+(holdsIn (EndFn STEntity-207) ((STEMQuantityFn 7) UnitGroupFootprint-176985 (FreecivTileArea 67)))
+
+(holdsIn (StartFn STEntity-207) ((STEMQuantityFn 2) CityFootprint-FC-City-SidiBelAbbès (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-207) ((STEMQuantityFn 5) FC-City-SidiBelAbbès (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-207) ((STEMQuantityFn 6) UnitGroupFootprint-176985 (FreecivUnitCountFn 9)))
+
+(holdsIn (StartFn STEntity-207) ((STEMQuantityFn 7) UnitGroupFootprint-176985 (FreecivTileArea 67)))
+
+(increasingIn BoundedTemporalEntity-11218 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11226 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11234 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11244 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11246 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-176985))
+
+(isa CityFootprint-FC-City-SidiBelAbbès CityFootprint)
+
+(isa FC-City-SidiBelAbbès FreeCiv-City)
+
+(isa STEntity-207 DefensiveEpisodeFailure)
+
+(isa STEntity-207 SpatiotemporalEvent)
+
+(isa Unit-252 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-176985 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-11228 BoundedTemporalEntity-11111)
+
+(startsAfterStartingOf BoundedTemporalEntity-11228 BoundedTemporalEntity-11112)
+
+(startsAfterStartingOf BoundedTemporalEntity-11246 BoundedTemporalEntity-11244)
+
+(terrainAt (FreecivLocationFn 43 30) FC-Terrain-Hills)
+
+(unitOwner Unit-252 FC-Player-AoifeMacMurrough)
+
+(zeroIn BoundedTemporalEntity-11112 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SidiBelAbbès))

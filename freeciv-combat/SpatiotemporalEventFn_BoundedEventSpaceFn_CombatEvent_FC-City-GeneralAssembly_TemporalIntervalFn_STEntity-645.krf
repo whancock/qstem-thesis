@@ -1,0 +1,102 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-GeneralAssembly) (TemporalIntervalFn STEntity-645)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-GeneralAssembly) (TemporalIntervalFn STEntity-645)))
+((Area (AtFn (EndFn STEntity-645) STEntity-645)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-645) STEntity-645)) (FreecivTileArea 8))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-645) STEntity-645)) (FreecivUnitCountFn 0))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-645) STEntity-645)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-645) STEntity-645)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-645) STEntity-645)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-645) STEntity-645)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-645) STEntity-645)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-645) STEntity-645)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-645) STEntity-645)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-13511 BoundedTemporalEntity-13532)
+
+(aia-MI BoundedTemporalEntity-13530 BoundedTemporalEntity-13512)
+
+(aia-MI BoundedTemporalEntity-13531 BoundedTemporalEntity-13513)
+
+(aia-MI BoundedTemporalEntity-13532 BoundedTemporalEntity-13514)
+
+(aia-MI BoundedTemporalEntity-13533 BoundedTemporalEntity-13515)
+
+(aia-SI BoundedTemporalEntity-13511 BoundedTemporalEntity-13512)
+
+(aia-SI BoundedTemporalEntity-13511 BoundedTemporalEntity-13513)
+
+(aia-SI BoundedTemporalEntity-13511 BoundedTemporalEntity-13514)
+
+(aia-SI BoundedTemporalEntity-13511 BoundedTemporalEntity-13515)
+
+(cityOwner FC-City-GeneralAssembly FC-Player-TrygveLie)
+
+(constantIn BoundedTemporalEntity-13511 ((MeasurableQuantityFn citySize) FC-City-GeneralAssembly))
+
+(constantIn BoundedTemporalEntity-13512 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GeneralAssembly))
+
+(constantIn BoundedTemporalEntity-13515 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-GeneralAssembly))
+
+(constantIn BoundedTemporalEntity-13526 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1))
+
+(constantIn BoundedTemporalEntity-13527 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3))
+
+(constantIn BoundedTemporalEntity-13528 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1))
+
+(constantIn BoundedTemporalEntity-13529 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3))
+
+(currentActivity Unit-131 FC-ActivityIdle)
+
+(fcObjectAt FC-City-GeneralAssembly (FreecivLocationFn 12 17))
+
+(fcObjectAt Unit-129 (FreecivLocationFn 12 17))
+
+(fcObjectAt Unit-130 (FreecivLocationFn 12 17))
+
+(footprintOf FC-City-GeneralAssembly CityFootprint-FC-City-GeneralAssembly)
+
+(isa CityFootprint-FC-City-GeneralAssembly CityFootprint)
+
+(isa FC-City-GeneralAssembly FreeCiv-City)
+
+(isa STEntity-645 DefensiveEpisodeSuccess)
+
+(isa STEntity-645 SpatiotemporalEvent)
+
+(isa UnitGroupFootprint-1 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-13530 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GeneralAssembly))
+
+(nondecreasingIn BoundedTemporalEntity-13533 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-GeneralAssembly))
+
+(someIn BoundedTemporalEntity-13531 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GeneralAssembly))
+
+(someIn BoundedTemporalEntity-13532 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-GeneralAssembly))
+
+(startsAtSameTime BoundedTemporalEntity-13528 BoundedTemporalEntity-13526)
+
+(startsAtSameTime BoundedTemporalEntity-13529 BoundedTemporalEntity-13527)
+
+(startsBeforeStartingOf BoundedTemporalEntity-13511 BoundedTemporalEntity-13530)
+
+(startsBeforeStartingOf BoundedTemporalEntity-13511 BoundedTemporalEntity-13531)
+
+(startsBeforeStartingOf BoundedTemporalEntity-13511 BoundedTemporalEntity-13533)
+
+(unitOwner Unit-131 FC-Player-xorxes)
+
+(zeroIn BoundedTemporalEntity-13513 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GeneralAssembly))
+
+(zeroIn BoundedTemporalEntity-13514 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-GeneralAssembly))

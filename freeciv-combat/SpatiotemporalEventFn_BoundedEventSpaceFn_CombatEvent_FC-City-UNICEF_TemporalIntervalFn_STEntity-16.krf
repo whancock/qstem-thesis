@@ -1,0 +1,68 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNICEF) (TemporalIntervalFn STEntity-16)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNICEF) (TemporalIntervalFn STEntity-16)))
+(cityOwner FC-City-UNICEF FC-Player-TrygveLie)
+
+(constantAcrossBounds STEntity-16 ((STEMQuantityFn 6) UnitGroupFootprint-4416))
+
+(constantAcrossBounds STEntity-16 ((STEMQuantityFn 7) UnitGroupFootprint-4416))
+
+(constantIn BoundedTemporalEntity-313 ((MeasurableQuantityFn citySize) FC-City-UNICEF))
+
+(constantIn BoundedTemporalEntity-314 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNICEF))
+
+(constantIn BoundedTemporalEntity-339 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4416))
+
+(constantIn BoundedTemporalEntity-340 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4416))
+
+(currentActivity Unit-217 FC-ActivityIdle)
+
+(defenseBonus FC-City-UNICEF 0)
+
+(fcObjectAt FC-City-UNICEF (FreecivLocationFn 5 30))
+
+(fcObjectAt Unit-217 (FreecivLocationFn 5 30))
+
+(footprintOf FC-City-UNICEF CityFootprint-FC-City-UNICEF)
+
+(hasAmount FC-City-UNICEF (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-16) ((STEMQuantityFn 2) CityFootprint-FC-City-UNICEF (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-16) ((STEMQuantityFn 5) FC-City-UNICEF (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-16) ((STEMQuantityFn 6) UnitGroupFootprint-4416 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-16) ((STEMQuantityFn 7) UnitGroupFootprint-4416 (FreecivTileArea 8)))
+
+(holdsIn (StartFn STEntity-16) ((STEMQuantityFn 2) CityFootprint-FC-City-UNICEF (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-16) ((STEMQuantityFn 5) FC-City-UNICEF (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-16) ((STEMQuantityFn 6) UnitGroupFootprint-4416 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-16) ((STEMQuantityFn 7) UnitGroupFootprint-4416 (FreecivTileArea 8)))
+
+(isa CityFootprint-FC-City-UNICEF CityFootprint)
+
+(isa FC-City-UNICEF FreeCiv-City)
+
+(isa STEntity-16 DefensiveEpisodeFailure)
+
+(isa STEntity-16 SpatiotemporalEvent)
+
+(isa Unit-217 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-4416 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-313 BoundedTemporalEntity-314)
+
+(startsAtSameTime BoundedTemporalEntity-313 BoundedTemporalEntity-315)
+
+(startsAtSameTime BoundedTemporalEntity-340 BoundedTemporalEntity-339)
+
+(terrainAt (FreecivLocationFn 5 30) FC-Terrain-Grassland)
+
+(unitOwner Unit-217 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-315 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNICEF))

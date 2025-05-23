@@ -1,0 +1,208 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Portsmouth) (TemporalIntervalFn STEntity-515)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Portsmouth) (TemporalIntervalFn STEntity-515)))
+((Area (AtFn (EndFn STEntity-515) STEntity-515)) (FreecivTileArea 54))
+
+((Area (AtFn (EndFn STEntity-515) STEntity-515)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-515) STEntity-515)) (FreecivTileArea 24))
+
+((Area (AtFn (StartFn STEntity-515) STEntity-515)) (FreecivTileArea 8))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 12))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 12))
+
+((Defenders (AtFn (StartFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-515) STEntity-515)) (FreecivUnitCountFn 4))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Portsmouth)
+
+((HasImprovementFn FC-Building-CityWalls) FC-City-Portsmouth)
+
+((HasImprovementFn FC-Building-Palace) FC-City-Portsmouth)
+
+((citySize (AtFn (EndFn STEntity-515) STEntity-515)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-515) STEntity-515)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-10147 BoundedTemporalEntity-10138)
+
+(aia-MI BoundedTemporalEntity-10149 BoundedTemporalEntity-10142)
+
+(aia-MI BoundedTemporalEntity-10151 BoundedTemporalEntity-9911)
+
+(aia-MI BoundedTemporalEntity-10157 BoundedTemporalEntity-10147)
+
+(aia-MI BoundedTemporalEntity-10158 BoundedTemporalEntity-10149)
+
+(aia-MI BoundedTemporalEntity-10182 BoundedTemporalEntity-10157)
+
+(aia-MI BoundedTemporalEntity-10183 BoundedTemporalEntity-10158)
+
+(aia-MI BoundedTemporalEntity-10185 BoundedTemporalEntity-9701)
+
+(aia-MI BoundedTemporalEntity-10186 BoundedTemporalEntity-10182)
+
+(aia-MI BoundedTemporalEntity-10187 BoundedTemporalEntity-10183)
+
+(aia-MI BoundedTemporalEntity-10195 BoundedTemporalEntity-10186)
+
+(aia-MI BoundedTemporalEntity-10196 BoundedTemporalEntity-10186)
+
+(aia-MI BoundedTemporalEntity-10196 BoundedTemporalEntity-10187)
+
+(aia-MI BoundedTemporalEntity-9611 BoundedTemporalEntity-9587)
+
+(aia-MI BoundedTemporalEntity-9612 BoundedTemporalEntity-9611)
+
+(aia-MI BoundedTemporalEntity-9622 BoundedTemporalEntity-9612)
+
+(aia-MI BoundedTemporalEntity-9623 BoundedTemporalEntity-9622)
+
+(aia-MI BoundedTemporalEntity-9643 BoundedTemporalEntity-9623)
+
+(aia-MI BoundedTemporalEntity-9645 BoundedTemporalEntity-9643)
+
+(aia-MI BoundedTemporalEntity-9685 BoundedTemporalEntity-9645)
+
+(aia-MI BoundedTemporalEntity-9691 BoundedTemporalEntity-9685)
+
+(aia-MI BoundedTemporalEntity-9700 BoundedTemporalEntity-9589)
+
+(aia-MI BoundedTemporalEntity-9701 BoundedTemporalEntity-9590)
+
+(aia-MI BoundedTemporalEntity-9775 BoundedTemporalEntity-9691)
+
+(aia-MI BoundedTemporalEntity-9781 BoundedTemporalEntity-9700)
+
+(aia-MI BoundedTemporalEntity-9792 BoundedTemporalEntity-9775)
+
+(aia-MI BoundedTemporalEntity-9811 BoundedTemporalEntity-9781)
+
+(aia-MI BoundedTemporalEntity-9850 BoundedTemporalEntity-9792)
+
+(aia-MI BoundedTemporalEntity-9868 BoundedTemporalEntity-9850)
+
+(aia-MI BoundedTemporalEntity-9875 BoundedTemporalEntity-9868)
+
+(aia-MI BoundedTemporalEntity-9911 BoundedTemporalEntity-9811)
+
+(aia-MI BoundedTemporalEntity-9988 BoundedTemporalEntity-9875)
+
+(aia-OI BoundedTemporalEntity-10196 BoundedTemporalEntity-10138)
+
+(aia-OI BoundedTemporalEntity-10196 BoundedTemporalEntity-10147)
+
+(aia-OI BoundedTemporalEntity-10196 BoundedTemporalEntity-10157)
+
+(aia-OI BoundedTemporalEntity-10196 BoundedTemporalEntity-10182)
+
+(aia-OI BoundedTemporalEntity-9988 BoundedTemporalEntity-9589)
+
+(aia-OI BoundedTemporalEntity-9988 BoundedTemporalEntity-9590)
+
+(aia-OI BoundedTemporalEntity-9988 BoundedTemporalEntity-9700)
+
+(aia-OI BoundedTemporalEntity-9988 BoundedTemporalEntity-9701)
+
+(aia-OI BoundedTemporalEntity-9988 BoundedTemporalEntity-9781)
+
+(aia-OI BoundedTemporalEntity-9988 BoundedTemporalEntity-9811)
+
+(aia-OI BoundedTemporalEntity-9988 BoundedTemporalEntity-9911)
+
+(cityOwner FC-City-Portsmouth FC-Player-PierreCharles)
+
+(constantIn BoundedTemporalEntity-10138 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3502051))
+
+(constantIn BoundedTemporalEntity-9589 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(constantIn BoundedTemporalEntity-9781 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(constantIn BoundedTemporalEntity-9911 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(constantIn BoundedTemporalEntity-9988 ((MeasurableQuantityFn citySize) FC-City-Portsmouth))
+
+(currentActivity Unit-423 FC-ActivityFortifying)
+
+(currentActivity Unit-499 FC-ActivityFortifying)
+
+(currentActivity Unit-525 FC-ActivityIdle)
+
+(currentActivity Unit-526 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Portsmouth (FreecivLocationFn 9 31))
+
+(fcObjectAt Unit-525 (FreecivLocationFn 9 31))
+
+(footprintOf FC-City-Portsmouth CityFootprint-FC-City-Portsmouth)
+
+(isa CityFootprint-FC-City-Portsmouth CityFootprint)
+
+(isa FC-City-Portsmouth FreeCiv-City)
+
+(isa STEntity-515 DefensiveEpisodeFailure)
+
+(isa STEntity-515 SpatiotemporalEvent)
+
+(isa Unit-423 FC-Unit-Musketeers)
+
+(isa Unit-499 FC-Unit-Cannon)
+
+(isa Unit-525 FC-Unit-Cannon)
+
+(isa Unit-526 FC-Unit-Cannon)
+
+(isa UnitGroupFootprint-3276993 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3501982 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3502051 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10157 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3502051))
+
+(nondecreasingIn BoundedTemporalEntity-10186 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3502051))
+
+(nondecreasingIn BoundedTemporalEntity-9700 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(nondecreasingIn BoundedTemporalEntity-9811 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(nonincreasingIn BoundedTemporalEntity-10147 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3502051))
+
+(nonincreasingIn BoundedTemporalEntity-10151 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(nonincreasingIn BoundedTemporalEntity-10182 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3502051))
+
+(nonincreasingIn BoundedTemporalEntity-10195 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3502051))
+
+(nonincreasingIn BoundedTemporalEntity-10196 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3502051))
+
+(someIn BoundedTemporalEntity-9701 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(startsAtSameTime BoundedTemporalEntity-10196 BoundedTemporalEntity-10195)
+
+(startsBeforeStartingOf BoundedTemporalEntity-9988 BoundedTemporalEntity-10151)
+
+(startsBeforeStartingOf BoundedTemporalEntity-9988 BoundedTemporalEntity-10185)
+
+(unitOwner Unit-423 FC-Player-Mansur)
+
+(unitOwner Unit-499 FC-Player-Mansur)
+
+(unitOwner Unit-525 FC-Player-Mansur)
+
+(unitOwner Unit-526 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-10185 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(zeroIn BoundedTemporalEntity-9590 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))

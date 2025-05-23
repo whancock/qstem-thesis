@@ -1,0 +1,366 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kangar) (TemporalIntervalFn STEntity-257)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kangar) (TemporalIntervalFn STEntity-257)))
+((HasImprovementFn FC-Building-Barracks) FC-City-Kangar)
+
+(aia-MI BoundedTemporalEntity-12627 BoundedTemporalEntity-12621)
+
+(aia-MI BoundedTemporalEntity-12628 BoundedTemporalEntity-12622)
+
+(aia-MI BoundedTemporalEntity-12631 BoundedTemporalEntity-12627)
+
+(aia-MI BoundedTemporalEntity-12632 BoundedTemporalEntity-12631)
+
+(aia-MI BoundedTemporalEntity-12635 BoundedTemporalEntity-12632)
+
+(aia-MI BoundedTemporalEntity-12643 BoundedTemporalEntity-12635)
+
+(aia-MI BoundedTemporalEntity-12653 BoundedTemporalEntity-12643)
+
+(aia-MI BoundedTemporalEntity-12660 BoundedTemporalEntity-12653)
+
+(aia-MI BoundedTemporalEntity-12661 BoundedTemporalEntity-12628)
+
+(aia-MI BoundedTemporalEntity-12670 BoundedTemporalEntity-12660)
+
+(aia-MI BoundedTemporalEntity-12671 BoundedTemporalEntity-12661)
+
+(aia-MI BoundedTemporalEntity-12680 BoundedTemporalEntity-12670)
+
+(aia-MI BoundedTemporalEntity-12681 BoundedTemporalEntity-12671)
+
+(aia-MI BoundedTemporalEntity-12705 BoundedTemporalEntity-12680)
+
+(aia-MI BoundedTemporalEntity-12706 BoundedTemporalEntity-12681)
+
+(aia-MI BoundedTemporalEntity-12731 BoundedTemporalEntity-12705)
+
+(aia-MI BoundedTemporalEntity-12734 BoundedTemporalEntity-12706)
+
+(aia-MI BoundedTemporalEntity-12738 BoundedTemporalEntity-12731)
+
+(aia-MI BoundedTemporalEntity-12739 BoundedTemporalEntity-12734)
+
+(aia-MI BoundedTemporalEntity-12746 BoundedTemporalEntity-12738)
+
+(aia-MI BoundedTemporalEntity-12747 BoundedTemporalEntity-12739)
+
+(aia-MI BoundedTemporalEntity-12759 BoundedTemporalEntity-12746)
+
+(aia-MI BoundedTemporalEntity-12760 BoundedTemporalEntity-12747)
+
+(aia-MI BoundedTemporalEntity-12774 BoundedTemporalEntity-12759)
+
+(aia-MI BoundedTemporalEntity-12785 BoundedTemporalEntity-12774)
+
+(aia-MI BoundedTemporalEntity-12786 BoundedTemporalEntity-12760)
+
+(aia-MI BoundedTemporalEntity-12793 BoundedTemporalEntity-12785)
+
+(aia-MI BoundedTemporalEntity-12803 BoundedTemporalEntity-12692)
+
+(aia-MI BoundedTemporalEntity-12814 BoundedTemporalEntity-12786)
+
+(aia-MI BoundedTemporalEntity-12818 BoundedTemporalEntity-12793)
+
+(aia-MI BoundedTemporalEntity-12855 BoundedTemporalEntity-12818)
+
+(aia-MI BoundedTemporalEntity-12871 BoundedTemporalEntity-12855)
+
+(aia-MI BoundedTemporalEntity-12872 BoundedTemporalEntity-12814)
+
+(aia-MI BoundedTemporalEntity-12887 BoundedTemporalEntity-12872)
+
+(aia-MI BoundedTemporalEntity-12899 BoundedTemporalEntity-12887)
+
+(aia-MI BoundedTemporalEntity-12915 BoundedTemporalEntity-12871)
+
+(aia-MI BoundedTemporalEntity-12928 BoundedTemporalEntity-12915)
+
+(aia-MI BoundedTemporalEntity-12929 BoundedTemporalEntity-12899)
+
+(aia-MI BoundedTemporalEntity-12941 BoundedTemporalEntity-12928)
+
+(aia-MI BoundedTemporalEntity-12951 BoundedTemporalEntity-12941)
+
+(aia-MI BoundedTemporalEntity-12954 BoundedTemporalEntity-12803)
+
+(aia-MI BoundedTemporalEntity-12963 BoundedTemporalEntity-12951)
+
+(aia-MI BoundedTemporalEntity-12964 BoundedTemporalEntity-12929)
+
+(aia-MI BoundedTemporalEntity-12971 BoundedTemporalEntity-12963)
+
+(aia-MI BoundedTemporalEntity-12972 BoundedTemporalEntity-12964)
+
+(aia-MI BoundedTemporalEntity-12980 BoundedTemporalEntity-12971)
+
+(aia-MI BoundedTemporalEntity-12981 BoundedTemporalEntity-12972)
+
+(aia-MI BoundedTemporalEntity-12984 BoundedTemporalEntity-12980)
+
+(aia-MI BoundedTemporalEntity-12993 BoundedTemporalEntity-12981)
+
+(aia-MI BoundedTemporalEntity-12999 BoundedTemporalEntity-12984)
+
+(aia-MI BoundedTemporalEntity-13000 BoundedTemporalEntity-12993)
+
+(aia-MI BoundedTemporalEntity-13002 BoundedTemporalEntity-12999)
+
+(aia-MI BoundedTemporalEntity-13012 BoundedTemporalEntity-13000)
+
+(aia-MI BoundedTemporalEntity-13027 BoundedTemporalEntity-13002)
+
+(aia-MI BoundedTemporalEntity-13028 BoundedTemporalEntity-13012)
+
+(aia-MI BoundedTemporalEntity-13033 BoundedTemporalEntity-13027)
+
+(aia-MI BoundedTemporalEntity-13034 BoundedTemporalEntity-13028)
+
+(aia-MI BoundedTemporalEntity-13047 BoundedTemporalEntity-13033)
+
+(aia-MI BoundedTemporalEntity-13048 BoundedTemporalEntity-13034)
+
+(aia-MI BoundedTemporalEntity-13066 BoundedTemporalEntity-13047)
+
+(aia-MI BoundedTemporalEntity-13068 BoundedTemporalEntity-13015)
+
+(aia-MI BoundedTemporalEntity-13071 BoundedTemporalEntity-13048)
+
+(aia-MI BoundedTemporalEntity-13100 BoundedTemporalEntity-13066)
+
+(aia-MI BoundedTemporalEntity-13101 BoundedTemporalEntity-13071)
+
+(aia-MI BoundedTemporalEntity-13137 BoundedTemporalEntity-13100)
+
+(aia-MI BoundedTemporalEntity-13138 BoundedTemporalEntity-13100)
+
+(aia-MI BoundedTemporalEntity-13138 BoundedTemporalEntity-13101)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12621)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12627)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12631)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12632)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12635)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12643)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12653)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12660)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12670)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12680)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12705)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12731)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12738)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12746)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12759)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12774)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12785)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12793)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12818)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12855)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12871)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12915)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12928)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12941)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12951)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12963)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12971)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12980)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12984)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-12999)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-13002)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-13027)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-13033)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-13047)
+
+(aia-OI BoundedTemporalEntity-13138 BoundedTemporalEntity-13066)
+
+(cityOwner FC-City-Kangar FC-Player-DavitIV)
+
+(constantAcrossBounds STEntity-257 ((STEMQuantityFn 6) UnitGroupFootprint-205010))
+
+(constantAcrossBounds STEntity-257 ((STEMQuantityFn 6) UnitGroupFootprint-210040))
+
+(constantAcrossBounds STEntity-257 ((STEMQuantityFn 7) UnitGroupFootprint-205010))
+
+(constantAcrossBounds STEntity-257 ((STEMQuantityFn 7) UnitGroupFootprint-210040))
+
+(constantIn BoundedTemporalEntity-12621 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(constantIn BoundedTemporalEntity-12693 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kangar))
+
+(constantIn BoundedTemporalEntity-12954 ((MeasurableQuantityFn citySize) FC-City-Kangar))
+
+(constantIn BoundedTemporalEntity-13013 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-210040))
+
+(currentActivity Unit-238 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-12627 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12632 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12660 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12680 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12731 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12746 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12793 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12855 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12915 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12941 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12963 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12980 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12999 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-13027 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-13047 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-13100 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(defenseBonus FC-City-Kangar 0)
+
+(fcObjectAt FC-City-Kangar (FreecivLocationFn 34 16))
+
+(fcObjectAt Unit-238 (FreecivLocationFn 34 16))
+
+(footprintOf FC-City-Kangar CityFootprint-FC-City-Kangar)
+
+(hasAmount FC-City-Kangar (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-257) ((STEMQuantityFn 2) CityFootprint-FC-City-Kangar (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-257) ((STEMQuantityFn 5) FC-City-Kangar (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-257) ((STEMQuantityFn 6) UnitGroupFootprint-205010 (FreecivUnitCountFn 4)))
+
+(holdsIn (EndFn STEntity-257) ((STEMQuantityFn 6) UnitGroupFootprint-210040 (FreecivUnitCountFn 3)))
+
+(holdsIn (EndFn STEntity-257) ((STEMQuantityFn 7) UnitGroupFootprint-205010 (FreecivTileArea 108)))
+
+(holdsIn (EndFn STEntity-257) ((STEMQuantityFn 7) UnitGroupFootprint-210040 (FreecivTileArea 8)))
+
+(holdsIn (StartFn STEntity-257) ((STEMQuantityFn 2) CityFootprint-FC-City-Kangar (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-257) ((STEMQuantityFn 5) FC-City-Kangar (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-257) ((STEMQuantityFn 6) UnitGroupFootprint-205010 (FreecivUnitCountFn 4)))
+
+(holdsIn (StartFn STEntity-257) ((STEMQuantityFn 6) UnitGroupFootprint-210040 (FreecivUnitCountFn 3)))
+
+(holdsIn (StartFn STEntity-257) ((STEMQuantityFn 7) UnitGroupFootprint-205010 (FreecivTileArea 108)))
+
+(holdsIn (StartFn STEntity-257) ((STEMQuantityFn 7) UnitGroupFootprint-210040 (FreecivTileArea 8)))
+
+(increasingIn BoundedTemporalEntity-12631 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12653 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12738 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12785 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12818 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12871 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12928 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12951 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12971 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12984 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-13002 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-13033 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-13066 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-13068 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-210040))
+
+(increasingIn BoundedTemporalEntity-13137 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-13138 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-205010))
+
+(isa CityFootprint-FC-City-Kangar CityFootprint)
+
+(isa FC-City-Kangar FreeCiv-City)
+
+(isa STEntity-257 DefensiveEpisodeFailure)
+
+(isa STEntity-257 SpatiotemporalEvent)
+
+(isa Unit-238 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-205010 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-210040 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-12954 BoundedTemporalEntity-12693)
+
+(startsAfterStartingOf BoundedTemporalEntity-12954 BoundedTemporalEntity-12694)
+
+(startsAfterStartingOf BoundedTemporalEntity-13068 BoundedTemporalEntity-13013)
+
+(startsAtSameTime BoundedTemporalEntity-13138 BoundedTemporalEntity-13137)
+
+(terrainAt (FreecivLocationFn 34 16) FC-Terrain-Plains)
+
+(unitOwner Unit-238 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-12694 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kangar))

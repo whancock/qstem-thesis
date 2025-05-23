@@ -1,0 +1,156 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Algiers) (TemporalIntervalFn STEntity-204)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Algiers) (TemporalIntervalFn STEntity-204)))
+((HasImprovementFn FC-Building-Palace) FC-City-Algiers)
+
+(aia-MI BoundedTemporalEntity-11102 BoundedTemporalEntity-11088)
+
+(aia-MI BoundedTemporalEntity-11104 BoundedTemporalEntity-11102)
+
+(aia-MI BoundedTemporalEntity-11108 BoundedTemporalEntity-11104)
+
+(aia-MI BoundedTemporalEntity-11109 BoundedTemporalEntity-11108)
+
+(aia-MI BoundedTemporalEntity-11117 BoundedTemporalEntity-11109)
+
+(aia-MI BoundedTemporalEntity-11120 BoundedTemporalEntity-11117)
+
+(aia-MI BoundedTemporalEntity-11125 BoundedTemporalEntity-11120)
+
+(aia-MI BoundedTemporalEntity-11130 BoundedTemporalEntity-11125)
+
+(aia-MI BoundedTemporalEntity-11158 BoundedTemporalEntity-11130)
+
+(aia-MI BoundedTemporalEntity-11161 BoundedTemporalEntity-11158)
+
+(aia-MI BoundedTemporalEntity-11218 BoundedTemporalEntity-11210)
+
+(aia-MI BoundedTemporalEntity-11219 BoundedTemporalEntity-11212)
+
+(aia-MI BoundedTemporalEntity-11223 BoundedTemporalEntity-11218)
+
+(aia-MI BoundedTemporalEntity-11224 BoundedTemporalEntity-11219)
+
+(aia-MI BoundedTemporalEntity-11226 BoundedTemporalEntity-11223)
+
+(aia-MI BoundedTemporalEntity-11227 BoundedTemporalEntity-11224)
+
+(aia-MI BoundedTemporalEntity-11231 BoundedTemporalEntity-11226)
+
+(aia-MI BoundedTemporalEntity-11232 BoundedTemporalEntity-11227)
+
+(aia-MI BoundedTemporalEntity-11234 BoundedTemporalEntity-11231)
+
+(aia-MI BoundedTemporalEntity-11235 BoundedTemporalEntity-11161)
+
+(aia-MI BoundedTemporalEntity-11238 BoundedTemporalEntity-11232)
+
+(aia-OI BoundedTemporalEntity-11238 BoundedTemporalEntity-11210)
+
+(aia-OI BoundedTemporalEntity-11238 BoundedTemporalEntity-11218)
+
+(aia-OI BoundedTemporalEntity-11238 BoundedTemporalEntity-11223)
+
+(aia-OI BoundedTemporalEntity-11238 BoundedTemporalEntity-11226)
+
+(aia-OI BoundedTemporalEntity-11238 BoundedTemporalEntity-11231)
+
+(cityOwner FC-City-Algiers FC-Player-AhmedBenBella)
+
+(constantAcrossBounds STEntity-204 ((STEMQuantityFn 2) CityFootprint-FC-City-Algiers))
+
+(constantAcrossBounds STEntity-204 ((STEMQuantityFn 5) FC-City-Algiers))
+
+(constantIn BoundedTemporalEntity-11090 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Algiers))
+
+(constantIn BoundedTemporalEntity-11210 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(constantIn BoundedTemporalEntity-11235 ((MeasurableQuantityFn citySize) FC-City-Algiers))
+
+(currentActivity Unit-262 FC-ActivityFortifying)
+
+(currentActivity Unit-266 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-11223 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(decreasingIn BoundedTemporalEntity-11231 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(defenseBonus FC-City-Algiers 0)
+
+(fcObjectAt FC-City-Algiers (FreecivLocationFn 45 27))
+
+(fcObjectAt Unit-266 (FreecivLocationFn 45 27))
+
+(footprintOf FC-City-Algiers CityFootprint-FC-City-Algiers)
+
+(hasAmount FC-City-Algiers (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-204) ((STEMQuantityFn 2) CityFootprint-FC-City-Algiers (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-204) ((STEMQuantityFn 5) FC-City-Algiers (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-204) ((STEMQuantityFn 6) UnitGroupFootprint-176662 (FreecivUnitCountFn 8)))
+
+(holdsIn (EndFn STEntity-204) ((STEMQuantityFn 6) UnitGroupFootprint-176985 (FreecivUnitCountFn 10)))
+
+(holdsIn (EndFn STEntity-204) ((STEMQuantityFn 7) UnitGroupFootprint-176662 (FreecivTileArea 71)))
+
+(holdsIn (EndFn STEntity-204) ((STEMQuantityFn 7) UnitGroupFootprint-176985 (FreecivTileArea 86)))
+
+(holdsIn (StartFn STEntity-204) ((STEMQuantityFn 2) CityFootprint-FC-City-Algiers (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-204) ((STEMQuantityFn 5) FC-City-Algiers (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-204) ((STEMQuantityFn 6) UnitGroupFootprint-176662 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-204) ((STEMQuantityFn 6) UnitGroupFootprint-176985 (FreecivUnitCountFn 8)))
+
+(holdsIn (StartFn STEntity-204) ((STEMQuantityFn 7) UnitGroupFootprint-176662 (FreecivTileArea 38)))
+
+(holdsIn (StartFn STEntity-204) ((STEMQuantityFn 7) UnitGroupFootprint-176985 (FreecivTileArea 71)))
+
+(increasingAcrossBounds STEntity-204 ((STEMQuantityFn 6) UnitGroupFootprint-176662))
+
+(increasingAcrossBounds STEntity-204 ((STEMQuantityFn 6) UnitGroupFootprint-176985))
+
+(increasingAcrossBounds STEntity-204 ((STEMQuantityFn 7) UnitGroupFootprint-176662))
+
+(increasingAcrossBounds STEntity-204 ((STEMQuantityFn 7) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11218 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11226 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11234 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-176985))
+
+(increasingIn BoundedTemporalEntity-11238 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-176985))
+
+(isa CityFootprint-FC-City-Algiers CityFootprint)
+
+(isa FC-City-Algiers FreeCiv-City)
+
+(isa STEntity-204 DefensiveEpisodeFailure)
+
+(isa STEntity-204 SpatiotemporalEvent)
+
+(isa Unit-262 FC-Unit-Catapult)
+
+(isa Unit-266 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-176985 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-11235 BoundedTemporalEntity-11090)
+
+(startsAfterStartingOf BoundedTemporalEntity-11235 BoundedTemporalEntity-11091)
+
+(startsAfterStartingOf BoundedTemporalEntity-11238 BoundedTemporalEntity-11234)
+
+(terrainAt (FreecivLocationFn 45 27) FC-Terrain-Plains)
+
+(unitOwner Unit-262 FC-Player-AoifeMacMurrough)
+
+(unitOwner Unit-266 FC-Player-AoifeMacMurrough)
+
+(zeroAcrossBounds STEntity-204 ((STEMQuantityFn 2) CityFootprint-FC-City-Algiers))
+
+(zeroIn BoundedTemporalEntity-11091 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Algiers))

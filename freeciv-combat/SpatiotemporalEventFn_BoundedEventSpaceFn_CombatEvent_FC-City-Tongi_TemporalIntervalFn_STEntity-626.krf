@@ -1,0 +1,144 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tongi) (TemporalIntervalFn STEntity-626)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tongi) (TemporalIntervalFn STEntity-626)))
+((Area (AtFn (EndFn STEntity-626) STEntity-626)) (FreecivTileArea 139))
+
+((Area (AtFn (StartFn STEntity-626) STEntity-626)) (FreecivTileArea 139))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-626) STEntity-626)) (FreecivUnitCountFn 7))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-626) STEntity-626)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (EndFn STEntity-626) STEntity-626)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-626) STEntity-626)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (StartFn STEntity-626) STEntity-626)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-626) STEntity-626)) (FreecivUnitCountFn 7))
+
+((citySize (AtFn (EndFn STEntity-626) STEntity-626)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-626) STEntity-626)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-13115 BoundedTemporalEntity-13113)
+
+(aia-MI BoundedTemporalEntity-13116 BoundedTemporalEntity-13114)
+
+(aia-MI BoundedTemporalEntity-13117 BoundedTemporalEntity-13082)
+
+(aia-MI BoundedTemporalEntity-13118 BoundedTemporalEntity-13115)
+
+(aia-MI BoundedTemporalEntity-13119 BoundedTemporalEntity-13116)
+
+(aia-MI BoundedTemporalEntity-13120 BoundedTemporalEntity-13118)
+
+(aia-MI BoundedTemporalEntity-13121 BoundedTemporalEntity-13119)
+
+(aia-MI BoundedTemporalEntity-13124 BoundedTemporalEntity-13120)
+
+(aia-MI BoundedTemporalEntity-13131 BoundedTemporalEntity-13124)
+
+(aia-MI BoundedTemporalEntity-13135 BoundedTemporalEntity-13131)
+
+(aia-MI BoundedTemporalEntity-13136 BoundedTemporalEntity-13121)
+
+(aia-MI BoundedTemporalEntity-13142 BoundedTemporalEntity-13135)
+
+(aia-MI BoundedTemporalEntity-13145 BoundedTemporalEntity-13142)
+
+(aia-MI BoundedTemporalEntity-13157 BoundedTemporalEntity-13145)
+
+(aia-MI BoundedTemporalEntity-13158 BoundedTemporalEntity-13136)
+
+(aia-MI BoundedTemporalEntity-13164 BoundedTemporalEntity-13157)
+
+(aia-MI BoundedTemporalEntity-13165 BoundedTemporalEntity-13158)
+
+(aia-MI BoundedTemporalEntity-13167 BoundedTemporalEntity-13164)
+
+(aia-MI BoundedTemporalEntity-13168 BoundedTemporalEntity-13164)
+
+(aia-MI BoundedTemporalEntity-13168 BoundedTemporalEntity-13165)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13113)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13115)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13118)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13120)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13124)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13131)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13135)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13142)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13145)
+
+(aia-OI BoundedTemporalEntity-13168 BoundedTemporalEntity-13157)
+
+(cityOwner FC-City-Tongi FC-Player-TomasZumalakarregiImaz)
+
+(constantIn BoundedTemporalEntity-13083 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tongi))
+
+(constantIn BoundedTemporalEntity-13113 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(currentActivity Unit-206 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Tongi (FreecivLocationFn 37 21))
+
+(fcObjectAt Unit-206 (FreecivLocationFn 37 21))
+
+(footprintOf FC-City-Tongi CityFootprint-FC-City-Tongi)
+
+(isa CityFootprint-FC-City-Tongi CityFootprint)
+
+(isa FC-City-Tongi FreeCiv-City)
+
+(isa STEntity-626 DefensiveEpisodeFailure)
+
+(isa STEntity-626 SpatiotemporalEvent)
+
+(isa Unit-206 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-6486227 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-13115 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nondecreasingIn BoundedTemporalEntity-13117 ((MeasurableQuantityFn citySize) FC-City-Tongi))
+
+(nondecreasingIn BoundedTemporalEntity-13120 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nondecreasingIn BoundedTemporalEntity-13131 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nondecreasingIn BoundedTemporalEntity-13142 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nondecreasingIn BoundedTemporalEntity-13157 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nondecreasingIn BoundedTemporalEntity-13167 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nondecreasingIn BoundedTemporalEntity-13168 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6486227))
+
+(nonincreasingIn BoundedTemporalEntity-13118 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nonincreasingIn BoundedTemporalEntity-13124 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nonincreasingIn BoundedTemporalEntity-13135 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nonincreasingIn BoundedTemporalEntity-13145 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(nonincreasingIn BoundedTemporalEntity-13164 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6486227))
+
+(startsAfterStartingOf BoundedTemporalEntity-13117 BoundedTemporalEntity-13083)
+
+(startsAfterStartingOf BoundedTemporalEntity-13117 BoundedTemporalEntity-13084)
+
+(startsAtSameTime BoundedTemporalEntity-13168 BoundedTemporalEntity-13167)
+
+(unitOwner Unit-206 FC-Player-TomasZumalakarregiImaz)
+
+(zeroIn BoundedTemporalEntity-13084 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tongi))

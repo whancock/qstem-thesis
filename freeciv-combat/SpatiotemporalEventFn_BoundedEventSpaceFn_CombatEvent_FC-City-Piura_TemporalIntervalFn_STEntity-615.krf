@@ -1,0 +1,176 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Piura) (TemporalIntervalFn STEntity-615)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Piura) (TemporalIntervalFn STEntity-615)))
+((Area (AtFn (EndFn STEntity-615) STEntity-615)) (FreecivTileArea 243))
+
+((Area (AtFn (StartFn STEntity-615) STEntity-615)) (FreecivTileArea 243))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-615) STEntity-615)) (FreecivUnitCountFn 15))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-615) STEntity-615)) (FreecivUnitCountFn 15))
+
+((Defenders (AtFn (EndFn STEntity-615) STEntity-615)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-615) STEntity-615)) (FreecivUnitCountFn 15))
+
+((Defenders (AtFn (StartFn STEntity-615) STEntity-615)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-615) STEntity-615)) (FreecivUnitCountFn 15))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Piura)
+
+((citySize (AtFn (EndFn STEntity-615) STEntity-615)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-615) STEntity-615)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-12088 BoundedTemporalEntity-12072)
+
+(aia-MI BoundedTemporalEntity-12106 BoundedTemporalEntity-12088)
+
+(aia-MI BoundedTemporalEntity-12160 BoundedTemporalEntity-12106)
+
+(aia-MI BoundedTemporalEntity-12171 BoundedTemporalEntity-12163)
+
+(aia-MI BoundedTemporalEntity-12172 BoundedTemporalEntity-12165)
+
+(aia-MI BoundedTemporalEntity-12180 BoundedTemporalEntity-12171)
+
+(aia-MI BoundedTemporalEntity-12181 BoundedTemporalEntity-12172)
+
+(aia-MI BoundedTemporalEntity-12188 BoundedTemporalEntity-12180)
+
+(aia-MI BoundedTemporalEntity-12189 BoundedTemporalEntity-12181)
+
+(aia-MI BoundedTemporalEntity-12195 BoundedTemporalEntity-12188)
+
+(aia-MI BoundedTemporalEntity-12196 BoundedTemporalEntity-12189)
+
+(aia-MI BoundedTemporalEntity-12198 BoundedTemporalEntity-12196)
+
+(aia-MI BoundedTemporalEntity-12201 BoundedTemporalEntity-12195)
+
+(aia-MI BoundedTemporalEntity-12206 BoundedTemporalEntity-12201)
+
+(aia-MI BoundedTemporalEntity-12220 BoundedTemporalEntity-12206)
+
+(aia-MI BoundedTemporalEntity-12226 BoundedTemporalEntity-12198)
+
+(aia-MI BoundedTemporalEntity-12228 BoundedTemporalEntity-12160)
+
+(aia-MI BoundedTemporalEntity-12236 BoundedTemporalEntity-12226)
+
+(aia-MI BoundedTemporalEntity-12241 BoundedTemporalEntity-12220)
+
+(aia-MI BoundedTemporalEntity-12242 BoundedTemporalEntity-12236)
+
+(aia-MI BoundedTemporalEntity-12251 BoundedTemporalEntity-12241)
+
+(aia-MI BoundedTemporalEntity-12252 BoundedTemporalEntity-12242)
+
+(aia-MI BoundedTemporalEntity-12253 BoundedTemporalEntity-12251)
+
+(aia-MI BoundedTemporalEntity-12254 BoundedTemporalEntity-12252)
+
+(aia-MI BoundedTemporalEntity-12266 BoundedTemporalEntity-12253)
+
+(aia-MI BoundedTemporalEntity-12267 BoundedTemporalEntity-12254)
+
+(aia-MI BoundedTemporalEntity-12282 BoundedTemporalEntity-12267)
+
+(aia-MI BoundedTemporalEntity-12289 BoundedTemporalEntity-12266)
+
+(aia-MI BoundedTemporalEntity-12310 BoundedTemporalEntity-12289)
+
+(aia-MI BoundedTemporalEntity-12311 BoundedTemporalEntity-12282)
+
+(aia-MI BoundedTemporalEntity-12311 BoundedTemporalEntity-12289)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12163)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12171)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12180)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12188)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12195)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12201)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12206)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12220)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12241)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12251)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12253)
+
+(aia-OI BoundedTemporalEntity-12311 BoundedTemporalEntity-12266)
+
+(cityOwner FC-City-Piura FC-Player-Sukarno)
+
+(constantIn BoundedTemporalEntity-12073 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Piura))
+
+(constantIn BoundedTemporalEntity-12163 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(constantIn BoundedTemporalEntity-12228 ((MeasurableQuantityFn citySize) FC-City-Piura))
+
+(currentActivity Unit-238 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Piura (FreecivLocationFn 14 22))
+
+(fcObjectAt Unit-238 (FreecivLocationFn 14 22))
+
+(footprintOf FC-City-Piura CityFootprint-FC-City-Piura)
+
+(isa CityFootprint-FC-City-Piura CityFootprint)
+
+(isa FC-City-Piura FreeCiv-City)
+
+(isa STEntity-615 DefensiveEpisodeFailure)
+
+(isa STEntity-615 SpatiotemporalEvent)
+
+(isa Unit-238 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-5412934 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12171 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12188 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12201 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12220 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12251 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12266 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12310 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nondecreasingIn BoundedTemporalEntity-12311 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5412934))
+
+(nonincreasingIn BoundedTemporalEntity-12180 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nonincreasingIn BoundedTemporalEntity-12195 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nonincreasingIn BoundedTemporalEntity-12206 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nonincreasingIn BoundedTemporalEntity-12241 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nonincreasingIn BoundedTemporalEntity-12253 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(nonincreasingIn BoundedTemporalEntity-12289 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5412934))
+
+(startsAfterStartingOf BoundedTemporalEntity-12228 BoundedTemporalEntity-12073)
+
+(startsAfterStartingOf BoundedTemporalEntity-12228 BoundedTemporalEntity-12074)
+
+(startsAtSameTime BoundedTemporalEntity-12311 BoundedTemporalEntity-12310)
+
+(unitOwner Unit-238 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-12074 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Piura))

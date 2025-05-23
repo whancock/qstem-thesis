@@ -1,0 +1,106 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kuressaare) (TemporalIntervalFn STEntity-429)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kuressaare) (TemporalIntervalFn STEntity-429)))
+((Area (AtFn (EndFn STEntity-429) STEntity-429)) (FreecivTileArea 19))
+
+((Area (AtFn (EndFn STEntity-429) STEntity-429)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-429) STEntity-429)) (FreecivTileArea 19))
+
+((Area (AtFn (StartFn STEntity-429) STEntity-429)) (FreecivTileArea 8))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-429) STEntity-429)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Kuressaare)
+
+((citySize (AtFn (EndFn STEntity-429) STEntity-429)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-429) STEntity-429)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-9111 BoundedTemporalEntity-9096)
+
+(aia-MI BoundedTemporalEntity-9112 BoundedTemporalEntity-9096)
+
+(aia-MI BoundedTemporalEntity-9112 BoundedTemporalEntity-9098)
+
+(aia-MI BoundedTemporalEntity-9139 BoundedTemporalEntity-9076)
+
+(aia-MI BoundedTemporalEntity-9162 BoundedTemporalEntity-9154)
+
+(aia-MI BoundedTemporalEntity-9163 BoundedTemporalEntity-9154)
+
+(aia-MI BoundedTemporalEntity-9163 BoundedTemporalEntity-9155)
+
+(cityOwner FC-City-Kuressaare FC-Player-ElizabethNicholls)
+
+(constantIn BoundedTemporalEntity-9077 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kuressaare))
+
+(constantIn BoundedTemporalEntity-9096 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2876317))
+
+(constantIn BoundedTemporalEntity-9148 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2906228))
+
+(constantIn BoundedTemporalEntity-9149 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2906228))
+
+(constantIn BoundedTemporalEntity-9154 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2906242))
+
+(currentActivity Unit-256 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kuressaare (FreecivLocationFn 47 14))
+
+(fcObjectAt Unit-256 (FreecivLocationFn 47 14))
+
+(footprintOf FC-City-Kuressaare CityFootprint-FC-City-Kuressaare)
+
+(isa CityFootprint-FC-City-Kuressaare CityFootprint)
+
+(isa FC-City-Kuressaare FreeCiv-City)
+
+(isa STEntity-429 DefensiveEpisodeFailure)
+
+(isa STEntity-429 SpatiotemporalEvent)
+
+(isa Unit-256 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-2876317 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2906228 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2906242 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-9111 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2876317))
+
+(nondecreasingIn BoundedTemporalEntity-9112 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2876317))
+
+(nondecreasingIn BoundedTemporalEntity-9139 ((MeasurableQuantityFn citySize) FC-City-Kuressaare))
+
+(nondecreasingIn BoundedTemporalEntity-9162 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2906242))
+
+(nondecreasingIn BoundedTemporalEntity-9163 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2906242))
+
+(startsAfterStartingOf BoundedTemporalEntity-9139 BoundedTemporalEntity-9077)
+
+(startsAfterStartingOf BoundedTemporalEntity-9139 BoundedTemporalEntity-9078)
+
+(startsAtSameTime BoundedTemporalEntity-9112 BoundedTemporalEntity-9111)
+
+(startsAtSameTime BoundedTemporalEntity-9149 BoundedTemporalEntity-9148)
+
+(startsAtSameTime BoundedTemporalEntity-9163 BoundedTemporalEntity-9162)
+
+(unitOwner Unit-256 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-9078 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kuressaare))

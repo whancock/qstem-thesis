@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KoumbiSaleh) (TemporalIntervalFn STEntity-44)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KoumbiSaleh) (TemporalIntervalFn STEntity-44)))
+(aia-MI BoundedTemporalEntity-3148 BoundedTemporalEntity-3131)
+
+(aia-MI BoundedTemporalEntity-3154 BoundedTemporalEntity-3149)
+
+(aia-MI BoundedTemporalEntity-3155 BoundedTemporalEntity-3149)
+
+(aia-MI BoundedTemporalEntity-3155 BoundedTemporalEntity-3150)
+
+(cityOwner FC-City-KoumbiSaleh FC-Player-VasileLupu)
+
+(constantAcrossBounds STEntity-44 ((STEMQuantityFn 6) UnitGroupFootprint-55431))
+
+(constantAcrossBounds STEntity-44 ((STEMQuantityFn 7) UnitGroupFootprint-55431))
+
+(constantIn BoundedTemporalEntity-3132 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KoumbiSaleh))
+
+(constantIn BoundedTemporalEntity-3149 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55431))
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(defenseBonus FC-City-KoumbiSaleh 0)
+
+(fcObjectAt FC-City-KoumbiSaleh (FreecivLocationFn 52 23))
+
+(fcObjectAt Unit-194 (FreecivLocationFn 52 23))
+
+(footprintOf FC-City-KoumbiSaleh CityFootprint-FC-City-KoumbiSaleh)
+
+(hasAmount FC-City-KoumbiSaleh (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-44) ((STEMQuantityFn 2) CityFootprint-FC-City-KoumbiSaleh (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-44) ((STEMQuantityFn 5) FC-City-KoumbiSaleh (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-44) ((STEMQuantityFn 6) UnitGroupFootprint-55431 (FreecivUnitCountFn 4)))
+
+(holdsIn (EndFn STEntity-44) ((STEMQuantityFn 7) UnitGroupFootprint-55431 (FreecivTileArea 70)))
+
+(holdsIn (StartFn STEntity-44) ((STEMQuantityFn 2) CityFootprint-FC-City-KoumbiSaleh (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-44) ((STEMQuantityFn 5) FC-City-KoumbiSaleh (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-44) ((STEMQuantityFn 6) UnitGroupFootprint-55431 (FreecivUnitCountFn 4)))
+
+(holdsIn (StartFn STEntity-44) ((STEMQuantityFn 7) UnitGroupFootprint-55431 (FreecivTileArea 70)))
+
+(increasingIn BoundedTemporalEntity-3148 ((MeasurableQuantityFn citySize) FC-City-KoumbiSaleh))
+
+(increasingIn BoundedTemporalEntity-3154 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55431))
+
+(increasingIn BoundedTemporalEntity-3155 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-55431))
+
+(isa CityFootprint-FC-City-KoumbiSaleh CityFootprint)
+
+(isa FC-City-KoumbiSaleh FreeCiv-City)
+
+(isa STEntity-44 DefensiveEpisodeFailure)
+
+(isa STEntity-44 SpatiotemporalEvent)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-55431 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-3148 BoundedTemporalEntity-3132)
+
+(startsAfterStartingOf BoundedTemporalEntity-3148 BoundedTemporalEntity-3133)
+
+(startsAtSameTime BoundedTemporalEntity-3155 BoundedTemporalEntity-3154)
+
+(terrainAt (FreecivLocationFn 52 23) FC-Terrain-Plains)
+
+(unitOwner Unit-194 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3133 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KoumbiSaleh))

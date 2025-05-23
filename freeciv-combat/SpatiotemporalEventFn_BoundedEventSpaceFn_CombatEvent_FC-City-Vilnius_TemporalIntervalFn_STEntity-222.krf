@@ -1,0 +1,126 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Vilnius) (TemporalIntervalFn STEntity-222)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Vilnius) (TemporalIntervalFn STEntity-222)))
+((Area (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivTileArea 87))
+
+((Area (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivTileArea 87))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 6))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 6))
+
+((citySize (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5297 BoundedTemporalEntity-5292)
+
+(aia-MI BoundedTemporalEntity-5299 BoundedTemporalEntity-5294)
+
+(aia-MI BoundedTemporalEntity-5306 BoundedTemporalEntity-5297)
+
+(aia-MI BoundedTemporalEntity-5307 BoundedTemporalEntity-5299)
+
+(aia-MI BoundedTemporalEntity-5322 BoundedTemporalEntity-5306)
+
+(aia-MI BoundedTemporalEntity-5323 BoundedTemporalEntity-5307)
+
+(aia-MI BoundedTemporalEntity-5325 BoundedTemporalEntity-5322)
+
+(aia-MI BoundedTemporalEntity-5326 BoundedTemporalEntity-5323)
+
+(aia-MI BoundedTemporalEntity-5336 BoundedTemporalEntity-5325)
+
+(aia-MI BoundedTemporalEntity-5343 BoundedTemporalEntity-5326)
+
+(aia-MI BoundedTemporalEntity-5361 BoundedTemporalEntity-5336)
+
+(aia-MI BoundedTemporalEntity-5362 BoundedTemporalEntity-5343)
+
+(aia-MI BoundedTemporalEntity-5379 BoundedTemporalEntity-5361)
+
+(aia-MI BoundedTemporalEntity-5380 BoundedTemporalEntity-5362)
+
+(aia-MI BoundedTemporalEntity-5382 BoundedTemporalEntity-5361)
+
+(aia-MI BoundedTemporalEntity-5382 BoundedTemporalEntity-5380)
+
+(aia-MI BoundedTemporalEntity-5389 BoundedTemporalEntity-5379)
+
+(aia-OI BoundedTemporalEntity-5382 BoundedTemporalEntity-5292)
+
+(aia-OI BoundedTemporalEntity-5382 BoundedTemporalEntity-5297)
+
+(aia-OI BoundedTemporalEntity-5382 BoundedTemporalEntity-5306)
+
+(aia-OI BoundedTemporalEntity-5382 BoundedTemporalEntity-5322)
+
+(aia-OI BoundedTemporalEntity-5382 BoundedTemporalEntity-5325)
+
+(aia-OI BoundedTemporalEntity-5382 BoundedTemporalEntity-5336)
+
+(aia-SI BoundedTemporalEntity-5382 BoundedTemporalEntity-5379)
+
+(cityOwner FC-City-Vilnius FC-Player-RoyJenkins)
+
+(constantIn BoundedTemporalEntity-5292 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(constantIn BoundedTemporalEntity-5366 ((MeasurableQuantityFn citySize) FC-City-Vilnius))
+
+(constantIn BoundedTemporalEntity-5367 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Vilnius))
+
+(currentActivity Unit-187 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Vilnius (FreecivLocationFn 34 11))
+
+(fcObjectAt Unit-187 (FreecivLocationFn 34 11))
+
+(footprintOf FC-City-Vilnius CityFootprint-FC-City-Vilnius)
+
+(isa CityFootprint-FC-City-Vilnius CityFootprint)
+
+(isa FC-City-Vilnius FreeCiv-City)
+
+(isa STEntity-222 DefensiveEpisodeFailure)
+
+(isa STEntity-222 SpatiotemporalEvent)
+
+(isa Unit-187 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-358601 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5297 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5322 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5336 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5379 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5306 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5325 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5361 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5382 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5389 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(startsAtSameTime BoundedTemporalEntity-5366 BoundedTemporalEntity-5367)
+
+(startsAtSameTime BoundedTemporalEntity-5366 BoundedTemporalEntity-5368)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5382 BoundedTemporalEntity-5389)
+
+(unitOwner Unit-187 FC-Player-RobertDeSable)
+
+(zeroIn BoundedTemporalEntity-5368 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Vilnius))

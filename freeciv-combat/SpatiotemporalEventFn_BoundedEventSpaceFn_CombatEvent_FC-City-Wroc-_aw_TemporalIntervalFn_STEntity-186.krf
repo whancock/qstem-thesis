@@ -1,0 +1,316 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wroc≈?aw) (TemporalIntervalFn STEntity-186)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wroc≈?aw) (TemporalIntervalFn STEntity-186)))
+(aia-MI BoundedTemporalEntity-9556 BoundedTemporalEntity-9512)
+
+(aia-MI BoundedTemporalEntity-9604 BoundedTemporalEntity-9597)
+
+(aia-MI BoundedTemporalEntity-9606 BoundedTemporalEntity-9600)
+
+(aia-MI BoundedTemporalEntity-9607 BoundedTemporalEntity-9556)
+
+(aia-MI BoundedTemporalEntity-9612 BoundedTemporalEntity-9604)
+
+(aia-MI BoundedTemporalEntity-9613 BoundedTemporalEntity-9606)
+
+(aia-MI BoundedTemporalEntity-9615 BoundedTemporalEntity-9612)
+
+(aia-MI BoundedTemporalEntity-9616 BoundedTemporalEntity-9613)
+
+(aia-MI BoundedTemporalEntity-9624 BoundedTemporalEntity-9616)
+
+(aia-MI BoundedTemporalEntity-9629 BoundedTemporalEntity-9615)
+
+(aia-MI BoundedTemporalEntity-9640 BoundedTemporalEntity-9629)
+
+(aia-MI BoundedTemporalEntity-9648 BoundedTemporalEntity-9624)
+
+(aia-MI BoundedTemporalEntity-9658 BoundedTemporalEntity-9640)
+
+(aia-MI BoundedTemporalEntity-9659 BoundedTemporalEntity-9648)
+
+(aia-MI BoundedTemporalEntity-9660 BoundedTemporalEntity-9607)
+
+(aia-MI BoundedTemporalEntity-9662 BoundedTemporalEntity-9659)
+
+(aia-MI BoundedTemporalEntity-9670 BoundedTemporalEntity-9658)
+
+(aia-MI BoundedTemporalEntity-9679 BoundedTemporalEntity-9513)
+
+(aia-MI BoundedTemporalEntity-9680 BoundedTemporalEntity-9514)
+
+(aia-MI BoundedTemporalEntity-9681 BoundedTemporalEntity-9670)
+
+(aia-MI BoundedTemporalEntity-9682 BoundedTemporalEntity-9662)
+
+(aia-MI BoundedTemporalEntity-9687 BoundedTemporalEntity-9681)
+
+(aia-MI BoundedTemporalEntity-9688 BoundedTemporalEntity-9682)
+
+(aia-MI BoundedTemporalEntity-9701 BoundedTemporalEntity-9687)
+
+(aia-MI BoundedTemporalEntity-9702 BoundedTemporalEntity-9688)
+
+(aia-MI BoundedTemporalEntity-9746 BoundedTemporalEntity-9701)
+
+(aia-MI BoundedTemporalEntity-9747 BoundedTemporalEntity-9702)
+
+(aia-MI BoundedTemporalEntity-9753 BoundedTemporalEntity-9746)
+
+(aia-MI BoundedTemporalEntity-9786 BoundedTemporalEntity-9747)
+
+(aia-MI BoundedTemporalEntity-9822 BoundedTemporalEntity-9753)
+
+(aia-MI BoundedTemporalEntity-9823 BoundedTemporalEntity-9753)
+
+(aia-MI BoundedTemporalEntity-9823 BoundedTemporalEntity-9786)
+
+(aia-MI BoundedTemporalEntity-9824 BoundedTemporalEntity-9660)
+
+(aia-MI BoundedTemporalEntity-9828 BoundedTemporalEntity-9679)
+
+(aia-MI BoundedTemporalEntity-9829 BoundedTemporalEntity-9680)
+
+(aia-MI BoundedTemporalEntity-9833 BoundedTemporalEntity-9822)
+
+(aia-MI BoundedTemporalEntity-9835 BoundedTemporalEntity-9824)
+
+(aia-MI BoundedTemporalEntity-9837 BoundedTemporalEntity-9835)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9597)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9604)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9612)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9615)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9629)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9640)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9658)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9670)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9681)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9687)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9701)
+
+(aia-OI BoundedTemporalEntity-9823 BoundedTemporalEntity-9746)
+
+(aia-OI BoundedTemporalEntity-9837 BoundedTemporalEntity-9513)
+
+(aia-OI BoundedTemporalEntity-9837 BoundedTemporalEntity-9514)
+
+(aia-OI BoundedTemporalEntity-9837 BoundedTemporalEntity-9679)
+
+(aia-OI BoundedTemporalEntity-9837 BoundedTemporalEntity-9680)
+
+(aia-SI BoundedTemporalEntity-9823 BoundedTemporalEntity-9822)
+
+(cityOwner FC-City-Wroc≈?aw FC-Player-Algmins)
+
+(constantAcrossBounds STEntity-186 ((STEMQuantityFn 5) FC-City-Wroc≈?aw))
+
+(constantAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-152981))
+
+(constantAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-154479))
+
+(constantAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-152981))
+
+(constantAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-154479))
+
+(constantIn BoundedTemporalEntity-9513 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))
+
+(constantIn BoundedTemporalEntity-9597 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(currentActivity Unit-256 FC-ActivityIdle)
+
+(currentActivity Unit-366 FC-ActivityIdle)
+
+(decreasingAcrossBounds STEntity-186 ((STEMQuantityFn 2) CityFootprint-FC-City-Wroc≈?aw))
+
+(decreasingAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-152566))
+
+(decreasingAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-154255))
+
+(decreasingAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-152566))
+
+(decreasingAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-154255))
+
+(decreasingIn BoundedTemporalEntity-9612 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(decreasingIn BoundedTemporalEntity-9629 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(decreasingIn BoundedTemporalEntity-9658 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(decreasingIn BoundedTemporalEntity-9681 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(decreasingIn BoundedTemporalEntity-9701 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(decreasingIn BoundedTemporalEntity-9753 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(decreasingIn BoundedTemporalEntity-9828 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))
+
+(decreasingIn BoundedTemporalEntity-9833 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(defenseBonus FC-City-Wroc≈?aw 50)
+
+(fcObjectAt FC-City-Wroc≈?aw (FreecivLocationFn 16 18))
+
+(fcObjectAt Unit-366 (FreecivLocationFn 16 18))
+
+(footprintOf FC-City-Wroc≈?aw CityFootprint-FC-City-Wroc≈?aw)
+
+(hasAmount FC-City-Wroc≈?aw (MediumAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 2) CityFootprint-FC-City-Wroc≈?aw (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 5) FC-City-Wroc≈?aw (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-151083 (FreecivUnitCountFn 42)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-152566 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-152981 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-153091 (FreecivUnitCountFn 7)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-153984 (FreecivUnitCountFn 9)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-154255 (FreecivUnitCountFn 7)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-154479 (FreecivUnitCountFn 2)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-155016 (FreecivUnitCountFn 13)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-151083 (FreecivTileArea 281)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-152566 (FreecivTileArea 8)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-152981 (FreecivTileArea 22)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-153091 (FreecivTileArea 139)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-153984 (FreecivTileArea 115)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-154255 (FreecivTileArea 29)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-154479 (FreecivTileArea 19)))
+
+(holdsIn (EndFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-155016 (FreecivTileArea 87)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 2) CityFootprint-FC-City-Wroc≈?aw (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 5) FC-City-Wroc≈?aw (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-151083 (FreecivUnitCountFn 18)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-152566 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-152981 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-153091 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-153984 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-154255 (FreecivUnitCountFn 8)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-154479 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 6) UnitGroupFootprint-155016 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-151083 (FreecivTileArea 163)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-152566 (FreecivTileArea 14)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-152981 (FreecivTileArea 22)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-153091 (FreecivTileArea 22)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-153984 (FreecivTileArea 74)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-154255 (FreecivTileArea 36)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-154479 (FreecivTileArea 19)))
+
+(holdsIn (StartFn STEntity-186) ((STEMQuantityFn 7) UnitGroupFootprint-155016 (FreecivTileArea 85)))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-151083))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-153091))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-153984))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 6) UnitGroupFootprint-155016))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-151083))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-153091))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-153984))
+
+(increasingAcrossBounds STEntity-186 ((STEMQuantityFn 7) UnitGroupFootprint-155016))
+
+(increasingIn BoundedTemporalEntity-9604 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9615 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9640 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9679 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))
+
+(increasingIn BoundedTemporalEntity-9687 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9746 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9822 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9823 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-151083))
+
+(increasingIn BoundedTemporalEntity-9837 ((MeasurableQuantityFn citySize) FC-City-Wroc≈?aw))
+
+(isa CityFootprint-FC-City-Wroc≈?aw CityFootprint)
+
+(isa FC-City-Wroc≈?aw FreeCiv-City)
+
+(isa STEntity-186 DefensiveEpisodeFailure)
+
+(isa STEntity-186 SpatiotemporalEvent)
+
+(isa Unit-256 FC-Unit-Catapult)
+
+(isa Unit-366 FC-Unit-Musketeers)
+
+(isa UnitGroupFootprint-151083 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-152566 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-152981 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-153984 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-154255 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-154479 UnitGroupFootprint)
+
+(someIn BoundedTemporalEntity-9680 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))
+
+(startsAfterStartingOf BoundedTemporalEntity-9837 BoundedTemporalEntity-9828)
+
+(startsAfterStartingOf BoundedTemporalEntity-9837 BoundedTemporalEntity-9829)
+
+(startsBeforeStartingOf BoundedTemporalEntity-9823 BoundedTemporalEntity-9833)
+
+(terrainAt (FreecivLocationFn 16 18) FC-Terrain-Swamp)
+
+(unitOwner Unit-366 FC-Player-Algmins)
+
+(zeroIn BoundedTemporalEntity-9514 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))
+
+(zeroIn BoundedTemporalEntity-9829 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))

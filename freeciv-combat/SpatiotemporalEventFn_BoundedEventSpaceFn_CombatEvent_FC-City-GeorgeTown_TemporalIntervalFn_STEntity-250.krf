@@ -1,0 +1,234 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-GeorgeTown) (TemporalIntervalFn STEntity-250)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-GeorgeTown) (TemporalIntervalFn STEntity-250)))
+(aia-DI BoundedTemporalEntity-12814 BoundedTemporalEntity-12818)
+
+(aia-MI BoundedTemporalEntity-12600 BoundedTemporalEntity-12595)
+
+(aia-MI BoundedTemporalEntity-12607 BoundedTemporalEntity-12600)
+
+(aia-MI BoundedTemporalEntity-12627 BoundedTemporalEntity-12621)
+
+(aia-MI BoundedTemporalEntity-12628 BoundedTemporalEntity-12622)
+
+(aia-MI BoundedTemporalEntity-12629 BoundedTemporalEntity-12607)
+
+(aia-MI BoundedTemporalEntity-12631 BoundedTemporalEntity-12627)
+
+(aia-MI BoundedTemporalEntity-12632 BoundedTemporalEntity-12631)
+
+(aia-MI BoundedTemporalEntity-12635 BoundedTemporalEntity-12632)
+
+(aia-MI BoundedTemporalEntity-12643 BoundedTemporalEntity-12635)
+
+(aia-MI BoundedTemporalEntity-12653 BoundedTemporalEntity-12643)
+
+(aia-MI BoundedTemporalEntity-12660 BoundedTemporalEntity-12653)
+
+(aia-MI BoundedTemporalEntity-12661 BoundedTemporalEntity-12628)
+
+(aia-MI BoundedTemporalEntity-12670 BoundedTemporalEntity-12660)
+
+(aia-MI BoundedTemporalEntity-12671 BoundedTemporalEntity-12661)
+
+(aia-MI BoundedTemporalEntity-12680 BoundedTemporalEntity-12670)
+
+(aia-MI BoundedTemporalEntity-12681 BoundedTemporalEntity-12671)
+
+(aia-MI BoundedTemporalEntity-12705 BoundedTemporalEntity-12680)
+
+(aia-MI BoundedTemporalEntity-12706 BoundedTemporalEntity-12681)
+
+(aia-MI BoundedTemporalEntity-12716 BoundedTemporalEntity-12629)
+
+(aia-MI BoundedTemporalEntity-12731 BoundedTemporalEntity-12705)
+
+(aia-MI BoundedTemporalEntity-12734 BoundedTemporalEntity-12706)
+
+(aia-MI BoundedTemporalEntity-12738 BoundedTemporalEntity-12731)
+
+(aia-MI BoundedTemporalEntity-12739 BoundedTemporalEntity-12734)
+
+(aia-MI BoundedTemporalEntity-12746 BoundedTemporalEntity-12738)
+
+(aia-MI BoundedTemporalEntity-12747 BoundedTemporalEntity-12739)
+
+(aia-MI BoundedTemporalEntity-12759 BoundedTemporalEntity-12746)
+
+(aia-MI BoundedTemporalEntity-12760 BoundedTemporalEntity-12747)
+
+(aia-MI BoundedTemporalEntity-12768 BoundedTemporalEntity-12716)
+
+(aia-MI BoundedTemporalEntity-12774 BoundedTemporalEntity-12759)
+
+(aia-MI BoundedTemporalEntity-12785 BoundedTemporalEntity-12774)
+
+(aia-MI BoundedTemporalEntity-12786 BoundedTemporalEntity-12760)
+
+(aia-MI BoundedTemporalEntity-12793 BoundedTemporalEntity-12785)
+
+(aia-MI BoundedTemporalEntity-12814 BoundedTemporalEntity-12786)
+
+(aia-MI BoundedTemporalEntity-12818 BoundedTemporalEntity-12793)
+
+(aia-MI BoundedTemporalEntity-12855 BoundedTemporalEntity-12818)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12621)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12627)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12631)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12632)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12635)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12643)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12653)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12660)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12670)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12680)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12705)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12731)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12738)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12746)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12759)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12774)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12785)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12793)
+
+(cityOwner FC-City-GeorgeTown FC-Player-DavitIV)
+
+(constantAcrossBounds STEntity-250 ((STEMQuantityFn 6) UnitGroupFootprint-205010))
+
+(constantAcrossBounds STEntity-250 ((STEMQuantityFn 6) UnitGroupFootprint-207846))
+
+(constantAcrossBounds STEntity-250 ((STEMQuantityFn 7) UnitGroupFootprint-205010))
+
+(constantAcrossBounds STEntity-250 ((STEMQuantityFn 7) UnitGroupFootprint-207846))
+
+(constantIn BoundedTemporalEntity-12596 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GeorgeTown))
+
+(constantIn BoundedTemporalEntity-12621 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(constantIn BoundedTemporalEntity-12847 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-207846))
+
+(constantIn BoundedTemporalEntity-12850 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-207846))
+
+(currentActivity Unit-173 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-12627 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12632 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12660 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12680 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12731 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12746 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12793 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12855 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(defenseBonus FC-City-GeorgeTown 100)
+
+(fcObjectAt FC-City-GeorgeTown (FreecivLocationFn 21 11))
+
+(fcObjectAt Unit-173 (FreecivLocationFn 21 11))
+
+(footprintOf FC-City-GeorgeTown CityFootprint-FC-City-GeorgeTown)
+
+(hasAmount FC-City-GeorgeTown (HighAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-250) ((STEMQuantityFn 2) CityFootprint-FC-City-GeorgeTown (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-250) ((STEMQuantityFn 5) FC-City-GeorgeTown (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-250) ((STEMQuantityFn 6) UnitGroupFootprint-205010 (FreecivUnitCountFn 7)))
+
+(holdsIn (EndFn STEntity-250) ((STEMQuantityFn 6) UnitGroupFootprint-207846 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-250) ((STEMQuantityFn 7) UnitGroupFootprint-205010 (FreecivTileArea 62)))
+
+(holdsIn (EndFn STEntity-250) ((STEMQuantityFn 7) UnitGroupFootprint-207846 (FreecivTileArea 8)))
+
+(holdsIn (StartFn STEntity-250) ((STEMQuantityFn 2) CityFootprint-FC-City-GeorgeTown (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-250) ((STEMQuantityFn 5) FC-City-GeorgeTown (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-250) ((STEMQuantityFn 6) UnitGroupFootprint-205010 (FreecivUnitCountFn 7)))
+
+(holdsIn (StartFn STEntity-250) ((STEMQuantityFn 6) UnitGroupFootprint-207846 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-250) ((STEMQuantityFn 7) UnitGroupFootprint-205010 (FreecivTileArea 62)))
+
+(holdsIn (StartFn STEntity-250) ((STEMQuantityFn 7) UnitGroupFootprint-207846 (FreecivTileArea 8)))
+
+(increasingIn BoundedTemporalEntity-12631 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12653 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12738 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12768 ((MeasurableQuantityFn citySize) FC-City-GeorgeTown))
+
+(increasingIn BoundedTemporalEntity-12785 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12814 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12818 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(isa CityFootprint-FC-City-GeorgeTown CityFootprint)
+
+(isa FC-City-GeorgeTown FreeCiv-City)
+
+(isa STEntity-250 DefensiveEpisodeFailure)
+
+(isa STEntity-250 SpatiotemporalEvent)
+
+(isa Unit-173 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-205010 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-207846 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-12768 BoundedTemporalEntity-12596)
+
+(startsAfterStartingOf BoundedTemporalEntity-12768 BoundedTemporalEntity-12597)
+
+(startsAtSameTime BoundedTemporalEntity-12850 BoundedTemporalEntity-12847)
+
+(startsBeforeStartingOf BoundedTemporalEntity-12814 BoundedTemporalEntity-12855)
+
+(terrainAt (FreecivLocationFn 21 11) FC-Terrain-Hills)
+
+(unitOwner Unit-173 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-12597 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GeorgeTown))

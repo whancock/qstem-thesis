@@ -1,0 +1,184 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-DayrAs-Zawr) (TemporalIntervalFn STEntity-273)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-DayrAs-Zawr) (TemporalIntervalFn STEntity-273)))
+(aia-DI BoundedTemporalEntity-15053 BoundedTemporalEntity-15243)
+
+(aia-MI BoundedTemporalEntity-14871 BoundedTemporalEntity-14852)
+
+(aia-MI BoundedTemporalEntity-14941 BoundedTemporalEntity-14871)
+
+(aia-MI BoundedTemporalEntity-14945 BoundedTemporalEntity-14941)
+
+(aia-MI BoundedTemporalEntity-15005 BoundedTemporalEntity-14945)
+
+(aia-MI BoundedTemporalEntity-15053 BoundedTemporalEntity-14911)
+
+(aia-MI BoundedTemporalEntity-15243 BoundedTemporalEntity-14910)
+
+(aia-MI BoundedTemporalEntity-15496 BoundedTemporalEntity-15243)
+
+(aia-MI BoundedTemporalEntity-15588 BoundedTemporalEntity-15579)
+
+(aia-MI BoundedTemporalEntity-15589 BoundedTemporalEntity-15580)
+
+(aia-MI BoundedTemporalEntity-15603 BoundedTemporalEntity-15588)
+
+(aia-MI BoundedTemporalEntity-15604 BoundedTemporalEntity-15589)
+
+(aia-MI BoundedTemporalEntity-15606 BoundedTemporalEntity-15603)
+
+(aia-MI BoundedTemporalEntity-15607 BoundedTemporalEntity-15604)
+
+(aia-MI BoundedTemporalEntity-15610 BoundedTemporalEntity-15606)
+
+(aia-MI BoundedTemporalEntity-15616 BoundedTemporalEntity-15610)
+
+(aia-MI BoundedTemporalEntity-15624 BoundedTemporalEntity-15616)
+
+(aia-MI BoundedTemporalEntity-15627 BoundedTemporalEntity-15624)
+
+(aia-MI BoundedTemporalEntity-15628 BoundedTemporalEntity-15607)
+
+(aia-MI BoundedTemporalEntity-15632 BoundedTemporalEntity-15628)
+
+(aia-MI BoundedTemporalEntity-15637 BoundedTemporalEntity-15627)
+
+(aia-MI BoundedTemporalEntity-15638 BoundedTemporalEntity-15632)
+
+(aia-MI BoundedTemporalEntity-15650 BoundedTemporalEntity-15637)
+
+(aia-MI BoundedTemporalEntity-15651 BoundedTemporalEntity-15637)
+
+(aia-MI BoundedTemporalEntity-15651 BoundedTemporalEntity-15638)
+
+(aia-MI BoundedTemporalEntity-15664 BoundedTemporalEntity-15650)
+
+(aia-OI BoundedTemporalEntity-15053 BoundedTemporalEntity-14910)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15579)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15588)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15603)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15606)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15610)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15616)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15624)
+
+(aia-OI BoundedTemporalEntity-15651 BoundedTemporalEntity-15627)
+
+(aia-SI BoundedTemporalEntity-15651 BoundedTemporalEntity-15650)
+
+(cityOwner FC-City-DayrAs-Zawr FC-Player-TajAl-DinAl-Hasani)
+
+(constantAcrossBounds STEntity-273 ((STEMQuantityFn 6) UnitGroupFootprint-240661))
+
+(constantAcrossBounds STEntity-273 ((STEMQuantityFn 6) UnitGroupFootprint-252274))
+
+(constantAcrossBounds STEntity-273 ((STEMQuantityFn 7) UnitGroupFootprint-240661))
+
+(constantAcrossBounds STEntity-273 ((STEMQuantityFn 7) UnitGroupFootprint-252274))
+
+(constantIn BoundedTemporalEntity-14853 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-DayrAs-Zawr))
+
+(constantIn BoundedTemporalEntity-14910 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-240661))
+
+(constantIn BoundedTemporalEntity-15005 ((MeasurableQuantityFn citySize) FC-City-DayrAs-Zawr))
+
+(constantIn BoundedTemporalEntity-15496 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-240661))
+
+(constantIn BoundedTemporalEntity-15579 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(currentActivity Unit-228 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-15603 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(decreasingIn BoundedTemporalEntity-15610 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(decreasingIn BoundedTemporalEntity-15624 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(decreasingIn BoundedTemporalEntity-15637 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(decreasingIn BoundedTemporalEntity-15664 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(defenseBonus FC-City-DayrAs-Zawr 50)
+
+(fcObjectAt FC-City-DayrAs-Zawr (FreecivLocationFn 1 9))
+
+(fcObjectAt Unit-228 (FreecivLocationFn 1 9))
+
+(footprintOf FC-City-DayrAs-Zawr CityFootprint-FC-City-DayrAs-Zawr)
+
+(hasAmount FC-City-DayrAs-Zawr (MediumAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-273) ((STEMQuantityFn 2) CityFootprint-FC-City-DayrAs-Zawr (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-273) ((STEMQuantityFn 5) FC-City-DayrAs-Zawr (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-273) ((STEMQuantityFn 6) UnitGroupFootprint-240661 (FreecivUnitCountFn 17)))
+
+(holdsIn (EndFn STEntity-273) ((STEMQuantityFn 6) UnitGroupFootprint-252274 (FreecivUnitCountFn 17)))
+
+(holdsIn (EndFn STEntity-273) ((STEMQuantityFn 7) UnitGroupFootprint-240661 (FreecivTileArea 35)))
+
+(holdsIn (EndFn STEntity-273) ((STEMQuantityFn 7) UnitGroupFootprint-252274 (FreecivTileArea 284)))
+
+(holdsIn (StartFn STEntity-273) ((STEMQuantityFn 2) CityFootprint-FC-City-DayrAs-Zawr (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-273) ((STEMQuantityFn 5) FC-City-DayrAs-Zawr (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-273) ((STEMQuantityFn 6) UnitGroupFootprint-240661 (FreecivUnitCountFn 17)))
+
+(holdsIn (StartFn STEntity-273) ((STEMQuantityFn 6) UnitGroupFootprint-252274 (FreecivUnitCountFn 17)))
+
+(holdsIn (StartFn STEntity-273) ((STEMQuantityFn 7) UnitGroupFootprint-240661 (FreecivTileArea 35)))
+
+(holdsIn (StartFn STEntity-273) ((STEMQuantityFn 7) UnitGroupFootprint-252274 (FreecivTileArea 284)))
+
+(increasingIn BoundedTemporalEntity-15053 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-240661))
+
+(increasingIn BoundedTemporalEntity-15243 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-240661))
+
+(increasingIn BoundedTemporalEntity-15588 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(increasingIn BoundedTemporalEntity-15606 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(increasingIn BoundedTemporalEntity-15616 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(increasingIn BoundedTemporalEntity-15627 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(increasingIn BoundedTemporalEntity-15650 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-252274))
+
+(increasingIn BoundedTemporalEntity-15651 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-252274))
+
+(isa CityFootprint-FC-City-DayrAs-Zawr CityFootprint)
+
+(isa FC-City-DayrAs-Zawr FreeCiv-City)
+
+(isa STEntity-273 DefensiveEpisodeFailure)
+
+(isa STEntity-273 SpatiotemporalEvent)
+
+(isa Unit-228 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-240661 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-252274 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-15005 BoundedTemporalEntity-14853)
+
+(startsAfterStartingOf BoundedTemporalEntity-15005 BoundedTemporalEntity-14854)
+
+(startsBeforeStartingOf BoundedTemporalEntity-15053 BoundedTemporalEntity-15496)
+
+(startsBeforeStartingOf BoundedTemporalEntity-15651 BoundedTemporalEntity-15664)
+
+(terrainAt (FreecivLocationFn 1 9) FC-Terrain-Swamp)
+
+(unitOwner Unit-228 FC-Player-JohanDeWitt)
+
+(zeroIn BoundedTemporalEntity-14854 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-DayrAs-Zawr))

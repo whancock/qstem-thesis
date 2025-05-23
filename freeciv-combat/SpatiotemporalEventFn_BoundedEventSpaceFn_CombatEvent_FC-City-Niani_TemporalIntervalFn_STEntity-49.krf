@@ -1,0 +1,252 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Niani) (TemporalIntervalFn STEntity-49)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Niani) (TemporalIntervalFn STEntity-49)))
+((HasImprovementFn FC-Building-Barracks) FC-City-Niani)
+
+(aia-MI BoundedTemporalEntity-3112 BoundedTemporalEntity-3104)
+
+(aia-MI BoundedTemporalEntity-3116 BoundedTemporalEntity-3112)
+
+(aia-MI BoundedTemporalEntity-3123 BoundedTemporalEntity-3116)
+
+(aia-MI BoundedTemporalEntity-3124 BoundedTemporalEntity-3123)
+
+(aia-MI BoundedTemporalEntity-3145 BoundedTemporalEntity-3124)
+
+(aia-MI BoundedTemporalEntity-3147 BoundedTemporalEntity-3145)
+
+(aia-MI BoundedTemporalEntity-3187 BoundedTemporalEntity-3147)
+
+(aia-MI BoundedTemporalEntity-3188 BoundedTemporalEntity-3187)
+
+(aia-MI BoundedTemporalEntity-3189 BoundedTemporalEntity-3181)
+
+(aia-MI BoundedTemporalEntity-3190 BoundedTemporalEntity-3182)
+
+(aia-MI BoundedTemporalEntity-3191 BoundedTemporalEntity-3105)
+
+(aia-MI BoundedTemporalEntity-3192 BoundedTemporalEntity-3106)
+
+(aia-MI BoundedTemporalEntity-3207 BoundedTemporalEntity-3188)
+
+(aia-MI BoundedTemporalEntity-3252 BoundedTemporalEntity-3207)
+
+(aia-MI BoundedTemporalEntity-3278 BoundedTemporalEntity-3191)
+
+(aia-MI BoundedTemporalEntity-3364 BoundedTemporalEntity-3189)
+
+(aia-MI BoundedTemporalEntity-3365 BoundedTemporalEntity-3190)
+
+(aia-MI BoundedTemporalEntity-3387 BoundedTemporalEntity-3364)
+
+(aia-MI BoundedTemporalEntity-3388 BoundedTemporalEntity-3365)
+
+(aia-MI BoundedTemporalEntity-3392 BoundedTemporalEntity-3252)
+
+(aia-MI BoundedTemporalEntity-3423 BoundedTemporalEntity-3388)
+
+(aia-MI BoundedTemporalEntity-3435 BoundedTemporalEntity-3387)
+
+(aia-MI BoundedTemporalEntity-3436 BoundedTemporalEntity-3387)
+
+(aia-MI BoundedTemporalEntity-3436 BoundedTemporalEntity-3423)
+
+(aia-MI BoundedTemporalEntity-3444 BoundedTemporalEntity-3278)
+
+(aia-MI BoundedTemporalEntity-3445 BoundedTemporalEntity-3192)
+
+(aia-MI BoundedTemporalEntity-3460 BoundedTemporalEntity-3450)
+
+(aia-MI BoundedTemporalEntity-3461 BoundedTemporalEntity-3453)
+
+(aia-MI BoundedTemporalEntity-3464 BoundedTemporalEntity-3460)
+
+(aia-MI BoundedTemporalEntity-3465 BoundedTemporalEntity-3461)
+
+(aia-MI BoundedTemporalEntity-3468 BoundedTemporalEntity-3464)
+
+(aia-MI BoundedTemporalEntity-3489 BoundedTemporalEntity-3465)
+
+(aia-MI BoundedTemporalEntity-3490 BoundedTemporalEntity-3392)
+
+(aia-MI BoundedTemporalEntity-3493 BoundedTemporalEntity-3490)
+
+(aia-OI BoundedTemporalEntity-3436 BoundedTemporalEntity-3181)
+
+(aia-OI BoundedTemporalEntity-3436 BoundedTemporalEntity-3189)
+
+(aia-OI BoundedTemporalEntity-3436 BoundedTemporalEntity-3364)
+
+(aia-OI BoundedTemporalEntity-3489 BoundedTemporalEntity-3450)
+
+(aia-OI BoundedTemporalEntity-3489 BoundedTemporalEntity-3460)
+
+(aia-OI BoundedTemporalEntity-3489 BoundedTemporalEntity-3464)
+
+(aia-OI BoundedTemporalEntity-3493 BoundedTemporalEntity-3105)
+
+(aia-OI BoundedTemporalEntity-3493 BoundedTemporalEntity-3106)
+
+(aia-OI BoundedTemporalEntity-3493 BoundedTemporalEntity-3191)
+
+(aia-OI BoundedTemporalEntity-3493 BoundedTemporalEntity-3192)
+
+(aia-OI BoundedTemporalEntity-3493 BoundedTemporalEntity-3278)
+
+(cityOwner FC-City-Niani FC-Player-Sakura)
+
+(constantAcrossBounds STEntity-49 ((STEMQuantityFn 5) FC-City-Niani))
+
+(constantIn BoundedTemporalEntity-3105 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))
+
+(constantIn BoundedTemporalEntity-3181 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(constantIn BoundedTemporalEntity-3278 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))
+
+(constantIn BoundedTemporalEntity-3364 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(constantIn BoundedTemporalEntity-3450 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-59141))
+
+(currentActivity Unit-440 FC-ActivityIdle)
+
+(currentActivity Unit-499 FC-ActivityIdle)
+
+(currentActivity Unit-502 FC-ActivityFortifying)
+
+(currentActivity Unit-511 FC-ActivityFortifying)
+
+(decreasingAcrossBounds STEntity-49 ((STEMQuantityFn 2) CityFootprint-FC-City-Niani))
+
+(decreasingAcrossBounds STEntity-49 ((STEMQuantityFn 6) UnitGroupFootprint-55551))
+
+(decreasingAcrossBounds STEntity-49 ((STEMQuantityFn 6) UnitGroupFootprint-59002))
+
+(decreasingAcrossBounds STEntity-49 ((STEMQuantityFn 6) UnitGroupFootprint-59141))
+
+(decreasingAcrossBounds STEntity-49 ((STEMQuantityFn 7) UnitGroupFootprint-59002))
+
+(decreasingAcrossBounds STEntity-49 ((STEMQuantityFn 7) UnitGroupFootprint-59141))
+
+(decreasingIn BoundedTemporalEntity-3387 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(decreasingIn BoundedTemporalEntity-3436 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-55551))
+
+(decreasingIn BoundedTemporalEntity-3444 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))
+
+(decreasingIn BoundedTemporalEntity-3460 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-59141))
+
+(decreasingIn BoundedTemporalEntity-3468 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-59141))
+
+(decreasingIn BoundedTemporalEntity-3489 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-59141))
+
+(decreasingIn BoundedTemporalEntity-3493 ((MeasurableQuantityFn citySize) FC-City-Niani))
+
+(defenseBonus FC-City-Niani 100)
+
+(fcObjectAt FC-City-Niani (FreecivLocationFn 3 27))
+
+(fcObjectAt Unit-499 (FreecivLocationFn 3 27))
+
+(footprintOf FC-City-Niani CityFootprint-FC-City-Niani)
+
+(hasAmount FC-City-Niani (HighAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 2) CityFootprint-FC-City-Niani (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 5) FC-City-Niani (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-55551 (FreecivUnitCountFn 4)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-57474 (FreecivUnitCountFn 7)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-59002 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-59141 (FreecivUnitCountFn 3)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-55551 (FreecivTileArea 36)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-57474 (FreecivTileArea 19)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-59002 (FreecivTileArea 42)))
+
+(holdsIn (EndFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-59141 (FreecivTileArea 11)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 2) CityFootprint-FC-City-Niani (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 5) FC-City-Niani (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-55551 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-57474 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-59002 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 6) UnitGroupFootprint-59141 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-55551 (FreecivTileArea 35)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-57474 (FreecivTileArea 8)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-59002 (FreecivTileArea 74)))
+
+(holdsIn (StartFn STEntity-49) ((STEMQuantityFn 7) UnitGroupFootprint-59141 (FreecivTileArea 46)))
+
+(increasingAcrossBounds STEntity-49 ((STEMQuantityFn 6) UnitGroupFootprint-57474))
+
+(increasingAcrossBounds STEntity-49 ((STEMQuantityFn 7) UnitGroupFootprint-55551))
+
+(increasingAcrossBounds STEntity-49 ((STEMQuantityFn 7) UnitGroupFootprint-57474))
+
+(increasingIn BoundedTemporalEntity-3189 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(increasingIn BoundedTemporalEntity-3191 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))
+
+(increasingIn BoundedTemporalEntity-3435 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-55551))
+
+(increasingIn BoundedTemporalEntity-3464 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-59141))
+
+(isa CityFootprint-FC-City-Niani CityFootprint)
+
+(isa FC-City-Niani FreeCiv-City)
+
+(isa STEntity-49 DefensiveEpisodeFailure)
+
+(isa STEntity-49 SpatiotemporalEvent)
+
+(isa Unit-440 FC-Unit-Cannon)
+
+(isa Unit-499 FC-Unit-Cannon)
+
+(isa Unit-502 FC-Unit-Cannon)
+
+(isa Unit-511 FC-Unit-Cannon)
+
+(isa UnitGroupFootprint-55551 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-57474 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-59002 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-59141 UnitGroupFootprint)
+
+(someIn BoundedTemporalEntity-3192 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))
+
+(startsAfterStartingOf BoundedTemporalEntity-3489 BoundedTemporalEntity-3468)
+
+(startsAfterStartingOf BoundedTemporalEntity-3493 BoundedTemporalEntity-3444)
+
+(startsAfterStartingOf BoundedTemporalEntity-3493 BoundedTemporalEntity-3445)
+
+(startsAtSameTime BoundedTemporalEntity-3436 BoundedTemporalEntity-3435)
+
+(terrainAt (FreecivLocationFn 3 27) FC-Terrain-Hills)
+
+(unitOwner Unit-499 FC-Player-VasileLupu)
+
+(unitOwner Unit-502 FC-Player-VasileLupu)
+
+(unitOwner Unit-511 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3106 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))
+
+(zeroIn BoundedTemporalEntity-3445 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))

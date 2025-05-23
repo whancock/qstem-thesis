@@ -1,0 +1,98 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SablaPlaÄ?o) (TemporalIntervalFn STEntity-285)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SablaPlaÄ?o) (TemporalIntervalFn STEntity-285)))
+((HasImprovementFn FC-Building-Barracks) FC-City-SablaPlaÄ?o)
+
+(aia-MI BoundedTemporalEntity-16305 BoundedTemporalEntity-16295)
+
+(aia-MI BoundedTemporalEntity-16325 BoundedTemporalEntity-16305)
+
+(aia-MI BoundedTemporalEntity-16351 BoundedTemporalEntity-16325)
+
+(aia-MI BoundedTemporalEntity-16374 BoundedTemporalEntity-16369)
+
+(aia-MI BoundedTemporalEntity-16380 BoundedTemporalEntity-16370)
+
+(aia-MI BoundedTemporalEntity-16381 BoundedTemporalEntity-16374)
+
+(aia-MI BoundedTemporalEntity-16382 BoundedTemporalEntity-16374)
+
+(aia-MI BoundedTemporalEntity-16382 BoundedTemporalEntity-16380)
+
+(aia-MI BoundedTemporalEntity-16386 BoundedTemporalEntity-16381)
+
+(aia-OI BoundedTemporalEntity-16382 BoundedTemporalEntity-16369)
+
+(aia-SI BoundedTemporalEntity-16382 BoundedTemporalEntity-16381)
+
+(cityOwner FC-City-SablaPlaÄ?o FC-Player-MarttiAhtisaari)
+
+(constantAcrossBounds STEntity-285 ((STEMQuantityFn 6) UnitGroupFootprint-265656))
+
+(constantAcrossBounds STEntity-285 ((STEMQuantityFn 7) UnitGroupFootprint-265656))
+
+(constantIn BoundedTemporalEntity-16296 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SablaPlaÄ?o))
+
+(constantIn BoundedTemporalEntity-16369 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265656))
+
+(currentActivity Unit-164 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-16374 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265656))
+
+(decreasingIn BoundedTemporalEntity-16386 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265656))
+
+(defenseBonus FC-City-SablaPlaÄ?o 0)
+
+(fcObjectAt FC-City-SablaPlaÄ?o (FreecivLocationFn 20 7))
+
+(fcObjectAt Unit-164 (FreecivLocationFn 20 7))
+
+(footprintOf FC-City-SablaPlaÄ?o CityFootprint-FC-City-SablaPlaÄ?o)
+
+(hasAmount FC-City-SablaPlaÄ?o (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-285) ((STEMQuantityFn 2) CityFootprint-FC-City-SablaPlaÄ?o (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-285) ((STEMQuantityFn 5) FC-City-SablaPlaÄ?o (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-285) ((STEMQuantityFn 6) UnitGroupFootprint-265656 (FreecivUnitCountFn 2)))
+
+(holdsIn (EndFn STEntity-285) ((STEMQuantityFn 7) UnitGroupFootprint-265656 (FreecivTileArea 22)))
+
+(holdsIn (StartFn STEntity-285) ((STEMQuantityFn 2) CityFootprint-FC-City-SablaPlaÄ?o (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-285) ((STEMQuantityFn 5) FC-City-SablaPlaÄ?o (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-285) ((STEMQuantityFn 6) UnitGroupFootprint-265656 (FreecivUnitCountFn 2)))
+
+(holdsIn (StartFn STEntity-285) ((STEMQuantityFn 7) UnitGroupFootprint-265656 (FreecivTileArea 22)))
+
+(increasingIn BoundedTemporalEntity-16351 ((MeasurableQuantityFn citySize) FC-City-SablaPlaÄ?o))
+
+(increasingIn BoundedTemporalEntity-16381 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265656))
+
+(increasingIn BoundedTemporalEntity-16382 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-265656))
+
+(isa CityFootprint-FC-City-SablaPlaÄ?o CityFootprint)
+
+(isa FC-City-SablaPlaÄ?o FreeCiv-City)
+
+(isa STEntity-285 DefensiveEpisodeFailure)
+
+(isa STEntity-285 SpatiotemporalEvent)
+
+(isa Unit-164 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-265656 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-16351 BoundedTemporalEntity-16296)
+
+(startsAfterStartingOf BoundedTemporalEntity-16351 BoundedTemporalEntity-16297)
+
+(startsBeforeStartingOf BoundedTemporalEntity-16382 BoundedTemporalEntity-16386)
+
+(terrainAt (FreecivLocationFn 20 7) FC-Terrain-Grassland)
+
+(unitOwner Unit-164 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-16297 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SablaPlaÄ?o))

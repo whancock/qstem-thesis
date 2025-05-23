@@ -1,0 +1,170 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Beijing) (TemporalIntervalFn STEntity-354)), dumped 5/23/2025 11:29:3 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Beijing) (TemporalIntervalFn STEntity-354)))
+((Area (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivTileArea 14))
+
+((Area (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivTileArea 22))
+
+((Area (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivTileArea 14))
+
+((Area (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivTileArea 8))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivUnitCountFn 3))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Beijing)
+
+((citySize (AtFn (EndFn STEntity-354) STEntity-354)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-354) STEntity-354)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7040 BoundedTemporalEntity-7008)
+
+(aia-MI BoundedTemporalEntity-7041 BoundedTemporalEntity-7040)
+
+(aia-MI BoundedTemporalEntity-7104 BoundedTemporalEntity-7041)
+
+(aia-MI BoundedTemporalEntity-7117 BoundedTemporalEntity-7104)
+
+(aia-MI BoundedTemporalEntity-7131 BoundedTemporalEntity-7117)
+
+(aia-MI BoundedTemporalEntity-7215 BoundedTemporalEntity-7131)
+
+(aia-MI BoundedTemporalEntity-7338 BoundedTemporalEntity-7333)
+
+(aia-MI BoundedTemporalEntity-7339 BoundedTemporalEntity-7334)
+
+(aia-MI BoundedTemporalEntity-7343 BoundedTemporalEntity-7338)
+
+(aia-MI BoundedTemporalEntity-7344 BoundedTemporalEntity-7339)
+
+(aia-MI BoundedTemporalEntity-7351 BoundedTemporalEntity-7344)
+
+(aia-MI BoundedTemporalEntity-7365 BoundedTemporalEntity-7343)
+
+(aia-MI BoundedTemporalEntity-7366 BoundedTemporalEntity-7302)
+
+(aia-MI BoundedTemporalEntity-7367 BoundedTemporalEntity-7303)
+
+(aia-MI BoundedTemporalEntity-7376 BoundedTemporalEntity-7365)
+
+(aia-MI BoundedTemporalEntity-7382 BoundedTemporalEntity-7351)
+
+(aia-MI BoundedTemporalEntity-7383 BoundedTemporalEntity-7366)
+
+(aia-MI BoundedTemporalEntity-7388 BoundedTemporalEntity-7367)
+
+(aia-MI BoundedTemporalEntity-7396 BoundedTemporalEntity-7376)
+
+(aia-MI BoundedTemporalEntity-7397 BoundedTemporalEntity-7383)
+
+(aia-MI BoundedTemporalEntity-7398 BoundedTemporalEntity-7383)
+
+(aia-MI BoundedTemporalEntity-7398 BoundedTemporalEntity-7388)
+
+(aia-OI BoundedTemporalEntity-7382 BoundedTemporalEntity-7333)
+
+(aia-OI BoundedTemporalEntity-7382 BoundedTemporalEntity-7338)
+
+(aia-OI BoundedTemporalEntity-7382 BoundedTemporalEntity-7343)
+
+(aia-OI BoundedTemporalEntity-7382 BoundedTemporalEntity-7365)
+
+(aia-OI BoundedTemporalEntity-7382 BoundedTemporalEntity-7376)
+
+(aia-OI BoundedTemporalEntity-7398 BoundedTemporalEntity-7302)
+
+(aia-OI BoundedTemporalEntity-7398 BoundedTemporalEntity-7366)
+
+(cityOwner FC-City-Beijing FC-Player-DengXiaoping)
+
+(constantIn BoundedTemporalEntity-7010 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Beijing))
+
+(constantIn BoundedTemporalEntity-7215 ((MeasurableQuantityFn citySize) FC-City-Beijing))
+
+(constantIn BoundedTemporalEntity-7220 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1315560))
+
+(constantIn BoundedTemporalEntity-7222 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1315560))
+
+(constantIn BoundedTemporalEntity-7302 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1521132))
+
+(constantIn BoundedTemporalEntity-7333 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1563187))
+
+(currentActivity Unit-204 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Beijing (FreecivLocationFn 23 23))
+
+(fcObjectAt Unit-204 (FreecivLocationFn 23 23))
+
+(footprintOf FC-City-Beijing CityFootprint-FC-City-Beijing)
+
+(isa CityFootprint-FC-City-Beijing CityFootprint)
+
+(isa FC-City-Beijing FreeCiv-City)
+
+(isa STEntity-354 DefensiveEpisodeFailure)
+
+(isa STEntity-354 SpatiotemporalEvent)
+
+(isa Unit-204 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-1315560 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1521132 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1563187 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7338 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1563187))
+
+(nondecreasingIn BoundedTemporalEntity-7365 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1563187))
+
+(nondecreasingIn BoundedTemporalEntity-7366 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1521132))
+
+(nondecreasingIn BoundedTemporalEntity-7396 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1563187))
+
+(nondecreasingIn BoundedTemporalEntity-7397 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1521132))
+
+(nondecreasingIn BoundedTemporalEntity-7398 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1521132))
+
+(nonincreasingIn BoundedTemporalEntity-7343 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1563187))
+
+(nonincreasingIn BoundedTemporalEntity-7376 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1563187))
+
+(nonincreasingIn BoundedTemporalEntity-7382 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1563187))
+
+(nonincreasingIn BoundedTemporalEntity-7383 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1521132))
+
+(startsAfterStartingOf BoundedTemporalEntity-7215 BoundedTemporalEntity-7010)
+
+(startsAfterStartingOf BoundedTemporalEntity-7215 BoundedTemporalEntity-7011)
+
+(startsAtSameTime BoundedTemporalEntity-7222 BoundedTemporalEntity-7220)
+
+(startsAtSameTime BoundedTemporalEntity-7398 BoundedTemporalEntity-7397)
+
+(startsBeforeStartingOf BoundedTemporalEntity-7382 BoundedTemporalEntity-7396)
+
+(unitOwner Unit-204 FC-Player-Cuauhtemoc)
+
+(zeroIn BoundedTemporalEntity-7011 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Beijing))

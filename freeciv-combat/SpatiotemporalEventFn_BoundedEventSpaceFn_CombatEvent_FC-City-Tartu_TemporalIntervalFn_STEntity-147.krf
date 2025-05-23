@@ -1,0 +1,154 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tartu) (TemporalIntervalFn STEntity-147)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tartu) (TemporalIntervalFn STEntity-147)))
+(aia-DI BoundedTemporalEntity-7756 BoundedTemporalEntity-7760)
+
+(aia-MI BoundedTemporalEntity-7554 BoundedTemporalEntity-7544)
+
+(aia-MI BoundedTemporalEntity-7560 BoundedTemporalEntity-7554)
+
+(aia-MI BoundedTemporalEntity-7571 BoundedTemporalEntity-7560)
+
+(aia-MI BoundedTemporalEntity-7584 BoundedTemporalEntity-7571)
+
+(aia-MI BoundedTemporalEntity-7621 BoundedTemporalEntity-7584)
+
+(aia-MI BoundedTemporalEntity-7629 BoundedTemporalEntity-7603)
+
+(aia-MI BoundedTemporalEntity-7631 BoundedTemporalEntity-7621)
+
+(aia-MI BoundedTemporalEntity-7642 BoundedTemporalEntity-7602)
+
+(aia-MI BoundedTemporalEntity-7708 BoundedTemporalEntity-7629)
+
+(aia-MI BoundedTemporalEntity-7725 BoundedTemporalEntity-7708)
+
+(aia-MI BoundedTemporalEntity-7748 BoundedTemporalEntity-7745)
+
+(aia-MI BoundedTemporalEntity-7752 BoundedTemporalEntity-7748)
+
+(aia-MI BoundedTemporalEntity-7753 BoundedTemporalEntity-7752)
+
+(aia-MI BoundedTemporalEntity-7754 BoundedTemporalEntity-7753)
+
+(aia-MI BoundedTemporalEntity-7755 BoundedTemporalEntity-7746)
+
+(aia-MI BoundedTemporalEntity-7756 BoundedTemporalEntity-7755)
+
+(aia-MI BoundedTemporalEntity-7759 BoundedTemporalEntity-7631)
+
+(aia-MI BoundedTemporalEntity-7760 BoundedTemporalEntity-7754)
+
+(aia-MI BoundedTemporalEntity-7763 BoundedTemporalEntity-7760)
+
+(aia-OI BoundedTemporalEntity-7725 BoundedTemporalEntity-7602)
+
+(aia-OI BoundedTemporalEntity-7756 BoundedTemporalEntity-7745)
+
+(aia-OI BoundedTemporalEntity-7756 BoundedTemporalEntity-7748)
+
+(aia-OI BoundedTemporalEntity-7756 BoundedTemporalEntity-7752)
+
+(aia-OI BoundedTemporalEntity-7756 BoundedTemporalEntity-7753)
+
+(aia-OI BoundedTemporalEntity-7756 BoundedTemporalEntity-7754)
+
+(cityOwner FC-City-Tartu FC-Player-ElizabethNicholls)
+
+(constantAcrossBounds STEntity-147 ((STEMQuantityFn 6) UnitGroupFootprint-129398))
+
+(constantAcrossBounds STEntity-147 ((STEMQuantityFn 6) UnitGroupFootprint-130891))
+
+(constantAcrossBounds STEntity-147 ((STEMQuantityFn 7) UnitGroupFootprint-129398))
+
+(constantAcrossBounds STEntity-147 ((STEMQuantityFn 7) UnitGroupFootprint-130891))
+
+(constantIn BoundedTemporalEntity-7545 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tartu))
+
+(constantIn BoundedTemporalEntity-7602 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129398))
+
+(constantIn BoundedTemporalEntity-7745 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-130891))
+
+(currentActivity Unit-277 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-7748 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-130891))
+
+(decreasingIn BoundedTemporalEntity-7753 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-130891))
+
+(decreasingIn BoundedTemporalEntity-7756 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-130891))
+
+(decreasingIn BoundedTemporalEntity-7760 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-130891))
+
+(defenseBonus FC-City-Tartu 0)
+
+(fcObjectAt FC-City-Tartu (FreecivLocationFn 3 8))
+
+(fcObjectAt Unit-277 (FreecivLocationFn 3 8))
+
+(footprintOf FC-City-Tartu CityFootprint-FC-City-Tartu)
+
+(hasAmount FC-City-Tartu (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-147) ((STEMQuantityFn 2) CityFootprint-FC-City-Tartu (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-147) ((STEMQuantityFn 5) FC-City-Tartu (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-147) ((STEMQuantityFn 6) UnitGroupFootprint-129398 (FreecivUnitCountFn 24)))
+
+(holdsIn (EndFn STEntity-147) ((STEMQuantityFn 6) UnitGroupFootprint-130891 (FreecivUnitCountFn 5)))
+
+(holdsIn (EndFn STEntity-147) ((STEMQuantityFn 7) UnitGroupFootprint-129398 (FreecivTileArea 77)))
+
+(holdsIn (EndFn STEntity-147) ((STEMQuantityFn 7) UnitGroupFootprint-130891 (FreecivTileArea 28)))
+
+(holdsIn (StartFn STEntity-147) ((STEMQuantityFn 2) CityFootprint-FC-City-Tartu (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-147) ((STEMQuantityFn 5) FC-City-Tartu (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-147) ((STEMQuantityFn 6) UnitGroupFootprint-129398 (FreecivUnitCountFn 24)))
+
+(holdsIn (StartFn STEntity-147) ((STEMQuantityFn 6) UnitGroupFootprint-130891 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-147) ((STEMQuantityFn 7) UnitGroupFootprint-129398 (FreecivTileArea 77)))
+
+(holdsIn (StartFn STEntity-147) ((STEMQuantityFn 7) UnitGroupFootprint-130891 (FreecivTileArea 28)))
+
+(increasingIn BoundedTemporalEntity-7642 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129398))
+
+(increasingIn BoundedTemporalEntity-7725 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-129398))
+
+(increasingIn BoundedTemporalEntity-7752 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-130891))
+
+(increasingIn BoundedTemporalEntity-7754 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-130891))
+
+(increasingIn BoundedTemporalEntity-7759 ((MeasurableQuantityFn citySize) FC-City-Tartu))
+
+(increasingIn BoundedTemporalEntity-7763 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-130891))
+
+(isa CityFootprint-FC-City-Tartu CityFootprint)
+
+(isa FC-City-Tartu FreeCiv-City)
+
+(isa STEntity-147 DefensiveEpisodeFailure)
+
+(isa STEntity-147 SpatiotemporalEvent)
+
+(isa Unit-277 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-129398 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-130891 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-7725 BoundedTemporalEntity-7642)
+
+(startsAfterStartingOf BoundedTemporalEntity-7759 BoundedTemporalEntity-7545)
+
+(startsAfterStartingOf BoundedTemporalEntity-7759 BoundedTemporalEntity-7546)
+
+(startsBeforeStartingOf BoundedTemporalEntity-7756 BoundedTemporalEntity-7763)
+
+(terrainAt (FreecivLocationFn 3 8) FC-Terrain-Plains)
+
+(unitOwner Unit-277 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-7546 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tartu))

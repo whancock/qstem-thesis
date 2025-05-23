@@ -1,0 +1,114 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SaintJoseph) (TemporalIntervalFn STEntity-165)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SaintJoseph) (TemporalIntervalFn STEntity-165)))
+(aia-MI BoundedTemporalEntity-8064 BoundedTemporalEntity-8057)
+
+(aia-MI BoundedTemporalEntity-8067 BoundedTemporalEntity-8056)
+
+(aia-MI BoundedTemporalEntity-8080 BoundedTemporalEntity-8064)
+
+(aia-MI BoundedTemporalEntity-8081 BoundedTemporalEntity-8067)
+
+(aia-MI BoundedTemporalEntity-8082 BoundedTemporalEntity-8080)
+
+(aia-MI BoundedTemporalEntity-8086 BoundedTemporalEntity-8081)
+
+(aia-MI BoundedTemporalEntity-8089 BoundedTemporalEntity-8082)
+
+(aia-MI BoundedTemporalEntity-8090 BoundedTemporalEntity-8086)
+
+(aia-MI BoundedTemporalEntity-8098 BoundedTemporalEntity-8090)
+
+(aia-MI BoundedTemporalEntity-8100 BoundedTemporalEntity-8098)
+
+(aia-MI BoundedTemporalEntity-8102 BoundedTemporalEntity-8089)
+
+(aia-OI BoundedTemporalEntity-8102 BoundedTemporalEntity-8056)
+
+(aia-OI BoundedTemporalEntity-8102 BoundedTemporalEntity-8067)
+
+(aia-OI BoundedTemporalEntity-8102 BoundedTemporalEntity-8081)
+
+(aia-OI BoundedTemporalEntity-8102 BoundedTemporalEntity-8086)
+
+(aia-OI BoundedTemporalEntity-8102 BoundedTemporalEntity-8090)
+
+(aia-OI BoundedTemporalEntity-8102 BoundedTemporalEntity-8098)
+
+(cityOwner FC-City-SaintJoseph FC-Player-PierreCharles)
+
+(constantAcrossBounds STEntity-165 ((STEMQuantityFn 6) UnitGroupFootprint-133870))
+
+(constantAcrossBounds STEntity-165 ((STEMQuantityFn 7) UnitGroupFootprint-133870))
+
+(constantIn BoundedTemporalEntity-8056 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(constantIn BoundedTemporalEntity-8070 ((MeasurableQuantityFn citySize) FC-City-SaintJoseph))
+
+(constantIn BoundedTemporalEntity-8071 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SaintJoseph))
+
+(currentActivity Unit-201 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-8067 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(decreasingIn BoundedTemporalEntity-8086 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(decreasingIn BoundedTemporalEntity-8098 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(defenseBonus FC-City-SaintJoseph 0)
+
+(fcObjectAt FC-City-SaintJoseph (FreecivLocationFn 51 32))
+
+(fcObjectAt Unit-201 (FreecivLocationFn 51 32))
+
+(footprintOf FC-City-SaintJoseph CityFootprint-FC-City-SaintJoseph)
+
+(hasAmount FC-City-SaintJoseph (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-165) ((STEMQuantityFn 2) CityFootprint-FC-City-SaintJoseph (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-165) ((STEMQuantityFn 5) FC-City-SaintJoseph (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-165) ((STEMQuantityFn 6) UnitGroupFootprint-133870 (FreecivUnitCountFn 3)))
+
+(holdsIn (EndFn STEntity-165) ((STEMQuantityFn 7) UnitGroupFootprint-133870 (FreecivTileArea 51)))
+
+(holdsIn (StartFn STEntity-165) ((STEMQuantityFn 2) CityFootprint-FC-City-SaintJoseph (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-165) ((STEMQuantityFn 5) FC-City-SaintJoseph (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-165) ((STEMQuantityFn 6) UnitGroupFootprint-133870 (FreecivUnitCountFn 3)))
+
+(holdsIn (StartFn STEntity-165) ((STEMQuantityFn 7) UnitGroupFootprint-133870 (FreecivTileArea 51)))
+
+(increasingIn BoundedTemporalEntity-8081 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(increasingIn BoundedTemporalEntity-8090 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(increasingIn BoundedTemporalEntity-8100 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(increasingIn BoundedTemporalEntity-8102 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-133870))
+
+(isa CityFootprint-FC-City-SaintJoseph CityFootprint)
+
+(isa FC-City-SaintJoseph FreeCiv-City)
+
+(isa STEntity-165 DefensiveEpisodeFailure)
+
+(isa STEntity-165 SpatiotemporalEvent)
+
+(isa Unit-201 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-133870 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-8102 BoundedTemporalEntity-8100)
+
+(startsAtSameTime BoundedTemporalEntity-8070 BoundedTemporalEntity-8071)
+
+(startsAtSameTime BoundedTemporalEntity-8070 BoundedTemporalEntity-8072)
+
+(terrainAt (FreecivLocationFn 51 32) FC-Terrain-Grassland)
+
+(unitOwner Unit-201 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-8072 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SaintJoseph))

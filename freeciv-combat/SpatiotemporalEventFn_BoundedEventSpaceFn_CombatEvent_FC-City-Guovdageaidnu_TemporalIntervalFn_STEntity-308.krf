@@ -1,0 +1,206 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guovdageaidnu) (TemporalIntervalFn STEntity-308)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guovdageaidnu) (TemporalIntervalFn STEntity-308)))
+((Area (AtFn (EndFn STEntity-308) STEntity-308)) (FreecivTileArea 33))
+
+((Area (AtFn (EndFn STEntity-308) STEntity-308)) (FreecivTileArea 57))
+
+((Area (AtFn (StartFn STEntity-308) STEntity-308)) (FreecivTileArea 33))
+
+((Area (AtFn (StartFn STEntity-308) STEntity-308)) (FreecivTileArea 57))
+
+((Defenders (AtFn (EndFn STEntity-308) STEntity-308)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-308) STEntity-308)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-308) STEntity-308)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-308) STEntity-308)) (FreecivUnitCountFn 5))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Guovdageaidnu)
+
+(aia-MI BoundedTemporalEntity-6134 BoundedTemporalEntity-6108)
+
+(aia-MI BoundedTemporalEntity-6136 BoundedTemporalEntity-6134)
+
+(aia-MI BoundedTemporalEntity-6146 BoundedTemporalEntity-6136)
+
+(aia-MI BoundedTemporalEntity-6147 BoundedTemporalEntity-6146)
+
+(aia-MI BoundedTemporalEntity-6157 BoundedTemporalEntity-6147)
+
+(aia-MI BoundedTemporalEntity-6171 BoundedTemporalEntity-6157)
+
+(aia-MI BoundedTemporalEntity-6196 BoundedTemporalEntity-6171)
+
+(aia-MI BoundedTemporalEntity-6223 BoundedTemporalEntity-6196)
+
+(aia-MI BoundedTemporalEntity-6270 BoundedTemporalEntity-6223)
+
+(aia-MI BoundedTemporalEntity-6275 BoundedTemporalEntity-6270)
+
+(aia-MI BoundedTemporalEntity-6312 BoundedTemporalEntity-6275)
+
+(aia-MI BoundedTemporalEntity-6317 BoundedTemporalEntity-6110)
+
+(aia-MI BoundedTemporalEntity-6318 BoundedTemporalEntity-6111)
+
+(aia-MI BoundedTemporalEntity-6332 BoundedTemporalEntity-6263)
+
+(aia-MI BoundedTemporalEntity-6333 BoundedTemporalEntity-6264)
+
+(aia-MI BoundedTemporalEntity-6343 BoundedTemporalEntity-6312)
+
+(aia-MI BoundedTemporalEntity-6346 BoundedTemporalEntity-6317)
+
+(aia-MI BoundedTemporalEntity-6347 BoundedTemporalEntity-6318)
+
+(aia-MI BoundedTemporalEntity-6426 BoundedTemporalEntity-6332)
+
+(aia-MI BoundedTemporalEntity-6427 BoundedTemporalEntity-6333)
+
+(aia-MI BoundedTemporalEntity-6490 BoundedTemporalEntity-6426)
+
+(aia-MI BoundedTemporalEntity-6491 BoundedTemporalEntity-6427)
+
+(aia-MI BoundedTemporalEntity-6505 BoundedTemporalEntity-6343)
+
+(aia-MI BoundedTemporalEntity-6511 BoundedTemporalEntity-6346)
+
+(aia-MI BoundedTemporalEntity-6560 BoundedTemporalEntity-6490)
+
+(aia-MI BoundedTemporalEntity-6561 BoundedTemporalEntity-6491)
+
+(aia-MI BoundedTemporalEntity-6570 BoundedTemporalEntity-6505)
+
+(aia-MI BoundedTemporalEntity-6656 BoundedTemporalEntity-6560)
+
+(aia-MI BoundedTemporalEntity-6657 BoundedTemporalEntity-6561)
+
+(aia-MI BoundedTemporalEntity-6659 BoundedTemporalEntity-6511)
+
+(aia-MI BoundedTemporalEntity-6660 BoundedTemporalEntity-6347)
+
+(aia-MI BoundedTemporalEntity-6668 BoundedTemporalEntity-6570)
+
+(aia-MI BoundedTemporalEntity-6737 BoundedTemporalEntity-6656)
+
+(aia-MI BoundedTemporalEntity-6738 BoundedTemporalEntity-6656)
+
+(aia-MI BoundedTemporalEntity-6738 BoundedTemporalEntity-6657)
+
+(aia-MI BoundedTemporalEntity-6740 BoundedTemporalEntity-6659)
+
+(aia-MI BoundedTemporalEntity-6746 BoundedTemporalEntity-6668)
+
+(aia-MI BoundedTemporalEntity-6770 BoundedTemporalEntity-6759)
+
+(aia-MI BoundedTemporalEntity-6771 BoundedTemporalEntity-6759)
+
+(aia-MI BoundedTemporalEntity-6771 BoundedTemporalEntity-6760)
+
+(aia-MI BoundedTemporalEntity-6775 BoundedTemporalEntity-6770)
+
+(aia-OI BoundedTemporalEntity-6738 BoundedTemporalEntity-6263)
+
+(aia-OI BoundedTemporalEntity-6738 BoundedTemporalEntity-6332)
+
+(aia-OI BoundedTemporalEntity-6738 BoundedTemporalEntity-6426)
+
+(aia-OI BoundedTemporalEntity-6738 BoundedTemporalEntity-6490)
+
+(aia-OI BoundedTemporalEntity-6738 BoundedTemporalEntity-6560)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6110)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6111)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6317)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6318)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6346)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6347)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6511)
+
+(aia-OI BoundedTemporalEntity-6746 BoundedTemporalEntity-6659)
+
+(aia-SI BoundedTemporalEntity-6771 BoundedTemporalEntity-6770)
+
+(cityOwner FC-City-Guovdageaidnu FC-Player-Shulgi)
+
+(constantIn BoundedTemporalEntity-6110 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(constantIn BoundedTemporalEntity-6263 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6346 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(constantIn BoundedTemporalEntity-6426 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6511 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(constantIn BoundedTemporalEntity-6560 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6737 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6738 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6740 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(constantIn BoundedTemporalEntity-6759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-948227))
+
+(fcObjectAt FC-City-Guovdageaidnu (FreecivLocationFn 23 7))
+
+(fcObjectAt Unit-422 (FreecivLocationFn 23 7))
+
+(fcObjectAt Unit-472 (FreecivLocationFn 23 7))
+
+(footprintOf FC-City-Guovdageaidnu CityFootprint-FC-City-Guovdageaidnu)
+
+(isa CityFootprint-FC-City-Guovdageaidnu CityFootprint)
+
+(isa FC-City-Guovdageaidnu FreeCiv-City)
+
+(isa STEntity-308 DefensiveEpisodeFailure)
+
+(isa STEntity-308 SpatiotemporalEvent)
+
+(isa UnitGroupFootprint-523505 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-948227 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6317 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(nondecreasingIn BoundedTemporalEntity-6332 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(nondecreasingIn BoundedTemporalEntity-6490 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(nondecreasingIn BoundedTemporalEntity-6656 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(nondecreasingIn BoundedTemporalEntity-6659 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(nondecreasingIn BoundedTemporalEntity-6770 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-948227))
+
+(nondecreasingIn BoundedTemporalEntity-6771 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-948227))
+
+(nonincreasingIn BoundedTemporalEntity-6746 ((MeasurableQuantityFn citySize) FC-City-Guovdageaidnu))
+
+(nonincreasingIn BoundedTemporalEntity-6775 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-948227))
+
+(someIn BoundedTemporalEntity-6318 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(someIn BoundedTemporalEntity-6660 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(startsAfterStartingOf BoundedTemporalEntity-6746 BoundedTemporalEntity-6660)
+
+(startsAfterStartingOf BoundedTemporalEntity-6746 BoundedTemporalEntity-6740)
+
+(startsAtSameTime BoundedTemporalEntity-6738 BoundedTemporalEntity-6737)
+
+(startsBeforeStartingOf BoundedTemporalEntity-6771 BoundedTemporalEntity-6775)
+
+(zeroIn BoundedTemporalEntity-6111 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(zeroIn BoundedTemporalEntity-6347 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))

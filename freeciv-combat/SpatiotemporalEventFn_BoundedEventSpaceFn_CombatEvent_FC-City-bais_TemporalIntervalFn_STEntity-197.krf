@@ -1,0 +1,104 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-bais) (TemporalIntervalFn STEntity-197)), dumped 5/23/2025 11:29:3 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-bais) (TemporalIntervalFn STEntity-197)))
+((Area (AtFn (EndFn STEntity-197) STEntity-197)) (FreecivTileArea 18))
+
+((Area (AtFn (EndFn STEntity-197) STEntity-197)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-197) STEntity-197)) (FreecivTileArea 18))
+
+((Area (AtFn (StartFn STEntity-197) STEntity-197)) (FreecivTileArea 22))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-197) STEntity-197)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-197) STEntity-197)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-197) STEntity-197)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-4240 BoundedTemporalEntity-4231)
+
+(aia-MI BoundedTemporalEntity-4250 BoundedTemporalEntity-4240)
+
+(aia-MI BoundedTemporalEntity-4275 BoundedTemporalEntity-4250)
+
+(aia-MI BoundedTemporalEntity-4278 BoundedTemporalEntity-4275)
+
+(aia-MI BoundedTemporalEntity-4397 BoundedTemporalEntity-4278)
+
+(aia-MI BoundedTemporalEntity-4891 BoundedTemporalEntity-4510)
+
+(aia-MI BoundedTemporalEntity-4892 BoundedTemporalEntity-4513)
+
+(aia-MI BoundedTemporalEntity-5005 BoundedTemporalEntity-4891)
+
+(aia-MI BoundedTemporalEntity-5006 BoundedTemporalEntity-4891)
+
+(aia-MI BoundedTemporalEntity-5006 BoundedTemporalEntity-4892)
+
+(aia-OI BoundedTemporalEntity-5006 BoundedTemporalEntity-4510)
+
+(cityOwner FC-City-bais FC-Player-lojbab)
+
+(constantIn BoundedTemporalEntity-4232 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-bais))
+
+(constantIn BoundedTemporalEntity-4397 ((MeasurableQuantityFn citySize) FC-City-bais))
+
+(constantIn BoundedTemporalEntity-4510 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-270870))
+
+(constantIn BoundedTemporalEntity-4995 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-319559))
+
+(constantIn BoundedTemporalEntity-4997 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-319559))
+
+(constantIn BoundedTemporalEntity-5005 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-270870))
+
+(constantIn BoundedTemporalEntity-5006 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-270870))
+
+(currentActivity Unit-516 FC-ActivityIdle)
+
+(fcObjectAt FC-City-bais (FreecivLocationFn 1 30))
+
+(fcObjectAt Unit-516 (FreecivLocationFn 1 30))
+
+(footprintOf FC-City-bais CityFootprint-FC-City-bais)
+
+(isa CityFootprint-FC-City-bais CityFootprint)
+
+(isa FC-City-bais FreeCiv-City)
+
+(isa STEntity-197 DefensiveEpisodeFailure)
+
+(isa STEntity-197 SpatiotemporalEvent)
+
+(isa Unit-516 FC-Unit-Musketeers)
+
+(isa UnitGroupFootprint-270870 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-319559 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-4891 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-270870))
+
+(startsAfterStartingOf BoundedTemporalEntity-4397 BoundedTemporalEntity-4232)
+
+(startsAfterStartingOf BoundedTemporalEntity-4397 BoundedTemporalEntity-4233)
+
+(startsAtSameTime BoundedTemporalEntity-4997 BoundedTemporalEntity-4995)
+
+(startsAtSameTime BoundedTemporalEntity-5006 BoundedTemporalEntity-5005)
+
+(unitOwner Unit-516 FC-Player-WalterHallstein)
+
+(zeroIn BoundedTemporalEntity-4233 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-bais))

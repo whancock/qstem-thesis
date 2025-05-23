@@ -1,0 +1,120 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tianjin) (TemporalIntervalFn STEntity-127)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tianjin) (TemporalIntervalFn STEntity-127)))
+(aia-MI BoundedTemporalEntity-6050 BoundedTemporalEntity-6037)
+
+(aia-MI BoundedTemporalEntity-6076 BoundedTemporalEntity-6050)
+
+(aia-MI BoundedTemporalEntity-6082 BoundedTemporalEntity-6076)
+
+(aia-MI BoundedTemporalEntity-6161 BoundedTemporalEntity-6131)
+
+(aia-MI BoundedTemporalEntity-6168 BoundedTemporalEntity-6082)
+
+(aia-MI BoundedTemporalEntity-6176 BoundedTemporalEntity-6129)
+
+(aia-MI BoundedTemporalEntity-6196 BoundedTemporalEntity-6168)
+
+(aia-MI BoundedTemporalEntity-6215 BoundedTemporalEntity-6196)
+
+(aia-MI BoundedTemporalEntity-6292 BoundedTemporalEntity-6176)
+
+(aia-MI BoundedTemporalEntity-6333 BoundedTemporalEntity-6161)
+
+(aia-MI BoundedTemporalEntity-6336 BoundedTemporalEntity-6215)
+
+(aia-MI BoundedTemporalEntity-6373 BoundedTemporalEntity-6333)
+
+(aia-OI BoundedTemporalEntity-6373 BoundedTemporalEntity-6129)
+
+(aia-OI BoundedTemporalEntity-6373 BoundedTemporalEntity-6176)
+
+(cityOwner FC-City-Tianjin FC-Player-GiacomoMatteotti)
+
+(constantAcrossBounds STEntity-127 ((STEMQuantityFn 6) UnitGroupFootprint-101750))
+
+(constantAcrossBounds STEntity-127 ((STEMQuantityFn 6) UnitGroupFootprint-105444))
+
+(constantAcrossBounds STEntity-127 ((STEMQuantityFn 7) UnitGroupFootprint-101750))
+
+(constantAcrossBounds STEntity-127 ((STEMQuantityFn 7) UnitGroupFootprint-105444))
+
+(constantIn BoundedTemporalEntity-6038 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tianjin))
+
+(constantIn BoundedTemporalEntity-6129 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-101750))
+
+(constantIn BoundedTemporalEntity-6292 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-101750))
+
+(constantIn BoundedTemporalEntity-6336 ((MeasurableQuantityFn citySize) FC-City-Tianjin))
+
+(constantIn BoundedTemporalEntity-6351 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-105444))
+
+(constantIn BoundedTemporalEntity-6352 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-105444))
+
+(currentActivity Unit-173 FC-ActivityIdle)
+
+(defenseBonus FC-City-Tianjin 0)
+
+(fcObjectAt FC-City-Tianjin (FreecivLocationFn 28 32))
+
+(fcObjectAt Unit-173 (FreecivLocationFn 28 32))
+
+(footprintOf FC-City-Tianjin CityFootprint-FC-City-Tianjin)
+
+(hasAmount FC-City-Tianjin (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-127) ((STEMQuantityFn 2) CityFootprint-FC-City-Tianjin (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-127) ((STEMQuantityFn 5) FC-City-Tianjin (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-127) ((STEMQuantityFn 6) UnitGroupFootprint-101750 (FreecivUnitCountFn 6)))
+
+(holdsIn (EndFn STEntity-127) ((STEMQuantityFn 6) UnitGroupFootprint-105444 (FreecivUnitCountFn 1)))
+
+(holdsIn (EndFn STEntity-127) ((STEMQuantityFn 7) UnitGroupFootprint-101750 (FreecivTileArea 28)))
+
+(holdsIn (EndFn STEntity-127) ((STEMQuantityFn 7) UnitGroupFootprint-105444 (FreecivTileArea 8)))
+
+(holdsIn (StartFn STEntity-127) ((STEMQuantityFn 2) CityFootprint-FC-City-Tianjin (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-127) ((STEMQuantityFn 5) FC-City-Tianjin (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-127) ((STEMQuantityFn 6) UnitGroupFootprint-101750 (FreecivUnitCountFn 6)))
+
+(holdsIn (StartFn STEntity-127) ((STEMQuantityFn 6) UnitGroupFootprint-105444 (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-127) ((STEMQuantityFn 7) UnitGroupFootprint-101750 (FreecivTileArea 28)))
+
+(holdsIn (StartFn STEntity-127) ((STEMQuantityFn 7) UnitGroupFootprint-105444 (FreecivTileArea 8)))
+
+(increasingIn BoundedTemporalEntity-6176 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-101750))
+
+(increasingIn BoundedTemporalEntity-6373 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-101750))
+
+(isa CityFootprint-FC-City-Tianjin CityFootprint)
+
+(isa FC-City-Tianjin FreeCiv-City)
+
+(isa STEntity-127 DefensiveEpisodeFailure)
+
+(isa STEntity-127 SpatiotemporalEvent)
+
+(isa Unit-173 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-101750 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-105444 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-6336 BoundedTemporalEntity-6038)
+
+(startsAfterStartingOf BoundedTemporalEntity-6336 BoundedTemporalEntity-6039)
+
+(startsAfterStartingOf BoundedTemporalEntity-6373 BoundedTemporalEntity-6292)
+
+(startsAtSameTime BoundedTemporalEntity-6352 BoundedTemporalEntity-6351)
+
+(terrainAt (FreecivLocationFn 28 32) FC-Terrain-Grassland)
+
+(unitOwner Unit-173 FC-Player-GiacomoMatteotti)
+
+(zeroIn BoundedTemporalEntity-6039 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tianjin))

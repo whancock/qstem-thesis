@@ -1,0 +1,180 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Muar) (TemporalIntervalFn STEntity-248)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Muar) (TemporalIntervalFn STEntity-248)))
+(aia-MI BoundedTemporalEntity-12627 BoundedTemporalEntity-12621)
+
+(aia-MI BoundedTemporalEntity-12628 BoundedTemporalEntity-12622)
+
+(aia-MI BoundedTemporalEntity-12631 BoundedTemporalEntity-12627)
+
+(aia-MI BoundedTemporalEntity-12632 BoundedTemporalEntity-12631)
+
+(aia-MI BoundedTemporalEntity-12635 BoundedTemporalEntity-12632)
+
+(aia-MI BoundedTemporalEntity-12643 BoundedTemporalEntity-12635)
+
+(aia-MI BoundedTemporalEntity-12653 BoundedTemporalEntity-12643)
+
+(aia-MI BoundedTemporalEntity-12660 BoundedTemporalEntity-12653)
+
+(aia-MI BoundedTemporalEntity-12661 BoundedTemporalEntity-12628)
+
+(aia-MI BoundedTemporalEntity-12670 BoundedTemporalEntity-12660)
+
+(aia-MI BoundedTemporalEntity-12671 BoundedTemporalEntity-12661)
+
+(aia-MI BoundedTemporalEntity-12680 BoundedTemporalEntity-12670)
+
+(aia-MI BoundedTemporalEntity-12681 BoundedTemporalEntity-12671)
+
+(aia-MI BoundedTemporalEntity-12705 BoundedTemporalEntity-12680)
+
+(aia-MI BoundedTemporalEntity-12706 BoundedTemporalEntity-12681)
+
+(aia-MI BoundedTemporalEntity-12731 BoundedTemporalEntity-12705)
+
+(aia-MI BoundedTemporalEntity-12734 BoundedTemporalEntity-12706)
+
+(aia-MI BoundedTemporalEntity-12738 BoundedTemporalEntity-12731)
+
+(aia-MI BoundedTemporalEntity-12739 BoundedTemporalEntity-12734)
+
+(aia-MI BoundedTemporalEntity-12746 BoundedTemporalEntity-12738)
+
+(aia-MI BoundedTemporalEntity-12747 BoundedTemporalEntity-12739)
+
+(aia-MI BoundedTemporalEntity-12759 BoundedTemporalEntity-12746)
+
+(aia-MI BoundedTemporalEntity-12760 BoundedTemporalEntity-12746)
+
+(aia-MI BoundedTemporalEntity-12760 BoundedTemporalEntity-12747)
+
+(aia-MI BoundedTemporalEntity-12773 BoundedTemporalEntity-12682)
+
+(aia-MI BoundedTemporalEntity-12774 BoundedTemporalEntity-12759)
+
+(aia-MI BoundedTemporalEntity-12777 BoundedTemporalEntity-12773)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12621)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12627)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12631)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12632)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12635)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12643)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12653)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12660)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12670)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12680)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12705)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12731)
+
+(aia-OI BoundedTemporalEntity-12760 BoundedTemporalEntity-12738)
+
+(aia-SI BoundedTemporalEntity-12760 BoundedTemporalEntity-12759)
+
+(cityOwner FC-City-Muar FC-Player-DavitIV)
+
+(constantAcrossBounds STEntity-248 ((STEMQuantityFn 6) UnitGroupFootprint-205010))
+
+(constantAcrossBounds STEntity-248 ((STEMQuantityFn 7) UnitGroupFootprint-205010))
+
+(constantIn BoundedTemporalEntity-12621 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(constantIn BoundedTemporalEntity-12683 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Muar))
+
+(currentActivity Unit-182 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-12627 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12632 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12660 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12680 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12731 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12746 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(decreasingIn BoundedTemporalEntity-12774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(defenseBonus FC-City-Muar 0)
+
+(fcObjectAt FC-City-Muar (FreecivLocationFn 15 5))
+
+(fcObjectAt Unit-182 (FreecivLocationFn 15 5))
+
+(footprintOf FC-City-Muar CityFootprint-FC-City-Muar)
+
+(hasAmount FC-City-Muar (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-248) ((STEMQuantityFn 2) CityFootprint-FC-City-Muar (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-248) ((STEMQuantityFn 5) FC-City-Muar (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-248) ((STEMQuantityFn 6) UnitGroupFootprint-205010 (FreecivUnitCountFn 8)))
+
+(holdsIn (EndFn STEntity-248) ((STEMQuantityFn 7) UnitGroupFootprint-205010 (FreecivTileArea 183)))
+
+(holdsIn (StartFn STEntity-248) ((STEMQuantityFn 2) CityFootprint-FC-City-Muar (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-248) ((STEMQuantityFn 5) FC-City-Muar (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-248) ((STEMQuantityFn 6) UnitGroupFootprint-205010 (FreecivUnitCountFn 8)))
+
+(holdsIn (StartFn STEntity-248) ((STEMQuantityFn 7) UnitGroupFootprint-205010 (FreecivTileArea 183)))
+
+(increasingIn BoundedTemporalEntity-12631 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12653 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12738 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12760 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-205010))
+
+(increasingIn BoundedTemporalEntity-12777 ((MeasurableQuantityFn citySize) FC-City-Muar))
+
+(isa CityFootprint-FC-City-Muar CityFootprint)
+
+(isa FC-City-Muar FreeCiv-City)
+
+(isa STEntity-248 DefensiveEpisodeFailure)
+
+(isa STEntity-248 SpatiotemporalEvent)
+
+(isa Unit-182 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-205010 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-12777 BoundedTemporalEntity-12683)
+
+(startsAfterStartingOf BoundedTemporalEntity-12777 BoundedTemporalEntity-12684)
+
+(startsBeforeStartingOf BoundedTemporalEntity-12760 BoundedTemporalEntity-12774)
+
+(terrainAt (FreecivLocationFn 15 5) FC-Terrain-Plains)
+
+(unitOwner Unit-182 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-12684 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Muar))

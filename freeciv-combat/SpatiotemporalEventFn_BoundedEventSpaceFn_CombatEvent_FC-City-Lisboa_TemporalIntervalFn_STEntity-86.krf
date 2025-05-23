@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lisboa) (TemporalIntervalFn STEntity-86)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lisboa) (TemporalIntervalFn STEntity-86)))
+(aia-MI BoundedTemporalEntity-5133 BoundedTemporalEntity-5101)
+
+(aia-MI BoundedTemporalEntity-5139 BoundedTemporalEntity-5134)
+
+(aia-MI BoundedTemporalEntity-5141 BoundedTemporalEntity-5134)
+
+(aia-MI BoundedTemporalEntity-5141 BoundedTemporalEntity-5136)
+
+(cityOwner FC-City-Lisboa FC-Player-FernandDORÃ?)
+
+(constantAcrossBounds STEntity-86 ((STEMQuantityFn 6) UnitGroupFootprint-89581))
+
+(constantAcrossBounds STEntity-86 ((STEMQuantityFn 7) UnitGroupFootprint-89581))
+
+(constantIn BoundedTemporalEntity-5102 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lisboa))
+
+(constantIn BoundedTemporalEntity-5134 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(currentActivity Unit-158 FC-ActivityIdle)
+
+(defenseBonus FC-City-Lisboa 100)
+
+(fcObjectAt FC-City-Lisboa (FreecivLocationFn 31 12))
+
+(fcObjectAt Unit-158 (FreecivLocationFn 31 12))
+
+(footprintOf FC-City-Lisboa CityFootprint-FC-City-Lisboa)
+
+(hasAmount FC-City-Lisboa (HighAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-86) ((STEMQuantityFn 2) CityFootprint-FC-City-Lisboa (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-86) ((STEMQuantityFn 5) FC-City-Lisboa (FreecivCitizenCountFn 2)))
+
+(holdsIn (EndFn STEntity-86) ((STEMQuantityFn 6) UnitGroupFootprint-89581 (FreecivUnitCountFn 3)))
+
+(holdsIn (EndFn STEntity-86) ((STEMQuantityFn 7) UnitGroupFootprint-89581 (FreecivTileArea 77)))
+
+(holdsIn (StartFn STEntity-86) ((STEMQuantityFn 2) CityFootprint-FC-City-Lisboa (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-86) ((STEMQuantityFn 5) FC-City-Lisboa (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-86) ((STEMQuantityFn 6) UnitGroupFootprint-89581 (FreecivUnitCountFn 3)))
+
+(holdsIn (StartFn STEntity-86) ((STEMQuantityFn 7) UnitGroupFootprint-89581 (FreecivTileArea 77)))
+
+(increasingIn BoundedTemporalEntity-5133 ((MeasurableQuantityFn citySize) FC-City-Lisboa))
+
+(increasingIn BoundedTemporalEntity-5139 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(increasingIn BoundedTemporalEntity-5141 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-89581))
+
+(isa CityFootprint-FC-City-Lisboa CityFootprint)
+
+(isa FC-City-Lisboa FreeCiv-City)
+
+(isa STEntity-86 DefensiveEpisodeFailure)
+
+(isa STEntity-86 SpatiotemporalEvent)
+
+(isa Unit-158 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-89581 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-5133 BoundedTemporalEntity-5102)
+
+(startsAfterStartingOf BoundedTemporalEntity-5133 BoundedTemporalEntity-5103)
+
+(startsAtSameTime BoundedTemporalEntity-5141 BoundedTemporalEntity-5139)
+
+(terrainAt (FreecivLocationFn 31 12) FC-Terrain-Hills)
+
+(unitOwner Unit-158 FC-Player-FernandDORÃ?)
+
+(zeroIn BoundedTemporalEntity-5103 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lisboa))

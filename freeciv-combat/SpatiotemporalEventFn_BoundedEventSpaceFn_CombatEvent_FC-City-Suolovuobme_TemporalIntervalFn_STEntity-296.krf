@@ -1,0 +1,116 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Suolovuobme) (TemporalIntervalFn STEntity-296)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Suolovuobme) (TemporalIntervalFn STEntity-296)))
+((Area (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivTileArea 21))
+
+((Area (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivTileArea 40))
+
+((Area (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivTileArea 21))
+
+((Area (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivTileArea 40))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6332 BoundedTemporalEntity-6263)
+
+(aia-MI BoundedTemporalEntity-6333 BoundedTemporalEntity-6264)
+
+(aia-MI BoundedTemporalEntity-6426 BoundedTemporalEntity-6332)
+
+(aia-MI BoundedTemporalEntity-6427 BoundedTemporalEntity-6333)
+
+(aia-MI BoundedTemporalEntity-6490 BoundedTemporalEntity-6426)
+
+(aia-MI BoundedTemporalEntity-6491 BoundedTemporalEntity-6427)
+
+(aia-MI BoundedTemporalEntity-6560 BoundedTemporalEntity-6490)
+
+(aia-MI BoundedTemporalEntity-6561 BoundedTemporalEntity-6490)
+
+(aia-MI BoundedTemporalEntity-6561 BoundedTemporalEntity-6491)
+
+(aia-MI BoundedTemporalEntity-6638 BoundedTemporalEntity-6625)
+
+(aia-OI BoundedTemporalEntity-6561 BoundedTemporalEntity-6263)
+
+(aia-OI BoundedTemporalEntity-6561 BoundedTemporalEntity-6332)
+
+(aia-OI BoundedTemporalEntity-6561 BoundedTemporalEntity-6426)
+
+(aia-SI BoundedTemporalEntity-6630 BoundedTemporalEntity-6625)
+
+(cityOwner FC-City-Suolovuobme FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-6263 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6426 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6560 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6561 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-523505))
+
+(constantIn BoundedTemporalEntity-6611 ((MeasurableQuantityFn citySize) FC-City-Suolovuobme))
+
+(constantIn BoundedTemporalEntity-6612 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Suolovuobme))
+
+(constantIn BoundedTemporalEntity-6625 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-808675))
+
+(constantIn BoundedTemporalEntity-6630 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-808675))
+
+(currentActivity Unit-402 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Suolovuobme (FreecivLocationFn 29 13))
+
+(fcObjectAt Unit-402 (FreecivLocationFn 29 13))
+
+(footprintOf FC-City-Suolovuobme CityFootprint-FC-City-Suolovuobme)
+
+(isa CityFootprint-FC-City-Suolovuobme CityFootprint)
+
+(isa FC-City-Suolovuobme FreeCiv-City)
+
+(isa STEntity-296 DefensiveEpisodeFailure)
+
+(isa STEntity-296 SpatiotemporalEvent)
+
+(isa Unit-402 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-523505 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-808675 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6332 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(nondecreasingIn BoundedTemporalEntity-6490 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-523505))
+
+(nonincreasingIn BoundedTemporalEntity-6638 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-808675))
+
+(startsAtSameTime BoundedTemporalEntity-6561 BoundedTemporalEntity-6560)
+
+(startsAtSameTime BoundedTemporalEntity-6611 BoundedTemporalEntity-6612)
+
+(startsAtSameTime BoundedTemporalEntity-6611 BoundedTemporalEntity-6613)
+
+(startsBeforeStartingOf BoundedTemporalEntity-6630 BoundedTemporalEntity-6638)
+
+(unitOwner Unit-402 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-6613 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Suolovuobme))

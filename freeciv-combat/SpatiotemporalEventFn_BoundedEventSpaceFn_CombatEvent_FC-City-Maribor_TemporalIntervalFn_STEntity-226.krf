@@ -1,0 +1,166 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Maribor) (TemporalIntervalFn STEntity-226)), dumped 5/23/2025 11:29:4 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Maribor) (TemporalIntervalFn STEntity-226)))
+((Area (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivTileArea 161))
+
+((Area (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivTileArea 161))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 11))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 11))
+
+((citySize (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-5432 BoundedTemporalEntity-5436)
+
+(aia-MI BoundedTemporalEntity-5297 BoundedTemporalEntity-5292)
+
+(aia-MI BoundedTemporalEntity-5299 BoundedTemporalEntity-5294)
+
+(aia-MI BoundedTemporalEntity-5301 BoundedTemporalEntity-5260)
+
+(aia-MI BoundedTemporalEntity-5306 BoundedTemporalEntity-5297)
+
+(aia-MI BoundedTemporalEntity-5307 BoundedTemporalEntity-5299)
+
+(aia-MI BoundedTemporalEntity-5322 BoundedTemporalEntity-5306)
+
+(aia-MI BoundedTemporalEntity-5323 BoundedTemporalEntity-5307)
+
+(aia-MI BoundedTemporalEntity-5325 BoundedTemporalEntity-5322)
+
+(aia-MI BoundedTemporalEntity-5326 BoundedTemporalEntity-5323)
+
+(aia-MI BoundedTemporalEntity-5336 BoundedTemporalEntity-5325)
+
+(aia-MI BoundedTemporalEntity-5343 BoundedTemporalEntity-5326)
+
+(aia-MI BoundedTemporalEntity-5361 BoundedTemporalEntity-5336)
+
+(aia-MI BoundedTemporalEntity-5362 BoundedTemporalEntity-5343)
+
+(aia-MI BoundedTemporalEntity-5379 BoundedTemporalEntity-5361)
+
+(aia-MI BoundedTemporalEntity-5380 BoundedTemporalEntity-5362)
+
+(aia-MI BoundedTemporalEntity-5382 BoundedTemporalEntity-5380)
+
+(aia-MI BoundedTemporalEntity-5389 BoundedTemporalEntity-5379)
+
+(aia-MI BoundedTemporalEntity-5390 BoundedTemporalEntity-5301)
+
+(aia-MI BoundedTemporalEntity-5397 BoundedTemporalEntity-5389)
+
+(aia-MI BoundedTemporalEntity-5406 BoundedTemporalEntity-5382)
+
+(aia-MI BoundedTemporalEntity-5413 BoundedTemporalEntity-5397)
+
+(aia-MI BoundedTemporalEntity-5423 BoundedTemporalEntity-5406)
+
+(aia-MI BoundedTemporalEntity-5430 BoundedTemporalEntity-5413)
+
+(aia-MI BoundedTemporalEntity-5432 BoundedTemporalEntity-5413)
+
+(aia-MI BoundedTemporalEntity-5432 BoundedTemporalEntity-5423)
+
+(aia-MI BoundedTemporalEntity-5436 BoundedTemporalEntity-5430)
+
+(aia-MI BoundedTemporalEntity-5439 BoundedTemporalEntity-5436)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5292)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5297)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5306)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5322)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5325)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5336)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5361)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5379)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5389)
+
+(aia-OI BoundedTemporalEntity-5432 BoundedTemporalEntity-5397)
+
+(aia-SI BoundedTemporalEntity-5432 BoundedTemporalEntity-5430)
+
+(cityOwner FC-City-Maribor FC-Player-RoyJenkins)
+
+(constantIn BoundedTemporalEntity-5261 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Maribor))
+
+(constantIn BoundedTemporalEntity-5292 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(currentActivity Unit-206 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Maribor (FreecivLocationFn 33 8))
+
+(fcObjectAt Unit-206 (FreecivLocationFn 33 8))
+
+(footprintOf FC-City-Maribor CityFootprint-FC-City-Maribor)
+
+(isa CityFootprint-FC-City-Maribor CityFootprint)
+
+(isa FC-City-Maribor FreeCiv-City)
+
+(isa STEntity-226 DefensiveEpisodeFailure)
+
+(isa STEntity-226 SpatiotemporalEvent)
+
+(isa Unit-206 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-358601 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5297 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5322 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5336 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5379 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5397 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5430 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5432 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-358601))
+
+(nondecreasingIn BoundedTemporalEntity-5439 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5306 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5325 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5361 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5389 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5390 ((MeasurableQuantityFn citySize) FC-City-Maribor))
+
+(nonincreasingIn BoundedTemporalEntity-5413 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(nonincreasingIn BoundedTemporalEntity-5436 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-358601))
+
+(startsAfterStartingOf BoundedTemporalEntity-5390 BoundedTemporalEntity-5261)
+
+(startsAfterStartingOf BoundedTemporalEntity-5390 BoundedTemporalEntity-5262)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5432 BoundedTemporalEntity-5439)
+
+(unitOwner Unit-206 FC-Player-RobertDeSable)
+
+(zeroIn BoundedTemporalEntity-5262 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Maribor))

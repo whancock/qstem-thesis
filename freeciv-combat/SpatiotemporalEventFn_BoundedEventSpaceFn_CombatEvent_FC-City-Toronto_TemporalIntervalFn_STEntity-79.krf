@@ -1,0 +1,110 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Toronto) (TemporalIntervalFn STEntity-79)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Toronto) (TemporalIntervalFn STEntity-79)))
+(aia-DI BoundedTemporalEntity-5006 BoundedTemporalEntity-5009)
+
+(aia-DI BoundedTemporalEntity-5006 BoundedTemporalEntity-5018)
+
+(aia-DI BoundedTemporalEntity-5006 BoundedTemporalEntity-5029)
+
+(aia-DI BoundedTemporalEntity-5006 BoundedTemporalEntity-5034)
+
+(aia-MI BoundedTemporalEntity-4994 BoundedTemporalEntity-4985)
+
+(aia-MI BoundedTemporalEntity-4995 BoundedTemporalEntity-4994)
+
+(aia-MI BoundedTemporalEntity-5005 BoundedTemporalEntity-4999)
+
+(aia-MI BoundedTemporalEntity-5006 BoundedTemporalEntity-4999)
+
+(aia-MI BoundedTemporalEntity-5006 BoundedTemporalEntity-5000)
+
+(aia-MI BoundedTemporalEntity-5009 BoundedTemporalEntity-5005)
+
+(aia-MI BoundedTemporalEntity-5018 BoundedTemporalEntity-5009)
+
+(aia-MI BoundedTemporalEntity-5029 BoundedTemporalEntity-5018)
+
+(aia-MI BoundedTemporalEntity-5034 BoundedTemporalEntity-5029)
+
+(aia-MI BoundedTemporalEntity-5040 BoundedTemporalEntity-5034)
+
+(aia-SI BoundedTemporalEntity-5006 BoundedTemporalEntity-5005)
+
+(cityOwner FC-City-Toronto FC-Player-BrianMulroney)
+
+(constantAcrossBounds STEntity-79 ((STEMQuantityFn 6) UnitGroupFootprint-88210))
+
+(constantAcrossBounds STEntity-79 ((STEMQuantityFn 7) UnitGroupFootprint-88210))
+
+(constantIn BoundedTemporalEntity-4986 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Toronto))
+
+(constantIn BoundedTemporalEntity-4999 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(currentActivity Unit-156 FC-ActivityIdle)
+
+(decreasingIn BoundedTemporalEntity-4995 ((MeasurableQuantityFn citySize) FC-City-Toronto))
+
+(decreasingIn BoundedTemporalEntity-5009 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(decreasingIn BoundedTemporalEntity-5029 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(decreasingIn BoundedTemporalEntity-5040 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(defenseBonus FC-City-Toronto 50)
+
+(fcObjectAt FC-City-Toronto (FreecivLocationFn 6 18))
+
+(fcObjectAt Unit-156 (FreecivLocationFn 6 18))
+
+(footprintOf FC-City-Toronto CityFootprint-FC-City-Toronto)
+
+(hasAmount FC-City-Toronto (MediumAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-79) ((STEMQuantityFn 2) CityFootprint-FC-City-Toronto (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-79) ((STEMQuantityFn 5) FC-City-Toronto (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-79) ((STEMQuantityFn 6) UnitGroupFootprint-88210 (FreecivUnitCountFn 5)))
+
+(holdsIn (EndFn STEntity-79) ((STEMQuantityFn 7) UnitGroupFootprint-88210 (FreecivTileArea 43)))
+
+(holdsIn (StartFn STEntity-79) ((STEMQuantityFn 2) CityFootprint-FC-City-Toronto (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-79) ((STEMQuantityFn 5) FC-City-Toronto (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-79) ((STEMQuantityFn 6) UnitGroupFootprint-88210 (FreecivUnitCountFn 5)))
+
+(holdsIn (StartFn STEntity-79) ((STEMQuantityFn 7) UnitGroupFootprint-88210 (FreecivTileArea 43)))
+
+(increasingIn BoundedTemporalEntity-5005 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(increasingIn BoundedTemporalEntity-5006 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-88210))
+
+(increasingIn BoundedTemporalEntity-5018 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(increasingIn BoundedTemporalEntity-5034 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(isa CityFootprint-FC-City-Toronto CityFootprint)
+
+(isa FC-City-Toronto FreeCiv-City)
+
+(isa STEntity-79 DefensiveEpisodeFailure)
+
+(isa STEntity-79 SpatiotemporalEvent)
+
+(isa Unit-156 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-88210 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-4995 BoundedTemporalEntity-4986)
+
+(startsAfterStartingOf BoundedTemporalEntity-4995 BoundedTemporalEntity-4987)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5006 BoundedTemporalEntity-5040)
+
+(terrainAt (FreecivLocationFn 6 18) FC-Terrain-Jungle)
+
+(unitOwner Unit-156 FC-Player-JagatMalla)
+
+(zeroIn BoundedTemporalEntity-4987 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Toronto))

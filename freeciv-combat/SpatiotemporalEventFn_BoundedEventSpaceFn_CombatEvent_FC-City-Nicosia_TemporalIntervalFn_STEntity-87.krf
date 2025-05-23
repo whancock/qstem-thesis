@@ -1,0 +1,162 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Nicosia) (TemporalIntervalFn STEntity-87)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Nicosia) (TemporalIntervalFn STEntity-87)))
+((HasImprovementFn FC-Building-Palace) FC-City-Nicosia)
+
+(aia-MI BoundedTemporalEntity-5079 BoundedTemporalEntity-5063)
+
+(aia-MI BoundedTemporalEntity-5095 BoundedTemporalEntity-5079)
+
+(aia-MI BoundedTemporalEntity-5098 BoundedTemporalEntity-5095)
+
+(aia-MI BoundedTemporalEntity-5139 BoundedTemporalEntity-5134)
+
+(aia-MI BoundedTemporalEntity-5141 BoundedTemporalEntity-5136)
+
+(aia-MI BoundedTemporalEntity-5148 BoundedTemporalEntity-5139)
+
+(aia-MI BoundedTemporalEntity-5149 BoundedTemporalEntity-5141)
+
+(aia-MI BoundedTemporalEntity-5164 BoundedTemporalEntity-5148)
+
+(aia-MI BoundedTemporalEntity-5165 BoundedTemporalEntity-5149)
+
+(aia-MI BoundedTemporalEntity-5167 BoundedTemporalEntity-5164)
+
+(aia-MI BoundedTemporalEntity-5168 BoundedTemporalEntity-5165)
+
+(aia-MI BoundedTemporalEntity-5177 BoundedTemporalEntity-5167)
+
+(aia-MI BoundedTemporalEntity-5178 BoundedTemporalEntity-5098)
+
+(aia-MI BoundedTemporalEntity-5185 BoundedTemporalEntity-5168)
+
+(aia-MI BoundedTemporalEntity-5186 BoundedTemporalEntity-5178)
+
+(aia-MI BoundedTemporalEntity-5207 BoundedTemporalEntity-5177)
+
+(aia-MI BoundedTemporalEntity-5208 BoundedTemporalEntity-5185)
+
+(aia-MI BoundedTemporalEntity-5218 BoundedTemporalEntity-5207)
+
+(aia-MI BoundedTemporalEntity-5219 BoundedTemporalEntity-5208)
+
+(aia-MI BoundedTemporalEntity-5221 BoundedTemporalEntity-5219)
+
+(aia-MI BoundedTemporalEntity-5228 BoundedTemporalEntity-5218)
+
+(aia-MI BoundedTemporalEntity-5231 BoundedTemporalEntity-5228)
+
+(aia-MI BoundedTemporalEntity-5238 BoundedTemporalEntity-5221)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5134)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5139)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5148)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5164)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5167)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5177)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5207)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5218)
+
+(aia-OI BoundedTemporalEntity-5238 BoundedTemporalEntity-5228)
+
+(cityOwner FC-City-Nicosia FC-Player-RoyJenkins)
+
+(constantAcrossBounds STEntity-87 ((STEMQuantityFn 2) CityFootprint-FC-City-Nicosia))
+
+(constantIn BoundedTemporalEntity-5065 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Nicosia))
+
+(constantIn BoundedTemporalEntity-5134 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(currentActivity Unit-158 FC-ActivityFortifying)
+
+(currentActivity Unit-182 FC-ActivityIdle)
+
+(decreasingAcrossBounds STEntity-87 ((STEMQuantityFn 5) FC-City-Nicosia))
+
+(decreasingIn BoundedTemporalEntity-5148 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(decreasingIn BoundedTemporalEntity-5167 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(decreasingIn BoundedTemporalEntity-5186 ((MeasurableQuantityFn citySize) FC-City-Nicosia))
+
+(decreasingIn BoundedTemporalEntity-5207 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(decreasingIn BoundedTemporalEntity-5228 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(defenseBonus FC-City-Nicosia 0)
+
+(fcObjectAt FC-City-Nicosia (FreecivLocationFn 29 9))
+
+(fcObjectAt Unit-182 (FreecivLocationFn 29 9))
+
+(footprintOf FC-City-Nicosia CityFootprint-FC-City-Nicosia)
+
+(hasAmount FC-City-Nicosia (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-87) ((STEMQuantityFn 2) CityFootprint-FC-City-Nicosia (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-87) ((STEMQuantityFn 5) FC-City-Nicosia (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-87) ((STEMQuantityFn 6) UnitGroupFootprint-89581 (FreecivUnitCountFn 8)))
+
+(holdsIn (EndFn STEntity-87) ((STEMQuantityFn 7) UnitGroupFootprint-89581 (FreecivTileArea 133)))
+
+(holdsIn (StartFn STEntity-87) ((STEMQuantityFn 2) CityFootprint-FC-City-Nicosia (FreecivUnitCountFn 0)))
+
+(holdsIn (StartFn STEntity-87) ((STEMQuantityFn 5) FC-City-Nicosia (FreecivCitizenCountFn 2)))
+
+(holdsIn (StartFn STEntity-87) ((STEMQuantityFn 6) UnitGroupFootprint-89581 (FreecivUnitCountFn 4)))
+
+(holdsIn (StartFn STEntity-87) ((STEMQuantityFn 7) UnitGroupFootprint-89581 (FreecivTileArea 74)))
+
+(increasingAcrossBounds STEntity-87 ((STEMQuantityFn 6) UnitGroupFootprint-89581))
+
+(increasingAcrossBounds STEntity-87 ((STEMQuantityFn 7) UnitGroupFootprint-89581))
+
+(increasingIn BoundedTemporalEntity-5139 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(increasingIn BoundedTemporalEntity-5164 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(increasingIn BoundedTemporalEntity-5177 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(increasingIn BoundedTemporalEntity-5218 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(increasingIn BoundedTemporalEntity-5231 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(increasingIn BoundedTemporalEntity-5238 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-89581))
+
+(isa CityFootprint-FC-City-Nicosia CityFootprint)
+
+(isa FC-City-Nicosia FreeCiv-City)
+
+(isa STEntity-87 DefensiveEpisodeFailure)
+
+(isa STEntity-87 SpatiotemporalEvent)
+
+(isa Unit-158 FC-Unit-Chariot)
+
+(isa Unit-182 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-89581 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-5186 BoundedTemporalEntity-5065)
+
+(startsAfterStartingOf BoundedTemporalEntity-5186 BoundedTemporalEntity-5066)
+
+(startsAfterStartingOf BoundedTemporalEntity-5238 BoundedTemporalEntity-5231)
+
+(terrainAt (FreecivLocationFn 29 9) FC-Terrain-Plains)
+
+(unitOwner Unit-182 FC-Player-RobertDeSable)
+
+(zeroAcrossBounds STEntity-87 ((STEMQuantityFn 2) CityFootprint-FC-City-Nicosia))
+
+(zeroIn BoundedTemporalEntity-5066 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Nicosia))

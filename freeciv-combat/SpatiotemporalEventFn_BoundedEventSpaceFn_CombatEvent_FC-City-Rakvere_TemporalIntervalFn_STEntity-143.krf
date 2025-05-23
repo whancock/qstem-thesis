@@ -1,0 +1,178 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Rakvere) (TemporalIntervalFn STEntity-143)), dumped 5/23/2025 11:29:5 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Rakvere) (TemporalIntervalFn STEntity-143)))
+(aia-MI BoundedTemporalEntity-7585 BoundedTemporalEntity-7568)
+
+(aia-MI BoundedTemporalEntity-7616 BoundedTemporalEntity-7585)
+
+(aia-MI BoundedTemporalEntity-7643 BoundedTemporalEntity-7616)
+
+(aia-MI BoundedTemporalEntity-7661 BoundedTemporalEntity-7647)
+
+(aia-MI BoundedTemporalEntity-7662 BoundedTemporalEntity-7648)
+
+(aia-MI BoundedTemporalEntity-7668 BoundedTemporalEntity-7661)
+
+(aia-MI BoundedTemporalEntity-7669 BoundedTemporalEntity-7569)
+
+(aia-MI BoundedTemporalEntity-7670 BoundedTemporalEntity-7570)
+
+(aia-MI BoundedTemporalEntity-7671 BoundedTemporalEntity-7668)
+
+(aia-MI BoundedTemporalEntity-7676 BoundedTemporalEntity-7671)
+
+(aia-MI BoundedTemporalEntity-7678 BoundedTemporalEntity-7676)
+
+(aia-MI BoundedTemporalEntity-7685 BoundedTemporalEntity-7643)
+
+(aia-MI BoundedTemporalEntity-7686 BoundedTemporalEntity-7662)
+
+(aia-MI BoundedTemporalEntity-7687 BoundedTemporalEntity-7669)
+
+(aia-MI BoundedTemporalEntity-7688 BoundedTemporalEntity-7670)
+
+(aia-MI BoundedTemporalEntity-7691 BoundedTemporalEntity-7678)
+
+(aia-MI BoundedTemporalEntity-7692 BoundedTemporalEntity-7686)
+
+(aia-MI BoundedTemporalEntity-7694 BoundedTemporalEntity-7692)
+
+(aia-MI BoundedTemporalEntity-7696 BoundedTemporalEntity-7691)
+
+(aia-MI BoundedTemporalEntity-7697 BoundedTemporalEntity-7694)
+
+(aia-MI BoundedTemporalEntity-7702 BoundedTemporalEntity-7696)
+
+(aia-MI BoundedTemporalEntity-7703 BoundedTemporalEntity-7697)
+
+(aia-MI BoundedTemporalEntity-7705 BoundedTemporalEntity-7702)
+
+(aia-MI BoundedTemporalEntity-7706 BoundedTemporalEntity-7702)
+
+(aia-MI BoundedTemporalEntity-7706 BoundedTemporalEntity-7703)
+
+(aia-OI BoundedTemporalEntity-7685 BoundedTemporalEntity-7569)
+
+(aia-OI BoundedTemporalEntity-7685 BoundedTemporalEntity-7570)
+
+(aia-OI BoundedTemporalEntity-7685 BoundedTemporalEntity-7669)
+
+(aia-OI BoundedTemporalEntity-7685 BoundedTemporalEntity-7670)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7647)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7661)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7668)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7671)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7676)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7678)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7691)
+
+(aia-OI BoundedTemporalEntity-7706 BoundedTemporalEntity-7696)
+
+(cityOwner FC-City-Rakvere FC-Player-KonstantinPäts)
+
+(constantAcrossBounds STEntity-143 ((STEMQuantityFn 5) FC-City-Rakvere))
+
+(constantIn BoundedTemporalEntity-7569 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))
+
+(constantIn BoundedTemporalEntity-7647 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(currentActivity Unit-251 FC-ActivityFortifying)
+
+(currentActivity Unit-271 FC-ActivityIdle)
+
+(decreasingAcrossBounds STEntity-143 ((STEMQuantityFn 2) CityFootprint-FC-City-Rakvere))
+
+(decreasingAcrossBounds STEntity-143 ((STEMQuantityFn 6) UnitGroupFootprint-129675))
+
+(decreasingAcrossBounds STEntity-143 ((STEMQuantityFn 7) UnitGroupFootprint-129675))
+
+(decreasingIn BoundedTemporalEntity-7668 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(decreasingIn BoundedTemporalEntity-7676 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(decreasingIn BoundedTemporalEntity-7685 ((MeasurableQuantityFn citySize) FC-City-Rakvere))
+
+(decreasingIn BoundedTemporalEntity-7687 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))
+
+(decreasingIn BoundedTemporalEntity-7691 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(decreasingIn BoundedTemporalEntity-7702 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(defenseBonus FC-City-Rakvere 0)
+
+(fcObjectAt FC-City-Rakvere (FreecivLocationFn 41 17))
+
+(fcObjectAt Unit-271 (FreecivLocationFn 41 17))
+
+(footprintOf FC-City-Rakvere CityFootprint-FC-City-Rakvere)
+
+(hasAmount FC-City-Rakvere (LowAmountFn (MeasurableQuantityFn defenseBonus)))
+
+(holdsIn (EndFn STEntity-143) ((STEMQuantityFn 2) CityFootprint-FC-City-Rakvere (FreecivUnitCountFn 0)))
+
+(holdsIn (EndFn STEntity-143) ((STEMQuantityFn 5) FC-City-Rakvere (FreecivCitizenCountFn 1)))
+
+(holdsIn (EndFn STEntity-143) ((STEMQuantityFn 6) UnitGroupFootprint-129675 (FreecivUnitCountFn 8)))
+
+(holdsIn (EndFn STEntity-143) ((STEMQuantityFn 7) UnitGroupFootprint-129675 (FreecivTileArea 49)))
+
+(holdsIn (StartFn STEntity-143) ((STEMQuantityFn 2) CityFootprint-FC-City-Rakvere (FreecivUnitCountFn 1)))
+
+(holdsIn (StartFn STEntity-143) ((STEMQuantityFn 5) FC-City-Rakvere (FreecivCitizenCountFn 1)))
+
+(holdsIn (StartFn STEntity-143) ((STEMQuantityFn 6) UnitGroupFootprint-129675 (FreecivUnitCountFn 10)))
+
+(holdsIn (StartFn STEntity-143) ((STEMQuantityFn 7) UnitGroupFootprint-129675 (FreecivTileArea 183)))
+
+(increasingIn BoundedTemporalEntity-7661 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(increasingIn BoundedTemporalEntity-7669 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))
+
+(increasingIn BoundedTemporalEntity-7671 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(increasingIn BoundedTemporalEntity-7678 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(increasingIn BoundedTemporalEntity-7696 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(increasingIn BoundedTemporalEntity-7705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129675))
+
+(increasingIn BoundedTemporalEntity-7706 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-129675))
+
+(isa CityFootprint-FC-City-Rakvere CityFootprint)
+
+(isa FC-City-Rakvere FreeCiv-City)
+
+(isa STEntity-143 DefensiveEpisodeFailure)
+
+(isa STEntity-143 SpatiotemporalEvent)
+
+(isa Unit-251 FC-Unit-Catapult)
+
+(isa Unit-271 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-129675 UnitGroupFootprint)
+
+(someIn BoundedTemporalEntity-7670 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))
+
+(startsAtSameTime BoundedTemporalEntity-7706 BoundedTemporalEntity-7705)
+
+(startsBeforeStartingOf BoundedTemporalEntity-7685 BoundedTemporalEntity-7687)
+
+(startsBeforeStartingOf BoundedTemporalEntity-7685 BoundedTemporalEntity-7688)
+
+(terrainAt (FreecivLocationFn 41 17) FC-Terrain-Grassland)
+
+(unitOwner Unit-251 FC-Player-ElizabethNicholls)
+
+(unitOwner Unit-271 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-7570 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))
+
+(zeroIn BoundedTemporalEntity-7688 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))
