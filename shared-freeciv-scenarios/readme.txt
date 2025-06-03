@@ -1,0 +1,1 @@
+twenty scenarios for experimentation shared between freeciv experiments one and two
