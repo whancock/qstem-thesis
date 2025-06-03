@@ -1,0 +1,86 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Toronto) (TemporalIntervalFn STEntity-140)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Toronto) (TemporalIntervalFn STEntity-140)))
+((Area (AtFn (EndFn STEntity-140) STEntity-140)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-140) STEntity-140)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-140) STEntity-140)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-140) STEntity-140)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-140) STEntity-140)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-140) STEntity-140)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-140) STEntity-140)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-140) STEntity-140)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Toronto)
+
+((citySize (AtFn (EndFn STEntity-140) STEntity-140)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-140) STEntity-140)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-4911 BoundedTemporalEntity-4895)
+
+(aia-MI BoundedTemporalEntity-4912 BoundedTemporalEntity-4911)
+
+(aia-MI BoundedTemporalEntity-4974 BoundedTemporalEntity-4912)
+
+(aia-MI BoundedTemporalEntity-4993 BoundedTemporalEntity-4974)
+
+(aia-MI BoundedTemporalEntity-4997 BoundedTemporalEntity-4993)
+
+(aia-MI BoundedTemporalEntity-5035 BoundedTemporalEntity-5028)
+
+(aia-MI BoundedTemporalEntity-5040 BoundedTemporalEntity-5035)
+
+(cityOwner FC-City-Toronto FC-Player-BrianMulroney)
+
+(constantIn BoundedTemporalEntity-4896 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Toronto))
+
+(constantIn BoundedTemporalEntity-5026 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-714373))
+
+(constantIn BoundedTemporalEntity-5036 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-718732))
+
+(constantIn BoundedTemporalEntity-5038 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-718732))
+
+(currentActivity Unit-190 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Toronto (FreecivLocationFn 6 18))
+
+(fcObjectAt Unit-190 (FreecivLocationFn 6 18))
+
+(footprintOf FC-City-Toronto CityFootprint-FC-City-Toronto)
+
+(isa CityFootprint-FC-City-Toronto CityFootprint)
+
+(isa FC-City-Toronto FreeCiv-City)
+
+(isa STEntity-140 DefensiveEpisodeFailure)
+
+(isa STEntity-140 SpatiotemporalEvent)
+
+(isa Unit-190 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-714373 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-718732 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-4997 ((MeasurableQuantityFn citySize) FC-City-Toronto))
+
+(nonincreasingIn BoundedTemporalEntity-5040 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-714373))
+
+(startsAfterStartingOf BoundedTemporalEntity-4997 BoundedTemporalEntity-4896)
+
+(startsAfterStartingOf BoundedTemporalEntity-4997 BoundedTemporalEntity-4897)
+
+(startsAfterStartingOf BoundedTemporalEntity-5040 BoundedTemporalEntity-5026)
+
+(startsAtSameTime BoundedTemporalEntity-5038 BoundedTemporalEntity-5036)
+
+(unitOwner Unit-190 FC-Player-JagatMalla)
+
+(zeroIn BoundedTemporalEntity-4897 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Toronto))

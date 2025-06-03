@@ -1,0 +1,140 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Putrajaya) (TemporalIntervalFn STEntity-484)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Putrajaya) (TemporalIntervalFn STEntity-484)))
+((Area (AtFn (EndFn STEntity-484) STEntity-484)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-484) STEntity-484)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-484) STEntity-484)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-484) STEntity-484)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-484) STEntity-484)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-484) STEntity-484)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-484) STEntity-484)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-484) STEntity-484)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-484) STEntity-484)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-484) STEntity-484)) (FreecivCitizenCountFn 2))
+
+(aia-DI BoundedTemporalEntity-10817 BoundedTemporalEntity-10824)
+
+(aia-MI BoundedTemporalEntity-10437 BoundedTemporalEntity-10425)
+
+(aia-MI BoundedTemporalEntity-10470 BoundedTemporalEntity-10437)
+
+(aia-MI BoundedTemporalEntity-10569 BoundedTemporalEntity-10470)
+
+(aia-MI BoundedTemporalEntity-10666 BoundedTemporalEntity-10661)
+
+(aia-MI BoundedTemporalEntity-10669 BoundedTemporalEntity-10569)
+
+(aia-MI BoundedTemporalEntity-10676 BoundedTemporalEntity-10666)
+
+(aia-MI BoundedTemporalEntity-10719 BoundedTemporalEntity-10676)
+
+(aia-MI BoundedTemporalEntity-10725 BoundedTemporalEntity-10719)
+
+(aia-MI BoundedTemporalEntity-10789 BoundedTemporalEntity-10725)
+
+(aia-MI BoundedTemporalEntity-10794 BoundedTemporalEntity-10789)
+
+(aia-MI BoundedTemporalEntity-10813 BoundedTemporalEntity-10669)
+
+(aia-MI BoundedTemporalEntity-10817 BoundedTemporalEntity-10801)
+
+(aia-MI BoundedTemporalEntity-10817 BoundedTemporalEntity-10813)
+
+(aia-MI BoundedTemporalEntity-10818 BoundedTemporalEntity-10801)
+
+(aia-MI BoundedTemporalEntity-10824 BoundedTemporalEntity-10818)
+
+(aia-MI BoundedTemporalEntity-10846 BoundedTemporalEntity-10824)
+
+(aia-SI BoundedTemporalEntity-10817 BoundedTemporalEntity-10818)
+
+(cityOwner FC-City-Putrajaya FC-Player-DavitIV)
+
+(constantIn BoundedTemporalEntity-10426 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Putrajaya))
+
+(constantIn BoundedTemporalEntity-10655 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13054672))
+
+(constantIn BoundedTemporalEntity-10684 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13379888))
+
+(constantIn BoundedTemporalEntity-10691 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13379888))
+
+(constantIn BoundedTemporalEntity-10792 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-14904738))
+
+(constantIn BoundedTemporalEntity-10793 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-14904738))
+
+(constantIn BoundedTemporalEntity-10836 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-15547592))
+
+(constantIn BoundedTemporalEntity-10838 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-15547689))
+
+(constantIn BoundedTemporalEntity-10840 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-15547592))
+
+(constantIn BoundedTemporalEntity-10842 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-15547689))
+
+(currentActivity Unit-182 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Putrajaya (FreecivLocationFn 24 7))
+
+(fcObjectAt Unit-182 (FreecivLocationFn 24 7))
+
+(footprintOf FC-City-Putrajaya CityFootprint-FC-City-Putrajaya)
+
+(isa CityFootprint-FC-City-Putrajaya CityFootprint)
+
+(isa FC-City-Putrajaya FreeCiv-City)
+
+(isa STEntity-484 DefensiveEpisodeFailure)
+
+(isa STEntity-484 SpatiotemporalEvent)
+
+(isa Unit-182 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-13054672 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-13379888 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-14904738 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-15547592 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-15547689 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10817 ((MeasurableQuantityFn citySize) FC-City-Putrajaya))
+
+(nondecreasingIn BoundedTemporalEntity-10818 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Putrajaya))
+
+(nondecreasingIn BoundedTemporalEntity-10824 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Putrajaya))
+
+(nondecreasingIn BoundedTemporalEntity-10846 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Putrajaya))
+
+(nonincreasingIn BoundedTemporalEntity-10794 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13054672))
+
+(nonincreasingIn BoundedTemporalEntity-10801 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Putrajaya))
+
+(startsAfterStartingOf BoundedTemporalEntity-10794 BoundedTemporalEntity-10655)
+
+(startsAfterStartingOf BoundedTemporalEntity-10817 BoundedTemporalEntity-10426)
+
+(startsAfterStartingOf BoundedTemporalEntity-10817 BoundedTemporalEntity-10427)
+
+(startsAtSameTime BoundedTemporalEntity-10691 BoundedTemporalEntity-10684)
+
+(startsAtSameTime BoundedTemporalEntity-10793 BoundedTemporalEntity-10792)
+
+(startsAtSameTime BoundedTemporalEntity-10840 BoundedTemporalEntity-10836)
+
+(startsAtSameTime BoundedTemporalEntity-10842 BoundedTemporalEntity-10838)
+
+(startsBeforeStartingOf BoundedTemporalEntity-10817 BoundedTemporalEntity-10846)
+
+(unitOwner Unit-182 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10427 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Putrajaya))

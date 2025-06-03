@@ -1,0 +1,112 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guovdageaidnu) (TemporalIntervalFn STEntity-177)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guovdageaidnu) (TemporalIntervalFn STEntity-177)))
+((Area (AtFn (EndFn STEntity-177) STEntity-177)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-177) STEntity-177)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-177) STEntity-177)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-177) STEntity-177)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-177) STEntity-177)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-177) STEntity-177)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-177) STEntity-177)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-177) STEntity-177)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-177) STEntity-177)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-177) STEntity-177)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5364 BoundedTemporalEntity-5338)
+
+(aia-MI BoundedTemporalEntity-5366 BoundedTemporalEntity-5364)
+
+(aia-MI BoundedTemporalEntity-5376 BoundedTemporalEntity-5366)
+
+(aia-MI BoundedTemporalEntity-5377 BoundedTemporalEntity-5376)
+
+(aia-MI BoundedTemporalEntity-5387 BoundedTemporalEntity-5377)
+
+(aia-MI BoundedTemporalEntity-5401 BoundedTemporalEntity-5387)
+
+(aia-MI BoundedTemporalEntity-5441 BoundedTemporalEntity-5401)
+
+(aia-MI BoundedTemporalEntity-5469 BoundedTemporalEntity-5441)
+
+(aia-MI BoundedTemporalEntity-5497 BoundedTemporalEntity-5469)
+
+(aia-MI BoundedTemporalEntity-5498 BoundedTemporalEntity-5497)
+
+(aia-MI BoundedTemporalEntity-5551 BoundedTemporalEntity-5498)
+
+(aia-MI BoundedTemporalEntity-5571 BoundedTemporalEntity-5551)
+
+(aia-MI BoundedTemporalEntity-5610 BoundedTemporalEntity-5571)
+
+(aia-MI BoundedTemporalEntity-5644 BoundedTemporalEntity-5610)
+
+(cityOwner FC-City-Guovdageaidnu FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5340 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(constantIn BoundedTemporalEntity-5639 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1332739))
+
+(constantIn BoundedTemporalEntity-5641 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1332739))
+
+(constantIn BoundedTemporalEntity-5659 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1388262))
+
+(constantIn BoundedTemporalEntity-5661 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1388262))
+
+(currentActivity Unit-167 FC-ActivityIdle)
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(currentActivity Unit-273 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Guovdageaidnu (FreecivLocationFn 35 5))
+
+(fcObjectAt Unit-273 (FreecivLocationFn 35 5))
+
+(footprintOf FC-City-Guovdageaidnu CityFootprint-FC-City-Guovdageaidnu)
+
+(isa CityFootprint-FC-City-Guovdageaidnu CityFootprint)
+
+(isa FC-City-Guovdageaidnu FreeCiv-City)
+
+(isa STEntity-177 DefensiveEpisodeFailure)
+
+(isa STEntity-177 SpatiotemporalEvent)
+
+(isa Unit-167 FC-Unit-Horsemen)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa Unit-273 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1332739 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1388262 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-928330 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-951525 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-983466 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-5644 ((MeasurableQuantityFn citySize) FC-City-Guovdageaidnu))
+
+(startsAfterStartingOf BoundedTemporalEntity-5644 BoundedTemporalEntity-5340)
+
+(startsAfterStartingOf BoundedTemporalEntity-5644 BoundedTemporalEntity-5341)
+
+(startsAtSameTime BoundedTemporalEntity-5641 BoundedTemporalEntity-5639)
+
+(startsAtSameTime BoundedTemporalEntity-5661 BoundedTemporalEntity-5659)
+
+(unitOwner Unit-273 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5341 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))

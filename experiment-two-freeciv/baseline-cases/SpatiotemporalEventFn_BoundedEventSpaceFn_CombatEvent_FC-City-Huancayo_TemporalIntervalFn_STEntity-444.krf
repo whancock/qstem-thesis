@@ -1,0 +1,92 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Huancayo) (TemporalIntervalFn STEntity-444)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Huancayo) (TemporalIntervalFn STEntity-444)))
+((Area (AtFn (EndFn STEntity-444) STEntity-444)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-444) STEntity-444)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-444) STEntity-444)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-444) STEntity-444)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-444) STEntity-444)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-444) STEntity-444)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-444) STEntity-444)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-444) STEntity-444)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-444) STEntity-444)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Huancayo)
+
+((citySize (AtFn (EndFn STEntity-444) STEntity-444)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-444) STEntity-444)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-10132 BoundedTemporalEntity-9872)
+
+(aia-MI BoundedTemporalEntity-9770 BoundedTemporalEntity-9543)
+
+(aia-MI BoundedTemporalEntity-9779 BoundedTemporalEntity-9770)
+
+(aia-MI BoundedTemporalEntity-9959 BoundedTemporalEntity-9779)
+
+(cityOwner FC-City-Huancayo FC-Player-ManuelA.Odría)
+
+(constantIn BoundedTemporalEntity-10008 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11242893))
+
+(constantIn BoundedTemporalEntity-10013 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11242893))
+
+(constantIn BoundedTemporalEntity-10090 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11355711))
+
+(constantIn BoundedTemporalEntity-10103 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11355711))
+
+(constantIn BoundedTemporalEntity-9544 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Huancayo))
+
+(constantIn BoundedTemporalEntity-9869 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11084863))
+
+(constantIn BoundedTemporalEntity-9959 ((MeasurableQuantityFn citySize) FC-City-Huancayo))
+
+(currentActivity Unit-286 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Huancayo (FreecivLocationFn 8 15))
+
+(fcObjectAt Unit-286 (FreecivLocationFn 8 15))
+
+(footprintOf FC-City-Huancayo CityFootprint-FC-City-Huancayo)
+
+(isa CityFootprint-FC-City-Huancayo CityFootprint)
+
+(isa FC-City-Huancayo FreeCiv-City)
+
+(isa STEntity-444 DefensiveEpisodeFailure)
+
+(isa STEntity-444 SpatiotemporalEvent)
+
+(isa Unit-286 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-11084863 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-11139767 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-11242893 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-11355711 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10132 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11084863))
+
+(startsAfterStartingOf BoundedTemporalEntity-10132 BoundedTemporalEntity-9869)
+
+(startsAfterStartingOf BoundedTemporalEntity-9959 BoundedTemporalEntity-9544)
+
+(startsAfterStartingOf BoundedTemporalEntity-9959 BoundedTemporalEntity-9545)
+
+(startsAtSameTime BoundedTemporalEntity-10013 BoundedTemporalEntity-10008)
+
+(startsAtSameTime BoundedTemporalEntity-10103 BoundedTemporalEntity-10090)
+
+(unitOwner Unit-286 FC-Player-WangKon)
+
+(zeroIn BoundedTemporalEntity-9545 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Huancayo))

@@ -1,0 +1,92 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Warszawa) (TemporalIntervalFn STEntity-373)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Warszawa) (TemporalIntervalFn STEntity-373)))
+((Area (AtFn (EndFn STEntity-373) STEntity-373)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-373) STEntity-373)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 16))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 16))
+
+((Defenders (AtFn (EndFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 10))
+
+((Defenders (AtFn (EndFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 10))
+
+((Defenders (AtFn (StartFn STEntity-373) STEntity-373)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-373) STEntity-373)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-373) STEntity-373)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7605 BoundedTemporalEntity-7512)
+
+(aia-MI BoundedTemporalEntity-7608 BoundedTemporalEntity-7605)
+
+(aia-MI BoundedTemporalEntity-7760 BoundedTemporalEntity-7608)
+
+(cityOwner FC-City-Warszawa FC-Player-W≈?adys≈?awJagie≈?≈?o)
+
+(constantIn BoundedTemporalEntity-7513 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Warszawa))
+
+(constantIn BoundedTemporalEntity-7760 ((MeasurableQuantityFn citySize) FC-City-Warszawa))
+
+(constantIn BoundedTemporalEntity-8201 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6887521))
+
+(constantIn BoundedTemporalEntity-8205 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6887587))
+
+(constantIn BoundedTemporalEntity-8207 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6887619))
+
+(constantIn BoundedTemporalEntity-8210 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6887521))
+
+(constantIn BoundedTemporalEntity-8214 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6887587))
+
+(constantIn BoundedTemporalEntity-8216 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6887619))
+
+(currentActivity Unit-247 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Warszawa (FreecivLocationFn 24 29))
+
+(fcObjectAt Unit-247 (FreecivLocationFn 24 29))
+
+(footprintOf FC-City-Warszawa CityFootprint-FC-City-Warszawa)
+
+(isa CityFootprint-FC-City-Warszawa CityFootprint)
+
+(isa FC-City-Warszawa FreeCiv-City)
+
+(isa STEntity-373 DefensiveEpisodeFailure)
+
+(isa STEntity-373 SpatiotemporalEvent)
+
+(isa Unit-247 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-6887521 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6887587 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6887619 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-7760 BoundedTemporalEntity-7513)
+
+(startsAfterStartingOf BoundedTemporalEntity-7760 BoundedTemporalEntity-7514)
+
+(startsAtSameTime BoundedTemporalEntity-8210 BoundedTemporalEntity-8201)
+
+(startsAtSameTime BoundedTemporalEntity-8214 BoundedTemporalEntity-8205)
+
+(startsAtSameTime BoundedTemporalEntity-8216 BoundedTemporalEntity-8207)
+
+(unitOwner Unit-247 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7514 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Warszawa))

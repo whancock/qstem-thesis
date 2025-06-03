@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Olsztyn) (TemporalIntervalFn STEntity-353)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Olsztyn) (TemporalIntervalFn STEntity-353)))
+((Area (AtFn (EndFn STEntity-353) STEntity-353)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-353) STEntity-353)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-353) STEntity-353)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-353) STEntity-353)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-353) STEntity-353)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-353) STEntity-353)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-353) STEntity-353)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-353) STEntity-353)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-353) STEntity-353)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-353) STEntity-353)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7580 BoundedTemporalEntity-7526)
+
+(aia-MI BoundedTemporalEntity-7591 BoundedTemporalEntity-7578)
+
+(aia-MI BoundedTemporalEntity-7599 BoundedTemporalEntity-7591)
+
+(aia-MI BoundedTemporalEntity-7616 BoundedTemporalEntity-7580)
+
+(cityOwner FC-City-Olsztyn FC-Player-W≈?adys≈?awJagie≈?≈?o)
+
+(constantIn BoundedTemporalEntity-7527 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Olsztyn))
+
+(constantIn BoundedTemporalEntity-7574 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4541844))
+
+(constantIn BoundedTemporalEntity-7595 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4623699))
+
+(constantIn BoundedTemporalEntity-7597 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4623699))
+
+(currentActivity Unit-218 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Olsztyn (FreecivLocationFn 20 21))
+
+(fcObjectAt Unit-218 (FreecivLocationFn 20 21))
+
+(footprintOf FC-City-Olsztyn CityFootprint-FC-City-Olsztyn)
+
+(isa CityFootprint-FC-City-Olsztyn CityFootprint)
+
+(isa FC-City-Olsztyn FreeCiv-City)
+
+(isa STEntity-353 DefensiveEpisodeFailure)
+
+(isa STEntity-353 SpatiotemporalEvent)
+
+(isa Unit-218 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-4541844 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4623699 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-7599 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4541844))
+
+(nonincreasingIn BoundedTemporalEntity-7616 ((MeasurableQuantityFn citySize) FC-City-Olsztyn))
+
+(startsAfterStartingOf BoundedTemporalEntity-7599 BoundedTemporalEntity-7574)
+
+(startsAfterStartingOf BoundedTemporalEntity-7616 BoundedTemporalEntity-7527)
+
+(startsAfterStartingOf BoundedTemporalEntity-7616 BoundedTemporalEntity-7528)
+
+(startsAtSameTime BoundedTemporalEntity-7597 BoundedTemporalEntity-7595)
+
+(unitOwner Unit-218 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7528 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Olsztyn))

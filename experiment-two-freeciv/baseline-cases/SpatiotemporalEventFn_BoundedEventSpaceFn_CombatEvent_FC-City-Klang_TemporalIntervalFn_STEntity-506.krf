@@ -1,0 +1,122 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Klang) (TemporalIntervalFn STEntity-506)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Klang) (TemporalIntervalFn STEntity-506)))
+((Area (AtFn (EndFn STEntity-506) STEntity-506)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-506) STEntity-506)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-506) STEntity-506)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-506) STEntity-506)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-506) STEntity-506)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-506) STEntity-506)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-506) STEntity-506)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-506) STEntity-506)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-506) STEntity-506)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-506) STEntity-506)) (FreecivCitizenCountFn 2))
+
+(aia-DI BoundedTemporalEntity-11086 BoundedTemporalEntity-11093)
+
+(aia-MI BoundedTemporalEntity-10830 BoundedTemporalEntity-10637)
+
+(aia-MI BoundedTemporalEntity-10888 BoundedTemporalEntity-10856)
+
+(aia-MI BoundedTemporalEntity-10915 BoundedTemporalEntity-10888)
+
+(aia-MI BoundedTemporalEntity-10948 BoundedTemporalEntity-10915)
+
+(aia-MI BoundedTemporalEntity-10953 BoundedTemporalEntity-10830)
+
+(aia-MI BoundedTemporalEntity-10974 BoundedTemporalEntity-10953)
+
+(aia-MI BoundedTemporalEntity-10985 BoundedTemporalEntity-10948)
+
+(aia-MI BoundedTemporalEntity-11058 BoundedTemporalEntity-10985)
+
+(aia-MI BoundedTemporalEntity-11066 BoundedTemporalEntity-11058)
+
+(aia-MI BoundedTemporalEntity-11086 BoundedTemporalEntity-10974)
+
+(aia-MI BoundedTemporalEntity-11093 BoundedTemporalEntity-11066)
+
+(aia-MI BoundedTemporalEntity-11132 BoundedTemporalEntity-11093)
+
+(aia-OI BoundedTemporalEntity-11086 BoundedTemporalEntity-10856)
+
+(aia-OI BoundedTemporalEntity-11086 BoundedTemporalEntity-10888)
+
+(aia-OI BoundedTemporalEntity-11086 BoundedTemporalEntity-10915)
+
+(aia-OI BoundedTemporalEntity-11086 BoundedTemporalEntity-10948)
+
+(aia-OI BoundedTemporalEntity-11086 BoundedTemporalEntity-10985)
+
+(aia-OI BoundedTemporalEntity-11086 BoundedTemporalEntity-11058)
+
+(aia-OI BoundedTemporalEntity-11086 BoundedTemporalEntity-11066)
+
+(cityOwner FC-City-Klang FC-Player-DavitIV)
+
+(constantIn BoundedTemporalEntity-10638 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Klang))
+
+(constantIn BoundedTemporalEntity-11049 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-17394225))
+
+(constantIn BoundedTemporalEntity-11053 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-17394225))
+
+(constantIn BoundedTemporalEntity-11132 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(currentActivity Unit-266 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Klang (FreecivLocationFn 21 17))
+
+(fcObjectAt Unit-266 (FreecivLocationFn 21 17))
+
+(footprintOf FC-City-Klang CityFootprint-FC-City-Klang)
+
+(isa CityFootprint-FC-City-Klang CityFootprint)
+
+(isa FC-City-Klang FreeCiv-City)
+
+(isa STEntity-506 DefensiveEpisodeFailure)
+
+(isa STEntity-506 SpatiotemporalEvent)
+
+(isa Unit-266 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-17394225 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10888 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(nondecreasingIn BoundedTemporalEntity-10948 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(nondecreasingIn BoundedTemporalEntity-10985 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(nondecreasingIn BoundedTemporalEntity-11086 ((MeasurableQuantityFn citySize) FC-City-Klang))
+
+(nondecreasingIn BoundedTemporalEntity-11093 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(nonincreasingIn BoundedTemporalEntity-10856 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(nonincreasingIn BoundedTemporalEntity-10915 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(nonincreasingIn BoundedTemporalEntity-11058 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(nonincreasingIn BoundedTemporalEntity-11066 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Klang))
+
+(startsAfterStartingOf BoundedTemporalEntity-11086 BoundedTemporalEntity-10638)
+
+(startsAfterStartingOf BoundedTemporalEntity-11086 BoundedTemporalEntity-10639)
+
+(startsAtSameTime BoundedTemporalEntity-11053 BoundedTemporalEntity-11049)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11086 BoundedTemporalEntity-11132)
+
+(unitOwner Unit-266 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10639 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Klang))

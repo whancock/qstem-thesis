@@ -1,0 +1,146 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Niani) (TemporalIntervalFn STEntity-90)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Niani) (TemporalIntervalFn STEntity-90)))
+((Area (AtFn (EndFn STEntity-90) STEntity-90)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-90) STEntity-90)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (EndFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-90) STEntity-90)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-90) STEntity-90)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-90) STEntity-90)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3094 BoundedTemporalEntity-3082)
+
+(aia-MI BoundedTemporalEntity-3102 BoundedTemporalEntity-3094)
+
+(aia-MI BoundedTemporalEntity-3113 BoundedTemporalEntity-3102)
+
+(aia-MI BoundedTemporalEntity-3114 BoundedTemporalEntity-3113)
+
+(aia-MI BoundedTemporalEntity-3151 BoundedTemporalEntity-3114)
+
+(aia-MI BoundedTemporalEntity-3153 BoundedTemporalEntity-3151)
+
+(aia-MI BoundedTemporalEntity-3204 BoundedTemporalEntity-3153)
+
+(aia-MI BoundedTemporalEntity-3205 BoundedTemporalEntity-3204)
+
+(aia-MI BoundedTemporalEntity-3222 BoundedTemporalEntity-3205)
+
+(aia-MI BoundedTemporalEntity-3226 BoundedTemporalEntity-3222)
+
+(aia-MI BoundedTemporalEntity-3271 BoundedTemporalEntity-3265)
+
+(aia-MI BoundedTemporalEntity-3283 BoundedTemporalEntity-3271)
+
+(cityOwner FC-City-Niani FC-Player-Sakura)
+
+(constantIn BoundedTemporalEntity-3083 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))
+
+(constantIn BoundedTemporalEntity-3261 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-208275))
+
+(constantIn BoundedTemporalEntity-3262 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-208326))
+
+(constantIn BoundedTemporalEntity-3264 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-208275))
+
+(constantIn BoundedTemporalEntity-3274 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-211509))
+
+(constantIn BoundedTemporalEntity-3279 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-211509))
+
+(constantIn BoundedTemporalEntity-3284 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-213251))
+
+(constantIn BoundedTemporalEntity-3285 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-213255))
+
+(constantIn BoundedTemporalEntity-3286 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-213251))
+
+(constantIn BoundedTemporalEntity-3287 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-213255))
+
+(currentActivity Unit-193 FC-ActivityIdle)
+
+(currentActivity Unit-312 FC-ActivityFortifying)
+
+(currentActivity Unit-333 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Niani (FreecivLocationFn 3 27))
+
+(fcObjectAt Unit-333 (FreecivLocationFn 3 27))
+
+(footprintOf FC-City-Niani CityFootprint-FC-City-Niani)
+
+(isa CityFootprint-FC-City-Niani CityFootprint)
+
+(isa FC-City-Niani FreeCiv-City)
+
+(isa STEntity-90 DefensiveEpisodeFailure)
+
+(isa STEntity-90 SpatiotemporalEvent)
+
+(isa Unit-193 FC-Unit-Chariot)
+
+(isa Unit-312 FC-Unit-Catapult)
+
+(isa Unit-333 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-201792 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-207486 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-208262 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-208275 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-208326 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-209646 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-211459 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-211509 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-213251 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-213255 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-3211 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Niani))
+
+(nondecreasingIn BoundedTemporalEntity-3283 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-208326))
+
+(nonincreasingIn BoundedTemporalEntity-3226 ((MeasurableQuantityFn citySize) FC-City-Niani))
+
+(startsAfterStartingOf BoundedTemporalEntity-3226 BoundedTemporalEntity-3083)
+
+(startsAfterStartingOf BoundedTemporalEntity-3226 BoundedTemporalEntity-3084)
+
+(startsAfterStartingOf BoundedTemporalEntity-3226 BoundedTemporalEntity-3211)
+
+(startsAfterStartingOf BoundedTemporalEntity-3283 BoundedTemporalEntity-3262)
+
+(startsAtSameTime BoundedTemporalEntity-3264 BoundedTemporalEntity-3261)
+
+(startsAtSameTime BoundedTemporalEntity-3279 BoundedTemporalEntity-3274)
+
+(startsAtSameTime BoundedTemporalEntity-3286 BoundedTemporalEntity-3284)
+
+(startsAtSameTime BoundedTemporalEntity-3287 BoundedTemporalEntity-3285)
+
+(unitOwner Unit-312 FC-Player-VasileLupu)
+
+(unitOwner Unit-333 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3084 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Niani))

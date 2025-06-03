@@ -1,0 +1,70 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kongresurbo) (TemporalIntervalFn STEntity-537)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kongresurbo) (TemporalIntervalFn STEntity-537)))
+((Area (AtFn (EndFn STEntity-537) STEntity-537)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-537) STEntity-537)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-537) STEntity-537)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-537) STEntity-537)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-537) STEntity-537)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-537) STEntity-537)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-537) STEntity-537)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-537) STEntity-537)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Kongresurbo)
+
+((citySize (AtFn (EndFn STEntity-537) STEntity-537)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-537) STEntity-537)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-12105 BoundedTemporalEntity-12000)
+
+(aia-MI BoundedTemporalEntity-12130 BoundedTemporalEntity-12119)
+
+(aia-MI BoundedTemporalEntity-12141 BoundedTemporalEntity-12130)
+
+(cityOwner FC-City-Kongresurbo FC-Player-MarttiAhtisaari)
+
+(constantIn BoundedTemporalEntity-12001 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kongresurbo))
+
+(constantIn BoundedTemporalEntity-12118 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-21012223))
+
+(currentActivity Unit-160 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kongresurbo (FreecivLocationFn 17 6))
+
+(fcObjectAt Unit-160 (FreecivLocationFn 17 6))
+
+(footprintOf FC-City-Kongresurbo CityFootprint-FC-City-Kongresurbo)
+
+(isa CityFootprint-FC-City-Kongresurbo CityFootprint)
+
+(isa FC-City-Kongresurbo FreeCiv-City)
+
+(isa STEntity-537 DefensiveEpisodeFailure)
+
+(isa STEntity-537 SpatiotemporalEvent)
+
+(isa Unit-160 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-21012223 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12105 ((MeasurableQuantityFn citySize) FC-City-Kongresurbo))
+
+(nonincreasingIn BoundedTemporalEntity-12141 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-21012223))
+
+(startsAfterStartingOf BoundedTemporalEntity-12105 BoundedTemporalEntity-12001)
+
+(startsAfterStartingOf BoundedTemporalEntity-12105 BoundedTemporalEntity-12002)
+
+(startsAfterStartingOf BoundedTemporalEntity-12141 BoundedTemporalEntity-12118)
+
+(unitOwner Unit-160 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-12002 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kongresurbo))

@@ -1,0 +1,92 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Esperanturbo) (TemporalIntervalFn STEntity-528)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Esperanturbo) (TemporalIntervalFn STEntity-528)))
+((Area (AtFn (EndFn STEntity-528) STEntity-528)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-528) STEntity-528)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-528) STEntity-528)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-528) STEntity-528)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-528) STEntity-528)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-11887 BoundedTemporalEntity-11874)
+
+(aia-MI BoundedTemporalEntity-11901 BoundedTemporalEntity-11887)
+
+(aia-MI BoundedTemporalEntity-11902 BoundedTemporalEntity-11901)
+
+(aia-MI BoundedTemporalEntity-11930 BoundedTemporalEntity-11902)
+
+(aia-MI BoundedTemporalEntity-11932 BoundedTemporalEntity-11930)
+
+(aia-MI BoundedTemporalEntity-11998 BoundedTemporalEntity-11981)
+
+(aia-MI BoundedTemporalEntity-12027 BoundedTemporalEntity-11998)
+
+(aia-MI BoundedTemporalEntity-12029 BoundedTemporalEntity-11932)
+
+(aia-MI BoundedTemporalEntity-12052 BoundedTemporalEntity-12027)
+
+(cityOwner FC-City-Esperanturbo FC-Player-L.L.ZAMENHOF)
+
+(constantIn BoundedTemporalEntity-11875 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Esperanturbo))
+
+(constantIn BoundedTemporalEntity-11979 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19942568))
+
+(constantIn BoundedTemporalEntity-12038 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-20105538))
+
+(constantIn BoundedTemporalEntity-12040 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-20105538))
+
+(currentActivity Unit-163 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Esperanturbo (FreecivLocationFn 19 13))
+
+(fcObjectAt Unit-163 (FreecivLocationFn 19 13))
+
+(footprintOf FC-City-Esperanturbo CityFootprint-FC-City-Esperanturbo)
+
+(isa CityFootprint-FC-City-Esperanturbo CityFootprint)
+
+(isa FC-City-Esperanturbo FreeCiv-City)
+
+(isa STEntity-528 DefensiveEpisodeFailure)
+
+(isa STEntity-528 SpatiotemporalEvent)
+
+(isa Unit-163 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-19942568 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-20105538 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12052 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19942568))
+
+(nonincreasingIn BoundedTemporalEntity-12029 ((MeasurableQuantityFn citySize) FC-City-Esperanturbo))
+
+(startsAfterStartingOf BoundedTemporalEntity-12029 BoundedTemporalEntity-11875)
+
+(startsAfterStartingOf BoundedTemporalEntity-12029 BoundedTemporalEntity-11876)
+
+(startsAfterStartingOf BoundedTemporalEntity-12052 BoundedTemporalEntity-11979)
+
+(startsAtSameTime BoundedTemporalEntity-12040 BoundedTemporalEntity-12038)
+
+(unitOwner Unit-163 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-11876 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Esperanturbo))

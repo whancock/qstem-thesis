@@ -1,0 +1,112 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-blanuRokciCmamaa) (TemporalIntervalFn STEntity-119)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-blanuRokciCmamaa) (TemporalIntervalFn STEntity-119)))
+((Area (AtFn (EndFn STEntity-119) STEntity-119)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-119) STEntity-119)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-119) STEntity-119)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-119) STEntity-119)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-119) STEntity-119)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-119) STEntity-119)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-119) STEntity-119)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-119) STEntity-119)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-119) STEntity-119)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-119) STEntity-119)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-4382 BoundedTemporalEntity-4373)
+
+(aia-MI BoundedTemporalEntity-4383 BoundedTemporalEntity-4382)
+
+(aia-MI BoundedTemporalEntity-4387 BoundedTemporalEntity-4383)
+
+(aia-MI BoundedTemporalEntity-4428 BoundedTemporalEntity-4387)
+
+(aia-MI BoundedTemporalEntity-4433 BoundedTemporalEntity-4428)
+
+(aia-MI BoundedTemporalEntity-4466 BoundedTemporalEntity-4433)
+
+(aia-MI BoundedTemporalEntity-4581 BoundedTemporalEntity-4466)
+
+(aia-MI BoundedTemporalEntity-4606 BoundedTemporalEntity-4581)
+
+(aia-MI BoundedTemporalEntity-4627 BoundedTemporalEntity-4601)
+
+(aia-MI BoundedTemporalEntity-4637 BoundedTemporalEntity-4627)
+
+(cityOwner FC-City-blanuRokciCmamaa FC-Player-lojbab)
+
+(constantIn BoundedTemporalEntity-4374 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-blanuRokciCmamaa))
+
+(constantIn BoundedTemporalEntity-4590 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-553775))
+
+(constantIn BoundedTemporalEntity-4592 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-553848))
+
+(constantIn BoundedTemporalEntity-4603 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-553848))
+
+(constantIn BoundedTemporalEntity-4635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-598808))
+
+(constantIn BoundedTemporalEntity-4636 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-598808))
+
+(currentActivity Unit-250 FC-ActivityIdle)
+
+(currentActivity Unit-282 FC-ActivityIdle)
+
+(currentActivity Unit-284 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-blanuRokciCmamaa (FreecivLocationFn 10 30))
+
+(fcObjectAt Unit-282 (FreecivLocationFn 10 30))
+
+(footprintOf FC-City-blanuRokciCmamaa CityFootprint-FC-City-blanuRokciCmamaa)
+
+(isa CityFootprint-FC-City-blanuRokciCmamaa CityFootprint)
+
+(isa FC-City-blanuRokciCmamaa FreeCiv-City)
+
+(isa STEntity-119 DefensiveEpisodeFailure)
+
+(isa STEntity-119 SpatiotemporalEvent)
+
+(isa Unit-250 FC-Unit-Chariot)
+
+(isa Unit-282 FC-Unit-Catapult)
+
+(isa Unit-284 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-550150 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-553775 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-553807 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-553848 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-598808 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-4606 ((MeasurableQuantityFn citySize) FC-City-blanuRokciCmamaa))
+
+(nonincreasingIn BoundedTemporalEntity-4637 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-553775))
+
+(startsAfterStartingOf BoundedTemporalEntity-4606 BoundedTemporalEntity-4374)
+
+(startsAfterStartingOf BoundedTemporalEntity-4606 BoundedTemporalEntity-4375)
+
+(startsAfterStartingOf BoundedTemporalEntity-4637 BoundedTemporalEntity-4590)
+
+(startsAtSameTime BoundedTemporalEntity-4603 BoundedTemporalEntity-4592)
+
+(startsAtSameTime BoundedTemporalEntity-4636 BoundedTemporalEntity-4635)
+
+(unitOwner Unit-282 FC-Player-WalterHallstein)
+
+(unitOwner Unit-284 FC-Player-WalterHallstein)
+
+(zeroIn BoundedTemporalEntity-4375 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-blanuRokciCmamaa))

@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chongqing) (TemporalIntervalFn STEntity-243)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chongqing) (TemporalIntervalFn STEntity-243)))
+((Area (AtFn (EndFn STEntity-243) STEntity-243)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-243) STEntity-243)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-243) STEntity-243)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-243) STEntity-243)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-243) STEntity-243)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-243) STEntity-243)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-243) STEntity-243)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-243) STEntity-243)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-243) STEntity-243)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-243) STEntity-243)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Chongqing FC-Player-DengXiaoping)
+
+(constantIn BoundedTemporalEntity-6102 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1706287))
+
+(constantIn BoundedTemporalEntity-6104 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1706287))
+
+(constantIn BoundedTemporalEntity-6118 ((MeasurableQuantityFn citySize) FC-City-Chongqing))
+
+(constantIn BoundedTemporalEntity-6119 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chongqing))
+
+(constantIn BoundedTemporalEntity-6145 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1758790))
+
+(constantIn BoundedTemporalEntity-6146 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1758790))
+
+(constantIn BoundedTemporalEntity-6179 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1849844))
+
+(constantIn BoundedTemporalEntity-6181 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1849844))
+
+(currentActivity Unit-173 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Chongqing (FreecivLocationFn 26 26))
+
+(fcObjectAt Unit-173 (FreecivLocationFn 26 26))
+
+(footprintOf FC-City-Chongqing CityFootprint-FC-City-Chongqing)
+
+(isa CityFootprint-FC-City-Chongqing CityFootprint)
+
+(isa FC-City-Chongqing FreeCiv-City)
+
+(isa STEntity-243 DefensiveEpisodeFailure)
+
+(isa STEntity-243 SpatiotemporalEvent)
+
+(isa Unit-173 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1706287 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1758790 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1849844 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-6104 BoundedTemporalEntity-6102)
+
+(startsAtSameTime BoundedTemporalEntity-6118 BoundedTemporalEntity-6119)
+
+(startsAtSameTime BoundedTemporalEntity-6118 BoundedTemporalEntity-6120)
+
+(startsAtSameTime BoundedTemporalEntity-6146 BoundedTemporalEntity-6145)
+
+(startsAtSameTime BoundedTemporalEntity-6181 BoundedTemporalEntity-6179)
+
+(unitOwner Unit-173 FC-Player-GiacomoMatteotti)
+
+(zeroIn BoundedTemporalEntity-6120 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chongqing))

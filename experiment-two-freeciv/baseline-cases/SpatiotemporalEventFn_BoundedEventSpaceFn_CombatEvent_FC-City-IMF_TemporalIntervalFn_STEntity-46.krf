@@ -1,0 +1,204 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-IMF) (TemporalIntervalFn STEntity-46)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-IMF) (TemporalIntervalFn STEntity-46)))
+((Area (AtFn (EndFn STEntity-46) STEntity-46)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-46) STEntity-46)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-46) STEntity-46)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-46) STEntity-46)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-46) STEntity-46)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-46) STEntity-46)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-46) STEntity-46)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-46) STEntity-46)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-IMF)
+
+((citySize (AtFn (EndFn STEntity-46) STEntity-46)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-46) STEntity-46)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-1065 BoundedTemporalEntity-1092)
+
+(aia-DI BoundedTemporalEntity-1065 BoundedTemporalEntity-1093)
+
+(aia-DI BoundedTemporalEntity-1065 BoundedTemporalEntity-1202)
+
+(aia-DI BoundedTemporalEntity-1065 BoundedTemporalEntity-1291)
+
+(aia-MI BoundedTemporalEntity-1065 BoundedTemporalEntity-815)
+
+(aia-MI BoundedTemporalEntity-1092 BoundedTemporalEntity-699)
+
+(aia-MI BoundedTemporalEntity-1093 BoundedTemporalEntity-830)
+
+(aia-MI BoundedTemporalEntity-1202 BoundedTemporalEntity-1093)
+
+(aia-MI BoundedTemporalEntity-1243 BoundedTemporalEntity-921)
+
+(aia-MI BoundedTemporalEntity-1291 BoundedTemporalEntity-1092)
+
+(aia-MI BoundedTemporalEntity-1455 BoundedTemporalEntity-1291)
+
+(aia-MI BoundedTemporalEntity-1456 BoundedTemporalEntity-1202)
+
+(aia-MI BoundedTemporalEntity-426 BoundedTemporalEntity-358)
+
+(aia-MI BoundedTemporalEntity-526 BoundedTemporalEntity-426)
+
+(aia-MI BoundedTemporalEntity-537 BoundedTemporalEntity-526)
+
+(aia-MI BoundedTemporalEntity-625 BoundedTemporalEntity-361)
+
+(aia-MI BoundedTemporalEntity-626 BoundedTemporalEntity-362)
+
+(aia-MI BoundedTemporalEntity-628 BoundedTemporalEntity-537)
+
+(aia-MI BoundedTemporalEntity-633 BoundedTemporalEntity-625)
+
+(aia-MI BoundedTemporalEntity-634 BoundedTemporalEntity-626)
+
+(aia-MI BoundedTemporalEntity-643 BoundedTemporalEntity-628)
+
+(aia-MI BoundedTemporalEntity-695 BoundedTemporalEntity-633)
+
+(aia-MI BoundedTemporalEntity-696 BoundedTemporalEntity-634)
+
+(aia-MI BoundedTemporalEntity-699 BoundedTemporalEntity-695)
+
+(aia-MI BoundedTemporalEntity-700 BoundedTemporalEntity-696)
+
+(aia-MI BoundedTemporalEntity-711 BoundedTemporalEntity-643)
+
+(aia-MI BoundedTemporalEntity-712 BoundedTemporalEntity-711)
+
+(aia-MI BoundedTemporalEntity-815 BoundedTemporalEntity-712)
+
+(aia-MI BoundedTemporalEntity-830 BoundedTemporalEntity-700)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-361)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-362)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-625)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-626)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-633)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-634)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-695)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-696)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-699)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-700)
+
+(aia-OI BoundedTemporalEntity-1065 BoundedTemporalEntity-830)
+
+(cityOwner FC-City-IMF FC-Player-TrygveLie)
+
+(constantIn BoundedTemporalEntity-1208 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-77169))
+
+(constantIn BoundedTemporalEntity-1226 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-77169))
+
+(constantIn BoundedTemporalEntity-1610 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-101157))
+
+(constantIn BoundedTemporalEntity-1617 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-101157))
+
+(constantIn BoundedTemporalEntity-359 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-IMF))
+
+(constantIn BoundedTemporalEntity-362 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(constantIn BoundedTemporalEntity-830 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(constantIn BoundedTemporalEntity-901 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-61691))
+
+(currentActivity Unit-285 FC-ActivityIdle)
+
+(currentActivity Unit-362 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-IMF (FreecivLocationFn 19 26))
+
+(fcObjectAt Unit-285 (FreecivLocationFn 19 26))
+
+(footprintOf FC-City-IMF CityFootprint-FC-City-IMF)
+
+(isa CityFootprint-FC-City-IMF CityFootprint)
+
+(isa FC-City-IMF FreeCiv-City)
+
+(isa STEntity-46 DefensiveEpisodeFailure)
+
+(isa STEntity-46 SpatiotemporalEvent)
+
+(isa Unit-285 FC-Unit-Catapult)
+
+(isa Unit-362 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-101157 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-61691 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-77169 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-1093 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(nondecreasingIn BoundedTemporalEntity-1456 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(nondecreasingIn BoundedTemporalEntity-626 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(nondecreasingIn BoundedTemporalEntity-696 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(nonincreasingIn BoundedTemporalEntity-1065 ((MeasurableQuantityFn citySize) FC-City-IMF))
+
+(nonincreasingIn BoundedTemporalEntity-1202 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(nonincreasingIn BoundedTemporalEntity-1243 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-61691))
+
+(nonincreasingIn BoundedTemporalEntity-634 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(nonincreasingIn BoundedTemporalEntity-700 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(someIn BoundedTemporalEntity-1092 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(someIn BoundedTemporalEntity-1455 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(someIn BoundedTemporalEntity-625 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(someIn BoundedTemporalEntity-695 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(startsAfterStartingOf BoundedTemporalEntity-1065 BoundedTemporalEntity-359)
+
+(startsAfterStartingOf BoundedTemporalEntity-1065 BoundedTemporalEntity-360)
+
+(startsAfterStartingOf BoundedTemporalEntity-1243 BoundedTemporalEntity-901)
+
+(startsAtSameTime BoundedTemporalEntity-1226 BoundedTemporalEntity-1208)
+
+(startsAtSameTime BoundedTemporalEntity-1617 BoundedTemporalEntity-1610)
+
+(startsBeforeStartingOf BoundedTemporalEntity-1065 BoundedTemporalEntity-1455)
+
+(startsBeforeStartingOf BoundedTemporalEntity-1065 BoundedTemporalEntity-1456)
+
+(unitOwner Unit-285 FC-Player-AliceBradleySheldon)
+
+(unitOwner Unit-362 FC-Player-AliceBradleySheldon)
+
+(zeroIn BoundedTemporalEntity-1291 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(zeroIn BoundedTemporalEntity-360 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-IMF))
+
+(zeroIn BoundedTemporalEntity-361 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(zeroIn BoundedTemporalEntity-633 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))
+
+(zeroIn BoundedTemporalEntity-699 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-IMF))

@@ -1,0 +1,140 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Halab) (TemporalIntervalFn STEntity-516)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Halab) (TemporalIntervalFn STEntity-516)))
+((Area (AtFn (EndFn STEntity-516) STEntity-516)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-516) STEntity-516)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 6))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 8))
+
+((Defenders (AtFn (EndFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-516) STEntity-516)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-516) STEntity-516)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-516) STEntity-516)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-11702 BoundedTemporalEntity-11692)
+
+(aia-MI BoundedTemporalEntity-11705 BoundedTemporalEntity-11702)
+
+(aia-MI BoundedTemporalEntity-11732 BoundedTemporalEntity-11721)
+
+(aia-MI BoundedTemporalEntity-11749 BoundedTemporalEntity-11705)
+
+(aia-MI BoundedTemporalEntity-11751 BoundedTemporalEntity-11749)
+
+(aia-MI BoundedTemporalEntity-11803 BoundedTemporalEntity-11732)
+
+(aia-MI BoundedTemporalEntity-11811 BoundedTemporalEntity-11798)
+
+(aia-MI BoundedTemporalEntity-11812 BoundedTemporalEntity-11811)
+
+(aia-MI BoundedTemporalEntity-11819 BoundedTemporalEntity-11751)
+
+(cityOwner FC-City-Halab FC-Player-TajAl-DinAl-Hasani)
+
+(constantIn BoundedTemporalEntity-11693 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Halab))
+
+(constantIn BoundedTemporalEntity-11719 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19267881))
+
+(constantIn BoundedTemporalEntity-11766 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19538428))
+
+(constantIn BoundedTemporalEntity-11767 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19538428))
+
+(constantIn BoundedTemporalEntity-11774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19636572))
+
+(constantIn BoundedTemporalEntity-11776 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19636572))
+
+(constantIn BoundedTemporalEntity-11796 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19671510))
+
+(constantIn BoundedTemporalEntity-11803 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19267881))
+
+(constantIn BoundedTemporalEntity-11813 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19735417))
+
+(constantIn BoundedTemporalEntity-11814 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19735417))
+
+(constantIn BoundedTemporalEntity-11819 ((MeasurableQuantityFn citySize) FC-City-Halab))
+
+(currentActivity Unit-162 FC-ActivityFortifying)
+
+(currentActivity Unit-176 FC-ActivityFortifying)
+
+(currentActivity Unit-192 FC-ActivityIdle)
+
+(currentActivity Unit-193 FC-ActivityIdle)
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Halab (FreecivLocationFn 4 11))
+
+(fcObjectAt Unit-193 (FreecivLocationFn 4 11))
+
+(footprintOf FC-City-Halab CityFootprint-FC-City-Halab)
+
+(isa CityFootprint-FC-City-Halab CityFootprint)
+
+(isa FC-City-Halab FreeCiv-City)
+
+(isa STEntity-516 DefensiveEpisodeFailure)
+
+(isa STEntity-516 SpatiotemporalEvent)
+
+(isa Unit-162 FC-Unit-Chariot)
+
+(isa Unit-176 FC-Unit-Chariot)
+
+(isa Unit-192 FC-Unit-Chariot)
+
+(isa Unit-193 FC-Unit-Chariot)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-19267881 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19538428 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19636572 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19644332 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19651431 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19671510 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19735417 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-11812 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19671510))
+
+(startsAfterStartingOf BoundedTemporalEntity-11803 BoundedTemporalEntity-11719)
+
+(startsAfterStartingOf BoundedTemporalEntity-11812 BoundedTemporalEntity-11796)
+
+(startsAfterStartingOf BoundedTemporalEntity-11819 BoundedTemporalEntity-11693)
+
+(startsAfterStartingOf BoundedTemporalEntity-11819 BoundedTemporalEntity-11694)
+
+(startsAtSameTime BoundedTemporalEntity-11767 BoundedTemporalEntity-11766)
+
+(startsAtSameTime BoundedTemporalEntity-11776 BoundedTemporalEntity-11774)
+
+(startsAtSameTime BoundedTemporalEntity-11814 BoundedTemporalEntity-11813)
+
+(unitOwner Unit-162 FC-Player-JohanDeWitt)
+
+(unitOwner Unit-176 FC-Player-JohanDeWitt)
+
+(unitOwner Unit-193 FC-Player-JohanDeWitt)
+
+(zeroIn BoundedTemporalEntity-11694 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Halab))

@@ -1,0 +1,114 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ghazni) (TemporalIntervalFn STEntity-396)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ghazni) (TemporalIntervalFn STEntity-396)))
+((Area (AtFn (EndFn STEntity-396) STEntity-396)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-396) STEntity-396)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-396) STEntity-396)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-396) STEntity-396)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-396) STEntity-396)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-396) STEntity-396)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-396) STEntity-396)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-396) STEntity-396)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-396) STEntity-396)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-396) STEntity-396)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-8678 BoundedTemporalEntity-8636)
+
+(aia-MI BoundedTemporalEntity-8684 BoundedTemporalEntity-8678)
+
+(aia-MI BoundedTemporalEntity-8710 BoundedTemporalEntity-8684)
+
+(aia-MI BoundedTemporalEntity-8721 BoundedTemporalEntity-8710)
+
+(aia-MI BoundedTemporalEntity-8841 BoundedTemporalEntity-8721)
+
+(aia-MI BoundedTemporalEntity-9068 BoundedTemporalEntity-8841)
+
+(aia-MI BoundedTemporalEntity-9077 BoundedTemporalEntity-9068)
+
+(cityOwner FC-City-Ghazni FC-Player-DaoudKhan)
+
+(constantIn BoundedTemporalEntity-8637 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ghazni))
+
+(constantIn BoundedTemporalEntity-8996 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8611943))
+
+(constantIn BoundedTemporalEntity-8998 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8611943))
+
+(constantIn BoundedTemporalEntity-9029 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8775868))
+
+(constantIn BoundedTemporalEntity-9036 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8775868))
+
+(constantIn BoundedTemporalEntity-9038 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8816701))
+
+(constantIn BoundedTemporalEntity-9040 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8816701))
+
+(constantIn BoundedTemporalEntity-9055 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8921413))
+
+(constantIn BoundedTemporalEntity-9057 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8921413))
+
+(constantIn BoundedTemporalEntity-9075 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8990093))
+
+(constantIn BoundedTemporalEntity-9076 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8990093))
+
+(currentActivity Unit-301 FC-ActivityIdle)
+
+(currentActivity Unit-317 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Ghazni (FreecivLocationFn 32 13))
+
+(fcObjectAt Unit-301 (FreecivLocationFn 32 13))
+
+(footprintOf FC-City-Ghazni CityFootprint-FC-City-Ghazni)
+
+(isa CityFootprint-FC-City-Ghazni CityFootprint)
+
+(isa FC-City-Ghazni FreeCiv-City)
+
+(isa STEntity-396 DefensiveEpisodeFailure)
+
+(isa STEntity-396 SpatiotemporalEvent)
+
+(isa Unit-301 FC-Unit-Chariot)
+
+(isa Unit-317 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-8611943 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8775868 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8816701 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8921413 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8990093 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-9077 ((MeasurableQuantityFn citySize) FC-City-Ghazni))
+
+(startsAfterStartingOf BoundedTemporalEntity-9077 BoundedTemporalEntity-8637)
+
+(startsAfterStartingOf BoundedTemporalEntity-9077 BoundedTemporalEntity-8638)
+
+(startsAtSameTime BoundedTemporalEntity-8998 BoundedTemporalEntity-8996)
+
+(startsAtSameTime BoundedTemporalEntity-9036 BoundedTemporalEntity-9029)
+
+(startsAtSameTime BoundedTemporalEntity-9040 BoundedTemporalEntity-9038)
+
+(startsAtSameTime BoundedTemporalEntity-9057 BoundedTemporalEntity-9055)
+
+(startsAtSameTime BoundedTemporalEntity-9076 BoundedTemporalEntity-9075)
+
+(unitOwner Unit-301 FC-Player-GuadalupeVictoria)
+
+(unitOwner Unit-317 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-8638 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ghazni))

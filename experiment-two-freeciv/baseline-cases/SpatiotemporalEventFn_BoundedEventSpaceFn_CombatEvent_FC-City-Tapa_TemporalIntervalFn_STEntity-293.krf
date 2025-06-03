@@ -1,0 +1,148 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tapa) (TemporalIntervalFn STEntity-293)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tapa) (TemporalIntervalFn STEntity-293)))
+((Area (AtFn (EndFn STEntity-293) STEntity-293)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-293) STEntity-293)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 11))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (EndFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-293) STEntity-293)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-293) STEntity-293)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-293) STEntity-293)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6657 BoundedTemporalEntity-6639)
+
+(aia-MI BoundedTemporalEntity-6669 BoundedTemporalEntity-6645)
+
+(aia-MI BoundedTemporalEntity-6670 BoundedTemporalEntity-6657)
+
+(aia-MI BoundedTemporalEntity-6679 BoundedTemporalEntity-6670)
+
+(aia-MI BoundedTemporalEntity-6682 BoundedTemporalEntity-6667)
+
+(aia-MI BoundedTemporalEntity-6703 BoundedTemporalEntity-6682)
+
+(aia-MI BoundedTemporalEntity-6705 BoundedTemporalEntity-6669)
+
+(aia-MI BoundedTemporalEntity-6706 BoundedTemporalEntity-6679)
+
+(aia-MI BoundedTemporalEntity-6717 BoundedTemporalEntity-6695)
+
+(cityOwner FC-City-Tapa FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6497 ((MeasurableQuantityFn citySize) FC-City-Tapa))
+
+(constantIn BoundedTemporalEntity-6498 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tapa))
+
+(constantIn BoundedTemporalEntity-6622 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3165045))
+
+(constantIn BoundedTemporalEntity-6629 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3165255))
+
+(constantIn BoundedTemporalEntity-6632 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3165045))
+
+(constantIn BoundedTemporalEntity-6643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3187368))
+
+(constantIn BoundedTemporalEntity-6659 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3274201))
+
+(constantIn BoundedTemporalEntity-6662 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3274390))
+
+(constantIn BoundedTemporalEntity-6664 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3274201))
+
+(constantIn BoundedTemporalEntity-6684 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3370291))
+
+(constantIn BoundedTemporalEntity-6685 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3370293))
+
+(constantIn BoundedTemporalEntity-6686 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3370311))
+
+(constantIn BoundedTemporalEntity-6692 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3370540))
+
+(constantIn BoundedTemporalEntity-6693 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3370291))
+
+(constantIn BoundedTemporalEntity-6694 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3370293))
+
+(constantIn BoundedTemporalEntity-6701 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3370540))
+
+(currentActivity Unit-320 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Tapa (FreecivLocationFn 2 15))
+
+(fcObjectAt Unit-320 (FreecivLocationFn 2 15))
+
+(footprintOf FC-City-Tapa CityFootprint-FC-City-Tapa)
+
+(isa CityFootprint-FC-City-Tapa CityFootprint)
+
+(isa FC-City-Tapa FreeCiv-City)
+
+(isa STEntity-293 DefensiveEpisodeFailure)
+
+(isa STEntity-293 SpatiotemporalEvent)
+
+(isa Unit-320 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-3165045 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3165255 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3187368 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3274201 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3274390 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3370291 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3370293 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3370311 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3370540 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6717 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3370311))
+
+(nonincreasingIn BoundedTemporalEntity-6703 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3274390))
+
+(nonincreasingIn BoundedTemporalEntity-6705 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3187368))
+
+(nonincreasingIn BoundedTemporalEntity-6706 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3165255))
+
+(startsAfterStartingOf BoundedTemporalEntity-6703 BoundedTemporalEntity-6662)
+
+(startsAfterStartingOf BoundedTemporalEntity-6705 BoundedTemporalEntity-6643)
+
+(startsAfterStartingOf BoundedTemporalEntity-6706 BoundedTemporalEntity-6629)
+
+(startsAfterStartingOf BoundedTemporalEntity-6717 BoundedTemporalEntity-6686)
+
+(startsAtSameTime BoundedTemporalEntity-6497 BoundedTemporalEntity-6498)
+
+(startsAtSameTime BoundedTemporalEntity-6497 BoundedTemporalEntity-6499)
+
+(startsAtSameTime BoundedTemporalEntity-6632 BoundedTemporalEntity-6622)
+
+(startsAtSameTime BoundedTemporalEntity-6664 BoundedTemporalEntity-6659)
+
+(startsAtSameTime BoundedTemporalEntity-6693 BoundedTemporalEntity-6684)
+
+(startsAtSameTime BoundedTemporalEntity-6694 BoundedTemporalEntity-6685)
+
+(startsAtSameTime BoundedTemporalEntity-6701 BoundedTemporalEntity-6692)
+
+(unitOwner Unit-320 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6499 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tapa))

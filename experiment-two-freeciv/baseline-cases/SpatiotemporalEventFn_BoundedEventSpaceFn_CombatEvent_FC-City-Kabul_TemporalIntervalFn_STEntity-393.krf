@@ -1,0 +1,148 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kabul) (TemporalIntervalFn STEntity-393)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kabul) (TemporalIntervalFn STEntity-393)))
+((Area (AtFn (EndFn STEntity-393) STEntity-393)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-393) STEntity-393)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-393) STEntity-393)) (FreecivUnitCountFn 7))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-393) STEntity-393)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (EndFn STEntity-393) STEntity-393)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-393) STEntity-393)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-393) STEntity-393)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-393) STEntity-393)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-393) STEntity-393)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-393) STEntity-393)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-8595 BoundedTemporalEntity-8567)
+
+(aia-MI BoundedTemporalEntity-8597 BoundedTemporalEntity-8595)
+
+(aia-MI BoundedTemporalEntity-8620 BoundedTemporalEntity-8597)
+
+(aia-MI BoundedTemporalEntity-8621 BoundedTemporalEntity-8620)
+
+(aia-MI BoundedTemporalEntity-8648 BoundedTemporalEntity-8621)
+
+(aia-MI BoundedTemporalEntity-8650 BoundedTemporalEntity-8648)
+
+(aia-MI BoundedTemporalEntity-8685 BoundedTemporalEntity-8650)
+
+(aia-MI BoundedTemporalEntity-8686 BoundedTemporalEntity-8685)
+
+(aia-MI BoundedTemporalEntity-8722 BoundedTemporalEntity-8686)
+
+(aia-MI BoundedTemporalEntity-8724 BoundedTemporalEntity-8722)
+
+(aia-MI BoundedTemporalEntity-8844 BoundedTemporalEntity-8724)
+
+(aia-MI BoundedTemporalEntity-8933 BoundedTemporalEntity-8863)
+
+(aia-MI BoundedTemporalEntity-8945 BoundedTemporalEntity-8933)
+
+(aia-MI BoundedTemporalEntity-8968 BoundedTemporalEntity-8945)
+
+(aia-MI BoundedTemporalEntity-8974 BoundedTemporalEntity-8968)
+
+(aia-MI BoundedTemporalEntity-9001 BoundedTemporalEntity-8940)
+
+(aia-MI BoundedTemporalEntity-9004 BoundedTemporalEntity-8984)
+
+(aia-MI BoundedTemporalEntity-9037 BoundedTemporalEntity-9001)
+
+(aia-MI BoundedTemporalEntity-9042 BoundedTemporalEntity-9004)
+
+(cityOwner FC-City-Kabul FC-Player-DaoudKhan)
+
+(constantIn BoundedTemporalEntity-8569 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kabul))
+
+(constantIn BoundedTemporalEntity-8844 ((MeasurableQuantityFn citySize) FC-City-Kabul))
+
+(constantIn BoundedTemporalEntity-8859 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8048675))
+
+(constantIn BoundedTemporalEntity-8936 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8329960))
+
+(constantIn BoundedTemporalEntity-8980 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8432578))
+
+(constantIn BoundedTemporalEntity-8996 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8611943))
+
+(constantIn BoundedTemporalEntity-8998 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8611943))
+
+(constantIn BoundedTemporalEntity-9029 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8775868))
+
+(constantIn BoundedTemporalEntity-9036 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8775868))
+
+(constantIn BoundedTemporalEntity-9038 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8816701))
+
+(constantIn BoundedTemporalEntity-9039 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8816720))
+
+(constantIn BoundedTemporalEntity-9040 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8816701))
+
+(constantIn BoundedTemporalEntity-9041 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8816720))
+
+(currentActivity Unit-317 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kabul (FreecivLocationFn 33 10))
+
+(fcObjectAt Unit-317 (FreecivLocationFn 33 10))
+
+(footprintOf FC-City-Kabul CityFootprint-FC-City-Kabul)
+
+(isa CityFootprint-FC-City-Kabul CityFootprint)
+
+(isa FC-City-Kabul FreeCiv-City)
+
+(isa STEntity-393 DefensiveEpisodeFailure)
+
+(isa STEntity-393 SpatiotemporalEvent)
+
+(isa Unit-317 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-8048675 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8329960 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8432578 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8611943 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8775868 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8816701 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8816720 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-8974 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8048675))
+
+(nonincreasingIn BoundedTemporalEntity-9037 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8329960))
+
+(nonincreasingIn BoundedTemporalEntity-9042 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8432578))
+
+(startsAfterStartingOf BoundedTemporalEntity-8844 BoundedTemporalEntity-8569)
+
+(startsAfterStartingOf BoundedTemporalEntity-8844 BoundedTemporalEntity-8570)
+
+(startsAfterStartingOf BoundedTemporalEntity-8974 BoundedTemporalEntity-8859)
+
+(startsAfterStartingOf BoundedTemporalEntity-9037 BoundedTemporalEntity-8936)
+
+(startsAfterStartingOf BoundedTemporalEntity-9042 BoundedTemporalEntity-8980)
+
+(startsAtSameTime BoundedTemporalEntity-8998 BoundedTemporalEntity-8996)
+
+(startsAtSameTime BoundedTemporalEntity-9036 BoundedTemporalEntity-9029)
+
+(startsAtSameTime BoundedTemporalEntity-9040 BoundedTemporalEntity-9038)
+
+(startsAtSameTime BoundedTemporalEntity-9041 BoundedTemporalEntity-9039)
+
+(unitOwner Unit-317 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-8570 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kabul))

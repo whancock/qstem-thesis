@@ -1,0 +1,36 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pärnu) (TemporalIntervalFn STEntity-304)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pärnu) (TemporalIntervalFn STEntity-304)))
+(aia-MI BoundedTemporalEntity-6408 BoundedTemporalEntity-6375)
+
+(aia-MI BoundedTemporalEntity-6441 BoundedTemporalEntity-6408)
+
+(aia-MI BoundedTemporalEntity-6445 BoundedTemporalEntity-6441)
+
+(aia-MI BoundedTemporalEntity-6509 BoundedTemporalEntity-6445)
+
+(aia-MI BoundedTemporalEntity-6727 BoundedTemporalEntity-6509)
+
+(cityOwner FC-City-Pärnu FC-Player-ElizabethNicholls)
+
+(constantIn BoundedTemporalEntity-6376 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pärnu))
+
+(constantIn BoundedTemporalEntity-6727 ((MeasurableQuantityFn citySize) FC-City-Pärnu))
+
+(fcObjectAt FC-City-Pärnu (FreecivLocationFn 4 5))
+
+(footprintOf FC-City-Pärnu CityFootprint-FC-City-Pärnu)
+
+(isa CityFootprint-FC-City-Pärnu CityFootprint)
+
+(isa FC-City-Pärnu FreeCiv-City)
+
+(isa STEntity-304 DefensiveEpisodeFailure)
+
+(isa STEntity-304 SpatiotemporalEvent)
+
+(startsAfterStartingOf BoundedTemporalEntity-6727 BoundedTemporalEntity-6376)
+
+(startsAfterStartingOf BoundedTemporalEntity-6727 BoundedTemporalEntity-6377)
+
+(zeroIn BoundedTemporalEntity-6377 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pärnu))

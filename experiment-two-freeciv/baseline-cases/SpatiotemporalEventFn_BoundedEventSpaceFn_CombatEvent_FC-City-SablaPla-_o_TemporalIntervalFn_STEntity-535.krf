@@ -1,0 +1,88 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SablaPlaÄ?o) (TemporalIntervalFn STEntity-535)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SablaPlaÄ?o) (TemporalIntervalFn STEntity-535)))
+((Area (AtFn (EndFn STEntity-535) STEntity-535)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-535) STEntity-535)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-535) STEntity-535)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-535) STEntity-535)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-535) STEntity-535)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-535) STEntity-535)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-535) STEntity-535)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-535) STEntity-535)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-535) STEntity-535)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-535) STEntity-535)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-535) STEntity-535)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-11916 BoundedTemporalEntity-11890)
+
+(aia-MI BoundedTemporalEntity-11960 BoundedTemporalEntity-11916)
+
+(aia-MI BoundedTemporalEntity-12046 BoundedTemporalEntity-11960)
+
+(aia-MI BoundedTemporalEntity-12128 BoundedTemporalEntity-12046)
+
+(aia-MI BoundedTemporalEntity-12130 BoundedTemporalEntity-12119)
+
+(aia-MI BoundedTemporalEntity-12140 BoundedTemporalEntity-12128)
+
+(aia-MI BoundedTemporalEntity-12141 BoundedTemporalEntity-12130)
+
+(cityOwner FC-City-SablaPlaÄ?o FC-Player-L.L.ZAMENHOF)
+
+(constantIn BoundedTemporalEntity-11891 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SablaPlaÄ?o))
+
+(constantIn BoundedTemporalEntity-12118 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-21012223))
+
+(currentActivity Unit-160 FC-ActivityIdle)
+
+(currentActivity Unit-164 FC-ActivityIdle)
+
+(currentActivity Unit-165 FC-ActivityIdle)
+
+(fcObjectAt FC-City-SablaPlaÄ?o (FreecivLocationFn 20 7))
+
+(fcObjectAt Unit-160 (FreecivLocationFn 20 7))
+
+(footprintOf FC-City-SablaPlaÄ?o CityFootprint-FC-City-SablaPlaÄ?o)
+
+(isa CityFootprint-FC-City-SablaPlaÄ?o CityFootprint)
+
+(isa FC-City-SablaPlaÄ?o FreeCiv-City)
+
+(isa STEntity-535 DefensiveEpisodeFailure)
+
+(isa STEntity-535 SpatiotemporalEvent)
+
+(isa Unit-160 FC-Unit-Horsemen)
+
+(isa Unit-164 FC-Unit-Horsemen)
+
+(isa Unit-165 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-21012223 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-21126332 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-12140 ((MeasurableQuantityFn citySize) FC-City-SablaPlaÄ?o))
+
+(nonincreasingIn BoundedTemporalEntity-12141 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-21012223))
+
+(startsAfterStartingOf BoundedTemporalEntity-12140 BoundedTemporalEntity-11891)
+
+(startsAfterStartingOf BoundedTemporalEntity-12140 BoundedTemporalEntity-11892)
+
+(startsAfterStartingOf BoundedTemporalEntity-12141 BoundedTemporalEntity-12118)
+
+(unitOwner Unit-160 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-11892 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SablaPlaÄ?o))

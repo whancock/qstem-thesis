@@ -1,0 +1,92 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Beijing) (TemporalIntervalFn STEntity-236)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Beijing) (TemporalIntervalFn STEntity-236)))
+((Area (AtFn (EndFn STEntity-236) STEntity-236)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-236) STEntity-236)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-236) STEntity-236)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-236) STEntity-236)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-236) STEntity-236)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-236) STEntity-236)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-236) STEntity-236)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-236) STEntity-236)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Beijing)
+
+((citySize (AtFn (EndFn STEntity-236) STEntity-236)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-236) STEntity-236)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6036 BoundedTemporalEntity-6004)
+
+(aia-MI BoundedTemporalEntity-6037 BoundedTemporalEntity-6036)
+
+(aia-MI BoundedTemporalEntity-6100 BoundedTemporalEntity-6037)
+
+(aia-MI BoundedTemporalEntity-6106 BoundedTemporalEntity-6100)
+
+(aia-MI BoundedTemporalEntity-6117 BoundedTemporalEntity-6106)
+
+(aia-MI BoundedTemporalEntity-6207 BoundedTemporalEntity-6117)
+
+(cityOwner FC-City-Beijing FC-Player-DengXiaoping)
+
+(constantIn BoundedTemporalEntity-6006 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Beijing))
+
+(constantIn BoundedTemporalEntity-6145 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1758790))
+
+(constantIn BoundedTemporalEntity-6146 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1758790))
+
+(constantIn BoundedTemporalEntity-6179 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1849844))
+
+(constantIn BoundedTemporalEntity-6181 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1849844))
+
+(constantIn BoundedTemporalEntity-6207 ((MeasurableQuantityFn citySize) FC-City-Beijing))
+
+(currentActivity Unit-187 FC-ActivityFortifying)
+
+(currentActivity Unit-196 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Beijing (FreecivLocationFn 30 25))
+
+(fcObjectAt Unit-196 (FreecivLocationFn 30 25))
+
+(footprintOf FC-City-Beijing CityFootprint-FC-City-Beijing)
+
+(isa CityFootprint-FC-City-Beijing CityFootprint)
+
+(isa FC-City-Beijing FreeCiv-City)
+
+(isa STEntity-236 DefensiveEpisodeFailure)
+
+(isa STEntity-236 SpatiotemporalEvent)
+
+(isa Unit-187 FC-Unit-Catapult)
+
+(isa Unit-196 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1706287 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1758790 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1849844 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-6207 BoundedTemporalEntity-6006)
+
+(startsAfterStartingOf BoundedTemporalEntity-6207 BoundedTemporalEntity-6007)
+
+(startsAtSameTime BoundedTemporalEntity-6146 BoundedTemporalEntity-6145)
+
+(startsAtSameTime BoundedTemporalEntity-6181 BoundedTemporalEntity-6179)
+
+(unitOwner Unit-187 FC-Player-GiacomoMatteotti)
+
+(unitOwner Unit-196 FC-Player-GiacomoMatteotti)
+
+(zeroIn BoundedTemporalEntity-6007 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Beijing))

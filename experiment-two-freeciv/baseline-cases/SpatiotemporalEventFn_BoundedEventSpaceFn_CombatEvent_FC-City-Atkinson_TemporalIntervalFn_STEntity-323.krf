@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Atkinson) (TemporalIntervalFn STEntity-323)), dumped 5/23/2025 14:18:44 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Atkinson) (TemporalIntervalFn STEntity-323)))
+((Area (AtFn (EndFn STEntity-323) STEntity-323)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-323) STEntity-323)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-323) STEntity-323)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-323) STEntity-323)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-323) STEntity-323)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7233 BoundedTemporalEntity-7200)
+
+(aia-MI BoundedTemporalEntity-7255 BoundedTemporalEntity-7232)
+
+(cityOwner FC-City-Atkinson FC-Player-Mansur)
+
+(constantIn BoundedTemporalEntity-7201 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Atkinson))
+
+(constantIn BoundedTemporalEntity-7231 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4160637))
+
+(constantIn BoundedTemporalEntity-7244 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4191749))
+
+(constantIn BoundedTemporalEntity-7245 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4191749))
+
+(currentActivity Unit-197 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Atkinson (FreecivLocationFn 1 26))
+
+(fcObjectAt Unit-197 (FreecivLocationFn 1 26))
+
+(footprintOf FC-City-Atkinson CityFootprint-FC-City-Atkinson)
+
+(isa CityFootprint-FC-City-Atkinson CityFootprint)
+
+(isa FC-City-Atkinson FreeCiv-City)
+
+(isa STEntity-323 DefensiveEpisodeFailure)
+
+(isa STEntity-323 SpatiotemporalEvent)
+
+(isa Unit-197 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-4160637 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4191749 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7233 ((MeasurableQuantityFn citySize) FC-City-Atkinson))
+
+(nondecreasingIn BoundedTemporalEntity-7255 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4160637))
+
+(startsAfterStartingOf BoundedTemporalEntity-7233 BoundedTemporalEntity-7201)
+
+(startsAfterStartingOf BoundedTemporalEntity-7233 BoundedTemporalEntity-7202)
+
+(startsAfterStartingOf BoundedTemporalEntity-7255 BoundedTemporalEntity-7231)
+
+(startsAtSameTime BoundedTemporalEntity-7245 BoundedTemporalEntity-7244)
+
+(unitOwner Unit-197 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7202 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Atkinson))

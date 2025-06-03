@@ -1,0 +1,252 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-PetalingJaya) (TemporalIntervalFn STEntity-253)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-PetalingJaya) (TemporalIntervalFn STEntity-253)))
+((Area (AtFn (EndFn STEntity-253) STEntity-253)) (FreecivTileArea 181))
+
+((Area (AtFn (StartFn STEntity-253) STEntity-253)) (FreecivTileArea 111))
+
+((Defenders (AtFn (EndFn STEntity-253) STEntity-253)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-253) STEntity-253)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (StartFn STEntity-253) STEntity-253)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-253) STEntity-253)) (FreecivUnitCountFn 8))
+
+((citySize (AtFn (EndFn STEntity-253) STEntity-253)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-253) STEntity-253)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-12627 BoundedTemporalEntity-12621)
+
+(aia-MI BoundedTemporalEntity-12628 BoundedTemporalEntity-12622)
+
+(aia-MI BoundedTemporalEntity-12631 BoundedTemporalEntity-12627)
+
+(aia-MI BoundedTemporalEntity-12632 BoundedTemporalEntity-12631)
+
+(aia-MI BoundedTemporalEntity-12635 BoundedTemporalEntity-12632)
+
+(aia-MI BoundedTemporalEntity-12643 BoundedTemporalEntity-12635)
+
+(aia-MI BoundedTemporalEntity-12653 BoundedTemporalEntity-12643)
+
+(aia-MI BoundedTemporalEntity-12660 BoundedTemporalEntity-12653)
+
+(aia-MI BoundedTemporalEntity-12661 BoundedTemporalEntity-12628)
+
+(aia-MI BoundedTemporalEntity-12670 BoundedTemporalEntity-12660)
+
+(aia-MI BoundedTemporalEntity-12671 BoundedTemporalEntity-12661)
+
+(aia-MI BoundedTemporalEntity-12680 BoundedTemporalEntity-12670)
+
+(aia-MI BoundedTemporalEntity-12681 BoundedTemporalEntity-12671)
+
+(aia-MI BoundedTemporalEntity-12705 BoundedTemporalEntity-12680)
+
+(aia-MI BoundedTemporalEntity-12706 BoundedTemporalEntity-12681)
+
+(aia-MI BoundedTemporalEntity-12731 BoundedTemporalEntity-12705)
+
+(aia-MI BoundedTemporalEntity-12734 BoundedTemporalEntity-12706)
+
+(aia-MI BoundedTemporalEntity-12738 BoundedTemporalEntity-12731)
+
+(aia-MI BoundedTemporalEntity-12739 BoundedTemporalEntity-12734)
+
+(aia-MI BoundedTemporalEntity-12746 BoundedTemporalEntity-12738)
+
+(aia-MI BoundedTemporalEntity-12747 BoundedTemporalEntity-12739)
+
+(aia-MI BoundedTemporalEntity-12759 BoundedTemporalEntity-12746)
+
+(aia-MI BoundedTemporalEntity-12760 BoundedTemporalEntity-12747)
+
+(aia-MI BoundedTemporalEntity-12774 BoundedTemporalEntity-12759)
+
+(aia-MI BoundedTemporalEntity-12785 BoundedTemporalEntity-12774)
+
+(aia-MI BoundedTemporalEntity-12786 BoundedTemporalEntity-12760)
+
+(aia-MI BoundedTemporalEntity-12793 BoundedTemporalEntity-12785)
+
+(aia-MI BoundedTemporalEntity-12814 BoundedTemporalEntity-12786)
+
+(aia-MI BoundedTemporalEntity-12818 BoundedTemporalEntity-12793)
+
+(aia-MI BoundedTemporalEntity-12855 BoundedTemporalEntity-12818)
+
+(aia-MI BoundedTemporalEntity-12871 BoundedTemporalEntity-12855)
+
+(aia-MI BoundedTemporalEntity-12872 BoundedTemporalEntity-12814)
+
+(aia-MI BoundedTemporalEntity-12883 BoundedTemporalEntity-12735)
+
+(aia-MI BoundedTemporalEntity-12884 BoundedTemporalEntity-12736)
+
+(aia-MI BoundedTemporalEntity-12885 BoundedTemporalEntity-12737)
+
+(aia-MI BoundedTemporalEntity-12887 BoundedTemporalEntity-12872)
+
+(aia-MI BoundedTemporalEntity-12899 BoundedTemporalEntity-12887)
+
+(aia-MI BoundedTemporalEntity-12907 BoundedTemporalEntity-12883)
+
+(aia-MI BoundedTemporalEntity-12912 BoundedTemporalEntity-12884)
+
+(aia-MI BoundedTemporalEntity-12913 BoundedTemporalEntity-12885)
+
+(aia-MI BoundedTemporalEntity-12915 BoundedTemporalEntity-12871)
+
+(aia-MI BoundedTemporalEntity-12928 BoundedTemporalEntity-12915)
+
+(aia-MI BoundedTemporalEntity-12929 BoundedTemporalEntity-12899)
+
+(aia-MI BoundedTemporalEntity-12929 BoundedTemporalEntity-12915)
+
+(aia-OI BoundedTemporalEntity-12907 BoundedTemporalEntity-12736)
+
+(aia-OI BoundedTemporalEntity-12907 BoundedTemporalEntity-12737)
+
+(aia-OI BoundedTemporalEntity-12907 BoundedTemporalEntity-12884)
+
+(aia-OI BoundedTemporalEntity-12907 BoundedTemporalEntity-12885)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12621)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12627)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12631)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12632)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12635)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12643)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12653)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12660)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12670)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12680)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12705)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12731)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12738)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12746)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12759)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12774)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12785)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12793)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12818)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12855)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12871)
+
+(cityOwner FC-City-PetalingJaya FC-Player-Parameswara)
+
+(constantIn BoundedTemporalEntity-12621 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(constantIn BoundedTemporalEntity-12736 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))
+
+(currentActivity Unit-216 FC-ActivityIdle)
+
+(defenseBonus FC-City-PetalingJaya 0)
+
+(fcObjectAt FC-City-PetalingJaya (FreecivLocationFn 18 13))
+
+(fcObjectAt Unit-216 (FreecivLocationFn 18 13))
+
+(footprintOf FC-City-PetalingJaya CityFootprint-FC-City-PetalingJaya)
+
+(isa CityFootprint-FC-City-PetalingJaya CityFootprint)
+
+(isa FC-City-PetalingJaya FreeCiv-City)
+
+(isa STEntity-253 DefensiveEpisodeFailure)
+
+(isa STEntity-253 SpatiotemporalEvent)
+
+(isa Unit-216 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-205010 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12631 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12653 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12738 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12785 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12818 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12871 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12884 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))
+
+(nondecreasingIn BoundedTemporalEntity-12928 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12929 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12627 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12632 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12660 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12680 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12731 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12746 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12793 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12855 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12907 ((MeasurableQuantityFn citySize) FC-City-PetalingJaya))
+
+(nonincreasingIn BoundedTemporalEntity-12912 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))
+
+(nonincreasingIn BoundedTemporalEntity-12915 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(someIn BoundedTemporalEntity-12885 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))
+
+(startsAtSameTime BoundedTemporalEntity-12929 BoundedTemporalEntity-12928)
+
+(startsBeforeStartingOf BoundedTemporalEntity-12907 BoundedTemporalEntity-12912)
+
+(startsBeforeStartingOf BoundedTemporalEntity-12907 BoundedTemporalEntity-12913)
+
+(terrainAt (FreecivLocationFn 18 13) FC-Terrain-Plains)
+
+(unitOwner Unit-216 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-12737 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))
+
+(zeroIn BoundedTemporalEntity-12913 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))

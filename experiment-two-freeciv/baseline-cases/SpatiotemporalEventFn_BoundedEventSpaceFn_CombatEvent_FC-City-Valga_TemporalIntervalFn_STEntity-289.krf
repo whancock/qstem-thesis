@@ -1,0 +1,100 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Valga) (TemporalIntervalFn STEntity-289)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Valga) (TemporalIntervalFn STEntity-289)))
+((Area (AtFn (EndFn STEntity-289) STEntity-289)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-289) STEntity-289)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-289) STEntity-289)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-289) STEntity-289)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-289) STEntity-289)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-289) STEntity-289)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-289) STEntity-289)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-289) STEntity-289)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-289) STEntity-289)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-289) STEntity-289)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-289) STEntity-289)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6486 BoundedTemporalEntity-6452)
+
+(aia-MI BoundedTemporalEntity-6508 BoundedTemporalEntity-6486)
+
+(aia-MI BoundedTemporalEntity-6567 BoundedTemporalEntity-6508)
+
+(aia-MI BoundedTemporalEntity-6582 BoundedTemporalEntity-6567)
+
+(aia-MI BoundedTemporalEntity-6651 BoundedTemporalEntity-6644)
+
+(aia-MI BoundedTemporalEntity-6668 BoundedTemporalEntity-6651)
+
+(aia-MI BoundedTemporalEntity-6672 BoundedTemporalEntity-6582)
+
+(aia-MI BoundedTemporalEntity-6682 BoundedTemporalEntity-6667)
+
+(aia-MI BoundedTemporalEntity-6683 BoundedTemporalEntity-6668)
+
+(cityOwner FC-City-Valga FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6453 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valga))
+
+(constantIn BoundedTemporalEntity-6642 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3187318))
+
+(constantIn BoundedTemporalEntity-6662 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3274390))
+
+(currentActivity Unit-271 FC-ActivityFortifying)
+
+(currentActivity Unit-322 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Valga (FreecivLocationFn 0 11))
+
+(fcObjectAt Unit-322 (FreecivLocationFn 0 11))
+
+(footprintOf FC-City-Valga CityFootprint-FC-City-Valga)
+
+(isa CityFootprint-FC-City-Valga CityFootprint)
+
+(isa FC-City-Valga FreeCiv-City)
+
+(isa STEntity-289 DefensiveEpisodeFailure)
+
+(isa STEntity-289 SpatiotemporalEvent)
+
+(isa Unit-271 FC-Unit-Chariot)
+
+(isa Unit-322 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-3147285 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3165029 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3187318 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3274390 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6682 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3274390))
+
+(nondecreasingIn BoundedTemporalEntity-6683 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3187318))
+
+(nonincreasingIn BoundedTemporalEntity-6672 ((MeasurableQuantityFn citySize) FC-City-Valga))
+
+(startsAfterStartingOf BoundedTemporalEntity-6672 BoundedTemporalEntity-6453)
+
+(startsAfterStartingOf BoundedTemporalEntity-6672 BoundedTemporalEntity-6454)
+
+(startsAfterStartingOf BoundedTemporalEntity-6682 BoundedTemporalEntity-6662)
+
+(startsAfterStartingOf BoundedTemporalEntity-6683 BoundedTemporalEntity-6642)
+
+(unitOwner Unit-271 FC-Player-ElizabethNicholls)
+
+(unitOwner Unit-322 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6454 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valga))

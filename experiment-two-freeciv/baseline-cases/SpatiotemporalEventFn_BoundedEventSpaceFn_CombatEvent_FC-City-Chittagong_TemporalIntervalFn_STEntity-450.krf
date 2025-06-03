@@ -1,0 +1,64 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chittagong) (TemporalIntervalFn STEntity-450)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chittagong) (TemporalIntervalFn STEntity-450)))
+((Area (AtFn (EndFn STEntity-450) STEntity-450)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-450) STEntity-450)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-450) STEntity-450)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-450) STEntity-450)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-450) STEntity-450)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-450) STEntity-450)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-450) STEntity-450)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-450) STEntity-450)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-450) STEntity-450)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-450) STEntity-450)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-10213 BoundedTemporalEntity-10188)
+
+(cityOwner FC-City-Chittagong FC-Player-TomasZumalakarregiImaz)
+
+(constantIn BoundedTemporalEntity-10189 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chittagong))
+
+(constantIn BoundedTemporalEntity-10214 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11441202))
+
+(constantIn BoundedTemporalEntity-10215 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11441202))
+
+(currentActivity Unit-161 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Chittagong (FreecivLocationFn 38 28))
+
+(fcObjectAt Unit-161 (FreecivLocationFn 38 28))
+
+(footprintOf FC-City-Chittagong CityFootprint-FC-City-Chittagong)
+
+(isa CityFootprint-FC-City-Chittagong CityFootprint)
+
+(isa FC-City-Chittagong FreeCiv-City)
+
+(isa STEntity-450 DefensiveEpisodeFailure)
+
+(isa STEntity-450 SpatiotemporalEvent)
+
+(isa Unit-161 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-11441202 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10213 ((MeasurableQuantityFn citySize) FC-City-Chittagong))
+
+(startsAfterStartingOf BoundedTemporalEntity-10213 BoundedTemporalEntity-10189)
+
+(startsAfterStartingOf BoundedTemporalEntity-10213 BoundedTemporalEntity-10190)
+
+(startsAtSameTime BoundedTemporalEntity-10215 BoundedTemporalEntity-10214)
+
+(unitOwner Unit-161 FC-Player-TomasZumalakarregiImaz)
+
+(zeroIn BoundedTemporalEntity-10190 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chittagong))

@@ -1,0 +1,132 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Võru) (TemporalIntervalFn STEntity-288)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Võru) (TemporalIntervalFn STEntity-288)))
+((Area (AtFn (EndFn STEntity-288) STEntity-288)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-288) STEntity-288)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 8))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-288) STEntity-288)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-288) STEntity-288)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-288) STEntity-288)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6451 BoundedTemporalEntity-6412)
+
+(aia-MI BoundedTemporalEntity-6461 BoundedTemporalEntity-6451)
+
+(aia-MI BoundedTemporalEntity-6491 BoundedTemporalEntity-6461)
+
+(aia-MI BoundedTemporalEntity-6495 BoundedTemporalEntity-6491)
+
+(aia-MI BoundedTemporalEntity-6566 BoundedTemporalEntity-6495)
+
+(aia-MI BoundedTemporalEntity-6597 BoundedTemporalEntity-6566)
+
+(aia-MI BoundedTemporalEntity-6619 BoundedTemporalEntity-6597)
+
+(aia-MI BoundedTemporalEntity-6646 BoundedTemporalEntity-6614)
+
+(aia-MI BoundedTemporalEntity-6651 BoundedTemporalEntity-6644)
+
+(aia-MI BoundedTemporalEntity-6652 BoundedTemporalEntity-6646)
+
+(cityOwner FC-City-Võru FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6413 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Võru))
+
+(constantIn BoundedTemporalEntity-6606 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3147285))
+
+(constantIn BoundedTemporalEntity-6621 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3165029))
+
+(constantIn BoundedTemporalEntity-6631 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3165029))
+
+(constantIn BoundedTemporalEntity-6642 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3187318))
+
+(constantIn BoundedTemporalEntity-6643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3187368))
+
+(constantIn BoundedTemporalEntity-6645 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3187368))
+
+(constantIn BoundedTemporalEntity-6647 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3223694))
+
+(constantIn BoundedTemporalEntity-6648 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3223718))
+
+(constantIn BoundedTemporalEntity-6649 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3223694))
+
+(constantIn BoundedTemporalEntity-6650 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3223718))
+
+(currentActivity Unit-271 FC-ActivityIdle)
+
+(currentActivity Unit-307 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Võru (FreecivLocationFn 53 14))
+
+(fcObjectAt Unit-271 (FreecivLocationFn 53 14))
+
+(footprintOf FC-City-Võru CityFootprint-FC-City-Võru)
+
+(isa CityFootprint-FC-City-Võru CityFootprint)
+
+(isa FC-City-Võru FreeCiv-City)
+
+(isa STEntity-288 DefensiveEpisodeFailure)
+
+(isa STEntity-288 SpatiotemporalEvent)
+
+(isa Unit-271 FC-Unit-Chariot)
+
+(isa Unit-307 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-3147285 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3165029 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3187318 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3187368 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3223694 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3223718 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6651 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3187318))
+
+(nonincreasingIn BoundedTemporalEntity-6619 ((MeasurableQuantityFn citySize) FC-City-Võru))
+
+(nonincreasingIn BoundedTemporalEntity-6652 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3147285))
+
+(startsAfterStartingOf BoundedTemporalEntity-6619 BoundedTemporalEntity-6413)
+
+(startsAfterStartingOf BoundedTemporalEntity-6619 BoundedTemporalEntity-6414)
+
+(startsAfterStartingOf BoundedTemporalEntity-6651 BoundedTemporalEntity-6642)
+
+(startsAfterStartingOf BoundedTemporalEntity-6652 BoundedTemporalEntity-6606)
+
+(startsAtSameTime BoundedTemporalEntity-6631 BoundedTemporalEntity-6621)
+
+(startsAtSameTime BoundedTemporalEntity-6645 BoundedTemporalEntity-6643)
+
+(startsAtSameTime BoundedTemporalEntity-6649 BoundedTemporalEntity-6647)
+
+(startsAtSameTime BoundedTemporalEntity-6650 BoundedTemporalEntity-6648)
+
+(unitOwner Unit-271 FC-Player-ElizabethNicholls)
+
+(unitOwner Unit-307 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6414 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Võru))

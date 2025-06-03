@@ -1,0 +1,110 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Biskra) (TemporalIntervalFn STEntity-405)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Biskra) (TemporalIntervalFn STEntity-405)))
+((Area (AtFn (EndFn STEntity-405) STEntity-405)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-405) STEntity-405)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-405) STEntity-405)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-405) STEntity-405)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-405) STEntity-405)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-405) STEntity-405)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-405) STEntity-405)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-405) STEntity-405)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-405) STEntity-405)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-405) STEntity-405)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-9249 BoundedTemporalEntity-9236)
+
+(aia-MI BoundedTemporalEntity-9302 BoundedTemporalEntity-9249)
+
+(aia-MI BoundedTemporalEntity-9303 BoundedTemporalEntity-9302)
+
+(aia-MI BoundedTemporalEntity-9313 BoundedTemporalEntity-9303)
+
+(aia-MI BoundedTemporalEntity-9351 BoundedTemporalEntity-9313)
+
+(cityOwner FC-City-Biskra FC-Player-AhmedBenBella)
+
+(constantIn BoundedTemporalEntity-9237 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Biskra))
+
+(constantIn BoundedTemporalEntity-9329 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9125064))
+
+(constantIn BoundedTemporalEntity-9330 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9125064))
+
+(constantIn BoundedTemporalEntity-9335 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9137826))
+
+(constantIn BoundedTemporalEntity-9338 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9137826))
+
+(constantIn BoundedTemporalEntity-9341 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9148373))
+
+(constantIn BoundedTemporalEntity-9342 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9148373))
+
+(constantIn BoundedTemporalEntity-9343 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9152625))
+
+(constantIn BoundedTemporalEntity-9345 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9152625))
+
+(constantIn BoundedTemporalEntity-9354 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9209517))
+
+(constantIn BoundedTemporalEntity-9357 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9209517))
+
+(currentActivity Unit-252 FC-ActivityIdle)
+
+(currentActivity Unit-258 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Biskra (FreecivLocationFn 42 25))
+
+(fcObjectAt Unit-252 (FreecivLocationFn 42 25))
+
+(footprintOf FC-City-Biskra CityFootprint-FC-City-Biskra)
+
+(isa CityFootprint-FC-City-Biskra CityFootprint)
+
+(isa FC-City-Biskra FreeCiv-City)
+
+(isa STEntity-405 DefensiveEpisodeFailure)
+
+(isa STEntity-405 SpatiotemporalEvent)
+
+(isa Unit-252 FC-Unit-Catapult)
+
+(isa Unit-258 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-9125064 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9137826 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9148373 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9152625 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9209517 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-9351 ((MeasurableQuantityFn citySize) FC-City-Biskra))
+
+(startsAfterStartingOf BoundedTemporalEntity-9351 BoundedTemporalEntity-9237)
+
+(startsAfterStartingOf BoundedTemporalEntity-9351 BoundedTemporalEntity-9238)
+
+(startsAtSameTime BoundedTemporalEntity-9330 BoundedTemporalEntity-9329)
+
+(startsAtSameTime BoundedTemporalEntity-9338 BoundedTemporalEntity-9335)
+
+(startsAtSameTime BoundedTemporalEntity-9342 BoundedTemporalEntity-9341)
+
+(startsAtSameTime BoundedTemporalEntity-9345 BoundedTemporalEntity-9343)
+
+(startsAtSameTime BoundedTemporalEntity-9357 BoundedTemporalEntity-9354)
+
+(unitOwner Unit-252 FC-Player-AoifeMacMurrough)
+
+(unitOwner Unit-258 FC-Player-AoifeMacMurrough)
+
+(zeroIn BoundedTemporalEntity-9238 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Biskra))

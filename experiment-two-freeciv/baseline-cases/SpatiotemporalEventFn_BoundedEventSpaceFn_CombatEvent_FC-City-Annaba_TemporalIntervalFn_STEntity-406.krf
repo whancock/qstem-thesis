@@ -1,0 +1,104 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Annaba) (TemporalIntervalFn STEntity-406)), dumped 5/23/2025 14:18:44 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Annaba) (TemporalIntervalFn STEntity-406)))
+((Area (AtFn (EndFn STEntity-406) STEntity-406)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-406) STEntity-406)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-406) STEntity-406)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-406) STEntity-406)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-406) STEntity-406)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-406) STEntity-406)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-406) STEntity-406)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-406) STEntity-406)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-406) STEntity-406)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-406) STEntity-406)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-9287 BoundedTemporalEntity-9272)
+
+(aia-MI BoundedTemporalEntity-9291 BoundedTemporalEntity-9287)
+
+(aia-MI BoundedTemporalEntity-9308 BoundedTemporalEntity-9291)
+
+(aia-MI BoundedTemporalEntity-9310 BoundedTemporalEntity-9308)
+
+(aia-MI BoundedTemporalEntity-9363 BoundedTemporalEntity-9310)
+
+(cityOwner FC-City-Annaba FC-Player-AhmedBenBella)
+
+(constantIn BoundedTemporalEntity-9273 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Annaba))
+
+(constantIn BoundedTemporalEntity-9341 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9148373))
+
+(constantIn BoundedTemporalEntity-9342 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9148373))
+
+(constantIn BoundedTemporalEntity-9343 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9152625))
+
+(constantIn BoundedTemporalEntity-9345 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9152625))
+
+(constantIn BoundedTemporalEntity-9347 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9157920))
+
+(constantIn BoundedTemporalEntity-9349 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9157920))
+
+(constantIn BoundedTemporalEntity-9354 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9209517))
+
+(constantIn BoundedTemporalEntity-9355 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9209556))
+
+(constantIn BoundedTemporalEntity-9357 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9209517))
+
+(constantIn BoundedTemporalEntity-9358 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9209556))
+
+(constantIn BoundedTemporalEntity-9363 ((MeasurableQuantityFn citySize) FC-City-Annaba))
+
+(currentActivity Unit-281 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Annaba (FreecivLocationFn 45 22))
+
+(fcObjectAt Unit-281 (FreecivLocationFn 45 22))
+
+(footprintOf FC-City-Annaba CityFootprint-FC-City-Annaba)
+
+(isa CityFootprint-FC-City-Annaba CityFootprint)
+
+(isa FC-City-Annaba FreeCiv-City)
+
+(isa STEntity-406 DefensiveEpisodeFailure)
+
+(isa STEntity-406 SpatiotemporalEvent)
+
+(isa Unit-281 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-9148373 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9152625 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9157920 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9209517 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9209556 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-9363 BoundedTemporalEntity-9273)
+
+(startsAfterStartingOf BoundedTemporalEntity-9363 BoundedTemporalEntity-9274)
+
+(startsAtSameTime BoundedTemporalEntity-9342 BoundedTemporalEntity-9341)
+
+(startsAtSameTime BoundedTemporalEntity-9345 BoundedTemporalEntity-9343)
+
+(startsAtSameTime BoundedTemporalEntity-9349 BoundedTemporalEntity-9347)
+
+(startsAtSameTime BoundedTemporalEntity-9357 BoundedTemporalEntity-9354)
+
+(startsAtSameTime BoundedTemporalEntity-9358 BoundedTemporalEntity-9355)
+
+(unitOwner Unit-281 FC-Player-AoifeMacMurrough)
+
+(zeroIn BoundedTemporalEntity-9274 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Annaba))

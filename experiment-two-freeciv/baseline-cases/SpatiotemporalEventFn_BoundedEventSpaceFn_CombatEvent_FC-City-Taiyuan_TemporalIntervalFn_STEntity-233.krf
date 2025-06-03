@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Taiyuan) (TemporalIntervalFn STEntity-233)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Taiyuan) (TemporalIntervalFn STEntity-233)))
+((Area (AtFn (EndFn STEntity-233) STEntity-233)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-233) STEntity-233)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-233) STEntity-233)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-233) STEntity-233)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-233) STEntity-233)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-233) STEntity-233)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-233) STEntity-233)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-233) STEntity-233)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-233) STEntity-233)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-233) STEntity-233)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Taiyuan FC-Player-DengXiaoping)
+
+(constantIn BoundedTemporalEntity-6102 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1706287))
+
+(constantIn BoundedTemporalEntity-6104 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1706287))
+
+(constantIn BoundedTemporalEntity-6145 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1758790))
+
+(constantIn BoundedTemporalEntity-6146 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1758790))
+
+(constantIn BoundedTemporalEntity-6147 ((MeasurableQuantityFn citySize) FC-City-Taiyuan))
+
+(constantIn BoundedTemporalEntity-6148 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Taiyuan))
+
+(constantIn BoundedTemporalEntity-6179 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1849844))
+
+(constantIn BoundedTemporalEntity-6181 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1849844))
+
+(currentActivity Unit-187 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Taiyuan (FreecivLocationFn 27 23))
+
+(fcObjectAt Unit-187 (FreecivLocationFn 27 23))
+
+(footprintOf FC-City-Taiyuan CityFootprint-FC-City-Taiyuan)
+
+(isa CityFootprint-FC-City-Taiyuan CityFootprint)
+
+(isa FC-City-Taiyuan FreeCiv-City)
+
+(isa STEntity-233 DefensiveEpisodeFailure)
+
+(isa STEntity-233 SpatiotemporalEvent)
+
+(isa Unit-187 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1706287 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1758790 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1849844 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-6104 BoundedTemporalEntity-6102)
+
+(startsAtSameTime BoundedTemporalEntity-6146 BoundedTemporalEntity-6145)
+
+(startsAtSameTime BoundedTemporalEntity-6147 BoundedTemporalEntity-6148)
+
+(startsAtSameTime BoundedTemporalEntity-6147 BoundedTemporalEntity-6149)
+
+(startsAtSameTime BoundedTemporalEntity-6181 BoundedTemporalEntity-6179)
+
+(unitOwner Unit-187 FC-Player-GiacomoMatteotti)
+
+(zeroIn BoundedTemporalEntity-6149 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Taiyuan))

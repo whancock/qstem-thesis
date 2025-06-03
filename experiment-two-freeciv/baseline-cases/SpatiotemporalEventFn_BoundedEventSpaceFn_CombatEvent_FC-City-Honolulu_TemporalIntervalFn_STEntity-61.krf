@@ -1,0 +1,72 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-61)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-61)))
+((Area (AtFn (EndFn STEntity-61) STEntity-61)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-61) STEntity-61)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-61) STEntity-61)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-61) STEntity-61)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-61) STEntity-61)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-61) STEntity-61)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-61) STEntity-61)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-61) STEntity-61)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-61) STEntity-61)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-61) STEntity-61)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-2638 BoundedTemporalEntity-2632)
+
+(cityOwner FC-City-Honolulu FC-Player-Kamehameha)
+
+(constantIn BoundedTemporalEntity-2543 ((MeasurableQuantityFn citySize) FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-2544 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-2630 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-139298))
+
+(constantIn BoundedTemporalEntity-2635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-139977))
+
+(constantIn BoundedTemporalEntity-2637 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-139977))
+
+(currentActivity Unit-181 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Honolulu (FreecivLocationFn 36 3))
+
+(fcObjectAt Unit-181 (FreecivLocationFn 36 3))
+
+(footprintOf FC-City-Honolulu CityFootprint-FC-City-Honolulu)
+
+(isa CityFootprint-FC-City-Honolulu CityFootprint)
+
+(isa FC-City-Honolulu FreeCiv-City)
+
+(isa STEntity-61 DefensiveEpisodeFailure)
+
+(isa STEntity-61 SpatiotemporalEvent)
+
+(isa Unit-181 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-139298 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-139977 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-2638 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-139298))
+
+(startsAfterStartingOf BoundedTemporalEntity-2638 BoundedTemporalEntity-2630)
+
+(startsAtSameTime BoundedTemporalEntity-2543 BoundedTemporalEntity-2544)
+
+(startsAtSameTime BoundedTemporalEntity-2543 BoundedTemporalEntity-2545)
+
+(startsAtSameTime BoundedTemporalEntity-2637 BoundedTemporalEntity-2635)
+
+(unitOwner Unit-181 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-2545 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))

@@ -1,0 +1,128 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Viljandi) (TemporalIntervalFn STEntity-306)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Viljandi) (TemporalIntervalFn STEntity-306)))
+((Area (AtFn (EndFn STEntity-306) STEntity-306)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-306) STEntity-306)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-306) STEntity-306)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-306) STEntity-306)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-306) STEntity-306)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-306) STEntity-306)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-306) STEntity-306)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-306) STEntity-306)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Viljandi)
+
+((citySize (AtFn (EndFn STEntity-306) STEntity-306)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-306) STEntity-306)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6371 BoundedTemporalEntity-6359)
+
+(aia-MI BoundedTemporalEntity-6373 BoundedTemporalEntity-6371)
+
+(aia-MI BoundedTemporalEntity-6396 BoundedTemporalEntity-6373)
+
+(aia-MI BoundedTemporalEntity-6409 BoundedTemporalEntity-6396)
+
+(aia-MI BoundedTemporalEntity-6442 BoundedTemporalEntity-6409)
+
+(aia-MI BoundedTemporalEntity-6450 BoundedTemporalEntity-6442)
+
+(aia-MI BoundedTemporalEntity-6493 BoundedTemporalEntity-6450)
+
+(aia-MI BoundedTemporalEntity-6496 BoundedTemporalEntity-6493)
+
+(aia-MI BoundedTemporalEntity-6568 BoundedTemporalEntity-6496)
+
+(aia-MI BoundedTemporalEntity-6861 BoundedTemporalEntity-6568)
+
+(aia-MI BoundedTemporalEntity-6889 BoundedTemporalEntity-6861)
+
+(aia-MI BoundedTemporalEntity-6907 BoundedTemporalEntity-6896)
+
+(aia-MI BoundedTemporalEntity-6935 BoundedTemporalEntity-6907)
+
+(aia-MI BoundedTemporalEntity-6943 BoundedTemporalEntity-6934)
+
+(aia-MI BoundedTemporalEntity-6980 BoundedTemporalEntity-6943)
+
+(aia-MI BoundedTemporalEntity-6990 BoundedTemporalEntity-6980)
+
+(cityOwner FC-City-Viljandi FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6360 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Viljandi))
+
+(constantIn BoundedTemporalEntity-6894 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3992480))
+
+(constantIn BoundedTemporalEntity-6930 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4037389))
+
+(constantIn BoundedTemporalEntity-6947 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4087577))
+
+(constantIn BoundedTemporalEntity-6952 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4087577))
+
+(constantIn BoundedTemporalEntity-6960 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4092807))
+
+(constantIn BoundedTemporalEntity-6967 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4092807))
+
+(constantIn BoundedTemporalEntity-6984 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4112073))
+
+(constantIn BoundedTemporalEntity-6986 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4112073))
+
+(currentActivity Unit-307 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Viljandi (FreecivLocationFn 0 8))
+
+(fcObjectAt Unit-307 (FreecivLocationFn 0 8))
+
+(footprintOf FC-City-Viljandi CityFootprint-FC-City-Viljandi)
+
+(isa CityFootprint-FC-City-Viljandi CityFootprint)
+
+(isa FC-City-Viljandi FreeCiv-City)
+
+(isa STEntity-306 DefensiveEpisodeFailure)
+
+(isa STEntity-306 SpatiotemporalEvent)
+
+(isa Unit-307 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-3992480 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4037389 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4087577 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4092807 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4112073 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-6889 ((MeasurableQuantityFn citySize) FC-City-Viljandi))
+
+(nonincreasingIn BoundedTemporalEntity-6935 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3992480))
+
+(nonincreasingIn BoundedTemporalEntity-6990 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4037389))
+
+(startsAfterStartingOf BoundedTemporalEntity-6889 BoundedTemporalEntity-6360)
+
+(startsAfterStartingOf BoundedTemporalEntity-6889 BoundedTemporalEntity-6361)
+
+(startsAfterStartingOf BoundedTemporalEntity-6935 BoundedTemporalEntity-6894)
+
+(startsAfterStartingOf BoundedTemporalEntity-6990 BoundedTemporalEntity-6930)
+
+(startsAtSameTime BoundedTemporalEntity-6952 BoundedTemporalEntity-6947)
+
+(startsAtSameTime BoundedTemporalEntity-6967 BoundedTemporalEntity-6960)
+
+(startsAtSameTime BoundedTemporalEntity-6986 BoundedTemporalEntity-6984)
+
+(unitOwner Unit-307 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6361 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Viljandi))

@@ -1,0 +1,250 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Luxembourg) (TemporalIntervalFn STEntity-92)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Luxembourg) (TemporalIntervalFn STEntity-92)))
+((Area (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivTileArea 199))
+
+((Area (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-92) STEntity-92)) (FreecivTileArea 123))
+
+((Area (AtFn (StartFn STEntity-92) STEntity-92)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivUnitCountFn 10))
+
+((Defenders (AtFn (StartFn STEntity-92) STEntity-92)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-92) STEntity-92)) (FreecivUnitCountFn 9))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Luxembourg)
+
+((citySize (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-92) STEntity-92)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5080 BoundedTemporalEntity-5075)
+
+(aia-MI BoundedTemporalEntity-5112 BoundedTemporalEntity-5080)
+
+(aia-MI BoundedTemporalEntity-5139 BoundedTemporalEntity-5134)
+
+(aia-MI BoundedTemporalEntity-5141 BoundedTemporalEntity-5136)
+
+(aia-MI BoundedTemporalEntity-5148 BoundedTemporalEntity-5139)
+
+(aia-MI BoundedTemporalEntity-5149 BoundedTemporalEntity-5141)
+
+(aia-MI BoundedTemporalEntity-5164 BoundedTemporalEntity-5148)
+
+(aia-MI BoundedTemporalEntity-5165 BoundedTemporalEntity-5149)
+
+(aia-MI BoundedTemporalEntity-5167 BoundedTemporalEntity-5164)
+
+(aia-MI BoundedTemporalEntity-5168 BoundedTemporalEntity-5165)
+
+(aia-MI BoundedTemporalEntity-5177 BoundedTemporalEntity-5167)
+
+(aia-MI BoundedTemporalEntity-5185 BoundedTemporalEntity-5168)
+
+(aia-MI BoundedTemporalEntity-5199 BoundedTemporalEntity-5076)
+
+(aia-MI BoundedTemporalEntity-5200 BoundedTemporalEntity-5077)
+
+(aia-MI BoundedTemporalEntity-5207 BoundedTemporalEntity-5177)
+
+(aia-MI BoundedTemporalEntity-5208 BoundedTemporalEntity-5185)
+
+(aia-MI BoundedTemporalEntity-5218 BoundedTemporalEntity-5207)
+
+(aia-MI BoundedTemporalEntity-5219 BoundedTemporalEntity-5208)
+
+(aia-MI BoundedTemporalEntity-5221 BoundedTemporalEntity-5219)
+
+(aia-MI BoundedTemporalEntity-5228 BoundedTemporalEntity-5218)
+
+(aia-MI BoundedTemporalEntity-5231 BoundedTemporalEntity-5228)
+
+(aia-MI BoundedTemporalEntity-5238 BoundedTemporalEntity-5221)
+
+(aia-MI BoundedTemporalEntity-5250 BoundedTemporalEntity-5231)
+
+(aia-MI BoundedTemporalEntity-5262 BoundedTemporalEntity-5238)
+
+(aia-MI BoundedTemporalEntity-5267 BoundedTemporalEntity-5250)
+
+(aia-MI BoundedTemporalEntity-5268 BoundedTemporalEntity-5262)
+
+(aia-MI BoundedTemporalEntity-5271 BoundedTemporalEntity-5267)
+
+(aia-MI BoundedTemporalEntity-5274 BoundedTemporalEntity-5271)
+
+(aia-MI BoundedTemporalEntity-5285 BoundedTemporalEntity-5274)
+
+(aia-MI BoundedTemporalEntity-5286 BoundedTemporalEntity-5268)
+
+(aia-MI BoundedTemporalEntity-5293 BoundedTemporalEntity-5285)
+
+(aia-MI BoundedTemporalEntity-5294 BoundedTemporalEntity-5286)
+
+(aia-MI BoundedTemporalEntity-5308 BoundedTemporalEntity-5293)
+
+(aia-MI BoundedTemporalEntity-5309 BoundedTemporalEntity-5112)
+
+(aia-MI BoundedTemporalEntity-5314 BoundedTemporalEntity-5199)
+
+(aia-MI BoundedTemporalEntity-5321 BoundedTemporalEntity-5309)
+
+(aia-MI BoundedTemporalEntity-5326 BoundedTemporalEntity-5294)
+
+(aia-MI BoundedTemporalEntity-5327 BoundedTemporalEntity-5321)
+
+(aia-MI BoundedTemporalEntity-5329 BoundedTemporalEntity-5308)
+
+(aia-MI BoundedTemporalEntity-5330 BoundedTemporalEntity-5308)
+
+(aia-MI BoundedTemporalEntity-5330 BoundedTemporalEntity-5326)
+
+(aia-MI BoundedTemporalEntity-5331 BoundedTemporalEntity-5200)
+
+(aia-OI BoundedTemporalEntity-5327 BoundedTemporalEntity-5076)
+
+(aia-OI BoundedTemporalEntity-5327 BoundedTemporalEntity-5077)
+
+(aia-OI BoundedTemporalEntity-5327 BoundedTemporalEntity-5199)
+
+(aia-OI BoundedTemporalEntity-5327 BoundedTemporalEntity-5200)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5134)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5139)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5148)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5164)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5167)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5177)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5207)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5218)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5228)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5231)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5250)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5267)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5271)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5274)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5285)
+
+(aia-OI BoundedTemporalEntity-5330 BoundedTemporalEntity-5293)
+
+(cityOwner FC-City-Luxembourg FC-Player-RoyJenkins)
+
+(constantIn BoundedTemporalEntity-5076 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))
+
+(constantIn BoundedTemporalEntity-5134 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(currentActivity Unit-203 FC-ActivityFortifying)
+
+(currentActivity Unit-204 FC-ActivityFortifying)
+
+(currentActivity Unit-208 FC-ActivityIdle)
+
+(defenseBonus FC-City-Luxembourg 0)
+
+(fcObjectAt FC-City-Luxembourg (FreecivLocationFn 34 3))
+
+(fcObjectAt Unit-208 (FreecivLocationFn 34 3))
+
+(footprintOf FC-City-Luxembourg CityFootprint-FC-City-Luxembourg)
+
+(isa CityFootprint-FC-City-Luxembourg CityFootprint)
+
+(isa FC-City-Luxembourg FreeCiv-City)
+
+(isa STEntity-92 DefensiveEpisodeFailure)
+
+(isa STEntity-92 SpatiotemporalEvent)
+
+(isa Unit-203 FC-Unit-Chariot)
+
+(isa Unit-204 FC-Unit-Chariot)
+
+(isa Unit-208 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-89581 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-90161 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5139 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5164 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5177 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5199 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))
+
+(nondecreasingIn BoundedTemporalEntity-5218 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5231 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5267 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5274 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5293 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5329 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nondecreasingIn BoundedTemporalEntity-5330 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5148 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5167 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5207 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5228 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5250 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5271 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5285 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5308 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-89581))
+
+(nonincreasingIn BoundedTemporalEntity-5314 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))
+
+(nonincreasingIn BoundedTemporalEntity-5327 ((MeasurableQuantityFn citySize) FC-City-Luxembourg))
+
+(someIn BoundedTemporalEntity-5200 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))
+
+(startsAfterStartingOf BoundedTemporalEntity-5327 BoundedTemporalEntity-5314)
+
+(startsAtSameTime BoundedTemporalEntity-5330 BoundedTemporalEntity-5329)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5327 BoundedTemporalEntity-5331)
+
+(terrainAt (FreecivLocationFn 34 3) FC-Terrain-Plains)
+
+(unitOwner Unit-203 FC-Player-RobertDeSable)
+
+(unitOwner Unit-204 FC-Player-RobertDeSable)
+
+(unitOwner Unit-208 FC-Player-RobertDeSable)
+
+(zeroIn BoundedTemporalEntity-5077 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))
+
+(zeroIn BoundedTemporalEntity-5331 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))

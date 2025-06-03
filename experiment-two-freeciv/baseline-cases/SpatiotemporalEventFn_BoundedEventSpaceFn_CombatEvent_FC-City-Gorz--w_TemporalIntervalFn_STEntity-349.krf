@@ -1,0 +1,64 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gorzów) (TemporalIntervalFn STEntity-349)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gorzów) (TemporalIntervalFn STEntity-349)))
+((Area (AtFn (EndFn STEntity-349) STEntity-349)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-349) STEntity-349)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-349) STEntity-349)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-349) STEntity-349)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-349) STEntity-349)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-349) STEntity-349)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-349) STEntity-349)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-349) STEntity-349)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-349) STEntity-349)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-349) STEntity-349)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7591 BoundedTemporalEntity-7578)
+
+(cityOwner FC-City-Gorzów FC-Player-W�?adys�?awJagie�?�?o)
+
+(constantIn BoundedTemporalEntity-7561 ((MeasurableQuantityFn citySize) FC-City-Gorzów))
+
+(constantIn BoundedTemporalEntity-7562 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gorzów))
+
+(constantIn BoundedTemporalEntity-7574 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4541844))
+
+(currentActivity Unit-218 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Gorzów (FreecivLocationFn 20 16))
+
+(fcObjectAt Unit-218 (FreecivLocationFn 20 16))
+
+(footprintOf FC-City-Gorzów CityFootprint-FC-City-Gorzów)
+
+(isa CityFootprint-FC-City-Gorzów CityFootprint)
+
+(isa FC-City-Gorzów FreeCiv-City)
+
+(isa STEntity-349 DefensiveEpisodeFailure)
+
+(isa STEntity-349 SpatiotemporalEvent)
+
+(isa Unit-218 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-4541844 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7591 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4541844))
+
+(startsAfterStartingOf BoundedTemporalEntity-7591 BoundedTemporalEntity-7574)
+
+(startsAtSameTime BoundedTemporalEntity-7561 BoundedTemporalEntity-7562)
+
+(startsAtSameTime BoundedTemporalEntity-7561 BoundedTemporalEntity-7563)
+
+(unitOwner Unit-218 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7563 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gorzów))

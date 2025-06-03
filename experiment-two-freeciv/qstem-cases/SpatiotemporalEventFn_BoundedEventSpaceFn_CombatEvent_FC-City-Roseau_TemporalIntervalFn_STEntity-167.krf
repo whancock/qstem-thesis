@@ -1,0 +1,108 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Roseau) (TemporalIntervalFn STEntity-167)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Roseau) (TemporalIntervalFn STEntity-167)))
+((Area (AtFn (EndFn STEntity-167) STEntity-167)) (FreecivTileArea 78))
+
+((Area (AtFn (EndFn STEntity-167) STEntity-167)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-167) STEntity-167)) (FreecivTileArea 76))
+
+((Area (AtFn (StartFn STEntity-167) STEntity-167)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-167) STEntity-167)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-167) STEntity-167)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-167) STEntity-167)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-167) STEntity-167)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-167) STEntity-167)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-167) STEntity-167)) (FreecivUnitCountFn 4))
+
+((citySize (AtFn (EndFn STEntity-167) STEntity-167)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-167) STEntity-167)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-8019 BoundedTemporalEntity-8014)
+
+(aia-MI BoundedTemporalEntity-8027 BoundedTemporalEntity-8019)
+
+(aia-MI BoundedTemporalEntity-8046 BoundedTemporalEntity-8027)
+
+(aia-MI BoundedTemporalEntity-8088 BoundedTemporalEntity-8046)
+
+(aia-MI BoundedTemporalEntity-8123 BoundedTemporalEntity-8118)
+
+(aia-MI BoundedTemporalEntity-8132 BoundedTemporalEntity-8119)
+
+(aia-MI BoundedTemporalEntity-8138 BoundedTemporalEntity-8123)
+
+(aia-MI BoundedTemporalEntity-8139 BoundedTemporalEntity-8123)
+
+(aia-MI BoundedTemporalEntity-8139 BoundedTemporalEntity-8132)
+
+(aia-MI BoundedTemporalEntity-8143 BoundedTemporalEntity-8138)
+
+(aia-OI BoundedTemporalEntity-8139 BoundedTemporalEntity-8118)
+
+(aia-SI BoundedTemporalEntity-8139 BoundedTemporalEntity-8138)
+
+(cityOwner FC-City-Roseau FC-Player-PierreCharles)
+
+(constantIn BoundedTemporalEntity-8015 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Roseau))
+
+(constantIn BoundedTemporalEntity-8118 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(constantIn BoundedTemporalEntity-8134 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134450))
+
+(constantIn BoundedTemporalEntity-8135 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-134450))
+
+(currentActivity Unit-200 FC-ActivityIdle)
+
+(defenseBonus FC-City-Roseau 0)
+
+(fcObjectAt FC-City-Roseau (FreecivLocationFn 6 29))
+
+(fcObjectAt Unit-200 (FreecivLocationFn 6 29))
+
+(footprintOf FC-City-Roseau CityFootprint-FC-City-Roseau)
+
+(isa CityFootprint-FC-City-Roseau CityFootprint)
+
+(isa FC-City-Roseau FreeCiv-City)
+
+(isa STEntity-167 DefensiveEpisodeFailure)
+
+(isa STEntity-167 SpatiotemporalEvent)
+
+(isa Unit-200 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-134338 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-134450 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-8123 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nondecreasingIn BoundedTemporalEntity-8143 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8088 ((MeasurableQuantityFn citySize) FC-City-Roseau))
+
+(nonincreasingIn BoundedTemporalEntity-8138 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8139 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-134338))
+
+(startsAfterStartingOf BoundedTemporalEntity-8088 BoundedTemporalEntity-8015)
+
+(startsAfterStartingOf BoundedTemporalEntity-8088 BoundedTemporalEntity-8016)
+
+(startsAtSameTime BoundedTemporalEntity-8135 BoundedTemporalEntity-8134)
+
+(startsBeforeStartingOf BoundedTemporalEntity-8139 BoundedTemporalEntity-8143)
+
+(terrainAt (FreecivLocationFn 6 29) FC-Terrain-Grassland)
+
+(unitOwner Unit-200 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-8016 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Roseau))

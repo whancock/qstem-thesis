@@ -1,0 +1,102 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Sikasso) (TemporalIntervalFn STEntity-95)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Sikasso) (TemporalIntervalFn STEntity-95)))
+((Area (AtFn (EndFn STEntity-95) STEntity-95)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-95) STEntity-95)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-95) STEntity-95)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Sikasso)
+
+((citySize (AtFn (EndFn STEntity-95) STEntity-95)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-95) STEntity-95)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3200 BoundedTemporalEntity-3143)
+
+(aia-MI BoundedTemporalEntity-3201 BoundedTemporalEntity-3200)
+
+(aia-MI BoundedTemporalEntity-3266 BoundedTemporalEntity-3201)
+
+(aia-MI BoundedTemporalEntity-3422 BoundedTemporalEntity-3395)
+
+(aia-MI BoundedTemporalEntity-3442 BoundedTemporalEntity-3422)
+
+(cityOwner FC-City-Sikasso FC-Player-Sakura)
+
+(constantIn BoundedTemporalEntity-3144 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Sikasso))
+
+(constantIn BoundedTemporalEntity-3266 ((MeasurableQuantityFn citySize) FC-City-Sikasso))
+
+(constantIn BoundedTemporalEntity-3387 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-225415))
+
+(constantIn BoundedTemporalEntity-3389 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-225449))
+
+(constantIn BoundedTemporalEntity-3393 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-225415))
+
+(constantIn BoundedTemporalEntity-3460 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-232930))
+
+(constantIn BoundedTemporalEntity-3465 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-233077))
+
+(constantIn BoundedTemporalEntity-3466 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-232930))
+
+(constantIn BoundedTemporalEntity-3471 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-233077))
+
+(currentActivity Unit-361 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Sikasso (FreecivLocationFn 6 31))
+
+(fcObjectAt Unit-361 (FreecivLocationFn 6 31))
+
+(footprintOf FC-City-Sikasso CityFootprint-FC-City-Sikasso)
+
+(isa CityFootprint-FC-City-Sikasso CityFootprint)
+
+(isa FC-City-Sikasso FreeCiv-City)
+
+(isa STEntity-95 DefensiveEpisodeFailure)
+
+(isa STEntity-95 SpatiotemporalEvent)
+
+(isa Unit-361 FC-Unit-Musketeers)
+
+(isa UnitGroupFootprint-225415 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-225449 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-232930 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-233077 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-3442 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-225449))
+
+(startsAfterStartingOf BoundedTemporalEntity-3266 BoundedTemporalEntity-3144)
+
+(startsAfterStartingOf BoundedTemporalEntity-3266 BoundedTemporalEntity-3145)
+
+(startsAfterStartingOf BoundedTemporalEntity-3442 BoundedTemporalEntity-3389)
+
+(startsAtSameTime BoundedTemporalEntity-3393 BoundedTemporalEntity-3387)
+
+(startsAtSameTime BoundedTemporalEntity-3466 BoundedTemporalEntity-3460)
+
+(startsAtSameTime BoundedTemporalEntity-3471 BoundedTemporalEntity-3465)
+
+(unitOwner Unit-361 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3145 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Sikasso))

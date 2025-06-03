@@ -1,0 +1,128 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tallinn) (TemporalIntervalFn STEntity-294)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tallinn) (TemporalIntervalFn STEntity-294)))
+((Area (AtFn (EndFn STEntity-294) STEntity-294)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-294) STEntity-294)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-294) STEntity-294)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-294) STEntity-294)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-294) STEntity-294)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-294) STEntity-294)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-294) STEntity-294)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-294) STEntity-294)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-294) STEntity-294)) (FreecivUnitCountFn 3))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Tallinn)
+
+((citySize (AtFn (EndFn STEntity-294) STEntity-294)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-294) STEntity-294)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6348 BoundedTemporalEntity-6323)
+
+(aia-MI BoundedTemporalEntity-6349 BoundedTemporalEntity-6348)
+
+(aia-MI BoundedTemporalEntity-6394 BoundedTemporalEntity-6349)
+
+(aia-MI BoundedTemporalEntity-6395 BoundedTemporalEntity-6394)
+
+(aia-MI BoundedTemporalEntity-6485 BoundedTemporalEntity-6395)
+
+(aia-MI BoundedTemporalEntity-6488 BoundedTemporalEntity-6485)
+
+(aia-MI BoundedTemporalEntity-6563 BoundedTemporalEntity-6488)
+
+(aia-MI BoundedTemporalEntity-6724 BoundedTemporalEntity-6715)
+
+(aia-MI BoundedTemporalEntity-6763 BoundedTemporalEntity-6700)
+
+(aia-MI BoundedTemporalEntity-6781 BoundedTemporalEntity-6763)
+
+(aia-MI BoundedTemporalEntity-6793 BoundedTemporalEntity-6724)
+
+(cityOwner FC-City-Tallinn FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6325 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tallinn))
+
+(constantIn BoundedTemporalEntity-6563 ((MeasurableQuantityFn citySize) FC-City-Tallinn))
+
+(constantIn BoundedTemporalEntity-6691 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3370507))
+
+(constantIn BoundedTemporalEntity-6712 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3432291))
+
+(constantIn BoundedTemporalEntity-6769 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3700023))
+
+(constantIn BoundedTemporalEntity-6772 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3700176))
+
+(constantIn BoundedTemporalEntity-6773 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3700182))
+
+(constantIn BoundedTemporalEntity-6774 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3700023))
+
+(constantIn BoundedTemporalEntity-6777 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3700176))
+
+(constantIn BoundedTemporalEntity-6778 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3700182))
+
+(currentActivity Unit-272 FC-ActivityIdle)
+
+(currentActivity Unit-286 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Tallinn (FreecivLocationFn 46 11))
+
+(fcObjectAt Unit-272 (FreecivLocationFn 46 11))
+
+(footprintOf FC-City-Tallinn CityFootprint-FC-City-Tallinn)
+
+(isa CityFootprint-FC-City-Tallinn CityFootprint)
+
+(isa FC-City-Tallinn FreeCiv-City)
+
+(isa STEntity-294 DefensiveEpisodeFailure)
+
+(isa STEntity-294 SpatiotemporalEvent)
+
+(isa Unit-272 FC-Unit-Chariot)
+
+(isa Unit-286 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-2701421 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3370507 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3432291 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3700023 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3700176 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3700182 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-6781 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3370507))
+
+(nonincreasingIn BoundedTemporalEntity-6793 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3432291))
+
+(startsAfterStartingOf BoundedTemporalEntity-6563 BoundedTemporalEntity-6325)
+
+(startsAfterStartingOf BoundedTemporalEntity-6563 BoundedTemporalEntity-6326)
+
+(startsAfterStartingOf BoundedTemporalEntity-6781 BoundedTemporalEntity-6691)
+
+(startsAfterStartingOf BoundedTemporalEntity-6793 BoundedTemporalEntity-6712)
+
+(startsAtSameTime BoundedTemporalEntity-6774 BoundedTemporalEntity-6769)
+
+(startsAtSameTime BoundedTemporalEntity-6777 BoundedTemporalEntity-6772)
+
+(startsAtSameTime BoundedTemporalEntity-6778 BoundedTemporalEntity-6773)
+
+(unitOwner Unit-272 FC-Player-ElizabethNicholls)
+
+(unitOwner Unit-286 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6326 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tallinn))

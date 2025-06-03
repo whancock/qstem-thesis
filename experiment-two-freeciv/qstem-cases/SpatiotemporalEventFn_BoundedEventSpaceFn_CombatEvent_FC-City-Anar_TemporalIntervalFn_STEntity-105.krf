@@ -1,0 +1,64 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Anar) (TemporalIntervalFn STEntity-105)), dumped 5/23/2025 14:11:13 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Anar) (TemporalIntervalFn STEntity-105)))
+((Area (AtFn (EndFn STEntity-105) STEntity-105)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-105) STEntity-105)) (FreecivTileArea 22))
+
+((Defenders (AtFn (EndFn STEntity-105) STEntity-105)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-105) STEntity-105)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-105) STEntity-105)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-105) STEntity-105)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-105) STEntity-105)) (FreecivCitizenCountFn 3))
+
+((citySize (AtFn (StartFn STEntity-105) STEntity-105)) (FreecivCitizenCountFn 3))
+
+(aia-MI BoundedTemporalEntity-5451 BoundedTemporalEntity-5404)
+
+(cityOwner FC-City-Anar FC-Player-Shulgi)
+
+(constantIn BoundedTemporalEntity-5405 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Anar))
+
+(constantIn BoundedTemporalEntity-5519 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-93297))
+
+(constantIn BoundedTemporalEntity-5520 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-93297))
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(defenseBonus FC-City-Anar 0)
+
+(fcObjectAt FC-City-Anar (FreecivLocationFn 31 3))
+
+(fcObjectAt Unit-194 (FreecivLocationFn 31 3))
+
+(footprintOf FC-City-Anar CityFootprint-FC-City-Anar)
+
+(isa CityFootprint-FC-City-Anar CityFootprint)
+
+(isa FC-City-Anar FreeCiv-City)
+
+(isa STEntity-105 DefensiveEpisodeFailure)
+
+(isa STEntity-105 SpatiotemporalEvent)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-93297 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5451 ((MeasurableQuantityFn citySize) FC-City-Anar))
+
+(startsAfterStartingOf BoundedTemporalEntity-5451 BoundedTemporalEntity-5405)
+
+(startsAfterStartingOf BoundedTemporalEntity-5451 BoundedTemporalEntity-5406)
+
+(startsAtSameTime BoundedTemporalEntity-5520 BoundedTemporalEntity-5519)
+
+(terrainAt (FreecivLocationFn 31 3) FC-Terrain-Tundra)
+
+(unitOwner Unit-194 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5406 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Anar))

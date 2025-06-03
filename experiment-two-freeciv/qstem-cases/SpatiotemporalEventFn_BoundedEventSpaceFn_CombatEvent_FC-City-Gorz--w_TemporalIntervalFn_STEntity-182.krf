@@ -1,0 +1,62 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gorzów) (TemporalIntervalFn STEntity-182)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gorzów) (TemporalIntervalFn STEntity-182)))
+((Area (AtFn (EndFn STEntity-182) STEntity-182)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-182) STEntity-182)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-182) STEntity-182)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-182) STEntity-182)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-182) STEntity-182)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-182) STEntity-182)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-182) STEntity-182)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-182) STEntity-182)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Gorzów FC-Player-W�?adys�?awJagie�?�?o)
+
+(constantIn BoundedTemporalEntity-9522 ((MeasurableQuantityFn citySize) FC-City-Gorzów))
+
+(constantIn BoundedTemporalEntity-9523 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gorzów))
+
+(constantIn BoundedTemporalEntity-9540 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-150606))
+
+(constantIn BoundedTemporalEntity-9541 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-150606))
+
+(currentActivity Unit-218 FC-ActivityIdle)
+
+(defenseBonus FC-City-Gorzów 100)
+
+(fcObjectAt FC-City-Gorzów (FreecivLocationFn 20 16))
+
+(fcObjectAt Unit-218 (FreecivLocationFn 20 16))
+
+(footprintOf FC-City-Gorzów CityFootprint-FC-City-Gorzów)
+
+(isa CityFootprint-FC-City-Gorzów CityFootprint)
+
+(isa FC-City-Gorzów FreeCiv-City)
+
+(isa STEntity-182 DefensiveEpisodeFailure)
+
+(isa STEntity-182 SpatiotemporalEvent)
+
+(isa Unit-218 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-150606 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-9522 BoundedTemporalEntity-9523)
+
+(startsAtSameTime BoundedTemporalEntity-9522 BoundedTemporalEntity-9524)
+
+(startsAtSameTime BoundedTemporalEntity-9541 BoundedTemporalEntity-9540)
+
+(terrainAt (FreecivLocationFn 20 16) FC-Terrain-Hills)
+
+(unitOwner Unit-218 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-9524 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gorzów))

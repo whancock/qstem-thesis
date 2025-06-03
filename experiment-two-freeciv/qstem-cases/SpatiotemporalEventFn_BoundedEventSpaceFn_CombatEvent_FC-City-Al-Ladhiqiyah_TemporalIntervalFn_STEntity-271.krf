@@ -1,0 +1,86 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Al-Ladhiqiyah) (TemporalIntervalFn STEntity-271)), dumped 5/23/2025 14:11:13 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Al-Ladhiqiyah) (TemporalIntervalFn STEntity-271)))
+((Area (AtFn (EndFn STEntity-271) STEntity-271)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-271) STEntity-271)) (FreecivTileArea 22))
+
+((Defenders (AtFn (EndFn STEntity-271) STEntity-271)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-271) STEntity-271)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-271) STEntity-271)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-271) STEntity-271)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-271) STEntity-271)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-271) STEntity-271)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-14954 BoundedTemporalEntity-14860)
+
+(aia-MI BoundedTemporalEntity-15031 BoundedTemporalEntity-15026)
+
+(aia-MI BoundedTemporalEntity-15042 BoundedTemporalEntity-15031)
+
+(aia-MI BoundedTemporalEntity-15051 BoundedTemporalEntity-15027)
+
+(aia-MI BoundedTemporalEntity-15061 BoundedTemporalEntity-15042)
+
+(aia-MI BoundedTemporalEntity-15062 BoundedTemporalEntity-15042)
+
+(aia-MI BoundedTemporalEntity-15062 BoundedTemporalEntity-15051)
+
+(aia-OI BoundedTemporalEntity-15062 BoundedTemporalEntity-15026)
+
+(aia-OI BoundedTemporalEntity-15062 BoundedTemporalEntity-15031)
+
+(cityOwner FC-City-Al-Ladhiqiyah FC-Player-FranjoFrankopan)
+
+(constantIn BoundedTemporalEntity-14861 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Al-Ladhiqiyah))
+
+(constantIn BoundedTemporalEntity-15026 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-242702))
+
+(currentActivity Unit-219 FC-ActivityIdle)
+
+(defenseBonus FC-City-Al-Ladhiqiyah 50)
+
+(fcObjectAt FC-City-Al-Ladhiqiyah (FreecivLocationFn 4 20))
+
+(fcObjectAt Unit-219 (FreecivLocationFn 4 20))
+
+(footprintOf FC-City-Al-Ladhiqiyah CityFootprint-FC-City-Al-Ladhiqiyah)
+
+(isa CityFootprint-FC-City-Al-Ladhiqiyah CityFootprint)
+
+(isa FC-City-Al-Ladhiqiyah FreeCiv-City)
+
+(isa STEntity-271 DefensiveEpisodeFailure)
+
+(isa STEntity-271 SpatiotemporalEvent)
+
+(isa Unit-219 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-242702 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-14954 ((MeasurableQuantityFn citySize) FC-City-Al-Ladhiqiyah))
+
+(nondecreasingIn BoundedTemporalEntity-15042 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-242702))
+
+(nonincreasingIn BoundedTemporalEntity-15031 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-242702))
+
+(nonincreasingIn BoundedTemporalEntity-15061 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-242702))
+
+(nonincreasingIn BoundedTemporalEntity-15062 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-242702))
+
+(startsAfterStartingOf BoundedTemporalEntity-14954 BoundedTemporalEntity-14861)
+
+(startsAfterStartingOf BoundedTemporalEntity-14954 BoundedTemporalEntity-14862)
+
+(startsAtSameTime BoundedTemporalEntity-15062 BoundedTemporalEntity-15061)
+
+(terrainAt (FreecivLocationFn 4 20) FC-Terrain-Jungle)
+
+(unitOwner Unit-219 FC-Player-FranjoFrankopan)
+
+(zeroIn BoundedTemporalEntity-14862 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Al-Ladhiqiyah))

@@ -1,0 +1,70 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Jinan) (TemporalIntervalFn STEntity-246)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Jinan) (TemporalIntervalFn STEntity-246)))
+((Area (AtFn (EndFn STEntity-246) STEntity-246)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-246) STEntity-246)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-246) STEntity-246)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-246) STEntity-246)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-246) STEntity-246)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-246) STEntity-246)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-246) STEntity-246)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-246) STEntity-246)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-246) STEntity-246)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-246) STEntity-246)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Jinan FC-Player-DengXiaoping)
+
+(constantIn BoundedTemporalEntity-6164 ((MeasurableQuantityFn citySize) FC-City-Jinan))
+
+(constantIn BoundedTemporalEntity-6165 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Jinan))
+
+(constantIn BoundedTemporalEntity-6223 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2151031))
+
+(constantIn BoundedTemporalEntity-6225 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2151031))
+
+(constantIn BoundedTemporalEntity-6240 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2244122))
+
+(constantIn BoundedTemporalEntity-6241 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2244122))
+
+(currentActivity Unit-198 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Jinan (FreecivLocationFn 22 26))
+
+(fcObjectAt Unit-198 (FreecivLocationFn 22 26))
+
+(footprintOf FC-City-Jinan CityFootprint-FC-City-Jinan)
+
+(isa CityFootprint-FC-City-Jinan CityFootprint)
+
+(isa FC-City-Jinan FreeCiv-City)
+
+(isa STEntity-246 DefensiveEpisodeFailure)
+
+(isa STEntity-246 SpatiotemporalEvent)
+
+(isa Unit-198 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-2151031 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2244122 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-6164 BoundedTemporalEntity-6165)
+
+(startsAtSameTime BoundedTemporalEntity-6164 BoundedTemporalEntity-6166)
+
+(startsAtSameTime BoundedTemporalEntity-6225 BoundedTemporalEntity-6223)
+
+(startsAtSameTime BoundedTemporalEntity-6241 BoundedTemporalEntity-6240)
+
+(unitOwner Unit-198 FC-Player-Shakhverdi)
+
+(zeroIn BoundedTemporalEntity-6166 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Jinan))

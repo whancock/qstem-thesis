@@ -1,0 +1,140 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Novurbo) (TemporalIntervalFn STEntity-280)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Novurbo) (TemporalIntervalFn STEntity-280)))
+((Area (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivTileArea 127))
+
+((Area (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivTileArea 123))
+
+((Defenders (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 10))
+
+((Defenders (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 10))
+
+((citySize (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-16312 BoundedTemporalEntity-16300)
+
+(aia-MI BoundedTemporalEntity-16314 BoundedTemporalEntity-16309)
+
+(aia-MI BoundedTemporalEntity-16315 BoundedTemporalEntity-16310)
+
+(aia-MI BoundedTemporalEntity-16317 BoundedTemporalEntity-16314)
+
+(aia-MI BoundedTemporalEntity-16318 BoundedTemporalEntity-16315)
+
+(aia-MI BoundedTemporalEntity-16319 BoundedTemporalEntity-16317)
+
+(aia-MI BoundedTemporalEntity-16320 BoundedTemporalEntity-16318)
+
+(aia-MI BoundedTemporalEntity-16323 BoundedTemporalEntity-16319)
+
+(aia-MI BoundedTemporalEntity-16324 BoundedTemporalEntity-16320)
+
+(aia-MI BoundedTemporalEntity-16327 BoundedTemporalEntity-16323)
+
+(aia-MI BoundedTemporalEntity-16328 BoundedTemporalEntity-16324)
+
+(aia-MI BoundedTemporalEntity-16332 BoundedTemporalEntity-16327)
+
+(aia-MI BoundedTemporalEntity-16333 BoundedTemporalEntity-16328)
+
+(aia-MI BoundedTemporalEntity-16337 BoundedTemporalEntity-16332)
+
+(aia-MI BoundedTemporalEntity-16338 BoundedTemporalEntity-16333)
+
+(aia-MI BoundedTemporalEntity-16342 BoundedTemporalEntity-16338)
+
+(aia-MI BoundedTemporalEntity-16344 BoundedTemporalEntity-16312)
+
+(aia-MI BoundedTemporalEntity-16345 BoundedTemporalEntity-16337)
+
+(aia-MI BoundedTemporalEntity-16346 BoundedTemporalEntity-16342)
+
+(aia-MI BoundedTemporalEntity-16347 BoundedTemporalEntity-16346)
+
+(aia-MI BoundedTemporalEntity-16348 BoundedTemporalEntity-16345)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16309)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16314)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16317)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16319)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16323)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16327)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16332)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16337)
+
+(aia-OI BoundedTemporalEntity-16347 BoundedTemporalEntity-16345)
+
+(cityOwner FC-City-Novurbo FC-Player-L.L.ZAMENHOF)
+
+(constantIn BoundedTemporalEntity-16301 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Novurbo))
+
+(constantIn BoundedTemporalEntity-16309 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(currentActivity Unit-163 FC-ActivityIdle)
+
+(defenseBonus FC-City-Novurbo 50)
+
+(fcObjectAt FC-City-Novurbo (FreecivLocationFn 20 16))
+
+(fcObjectAt Unit-163 (FreecivLocationFn 20 16))
+
+(footprintOf FC-City-Novurbo CityFootprint-FC-City-Novurbo)
+
+(isa CityFootprint-FC-City-Novurbo CityFootprint)
+
+(isa FC-City-Novurbo FreeCiv-City)
+
+(isa STEntity-280 DefensiveEpisodeFailure)
+
+(isa STEntity-280 SpatiotemporalEvent)
+
+(isa Unit-163 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-265152 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-16314 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16319 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16327 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16337 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16348 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16317 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16323 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16332 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16344 ((MeasurableQuantityFn citySize) FC-City-Novurbo))
+
+(nonincreasingIn BoundedTemporalEntity-16345 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16347 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-265152))
+
+(startsAfterStartingOf BoundedTemporalEntity-16344 BoundedTemporalEntity-16301)
+
+(startsAfterStartingOf BoundedTemporalEntity-16344 BoundedTemporalEntity-16302)
+
+(startsBeforeStartingOf BoundedTemporalEntity-16347 BoundedTemporalEntity-16348)
+
+(terrainAt (FreecivLocationFn 20 16) FC-Terrain-Swamp)
+
+(unitOwner Unit-163 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-16302 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Novurbo))

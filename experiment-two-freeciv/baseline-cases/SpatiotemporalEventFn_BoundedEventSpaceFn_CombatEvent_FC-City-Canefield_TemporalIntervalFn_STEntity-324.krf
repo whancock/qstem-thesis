@@ -1,0 +1,76 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Canefield) (TemporalIntervalFn STEntity-324)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Canefield) (TemporalIntervalFn STEntity-324)))
+((Area (AtFn (EndFn STEntity-324) STEntity-324)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-324) STEntity-324)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-324) STEntity-324)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-324) STEntity-324)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-324) STEntity-324)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-324) STEntity-324)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-324) STEntity-324)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-324) STEntity-324)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-324) STEntity-324)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-324) STEntity-324)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7223 BoundedTemporalEntity-7184)
+
+(aia-MI BoundedTemporalEntity-7255 BoundedTemporalEntity-7232)
+
+(aia-MI BoundedTemporalEntity-7259 BoundedTemporalEntity-7255)
+
+(cityOwner FC-City-Canefield FC-Player-Mansur)
+
+(constantIn BoundedTemporalEntity-7185 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Canefield))
+
+(constantIn BoundedTemporalEntity-7231 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4160637))
+
+(constantIn BoundedTemporalEntity-7244 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4191749))
+
+(constantIn BoundedTemporalEntity-7245 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4191749))
+
+(currentActivity Unit-190 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Canefield (FreecivLocationFn 3 29))
+
+(fcObjectAt Unit-190 (FreecivLocationFn 3 29))
+
+(footprintOf FC-City-Canefield CityFootprint-FC-City-Canefield)
+
+(isa CityFootprint-FC-City-Canefield CityFootprint)
+
+(isa FC-City-Canefield FreeCiv-City)
+
+(isa STEntity-324 DefensiveEpisodeFailure)
+
+(isa STEntity-324 SpatiotemporalEvent)
+
+(isa Unit-190 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-4160637 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4191749 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7223 ((MeasurableQuantityFn citySize) FC-City-Canefield))
+
+(nonincreasingIn BoundedTemporalEntity-7259 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4160637))
+
+(startsAfterStartingOf BoundedTemporalEntity-7223 BoundedTemporalEntity-7185)
+
+(startsAfterStartingOf BoundedTemporalEntity-7223 BoundedTemporalEntity-7186)
+
+(startsAfterStartingOf BoundedTemporalEntity-7259 BoundedTemporalEntity-7231)
+
+(startsAtSameTime BoundedTemporalEntity-7245 BoundedTemporalEntity-7244)
+
+(unitOwner Unit-190 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7186 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Canefield))

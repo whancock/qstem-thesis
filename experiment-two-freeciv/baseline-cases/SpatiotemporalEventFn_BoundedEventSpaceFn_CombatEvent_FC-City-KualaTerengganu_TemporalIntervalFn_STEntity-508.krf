@@ -1,0 +1,208 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KualaTerengganu) (TemporalIntervalFn STEntity-508)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KualaTerengganu) (TemporalIntervalFn STEntity-508)))
+((Area (AtFn (EndFn STEntity-508) STEntity-508)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-508) STEntity-508)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-508) STEntity-508)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-508) STEntity-508)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-508) STEntity-508)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-508) STEntity-508)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-508) STEntity-508)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-508) STEntity-508)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-508) STEntity-508)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-KualaTerengganu)
+
+((citySize (AtFn (EndFn STEntity-508) STEntity-508)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-508) STEntity-508)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-10931 BoundedTemporalEntity-10769)
+
+(aia-MI BoundedTemporalEntity-10945 BoundedTemporalEntity-10931)
+
+(aia-MI BoundedTemporalEntity-10952 BoundedTemporalEntity-10945)
+
+(aia-MI BoundedTemporalEntity-10984 BoundedTemporalEntity-10952)
+
+(aia-MI BoundedTemporalEntity-10999 BoundedTemporalEntity-10984)
+
+(aia-MI BoundedTemporalEntity-11026 BoundedTemporalEntity-10999)
+
+(aia-MI BoundedTemporalEntity-11038 BoundedTemporalEntity-11026)
+
+(aia-MI BoundedTemporalEntity-11056 BoundedTemporalEntity-11038)
+
+(aia-MI BoundedTemporalEntity-11076 BoundedTemporalEntity-11056)
+
+(aia-MI BoundedTemporalEntity-11085 BoundedTemporalEntity-10700)
+
+(aia-MI BoundedTemporalEntity-11089 BoundedTemporalEntity-11076)
+
+(aia-MI BoundedTemporalEntity-11096 BoundedTemporalEntity-11089)
+
+(aia-MI BoundedTemporalEntity-11127 BoundedTemporalEntity-11096)
+
+(aia-MI BoundedTemporalEntity-11150 BoundedTemporalEntity-11085)
+
+(aia-MI BoundedTemporalEntity-11171 BoundedTemporalEntity-11127)
+
+(aia-MI BoundedTemporalEntity-11195 BoundedTemporalEntity-11171)
+
+(aia-MI BoundedTemporalEntity-11225 BoundedTemporalEntity-11195)
+
+(aia-MI BoundedTemporalEntity-11263 BoundedTemporalEntity-11225)
+
+(aia-MI BoundedTemporalEntity-11280 BoundedTemporalEntity-11263)
+
+(aia-MI BoundedTemporalEntity-11288 BoundedTemporalEntity-11150)
+
+(aia-MI BoundedTemporalEntity-11306 BoundedTemporalEntity-11280)
+
+(aia-MI BoundedTemporalEntity-11353 BoundedTemporalEntity-11306)
+
+(aia-MI BoundedTemporalEntity-11390 BoundedTemporalEntity-11353)
+
+(aia-MI BoundedTemporalEntity-11437 BoundedTemporalEntity-11288)
+
+(aia-MI BoundedTemporalEntity-11439 BoundedTemporalEntity-11390)
+
+(aia-MI BoundedTemporalEntity-11442 BoundedTemporalEntity-11386)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-10769)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-10931)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-10945)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-10952)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-10984)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-10999)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11026)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11038)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11056)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11076)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11089)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11096)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11127)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11171)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11195)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11225)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11263)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11280)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11306)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11353)
+
+(aia-OI BoundedTemporalEntity-11437 BoundedTemporalEntity-11390)
+
+(cityOwner FC-City-KualaTerengganu FC-Player-Parameswara)
+
+(constantIn BoundedTemporalEntity-10701 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KualaTerengganu))
+
+(constantIn BoundedTemporalEntity-11383 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-18615129))
+
+(constantIn BoundedTemporalEntity-11439 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(currentActivity Unit-327 FC-ActivityIdle)
+
+(fcObjectAt FC-City-KualaTerengganu (FreecivLocationFn 34 19))
+
+(fcObjectAt Unit-327 (FreecivLocationFn 34 19))
+
+(footprintOf FC-City-KualaTerengganu CityFootprint-FC-City-KualaTerengganu)
+
+(isa CityFootprint-FC-City-KualaTerengganu CityFootprint)
+
+(isa FC-City-KualaTerengganu FreeCiv-City)
+
+(isa STEntity-508 DefensiveEpisodeFailure)
+
+(isa STEntity-508 SpatiotemporalEvent)
+
+(isa Unit-327 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-18327890 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-18615129 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10931 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-10952 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-10984 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-10999 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11026 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11076 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11127 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11171 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11225 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11280 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11353 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11390 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nondecreasingIn BoundedTemporalEntity-11442 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-18615129))
+
+(nonincreasingIn BoundedTemporalEntity-10769 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-10945 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11038 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11056 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11089 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11096 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11195 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11263 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11306 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(nonincreasingIn BoundedTemporalEntity-11437 ((MeasurableQuantityFn citySize) FC-City-KualaTerengganu))
+
+(startsAfterStartingOf BoundedTemporalEntity-11437 BoundedTemporalEntity-10701)
+
+(startsAfterStartingOf BoundedTemporalEntity-11437 BoundedTemporalEntity-10702)
+
+(startsAfterStartingOf BoundedTemporalEntity-11442 BoundedTemporalEntity-11383)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11437 BoundedTemporalEntity-11439)
+
+(unitOwner Unit-327 FC-Player-Suharto)
+
+(zeroIn BoundedTemporalEntity-10702 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KualaTerengganu))

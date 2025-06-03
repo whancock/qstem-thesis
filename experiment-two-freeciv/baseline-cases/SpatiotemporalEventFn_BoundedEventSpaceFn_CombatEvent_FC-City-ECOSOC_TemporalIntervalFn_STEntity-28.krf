@@ -1,0 +1,130 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-ECOSOC) (TemporalIntervalFn STEntity-28)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-ECOSOC) (TemporalIntervalFn STEntity-28)))
+((Area (AtFn (EndFn STEntity-28) STEntity-28)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-28) STEntity-28)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-28) STEntity-28)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-28) STEntity-28)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-28) STEntity-28)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-28) STEntity-28)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-28) STEntity-28)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-28) STEntity-28)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-28) STEntity-28)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-28) STEntity-28)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-102 BoundedTemporalEntity-49)
+
+(aia-MI BoundedTemporalEntity-103 BoundedTemporalEntity-50)
+
+(aia-MI BoundedTemporalEntity-113 BoundedTemporalEntity-83)
+
+(aia-MI BoundedTemporalEntity-134 BoundedTemporalEntity-103)
+
+(aia-MI BoundedTemporalEntity-176 BoundedTemporalEntity-113)
+
+(aia-MI BoundedTemporalEntity-185 BoundedTemporalEntity-102)
+
+(aia-MI BoundedTemporalEntity-251 BoundedTemporalEntity-176)
+
+(aia-MI BoundedTemporalEntity-286 BoundedTemporalEntity-134)
+
+(aia-MI BoundedTemporalEntity-320 BoundedTemporalEntity-185)
+
+(aia-MI BoundedTemporalEntity-321 BoundedTemporalEntity-286)
+
+(aia-MI BoundedTemporalEntity-342 BoundedTemporalEntity-251)
+
+(aia-MI BoundedTemporalEntity-83 BoundedTemporalEntity-46)
+
+(aia-OI BoundedTemporalEntity-342 BoundedTemporalEntity-102)
+
+(aia-OI BoundedTemporalEntity-342 BoundedTemporalEntity-103)
+
+(aia-OI BoundedTemporalEntity-342 BoundedTemporalEntity-134)
+
+(aia-OI BoundedTemporalEntity-342 BoundedTemporalEntity-185)
+
+(aia-OI BoundedTemporalEntity-342 BoundedTemporalEntity-286)
+
+(aia-OI BoundedTemporalEntity-342 BoundedTemporalEntity-49)
+
+(aia-OI BoundedTemporalEntity-342 BoundedTemporalEntity-50)
+
+(cityOwner FC-City-ECOSOC FC-Player-DarkDante)
+
+(constantIn BoundedTemporalEntity-108 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3081))
+
+(constantIn BoundedTemporalEntity-110 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3081))
+
+(constantIn BoundedTemporalEntity-286 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(constantIn BoundedTemporalEntity-347 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-18620))
+
+(constantIn BoundedTemporalEntity-349 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-18620))
+
+(constantIn BoundedTemporalEntity-47 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-ECOSOC))
+
+(constantIn BoundedTemporalEntity-50 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(currentActivity Unit-172 FC-ActivityIdle)
+
+(fcObjectAt FC-City-ECOSOC (FreecivLocationFn 11 23))
+
+(fcObjectAt Unit-172 (FreecivLocationFn 11 23))
+
+(footprintOf FC-City-ECOSOC CityFootprint-FC-City-ECOSOC)
+
+(isa CityFootprint-FC-City-ECOSOC CityFootprint)
+
+(isa FC-City-ECOSOC FreeCiv-City)
+
+(isa STEntity-28 DefensiveEpisodeFailure)
+
+(isa STEntity-28 SpatiotemporalEvent)
+
+(isa Unit-172 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-18620 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3081 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-103 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(nondecreasingIn BoundedTemporalEntity-321 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(nondecreasingIn BoundedTemporalEntity-342 ((MeasurableQuantityFn citySize) FC-City-ECOSOC))
+
+(nonincreasingIn BoundedTemporalEntity-134 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(someIn BoundedTemporalEntity-102 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(someIn BoundedTemporalEntity-320 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(startsAfterStartingOf BoundedTemporalEntity-342 BoundedTemporalEntity-320)
+
+(startsAfterStartingOf BoundedTemporalEntity-342 BoundedTemporalEntity-321)
+
+(startsAfterStartingOf BoundedTemporalEntity-342 BoundedTemporalEntity-47)
+
+(startsAfterStartingOf BoundedTemporalEntity-342 BoundedTemporalEntity-48)
+
+(startsAtSameTime BoundedTemporalEntity-110 BoundedTemporalEntity-108)
+
+(startsAtSameTime BoundedTemporalEntity-349 BoundedTemporalEntity-347)
+
+(unitOwner Unit-172 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-185 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))
+
+(zeroIn BoundedTemporalEntity-48 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-ECOSOC))
+
+(zeroIn BoundedTemporalEntity-49 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-ECOSOC))

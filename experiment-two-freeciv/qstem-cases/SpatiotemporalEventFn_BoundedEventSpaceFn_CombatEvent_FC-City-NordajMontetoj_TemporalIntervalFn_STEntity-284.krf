@@ -1,0 +1,76 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-NordajMontetoj) (TemporalIntervalFn STEntity-284)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-NordajMontetoj) (TemporalIntervalFn STEntity-284)))
+((Area (AtFn (EndFn STEntity-284) STEntity-284)) (FreecivTileArea 27))
+
+((Area (AtFn (StartFn STEntity-284) STEntity-284)) (FreecivTileArea 27))
+
+((Defenders (AtFn (EndFn STEntity-284) STEntity-284)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-284) STEntity-284)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-284) STEntity-284)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-284) STEntity-284)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-NordajMontetoj)
+
+((citySize (AtFn (EndFn STEntity-284) STEntity-284)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-284) STEntity-284)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-16334 BoundedTemporalEntity-16306)
+
+(aia-MI BoundedTemporalEntity-16361 BoundedTemporalEntity-16334)
+
+(aia-MI BoundedTemporalEntity-16368 BoundedTemporalEntity-16361)
+
+(aia-MI BoundedTemporalEntity-16374 BoundedTemporalEntity-16369)
+
+(aia-SI BoundedTemporalEntity-16370 BoundedTemporalEntity-16369)
+
+(cityOwner FC-City-NordajMontetoj FC-Player-MarttiAhtisaari)
+
+(constantIn BoundedTemporalEntity-16307 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-NordajMontetoj))
+
+(constantIn BoundedTemporalEntity-16369 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265656))
+
+(constantIn BoundedTemporalEntity-16370 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-265656))
+
+(currentActivity Unit-160 FC-ActivityIdle)
+
+(defenseBonus FC-City-NordajMontetoj 0)
+
+(fcObjectAt FC-City-NordajMontetoj (FreecivLocationFn 23 7))
+
+(fcObjectAt Unit-160 (FreecivLocationFn 23 7))
+
+(footprintOf FC-City-NordajMontetoj CityFootprint-FC-City-NordajMontetoj)
+
+(isa CityFootprint-FC-City-NordajMontetoj CityFootprint)
+
+(isa FC-City-NordajMontetoj FreeCiv-City)
+
+(isa STEntity-284 DefensiveEpisodeFailure)
+
+(isa STEntity-284 SpatiotemporalEvent)
+
+(isa Unit-160 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-265656 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-16368 ((MeasurableQuantityFn citySize) FC-City-NordajMontetoj))
+
+(nonincreasingIn BoundedTemporalEntity-16374 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265656))
+
+(startsAfterStartingOf BoundedTemporalEntity-16368 BoundedTemporalEntity-16307)
+
+(startsAfterStartingOf BoundedTemporalEntity-16368 BoundedTemporalEntity-16308)
+
+(startsBeforeStartingOf BoundedTemporalEntity-16370 BoundedTemporalEntity-16374)
+
+(terrainAt (FreecivLocationFn 23 7) FC-Terrain-Grassland)
+
+(unitOwner Unit-160 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-16308 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-NordajMontetoj))

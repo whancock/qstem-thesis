@@ -1,0 +1,76 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Shijiazhuang) (TemporalIntervalFn STEntity-256)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Shijiazhuang) (TemporalIntervalFn STEntity-256)))
+((Area (AtFn (EndFn STEntity-256) STEntity-256)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-256) STEntity-256)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-256) STEntity-256)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-256) STEntity-256)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-256) STEntity-256)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-256) STEntity-256)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-256) STEntity-256)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-256) STEntity-256)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-256) STEntity-256)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-256) STEntity-256)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6183 BoundedTemporalEntity-6131)
+
+(aia-MI BoundedTemporalEntity-6238 BoundedTemporalEntity-6183)
+
+(aia-MI BoundedTemporalEntity-6312 BoundedTemporalEntity-6238)
+
+(cityOwner FC-City-Shijiazhuang FC-Player-DengXiaoping)
+
+(constantIn BoundedTemporalEntity-6132 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Shijiazhuang))
+
+(constantIn BoundedTemporalEntity-6227 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2161045))
+
+(constantIn BoundedTemporalEntity-6228 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2161045))
+
+(constantIn BoundedTemporalEntity-6296 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2432684))
+
+(constantIn BoundedTemporalEntity-6297 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2432684))
+
+(currentActivity Unit-210 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Shijiazhuang (FreecivLocationFn 40 31))
+
+(fcObjectAt Unit-210 (FreecivLocationFn 40 31))
+
+(footprintOf FC-City-Shijiazhuang CityFootprint-FC-City-Shijiazhuang)
+
+(isa CityFootprint-FC-City-Shijiazhuang CityFootprint)
+
+(isa FC-City-Shijiazhuang FreeCiv-City)
+
+(isa STEntity-256 DefensiveEpisodeFailure)
+
+(isa STEntity-256 SpatiotemporalEvent)
+
+(isa Unit-210 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-2161045 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2432684 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-6312 ((MeasurableQuantityFn citySize) FC-City-Shijiazhuang))
+
+(startsAfterStartingOf BoundedTemporalEntity-6312 BoundedTemporalEntity-6132)
+
+(startsAfterStartingOf BoundedTemporalEntity-6312 BoundedTemporalEntity-6133)
+
+(startsAtSameTime BoundedTemporalEntity-6228 BoundedTemporalEntity-6227)
+
+(startsAtSameTime BoundedTemporalEntity-6297 BoundedTemporalEntity-6296)
+
+(unitOwner Unit-210 FC-Player-GiacomoMatteotti)
+
+(zeroIn BoundedTemporalEntity-6133 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Shijiazhuang))

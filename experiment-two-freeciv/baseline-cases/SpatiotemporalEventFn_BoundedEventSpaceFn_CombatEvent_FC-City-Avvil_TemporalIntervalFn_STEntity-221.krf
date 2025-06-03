@@ -1,0 +1,98 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Avvil) (TemporalIntervalFn STEntity-221)), dumped 5/23/2025 14:18:44 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Avvil) (TemporalIntervalFn STEntity-221)))
+((Area (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Avvil)
+
+((citySize (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5813 BoundedTemporalEntity-5624)
+
+(aia-MI BoundedTemporalEntity-5815 BoundedTemporalEntity-5813)
+
+(aia-MI BoundedTemporalEntity-5936 BoundedTemporalEntity-5868)
+
+(aia-MI BoundedTemporalEntity-5946 BoundedTemporalEntity-5815)
+
+(aia-MI BoundedTemporalEntity-5949 BoundedTemporalEntity-5936)
+
+(aia-MI BoundedTemporalEntity-5952 BoundedTemporalEntity-5946)
+
+(cityOwner FC-City-Avvil FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5625 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Avvil))
+
+(constantIn BoundedTemporalEntity-5862 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1642099))
+
+(constantIn BoundedTemporalEntity-5931 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1655386))
+
+(constantIn BoundedTemporalEntity-5932 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1655386))
+
+(constantIn BoundedTemporalEntity-5947 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1658747))
+
+(constantIn BoundedTemporalEntity-5948 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1658747))
+
+(currentActivity Unit-245 FC-ActivityIdle)
+
+(currentActivity Unit-335 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Avvil (FreecivLocationFn 20 5))
+
+(fcObjectAt Unit-245 (FreecivLocationFn 20 5))
+
+(footprintOf FC-City-Avvil CityFootprint-FC-City-Avvil)
+
+(isa CityFootprint-FC-City-Avvil CityFootprint)
+
+(isa FC-City-Avvil FreeCiv-City)
+
+(isa STEntity-221 DefensiveEpisodeFailure)
+
+(isa STEntity-221 SpatiotemporalEvent)
+
+(isa Unit-245 FC-Unit-Catapult)
+
+(isa Unit-335 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1642099 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1655386 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1658747 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-5949 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1642099))
+
+(nonincreasingIn BoundedTemporalEntity-5952 ((MeasurableQuantityFn citySize) FC-City-Avvil))
+
+(startsAfterStartingOf BoundedTemporalEntity-5949 BoundedTemporalEntity-5862)
+
+(startsAfterStartingOf BoundedTemporalEntity-5952 BoundedTemporalEntity-5625)
+
+(startsAfterStartingOf BoundedTemporalEntity-5952 BoundedTemporalEntity-5626)
+
+(startsAtSameTime BoundedTemporalEntity-5932 BoundedTemporalEntity-5931)
+
+(startsAtSameTime BoundedTemporalEntity-5948 BoundedTemporalEntity-5947)
+
+(unitOwner Unit-245 FC-Player-Shulgi)
+
+(unitOwner Unit-335 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5626 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Avvil))

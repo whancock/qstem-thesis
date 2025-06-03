@@ -1,0 +1,132 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kárášjohka) (TemporalIntervalFn STEntity-220)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kárášjohka) (TemporalIntervalFn STEntity-220)))
+((Area (AtFn (EndFn STEntity-220) STEntity-220)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-220) STEntity-220)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 8))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 8))
+
+((Defenders (AtFn (EndFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-220) STEntity-220)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-220) STEntity-220)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-220) STEntity-220)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-5412 BoundedTemporalEntity-5388)
+
+(aia-MI BoundedTemporalEntity-5493 BoundedTemporalEntity-5412)
+
+(aia-MI BoundedTemporalEntity-5526 BoundedTemporalEntity-5493)
+
+(aia-MI BoundedTemporalEntity-5532 BoundedTemporalEntity-5526)
+
+(aia-MI BoundedTemporalEntity-5588 BoundedTemporalEntity-5532)
+
+(aia-MI BoundedTemporalEntity-5600 BoundedTemporalEntity-5588)
+
+(aia-MI BoundedTemporalEntity-5666 BoundedTemporalEntity-5600)
+
+(aia-MI BoundedTemporalEntity-5676 BoundedTemporalEntity-5666)
+
+(aia-MI BoundedTemporalEntity-5806 BoundedTemporalEntity-5676)
+
+(aia-MI BoundedTemporalEntity-5812 BoundedTemporalEntity-5806)
+
+(aia-MI BoundedTemporalEntity-5871 BoundedTemporalEntity-5856)
+
+(aia-MI BoundedTemporalEntity-5872 BoundedTemporalEntity-5852)
+
+(aia-MI BoundedTemporalEntity-5873 BoundedTemporalEntity-5805)
+
+(cityOwner FC-City-Kárášjohka FC-Player-Shulgi)
+
+(constantIn BoundedTemporalEntity-5389 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kárášjohka))
+
+(constantIn BoundedTemporalEntity-5804 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1597627))
+
+(constantIn BoundedTemporalEntity-5817 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1625206))
+
+(constantIn BoundedTemporalEntity-5819 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1625206))
+
+(constantIn BoundedTemporalEntity-5839 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1636727))
+
+(constantIn BoundedTemporalEntity-5845 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1636727))
+
+(constantIn BoundedTemporalEntity-5850 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1638347))
+
+(constantIn BoundedTemporalEntity-5853 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1640129))
+
+(constantIn BoundedTemporalEntity-5862 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1642099))
+
+(constantIn BoundedTemporalEntity-5868 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1642099))
+
+(currentActivity Unit-256 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kárášjohka (FreecivLocationFn 26 7))
+
+(fcObjectAt Unit-256 (FreecivLocationFn 26 7))
+
+(footprintOf FC-City-Kárášjohka CityFootprint-FC-City-Kárášjohka)
+
+(isa CityFootprint-FC-City-Kárášjohka CityFootprint)
+
+(isa FC-City-Kárášjohka FreeCiv-City)
+
+(isa STEntity-220 DefensiveEpisodeFailure)
+
+(isa STEntity-220 SpatiotemporalEvent)
+
+(isa Unit-256 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-1597627 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1625206 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1636727 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1638347 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1640129 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1642099 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5871 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1640129))
+
+(nondecreasingIn BoundedTemporalEntity-5873 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1597627))
+
+(nonincreasingIn BoundedTemporalEntity-5812 ((MeasurableQuantityFn citySize) FC-City-Kárášjohka))
+
+(nonincreasingIn BoundedTemporalEntity-5872 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1638347))
+
+(startsAfterStartingOf BoundedTemporalEntity-5812 BoundedTemporalEntity-5389)
+
+(startsAfterStartingOf BoundedTemporalEntity-5812 BoundedTemporalEntity-5390)
+
+(startsAfterStartingOf BoundedTemporalEntity-5871 BoundedTemporalEntity-5853)
+
+(startsAfterStartingOf BoundedTemporalEntity-5872 BoundedTemporalEntity-5850)
+
+(startsAfterStartingOf BoundedTemporalEntity-5873 BoundedTemporalEntity-5804)
+
+(startsAtSameTime BoundedTemporalEntity-5819 BoundedTemporalEntity-5817)
+
+(startsAtSameTime BoundedTemporalEntity-5845 BoundedTemporalEntity-5839)
+
+(startsAtSameTime BoundedTemporalEntity-5868 BoundedTemporalEntity-5862)
+
+(unitOwner Unit-256 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5390 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kárášjohka))

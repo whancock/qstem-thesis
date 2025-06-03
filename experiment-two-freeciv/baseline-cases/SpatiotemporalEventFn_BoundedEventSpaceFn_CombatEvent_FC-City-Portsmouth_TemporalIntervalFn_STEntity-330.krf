@@ -1,0 +1,116 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Portsmouth) (TemporalIntervalFn STEntity-330)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Portsmouth) (TemporalIntervalFn STEntity-330)))
+((Area (AtFn (EndFn STEntity-330) STEntity-330)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-330) STEntity-330)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-330) STEntity-330)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Portsmouth)
+
+((citySize (AtFn (EndFn STEntity-330) STEntity-330)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-330) STEntity-330)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7148 BoundedTemporalEntity-7124)
+
+(aia-MI BoundedTemporalEntity-7149 BoundedTemporalEntity-7148)
+
+(aia-MI BoundedTemporalEntity-7159 BoundedTemporalEntity-7149)
+
+(aia-MI BoundedTemporalEntity-7160 BoundedTemporalEntity-7159)
+
+(aia-MI BoundedTemporalEntity-7180 BoundedTemporalEntity-7160)
+
+(aia-MI BoundedTemporalEntity-7182 BoundedTemporalEntity-7180)
+
+(aia-MI BoundedTemporalEntity-7218 BoundedTemporalEntity-7182)
+
+(aia-MI BoundedTemporalEntity-7225 BoundedTemporalEntity-7218)
+
+(aia-MI BoundedTemporalEntity-7297 BoundedTemporalEntity-7225)
+
+(aia-MI BoundedTemporalEntity-7298 BoundedTemporalEntity-7297)
+
+(aia-MI BoundedTemporalEntity-7329 BoundedTemporalEntity-7315)
+
+(cityOwner FC-City-Portsmouth FC-Player-PierreCharles)
+
+(constantIn BoundedTemporalEntity-7126 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))
+
+(constantIn BoundedTemporalEntity-7311 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4342526))
+
+(constantIn BoundedTemporalEntity-7334 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4398714))
+
+(constantIn BoundedTemporalEntity-7339 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4398714))
+
+(currentActivity Unit-190 FC-ActivityIdle)
+
+(currentActivity Unit-200 FC-ActivityIdle)
+
+(currentActivity Unit-201 FC-ActivitySentry)
+
+(fcObjectAt FC-City-Portsmouth (FreecivLocationFn 9 31))
+
+(fcObjectAt Unit-200 (FreecivLocationFn 9 31))
+
+(footprintOf FC-City-Portsmouth CityFootprint-FC-City-Portsmouth)
+
+(isa CityFootprint-FC-City-Portsmouth CityFootprint)
+
+(isa FC-City-Portsmouth FreeCiv-City)
+
+(isa STEntity-330 DefensiveEpisodeFailure)
+
+(isa STEntity-330 SpatiotemporalEvent)
+
+(isa Unit-190 FC-Unit-Horsemen)
+
+(isa Unit-200 FC-Unit-Archers)
+
+(isa Unit-201 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-4257465 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4294933 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4342504 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4342526 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4360162 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4398714 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7329 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4342526))
+
+(nonincreasingIn BoundedTemporalEntity-7298 ((MeasurableQuantityFn citySize) FC-City-Portsmouth))
+
+(startsAfterStartingOf BoundedTemporalEntity-7298 BoundedTemporalEntity-7126)
+
+(startsAfterStartingOf BoundedTemporalEntity-7298 BoundedTemporalEntity-7127)
+
+(startsAfterStartingOf BoundedTemporalEntity-7329 BoundedTemporalEntity-7311)
+
+(startsAtSameTime BoundedTemporalEntity-7339 BoundedTemporalEntity-7334)
+
+(unitOwner Unit-200 FC-Player-Mansur)
+
+(unitOwner Unit-201 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7127 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Portsmouth))

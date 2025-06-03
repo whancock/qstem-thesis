@@ -1,0 +1,86 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Haapsalu) (TemporalIntervalFn STEntity-305)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Haapsalu) (TemporalIntervalFn STEntity-305)))
+((Area (AtFn (EndFn STEntity-305) STEntity-305)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-305) STEntity-305)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-305) STEntity-305)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-305) STEntity-305)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-305) STEntity-305)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-6671 BoundedTemporalEntity-6539)
+
+(aia-MI BoundedTemporalEntity-6860 BoundedTemporalEntity-6671)
+
+(aia-MI BoundedTemporalEntity-6888 BoundedTemporalEntity-6860)
+
+(aia-MI BoundedTemporalEntity-6898 BoundedTemporalEntity-6888)
+
+(aia-MI BoundedTemporalEntity-6943 BoundedTemporalEntity-6934)
+
+(aia-MI BoundedTemporalEntity-6980 BoundedTemporalEntity-6943)
+
+(cityOwner FC-City-Haapsalu FC-Player-ElizabethNicholls)
+
+(constantIn BoundedTemporalEntity-6540 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Haapsalu))
+
+(constantIn BoundedTemporalEntity-6930 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4037389))
+
+(constantIn BoundedTemporalEntity-6958 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4092769))
+
+(constantIn BoundedTemporalEntity-6965 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4092769))
+
+(currentActivity Unit-350 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Haapsalu (FreecivLocationFn 1 5))
+
+(fcObjectAt Unit-350 (FreecivLocationFn 1 5))
+
+(footprintOf FC-City-Haapsalu CityFootprint-FC-City-Haapsalu)
+
+(isa CityFootprint-FC-City-Haapsalu CityFootprint)
+
+(isa FC-City-Haapsalu FreeCiv-City)
+
+(isa STEntity-305 DefensiveEpisodeFailure)
+
+(isa STEntity-305 SpatiotemporalEvent)
+
+(isa Unit-350 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-4037389 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4092769 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6898 ((MeasurableQuantityFn citySize) FC-City-Haapsalu))
+
+(nondecreasingIn BoundedTemporalEntity-6980 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4037389))
+
+(startsAfterStartingOf BoundedTemporalEntity-6898 BoundedTemporalEntity-6540)
+
+(startsAfterStartingOf BoundedTemporalEntity-6898 BoundedTemporalEntity-6541)
+
+(startsAfterStartingOf BoundedTemporalEntity-6980 BoundedTemporalEntity-6930)
+
+(startsAtSameTime BoundedTemporalEntity-6965 BoundedTemporalEntity-6958)
+
+(unitOwner Unit-350 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6541 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Haapsalu))

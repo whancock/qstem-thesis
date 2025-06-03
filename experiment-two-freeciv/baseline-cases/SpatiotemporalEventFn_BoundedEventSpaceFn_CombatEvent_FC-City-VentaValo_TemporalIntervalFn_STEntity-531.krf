@@ -1,0 +1,112 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-VentaValo) (TemporalIntervalFn STEntity-531)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-VentaValo) (TemporalIntervalFn STEntity-531)))
+((Area (AtFn (EndFn STEntity-531) STEntity-531)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-531) STEntity-531)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-531) STEntity-531)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-VentaValo)
+
+((citySize (AtFn (EndFn STEntity-531) STEntity-531)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-531) STEntity-531)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-11888 BoundedTemporalEntity-11857)
+
+(aia-MI BoundedTemporalEntity-11889 BoundedTemporalEntity-11888)
+
+(aia-MI BoundedTemporalEntity-11914 BoundedTemporalEntity-11889)
+
+(aia-MI BoundedTemporalEntity-11915 BoundedTemporalEntity-11914)
+
+(aia-MI BoundedTemporalEntity-11955 BoundedTemporalEntity-11915)
+
+(aia-MI BoundedTemporalEntity-11978 BoundedTemporalEntity-11955)
+
+(aia-MI BoundedTemporalEntity-12085 BoundedTemporalEntity-12078)
+
+(aia-MI BoundedTemporalEntity-12094 BoundedTemporalEntity-11978)
+
+(cityOwner FC-City-VentaValo FC-Player-L.L.ZAMENHOF)
+
+(constantIn BoundedTemporalEntity-11859 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-VentaValo))
+
+(constantIn BoundedTemporalEntity-12075 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-20582505))
+
+(constantIn BoundedTemporalEntity-12088 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-20713893))
+
+(constantIn BoundedTemporalEntity-12091 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-20713893))
+
+(constantIn BoundedTemporalEntity-12094 ((MeasurableQuantityFn citySize) FC-City-VentaValo))
+
+(currentActivity Unit-159 FC-ActivityIdle)
+
+(currentActivity Unit-163 FC-ActivityIdle)
+
+(currentActivity Unit-164 FC-ActivityIdle)
+
+(currentActivity Unit-165 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-VentaValo (FreecivLocationFn 22 10))
+
+(fcObjectAt Unit-164 (FreecivLocationFn 22 10))
+
+(footprintOf FC-City-VentaValo CityFootprint-FC-City-VentaValo)
+
+(isa CityFootprint-FC-City-VentaValo CityFootprint)
+
+(isa FC-City-VentaValo FreeCiv-City)
+
+(isa STEntity-531 DefensiveEpisodeFailure)
+
+(isa STEntity-531 SpatiotemporalEvent)
+
+(isa Unit-159 FC-Unit-Horsemen)
+
+(isa Unit-163 FC-Unit-Horsemen)
+
+(isa Unit-164 FC-Unit-Horsemen)
+
+(isa Unit-165 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-19942568 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-20508238 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-20582505 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-20582520 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-20713893 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12085 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-20582505))
+
+(startsAfterStartingOf BoundedTemporalEntity-12085 BoundedTemporalEntity-12075)
+
+(startsAfterStartingOf BoundedTemporalEntity-12094 BoundedTemporalEntity-11859)
+
+(startsAfterStartingOf BoundedTemporalEntity-12094 BoundedTemporalEntity-11860)
+
+(startsAtSameTime BoundedTemporalEntity-12091 BoundedTemporalEntity-12088)
+
+(unitOwner Unit-164 FC-Player-MarttiAhtisaari)
+
+(unitOwner Unit-165 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-11860 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-VentaValo))

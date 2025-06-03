@@ -1,0 +1,100 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gorzów) (TemporalIntervalFn STEntity-371)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gorzów) (TemporalIntervalFn STEntity-371)))
+((Area (AtFn (EndFn STEntity-371) STEntity-371)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-371) STEntity-371)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 9))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 9))
+
+((Defenders (AtFn (EndFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (StartFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-371) STEntity-371)) (FreecivUnitCountFn 6))
+
+((citySize (AtFn (EndFn STEntity-371) STEntity-371)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-371) STEntity-371)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7745 BoundedTemporalEntity-7561)
+
+(aia-MI BoundedTemporalEntity-7754 BoundedTemporalEntity-7745)
+
+(aia-MI BoundedTemporalEntity-7941 BoundedTemporalEntity-7754)
+
+(aia-MI BoundedTemporalEntity-7949 BoundedTemporalEntity-7941)
+
+(aia-MI BoundedTemporalEntity-8019 BoundedTemporalEntity-7971)
+
+(aia-MI BoundedTemporalEntity-8025 BoundedTemporalEntity-8012)
+
+(aia-MI BoundedTemporalEntity-8026 BoundedTemporalEntity-8016)
+
+(cityOwner FC-City-Gorzów FC-Player-W�?adys�?awJagie�?�?o)
+
+(constantIn BoundedTemporalEntity-7562 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gorzów))
+
+(constantIn BoundedTemporalEntity-7957 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6393987))
+
+(constantIn BoundedTemporalEntity-8002 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6489749))
+
+(constantIn BoundedTemporalEntity-8006 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6489823))
+
+(currentActivity Unit-307 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Gorzów (FreecivLocationFn 18 24))
+
+(fcObjectAt Unit-307 (FreecivLocationFn 18 24))
+
+(footprintOf FC-City-Gorzów CityFootprint-FC-City-Gorzów)
+
+(isa CityFootprint-FC-City-Gorzów CityFootprint)
+
+(isa FC-City-Gorzów FreeCiv-City)
+
+(isa STEntity-371 DefensiveEpisodeFailure)
+
+(isa STEntity-371 SpatiotemporalEvent)
+
+(isa Unit-307 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-6393987 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6489749 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6489823 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-8019 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6393987))
+
+(nondecreasingIn BoundedTemporalEntity-8025 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6489749))
+
+(nonincreasingIn BoundedTemporalEntity-7949 ((MeasurableQuantityFn citySize) FC-City-Gorzów))
+
+(nonincreasingIn BoundedTemporalEntity-8026 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6489823))
+
+(startsAfterStartingOf BoundedTemporalEntity-7949 BoundedTemporalEntity-7562)
+
+(startsAfterStartingOf BoundedTemporalEntity-7949 BoundedTemporalEntity-7563)
+
+(startsAfterStartingOf BoundedTemporalEntity-8019 BoundedTemporalEntity-7957)
+
+(startsAfterStartingOf BoundedTemporalEntity-8025 BoundedTemporalEntity-8002)
+
+(startsAfterStartingOf BoundedTemporalEntity-8026 BoundedTemporalEntity-8006)
+
+(unitOwner Unit-307 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7563 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gorzów))

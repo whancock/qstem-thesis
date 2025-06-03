@@ -1,0 +1,88 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Sillamäe) (TemporalIntervalFn STEntity-303)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Sillamäe) (TemporalIntervalFn STEntity-303)))
+((Area (AtFn (EndFn STEntity-303) STEntity-303)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-303) STEntity-303)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-303) STEntity-303)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-303) STEntity-303)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-303) STEntity-303)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-6494 BoundedTemporalEntity-6471)
+
+(aia-MI BoundedTemporalEntity-6525 BoundedTemporalEntity-6494)
+
+(aia-MI BoundedTemporalEntity-6572 BoundedTemporalEntity-6525)
+
+(aia-MI BoundedTemporalEntity-6641 BoundedTemporalEntity-6572)
+
+(aia-MI BoundedTemporalEntity-6736 BoundedTemporalEntity-6641)
+
+(aia-MI BoundedTemporalEntity-6844 BoundedTemporalEntity-6736)
+
+(aia-MI BoundedTemporalEntity-6909 BoundedTemporalEntity-6844)
+
+(cityOwner FC-City-Sillamäe FC-Player-ElizabethNicholls)
+
+(constantIn BoundedTemporalEntity-6472 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Sillamäe))
+
+(constantIn BoundedTemporalEntity-6770 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3700104))
+
+(constantIn BoundedTemporalEntity-6775 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3700104))
+
+(constantIn BoundedTemporalEntity-6930 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4037389))
+
+(constantIn BoundedTemporalEntity-6934 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4037389))
+
+(currentActivity Unit-350 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Sillamäe (FreecivLocationFn 3 8))
+
+(fcObjectAt Unit-350 (FreecivLocationFn 3 8))
+
+(footprintOf FC-City-Sillamäe CityFootprint-FC-City-Sillamäe)
+
+(isa CityFootprint-FC-City-Sillamäe CityFootprint)
+
+(isa FC-City-Sillamäe FreeCiv-City)
+
+(isa STEntity-303 DefensiveEpisodeFailure)
+
+(isa STEntity-303 SpatiotemporalEvent)
+
+(isa Unit-350 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-3700104 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4037389 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6909 ((MeasurableQuantityFn citySize) FC-City-Sillamäe))
+
+(startsAfterStartingOf BoundedTemporalEntity-6909 BoundedTemporalEntity-6472)
+
+(startsAfterStartingOf BoundedTemporalEntity-6909 BoundedTemporalEntity-6473)
+
+(startsAtSameTime BoundedTemporalEntity-6775 BoundedTemporalEntity-6770)
+
+(startsAtSameTime BoundedTemporalEntity-6934 BoundedTemporalEntity-6930)
+
+(unitOwner Unit-350 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6473 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Sillamäe))

@@ -1,0 +1,54 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lujávri) (TemporalIntervalFn STEntity-207)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lujávri) (TemporalIntervalFn STEntity-207)))
+((Area (AtFn (EndFn STEntity-207) STEntity-207)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-207) STEntity-207)) (FreecivTileArea 1))
+
+((Defenders (AtFn (EndFn STEntity-207) STEntity-207)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-207) STEntity-207)) (FreecivUnitCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5418 BoundedTemporalEntity-5367)
+
+(aia-MI BoundedTemporalEntity-5431 BoundedTemporalEntity-5418)
+
+(aia-MI BoundedTemporalEntity-5494 BoundedTemporalEntity-5431)
+
+(aia-MI BoundedTemporalEntity-5570 BoundedTemporalEntity-5494)
+
+(aia-MI BoundedTemporalEntity-5583 BoundedTemporalEntity-5570)
+
+(aia-MI BoundedTemporalEntity-5665 BoundedTemporalEntity-5583)
+
+(cityOwner FC-City-Lujávri FC-Player-C.G.E.Mannerheim)
+
+(constantIn BoundedTemporalEntity-5368 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lujávri))
+
+(constantIn BoundedTemporalEntity-5639 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1332739))
+
+(constantIn BoundedTemporalEntity-5641 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1332739))
+
+(constantIn BoundedTemporalEntity-5665 ((MeasurableQuantityFn citySize) FC-City-Lujávri))
+
+(fcObjectAt FC-City-Lujávri (FreecivLocationFn 36 9))
+
+(footprintOf FC-City-Lujávri CityFootprint-FC-City-Lujávri)
+
+(isa CityFootprint-FC-City-Lujávri CityFootprint)
+
+(isa FC-City-Lujávri FreeCiv-City)
+
+(isa STEntity-207 DefensiveEpisodeFailure)
+
+(isa STEntity-207 SpatiotemporalEvent)
+
+(isa UnitGroupFootprint-1332739 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-5665 BoundedTemporalEntity-5368)
+
+(startsAfterStartingOf BoundedTemporalEntity-5665 BoundedTemporalEntity-5369)
+
+(startsAtSameTime BoundedTemporalEntity-5641 BoundedTemporalEntity-5639)
+
+(zeroIn BoundedTemporalEntity-5369 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lujávri))

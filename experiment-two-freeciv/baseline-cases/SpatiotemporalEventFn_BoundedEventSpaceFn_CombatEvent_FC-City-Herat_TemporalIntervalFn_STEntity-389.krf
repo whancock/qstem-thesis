@@ -1,0 +1,106 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Herat) (TemporalIntervalFn STEntity-389)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Herat) (TemporalIntervalFn STEntity-389)))
+((Area (AtFn (EndFn STEntity-389) STEntity-389)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-389) STEntity-389)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-389) STEntity-389)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-389) STEntity-389)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-389) STEntity-389)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-389) STEntity-389)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-389) STEntity-389)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-389) STEntity-389)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-389) STEntity-389)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-389) STEntity-389)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-8646 BoundedTemporalEntity-8599)
+
+(aia-MI BoundedTemporalEntity-8649 BoundedTemporalEntity-8646)
+
+(aia-MI BoundedTemporalEntity-8698 BoundedTemporalEntity-8649)
+
+(aia-MI BoundedTemporalEntity-8702 BoundedTemporalEntity-8698)
+
+(aia-MI BoundedTemporalEntity-8813 BoundedTemporalEntity-8702)
+
+(aia-MI BoundedTemporalEntity-8933 BoundedTemporalEntity-8863)
+
+(aia-MI BoundedTemporalEntity-8944 BoundedTemporalEntity-8922)
+
+(aia-MI BoundedTemporalEntity-8945 BoundedTemporalEntity-8933)
+
+(aia-MI BoundedTemporalEntity-8968 BoundedTemporalEntity-8945)
+
+(aia-MI BoundedTemporalEntity-8974 BoundedTemporalEntity-8968)
+
+(cityOwner FC-City-Herat FC-Player-DaoudKhan)
+
+(constantIn BoundedTemporalEntity-8600 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Herat))
+
+(constantIn BoundedTemporalEntity-8813 ((MeasurableQuantityFn citySize) FC-City-Herat))
+
+(constantIn BoundedTemporalEntity-8859 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8048675))
+
+(constantIn BoundedTemporalEntity-8914 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8265751))
+
+(constantIn BoundedTemporalEntity-8936 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8329960))
+
+(constantIn BoundedTemporalEntity-8940 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8329960))
+
+(constantIn BoundedTemporalEntity-8980 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8432578))
+
+(constantIn BoundedTemporalEntity-8984 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8432578))
+
+(currentActivity Unit-300 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Herat (FreecivLocationFn 34 10))
+
+(fcObjectAt Unit-300 (FreecivLocationFn 34 10))
+
+(footprintOf FC-City-Herat CityFootprint-FC-City-Herat)
+
+(isa CityFootprint-FC-City-Herat CityFootprint)
+
+(isa FC-City-Herat FreeCiv-City)
+
+(isa STEntity-389 DefensiveEpisodeFailure)
+
+(isa STEntity-389 SpatiotemporalEvent)
+
+(isa Unit-300 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-8048675 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8265751 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8329960 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8432578 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-8944 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8265751))
+
+(nonincreasingIn BoundedTemporalEntity-8974 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8048675))
+
+(startsAfterStartingOf BoundedTemporalEntity-8813 BoundedTemporalEntity-8600)
+
+(startsAfterStartingOf BoundedTemporalEntity-8813 BoundedTemporalEntity-8601)
+
+(startsAfterStartingOf BoundedTemporalEntity-8944 BoundedTemporalEntity-8914)
+
+(startsAfterStartingOf BoundedTemporalEntity-8974 BoundedTemporalEntity-8859)
+
+(startsAtSameTime BoundedTemporalEntity-8940 BoundedTemporalEntity-8936)
+
+(startsAtSameTime BoundedTemporalEntity-8984 BoundedTemporalEntity-8980)
+
+(unitOwner Unit-300 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-8601 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Herat))

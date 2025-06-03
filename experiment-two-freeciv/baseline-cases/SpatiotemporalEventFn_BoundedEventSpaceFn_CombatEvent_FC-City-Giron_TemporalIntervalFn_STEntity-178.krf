@@ -1,0 +1,70 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Giron) (TemporalIntervalFn STEntity-178)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Giron) (TemporalIntervalFn STEntity-178)))
+((Area (AtFn (EndFn STEntity-178) STEntity-178)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-178) STEntity-178)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-178) STEntity-178)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-178) STEntity-178)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-178) STEntity-178)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-178) STEntity-178)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-178) STEntity-178)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-178) STEntity-178)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-178) STEntity-178)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-178) STEntity-178)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5413 BoundedTemporalEntity-5378)
+
+(aia-MI BoundedTemporalEntity-5430 BoundedTemporalEntity-5413)
+
+(aia-MI BoundedTemporalEntity-5473 BoundedTemporalEntity-5439)
+
+(aia-MI BoundedTemporalEntity-5478 BoundedTemporalEntity-5473)
+
+(cityOwner FC-City-Giron FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5379 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Giron))
+
+(constantIn BoundedTemporalEntity-5437 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-928330))
+
+(currentActivity Unit-171 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Giron (FreecivLocationFn 32 6))
+
+(fcObjectAt Unit-171 (FreecivLocationFn 32 6))
+
+(footprintOf FC-City-Giron CityFootprint-FC-City-Giron)
+
+(isa CityFootprint-FC-City-Giron CityFootprint)
+
+(isa FC-City-Giron FreeCiv-City)
+
+(isa STEntity-178 DefensiveEpisodeFailure)
+
+(isa STEntity-178 SpatiotemporalEvent)
+
+(isa Unit-171 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-928330 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-5430 ((MeasurableQuantityFn citySize) FC-City-Giron))
+
+(nonincreasingIn BoundedTemporalEntity-5478 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-928330))
+
+(startsAfterStartingOf BoundedTemporalEntity-5430 BoundedTemporalEntity-5379)
+
+(startsAfterStartingOf BoundedTemporalEntity-5430 BoundedTemporalEntity-5380)
+
+(startsAfterStartingOf BoundedTemporalEntity-5478 BoundedTemporalEntity-5437)
+
+(unitOwner Unit-171 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5380 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Giron))

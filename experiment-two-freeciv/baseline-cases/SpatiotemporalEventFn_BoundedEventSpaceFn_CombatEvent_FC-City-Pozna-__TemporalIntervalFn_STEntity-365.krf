@@ -1,0 +1,42 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pozna≈?) (TemporalIntervalFn STEntity-365)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pozna≈?) (TemporalIntervalFn STEntity-365)))
+((Area (AtFn (EndFn STEntity-365) STEntity-365)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-365) STEntity-365)) (FreecivTileArea 1))
+
+((Defenders (AtFn (EndFn STEntity-365) STEntity-365)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-365) STEntity-365)) (FreecivUnitCountFn 1))
+
+(cityOwner FC-City-Pozna≈? FC-Player-Algmins)
+
+(constantIn BoundedTemporalEntity-7688 ((MeasurableQuantityFn citySize) FC-City-Pozna≈?))
+
+(constantIn BoundedTemporalEntity-7689 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pozna≈?))
+
+(constantIn BoundedTemporalEntity-7779 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5551010))
+
+(constantIn BoundedTemporalEntity-7780 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5551010))
+
+(fcObjectAt FC-City-Pozna≈? (FreecivLocationFn 13 18))
+
+(footprintOf FC-City-Pozna≈? CityFootprint-FC-City-Pozna≈?)
+
+(isa CityFootprint-FC-City-Pozna≈? CityFootprint)
+
+(isa FC-City-Pozna≈? FreeCiv-City)
+
+(isa STEntity-365 DefensiveEpisodeFailure)
+
+(isa STEntity-365 SpatiotemporalEvent)
+
+(isa UnitGroupFootprint-5551010 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-7688 BoundedTemporalEntity-7689)
+
+(startsAtSameTime BoundedTemporalEntity-7688 BoundedTemporalEntity-7690)
+
+(startsAtSameTime BoundedTemporalEntity-7780 BoundedTemporalEntity-7779)
+
+(zeroIn BoundedTemporalEntity-7690 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pozna≈?))

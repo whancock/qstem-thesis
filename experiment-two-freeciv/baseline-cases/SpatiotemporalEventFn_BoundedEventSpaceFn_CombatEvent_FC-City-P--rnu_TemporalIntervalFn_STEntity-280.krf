@@ -1,0 +1,108 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pärnu) (TemporalIntervalFn STEntity-280)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Pärnu) (TemporalIntervalFn STEntity-280)))
+((Area (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-280) STEntity-280)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-280) STEntity-280)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6408 BoundedTemporalEntity-6375)
+
+(aia-MI BoundedTemporalEntity-6441 BoundedTemporalEntity-6408)
+
+(aia-MI BoundedTemporalEntity-6445 BoundedTemporalEntity-6441)
+
+(aia-MI BoundedTemporalEntity-6509 BoundedTemporalEntity-6445)
+
+(cityOwner FC-City-Pärnu FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6376 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pärnu))
+
+(constantIn BoundedTemporalEntity-6535 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2667653))
+
+(constantIn BoundedTemporalEntity-6536 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2667677))
+
+(constantIn BoundedTemporalEntity-6537 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2667653))
+
+(constantIn BoundedTemporalEntity-6538 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2667677))
+
+(constantIn BoundedTemporalEntity-6550 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2752972))
+
+(constantIn BoundedTemporalEntity-6551 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2752972))
+
+(constantIn BoundedTemporalEntity-6554 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2791691))
+
+(constantIn BoundedTemporalEntity-6556 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2791691))
+
+(constantIn BoundedTemporalEntity-6559 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2826088))
+
+(constantIn BoundedTemporalEntity-6560 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2826088))
+
+(currentActivity Unit-271 FC-ActivityIdle)
+
+(currentActivity Unit-282 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Pärnu (FreecivLocationFn 44 17))
+
+(fcObjectAt Unit-271 (FreecivLocationFn 44 17))
+
+(footprintOf FC-City-Pärnu CityFootprint-FC-City-Pärnu)
+
+(isa CityFootprint-FC-City-Pärnu CityFootprint)
+
+(isa FC-City-Pärnu FreeCiv-City)
+
+(isa STEntity-280 DefensiveEpisodeFailure)
+
+(isa STEntity-280 SpatiotemporalEvent)
+
+(isa Unit-271 FC-Unit-Chariot)
+
+(isa Unit-282 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-2667653 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2667677 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2752972 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2791691 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2826088 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-6509 ((MeasurableQuantityFn citySize) FC-City-Pärnu))
+
+(startsAfterStartingOf BoundedTemporalEntity-6509 BoundedTemporalEntity-6376)
+
+(startsAfterStartingOf BoundedTemporalEntity-6509 BoundedTemporalEntity-6377)
+
+(startsAtSameTime BoundedTemporalEntity-6537 BoundedTemporalEntity-6535)
+
+(startsAtSameTime BoundedTemporalEntity-6538 BoundedTemporalEntity-6536)
+
+(startsAtSameTime BoundedTemporalEntity-6551 BoundedTemporalEntity-6550)
+
+(startsAtSameTime BoundedTemporalEntity-6556 BoundedTemporalEntity-6554)
+
+(startsAtSameTime BoundedTemporalEntity-6560 BoundedTemporalEntity-6559)
+
+(unitOwner Unit-271 FC-Player-ElizabethNicholls)
+
+(unitOwner Unit-282 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6377 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Pärnu))

@@ -1,0 +1,110 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mahaut) (TemporalIntervalFn STEntity-337)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mahaut) (TemporalIntervalFn STEntity-337)))
+((Area (AtFn (EndFn STEntity-337) STEntity-337)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-337) STEntity-337)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 6))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-337) STEntity-337)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Mahaut)
+
+((citySize (AtFn (EndFn STEntity-337) STEntity-337)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-337) STEntity-337)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7230 BoundedTemporalEntity-7192)
+
+(aia-MI BoundedTemporalEntity-7283 BoundedTemporalEntity-7230)
+
+(aia-MI BoundedTemporalEntity-7290 BoundedTemporalEntity-7283)
+
+(aia-MI BoundedTemporalEntity-7401 BoundedTemporalEntity-7290)
+
+(aia-MI BoundedTemporalEntity-7402 BoundedTemporalEntity-7401)
+
+(cityOwner FC-City-Mahaut FC-Player-Mansur)
+
+(constantIn BoundedTemporalEntity-7193 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mahaut))
+
+(constantIn BoundedTemporalEntity-7349 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4420883))
+
+(constantIn BoundedTemporalEntity-7358 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4420883))
+
+(constantIn BoundedTemporalEntity-7372 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4439017))
+
+(constantIn BoundedTemporalEntity-7373 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4439017))
+
+(constantIn BoundedTemporalEntity-7375 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4452397))
+
+(constantIn BoundedTemporalEntity-7376 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4452409))
+
+(constantIn BoundedTemporalEntity-7378 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4452397))
+
+(constantIn BoundedTemporalEntity-7379 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4452409))
+
+(constantIn BoundedTemporalEntity-7399 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4487666))
+
+(constantIn BoundedTemporalEntity-7400 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4487666))
+
+(constantIn BoundedTemporalEntity-7402 ((MeasurableQuantityFn citySize) FC-City-Mahaut))
+
+(currentActivity Unit-200 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Mahaut (FreecivLocationFn 12 28))
+
+(fcObjectAt Unit-200 (FreecivLocationFn 12 28))
+
+(footprintOf FC-City-Mahaut CityFootprint-FC-City-Mahaut)
+
+(isa CityFootprint-FC-City-Mahaut CityFootprint)
+
+(isa FC-City-Mahaut FreeCiv-City)
+
+(isa STEntity-337 DefensiveEpisodeFailure)
+
+(isa STEntity-337 SpatiotemporalEvent)
+
+(isa Unit-200 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-4420883 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4439017 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4452397 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4452409 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4487666 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-7402 BoundedTemporalEntity-7193)
+
+(startsAfterStartingOf BoundedTemporalEntity-7402 BoundedTemporalEntity-7194)
+
+(startsAtSameTime BoundedTemporalEntity-7358 BoundedTemporalEntity-7349)
+
+(startsAtSameTime BoundedTemporalEntity-7373 BoundedTemporalEntity-7372)
+
+(startsAtSameTime BoundedTemporalEntity-7378 BoundedTemporalEntity-7375)
+
+(startsAtSameTime BoundedTemporalEntity-7379 BoundedTemporalEntity-7376)
+
+(startsAtSameTime BoundedTemporalEntity-7400 BoundedTemporalEntity-7399)
+
+(unitOwner Unit-200 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7194 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mahaut))

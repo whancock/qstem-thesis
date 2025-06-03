@@ -1,0 +1,82 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Berekua) (TemporalIntervalFn STEntity-325)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Berekua) (TemporalIntervalFn STEntity-325)))
+((Area (AtFn (EndFn STEntity-325) STEntity-325)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-325) STEntity-325)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-325) STEntity-325)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-325) STEntity-325)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-325) STEntity-325)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-325) STEntity-325)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-325) STEntity-325)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-325) STEntity-325)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-325) STEntity-325)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-325) STEntity-325)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7150 BoundedTemporalEntity-7139)
+
+(aia-MI BoundedTemporalEntity-7181 BoundedTemporalEntity-7150)
+
+(aia-MI BoundedTemporalEntity-7216 BoundedTemporalEntity-7181)
+
+(aia-MI BoundedTemporalEntity-7224 BoundedTemporalEntity-7216)
+
+(aia-MI BoundedTemporalEntity-7255 BoundedTemporalEntity-7232)
+
+(aia-MI BoundedTemporalEntity-7259 BoundedTemporalEntity-7255)
+
+(cityOwner FC-City-Berekua FC-Player-Mansur)
+
+(constantIn BoundedTemporalEntity-7140 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Berekua))
+
+(constantIn BoundedTemporalEntity-7231 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4160637))
+
+(constantIn BoundedTemporalEntity-7262 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4226426))
+
+(constantIn BoundedTemporalEntity-7265 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4226426))
+
+(currentActivity Unit-190 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Berekua (FreecivLocationFn 4 26))
+
+(fcObjectAt Unit-190 (FreecivLocationFn 4 26))
+
+(footprintOf FC-City-Berekua CityFootprint-FC-City-Berekua)
+
+(isa CityFootprint-FC-City-Berekua CityFootprint)
+
+(isa FC-City-Berekua FreeCiv-City)
+
+(isa STEntity-325 DefensiveEpisodeFailure)
+
+(isa STEntity-325 SpatiotemporalEvent)
+
+(isa Unit-190 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-4160637 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4226426 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-7224 ((MeasurableQuantityFn citySize) FC-City-Berekua))
+
+(nonincreasingIn BoundedTemporalEntity-7259 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4160637))
+
+(startsAfterStartingOf BoundedTemporalEntity-7224 BoundedTemporalEntity-7140)
+
+(startsAfterStartingOf BoundedTemporalEntity-7224 BoundedTemporalEntity-7141)
+
+(startsAfterStartingOf BoundedTemporalEntity-7259 BoundedTemporalEntity-7231)
+
+(startsAtSameTime BoundedTemporalEntity-7265 BoundedTemporalEntity-7262)
+
+(unitOwner Unit-190 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7141 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Berekua))

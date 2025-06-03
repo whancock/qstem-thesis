@@ -1,0 +1,110 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chiclayo) (TemporalIntervalFn STEntity-432)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chiclayo) (TemporalIntervalFn STEntity-432)))
+((Area (AtFn (EndFn STEntity-432) STEntity-432)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-432) STEntity-432)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-432) STEntity-432)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-432) STEntity-432)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-432) STEntity-432)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-432) STEntity-432)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-432) STEntity-432)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-432) STEntity-432)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-432) STEntity-432)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Chiclayo)
+
+((citySize (AtFn (EndFn STEntity-432) STEntity-432)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-432) STEntity-432)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-9460 BoundedTemporalEntity-9422)
+
+(aia-MI BoundedTemporalEntity-9461 BoundedTemporalEntity-9460)
+
+(aia-MI BoundedTemporalEntity-9499 BoundedTemporalEntity-9461)
+
+(aia-MI BoundedTemporalEntity-9501 BoundedTemporalEntity-9499)
+
+(aia-MI BoundedTemporalEntity-9581 BoundedTemporalEntity-9501)
+
+(aia-MI BoundedTemporalEntity-9623 BoundedTemporalEntity-9611)
+
+(cityOwner FC-City-Chiclayo FC-Player-ManuelA.Odría)
+
+(constantIn BoundedTemporalEntity-9424 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chiclayo))
+
+(constantIn BoundedTemporalEntity-9581 ((MeasurableQuantityFn citySize) FC-City-Chiclayo))
+
+(constantIn BoundedTemporalEntity-9606 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10092297))
+
+(constantIn BoundedTemporalEntity-9607 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10092325))
+
+(constantIn BoundedTemporalEntity-9612 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10092325))
+
+(constantIn BoundedTemporalEntity-9626 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10380170))
+
+(constantIn BoundedTemporalEntity-9627 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10380170))
+
+(currentActivity Unit-222 FC-ActivityIdle)
+
+(currentActivity Unit-223 FC-ActivityIdle)
+
+(currentActivity Unit-231 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Chiclayo (FreecivLocationFn 15 15))
+
+(fcObjectAt Unit-223 (FreecivLocationFn 15 15))
+
+(footprintOf FC-City-Chiclayo CityFootprint-FC-City-Chiclayo)
+
+(isa CityFootprint-FC-City-Chiclayo CityFootprint)
+
+(isa FC-City-Chiclayo FreeCiv-City)
+
+(isa STEntity-432 DefensiveEpisodeFailure)
+
+(isa STEntity-432 SpatiotemporalEvent)
+
+(isa Unit-222 FC-Unit-Chariot)
+
+(isa Unit-223 FC-Unit-Chariot)
+
+(isa Unit-231 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-10092297 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10092325 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10092357 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10380170 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9876490 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9936217 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-9623 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10092297))
+
+(startsAfterStartingOf BoundedTemporalEntity-9581 BoundedTemporalEntity-9424)
+
+(startsAfterStartingOf BoundedTemporalEntity-9581 BoundedTemporalEntity-9425)
+
+(startsAfterStartingOf BoundedTemporalEntity-9623 BoundedTemporalEntity-9606)
+
+(startsAtSameTime BoundedTemporalEntity-9612 BoundedTemporalEntity-9607)
+
+(startsAtSameTime BoundedTemporalEntity-9627 BoundedTemporalEntity-9626)
+
+(unitOwner Unit-223 FC-Player-Sukarno)
+
+(unitOwner Unit-231 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-9425 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chiclayo))

@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mzizima) (TemporalIntervalFn STEntity-102)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mzizima) (TemporalIntervalFn STEntity-102)))
+((Area (AtFn (EndFn STEntity-102) STEntity-102)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-102) STEntity-102)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-102) STEntity-102)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-102) STEntity-102)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-102) STEntity-102)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-102) STEntity-102)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-102) STEntity-102)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-102) STEntity-102)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-102) STEntity-102)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-102) STEntity-102)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Mzizima FC-Player-MalandelaKaLuzumana)
+
+(constantIn BoundedTemporalEntity-3650 ((MeasurableQuantityFn citySize) FC-City-Mzizima))
+
+(constantIn BoundedTemporalEntity-3651 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mzizima))
+
+(constantIn BoundedTemporalEntity-3724 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-269753))
+
+(constantIn BoundedTemporalEntity-3726 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-269753))
+
+(constantIn BoundedTemporalEntity-3734 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-279393))
+
+(constantIn BoundedTemporalEntity-3736 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-279393))
+
+(constantIn BoundedTemporalEntity-3740 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-279829))
+
+(constantIn BoundedTemporalEntity-3744 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-279829))
+
+(currentActivity Unit-204 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Mzizima (FreecivLocationFn 38 11))
+
+(fcObjectAt Unit-204 (FreecivLocationFn 38 11))
+
+(footprintOf FC-City-Mzizima CityFootprint-FC-City-Mzizima)
+
+(isa CityFootprint-FC-City-Mzizima CityFootprint)
+
+(isa FC-City-Mzizima FreeCiv-City)
+
+(isa STEntity-102 DefensiveEpisodeFailure)
+
+(isa STEntity-102 SpatiotemporalEvent)
+
+(isa Unit-204 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-269753 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-279393 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-279829 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-3650 BoundedTemporalEntity-3651)
+
+(startsAtSameTime BoundedTemporalEntity-3650 BoundedTemporalEntity-3652)
+
+(startsAtSameTime BoundedTemporalEntity-3726 BoundedTemporalEntity-3724)
+
+(startsAtSameTime BoundedTemporalEntity-3736 BoundedTemporalEntity-3734)
+
+(startsAtSameTime BoundedTemporalEntity-3744 BoundedTemporalEntity-3740)
+
+(unitOwner Unit-204 FC-Player-StefanMilutin)
+
+(zeroIn BoundedTemporalEntity-3652 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mzizima))

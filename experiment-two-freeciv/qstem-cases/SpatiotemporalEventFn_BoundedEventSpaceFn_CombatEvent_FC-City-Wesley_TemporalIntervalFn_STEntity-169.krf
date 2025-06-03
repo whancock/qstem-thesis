@@ -1,0 +1,240 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wesley) (TemporalIntervalFn STEntity-169)), dumped 5/23/2025 14:11:16 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wesley) (TemporalIntervalFn STEntity-169)))
+((Area (AtFn (EndFn STEntity-169) STEntity-169)) (FreecivTileArea 27))
+
+((Area (AtFn (EndFn STEntity-169) STEntity-169)) (FreecivTileArea 43))
+
+((Area (AtFn (StartFn STEntity-169) STEntity-169)) (FreecivTileArea 33))
+
+((Area (AtFn (StartFn STEntity-169) STEntity-169)) (FreecivTileArea 59))
+
+((Defenders (AtFn (EndFn STEntity-169) STEntity-169)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-169) STEntity-169)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-169) STEntity-169)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-169) STEntity-169)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-169) STEntity-169)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-169) STEntity-169)) (FreecivUnitCountFn 6))
+
+((citySize (AtFn (EndFn STEntity-169) STEntity-169)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-169) STEntity-169)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-8212 BoundedTemporalEntity-8215)
+
+(aia-DI BoundedTemporalEntity-8212 BoundedTemporalEntity-8216)
+
+(aia-MI BoundedTemporalEntity-8123 BoundedTemporalEntity-8118)
+
+(aia-MI BoundedTemporalEntity-8132 BoundedTemporalEntity-8119)
+
+(aia-MI BoundedTemporalEntity-8138 BoundedTemporalEntity-8123)
+
+(aia-MI BoundedTemporalEntity-8139 BoundedTemporalEntity-8132)
+
+(aia-MI BoundedTemporalEntity-8140 BoundedTemporalEntity-8074)
+
+(aia-MI BoundedTemporalEntity-8143 BoundedTemporalEntity-8138)
+
+(aia-MI BoundedTemporalEntity-8148 BoundedTemporalEntity-8143)
+
+(aia-MI BoundedTemporalEntity-8152 BoundedTemporalEntity-8148)
+
+(aia-MI BoundedTemporalEntity-8153 BoundedTemporalEntity-8139)
+
+(aia-MI BoundedTemporalEntity-8154 BoundedTemporalEntity-8152)
+
+(aia-MI BoundedTemporalEntity-8155 BoundedTemporalEntity-8153)
+
+(aia-MI BoundedTemporalEntity-8157 BoundedTemporalEntity-8154)
+
+(aia-MI BoundedTemporalEntity-8158 BoundedTemporalEntity-8155)
+
+(aia-MI BoundedTemporalEntity-8160 BoundedTemporalEntity-8157)
+
+(aia-MI BoundedTemporalEntity-8161 BoundedTemporalEntity-8158)
+
+(aia-MI BoundedTemporalEntity-8162 BoundedTemporalEntity-8160)
+
+(aia-MI BoundedTemporalEntity-8174 BoundedTemporalEntity-8134)
+
+(aia-MI BoundedTemporalEntity-8175 BoundedTemporalEntity-8135)
+
+(aia-MI BoundedTemporalEntity-8176 BoundedTemporalEntity-8162)
+
+(aia-MI BoundedTemporalEntity-8177 BoundedTemporalEntity-8075)
+
+(aia-MI BoundedTemporalEntity-8178 BoundedTemporalEntity-8076)
+
+(aia-MI BoundedTemporalEntity-8185 BoundedTemporalEntity-8176)
+
+(aia-MI BoundedTemporalEntity-8196 BoundedTemporalEntity-8185)
+
+(aia-MI BoundedTemporalEntity-8205 BoundedTemporalEntity-8196)
+
+(aia-MI BoundedTemporalEntity-8206 BoundedTemporalEntity-8161)
+
+(aia-MI BoundedTemporalEntity-8210 BoundedTemporalEntity-8205)
+
+(aia-MI BoundedTemporalEntity-8211 BoundedTemporalEntity-8205)
+
+(aia-MI BoundedTemporalEntity-8211 BoundedTemporalEntity-8206)
+
+(aia-MI BoundedTemporalEntity-8212 BoundedTemporalEntity-8140)
+
+(aia-MI BoundedTemporalEntity-8213 BoundedTemporalEntity-8174)
+
+(aia-MI BoundedTemporalEntity-8214 BoundedTemporalEntity-8174)
+
+(aia-MI BoundedTemporalEntity-8214 BoundedTemporalEntity-8175)
+
+(aia-MI BoundedTemporalEntity-8215 BoundedTemporalEntity-8177)
+
+(aia-MI BoundedTemporalEntity-8216 BoundedTemporalEntity-8178)
+
+(aia-MI BoundedTemporalEntity-8217 BoundedTemporalEntity-8215)
+
+(aia-MI BoundedTemporalEntity-8218 BoundedTemporalEntity-8216)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8118)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8123)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8138)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8143)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8148)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8152)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8154)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8157)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8160)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8162)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8176)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8185)
+
+(aia-OI BoundedTemporalEntity-8211 BoundedTemporalEntity-8196)
+
+(aia-OI BoundedTemporalEntity-8212 BoundedTemporalEntity-8075)
+
+(aia-OI BoundedTemporalEntity-8212 BoundedTemporalEntity-8076)
+
+(aia-OI BoundedTemporalEntity-8212 BoundedTemporalEntity-8177)
+
+(aia-OI BoundedTemporalEntity-8212 BoundedTemporalEntity-8178)
+
+(aia-OI BoundedTemporalEntity-8214 BoundedTemporalEntity-8134)
+
+(cityOwner FC-City-Wesley FC-Player-PierreCharles)
+
+(constantIn BoundedTemporalEntity-8075 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(constantIn BoundedTemporalEntity-8118 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(constantIn BoundedTemporalEntity-8134 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134450))
+
+(currentActivity Unit-222 FC-ActivityIdle)
+
+(currentActivity Unit-228 FC-ActivityFortifying)
+
+(defenseBonus FC-City-Wesley 0)
+
+(fcObjectAt FC-City-Wesley (FreecivLocationFn 12 31))
+
+(fcObjectAt Unit-222 (FreecivLocationFn 12 31))
+
+(footprintOf FC-City-Wesley CityFootprint-FC-City-Wesley)
+
+(isa CityFootprint-FC-City-Wesley CityFootprint)
+
+(isa FC-City-Wesley FreeCiv-City)
+
+(isa STEntity-169 DefensiveEpisodeFailure)
+
+(isa STEntity-169 SpatiotemporalEvent)
+
+(isa Unit-222 FC-Unit-Chariot)
+
+(isa Unit-228 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-134338 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-134450 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-8123 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nondecreasingIn BoundedTemporalEntity-8143 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nondecreasingIn BoundedTemporalEntity-8152 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nondecreasingIn BoundedTemporalEntity-8157 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nondecreasingIn BoundedTemporalEntity-8162 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nondecreasingIn BoundedTemporalEntity-8174 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134450))
+
+(nondecreasingIn BoundedTemporalEntity-8177 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(nondecreasingIn BoundedTemporalEntity-8185 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nondecreasingIn BoundedTemporalEntity-8205 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8138 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8148 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8154 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8160 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8176 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8196 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8210 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8211 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-134338))
+
+(nonincreasingIn BoundedTemporalEntity-8212 ((MeasurableQuantityFn citySize) FC-City-Wesley))
+
+(nonincreasingIn BoundedTemporalEntity-8213 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-134450))
+
+(nonincreasingIn BoundedTemporalEntity-8214 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-134450))
+
+(nonincreasingIn BoundedTemporalEntity-8215 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(nonincreasingIn BoundedTemporalEntity-8217 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(someIn BoundedTemporalEntity-8178 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(startsAtSameTime BoundedTemporalEntity-8211 BoundedTemporalEntity-8210)
+
+(startsAtSameTime BoundedTemporalEntity-8214 BoundedTemporalEntity-8213)
+
+(startsBeforeStartingOf BoundedTemporalEntity-8212 BoundedTemporalEntity-8217)
+
+(startsBeforeStartingOf BoundedTemporalEntity-8212 BoundedTemporalEntity-8218)
+
+(terrainAt (FreecivLocationFn 12 31) FC-Terrain-Plains)
+
+(unitOwner Unit-222 FC-Player-Mansur)
+
+(unitOwner Unit-228 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-8076 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(zeroIn BoundedTemporalEntity-8216 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(zeroIn BoundedTemporalEntity-8218 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))

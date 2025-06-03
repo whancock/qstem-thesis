@@ -1,0 +1,36 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tianjin) (TemporalIntervalFn STEntity-241)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tianjin) (TemporalIntervalFn STEntity-241)))
+(aia-MI BoundedTemporalEntity-6064 BoundedTemporalEntity-6038)
+
+(aia-MI BoundedTemporalEntity-6093 BoundedTemporalEntity-6064)
+
+(aia-MI BoundedTemporalEntity-6098 BoundedTemporalEntity-6093)
+
+(aia-MI BoundedTemporalEntity-6197 BoundedTemporalEntity-6098)
+
+(aia-MI BoundedTemporalEntity-6222 BoundedTemporalEntity-6197)
+
+(cityOwner FC-City-Tianjin FC-Player-Bảo�?ại)
+
+(constantIn BoundedTemporalEntity-6039 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tianjin))
+
+(fcObjectAt FC-City-Tianjin (FreecivLocationFn 28 32))
+
+(footprintOf FC-City-Tianjin CityFootprint-FC-City-Tianjin)
+
+(isa CityFootprint-FC-City-Tianjin CityFootprint)
+
+(isa FC-City-Tianjin FreeCiv-City)
+
+(isa STEntity-241 DefensiveEpisodeFailure)
+
+(isa STEntity-241 SpatiotemporalEvent)
+
+(nondecreasingIn BoundedTemporalEntity-6222 ((MeasurableQuantityFn citySize) FC-City-Tianjin))
+
+(startsAfterStartingOf BoundedTemporalEntity-6222 BoundedTemporalEntity-6039)
+
+(startsAfterStartingOf BoundedTemporalEntity-6222 BoundedTemporalEntity-6040)
+
+(zeroIn BoundedTemporalEntity-6040 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tianjin))

@@ -1,0 +1,96 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mopti) (TemporalIntervalFn STEntity-89)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mopti) (TemporalIntervalFn STEntity-89)))
+((Area (AtFn (EndFn STEntity-89) STEntity-89)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-89) STEntity-89)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-89) STEntity-89)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-89) STEntity-89)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-89) STEntity-89)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3208 BoundedTemporalEntity-3159)
+
+(aia-MI BoundedTemporalEntity-3209 BoundedTemporalEntity-3208)
+
+(aia-MI BoundedTemporalEntity-3249 BoundedTemporalEntity-3244)
+
+(cityOwner FC-City-Mopti FC-Player-Sakura)
+
+(constantIn BoundedTemporalEntity-3160 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))
+
+(constantIn BoundedTemporalEntity-3237 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-201862))
+
+(constantIn BoundedTemporalEntity-3251 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205588))
+
+(constantIn BoundedTemporalEntity-3252 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-205588))
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(currentActivity Unit-197 FC-ActivityFortifying)
+
+(currentActivity Unit-198 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Mopti (FreecivLocationFn 51 26))
+
+(fcObjectAt Unit-194 (FreecivLocationFn 51 26))
+
+(footprintOf FC-City-Mopti CityFootprint-FC-City-Mopti)
+
+(isa CityFootprint-FC-City-Mopti CityFootprint)
+
+(isa FC-City-Mopti FreeCiv-City)
+
+(isa STEntity-89 DefensiveEpisodeFailure)
+
+(isa STEntity-89 SpatiotemporalEvent)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa Unit-197 FC-Unit-Chariot)
+
+(isa Unit-198 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-201862 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-202419 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-205588 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-3209 ((MeasurableQuantityFn citySize) FC-City-Mopti))
+
+(nonincreasingIn BoundedTemporalEntity-3212 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Mopti))
+
+(nonincreasingIn BoundedTemporalEntity-3249 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-201862))
+
+(startsAfterStartingOf BoundedTemporalEntity-3209 BoundedTemporalEntity-3160)
+
+(startsAfterStartingOf BoundedTemporalEntity-3209 BoundedTemporalEntity-3161)
+
+(startsAfterStartingOf BoundedTemporalEntity-3249 BoundedTemporalEntity-3237)
+
+(startsAtSameTime BoundedTemporalEntity-3252 BoundedTemporalEntity-3251)
+
+(startsBeforeStartingOf BoundedTemporalEntity-3209 BoundedTemporalEntity-3212)
+
+(unitOwner Unit-194 FC-Player-VasileLupu)
+
+(unitOwner Unit-197 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3161 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))

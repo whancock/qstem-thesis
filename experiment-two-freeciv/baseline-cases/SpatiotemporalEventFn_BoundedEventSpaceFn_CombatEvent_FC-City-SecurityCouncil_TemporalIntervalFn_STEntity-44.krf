@@ -1,0 +1,382 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SecurityCouncil) (TemporalIntervalFn STEntity-44)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SecurityCouncil) (TemporalIntervalFn STEntity-44)))
+((Area (AtFn (EndFn STEntity-44) STEntity-44)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-44) STEntity-44)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-44) STEntity-44)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-SecurityCouncil)
+
+((citySize (AtFn (EndFn STEntity-44) STEntity-44)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-44) STEntity-44)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-810 BoundedTemporalEntity-890)
+
+(aia-DI BoundedTemporalEntity-810 BoundedTemporalEntity-972)
+
+(aia-MI BoundedTemporalEntity-100 BoundedTemporalEntity-7)
+
+(aia-MI BoundedTemporalEntity-114 BoundedTemporalEntity-44)
+
+(aia-MI BoundedTemporalEntity-115 BoundedTemporalEntity-114)
+
+(aia-MI BoundedTemporalEntity-116 BoundedTemporalEntity-99)
+
+(aia-MI BoundedTemporalEntity-117 BoundedTemporalEntity-100)
+
+(aia-MI BoundedTemporalEntity-135 BoundedTemporalEntity-116)
+
+(aia-MI BoundedTemporalEntity-136 BoundedTemporalEntity-117)
+
+(aia-MI BoundedTemporalEntity-179 BoundedTemporalEntity-135)
+
+(aia-MI BoundedTemporalEntity-180 BoundedTemporalEntity-136)
+
+(aia-MI BoundedTemporalEntity-227 BoundedTemporalEntity-115)
+
+(aia-MI BoundedTemporalEntity-285 BoundedTemporalEntity-180)
+
+(aia-MI BoundedTemporalEntity-313 BoundedTemporalEntity-179)
+
+(aia-MI BoundedTemporalEntity-314 BoundedTemporalEntity-285)
+
+(aia-MI BoundedTemporalEntity-325 BoundedTemporalEntity-313)
+
+(aia-MI BoundedTemporalEntity-326 BoundedTemporalEntity-314)
+
+(aia-MI BoundedTemporalEntity-344 BoundedTemporalEntity-325)
+
+(aia-MI BoundedTemporalEntity-345 BoundedTemporalEntity-326)
+
+(aia-MI BoundedTemporalEntity-382 BoundedTemporalEntity-345)
+
+(aia-MI BoundedTemporalEntity-392 BoundedTemporalEntity-382)
+
+(aia-MI BoundedTemporalEntity-394 BoundedTemporalEntity-227)
+
+(aia-MI BoundedTemporalEntity-395 BoundedTemporalEntity-392)
+
+(aia-MI BoundedTemporalEntity-399 BoundedTemporalEntity-394)
+
+(aia-MI BoundedTemporalEntity-42 BoundedTemporalEntity-2)
+
+(aia-MI BoundedTemporalEntity-421 BoundedTemporalEntity-344)
+
+(aia-MI BoundedTemporalEntity-44 BoundedTemporalEntity-42)
+
+(aia-MI BoundedTemporalEntity-481 BoundedTemporalEntity-399)
+
+(aia-MI BoundedTemporalEntity-520 BoundedTemporalEntity-421)
+
+(aia-MI BoundedTemporalEntity-521 BoundedTemporalEntity-395)
+
+(aia-MI BoundedTemporalEntity-542 BoundedTemporalEntity-520)
+
+(aia-MI BoundedTemporalEntity-543 BoundedTemporalEntity-521)
+
+(aia-MI BoundedTemporalEntity-558 BoundedTemporalEntity-542)
+
+(aia-MI BoundedTemporalEntity-559 BoundedTemporalEntity-543)
+
+(aia-MI BoundedTemporalEntity-568 BoundedTemporalEntity-558)
+
+(aia-MI BoundedTemporalEntity-569 BoundedTemporalEntity-559)
+
+(aia-MI BoundedTemporalEntity-597 BoundedTemporalEntity-481)
+
+(aia-MI BoundedTemporalEntity-617 BoundedTemporalEntity-597)
+
+(aia-MI BoundedTemporalEntity-623 BoundedTemporalEntity-568)
+
+(aia-MI BoundedTemporalEntity-624 BoundedTemporalEntity-569)
+
+(aia-MI BoundedTemporalEntity-629 BoundedTemporalEntity-623)
+
+(aia-MI BoundedTemporalEntity-630 BoundedTemporalEntity-624)
+
+(aia-MI BoundedTemporalEntity-639 BoundedTemporalEntity-629)
+
+(aia-MI BoundedTemporalEntity-640 BoundedTemporalEntity-630)
+
+(aia-MI BoundedTemporalEntity-671 BoundedTemporalEntity-639)
+
+(aia-MI BoundedTemporalEntity-672 BoundedTemporalEntity-640)
+
+(aia-MI BoundedTemporalEntity-675 BoundedTemporalEntity-617)
+
+(aia-MI BoundedTemporalEntity-751 BoundedTemporalEntity-672)
+
+(aia-MI BoundedTemporalEntity-792 BoundedTemporalEntity-675)
+
+(aia-MI BoundedTemporalEntity-810 BoundedTemporalEntity-792)
+
+(aia-MI BoundedTemporalEntity-889 BoundedTemporalEntity-671)
+
+(aia-MI BoundedTemporalEntity-890 BoundedTemporalEntity-751)
+
+(aia-MI BoundedTemporalEntity-969 BoundedTemporalEntity-944)
+
+(aia-MI BoundedTemporalEntity-972 BoundedTemporalEntity-890)
+
+(aia-MI BoundedTemporalEntity-983 BoundedTemporalEntity-967)
+
+(aia-MI BoundedTemporalEntity-984 BoundedTemporalEntity-945)
+
+(aia-MI BoundedTemporalEntity-987 BoundedTemporalEntity-972)
+
+(aia-MI BoundedTemporalEntity-99 BoundedTemporalEntity-8)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-100)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-116)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-117)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-135)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-136)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-179)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-180)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-285)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-313)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-314)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-325)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-326)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-344)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-345)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-382)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-392)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-395)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-421)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-520)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-521)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-542)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-543)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-558)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-559)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-568)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-569)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-623)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-624)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-629)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-630)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-639)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-640)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-671)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-672)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-7)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-751)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-8)
+
+(aia-OI BoundedTemporalEntity-810 BoundedTemporalEntity-99)
+
+(cityOwner FC-City-SecurityCouncil FC-Player-TrygveLie)
+
+(constantIn BoundedTemporalEntity-285 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(constantIn BoundedTemporalEntity-5 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SecurityCouncil))
+
+(constantIn BoundedTemporalEntity-7 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(constantIn BoundedTemporalEntity-751 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(constantIn BoundedTemporalEntity-883 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-60699))
+
+(constantIn BoundedTemporalEntity-886 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-60699))
+
+(constantIn BoundedTemporalEntity-935 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-62679))
+
+(constantIn BoundedTemporalEntity-936 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-62717))
+
+(constantIn BoundedTemporalEntity-962 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-64817))
+
+(currentActivity Unit-332 FC-ActivityFortifying)
+
+(currentActivity Unit-438 FC-ActivityIdle)
+
+(fcObjectAt FC-City-SecurityCouncil (FreecivLocationFn 8 21))
+
+(fcObjectAt Unit-438 (FreecivLocationFn 8 21))
+
+(footprintOf FC-City-SecurityCouncil CityFootprint-FC-City-SecurityCouncil)
+
+(isa CityFootprint-FC-City-SecurityCouncil CityFootprint)
+
+(isa FC-City-SecurityCouncil FreeCiv-City)
+
+(isa STEntity-44 DefensiveEpisodeFailure)
+
+(isa STEntity-44 SpatiotemporalEvent)
+
+(isa Unit-332 FC-Unit-Chariot)
+
+(isa Unit-438 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-59471 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-60699 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-62679 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-62717 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-62969 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-64817 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-100 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-136 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-314 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-345 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-392 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-521 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-559 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-624 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-640 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-890 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nondecreasingIn BoundedTemporalEntity-983 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-64817))
+
+(nondecreasingIn BoundedTemporalEntity-987 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-117 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-180 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-326 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-382 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-395 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-543 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-569 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-630 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-672 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-810 ((MeasurableQuantityFn citySize) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-969 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-62679))
+
+(nonincreasingIn BoundedTemporalEntity-972 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(nonincreasingIn BoundedTemporalEntity-984 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-62717))
+
+(someIn BoundedTemporalEntity-135 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-313 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-344 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-520 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-558 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-623 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-639 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-889 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(someIn BoundedTemporalEntity-99 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(startsAfterStartingOf BoundedTemporalEntity-810 BoundedTemporalEntity-4)
+
+(startsAfterStartingOf BoundedTemporalEntity-810 BoundedTemporalEntity-5)
+
+(startsAfterStartingOf BoundedTemporalEntity-969 BoundedTemporalEntity-935)
+
+(startsAfterStartingOf BoundedTemporalEntity-983 BoundedTemporalEntity-962)
+
+(startsAfterStartingOf BoundedTemporalEntity-984 BoundedTemporalEntity-936)
+
+(startsAtSameTime BoundedTemporalEntity-886 BoundedTemporalEntity-883)
+
+(startsBeforeStartingOf BoundedTemporalEntity-810 BoundedTemporalEntity-889)
+
+(startsBeforeStartingOf BoundedTemporalEntity-810 BoundedTemporalEntity-987)
+
+(unitOwner Unit-332 FC-Player-DarkDante)
+
+(unitOwner Unit-438 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-116 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-179 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-325 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-4 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-421 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-542 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-568 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-629 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-671 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))
+
+(zeroIn BoundedTemporalEntity-8 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SecurityCouncil))

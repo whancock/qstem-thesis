@@ -1,0 +1,74 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Jäggeluokta) (TemporalIntervalFn STEntity-201)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Jäggeluokta) (TemporalIntervalFn STEntity-201)))
+((Area (AtFn (EndFn STEntity-201) STEntity-201)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-201) STEntity-201)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-201) STEntity-201)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-201) STEntity-201)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-201) STEntity-201)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-201) STEntity-201)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-201) STEntity-201)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-201) STEntity-201)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-201) STEntity-201)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-201) STEntity-201)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5621 BoundedTemporalEntity-5572)
+
+(aia-MI BoundedTemporalEntity-5653 BoundedTemporalEntity-5621)
+
+(cityOwner FC-City-Jäggeluokta FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5573 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Jäggeluokta))
+
+(constantIn BoundedTemporalEntity-5584 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1264368))
+
+(constantIn BoundedTemporalEntity-5585 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1264368))
+
+(constantIn BoundedTemporalEntity-5640 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1332745))
+
+(constantIn BoundedTemporalEntity-5642 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1332745))
+
+(currentActivity Unit-245 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Jäggeluokta (FreecivLocationFn 30 14))
+
+(fcObjectAt Unit-245 (FreecivLocationFn 30 14))
+
+(footprintOf FC-City-Jäggeluokta CityFootprint-FC-City-Jäggeluokta)
+
+(isa CityFootprint-FC-City-Jäggeluokta CityFootprint)
+
+(isa FC-City-Jäggeluokta FreeCiv-City)
+
+(isa STEntity-201 DefensiveEpisodeFailure)
+
+(isa STEntity-201 SpatiotemporalEvent)
+
+(isa Unit-245 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1264368 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1332745 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-5653 ((MeasurableQuantityFn citySize) FC-City-Jäggeluokta))
+
+(startsAfterStartingOf BoundedTemporalEntity-5653 BoundedTemporalEntity-5573)
+
+(startsAfterStartingOf BoundedTemporalEntity-5653 BoundedTemporalEntity-5574)
+
+(startsAtSameTime BoundedTemporalEntity-5585 BoundedTemporalEntity-5584)
+
+(startsAtSameTime BoundedTemporalEntity-5642 BoundedTemporalEntity-5640)
+
+(unitOwner Unit-245 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5574 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Jäggeluokta))

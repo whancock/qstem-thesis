@@ -1,0 +1,88 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Oran) (TemporalIntervalFn STEntity-411)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Oran) (TemporalIntervalFn STEntity-411)))
+((Area (AtFn (EndFn STEntity-411) STEntity-411)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-411) STEntity-411)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-411) STEntity-411)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-411) STEntity-411)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-411) STEntity-411)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-411) STEntity-411)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-411) STEntity-411)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-411) STEntity-411)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Oran)
+
+((citySize (AtFn (EndFn STEntity-411) STEntity-411)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-411) STEntity-411)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-9271 BoundedTemporalEntity-9251)
+
+(aia-MI BoundedTemporalEntity-9286 BoundedTemporalEntity-9271)
+
+(aia-MI BoundedTemporalEntity-9301 BoundedTemporalEntity-9286)
+
+(aia-MI BoundedTemporalEntity-9359 BoundedTemporalEntity-9301)
+
+(cityOwner FC-City-Oran FC-Player-AoifeMacMurrough)
+
+(constantIn BoundedTemporalEntity-9252 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Oran))
+
+(constantIn BoundedTemporalEntity-9359 ((MeasurableQuantityFn citySize) FC-City-Oran))
+
+(constantIn BoundedTemporalEntity-9379 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9530347))
+
+(constantIn BoundedTemporalEntity-9381 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9530347))
+
+(constantIn BoundedTemporalEntity-9392 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9548502))
+
+(constantIn BoundedTemporalEntity-9393 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9548502))
+
+(constantIn BoundedTemporalEntity-9394 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9549820))
+
+(constantIn BoundedTemporalEntity-9396 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9549820))
+
+(currentActivity Unit-258 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Oran (FreecivLocationFn 46 30))
+
+(fcObjectAt Unit-258 (FreecivLocationFn 46 30))
+
+(footprintOf FC-City-Oran CityFootprint-FC-City-Oran)
+
+(isa CityFootprint-FC-City-Oran CityFootprint)
+
+(isa FC-City-Oran FreeCiv-City)
+
+(isa STEntity-411 DefensiveEpisodeFailure)
+
+(isa STEntity-411 SpatiotemporalEvent)
+
+(isa Unit-258 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-9530347 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9548502 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-9549820 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-9359 BoundedTemporalEntity-9252)
+
+(startsAfterStartingOf BoundedTemporalEntity-9359 BoundedTemporalEntity-9253)
+
+(startsAtSameTime BoundedTemporalEntity-9381 BoundedTemporalEntity-9379)
+
+(startsAtSameTime BoundedTemporalEntity-9393 BoundedTemporalEntity-9392)
+
+(startsAtSameTime BoundedTemporalEntity-9396 BoundedTemporalEntity-9394)
+
+(unitOwner Unit-258 FC-Player-AoifeMacMurrough)
+
+(zeroIn BoundedTemporalEntity-9253 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Oran))

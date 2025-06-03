@@ -1,0 +1,100 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SungaiPetani) (TemporalIntervalFn STEntity-496)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SungaiPetani) (TemporalIntervalFn STEntity-496)))
+((Area (AtFn (EndFn STEntity-496) STEntity-496)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-496) STEntity-496)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-496) STEntity-496)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-496) STEntity-496)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-496) STEntity-496)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-496) STEntity-496)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-496) STEntity-496)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-496) STEntity-496)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-496) STEntity-496)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-496) STEntity-496)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-10747 BoundedTemporalEntity-10768)
+
+(aia-DI BoundedTemporalEntity-10747 BoundedTemporalEntity-10900)
+
+(aia-MI BoundedTemporalEntity-10666 BoundedTemporalEntity-10661)
+
+(aia-MI BoundedTemporalEntity-10676 BoundedTemporalEntity-10666)
+
+(aia-MI BoundedTemporalEntity-10719 BoundedTemporalEntity-10676)
+
+(aia-MI BoundedTemporalEntity-10725 BoundedTemporalEntity-10719)
+
+(aia-MI BoundedTemporalEntity-10789 BoundedTemporalEntity-10725)
+
+(aia-MI BoundedTemporalEntity-10794 BoundedTemporalEntity-10789)
+
+(aia-MI BoundedTemporalEntity-10900 BoundedTemporalEntity-10768)
+
+(aia-MI BoundedTemporalEntity-10922 BoundedTemporalEntity-10900)
+
+(aia-MI BoundedTemporalEntity-10923 BoundedTemporalEntity-10794)
+
+(cityOwner FC-City-SungaiPetani FC-Player-Parameswara)
+
+(constantIn BoundedTemporalEntity-10655 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13054672))
+
+(constantIn BoundedTemporalEntity-10747 ((MeasurableQuantityFn citySize) FC-City-SungaiPetani))
+
+(constantIn BoundedTemporalEntity-10748 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SungaiPetani))
+
+(constantIn BoundedTemporalEntity-10871 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-16006241))
+
+(constantIn BoundedTemporalEntity-10872 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-16006241))
+
+(constantIn BoundedTemporalEntity-10922 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SungaiPetani))
+
+(constantIn BoundedTemporalEntity-10923 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13054672))
+
+(currentActivity Unit-204 FC-ActivityIdle)
+
+(fcObjectAt FC-City-SungaiPetani (FreecivLocationFn 31 18))
+
+(fcObjectAt Unit-204 (FreecivLocationFn 31 18))
+
+(footprintOf FC-City-SungaiPetani CityFootprint-FC-City-SungaiPetani)
+
+(isa CityFootprint-FC-City-SungaiPetani CityFootprint)
+
+(isa FC-City-SungaiPetani FreeCiv-City)
+
+(isa STEntity-496 DefensiveEpisodeFailure)
+
+(isa STEntity-496 SpatiotemporalEvent)
+
+(isa Unit-204 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-13054672 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-16006241 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10768 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SungaiPetani))
+
+(nondecreasingIn BoundedTemporalEntity-10900 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-SungaiPetani))
+
+(startsAfterStartingOf BoundedTemporalEntity-10923 BoundedTemporalEntity-10655)
+
+(startsAtSameTime BoundedTemporalEntity-10747 BoundedTemporalEntity-10748)
+
+(startsAtSameTime BoundedTemporalEntity-10747 BoundedTemporalEntity-10749)
+
+(startsAtSameTime BoundedTemporalEntity-10872 BoundedTemporalEntity-10871)
+
+(startsBeforeStartingOf BoundedTemporalEntity-10747 BoundedTemporalEntity-10922)
+
+(unitOwner Unit-204 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10749 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SungaiPetani))

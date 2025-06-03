@@ -1,0 +1,152 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-ZielonaGóra) (TemporalIntervalFn STEntity-374)), dumped 5/23/2025 14:18:50 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-ZielonaGóra) (TemporalIntervalFn STEntity-374)))
+((Area (AtFn (EndFn STEntity-374) STEntity-374)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-374) STEntity-374)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 17))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 17))
+
+((Defenders (AtFn (EndFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-374) STEntity-374)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-374) STEntity-374)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-374) STEntity-374)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7473 BoundedTemporalEntity-7461)
+
+(aia-MI BoundedTemporalEntity-7474 BoundedTemporalEntity-7473)
+
+(aia-MI BoundedTemporalEntity-7505 BoundedTemporalEntity-7474)
+
+(aia-MI BoundedTemporalEntity-7510 BoundedTemporalEntity-7505)
+
+(aia-MI BoundedTemporalEntity-7555 BoundedTemporalEntity-7510)
+
+(aia-MI BoundedTemporalEntity-7560 BoundedTemporalEntity-7555)
+
+(aia-MI BoundedTemporalEntity-7621 BoundedTemporalEntity-7560)
+
+(aia-MI BoundedTemporalEntity-7624 BoundedTemporalEntity-7621)
+
+(aia-MI BoundedTemporalEntity-7737 BoundedTemporalEntity-7624)
+
+(aia-MI BoundedTemporalEntity-7746 BoundedTemporalEntity-7737)
+
+(aia-MI BoundedTemporalEntity-7809 BoundedTemporalEntity-7746)
+
+(aia-MI BoundedTemporalEntity-7837 BoundedTemporalEntity-7809)
+
+(aia-MI BoundedTemporalEntity-8194 BoundedTemporalEntity-7837)
+
+(aia-MI BoundedTemporalEntity-8220 BoundedTemporalEntity-8194)
+
+(aia-MI BoundedTemporalEntity-8227 BoundedTemporalEntity-8214)
+
+(aia-MI BoundedTemporalEntity-8231 BoundedTemporalEntity-8220)
+
+(aia-MI BoundedTemporalEntity-8232 BoundedTemporalEntity-8227)
+
+(aia-MI BoundedTemporalEntity-8264 BoundedTemporalEntity-8232)
+
+(aia-MI BoundedTemporalEntity-8268 BoundedTemporalEntity-8264)
+
+(aia-MI BoundedTemporalEntity-8300 BoundedTemporalEntity-8268)
+
+(cityOwner FC-City-ZielonaGóra FC-Player-W�?adys�?awJagie�?�?o)
+
+(constantIn BoundedTemporalEntity-7462 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-ZielonaGóra))
+
+(constantIn BoundedTemporalEntity-7926 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6314664))
+
+(constantIn BoundedTemporalEntity-7936 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6314664))
+
+(constantIn BoundedTemporalEntity-8201 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6887521))
+
+(constantIn BoundedTemporalEntity-8205 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6887587))
+
+(constantIn BoundedTemporalEntity-8207 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6887619))
+
+(constantIn BoundedTemporalEntity-8210 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6887521))
+
+(constantIn BoundedTemporalEntity-8216 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6887619))
+
+(constantIn BoundedTemporalEntity-8223 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6921825))
+
+(constantIn BoundedTemporalEntity-8224 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6921830))
+
+(constantIn BoundedTemporalEntity-8225 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6921825))
+
+(constantIn BoundedTemporalEntity-8226 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6921830))
+
+(currentActivity Unit-224 FC-ActivityFortifying)
+
+(currentActivity Unit-343 FC-ActivityIdle)
+
+(fcObjectAt FC-City-ZielonaGóra (FreecivLocationFn 21 29))
+
+(fcObjectAt Unit-343 (FreecivLocationFn 21 29))
+
+(footprintOf FC-City-ZielonaGóra CityFootprint-FC-City-ZielonaGóra)
+
+(isa CityFootprint-FC-City-ZielonaGóra CityFootprint)
+
+(isa FC-City-ZielonaGóra FreeCiv-City)
+
+(isa STEntity-374 DefensiveEpisodeFailure)
+
+(isa STEntity-374 SpatiotemporalEvent)
+
+(isa Unit-224 FC-Unit-Catapult)
+
+(isa Unit-343 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-6314664 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6887521 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6887587 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6887619 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6921825 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6921830 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-8231 ((MeasurableQuantityFn citySize) FC-City-ZielonaGóra))
+
+(nonincreasingIn BoundedTemporalEntity-8300 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6887587))
+
+(startsAfterStartingOf BoundedTemporalEntity-8231 BoundedTemporalEntity-7462)
+
+(startsAfterStartingOf BoundedTemporalEntity-8231 BoundedTemporalEntity-7463)
+
+(startsAfterStartingOf BoundedTemporalEntity-8300 BoundedTemporalEntity-8205)
+
+(startsAtSameTime BoundedTemporalEntity-7936 BoundedTemporalEntity-7926)
+
+(startsAtSameTime BoundedTemporalEntity-8210 BoundedTemporalEntity-8201)
+
+(startsAtSameTime BoundedTemporalEntity-8216 BoundedTemporalEntity-8207)
+
+(startsAtSameTime BoundedTemporalEntity-8225 BoundedTemporalEntity-8223)
+
+(startsAtSameTime BoundedTemporalEntity-8226 BoundedTemporalEntity-8224)
+
+(unitOwner Unit-224 FC-Player-RajendraCholaII)
+
+(unitOwner Unit-343 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7463 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-ZielonaGóra))

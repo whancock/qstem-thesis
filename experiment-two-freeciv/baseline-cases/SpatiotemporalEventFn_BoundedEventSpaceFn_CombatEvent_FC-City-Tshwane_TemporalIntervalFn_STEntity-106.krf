@@ -1,0 +1,112 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tshwane) (TemporalIntervalFn STEntity-106)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tshwane) (TemporalIntervalFn STEntity-106)))
+((Area (AtFn (EndFn STEntity-106) STEntity-106)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-106) STEntity-106)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-106) STEntity-106)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-106) STEntity-106)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-106) STEntity-106)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3600 BoundedTemporalEntity-3582)
+
+(aia-MI BoundedTemporalEntity-3637 BoundedTemporalEntity-3600)
+
+(aia-MI BoundedTemporalEntity-3692 BoundedTemporalEntity-3637)
+
+(aia-MI BoundedTemporalEntity-3751 BoundedTemporalEntity-3741)
+
+(aia-MI BoundedTemporalEntity-3757 BoundedTemporalEntity-3692)
+
+(cityOwner FC-City-Tshwane FC-Player-MalandelaKaLuzumana)
+
+(constantIn BoundedTemporalEntity-3583 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tshwane))
+
+(constantIn BoundedTemporalEntity-3724 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-269753))
+
+(constantIn BoundedTemporalEntity-3726 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-269753))
+
+(constantIn BoundedTemporalEntity-3737 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-279776))
+
+(constantIn BoundedTemporalEntity-3740 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-279829))
+
+(constantIn BoundedTemporalEntity-3744 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-279829))
+
+(constantIn BoundedTemporalEntity-3759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-285162))
+
+(constantIn BoundedTemporalEntity-3761 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-285162))
+
+(currentActivity Unit-204 FC-ActivityIdle)
+
+(currentActivity Unit-210 FC-ActivityFortifying)
+
+(currentActivity Unit-211 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Tshwane (FreecivLocationFn 41 11))
+
+(fcObjectAt Unit-204 (FreecivLocationFn 41 11))
+
+(footprintOf FC-City-Tshwane CityFootprint-FC-City-Tshwane)
+
+(isa CityFootprint-FC-City-Tshwane CityFootprint)
+
+(isa FC-City-Tshwane FreeCiv-City)
+
+(isa STEntity-106 DefensiveEpisodeFailure)
+
+(isa STEntity-106 SpatiotemporalEvent)
+
+(isa Unit-204 FC-Unit-Catapult)
+
+(isa Unit-210 FC-Unit-Chariot)
+
+(isa Unit-211 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-269753 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-279776 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-279782 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-279829 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-285162 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-3751 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-279776))
+
+(nonincreasingIn BoundedTemporalEntity-3757 ((MeasurableQuantityFn citySize) FC-City-Tshwane))
+
+(startsAfterStartingOf BoundedTemporalEntity-3751 BoundedTemporalEntity-3737)
+
+(startsAfterStartingOf BoundedTemporalEntity-3757 BoundedTemporalEntity-3583)
+
+(startsAfterStartingOf BoundedTemporalEntity-3757 BoundedTemporalEntity-3584)
+
+(startsAtSameTime BoundedTemporalEntity-3726 BoundedTemporalEntity-3724)
+
+(startsAtSameTime BoundedTemporalEntity-3744 BoundedTemporalEntity-3740)
+
+(startsAtSameTime BoundedTemporalEntity-3761 BoundedTemporalEntity-3759)
+
+(unitOwner Unit-204 FC-Player-StefanMilutin)
+
+(unitOwner Unit-210 FC-Player-StefanMilutin)
+
+(zeroIn BoundedTemporalEntity-3584 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tshwane))

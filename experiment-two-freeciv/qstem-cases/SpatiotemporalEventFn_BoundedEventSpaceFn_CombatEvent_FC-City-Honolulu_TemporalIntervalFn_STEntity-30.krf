@@ -1,0 +1,150 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-30)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-30)))
+((Area (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivTileArea 140))
+
+((Area (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivTileArea 140))
+
+((Defenders (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 6))
+
+((citySize (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-1881 BoundedTemporalEntity-1869)
+
+(aia-MI BoundedTemporalEntity-1882 BoundedTemporalEntity-1874)
+
+(aia-MI BoundedTemporalEntity-1889 BoundedTemporalEntity-1881)
+
+(aia-MI BoundedTemporalEntity-1891 BoundedTemporalEntity-1882)
+
+(aia-MI BoundedTemporalEntity-1893 BoundedTemporalEntity-1889)
+
+(aia-MI BoundedTemporalEntity-1899 BoundedTemporalEntity-1891)
+
+(aia-MI BoundedTemporalEntity-1909 BoundedTemporalEntity-1893)
+
+(aia-MI BoundedTemporalEntity-1911 BoundedTemporalEntity-1899)
+
+(aia-MI BoundedTemporalEntity-1919 BoundedTemporalEntity-1909)
+
+(aia-MI BoundedTemporalEntity-1921 BoundedTemporalEntity-1911)
+
+(aia-MI BoundedTemporalEntity-1925 BoundedTemporalEntity-1919)
+
+(aia-MI BoundedTemporalEntity-1935 BoundedTemporalEntity-1925)
+
+(aia-MI BoundedTemporalEntity-1936 BoundedTemporalEntity-1935)
+
+(aia-MI BoundedTemporalEntity-1938 BoundedTemporalEntity-1936)
+
+(aia-MI BoundedTemporalEntity-1940 BoundedTemporalEntity-1938)
+
+(aia-MI BoundedTemporalEntity-1945 BoundedTemporalEntity-1921)
+
+(aia-MI BoundedTemporalEntity-1948 BoundedTemporalEntity-1940)
+
+(aia-MI BoundedTemporalEntity-1949 BoundedTemporalEntity-1945)
+
+(aia-MI BoundedTemporalEntity-1952 BoundedTemporalEntity-1948)
+
+(aia-MI BoundedTemporalEntity-1954 BoundedTemporalEntity-1949)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1869)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1881)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1889)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1893)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1909)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1919)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1925)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1935)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1936)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1938)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1940)
+
+(aia-OI BoundedTemporalEntity-1954 BoundedTemporalEntity-1948)
+
+(cityOwner FC-City-Honolulu FC-Player-Kamehameha)
+
+(constantIn BoundedTemporalEntity-1845 ((MeasurableQuantityFn citySize) FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-1846 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-1869 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(currentActivity Unit-181 FC-ActivityIdle)
+
+(defenseBonus FC-City-Honolulu 50)
+
+(fcObjectAt FC-City-Honolulu (FreecivLocationFn 36 3))
+
+(fcObjectAt Unit-181 (FreecivLocationFn 36 3))
+
+(footprintOf FC-City-Honolulu CityFootprint-FC-City-Honolulu)
+
+(isa CityFootprint-FC-City-Honolulu CityFootprint)
+
+(isa FC-City-Honolulu FreeCiv-City)
+
+(isa STEntity-30 DefensiveEpisodeFailure)
+
+(isa STEntity-30 SpatiotemporalEvent)
+
+(isa Unit-181 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-19752 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-1881 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nondecreasingIn BoundedTemporalEntity-1893 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nondecreasingIn BoundedTemporalEntity-1919 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nondecreasingIn BoundedTemporalEntity-1935 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nondecreasingIn BoundedTemporalEntity-1938 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nondecreasingIn BoundedTemporalEntity-1948 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nonincreasingIn BoundedTemporalEntity-1889 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nonincreasingIn BoundedTemporalEntity-1909 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nonincreasingIn BoundedTemporalEntity-1925 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nonincreasingIn BoundedTemporalEntity-1936 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nonincreasingIn BoundedTemporalEntity-1940 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nonincreasingIn BoundedTemporalEntity-1952 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19752))
+
+(nonincreasingIn BoundedTemporalEntity-1954 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19752))
+
+(startsAfterStartingOf BoundedTemporalEntity-1954 BoundedTemporalEntity-1952)
+
+(startsAtSameTime BoundedTemporalEntity-1845 BoundedTemporalEntity-1846)
+
+(startsAtSameTime BoundedTemporalEntity-1845 BoundedTemporalEntity-1847)
+
+(terrainAt (FreecivLocationFn 36 3) FC-Terrain-Forest)
+
+(unitOwner Unit-181 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-1847 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))

@@ -1,0 +1,70 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Dálvvadis) (TemporalIntervalFn STEntity-214)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Dálvvadis) (TemporalIntervalFn STEntity-214)))
+((Area (AtFn (EndFn STEntity-214) STEntity-214)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-214) STEntity-214)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-214) STEntity-214)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-214) STEntity-214)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-214) STEntity-214)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-214) STEntity-214)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-214) STEntity-214)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-214) STEntity-214)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-214) STEntity-214)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-214) STEntity-214)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5531 BoundedTemporalEntity-5479)
+
+(aia-MI BoundedTemporalEntity-5586 BoundedTemporalEntity-5531)
+
+(aia-MI BoundedTemporalEntity-5633 BoundedTemporalEntity-5586)
+
+(aia-MI BoundedTemporalEntity-5696 BoundedTemporalEntity-5633)
+
+(cityOwner FC-City-Dálvvadis FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5480 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))
+
+(constantIn BoundedTemporalEntity-5639 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1332739))
+
+(constantIn BoundedTemporalEntity-5641 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1332739))
+
+(currentActivity Unit-273 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Dálvvadis (FreecivLocationFn 24 10))
+
+(fcObjectAt Unit-273 (FreecivLocationFn 24 10))
+
+(footprintOf FC-City-Dálvvadis CityFootprint-FC-City-Dálvvadis)
+
+(isa CityFootprint-FC-City-Dálvvadis CityFootprint)
+
+(isa FC-City-Dálvvadis FreeCiv-City)
+
+(isa STEntity-214 DefensiveEpisodeFailure)
+
+(isa STEntity-214 SpatiotemporalEvent)
+
+(isa Unit-273 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1332739 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-5696 ((MeasurableQuantityFn citySize) FC-City-Dálvvadis))
+
+(startsAfterStartingOf BoundedTemporalEntity-5696 BoundedTemporalEntity-5480)
+
+(startsAfterStartingOf BoundedTemporalEntity-5696 BoundedTemporalEntity-5481)
+
+(startsAtSameTime BoundedTemporalEntity-5641 BoundedTemporalEntity-5639)
+
+(unitOwner Unit-273 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5481 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dálvvadis))

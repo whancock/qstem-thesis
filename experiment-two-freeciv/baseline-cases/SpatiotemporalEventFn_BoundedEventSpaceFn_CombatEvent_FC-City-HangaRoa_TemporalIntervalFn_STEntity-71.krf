@@ -1,0 +1,88 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-HangaRoa) (TemporalIntervalFn STEntity-71)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-HangaRoa) (TemporalIntervalFn STEntity-71)))
+((Area (AtFn (EndFn STEntity-71) STEntity-71)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-71) STEntity-71)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-71) STEntity-71)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-71) STEntity-71)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-71) STEntity-71)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-71) STEntity-71)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-71) STEntity-71)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-71) STEntity-71)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-71) STEntity-71)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-HangaRoa)
+
+((citySize (AtFn (EndFn STEntity-71) STEntity-71)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-71) STEntity-71)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-2734 BoundedTemporalEntity-2595)
+
+(aia-MI BoundedTemporalEntity-2744 BoundedTemporalEntity-2734)
+
+(aia-MI BoundedTemporalEntity-2868 BoundedTemporalEntity-2744)
+
+(aia-MI BoundedTemporalEntity-3000 BoundedTemporalEntity-2800)
+
+(cityOwner FC-City-HangaRoa FC-Player-Kamehameha)
+
+(constantIn BoundedTemporalEntity-2596 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-HangaRoa))
+
+(constantIn BoundedTemporalEntity-2792 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-162002))
+
+(constantIn BoundedTemporalEntity-2868 ((MeasurableQuantityFn citySize) FC-City-HangaRoa))
+
+(constantIn BoundedTemporalEntity-2963 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-183354))
+
+(constantIn BoundedTemporalEntity-2965 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-183354))
+
+(currentActivity Unit-202 FC-ActivityFortifying)
+
+(currentActivity Unit-205 FC-ActivityIdle)
+
+(fcObjectAt FC-City-HangaRoa (FreecivLocationFn 35 11))
+
+(fcObjectAt Unit-205 (FreecivLocationFn 35 11))
+
+(footprintOf FC-City-HangaRoa CityFootprint-FC-City-HangaRoa)
+
+(isa CityFootprint-FC-City-HangaRoa CityFootprint)
+
+(isa FC-City-HangaRoa FreeCiv-City)
+
+(isa STEntity-71 DefensiveEpisodeFailure)
+
+(isa STEntity-71 SpatiotemporalEvent)
+
+(isa Unit-202 FC-Unit-Chariot)
+
+(isa Unit-205 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-162002 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-183354 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-3000 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-162002))
+
+(startsAfterStartingOf BoundedTemporalEntity-2868 BoundedTemporalEntity-2596)
+
+(startsAfterStartingOf BoundedTemporalEntity-2868 BoundedTemporalEntity-2597)
+
+(startsAfterStartingOf BoundedTemporalEntity-3000 BoundedTemporalEntity-2792)
+
+(startsAtSameTime BoundedTemporalEntity-2965 BoundedTemporalEntity-2963)
+
+(unitOwner Unit-202 FC-Player-KonyanBebe)
+
+(unitOwner Unit-205 FC-Player-KonyanBebe)
+
+(zeroIn BoundedTemporalEntity-2597 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-HangaRoa))

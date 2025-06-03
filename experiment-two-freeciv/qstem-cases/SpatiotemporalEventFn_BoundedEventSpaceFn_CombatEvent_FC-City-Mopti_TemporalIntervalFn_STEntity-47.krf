@@ -1,0 +1,122 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mopti) (TemporalIntervalFn STEntity-47)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mopti) (TemporalIntervalFn STEntity-47)))
+((Area (AtFn (EndFn STEntity-47) STEntity-47)) (FreecivTileArea 47))
+
+((Area (AtFn (StartFn STEntity-47) STEntity-47)) (FreecivTileArea 14))
+
+((Defenders (AtFn (EndFn STEntity-47) STEntity-47)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-47) STEntity-47)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-47) STEntity-47)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-47) STEntity-47)) (FreecivUnitCountFn 3))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Mopti)
+
+((citySize (AtFn (EndFn STEntity-47) STEntity-47)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-47) STEntity-47)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3199 BoundedTemporalEntity-3151)
+
+(aia-MI BoundedTemporalEntity-3260 BoundedTemporalEntity-3152)
+
+(aia-MI BoundedTemporalEntity-3261 BoundedTemporalEntity-3153)
+
+(aia-MI BoundedTemporalEntity-3299 BoundedTemporalEntity-3199)
+
+(aia-MI BoundedTemporalEntity-3318 BoundedTemporalEntity-3313)
+
+(aia-MI BoundedTemporalEntity-3319 BoundedTemporalEntity-3315)
+
+(aia-MI BoundedTemporalEntity-3322 BoundedTemporalEntity-3318)
+
+(aia-MI BoundedTemporalEntity-3326 BoundedTemporalEntity-3319)
+
+(aia-MI BoundedTemporalEntity-3331 BoundedTemporalEntity-3260)
+
+(aia-MI BoundedTemporalEntity-3332 BoundedTemporalEntity-3261)
+
+(aia-MI BoundedTemporalEntity-3338 BoundedTemporalEntity-3322)
+
+(aia-MI BoundedTemporalEntity-3339 BoundedTemporalEntity-3322)
+
+(aia-MI BoundedTemporalEntity-3339 BoundedTemporalEntity-3326)
+
+(aia-OI BoundedTemporalEntity-3299 BoundedTemporalEntity-3152)
+
+(aia-OI BoundedTemporalEntity-3299 BoundedTemporalEntity-3153)
+
+(aia-OI BoundedTemporalEntity-3299 BoundedTemporalEntity-3260)
+
+(aia-OI BoundedTemporalEntity-3299 BoundedTemporalEntity-3261)
+
+(aia-OI BoundedTemporalEntity-3339 BoundedTemporalEntity-3313)
+
+(aia-OI BoundedTemporalEntity-3339 BoundedTemporalEntity-3318)
+
+(cityOwner FC-City-Mopti FC-Player-Sakura)
+
+(constantIn BoundedTemporalEntity-3152 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))
+
+(constantIn BoundedTemporalEntity-3313 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(currentActivity Unit-427 FC-ActivityIdle)
+
+(currentActivity Unit-440 FC-ActivityFortifying)
+
+(defenseBonus FC-City-Mopti 50)
+
+(fcObjectAt FC-City-Mopti (FreecivLocationFn 51 26))
+
+(fcObjectAt Unit-427 (FreecivLocationFn 51 26))
+
+(footprintOf FC-City-Mopti CityFootprint-FC-City-Mopti)
+
+(isa CityFootprint-FC-City-Mopti CityFootprint)
+
+(isa FC-City-Mopti FreeCiv-City)
+
+(isa STEntity-47 DefensiveEpisodeFailure)
+
+(isa STEntity-47 SpatiotemporalEvent)
+
+(isa Unit-427 FC-Unit-Cannon)
+
+(isa Unit-440 FC-Unit-Cannon)
+
+(isa UnitGroupFootprint-57474 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-3260 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))
+
+(nondecreasingIn BoundedTemporalEntity-3318 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(nondecreasingIn BoundedTemporalEntity-3338 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(nondecreasingIn BoundedTemporalEntity-3339 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-57474))
+
+(nonincreasingIn BoundedTemporalEntity-3299 ((MeasurableQuantityFn citySize) FC-City-Mopti))
+
+(nonincreasingIn BoundedTemporalEntity-3322 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-57474))
+
+(nonincreasingIn BoundedTemporalEntity-3331 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))
+
+(someIn BoundedTemporalEntity-3261 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))
+
+(startsAtSameTime BoundedTemporalEntity-3339 BoundedTemporalEntity-3338)
+
+(startsBeforeStartingOf BoundedTemporalEntity-3299 BoundedTemporalEntity-3331)
+
+(startsBeforeStartingOf BoundedTemporalEntity-3299 BoundedTemporalEntity-3332)
+
+(terrainAt (FreecivLocationFn 51 26) FC-Terrain-Forest)
+
+(unitOwner Unit-427 FC-Player-VasileLupu)
+
+(unitOwner Unit-440 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3153 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))
+
+(zeroIn BoundedTemporalEntity-3332 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mopti))

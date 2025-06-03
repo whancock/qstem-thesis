@@ -1,0 +1,270 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ipoh) (TemporalIntervalFn STEntity-254)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ipoh) (TemporalIntervalFn STEntity-254)))
+((Area (AtFn (EndFn STEntity-254) STEntity-254)) (FreecivTileArea 18))
+
+((Area (AtFn (EndFn STEntity-254) STEntity-254)) (FreecivTileArea 192))
+
+((Area (AtFn (StartFn STEntity-254) STEntity-254)) (FreecivTileArea 192))
+
+((Area (AtFn (StartFn STEntity-254) STEntity-254)) (FreecivTileArea 18))
+
+((Defenders (AtFn (EndFn STEntity-254) STEntity-254)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-254) STEntity-254)) (FreecivUnitCountFn 12))
+
+((Defenders (AtFn (EndFn STEntity-254) STEntity-254)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-254) STEntity-254)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-254) STEntity-254)) (FreecivUnitCountFn 12))
+
+((Defenders (AtFn (StartFn STEntity-254) STEntity-254)) (FreecivUnitCountFn 5))
+
+((citySize (AtFn (EndFn STEntity-254) STEntity-254)) (FreecivCitizenCountFn 3))
+
+((citySize (AtFn (StartFn STEntity-254) STEntity-254)) (FreecivCitizenCountFn 3))
+
+(aia-DI BoundedTemporalEntity-12929 BoundedTemporalEntity-12941)
+
+(aia-MI BoundedTemporalEntity-12593 BoundedTemporalEntity-12588)
+
+(aia-MI BoundedTemporalEntity-12620 BoundedTemporalEntity-12593)
+
+(aia-MI BoundedTemporalEntity-12627 BoundedTemporalEntity-12621)
+
+(aia-MI BoundedTemporalEntity-12628 BoundedTemporalEntity-12622)
+
+(aia-MI BoundedTemporalEntity-12631 BoundedTemporalEntity-12627)
+
+(aia-MI BoundedTemporalEntity-12632 BoundedTemporalEntity-12631)
+
+(aia-MI BoundedTemporalEntity-12635 BoundedTemporalEntity-12632)
+
+(aia-MI BoundedTemporalEntity-12643 BoundedTemporalEntity-12635)
+
+(aia-MI BoundedTemporalEntity-12653 BoundedTemporalEntity-12643)
+
+(aia-MI BoundedTemporalEntity-12660 BoundedTemporalEntity-12653)
+
+(aia-MI BoundedTemporalEntity-12661 BoundedTemporalEntity-12628)
+
+(aia-MI BoundedTemporalEntity-12670 BoundedTemporalEntity-12660)
+
+(aia-MI BoundedTemporalEntity-12671 BoundedTemporalEntity-12661)
+
+(aia-MI BoundedTemporalEntity-12680 BoundedTemporalEntity-12670)
+
+(aia-MI BoundedTemporalEntity-12681 BoundedTemporalEntity-12671)
+
+(aia-MI BoundedTemporalEntity-12705 BoundedTemporalEntity-12680)
+
+(aia-MI BoundedTemporalEntity-12706 BoundedTemporalEntity-12681)
+
+(aia-MI BoundedTemporalEntity-12707 BoundedTemporalEntity-12620)
+
+(aia-MI BoundedTemporalEntity-12731 BoundedTemporalEntity-12705)
+
+(aia-MI BoundedTemporalEntity-12734 BoundedTemporalEntity-12706)
+
+(aia-MI BoundedTemporalEntity-12738 BoundedTemporalEntity-12731)
+
+(aia-MI BoundedTemporalEntity-12739 BoundedTemporalEntity-12734)
+
+(aia-MI BoundedTemporalEntity-12746 BoundedTemporalEntity-12738)
+
+(aia-MI BoundedTemporalEntity-12747 BoundedTemporalEntity-12739)
+
+(aia-MI BoundedTemporalEntity-12759 BoundedTemporalEntity-12746)
+
+(aia-MI BoundedTemporalEntity-12760 BoundedTemporalEntity-12747)
+
+(aia-MI BoundedTemporalEntity-12774 BoundedTemporalEntity-12759)
+
+(aia-MI BoundedTemporalEntity-12785 BoundedTemporalEntity-12774)
+
+(aia-MI BoundedTemporalEntity-12786 BoundedTemporalEntity-12760)
+
+(aia-MI BoundedTemporalEntity-12793 BoundedTemporalEntity-12785)
+
+(aia-MI BoundedTemporalEntity-12814 BoundedTemporalEntity-12786)
+
+(aia-MI BoundedTemporalEntity-12818 BoundedTemporalEntity-12793)
+
+(aia-MI BoundedTemporalEntity-12827 BoundedTemporalEntity-12707)
+
+(aia-MI BoundedTemporalEntity-12855 BoundedTemporalEntity-12818)
+
+(aia-MI BoundedTemporalEntity-12871 BoundedTemporalEntity-12855)
+
+(aia-MI BoundedTemporalEntity-12872 BoundedTemporalEntity-12814)
+
+(aia-MI BoundedTemporalEntity-12881 BoundedTemporalEntity-12850)
+
+(aia-MI BoundedTemporalEntity-12887 BoundedTemporalEntity-12872)
+
+(aia-MI BoundedTemporalEntity-12899 BoundedTemporalEntity-12887)
+
+(aia-MI BoundedTemporalEntity-12909 BoundedTemporalEntity-12827)
+
+(aia-MI BoundedTemporalEntity-12915 BoundedTemporalEntity-12871)
+
+(aia-MI BoundedTemporalEntity-12928 BoundedTemporalEntity-12915)
+
+(aia-MI BoundedTemporalEntity-12929 BoundedTemporalEntity-12899)
+
+(aia-MI BoundedTemporalEntity-12929 BoundedTemporalEntity-12915)
+
+(aia-MI BoundedTemporalEntity-12941 BoundedTemporalEntity-12928)
+
+(aia-MI BoundedTemporalEntity-12945 BoundedTemporalEntity-12847)
+
+(aia-MI BoundedTemporalEntity-12951 BoundedTemporalEntity-12941)
+
+(aia-OI BoundedTemporalEntity-12881 BoundedTemporalEntity-12847)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12621)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12627)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12631)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12632)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12635)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12643)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12653)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12660)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12670)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12680)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12705)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12731)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12738)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12746)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12759)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12774)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12785)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12793)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12818)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12855)
+
+(aia-OI BoundedTemporalEntity-12929 BoundedTemporalEntity-12871)
+
+(aia-SI BoundedTemporalEntity-12929 BoundedTemporalEntity-12928)
+
+(cityOwner FC-City-Ipoh FC-Player-Suharto)
+
+(constantIn BoundedTemporalEntity-12589 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ipoh))
+
+(constantIn BoundedTemporalEntity-12621 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(constantIn BoundedTemporalEntity-12847 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-207846))
+
+(currentActivity Unit-215 FC-ActivityIdle)
+
+(defenseBonus FC-City-Ipoh 0)
+
+(fcObjectAt FC-City-Ipoh (FreecivLocationFn 25 10))
+
+(fcObjectAt Unit-215 (FreecivLocationFn 25 10))
+
+(footprintOf FC-City-Ipoh CityFootprint-FC-City-Ipoh)
+
+(isa CityFootprint-FC-City-Ipoh CityFootprint)
+
+(isa FC-City-Ipoh FreeCiv-City)
+
+(isa STEntity-254 DefensiveEpisodeFailure)
+
+(isa STEntity-254 SpatiotemporalEvent)
+
+(isa Unit-215 FC-Unit-Warriors)
+
+(isa UnitGroupFootprint-205010 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-207846 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12631 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12653 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12738 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12785 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12818 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12871 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12881 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-207846))
+
+(nondecreasingIn BoundedTemporalEntity-12928 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12929 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12945 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-207846))
+
+(nondecreasingIn BoundedTemporalEntity-12951 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12627 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12632 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12660 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12680 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12731 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12746 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12793 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12855 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12909 ((MeasurableQuantityFn citySize) FC-City-Ipoh))
+
+(nonincreasingIn BoundedTemporalEntity-12915 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12941 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(startsAfterStartingOf BoundedTemporalEntity-12909 BoundedTemporalEntity-12589)
+
+(startsAfterStartingOf BoundedTemporalEntity-12909 BoundedTemporalEntity-12590)
+
+(startsBeforeStartingOf BoundedTemporalEntity-12881 BoundedTemporalEntity-12945)
+
+(startsBeforeStartingOf BoundedTemporalEntity-12929 BoundedTemporalEntity-12951)
+
+(terrainAt (FreecivLocationFn 25 10) FC-Terrain-Plains)
+
+(unitOwner Unit-215 FC-Player-Suharto)
+
+(zeroIn BoundedTemporalEntity-12590 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ipoh))

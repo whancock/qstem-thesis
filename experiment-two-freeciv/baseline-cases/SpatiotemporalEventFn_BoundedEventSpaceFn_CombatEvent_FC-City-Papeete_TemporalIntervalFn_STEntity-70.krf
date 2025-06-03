@@ -1,0 +1,106 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Papeete) (TemporalIntervalFn STEntity-70)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Papeete) (TemporalIntervalFn STEntity-70)))
+((Area (AtFn (EndFn STEntity-70) STEntity-70)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-70) STEntity-70)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-70) STEntity-70)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-70) STEntity-70)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-70) STEntity-70)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-70) STEntity-70)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-70) STEntity-70)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-70) STEntity-70)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-70) STEntity-70)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-70) STEntity-70)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-2495 BoundedTemporalEntity-2481)
+
+(aia-MI BoundedTemporalEntity-2498 BoundedTemporalEntity-2495)
+
+(aia-MI BoundedTemporalEntity-2523 BoundedTemporalEntity-2498)
+
+(aia-MI BoundedTemporalEntity-2537 BoundedTemporalEntity-2523)
+
+(aia-MI BoundedTemporalEntity-2571 BoundedTemporalEntity-2537)
+
+(aia-MI BoundedTemporalEntity-2628 BoundedTemporalEntity-2571)
+
+(aia-MI BoundedTemporalEntity-2677 BoundedTemporalEntity-2628)
+
+(aia-MI BoundedTemporalEntity-2710 BoundedTemporalEntity-2677)
+
+(aia-MI BoundedTemporalEntity-2857 BoundedTemporalEntity-2710)
+
+(aia-MI BoundedTemporalEntity-2932 BoundedTemporalEntity-2920)
+
+(cityOwner FC-City-Papeete FC-Player-Kamehameha)
+
+(constantIn BoundedTemporalEntity-2482 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Papeete))
+
+(constantIn BoundedTemporalEntity-2828 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-166742))
+
+(constantIn BoundedTemporalEntity-2833 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-166742))
+
+(constantIn BoundedTemporalEntity-2857 ((MeasurableQuantityFn citySize) FC-City-Papeete))
+
+(constantIn BoundedTemporalEntity-2912 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177599))
+
+(constantIn BoundedTemporalEntity-2913 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177635))
+
+(constantIn BoundedTemporalEntity-2921 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-177635))
+
+(constantIn BoundedTemporalEntity-2927 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-179199))
+
+(constantIn BoundedTemporalEntity-2931 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-179199))
+
+(currentActivity Unit-304 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Papeete (FreecivLocationFn 43 7))
+
+(fcObjectAt Unit-304 (FreecivLocationFn 43 7))
+
+(footprintOf FC-City-Papeete CityFootprint-FC-City-Papeete)
+
+(isa CityFootprint-FC-City-Papeete CityFootprint)
+
+(isa FC-City-Papeete FreeCiv-City)
+
+(isa STEntity-70 DefensiveEpisodeFailure)
+
+(isa STEntity-70 SpatiotemporalEvent)
+
+(isa Unit-304 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-166742 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-177599 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-177635 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-179199 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-2932 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-177599))
+
+(startsAfterStartingOf BoundedTemporalEntity-2857 BoundedTemporalEntity-2482)
+
+(startsAfterStartingOf BoundedTemporalEntity-2857 BoundedTemporalEntity-2483)
+
+(startsAfterStartingOf BoundedTemporalEntity-2932 BoundedTemporalEntity-2912)
+
+(startsAtSameTime BoundedTemporalEntity-2833 BoundedTemporalEntity-2828)
+
+(startsAtSameTime BoundedTemporalEntity-2921 BoundedTemporalEntity-2913)
+
+(startsAtSameTime BoundedTemporalEntity-2931 BoundedTemporalEntity-2927)
+
+(unitOwner Unit-304 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-2483 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Papeete))

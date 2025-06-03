@@ -1,0 +1,64 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lisboa) (TemporalIntervalFn STEntity-147)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lisboa) (TemporalIntervalFn STEntity-147)))
+((Area (AtFn (EndFn STEntity-147) STEntity-147)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-147) STEntity-147)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-147) STEntity-147)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-147) STEntity-147)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-147) STEntity-147)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-147) STEntity-147)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-147) STEntity-147)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-147) STEntity-147)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-147) STEntity-147)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-147) STEntity-147)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-5148 BoundedTemporalEntity-5116)
+
+(cityOwner FC-City-Lisboa FC-Player-FernandDORÃ?)
+
+(constantIn BoundedTemporalEntity-5111 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-725862))
+
+(constantIn BoundedTemporalEntity-5113 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-725862))
+
+(constantIn BoundedTemporalEntity-5117 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lisboa))
+
+(currentActivity Unit-158 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Lisboa (FreecivLocationFn 31 12))
+
+(fcObjectAt Unit-158 (FreecivLocationFn 31 12))
+
+(footprintOf FC-City-Lisboa CityFootprint-FC-City-Lisboa)
+
+(isa CityFootprint-FC-City-Lisboa CityFootprint)
+
+(isa FC-City-Lisboa FreeCiv-City)
+
+(isa STEntity-147 DefensiveEpisodeFailure)
+
+(isa STEntity-147 SpatiotemporalEvent)
+
+(isa Unit-158 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-725862 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5148 ((MeasurableQuantityFn citySize) FC-City-Lisboa))
+
+(startsAfterStartingOf BoundedTemporalEntity-5148 BoundedTemporalEntity-5117)
+
+(startsAfterStartingOf BoundedTemporalEntity-5148 BoundedTemporalEntity-5118)
+
+(startsAtSameTime BoundedTemporalEntity-5113 BoundedTemporalEntity-5111)
+
+(unitOwner Unit-158 FC-Player-FernandDORÃ?)
+
+(zeroIn BoundedTemporalEntity-5118 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lisboa))

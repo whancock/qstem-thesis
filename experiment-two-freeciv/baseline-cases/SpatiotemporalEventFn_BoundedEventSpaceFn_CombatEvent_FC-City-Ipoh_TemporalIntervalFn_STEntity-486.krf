@@ -1,0 +1,154 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ipoh) (TemporalIntervalFn STEntity-486)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ipoh) (TemporalIntervalFn STEntity-486)))
+((Area (AtFn (EndFn STEntity-486) STEntity-486)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-486) STEntity-486)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-486) STEntity-486)) (FreecivUnitCountFn 6))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-486) STEntity-486)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-486) STEntity-486)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-486) STEntity-486)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-486) STEntity-486)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-486) STEntity-486)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-486) STEntity-486)) (FreecivCitizenCountFn 4))
+
+((citySize (AtFn (StartFn STEntity-486) STEntity-486)) (FreecivCitizenCountFn 4))
+
+(aia-DI BoundedTemporalEntity-10712 BoundedTemporalEntity-10820)
+
+(aia-DI BoundedTemporalEntity-10712 BoundedTemporalEntity-10832)
+
+(aia-DI BoundedTemporalEntity-10712 BoundedTemporalEntity-10847)
+
+(aia-DI BoundedTemporalEntity-10712 BoundedTemporalEntity-10857)
+
+(aia-MI BoundedTemporalEntity-10410 BoundedTemporalEntity-10398)
+
+(aia-MI BoundedTemporalEntity-10471 BoundedTemporalEntity-10410)
+
+(aia-MI BoundedTemporalEntity-10560 BoundedTemporalEntity-10471)
+
+(aia-MI BoundedTemporalEntity-10666 BoundedTemporalEntity-10661)
+
+(aia-MI BoundedTemporalEntity-10676 BoundedTemporalEntity-10666)
+
+(aia-MI BoundedTemporalEntity-10712 BoundedTemporalEntity-10560)
+
+(aia-MI BoundedTemporalEntity-10719 BoundedTemporalEntity-10676)
+
+(aia-MI BoundedTemporalEntity-10725 BoundedTemporalEntity-10719)
+
+(aia-MI BoundedTemporalEntity-10789 BoundedTemporalEntity-10725)
+
+(aia-MI BoundedTemporalEntity-10794 BoundedTemporalEntity-10789)
+
+(aia-MI BoundedTemporalEntity-10832 BoundedTemporalEntity-10820)
+
+(aia-MI BoundedTemporalEntity-10844 BoundedTemporalEntity-10765)
+
+(aia-MI BoundedTemporalEntity-10847 BoundedTemporalEntity-10832)
+
+(aia-MI BoundedTemporalEntity-10855 BoundedTemporalEntity-10844)
+
+(aia-MI BoundedTemporalEntity-10857 BoundedTemporalEntity-10847)
+
+(aia-MI BoundedTemporalEntity-10864 BoundedTemporalEntity-10857)
+
+(cityOwner FC-City-Ipoh FC-Player-DavitIV)
+
+(constantIn BoundedTemporalEntity-10399 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ipoh))
+
+(constantIn BoundedTemporalEntity-10655 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13054672))
+
+(constantIn BoundedTemporalEntity-10712 ((MeasurableQuantityFn citySize) FC-City-Ipoh))
+
+(constantIn BoundedTemporalEntity-10762 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-14230727))
+
+(constantIn BoundedTemporalEntity-10792 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-14904738))
+
+(constantIn BoundedTemporalEntity-10793 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-14904738))
+
+(constantIn BoundedTemporalEntity-10836 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-15547592))
+
+(constantIn BoundedTemporalEntity-10838 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-15547689))
+
+(constantIn BoundedTemporalEntity-10840 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-15547592))
+
+(constantIn BoundedTemporalEntity-10842 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-15547689))
+
+(constantIn BoundedTemporalEntity-10871 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-16006241))
+
+(constantIn BoundedTemporalEntity-10872 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-16006241))
+
+(currentActivity Unit-204 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Ipoh (FreecivLocationFn 25 10))
+
+(fcObjectAt Unit-204 (FreecivLocationFn 25 10))
+
+(footprintOf FC-City-Ipoh CityFootprint-FC-City-Ipoh)
+
+(isa CityFootprint-FC-City-Ipoh CityFootprint)
+
+(isa FC-City-Ipoh FreeCiv-City)
+
+(isa STEntity-486 DefensiveEpisodeFailure)
+
+(isa STEntity-486 SpatiotemporalEvent)
+
+(isa Unit-204 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-13054672 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-14230727 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-14904738 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-15547592 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-15547689 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-16006241 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10820 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Ipoh))
+
+(nondecreasingIn BoundedTemporalEntity-10832 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Ipoh))
+
+(nondecreasingIn BoundedTemporalEntity-10864 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Ipoh))
+
+(nonincreasingIn BoundedTemporalEntity-10794 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13054672))
+
+(nonincreasingIn BoundedTemporalEntity-10847 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Ipoh))
+
+(nonincreasingIn BoundedTemporalEntity-10855 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-14230727))
+
+(nonincreasingIn BoundedTemporalEntity-10857 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Ipoh))
+
+(startsAfterStartingOf BoundedTemporalEntity-10712 BoundedTemporalEntity-10399)
+
+(startsAfterStartingOf BoundedTemporalEntity-10712 BoundedTemporalEntity-10400)
+
+(startsAfterStartingOf BoundedTemporalEntity-10794 BoundedTemporalEntity-10655)
+
+(startsAfterStartingOf BoundedTemporalEntity-10855 BoundedTemporalEntity-10762)
+
+(startsAtSameTime BoundedTemporalEntity-10793 BoundedTemporalEntity-10792)
+
+(startsAtSameTime BoundedTemporalEntity-10840 BoundedTemporalEntity-10836)
+
+(startsAtSameTime BoundedTemporalEntity-10842 BoundedTemporalEntity-10838)
+
+(startsAtSameTime BoundedTemporalEntity-10872 BoundedTemporalEntity-10871)
+
+(startsBeforeStartingOf BoundedTemporalEntity-10712 BoundedTemporalEntity-10864)
+
+(unitOwner Unit-204 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10400 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ipoh))

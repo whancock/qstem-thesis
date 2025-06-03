@@ -1,0 +1,132 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Saidoon) (TemporalIntervalFn STEntity-542)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Saidoon) (TemporalIntervalFn STEntity-542)))
+((Area (AtFn (EndFn STEntity-542) STEntity-542)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-542) STEntity-542)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 8))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 8))
+
+((Defenders (AtFn (EndFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-542) STEntity-542)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-542) STEntity-542)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-542) STEntity-542)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-12228 BoundedTemporalEntity-12218)
+
+(aia-MI BoundedTemporalEntity-12233 BoundedTemporalEntity-12228)
+
+(aia-MI BoundedTemporalEntity-12254 BoundedTemporalEntity-12233)
+
+(aia-MI BoundedTemporalEntity-12314 BoundedTemporalEntity-12254)
+
+(aia-MI BoundedTemporalEntity-12315 BoundedTemporalEntity-12314)
+
+(aia-MI BoundedTemporalEntity-12318 BoundedTemporalEntity-12315)
+
+(aia-MI BoundedTemporalEntity-12346 BoundedTemporalEntity-12318)
+
+(aia-MI BoundedTemporalEntity-12372 BoundedTemporalEntity-12346)
+
+(aia-MI BoundedTemporalEntity-12565 BoundedTemporalEntity-12372)
+
+(aia-MI BoundedTemporalEntity-12625 BoundedTemporalEntity-12581)
+
+(aia-MI BoundedTemporalEntity-12644 BoundedTemporalEntity-12625)
+
+(aia-MI BoundedTemporalEntity-12655 BoundedTemporalEntity-12644)
+
+(aia-MI BoundedTemporalEntity-12671 BoundedTemporalEntity-12659)
+
+(cityOwner FC-City-Saidoon FC-Player-Agenor)
+
+(constantIn BoundedTemporalEntity-12219 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Saidoon))
+
+(constantIn BoundedTemporalEntity-12451 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-22491093))
+
+(constantIn BoundedTemporalEntity-12453 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-22491093))
+
+(constantIn BoundedTemporalEntity-12565 ((MeasurableQuantityFn citySize) FC-City-Saidoon))
+
+(constantIn BoundedTemporalEntity-12571 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-23133424))
+
+(constantIn BoundedTemporalEntity-12657 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-23538363))
+
+(currentActivity Unit-173 FC-ActivityFortifying)
+
+(currentActivity Unit-377 FC-ActivityFortifying)
+
+(currentActivity Unit-408 FC-ActivityFortified)
+
+(currentActivity Unit-412 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Saidoon (FreecivLocationFn 9 4))
+
+(fcObjectAt Unit-412 (FreecivLocationFn 9 4))
+
+(footprintOf FC-City-Saidoon CityFootprint-FC-City-Saidoon)
+
+(isa CityFootprint-FC-City-Saidoon CityFootprint)
+
+(isa FC-City-Saidoon FreeCiv-City)
+
+(isa STEntity-542 DefensiveEpisodeFailure)
+
+(isa STEntity-542 SpatiotemporalEvent)
+
+(isa Unit-173 FC-Unit-Archers)
+
+(isa Unit-377 FC-Unit-Catapult)
+
+(isa Unit-408 FC-Unit-Catapult)
+
+(isa Unit-412 FC-Unit-Phalanx)
+
+(isa UnitGroupFootprint-22491093 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-23133424 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-23336126 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-23538363 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-23588515 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12655 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-23133424))
+
+(nondecreasingIn BoundedTemporalEntity-12671 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-23538363))
+
+(startsAfterStartingOf BoundedTemporalEntity-12565 BoundedTemporalEntity-12219)
+
+(startsAfterStartingOf BoundedTemporalEntity-12565 BoundedTemporalEntity-12220)
+
+(startsAfterStartingOf BoundedTemporalEntity-12655 BoundedTemporalEntity-12571)
+
+(startsAfterStartingOf BoundedTemporalEntity-12671 BoundedTemporalEntity-12657)
+
+(startsAtSameTime BoundedTemporalEntity-12453 BoundedTemporalEntity-12451)
+
+(unitOwner Unit-173 FC-Player-GregorLusarovitch)
+
+(unitOwner Unit-377 FC-Player-GregorLusarovitch)
+
+(unitOwner Unit-408 FC-Player-GregorLusarovitch)
+
+(unitOwner Unit-412 FC-Player-GregorLusarovitch)
+
+(zeroIn BoundedTemporalEntity-12220 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Saidoon))

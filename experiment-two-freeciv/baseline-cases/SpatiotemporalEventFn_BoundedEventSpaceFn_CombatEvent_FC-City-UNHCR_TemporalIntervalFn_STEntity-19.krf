@@ -1,0 +1,84 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNHCR) (TemporalIntervalFn STEntity-19)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNHCR) (TemporalIntervalFn STEntity-19)))
+((Area (AtFn (EndFn STEntity-19) STEntity-19)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-19) STEntity-19)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-19) STEntity-19)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-19) STEntity-19)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-19) STEntity-19)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-19) STEntity-19)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-19) STEntity-19)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-19) STEntity-19)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-19) STEntity-19)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-19) STEntity-19)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-216 BoundedTemporalEntity-163)
+
+(aia-MI BoundedTemporalEntity-217 BoundedTemporalEntity-164)
+
+(aia-MI BoundedTemporalEntity-232 BoundedTemporalEntity-160)
+
+(aia-OI BoundedTemporalEntity-232 BoundedTemporalEntity-163)
+
+(aia-OI BoundedTemporalEntity-232 BoundedTemporalEntity-164)
+
+(cityOwner FC-City-UNHCR FC-Player-DarkDante)
+
+(constantIn BoundedTemporalEntity-139 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4670))
+
+(constantIn BoundedTemporalEntity-140 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4670))
+
+(constantIn BoundedTemporalEntity-161 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNHCR))
+
+(constantIn BoundedTemporalEntity-164 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNHCR))
+
+(currentActivity Unit-172 FC-ActivityIdle)
+
+(fcObjectAt FC-City-UNHCR (FreecivLocationFn 14 18))
+
+(fcObjectAt Unit-172 (FreecivLocationFn 14 18))
+
+(footprintOf FC-City-UNHCR CityFootprint-FC-City-UNHCR)
+
+(isa CityFootprint-FC-City-UNHCR CityFootprint)
+
+(isa FC-City-UNHCR FreeCiv-City)
+
+(isa STEntity-19 DefensiveEpisodeFailure)
+
+(isa STEntity-19 SpatiotemporalEvent)
+
+(isa Unit-172 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-4670 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-217 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNHCR))
+
+(nondecreasingIn BoundedTemporalEntity-232 ((MeasurableQuantityFn citySize) FC-City-UNHCR))
+
+(someIn BoundedTemporalEntity-216 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNHCR))
+
+(startsAfterStartingOf BoundedTemporalEntity-232 BoundedTemporalEntity-161)
+
+(startsAfterStartingOf BoundedTemporalEntity-232 BoundedTemporalEntity-162)
+
+(startsAfterStartingOf BoundedTemporalEntity-232 BoundedTemporalEntity-216)
+
+(startsAfterStartingOf BoundedTemporalEntity-232 BoundedTemporalEntity-217)
+
+(startsAtSameTime BoundedTemporalEntity-140 BoundedTemporalEntity-139)
+
+(unitOwner Unit-172 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-162 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNHCR))
+
+(zeroIn BoundedTemporalEntity-163 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNHCR))

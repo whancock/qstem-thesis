@@ -1,0 +1,156 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kohtla-Järve) (TemporalIntervalFn STEntity-296)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kohtla-Järve) (TemporalIntervalFn STEntity-296)))
+((Area (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 12))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 12))
+
+((Defenders (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-296) STEntity-296)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-296) STEntity-296)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6430 BoundedTemporalEntity-6385)
+
+(aia-MI BoundedTemporalEntity-6438 BoundedTemporalEntity-6430)
+
+(aia-MI BoundedTemporalEntity-6466 BoundedTemporalEntity-6438)
+
+(aia-MI BoundedTemporalEntity-6470 BoundedTemporalEntity-6466)
+
+(aia-MI BoundedTemporalEntity-6526 BoundedTemporalEntity-6470)
+
+(aia-MI BoundedTemporalEntity-6532 BoundedTemporalEntity-6526)
+
+(aia-MI BoundedTemporalEntity-6592 BoundedTemporalEntity-6532)
+
+(aia-MI BoundedTemporalEntity-6673 BoundedTemporalEntity-6592)
+
+(aia-MI BoundedTemporalEntity-6678 BoundedTemporalEntity-6666)
+
+(aia-MI BoundedTemporalEntity-6682 BoundedTemporalEntity-6667)
+
+(aia-MI BoundedTemporalEntity-6702 BoundedTemporalEntity-6678)
+
+(aia-MI BoundedTemporalEntity-6703 BoundedTemporalEntity-6682)
+
+(aia-MI BoundedTemporalEntity-6724 BoundedTemporalEntity-6715)
+
+(aia-MI BoundedTemporalEntity-6737 BoundedTemporalEntity-6673)
+
+(aia-MI BoundedTemporalEntity-6744 BoundedTemporalEntity-6731)
+
+(aia-MI BoundedTemporalEntity-6749 BoundedTemporalEntity-6744)
+
+(aia-MI BoundedTemporalEntity-6763 BoundedTemporalEntity-6700)
+
+(aia-MI BoundedTemporalEntity-6764 BoundedTemporalEntity-6702)
+
+(aia-MI BoundedTemporalEntity-6765 BoundedTemporalEntity-6760)
+
+(cityOwner FC-City-Kohtla-Järve FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6386 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kohtla-Järve))
+
+(constantIn BoundedTemporalEntity-6661 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3274343))
+
+(constantIn BoundedTemporalEntity-6662 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3274390))
+
+(constantIn BoundedTemporalEntity-6691 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3370507))
+
+(constantIn BoundedTemporalEntity-6712 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3432291))
+
+(constantIn BoundedTemporalEntity-6721 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3481127))
+
+(constantIn BoundedTemporalEntity-6723 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3481127))
+
+(constantIn BoundedTemporalEntity-6728 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3495523))
+
+(constantIn BoundedTemporalEntity-6757 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3648641))
+
+(currentActivity Unit-324 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kohtla-Järve (FreecivLocationFn 50 12))
+
+(fcObjectAt Unit-324 (FreecivLocationFn 50 12))
+
+(footprintOf FC-City-Kohtla-Järve CityFootprint-FC-City-Kohtla-Järve)
+
+(isa CityFootprint-FC-City-Kohtla-Järve CityFootprint)
+
+(isa FC-City-Kohtla-Järve FreeCiv-City)
+
+(isa STEntity-296 DefensiveEpisodeFailure)
+
+(isa STEntity-296 SpatiotemporalEvent)
+
+(isa Unit-324 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-3274343 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3274390 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3370507 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3432291 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3481127 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3495523 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-3648641 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6724 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3432291))
+
+(nondecreasingIn BoundedTemporalEntity-6763 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3370507))
+
+(nondecreasingIn BoundedTemporalEntity-6764 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3274343))
+
+(nondecreasingIn BoundedTemporalEntity-6765 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3648641))
+
+(nonincreasingIn BoundedTemporalEntity-6703 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3274390))
+
+(nonincreasingIn BoundedTemporalEntity-6737 ((MeasurableQuantityFn citySize) FC-City-Kohtla-Järve))
+
+(nonincreasingIn BoundedTemporalEntity-6749 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3495523))
+
+(startsAfterStartingOf BoundedTemporalEntity-6703 BoundedTemporalEntity-6662)
+
+(startsAfterStartingOf BoundedTemporalEntity-6724 BoundedTemporalEntity-6712)
+
+(startsAfterStartingOf BoundedTemporalEntity-6737 BoundedTemporalEntity-6386)
+
+(startsAfterStartingOf BoundedTemporalEntity-6737 BoundedTemporalEntity-6387)
+
+(startsAfterStartingOf BoundedTemporalEntity-6749 BoundedTemporalEntity-6728)
+
+(startsAfterStartingOf BoundedTemporalEntity-6763 BoundedTemporalEntity-6691)
+
+(startsAfterStartingOf BoundedTemporalEntity-6764 BoundedTemporalEntity-6661)
+
+(startsAfterStartingOf BoundedTemporalEntity-6765 BoundedTemporalEntity-6757)
+
+(startsAtSameTime BoundedTemporalEntity-6723 BoundedTemporalEntity-6721)
+
+(unitOwner Unit-324 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6387 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kohtla-Järve))

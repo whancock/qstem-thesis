@@ -1,0 +1,38 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Giron) (TemporalIntervalFn STEntity-204)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Giron) (TemporalIntervalFn STEntity-204)))
+(aia-MI BoundedTemporalEntity-5413 BoundedTemporalEntity-5378)
+
+(aia-MI BoundedTemporalEntity-5430 BoundedTemporalEntity-5413)
+
+(aia-MI BoundedTemporalEntity-5556 BoundedTemporalEntity-5430)
+
+(aia-MI BoundedTemporalEntity-5663 BoundedTemporalEntity-5556)
+
+(aia-MI BoundedTemporalEntity-5667 BoundedTemporalEntity-5663)
+
+(cityOwner FC-City-Giron FC-Player-C.G.E.Mannerheim)
+
+(constantIn BoundedTemporalEntity-5379 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Giron))
+
+(fcObjectAt FC-City-Giron (FreecivLocationFn 23 7))
+
+(fcObjectAt Unit-295 (FreecivLocationFn 23 7))
+
+(footprintOf FC-City-Giron CityFootprint-FC-City-Giron)
+
+(isa CityFootprint-FC-City-Giron CityFootprint)
+
+(isa FC-City-Giron FreeCiv-City)
+
+(isa STEntity-204 DefensiveEpisodeFailure)
+
+(isa STEntity-204 SpatiotemporalEvent)
+
+(nonincreasingIn BoundedTemporalEntity-5667 ((MeasurableQuantityFn citySize) FC-City-Giron))
+
+(startsAfterStartingOf BoundedTemporalEntity-5667 BoundedTemporalEntity-5379)
+
+(startsAfterStartingOf BoundedTemporalEntity-5667 BoundedTemporalEntity-5380)
+
+(zeroIn BoundedTemporalEntity-5380 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Giron))

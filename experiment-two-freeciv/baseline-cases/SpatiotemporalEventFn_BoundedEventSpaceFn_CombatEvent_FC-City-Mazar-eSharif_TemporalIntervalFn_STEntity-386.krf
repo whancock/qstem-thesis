@@ -1,0 +1,108 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mazar-eSharif) (TemporalIntervalFn STEntity-386)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mazar-eSharif) (TemporalIntervalFn STEntity-386)))
+((Area (AtFn (EndFn STEntity-386) STEntity-386)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-386) STEntity-386)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-386) STEntity-386)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-386) STEntity-386)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-386) STEntity-386)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-8633 BoundedTemporalEntity-8609)
+
+(aia-MI BoundedTemporalEntity-8635 BoundedTemporalEntity-8633)
+
+(aia-MI BoundedTemporalEntity-8681 BoundedTemporalEntity-8635)
+
+(aia-MI BoundedTemporalEntity-8682 BoundedTemporalEntity-8681)
+
+(aia-MI BoundedTemporalEntity-8762 BoundedTemporalEntity-8682)
+
+(aia-MI BoundedTemporalEntity-8838 BoundedTemporalEntity-8805)
+
+(aia-MI BoundedTemporalEntity-8840 BoundedTemporalEntity-8820)
+
+(cityOwner FC-City-Mazar-eSharif FC-Player-DaoudKhan)
+
+(constantIn BoundedTemporalEntity-8610 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mazar-eSharif))
+
+(constantIn BoundedTemporalEntity-8762 ((MeasurableQuantityFn citySize) FC-City-Mazar-eSharif))
+
+(constantIn BoundedTemporalEntity-8803 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7645028))
+
+(constantIn BoundedTemporalEntity-8817 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7706658))
+
+(constantIn BoundedTemporalEntity-8824 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7721534))
+
+(constantIn BoundedTemporalEntity-8827 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7721534))
+
+(currentActivity Unit-248 FC-ActivityIdle)
+
+(currentActivity Unit-250 FC-ActivityFortifying)
+
+(currentActivity Unit-279 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Mazar-eSharif (FreecivLocationFn 39 4))
+
+(fcObjectAt Unit-248 (FreecivLocationFn 39 4))
+
+(footprintOf FC-City-Mazar-eSharif CityFootprint-FC-City-Mazar-eSharif)
+
+(isa CityFootprint-FC-City-Mazar-eSharif CityFootprint)
+
+(isa FC-City-Mazar-eSharif FreeCiv-City)
+
+(isa STEntity-386 DefensiveEpisodeFailure)
+
+(isa STEntity-386 SpatiotemporalEvent)
+
+(isa Unit-248 FC-Unit-Archers)
+
+(isa Unit-250 FC-Unit-Archers)
+
+(isa Unit-279 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-7624368 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7645028 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7706658 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7721534 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-8838 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7645028))
+
+(nondecreasingIn BoundedTemporalEntity-8840 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7706658))
+
+(startsAfterStartingOf BoundedTemporalEntity-8762 BoundedTemporalEntity-8610)
+
+(startsAfterStartingOf BoundedTemporalEntity-8762 BoundedTemporalEntity-8611)
+
+(startsAfterStartingOf BoundedTemporalEntity-8838 BoundedTemporalEntity-8803)
+
+(startsAfterStartingOf BoundedTemporalEntity-8840 BoundedTemporalEntity-8817)
+
+(startsAtSameTime BoundedTemporalEntity-8827 BoundedTemporalEntity-8824)
+
+(unitOwner Unit-248 FC-Player-GuadalupeVictoria)
+
+(unitOwner Unit-250 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-8611 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mazar-eSharif))

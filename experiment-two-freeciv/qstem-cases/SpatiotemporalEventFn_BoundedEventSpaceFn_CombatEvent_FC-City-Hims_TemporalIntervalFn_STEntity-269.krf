@@ -1,0 +1,92 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Hims) (TemporalIntervalFn STEntity-269)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Hims) (TemporalIntervalFn STEntity-269)))
+((Area (AtFn (EndFn STEntity-269) STEntity-269)) (FreecivTileArea 53))
+
+((Area (AtFn (StartFn STEntity-269) STEntity-269)) (FreecivTileArea 53))
+
+((Defenders (AtFn (EndFn STEntity-269) STEntity-269)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-269) STEntity-269)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-269) STEntity-269)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-269) STEntity-269)) (FreecivUnitCountFn 4))
+
+((citySize (AtFn (EndFn STEntity-269) STEntity-269)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-269) STEntity-269)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-14839 BoundedTemporalEntity-14835)
+
+(aia-MI BoundedTemporalEntity-14857 BoundedTemporalEntity-14839)
+
+(aia-MI BoundedTemporalEntity-14866 BoundedTemporalEntity-14855)
+
+(aia-MI BoundedTemporalEntity-14867 BoundedTemporalEntity-14855)
+
+(aia-MI BoundedTemporalEntity-14867 BoundedTemporalEntity-14856)
+
+(aia-MI BoundedTemporalEntity-14869 BoundedTemporalEntity-14866)
+
+(aia-MI BoundedTemporalEntity-14870 BoundedTemporalEntity-14857)
+
+(aia-MI BoundedTemporalEntity-14872 BoundedTemporalEntity-14870)
+
+(aia-MI BoundedTemporalEntity-14873 BoundedTemporalEntity-14872)
+
+(aia-SI BoundedTemporalEntity-14867 BoundedTemporalEntity-14866)
+
+(cityOwner FC-City-Hims FC-Player-JohanDeWitt)
+
+(constantIn BoundedTemporalEntity-14836 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Hims))
+
+(constantIn BoundedTemporalEntity-14855 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-240102))
+
+(currentActivity Unit-169 FC-ActivityFortifying)
+
+(currentActivity Unit-178 FC-ActivityIdle)
+
+(defenseBonus FC-City-Hims 0)
+
+(fcObjectAt FC-City-Hims (FreecivLocationFn 8 13))
+
+(fcObjectAt Unit-178 (FreecivLocationFn 8 13))
+
+(footprintOf FC-City-Hims CityFootprint-FC-City-Hims)
+
+(isa CityFootprint-FC-City-Hims CityFootprint)
+
+(isa FC-City-Hims FreeCiv-City)
+
+(isa STEntity-269 DefensiveEpisodeFailure)
+
+(isa STEntity-269 SpatiotemporalEvent)
+
+(isa Unit-169 FC-Unit-Chariot)
+
+(isa Unit-178 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-240102 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-14866 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-240102))
+
+(nondecreasingIn BoundedTemporalEntity-14867 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-240102))
+
+(nondecreasingIn BoundedTemporalEntity-14873 ((MeasurableQuantityFn citySize) FC-City-Hims))
+
+(nonincreasingIn BoundedTemporalEntity-14869 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-240102))
+
+(startsAfterStartingOf BoundedTemporalEntity-14873 BoundedTemporalEntity-14836)
+
+(startsAfterStartingOf BoundedTemporalEntity-14873 BoundedTemporalEntity-14837)
+
+(startsBeforeStartingOf BoundedTemporalEntity-14867 BoundedTemporalEntity-14869)
+
+(terrainAt (FreecivLocationFn 8 13) FC-Terrain-Plains)
+
+(unitOwner Unit-169 FC-Player-JohanDeWitt)
+
+(unitOwner Unit-178 FC-Player-JohanDeWitt)
+
+(zeroIn BoundedTemporalEntity-14837 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Hims))

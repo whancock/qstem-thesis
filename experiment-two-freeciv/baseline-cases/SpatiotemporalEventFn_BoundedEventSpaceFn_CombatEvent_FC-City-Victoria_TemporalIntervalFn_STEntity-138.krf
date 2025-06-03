@@ -1,0 +1,70 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Victoria) (TemporalIntervalFn STEntity-138)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Victoria) (TemporalIntervalFn STEntity-138)))
+((Area (AtFn (EndFn STEntity-138) STEntity-138)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-138) STEntity-138)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-138) STEntity-138)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-138) STEntity-138)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-138) STEntity-138)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-138) STEntity-138)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-138) STEntity-138)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-138) STEntity-138)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-138) STEntity-138)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-138) STEntity-138)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-4909 BoundedTemporalEntity-4877)
+
+(aia-MI BoundedTemporalEntity-4910 BoundedTemporalEntity-4909)
+
+(aia-MI BoundedTemporalEntity-4940 BoundedTemporalEntity-4910)
+
+(aia-MI BoundedTemporalEntity-4943 BoundedTemporalEntity-4940)
+
+(cityOwner FC-City-Victoria FC-Player-BrianMulroney)
+
+(constantIn BoundedTemporalEntity-4879 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(constantIn BoundedTemporalEntity-4943 ((MeasurableQuantityFn citySize) FC-City-Victoria))
+
+(constantIn BoundedTemporalEntity-4994 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-694605))
+
+(constantIn BoundedTemporalEntity-4995 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-694605))
+
+(currentActivity Unit-156 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Victoria (FreecivLocationFn 5 15))
+
+(fcObjectAt Unit-156 (FreecivLocationFn 5 15))
+
+(footprintOf FC-City-Victoria CityFootprint-FC-City-Victoria)
+
+(isa CityFootprint-FC-City-Victoria CityFootprint)
+
+(isa FC-City-Victoria FreeCiv-City)
+
+(isa STEntity-138 DefensiveEpisodeFailure)
+
+(isa STEntity-138 SpatiotemporalEvent)
+
+(isa Unit-156 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-694605 UnitGroupFootprint)
+
+(startsAfterStartingOf BoundedTemporalEntity-4943 BoundedTemporalEntity-4879)
+
+(startsAfterStartingOf BoundedTemporalEntity-4943 BoundedTemporalEntity-4880)
+
+(startsAtSameTime BoundedTemporalEntity-4995 BoundedTemporalEntity-4994)
+
+(unitOwner Unit-156 FC-Player-JagatMalla)
+
+(zeroIn BoundedTemporalEntity-4880 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))

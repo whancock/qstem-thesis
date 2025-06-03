@@ -1,0 +1,74 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tongi) (TemporalIntervalFn STEntity-453)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Tongi) (TemporalIntervalFn STEntity-453)))
+((Area (AtFn (EndFn STEntity-453) STEntity-453)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-453) STEntity-453)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-453) STEntity-453)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-453) STEntity-453)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-453) STEntity-453)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-453) STEntity-453)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-453) STEntity-453)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-453) STEntity-453)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-453) STEntity-453)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-453) STEntity-453)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-10255 BoundedTemporalEntity-10230)
+
+(aia-MI BoundedTemporalEntity-10300 BoundedTemporalEntity-10293)
+
+(cityOwner FC-City-Tongi FC-Player-TomasZumalakarregiImaz)
+
+(constantIn BoundedTemporalEntity-10231 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tongi))
+
+(constantIn BoundedTemporalEntity-10291 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11556487))
+
+(constantIn BoundedTemporalEntity-10298 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11569206))
+
+(constantIn BoundedTemporalEntity-10299 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11569206))
+
+(currentActivity Unit-206 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Tongi (FreecivLocationFn 37 21))
+
+(fcObjectAt Unit-206 (FreecivLocationFn 37 21))
+
+(footprintOf FC-City-Tongi CityFootprint-FC-City-Tongi)
+
+(isa CityFootprint-FC-City-Tongi CityFootprint)
+
+(isa FC-City-Tongi FreeCiv-City)
+
+(isa STEntity-453 DefensiveEpisodeFailure)
+
+(isa STEntity-453 SpatiotemporalEvent)
+
+(isa Unit-206 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-11556487 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-11569206 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10255 ((MeasurableQuantityFn citySize) FC-City-Tongi))
+
+(nonincreasingIn BoundedTemporalEntity-10300 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11556487))
+
+(startsAfterStartingOf BoundedTemporalEntity-10255 BoundedTemporalEntity-10231)
+
+(startsAfterStartingOf BoundedTemporalEntity-10255 BoundedTemporalEntity-10232)
+
+(startsAfterStartingOf BoundedTemporalEntity-10300 BoundedTemporalEntity-10291)
+
+(startsAtSameTime BoundedTemporalEntity-10299 BoundedTemporalEntity-10298)
+
+(unitOwner Unit-206 FC-Player-TomasZumalakarregiImaz)
+
+(zeroIn BoundedTemporalEntity-10232 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Tongi))

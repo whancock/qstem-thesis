@@ -1,0 +1,102 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Valletta) (TemporalIntervalFn STEntity-157)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Valletta) (TemporalIntervalFn STEntity-157)))
+((Area (AtFn (EndFn STEntity-157) STEntity-157)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-157) STEntity-157)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-157) STEntity-157)) (FreecivUnitCountFn 4))
+
+((citySize (AtFn (EndFn STEntity-157) STEntity-157)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-157) STEntity-157)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-5108 BoundedTemporalEntity-5090)
+
+(aia-MI BoundedTemporalEntity-5141 BoundedTemporalEntity-5108)
+
+(aia-MI BoundedTemporalEntity-5153 BoundedTemporalEntity-5141)
+
+(aia-MI BoundedTemporalEntity-5222 BoundedTemporalEntity-5153)
+
+(aia-MI BoundedTemporalEntity-5241 BoundedTemporalEntity-5222)
+
+(aia-MI BoundedTemporalEntity-5273 BoundedTemporalEntity-5266)
+
+(aia-MI BoundedTemporalEntity-5278 BoundedTemporalEntity-5273)
+
+(aia-MI BoundedTemporalEntity-5296 BoundedTemporalEntity-5278)
+
+(aia-MI BoundedTemporalEntity-5299 BoundedTemporalEntity-5291)
+
+(cityOwner FC-City-Valletta FC-Player-RobertDeSable)
+
+(constantIn BoundedTemporalEntity-5091 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valletta))
+
+(constantIn BoundedTemporalEntity-5260 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-874800))
+
+(constantIn BoundedTemporalEntity-5282 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-888839))
+
+(constantIn BoundedTemporalEntity-5283 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-888889))
+
+(constantIn BoundedTemporalEntity-5290 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-888839))
+
+(currentActivity Unit-206 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Valletta (FreecivLocationFn 36 6))
+
+(fcObjectAt Unit-206 (FreecivLocationFn 36 6))
+
+(footprintOf FC-City-Valletta CityFootprint-FC-City-Valletta)
+
+(isa CityFootprint-FC-City-Valletta CityFootprint)
+
+(isa FC-City-Valletta FreeCiv-City)
+
+(isa STEntity-157 DefensiveEpisodeFailure)
+
+(isa STEntity-157 SpatiotemporalEvent)
+
+(isa Unit-206 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-888839 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-888889 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5241 ((MeasurableQuantityFn citySize) FC-City-Valletta))
+
+(nondecreasingIn BoundedTemporalEntity-5296 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-874800))
+
+(nondecreasingIn BoundedTemporalEntity-5299 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-888889))
+
+(startsAfterStartingOf BoundedTemporalEntity-5241 BoundedTemporalEntity-5091)
+
+(startsAfterStartingOf BoundedTemporalEntity-5241 BoundedTemporalEntity-5092)
+
+(startsAfterStartingOf BoundedTemporalEntity-5296 BoundedTemporalEntity-5260)
+
+(startsAfterStartingOf BoundedTemporalEntity-5299 BoundedTemporalEntity-5283)
+
+(startsAtSameTime BoundedTemporalEntity-5290 BoundedTemporalEntity-5282)
+
+(unitOwner Unit-206 FC-Player-RobertDeSable)
+
+(zeroIn BoundedTemporalEntity-5092 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Valletta))

@@ -1,0 +1,114 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Garesavvon) (TemporalIntervalFn STEntity-215)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Garesavvon) (TemporalIntervalFn STEntity-215)))
+((Area (AtFn (EndFn STEntity-215) STEntity-215)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-215) STEntity-215)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-215) STEntity-215)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Garesavvon)
+
+((citySize (AtFn (EndFn STEntity-215) STEntity-215)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-215) STEntity-215)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5507 BoundedTemporalEntity-5442)
+
+(aia-MI BoundedTemporalEntity-5540 BoundedTemporalEntity-5507)
+
+(aia-MI BoundedTemporalEntity-5587 BoundedTemporalEntity-5540)
+
+(aia-MI BoundedTemporalEntity-5623 BoundedTemporalEntity-5587)
+
+(aia-MI BoundedTemporalEntity-5679 BoundedTemporalEntity-5623)
+
+(aia-MI BoundedTemporalEntity-5697 BoundedTemporalEntity-5679)
+
+(aia-MI BoundedTemporalEntity-5724 BoundedTemporalEntity-5697)
+
+(aia-MI BoundedTemporalEntity-5782 BoundedTemporalEntity-5768)
+
+(cityOwner FC-City-Garesavvon FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5443 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Garesavvon))
+
+(constantIn BoundedTemporalEntity-5763 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1521985))
+
+(constantIn BoundedTemporalEntity-5764 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1521990))
+
+(constantIn BoundedTemporalEntity-5767 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1521985))
+
+(constantIn BoundedTemporalEntity-5787 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1544933))
+
+(constantIn BoundedTemporalEntity-5791 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1544933))
+
+(constantIn BoundedTemporalEntity-5796 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1559303))
+
+(constantIn BoundedTemporalEntity-5798 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1559303))
+
+(currentActivity Unit-309 FC-ActivityIdle)
+
+(currentActivity Unit-313 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Garesavvon (FreecivLocationFn 38 12))
+
+(fcObjectAt Unit-309 (FreecivLocationFn 38 12))
+
+(footprintOf FC-City-Garesavvon CityFootprint-FC-City-Garesavvon)
+
+(isa CityFootprint-FC-City-Garesavvon CityFootprint)
+
+(isa FC-City-Garesavvon FreeCiv-City)
+
+(isa STEntity-215 DefensiveEpisodeFailure)
+
+(isa STEntity-215 SpatiotemporalEvent)
+
+(isa Unit-309 FC-Unit-Catapult)
+
+(isa Unit-313 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1521985 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1521990 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1544933 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-1559303 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5782 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1521990))
+
+(nonincreasingIn BoundedTemporalEntity-5724 ((MeasurableQuantityFn citySize) FC-City-Garesavvon))
+
+(startsAfterStartingOf BoundedTemporalEntity-5724 BoundedTemporalEntity-5443)
+
+(startsAfterStartingOf BoundedTemporalEntity-5724 BoundedTemporalEntity-5444)
+
+(startsAfterStartingOf BoundedTemporalEntity-5782 BoundedTemporalEntity-5764)
+
+(startsAtSameTime BoundedTemporalEntity-5767 BoundedTemporalEntity-5763)
+
+(startsAtSameTime BoundedTemporalEntity-5791 BoundedTemporalEntity-5787)
+
+(startsAtSameTime BoundedTemporalEntity-5798 BoundedTemporalEntity-5796)
+
+(unitOwner Unit-309 FC-Player-Shulgi)
+
+(unitOwner Unit-313 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5444 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Garesavvon))

@@ -1,0 +1,98 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kraków) (TemporalIntervalFn STEntity-360)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kraków) (TemporalIntervalFn STEntity-360)))
+((Area (AtFn (EndFn STEntity-360) STEntity-360)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-360) STEntity-360)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-360) STEntity-360)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-360) STEntity-360)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-360) STEntity-360)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7507 BoundedTemporalEntity-7475)
+
+(aia-MI BoundedTemporalEntity-7525 BoundedTemporalEntity-7507)
+
+(aia-MI BoundedTemporalEntity-7536 BoundedTemporalEntity-7525)
+
+(aia-MI BoundedTemporalEntity-7586 BoundedTemporalEntity-7536)
+
+(aia-MI BoundedTemporalEntity-7593 BoundedTemporalEntity-7586)
+
+(aia-MI BoundedTemporalEntity-7656 BoundedTemporalEntity-7589)
+
+(aia-MI BoundedTemporalEntity-7675 BoundedTemporalEntity-7656)
+
+(aia-MI BoundedTemporalEntity-7676 BoundedTemporalEntity-7583)
+
+(cityOwner FC-City-Kraków FC-Player-RajendraCholaII)
+
+(constantIn BoundedTemporalEntity-7476 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kraków))
+
+(constantIn BoundedTemporalEntity-7582 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4562262))
+
+(constantIn BoundedTemporalEntity-7587 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4588993))
+
+(constantIn BoundedTemporalEntity-7595 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4623699))
+
+(constantIn BoundedTemporalEntity-7597 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4623699))
+
+(currentActivity Unit-218 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kraków (FreecivLocationFn 21 24))
+
+(fcObjectAt Unit-218 (FreecivLocationFn 21 24))
+
+(footprintOf FC-City-Kraków CityFootprint-FC-City-Kraków)
+
+(isa CityFootprint-FC-City-Kraków CityFootprint)
+
+(isa FC-City-Kraków FreeCiv-City)
+
+(isa STEntity-360 DefensiveEpisodeFailure)
+
+(isa STEntity-360 SpatiotemporalEvent)
+
+(isa Unit-218 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-4562262 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4588993 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4623699 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7593 ((MeasurableQuantityFn citySize) FC-City-Kraków))
+
+(nondecreasingIn BoundedTemporalEntity-7676 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4562262))
+
+(nonincreasingIn BoundedTemporalEntity-7675 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4588993))
+
+(startsAfterStartingOf BoundedTemporalEntity-7593 BoundedTemporalEntity-7476)
+
+(startsAfterStartingOf BoundedTemporalEntity-7593 BoundedTemporalEntity-7477)
+
+(startsAfterStartingOf BoundedTemporalEntity-7675 BoundedTemporalEntity-7587)
+
+(startsAfterStartingOf BoundedTemporalEntity-7676 BoundedTemporalEntity-7582)
+
+(startsAtSameTime BoundedTemporalEntity-7597 BoundedTemporalEntity-7595)
+
+(unitOwner Unit-218 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7477 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kraków))

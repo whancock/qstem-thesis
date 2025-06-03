@@ -1,0 +1,74 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-GrandBay) (TemporalIntervalFn STEntity-159)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-GrandBay) (TemporalIntervalFn STEntity-159)))
+((Area (AtFn (EndFn STEntity-159) STEntity-159)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-159) STEntity-159)) (FreecivTileArea 22))
+
+((Defenders (AtFn (EndFn STEntity-159) STEntity-159)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-159) STEntity-159)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-159) STEntity-159)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-159) STEntity-159)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-159) STEntity-159)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-159) STEntity-159)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-8026 BoundedTemporalEntity-8020)
+
+(aia-MI BoundedTemporalEntity-8051 BoundedTemporalEntity-8026)
+
+(aia-MI BoundedTemporalEntity-8064 BoundedTemporalEntity-8057)
+
+(aia-MI BoundedTemporalEntity-8067 BoundedTemporalEntity-8056)
+
+(aia-OI BoundedTemporalEntity-8064 BoundedTemporalEntity-8056)
+
+(cityOwner FC-City-GrandBay FC-Player-Mansur)
+
+(constantIn BoundedTemporalEntity-8021 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GrandBay))
+
+(constantIn BoundedTemporalEntity-8056 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(currentActivity Unit-190 FC-ActivityIdle)
+
+(defenseBonus FC-City-GrandBay 0)
+
+(fcObjectAt FC-City-GrandBay (FreecivLocationFn 0 29))
+
+(fcObjectAt Unit-190 (FreecivLocationFn 0 29))
+
+(footprintOf FC-City-GrandBay CityFootprint-FC-City-GrandBay)
+
+(isa CityFootprint-FC-City-GrandBay CityFootprint)
+
+(isa FC-City-GrandBay FreeCiv-City)
+
+(isa STEntity-159 DefensiveEpisodeFailure)
+
+(isa STEntity-159 SpatiotemporalEvent)
+
+(isa Unit-190 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-133870 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-8064 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-133870))
+
+(nonincreasingIn BoundedTemporalEntity-8051 ((MeasurableQuantityFn citySize) FC-City-GrandBay))
+
+(nonincreasingIn BoundedTemporalEntity-8067 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-133870))
+
+(startsAfterStartingOf BoundedTemporalEntity-8051 BoundedTemporalEntity-8021)
+
+(startsAfterStartingOf BoundedTemporalEntity-8051 BoundedTemporalEntity-8022)
+
+(startsBeforeStartingOf BoundedTemporalEntity-8064 BoundedTemporalEntity-8067)
+
+(terrainAt (FreecivLocationFn 0 29) FC-Terrain-Plains)
+
+(unitOwner Unit-190 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-8022 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-GrandBay))

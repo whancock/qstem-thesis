@@ -1,0 +1,64 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chittagong) (TemporalIntervalFn STEntity-232)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chittagong) (TemporalIntervalFn STEntity-232)))
+((Area (AtFn (EndFn STEntity-232) STEntity-232)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-232) STEntity-232)) (FreecivTileArea 22))
+
+((Defenders (AtFn (EndFn STEntity-232) STEntity-232)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-232) STEntity-232)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-232) STEntity-232)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-232) STEntity-232)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-232) STEntity-232)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-232) STEntity-232)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-12397 BoundedTemporalEntity-12390)
+
+(cityOwner FC-City-Chittagong FC-Player-TomasZumalakarregiImaz)
+
+(constantIn BoundedTemporalEntity-12391 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chittagong))
+
+(constantIn BoundedTemporalEntity-12398 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-203599))
+
+(constantIn BoundedTemporalEntity-12399 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-203599))
+
+(currentActivity Unit-161 FC-ActivityIdle)
+
+(defenseBonus FC-City-Chittagong 0)
+
+(fcObjectAt FC-City-Chittagong (FreecivLocationFn 38 28))
+
+(fcObjectAt Unit-161 (FreecivLocationFn 38 28))
+
+(footprintOf FC-City-Chittagong CityFootprint-FC-City-Chittagong)
+
+(isa CityFootprint-FC-City-Chittagong CityFootprint)
+
+(isa FC-City-Chittagong FreeCiv-City)
+
+(isa STEntity-232 DefensiveEpisodeFailure)
+
+(isa STEntity-232 SpatiotemporalEvent)
+
+(isa Unit-161 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-203599 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12397 ((MeasurableQuantityFn citySize) FC-City-Chittagong))
+
+(startsAfterStartingOf BoundedTemporalEntity-12397 BoundedTemporalEntity-12391)
+
+(startsAfterStartingOf BoundedTemporalEntity-12397 BoundedTemporalEntity-12392)
+
+(startsAtSameTime BoundedTemporalEntity-12399 BoundedTemporalEntity-12398)
+
+(terrainAt (FreecivLocationFn 38 28) FC-Terrain-Grassland)
+
+(unitOwner Unit-161 FC-Player-TomasZumalakarregiImaz)
+
+(zeroIn BoundedTemporalEntity-12392 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chittagong))

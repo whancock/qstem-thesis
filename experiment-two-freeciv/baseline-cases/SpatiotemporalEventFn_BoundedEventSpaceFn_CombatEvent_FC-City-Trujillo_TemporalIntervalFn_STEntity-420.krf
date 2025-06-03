@@ -1,0 +1,62 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Trujillo) (TemporalIntervalFn STEntity-420)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Trujillo) (TemporalIntervalFn STEntity-420)))
+((Area (AtFn (EndFn STEntity-420) STEntity-420)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-420) STEntity-420)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-420) STEntity-420)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-420) STEntity-420)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-420) STEntity-420)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-420) STEntity-420)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-420) STEntity-420)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-420) STEntity-420)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-420) STEntity-420)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-420) STEntity-420)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Trujillo FC-Player-ManuelA.Odría)
+
+(constantIn BoundedTemporalEntity-9495 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9552637))
+
+(constantIn BoundedTemporalEntity-9496 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9552637))
+
+(constantIn BoundedTemporalEntity-9502 ((MeasurableQuantityFn citySize) FC-City-Trujillo))
+
+(constantIn BoundedTemporalEntity-9503 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Trujillo))
+
+(currentActivity Unit-181 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Trujillo (FreecivLocationFn 8 23))
+
+(fcObjectAt Unit-181 (FreecivLocationFn 8 23))
+
+(footprintOf FC-City-Trujillo CityFootprint-FC-City-Trujillo)
+
+(isa CityFootprint-FC-City-Trujillo CityFootprint)
+
+(isa FC-City-Trujillo FreeCiv-City)
+
+(isa STEntity-420 DefensiveEpisodeFailure)
+
+(isa STEntity-420 SpatiotemporalEvent)
+
+(isa Unit-181 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-9552637 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-9496 BoundedTemporalEntity-9495)
+
+(startsAtSameTime BoundedTemporalEntity-9502 BoundedTemporalEntity-9503)
+
+(startsAtSameTime BoundedTemporalEntity-9502 BoundedTemporalEntity-9504)
+
+(unitOwner Unit-181 FC-Player-WangKon)
+
+(zeroIn BoundedTemporalEntity-9504 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Trujillo))

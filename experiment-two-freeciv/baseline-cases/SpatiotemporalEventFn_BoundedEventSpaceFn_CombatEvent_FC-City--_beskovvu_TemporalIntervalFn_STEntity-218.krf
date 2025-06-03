@@ -1,0 +1,66 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ã?beskovvu) (TemporalIntervalFn STEntity-218)), dumped 5/23/2025 14:18:44 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Ã?beskovvu) (TemporalIntervalFn STEntity-218)))
+((Area (AtFn (EndFn STEntity-218) STEntity-218)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-218) STEntity-218)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-218) STEntity-218)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-218) STEntity-218)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-218) STEntity-218)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-218) STEntity-218)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-218) STEntity-218)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-218) STEntity-218)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-218) STEntity-218)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-218) STEntity-218)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5673 BoundedTemporalEntity-5611)
+
+(aia-MI BoundedTemporalEntity-5710 BoundedTemporalEntity-5673)
+
+(cityOwner FC-City-Ã?beskovvu FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5612 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ã?beskovvu))
+
+(constantIn BoundedTemporalEntity-5639 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1332739))
+
+(constantIn BoundedTemporalEntity-5641 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1332739))
+
+(currentActivity Unit-273 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Ã?beskovvu (FreecivLocationFn 20 8))
+
+(fcObjectAt Unit-273 (FreecivLocationFn 20 8))
+
+(footprintOf FC-City-Ã?beskovvu CityFootprint-FC-City-Ã?beskovvu)
+
+(isa CityFootprint-FC-City-Ã?beskovvu CityFootprint)
+
+(isa FC-City-Ã?beskovvu FreeCiv-City)
+
+(isa STEntity-218 DefensiveEpisodeFailure)
+
+(isa STEntity-218 SpatiotemporalEvent)
+
+(isa Unit-273 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1332739 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-5710 ((MeasurableQuantityFn citySize) FC-City-Ã?beskovvu))
+
+(startsAfterStartingOf BoundedTemporalEntity-5710 BoundedTemporalEntity-5612)
+
+(startsAfterStartingOf BoundedTemporalEntity-5710 BoundedTemporalEntity-5613)
+
+(startsAtSameTime BoundedTemporalEntity-5641 BoundedTemporalEntity-5639)
+
+(unitOwner Unit-273 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5613 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Ã?beskovvu))

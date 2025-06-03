@@ -1,0 +1,54 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Bamako) (TemporalIntervalFn STEntity-92)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Bamako) (TemporalIntervalFn STEntity-92)))
+((Area (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-92) STEntity-92)) (FreecivTileArea 1))
+
+((Defenders (AtFn (EndFn STEntity-92) STEntity-92)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-92) STEntity-92)) (FreecivUnitCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3197 BoundedTemporalEntity-3133)
+
+(aia-MI BoundedTemporalEntity-3198 BoundedTemporalEntity-3197)
+
+(aia-MI BoundedTemporalEntity-3250 BoundedTemporalEntity-3198)
+
+(aia-MI BoundedTemporalEntity-3271 BoundedTemporalEntity-3265)
+
+(aia-MI BoundedTemporalEntity-3283 BoundedTemporalEntity-3271)
+
+(aia-MI BoundedTemporalEntity-3318 BoundedTemporalEntity-3283)
+
+(cityOwner FC-City-Bamako FC-Player-VasileLupu)
+
+(constantIn BoundedTemporalEntity-3134 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))
+
+(constantIn BoundedTemporalEntity-3250 ((MeasurableQuantityFn citySize) FC-City-Bamako))
+
+(constantIn BoundedTemporalEntity-3262 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-208326))
+
+(fcObjectAt FC-City-Bamako (FreecivLocationFn 9 27))
+
+(footprintOf FC-City-Bamako CityFootprint-FC-City-Bamako)
+
+(isa CityFootprint-FC-City-Bamako CityFootprint)
+
+(isa FC-City-Bamako FreeCiv-City)
+
+(isa STEntity-92 DefensiveEpisodeFailure)
+
+(isa STEntity-92 SpatiotemporalEvent)
+
+(isa UnitGroupFootprint-208326 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-3318 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-208326))
+
+(startsAfterStartingOf BoundedTemporalEntity-3250 BoundedTemporalEntity-3134)
+
+(startsAfterStartingOf BoundedTemporalEntity-3250 BoundedTemporalEntity-3135)
+
+(startsAfterStartingOf BoundedTemporalEntity-3318 BoundedTemporalEntity-3262)
+
+(zeroIn BoundedTemporalEntity-3135 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bamako))

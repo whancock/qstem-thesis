@@ -1,0 +1,82 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Piura) (TemporalIntervalFn STEntity-442)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Piura) (TemporalIntervalFn STEntity-442)))
+((Area (AtFn (EndFn STEntity-442) STEntity-442)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-442) STEntity-442)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-442) STEntity-442)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-442) STEntity-442)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-442) STEntity-442)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-442) STEntity-442)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-442) STEntity-442)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-442) STEntity-442)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-442) STEntity-442)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-442) STEntity-442)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-9500 BoundedTemporalEntity-9484)
+
+(aia-MI BoundedTemporalEntity-9518 BoundedTemporalEntity-9500)
+
+(aia-MI BoundedTemporalEntity-9566 BoundedTemporalEntity-9518)
+
+(aia-MI BoundedTemporalEntity-9655 BoundedTemporalEntity-9566)
+
+(aia-MI BoundedTemporalEntity-9662 BoundedTemporalEntity-9655)
+
+(aia-MI BoundedTemporalEntity-9780 BoundedTemporalEntity-9662)
+
+(cityOwner FC-City-Piura FC-Player-Sukarno)
+
+(constantIn BoundedTemporalEntity-9485 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Piura))
+
+(constantIn BoundedTemporalEntity-9702 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10694029))
+
+(constantIn BoundedTemporalEntity-9711 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10694029))
+
+(constantIn BoundedTemporalEntity-9774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10969710))
+
+(constantIn BoundedTemporalEntity-9778 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10969710))
+
+(currentActivity Unit-232 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Piura (FreecivLocationFn 14 22))
+
+(fcObjectAt Unit-232 (FreecivLocationFn 14 22))
+
+(footprintOf FC-City-Piura CityFootprint-FC-City-Piura)
+
+(isa CityFootprint-FC-City-Piura CityFootprint)
+
+(isa FC-City-Piura FreeCiv-City)
+
+(isa STEntity-442 DefensiveEpisodeFailure)
+
+(isa STEntity-442 SpatiotemporalEvent)
+
+(isa Unit-232 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-10694029 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10969710 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-9780 ((MeasurableQuantityFn citySize) FC-City-Piura))
+
+(startsAfterStartingOf BoundedTemporalEntity-9780 BoundedTemporalEntity-9485)
+
+(startsAfterStartingOf BoundedTemporalEntity-9780 BoundedTemporalEntity-9486)
+
+(startsAtSameTime BoundedTemporalEntity-9711 BoundedTemporalEntity-9702)
+
+(startsAtSameTime BoundedTemporalEntity-9778 BoundedTemporalEntity-9774)
+
+(unitOwner Unit-232 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-9486 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Piura))

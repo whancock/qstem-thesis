@@ -1,0 +1,88 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Apia) (TemporalIntervalFn STEntity-65)), dumped 5/23/2025 14:18:44 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Apia) (TemporalIntervalFn STEntity-65)))
+((Area (AtFn (EndFn STEntity-65) STEntity-65)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-65) STEntity-65)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-65) STEntity-65)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-65) STEntity-65)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-65) STEntity-65)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-65) STEntity-65)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-65) STEntity-65)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-65) STEntity-65)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-65) STEntity-65)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-65) STEntity-65)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-2528 BoundedTemporalEntity-2499)
+
+(aia-MI BoundedTemporalEntity-2531 BoundedTemporalEntity-2528)
+
+(aia-MI BoundedTemporalEntity-2560 BoundedTemporalEntity-2531)
+
+(aia-MI BoundedTemporalEntity-2576 BoundedTemporalEntity-2560)
+
+(aia-MI BoundedTemporalEntity-2653 BoundedTemporalEntity-2576)
+
+(cityOwner FC-City-Apia FC-Player-UNu)
+
+(constantIn BoundedTemporalEntity-2500 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Apia))
+
+(constantIn BoundedTemporalEntity-2606 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-136054))
+
+(constantIn BoundedTemporalEntity-2607 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-136054))
+
+(constantIn BoundedTemporalEntity-2608 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-136524))
+
+(constantIn BoundedTemporalEntity-2609 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-136524))
+
+(constantIn BoundedTemporalEntity-2635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-139977))
+
+(constantIn BoundedTemporalEntity-2637 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-139977))
+
+(currentActivity Unit-181 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Apia (FreecivLocationFn 39 5))
+
+(fcObjectAt Unit-181 (FreecivLocationFn 39 5))
+
+(footprintOf FC-City-Apia CityFootprint-FC-City-Apia)
+
+(isa CityFootprint-FC-City-Apia CityFootprint)
+
+(isa FC-City-Apia FreeCiv-City)
+
+(isa STEntity-65 DefensiveEpisodeFailure)
+
+(isa STEntity-65 SpatiotemporalEvent)
+
+(isa Unit-181 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-136054 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-136524 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-139977 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-2653 ((MeasurableQuantityFn citySize) FC-City-Apia))
+
+(startsAfterStartingOf BoundedTemporalEntity-2653 BoundedTemporalEntity-2500)
+
+(startsAfterStartingOf BoundedTemporalEntity-2653 BoundedTemporalEntity-2501)
+
+(startsAtSameTime BoundedTemporalEntity-2607 BoundedTemporalEntity-2606)
+
+(startsAtSameTime BoundedTemporalEntity-2609 BoundedTemporalEntity-2608)
+
+(startsAtSameTime BoundedTemporalEntity-2637 BoundedTemporalEntity-2635)
+
+(unitOwner Unit-181 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-2501 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Apia))

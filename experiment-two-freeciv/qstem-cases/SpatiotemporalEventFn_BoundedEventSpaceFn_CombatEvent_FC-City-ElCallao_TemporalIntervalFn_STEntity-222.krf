@@ -1,0 +1,152 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-ElCallao) (TemporalIntervalFn STEntity-222)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-ElCallao) (TemporalIntervalFn STEntity-222)))
+((Area (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivTileArea 38))
+
+((Area (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivTileArea 8))
+
+((Area (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivTileArea 96))
+
+((Area (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivTileArea 38))
+
+((Area (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivTileArea 96))
+
+((Defenders (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivUnitCountFn 4))
+
+((citySize (AtFn (EndFn STEntity-222) STEntity-222)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-222) STEntity-222)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-11431 BoundedTemporalEntity-11437)
+
+(aia-MI BoundedTemporalEntity-11318 BoundedTemporalEntity-11309)
+
+(aia-MI BoundedTemporalEntity-11324 BoundedTemporalEntity-11318)
+
+(aia-MI BoundedTemporalEntity-11337 BoundedTemporalEntity-11332)
+
+(aia-MI BoundedTemporalEntity-11370 BoundedTemporalEntity-11324)
+
+(aia-MI BoundedTemporalEntity-11382 BoundedTemporalEntity-11331)
+
+(aia-MI BoundedTemporalEntity-11392 BoundedTemporalEntity-11370)
+
+(aia-MI BoundedTemporalEntity-11416 BoundedTemporalEntity-11410)
+
+(aia-MI BoundedTemporalEntity-11417 BoundedTemporalEntity-11411)
+
+(aia-MI BoundedTemporalEntity-11423 BoundedTemporalEntity-11416)
+
+(aia-MI BoundedTemporalEntity-11424 BoundedTemporalEntity-11417)
+
+(aia-MI BoundedTemporalEntity-11430 BoundedTemporalEntity-11423)
+
+(aia-MI BoundedTemporalEntity-11431 BoundedTemporalEntity-11423)
+
+(aia-MI BoundedTemporalEntity-11431 BoundedTemporalEntity-11424)
+
+(aia-MI BoundedTemporalEntity-11437 BoundedTemporalEntity-11430)
+
+(aia-MI BoundedTemporalEntity-11442 BoundedTemporalEntity-11437)
+
+(aia-OI BoundedTemporalEntity-11337 BoundedTemporalEntity-11331)
+
+(aia-OI BoundedTemporalEntity-11431 BoundedTemporalEntity-11410)
+
+(aia-OI BoundedTemporalEntity-11431 BoundedTemporalEntity-11416)
+
+(aia-SI BoundedTemporalEntity-11431 BoundedTemporalEntity-11430)
+
+(cityOwner FC-City-ElCallao FC-Player-ManuelA.Odría)
+
+(constantIn BoundedTemporalEntity-11310 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-ElCallao))
+
+(constantIn BoundedTemporalEntity-11331 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(constantIn BoundedTemporalEntity-11386 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178455))
+
+(constantIn BoundedTemporalEntity-11388 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-178455))
+
+(constantIn BoundedTemporalEntity-11410 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178963))
+
+(currentActivity Unit-237 FC-ActivityIdle)
+
+(currentActivity Unit-239 FC-ActivityFortifying)
+
+(defenseBonus FC-City-ElCallao 0)
+
+(fcObjectAt FC-City-ElCallao (FreecivLocationFn 10 18))
+
+(fcObjectAt Unit-237 (FreecivLocationFn 10 18))
+
+(footprintOf FC-City-ElCallao CityFootprint-FC-City-ElCallao)
+
+(isa CityFootprint-FC-City-ElCallao CityFootprint)
+
+(isa FC-City-ElCallao FreeCiv-City)
+
+(isa STEntity-222 DefensiveEpisodeFailure)
+
+(isa STEntity-222 SpatiotemporalEvent)
+
+(isa Unit-237 FC-Unit-Catapult)
+
+(isa Unit-239 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-177578 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-178455 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-178963 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-11337 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-177578))
+
+(nondecreasingIn BoundedTemporalEntity-11382 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(nondecreasingIn BoundedTemporalEntity-11416 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178963))
+
+(nondecreasingIn BoundedTemporalEntity-11430 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178963))
+
+(nondecreasingIn BoundedTemporalEntity-11431 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-178963))
+
+(nondecreasingIn BoundedTemporalEntity-11442 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178963))
+
+(nonincreasingIn BoundedTemporalEntity-11392 ((MeasurableQuantityFn citySize) FC-City-ElCallao))
+
+(nonincreasingIn BoundedTemporalEntity-11423 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178963))
+
+(nonincreasingIn BoundedTemporalEntity-11437 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178963))
+
+(startsAfterStartingOf BoundedTemporalEntity-11392 BoundedTemporalEntity-11310)
+
+(startsAfterStartingOf BoundedTemporalEntity-11392 BoundedTemporalEntity-11311)
+
+(startsAtSameTime BoundedTemporalEntity-11388 BoundedTemporalEntity-11386)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11337 BoundedTemporalEntity-11382)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11431 BoundedTemporalEntity-11442)
+
+(terrainAt (FreecivLocationFn 10 18) FC-Terrain-Grassland)
+
+(unitOwner Unit-237 FC-Player-Sukarno)
+
+(unitOwner Unit-239 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-11311 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-ElCallao))

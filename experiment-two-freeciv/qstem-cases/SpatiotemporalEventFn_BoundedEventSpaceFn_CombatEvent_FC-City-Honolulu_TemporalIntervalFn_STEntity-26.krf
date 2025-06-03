@@ -1,0 +1,76 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-26)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-26)))
+((Area (AtFn (EndFn STEntity-26) STEntity-26)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-26) STEntity-26)) (FreecivTileArea 22))
+
+((Defenders (AtFn (EndFn STEntity-26) STEntity-26)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-26) STEntity-26)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-26) STEntity-26)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-26) STEntity-26)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-26) STEntity-26)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-26) STEntity-26)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-1853 BoundedTemporalEntity-1851)
+
+(aia-MI BoundedTemporalEntity-1856 BoundedTemporalEntity-1853)
+
+(aia-MI BoundedTemporalEntity-1857 BoundedTemporalEntity-1852)
+
+(aia-MI BoundedTemporalEntity-1857 BoundedTemporalEntity-1853)
+
+(aia-OI BoundedTemporalEntity-1857 BoundedTemporalEntity-1851)
+
+(cityOwner FC-City-Honolulu FC-Player-Kamehameha)
+
+(constantIn BoundedTemporalEntity-1845 ((MeasurableQuantityFn citySize) FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-1846 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-1851 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19567))
+
+(currentActivity Unit-180 FC-ActivityIdle)
+
+(defenseBonus FC-City-Honolulu 0)
+
+(fcObjectAt FC-City-Honolulu (FreecivLocationFn 34 10))
+
+(fcObjectAt Unit-180 (FreecivLocationFn 34 10))
+
+(footprintOf FC-City-Honolulu CityFootprint-FC-City-Honolulu)
+
+(isa CityFootprint-FC-City-Honolulu CityFootprint)
+
+(isa FC-City-Honolulu FreeCiv-City)
+
+(isa STEntity-26 DefensiveEpisodeFailure)
+
+(isa STEntity-26 SpatiotemporalEvent)
+
+(isa Unit-180 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-19567 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-1853 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19567))
+
+(nonincreasingIn BoundedTemporalEntity-1856 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19567))
+
+(nonincreasingIn BoundedTemporalEntity-1857 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19567))
+
+(startsAtSameTime BoundedTemporalEntity-1845 BoundedTemporalEntity-1846)
+
+(startsAtSameTime BoundedTemporalEntity-1845 BoundedTemporalEntity-1847)
+
+(startsAtSameTime BoundedTemporalEntity-1857 BoundedTemporalEntity-1856)
+
+(terrainAt (FreecivLocationFn 34 10) FC-Terrain-Grassland)
+
+(unitOwner Unit-180 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-1847 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))

@@ -1,0 +1,64 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KoumbiSaleh) (TemporalIntervalFn STEntity-82)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KoumbiSaleh) (TemporalIntervalFn STEntity-82)))
+((Area (AtFn (EndFn STEntity-82) STEntity-82)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-82) STEntity-82)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-82) STEntity-82)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-82) STEntity-82)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-82) STEntity-82)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-82) STEntity-82)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-82) STEntity-82)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-82) STEntity-82)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-82) STEntity-82)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-82) STEntity-82)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-3154 BoundedTemporalEntity-3125)
+
+(cityOwner FC-City-KoumbiSaleh FC-Player-VasileLupu)
+
+(constantIn BoundedTemporalEntity-3126 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KoumbiSaleh))
+
+(constantIn BoundedTemporalEntity-3155 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-189437))
+
+(constantIn BoundedTemporalEntity-3157 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-189437))
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(fcObjectAt FC-City-KoumbiSaleh (FreecivLocationFn 52 23))
+
+(fcObjectAt Unit-194 (FreecivLocationFn 52 23))
+
+(footprintOf FC-City-KoumbiSaleh CityFootprint-FC-City-KoumbiSaleh)
+
+(isa CityFootprint-FC-City-KoumbiSaleh CityFootprint)
+
+(isa FC-City-KoumbiSaleh FreeCiv-City)
+
+(isa STEntity-82 DefensiveEpisodeFailure)
+
+(isa STEntity-82 SpatiotemporalEvent)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-189437 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-3154 ((MeasurableQuantityFn citySize) FC-City-KoumbiSaleh))
+
+(startsAfterStartingOf BoundedTemporalEntity-3154 BoundedTemporalEntity-3126)
+
+(startsAfterStartingOf BoundedTemporalEntity-3154 BoundedTemporalEntity-3127)
+
+(startsAtSameTime BoundedTemporalEntity-3157 BoundedTemporalEntity-3155)
+
+(unitOwner Unit-194 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3127 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KoumbiSaleh))

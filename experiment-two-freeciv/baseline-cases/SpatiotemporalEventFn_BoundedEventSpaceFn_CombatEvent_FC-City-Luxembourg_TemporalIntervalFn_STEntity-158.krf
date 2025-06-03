@@ -1,0 +1,88 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Luxembourg) (TemporalIntervalFn STEntity-158)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Luxembourg) (TemporalIntervalFn STEntity-158)))
+((Area (AtFn (EndFn STEntity-158) STEntity-158)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-158) STEntity-158)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-158) STEntity-158)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-158) STEntity-158)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-158) STEntity-158)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-158) STEntity-158)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-158) STEntity-158)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-158) STEntity-158)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Luxembourg)
+
+((citySize (AtFn (EndFn STEntity-158) STEntity-158)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-158) STEntity-158)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-5089 BoundedTemporalEntity-5077)
+
+(aia-MI BoundedTemporalEntity-5138 BoundedTemporalEntity-5089)
+
+(aia-MI BoundedTemporalEntity-5251 BoundedTemporalEntity-5138)
+
+(aia-MI BoundedTemporalEntity-5253 BoundedTemporalEntity-5251)
+
+(cityOwner FC-City-Luxembourg FC-Player-RobertDeSable)
+
+(constantIn BoundedTemporalEntity-5078 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))
+
+(constantIn BoundedTemporalEntity-5304 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-898664))
+
+(constantIn BoundedTemporalEntity-5306 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-898664))
+
+(constantIn BoundedTemporalEntity-5312 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-899835))
+
+(constantIn BoundedTemporalEntity-5313 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-899850))
+
+(constantIn BoundedTemporalEntity-5319 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-899835))
+
+(constantIn BoundedTemporalEntity-5320 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-899850))
+
+(currentActivity Unit-202 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Luxembourg (FreecivLocationFn 34 3))
+
+(fcObjectAt Unit-202 (FreecivLocationFn 34 3))
+
+(footprintOf FC-City-Luxembourg CityFootprint-FC-City-Luxembourg)
+
+(isa CityFootprint-FC-City-Luxembourg CityFootprint)
+
+(isa FC-City-Luxembourg FreeCiv-City)
+
+(isa STEntity-158 DefensiveEpisodeFailure)
+
+(isa STEntity-158 SpatiotemporalEvent)
+
+(isa Unit-202 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-898664 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-899835 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-899850 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5253 ((MeasurableQuantityFn citySize) FC-City-Luxembourg))
+
+(startsAfterStartingOf BoundedTemporalEntity-5253 BoundedTemporalEntity-5078)
+
+(startsAfterStartingOf BoundedTemporalEntity-5253 BoundedTemporalEntity-5079)
+
+(startsAtSameTime BoundedTemporalEntity-5306 BoundedTemporalEntity-5304)
+
+(startsAtSameTime BoundedTemporalEntity-5319 BoundedTemporalEntity-5312)
+
+(startsAtSameTime BoundedTemporalEntity-5320 BoundedTemporalEntity-5313)
+
+(unitOwner Unit-202 FC-Player-RobertDeSable)
+
+(zeroIn BoundedTemporalEntity-5079 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Luxembourg))

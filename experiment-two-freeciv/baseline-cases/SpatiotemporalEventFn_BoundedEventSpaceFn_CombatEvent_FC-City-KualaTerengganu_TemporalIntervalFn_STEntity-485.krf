@@ -1,0 +1,68 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KualaTerengganu) (TemporalIntervalFn STEntity-485)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KualaTerengganu) (TemporalIntervalFn STEntity-485)))
+((Area (AtFn (EndFn STEntity-485) STEntity-485)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-485) STEntity-485)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-485) STEntity-485)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-485) STEntity-485)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-485) STEntity-485)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-485) STEntity-485)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-485) STEntity-485)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-485) STEntity-485)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-KualaTerengganu)
+
+((citySize (AtFn (EndFn STEntity-485) STEntity-485)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-485) STEntity-485)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-KualaTerengganu FC-Player-Parameswara)
+
+(constantIn BoundedTemporalEntity-10687 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13380127))
+
+(constantIn BoundedTemporalEntity-10694 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13380127))
+
+(constantIn BoundedTemporalEntity-10700 ((MeasurableQuantityFn citySize) FC-City-KualaTerengganu))
+
+(constantIn BoundedTemporalEntity-10701 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KualaTerengganu))
+
+(constantIn BoundedTemporalEntity-10769 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaTerengganu))
+
+(currentActivity Unit-216 FC-ActivityIdle)
+
+(fcObjectAt FC-City-KualaTerengganu (FreecivLocationFn 27 14))
+
+(fcObjectAt Unit-216 (FreecivLocationFn 27 14))
+
+(footprintOf FC-City-KualaTerengganu CityFootprint-FC-City-KualaTerengganu)
+
+(isa CityFootprint-FC-City-KualaTerengganu CityFootprint)
+
+(isa FC-City-KualaTerengganu FreeCiv-City)
+
+(isa STEntity-485 DefensiveEpisodeFailure)
+
+(isa STEntity-485 SpatiotemporalEvent)
+
+(isa Unit-216 FC-Unit-Warriors)
+
+(isa UnitGroupFootprint-13380127 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-10694 BoundedTemporalEntity-10687)
+
+(startsAtSameTime BoundedTemporalEntity-10700 BoundedTemporalEntity-10701)
+
+(startsAtSameTime BoundedTemporalEntity-10700 BoundedTemporalEntity-10702)
+
+(startsBeforeStartingOf BoundedTemporalEntity-10700 BoundedTemporalEntity-10769)
+
+(unitOwner Unit-216 FC-Player-Suharto)
+
+(zeroIn BoundedTemporalEntity-10702 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KualaTerengganu))

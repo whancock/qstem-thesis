@@ -1,0 +1,108 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Cusco) (TemporalIntervalFn STEntity-221)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Cusco) (TemporalIntervalFn STEntity-221)))
+((Area (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivTileArea 23))
+
+((Area (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivTileArea 8))
+
+((Area (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivTileArea 80))
+
+((Area (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivTileArea 23))
+
+((Area (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivTileArea 80))
+
+((Defenders (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivUnitCountFn 3))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Cusco)
+
+((citySize (AtFn (EndFn STEntity-221) STEntity-221)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-221) STEntity-221)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-11337 BoundedTemporalEntity-11332)
+
+(aia-MI BoundedTemporalEntity-11382 BoundedTemporalEntity-11331)
+
+(aia-MI BoundedTemporalEntity-11395 BoundedTemporalEntity-11387)
+
+(aia-MI BoundedTemporalEntity-11396 BoundedTemporalEntity-11387)
+
+(aia-MI BoundedTemporalEntity-11396 BoundedTemporalEntity-11389)
+
+(aia-OI BoundedTemporalEntity-11337 BoundedTemporalEntity-11331)
+
+(cityOwner FC-City-Cusco FC-Player-ManuelA.Odría)
+
+(constantIn BoundedTemporalEntity-11331 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(constantIn BoundedTemporalEntity-11345 ((MeasurableQuantityFn citySize) FC-City-Cusco))
+
+(constantIn BoundedTemporalEntity-11346 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Cusco))
+
+(constantIn BoundedTemporalEntity-11386 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178455))
+
+(constantIn BoundedTemporalEntity-11387 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178493))
+
+(constantIn BoundedTemporalEntity-11388 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-178455))
+
+(currentActivity Unit-227 FC-ActivityIdle)
+
+(defenseBonus FC-City-Cusco 100)
+
+(fcObjectAt FC-City-Cusco (FreecivLocationFn 15 11))
+
+(fcObjectAt Unit-227 (FreecivLocationFn 15 11))
+
+(footprintOf FC-City-Cusco CityFootprint-FC-City-Cusco)
+
+(isa CityFootprint-FC-City-Cusco CityFootprint)
+
+(isa FC-City-Cusco FreeCiv-City)
+
+(isa STEntity-221 DefensiveEpisodeFailure)
+
+(isa STEntity-221 SpatiotemporalEvent)
+
+(isa Unit-227 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-177578 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-178455 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-178493 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-11337 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-177578))
+
+(nondecreasingIn BoundedTemporalEntity-11382 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(nondecreasingIn BoundedTemporalEntity-11395 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-178493))
+
+(nondecreasingIn BoundedTemporalEntity-11396 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-178493))
+
+(startsAtSameTime BoundedTemporalEntity-11345 BoundedTemporalEntity-11346)
+
+(startsAtSameTime BoundedTemporalEntity-11345 BoundedTemporalEntity-11347)
+
+(startsAtSameTime BoundedTemporalEntity-11388 BoundedTemporalEntity-11386)
+
+(startsAtSameTime BoundedTemporalEntity-11396 BoundedTemporalEntity-11395)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11337 BoundedTemporalEntity-11382)
+
+(terrainAt (FreecivLocationFn 15 11) FC-Terrain-Hills)
+
+(unitOwner Unit-227 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-11347 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Cusco))

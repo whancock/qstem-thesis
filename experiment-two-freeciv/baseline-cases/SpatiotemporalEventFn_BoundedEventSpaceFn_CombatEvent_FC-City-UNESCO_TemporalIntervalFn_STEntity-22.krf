@@ -1,0 +1,112 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNESCO) (TemporalIntervalFn STEntity-22)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNESCO) (TemporalIntervalFn STEntity-22)))
+((Area (AtFn (EndFn STEntity-22) STEntity-22)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-22) STEntity-22)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-22) STEntity-22)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-22) STEntity-22)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-22) STEntity-22)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-22) STEntity-22)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-22) STEntity-22)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-22) STEntity-22)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-22) STEntity-22)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-22) STEntity-22)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-207 BoundedTemporalEntity-118)
+
+(aia-MI BoundedTemporalEntity-230 BoundedTemporalEntity-207)
+
+(aia-MI BoundedTemporalEntity-233 BoundedTemporalEntity-121)
+
+(aia-MI BoundedTemporalEntity-234 BoundedTemporalEntity-122)
+
+(aia-MI BoundedTemporalEntity-242 BoundedTemporalEntity-233)
+
+(aia-MI BoundedTemporalEntity-243 BoundedTemporalEntity-234)
+
+(aia-MI BoundedTemporalEntity-264 BoundedTemporalEntity-242)
+
+(aia-MI BoundedTemporalEntity-265 BoundedTemporalEntity-243)
+
+(aia-MI BoundedTemporalEntity-290 BoundedTemporalEntity-230)
+
+(aia-OI BoundedTemporalEntity-290 BoundedTemporalEntity-121)
+
+(aia-OI BoundedTemporalEntity-290 BoundedTemporalEntity-122)
+
+(aia-OI BoundedTemporalEntity-290 BoundedTemporalEntity-233)
+
+(aia-OI BoundedTemporalEntity-290 BoundedTemporalEntity-234)
+
+(aia-OI BoundedTemporalEntity-290 BoundedTemporalEntity-242)
+
+(aia-OI BoundedTemporalEntity-290 BoundedTemporalEntity-243)
+
+(cityOwner FC-City-UNESCO FC-Player-DarkDante)
+
+(constantIn BoundedTemporalEntity-119 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNESCO))
+
+(constantIn BoundedTemporalEntity-122 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))
+
+(constantIn BoundedTemporalEntity-258 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13936))
+
+(constantIn BoundedTemporalEntity-261 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13936))
+
+(currentActivity Unit-172 FC-ActivityIdle)
+
+(fcObjectAt FC-City-UNESCO (FreecivLocationFn 11 17))
+
+(fcObjectAt Unit-172 (FreecivLocationFn 11 17))
+
+(footprintOf FC-City-UNESCO CityFootprint-FC-City-UNESCO)
+
+(isa CityFootprint-FC-City-UNESCO CityFootprint)
+
+(isa FC-City-UNESCO FreeCiv-City)
+
+(isa STEntity-22 DefensiveEpisodeFailure)
+
+(isa STEntity-22 SpatiotemporalEvent)
+
+(isa Unit-172 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-13936 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-234 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))
+
+(nondecreasingIn BoundedTemporalEntity-265 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))
+
+(nondecreasingIn BoundedTemporalEntity-290 ((MeasurableQuantityFn citySize) FC-City-UNESCO))
+
+(nonincreasingIn BoundedTemporalEntity-243 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))
+
+(someIn BoundedTemporalEntity-233 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))
+
+(someIn BoundedTemporalEntity-264 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))
+
+(startsAfterStartingOf BoundedTemporalEntity-290 BoundedTemporalEntity-119)
+
+(startsAfterStartingOf BoundedTemporalEntity-290 BoundedTemporalEntity-120)
+
+(startsAfterStartingOf BoundedTemporalEntity-290 BoundedTemporalEntity-264)
+
+(startsAfterStartingOf BoundedTemporalEntity-290 BoundedTemporalEntity-265)
+
+(startsAtSameTime BoundedTemporalEntity-261 BoundedTemporalEntity-258)
+
+(unitOwner Unit-172 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-120 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNESCO))
+
+(zeroIn BoundedTemporalEntity-121 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))
+
+(zeroIn BoundedTemporalEntity-242 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNESCO))

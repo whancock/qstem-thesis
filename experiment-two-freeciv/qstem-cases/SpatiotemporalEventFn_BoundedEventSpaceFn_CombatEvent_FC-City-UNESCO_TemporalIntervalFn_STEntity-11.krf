@@ -1,0 +1,68 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNESCO) (TemporalIntervalFn STEntity-11)), dumped 5/23/2025 14:11:16 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNESCO) (TemporalIntervalFn STEntity-11)))
+((Area (AtFn (EndFn STEntity-11) STEntity-11)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-11) STEntity-11)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-11) STEntity-11)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-11) STEntity-11)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-11) STEntity-11)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-11) STEntity-11)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-11) STEntity-11)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-11) STEntity-11)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-140 BoundedTemporalEntity-86)
+
+(aia-MI BoundedTemporalEntity-175 BoundedTemporalEntity-140)
+
+(aia-MI BoundedTemporalEntity-251 BoundedTemporalEntity-175)
+
+(cityOwner FC-City-UNESCO FC-Player-DarkDante)
+
+(constantIn BoundedTemporalEntity-225 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-3666))
+
+(constantIn BoundedTemporalEntity-227 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-3666))
+
+(constantIn BoundedTemporalEntity-87 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNESCO))
+
+(currentActivity Unit-172 FC-ActivityIdle)
+
+(defenseBonus FC-City-UNESCO 0)
+
+(fcObjectAt FC-City-UNESCO (FreecivLocationFn 11 17))
+
+(fcObjectAt Unit-172 (FreecivLocationFn 11 17))
+
+(footprintOf FC-City-UNESCO CityFootprint-FC-City-UNESCO)
+
+(isa CityFootprint-FC-City-UNESCO CityFootprint)
+
+(isa FC-City-UNESCO FreeCiv-City)
+
+(isa STEntity-11 DefensiveEpisodeFailure)
+
+(isa STEntity-11 SpatiotemporalEvent)
+
+(isa Unit-172 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-3666 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-251 ((MeasurableQuantityFn citySize) FC-City-UNESCO))
+
+(startsAfterStartingOf BoundedTemporalEntity-251 BoundedTemporalEntity-87)
+
+(startsAfterStartingOf BoundedTemporalEntity-251 BoundedTemporalEntity-88)
+
+(startsAtSameTime BoundedTemporalEntity-227 BoundedTemporalEntity-225)
+
+(terrainAt (FreecivLocationFn 11 17) FC-Terrain-Grassland)
+
+(unitOwner Unit-172 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-88 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNESCO))

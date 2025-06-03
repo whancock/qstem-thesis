@@ -1,0 +1,28 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Xian) (TemporalIntervalFn STEntity-239)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Xian) (TemporalIntervalFn STEntity-239)))
+(aia-MI BoundedTemporalEntity-6188 BoundedTemporalEntity-6107)
+
+(cityOwner FC-City-Xian FC-Player-Bảo�?ại)
+
+(constantIn BoundedTemporalEntity-6108 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Xian))
+
+(fcObjectAt FC-City-Xian (FreecivLocationFn 32 32))
+
+(footprintOf FC-City-Xian CityFootprint-FC-City-Xian)
+
+(isa CityFootprint-FC-City-Xian CityFootprint)
+
+(isa FC-City-Xian FreeCiv-City)
+
+(isa STEntity-239 DefensiveEpisodeFailure)
+
+(isa STEntity-239 SpatiotemporalEvent)
+
+(nondecreasingIn BoundedTemporalEntity-6188 ((MeasurableQuantityFn citySize) FC-City-Xian))
+
+(startsAfterStartingOf BoundedTemporalEntity-6188 BoundedTemporalEntity-6108)
+
+(startsAfterStartingOf BoundedTemporalEntity-6188 BoundedTemporalEntity-6109)
+
+(zeroIn BoundedTemporalEntity-6109 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Xian))

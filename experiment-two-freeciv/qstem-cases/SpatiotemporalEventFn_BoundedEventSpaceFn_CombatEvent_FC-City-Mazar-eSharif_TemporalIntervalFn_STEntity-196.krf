@@ -1,0 +1,102 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mazar-eSharif) (TemporalIntervalFn STEntity-196)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Mazar-eSharif) (TemporalIntervalFn STEntity-196)))
+((Area (AtFn (EndFn STEntity-196) STEntity-196)) (FreecivTileArea 54))
+
+((Area (AtFn (StartFn STEntity-196) STEntity-196)) (FreecivTileArea 149))
+
+((Defenders (AtFn (EndFn STEntity-196) STEntity-196)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-196) STEntity-196)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-196) STEntity-196)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-196) STEntity-196)) (FreecivUnitCountFn 7))
+
+((citySize (AtFn (EndFn STEntity-196) STEntity-196)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-196) STEntity-196)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-10453 BoundedTemporalEntity-10443)
+
+(aia-MI BoundedTemporalEntity-10455 BoundedTemporalEntity-10453)
+
+(aia-MI BoundedTemporalEntity-10487 BoundedTemporalEntity-10455)
+
+(aia-MI BoundedTemporalEntity-10490 BoundedTemporalEntity-10487)
+
+(aia-MI BoundedTemporalEntity-10608 BoundedTemporalEntity-10490)
+
+(aia-MI BoundedTemporalEntity-10689 BoundedTemporalEntity-10677)
+
+(aia-MI BoundedTemporalEntity-10690 BoundedTemporalEntity-10682)
+
+(aia-MI BoundedTemporalEntity-10712 BoundedTemporalEntity-10689)
+
+(aia-MI BoundedTemporalEntity-10713 BoundedTemporalEntity-10690)
+
+(aia-MI BoundedTemporalEntity-10724 BoundedTemporalEntity-10712)
+
+(aia-MI BoundedTemporalEntity-10725 BoundedTemporalEntity-10712)
+
+(aia-MI BoundedTemporalEntity-10725 BoundedTemporalEntity-10713)
+
+(aia-OI BoundedTemporalEntity-10725 BoundedTemporalEntity-10677)
+
+(aia-OI BoundedTemporalEntity-10725 BoundedTemporalEntity-10689)
+
+(cityOwner FC-City-Mazar-eSharif FC-Player-DaoudKhan)
+
+(constantIn BoundedTemporalEntity-10444 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mazar-eSharif))
+
+(constantIn BoundedTemporalEntity-10608 ((MeasurableQuantityFn citySize) FC-City-Mazar-eSharif))
+
+(constantIn BoundedTemporalEntity-10677 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-170314))
+
+(currentActivity Unit-249 FC-ActivityFortifying)
+
+(currentActivity Unit-290 FC-ActivityIdle)
+
+(defenseBonus FC-City-Mazar-eSharif 100)
+
+(fcObjectAt FC-City-Mazar-eSharif (FreecivLocationFn 39 4))
+
+(fcObjectAt Unit-290 (FreecivLocationFn 39 4))
+
+(footprintOf FC-City-Mazar-eSharif CityFootprint-FC-City-Mazar-eSharif)
+
+(isa CityFootprint-FC-City-Mazar-eSharif CityFootprint)
+
+(isa FC-City-Mazar-eSharif FreeCiv-City)
+
+(isa STEntity-196 DefensiveEpisodeFailure)
+
+(isa STEntity-196 SpatiotemporalEvent)
+
+(isa Unit-249 FC-Unit-Archers)
+
+(isa Unit-290 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-170314 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10689 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-170314))
+
+(nondecreasingIn BoundedTemporalEntity-10724 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-170314))
+
+(nondecreasingIn BoundedTemporalEntity-10725 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-170314))
+
+(nonincreasingIn BoundedTemporalEntity-10712 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-170314))
+
+(startsAfterStartingOf BoundedTemporalEntity-10608 BoundedTemporalEntity-10444)
+
+(startsAfterStartingOf BoundedTemporalEntity-10608 BoundedTemporalEntity-10445)
+
+(startsAtSameTime BoundedTemporalEntity-10725 BoundedTemporalEntity-10724)
+
+(terrainAt (FreecivLocationFn 39 4) FC-Terrain-Hills)
+
+(unitOwner Unit-249 FC-Player-GuadalupeVictoria)
+
+(unitOwner Unit-290 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-10445 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Mazar-eSharif))

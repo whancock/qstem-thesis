@@ -1,0 +1,110 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kuressaare) (TemporalIntervalFn STEntity-274)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kuressaare) (TemporalIntervalFn STEntity-274)))
+((Area (AtFn (EndFn STEntity-274) STEntity-274)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-274) STEntity-274)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-274) STEntity-274)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-274) STEntity-274)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-274) STEntity-274)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6483 BoundedTemporalEntity-6421)
+
+(aia-MI BoundedTemporalEntity-6487 BoundedTemporalEntity-6483)
+
+(aia-MI BoundedTemporalEntity-6562 BoundedTemporalEntity-6487)
+
+(aia-MI BoundedTemporalEntity-6565 BoundedTemporalEntity-6560)
+
+(cityOwner FC-City-Kuressaare FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6422 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kuressaare))
+
+(constantIn BoundedTemporalEntity-6535 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2667653))
+
+(constantIn BoundedTemporalEntity-6537 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2667653))
+
+(constantIn BoundedTemporalEntity-6550 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2752972))
+
+(constantIn BoundedTemporalEntity-6551 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2752972))
+
+(constantIn BoundedTemporalEntity-6554 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2791691))
+
+(constantIn BoundedTemporalEntity-6556 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2791691))
+
+(constantIn BoundedTemporalEntity-6559 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2826088))
+
+(constantIn BoundedTemporalEntity-6562 ((MeasurableQuantityFn citySize) FC-City-Kuressaare))
+
+(currentActivity Unit-268 FC-ActivityIdle)
+
+(currentActivity Unit-270 FC-ActivitySentry)
+
+(fcObjectAt FC-City-Kuressaare (FreecivLocationFn 47 14))
+
+(fcObjectAt Unit-268 (FreecivLocationFn 47 14))
+
+(footprintOf FC-City-Kuressaare CityFootprint-FC-City-Kuressaare)
+
+(isa CityFootprint-FC-City-Kuressaare CityFootprint)
+
+(isa FC-City-Kuressaare FreeCiv-City)
+
+(isa STEntity-274 DefensiveEpisodeFailure)
+
+(isa STEntity-274 SpatiotemporalEvent)
+
+(isa Unit-268 FC-Unit-Catapult)
+
+(isa Unit-270 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-2499551 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2553958 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2667653 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2667677 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2752972 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2791691 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2826088 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6565 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2826088))
+
+(startsAfterStartingOf BoundedTemporalEntity-6562 BoundedTemporalEntity-6422)
+
+(startsAfterStartingOf BoundedTemporalEntity-6562 BoundedTemporalEntity-6423)
+
+(startsAfterStartingOf BoundedTemporalEntity-6565 BoundedTemporalEntity-6559)
+
+(startsAtSameTime BoundedTemporalEntity-6537 BoundedTemporalEntity-6535)
+
+(startsAtSameTime BoundedTemporalEntity-6551 BoundedTemporalEntity-6550)
+
+(startsAtSameTime BoundedTemporalEntity-6556 BoundedTemporalEntity-6554)
+
+(unitOwner Unit-268 FC-Player-ElizabethNicholls)
+
+(unitOwner Unit-270 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6423 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kuressaare))

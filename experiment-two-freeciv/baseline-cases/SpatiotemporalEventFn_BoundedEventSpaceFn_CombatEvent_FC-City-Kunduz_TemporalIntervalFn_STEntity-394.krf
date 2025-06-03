@@ -1,0 +1,106 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kunduz) (TemporalIntervalFn STEntity-394)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kunduz) (TemporalIntervalFn STEntity-394)))
+((Area (AtFn (EndFn STEntity-394) STEntity-394)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-394) STEntity-394)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-394) STEntity-394)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-394) STEntity-394)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-394) STEntity-394)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-394) STEntity-394)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-394) STEntity-394)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-394) STEntity-394)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-394) STEntity-394)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-394) STEntity-394)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-8653 BoundedTemporalEntity-8623)
+
+(aia-MI BoundedTemporalEntity-8674 BoundedTemporalEntity-8653)
+
+(aia-MI BoundedTemporalEntity-8693 BoundedTemporalEntity-8674)
+
+(aia-MI BoundedTemporalEntity-8701 BoundedTemporalEntity-8693)
+
+(aia-MI BoundedTemporalEntity-8812 BoundedTemporalEntity-8701)
+
+(aia-MI BoundedTemporalEntity-9001 BoundedTemporalEntity-8940)
+
+(aia-MI BoundedTemporalEntity-9004 BoundedTemporalEntity-8984)
+
+(aia-MI BoundedTemporalEntity-9037 BoundedTemporalEntity-9001)
+
+(aia-MI BoundedTemporalEntity-9042 BoundedTemporalEntity-9004)
+
+(cityOwner FC-City-Kunduz FC-Player-DaoudKhan)
+
+(constantIn BoundedTemporalEntity-8624 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kunduz))
+
+(constantIn BoundedTemporalEntity-8812 ((MeasurableQuantityFn citySize) FC-City-Kunduz))
+
+(constantIn BoundedTemporalEntity-8936 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8329960))
+
+(constantIn BoundedTemporalEntity-8980 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8432578))
+
+(constantIn BoundedTemporalEntity-9029 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8775868))
+
+(constantIn BoundedTemporalEntity-9036 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8775868))
+
+(constantIn BoundedTemporalEntity-9038 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8816701))
+
+(constantIn BoundedTemporalEntity-9040 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8816701))
+
+(currentActivity Unit-301 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kunduz (FreecivLocationFn 30 10))
+
+(fcObjectAt Unit-301 (FreecivLocationFn 30 10))
+
+(footprintOf FC-City-Kunduz CityFootprint-FC-City-Kunduz)
+
+(isa CityFootprint-FC-City-Kunduz CityFootprint)
+
+(isa FC-City-Kunduz FreeCiv-City)
+
+(isa STEntity-394 DefensiveEpisodeFailure)
+
+(isa STEntity-394 SpatiotemporalEvent)
+
+(isa Unit-301 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-8329960 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8432578 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8611943 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8775868 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8816701 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-9037 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8329960))
+
+(nonincreasingIn BoundedTemporalEntity-9042 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8432578))
+
+(startsAfterStartingOf BoundedTemporalEntity-8812 BoundedTemporalEntity-8624)
+
+(startsAfterStartingOf BoundedTemporalEntity-8812 BoundedTemporalEntity-8625)
+
+(startsAfterStartingOf BoundedTemporalEntity-9037 BoundedTemporalEntity-8936)
+
+(startsAfterStartingOf BoundedTemporalEntity-9042 BoundedTemporalEntity-8980)
+
+(startsAtSameTime BoundedTemporalEntity-9036 BoundedTemporalEntity-9029)
+
+(startsAtSameTime BoundedTemporalEntity-9040 BoundedTemporalEntity-9038)
+
+(unitOwner Unit-301 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-8625 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kunduz))

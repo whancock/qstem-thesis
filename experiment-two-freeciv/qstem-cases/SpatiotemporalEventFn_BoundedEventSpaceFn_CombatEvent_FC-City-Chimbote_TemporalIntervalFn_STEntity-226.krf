@@ -1,0 +1,174 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chimbote) (TemporalIntervalFn STEntity-226)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chimbote) (TemporalIntervalFn STEntity-226)))
+((Area (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivTileArea 59))
+
+((Area (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivTileArea 129))
+
+((Area (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivUnitCountFn 14))
+
+((citySize (AtFn (EndFn STEntity-226) STEntity-226)) (FreecivCitizenCountFn 4))
+
+((citySize (AtFn (StartFn STEntity-226) STEntity-226)) (FreecivCitizenCountFn 4))
+
+(aia-MI BoundedTemporalEntity-11313 BoundedTemporalEntity-11304)
+
+(aia-MI BoundedTemporalEntity-11337 BoundedTemporalEntity-11332)
+
+(aia-MI BoundedTemporalEntity-11357 BoundedTemporalEntity-11313)
+
+(aia-MI BoundedTemporalEntity-11382 BoundedTemporalEntity-11331)
+
+(aia-MI BoundedTemporalEntity-11393 BoundedTemporalEntity-11305)
+
+(aia-MI BoundedTemporalEntity-11394 BoundedTemporalEntity-11306)
+
+(aia-MI BoundedTemporalEntity-11504 BoundedTemporalEntity-11382)
+
+(aia-MI BoundedTemporalEntity-11505 BoundedTemporalEntity-11337)
+
+(aia-MI BoundedTemporalEntity-11517 BoundedTemporalEntity-11393)
+
+(aia-MI BoundedTemporalEntity-11560 BoundedTemporalEntity-11357)
+
+(aia-MI BoundedTemporalEntity-11633 BoundedTemporalEntity-11504)
+
+(aia-MI BoundedTemporalEntity-11634 BoundedTemporalEntity-11505)
+
+(aia-MI BoundedTemporalEntity-11666 BoundedTemporalEntity-11560)
+
+(aia-MI BoundedTemporalEntity-11703 BoundedTemporalEntity-11666)
+
+(aia-MI BoundedTemporalEntity-11752 BoundedTemporalEntity-11703)
+
+(aia-MI BoundedTemporalEntity-11817 BoundedTemporalEntity-11634)
+
+(aia-MI BoundedTemporalEntity-11834 BoundedTemporalEntity-11633)
+
+(aia-MI BoundedTemporalEntity-11954 BoundedTemporalEntity-11834)
+
+(aia-MI BoundedTemporalEntity-11955 BoundedTemporalEntity-11817)
+
+(aia-MI BoundedTemporalEntity-11955 BoundedTemporalEntity-11834)
+
+(aia-MI BoundedTemporalEntity-12214 BoundedTemporalEntity-12176)
+
+(aia-MI BoundedTemporalEntity-12215 BoundedTemporalEntity-12178)
+
+(aia-MI BoundedTemporalEntity-12286 BoundedTemporalEntity-11517)
+
+(aia-MI BoundedTemporalEntity-12287 BoundedTemporalEntity-11394)
+
+(aia-MI BoundedTemporalEntity-12318 BoundedTemporalEntity-12214)
+
+(aia-MI BoundedTemporalEntity-12319 BoundedTemporalEntity-12214)
+
+(aia-MI BoundedTemporalEntity-12319 BoundedTemporalEntity-12215)
+
+(aia-OI BoundedTemporalEntity-11752 BoundedTemporalEntity-11305)
+
+(aia-OI BoundedTemporalEntity-11752 BoundedTemporalEntity-11306)
+
+(aia-OI BoundedTemporalEntity-11752 BoundedTemporalEntity-11393)
+
+(aia-OI BoundedTemporalEntity-11752 BoundedTemporalEntity-11394)
+
+(aia-OI BoundedTemporalEntity-11752 BoundedTemporalEntity-11517)
+
+(aia-OI BoundedTemporalEntity-11955 BoundedTemporalEntity-11331)
+
+(aia-OI BoundedTemporalEntity-11955 BoundedTemporalEntity-11382)
+
+(aia-OI BoundedTemporalEntity-11955 BoundedTemporalEntity-11504)
+
+(aia-OI BoundedTemporalEntity-11955 BoundedTemporalEntity-11633)
+
+(aia-OI BoundedTemporalEntity-12319 BoundedTemporalEntity-12176)
+
+(cityOwner FC-City-Chimbote FC-Player-Sukarno)
+
+(constantIn BoundedTemporalEntity-11305 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chimbote))
+
+(constantIn BoundedTemporalEntity-11331 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(constantIn BoundedTemporalEntity-11517 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chimbote))
+
+(constantIn BoundedTemporalEntity-11633 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(constantIn BoundedTemporalEntity-11752 ((MeasurableQuantityFn citySize) FC-City-Chimbote))
+
+(constantIn BoundedTemporalEntity-11954 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(constantIn BoundedTemporalEntity-11955 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-177578))
+
+(constantIn BoundedTemporalEntity-12176 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-199966))
+
+(currentActivity Unit-256 FC-ActivityIdle)
+
+(defenseBonus FC-City-Chimbote 50)
+
+(fcObjectAt FC-City-Chimbote (FreecivLocationFn 11 14))
+
+(fcObjectAt Unit-256 (FreecivLocationFn 11 14))
+
+(footprintOf FC-City-Chimbote CityFootprint-FC-City-Chimbote)
+
+(isa CityFootprint-FC-City-Chimbote CityFootprint)
+
+(isa FC-City-Chimbote FreeCiv-City)
+
+(isa STEntity-226 DefensiveEpisodeFailure)
+
+(isa STEntity-226 SpatiotemporalEvent)
+
+(isa Unit-256 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-177578 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-199966 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-11382 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(nondecreasingIn BoundedTemporalEntity-11393 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chimbote))
+
+(nondecreasingIn BoundedTemporalEntity-12214 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-199966))
+
+(nonincreasingIn BoundedTemporalEntity-11504 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(nonincreasingIn BoundedTemporalEntity-11834 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-177578))
+
+(nonincreasingIn BoundedTemporalEntity-12286 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chimbote))
+
+(nonincreasingIn BoundedTemporalEntity-12318 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-199966))
+
+(nonincreasingIn BoundedTemporalEntity-12319 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-199966))
+
+(someIn BoundedTemporalEntity-11394 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chimbote))
+
+(startsAtSameTime BoundedTemporalEntity-11955 BoundedTemporalEntity-11954)
+
+(startsAtSameTime BoundedTemporalEntity-12319 BoundedTemporalEntity-12318)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11752 BoundedTemporalEntity-12286)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11752 BoundedTemporalEntity-12287)
+
+(terrainAt (FreecivLocationFn 11 14) FC-Terrain-Jungle)
+
+(unitOwner Unit-256 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-11306 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chimbote))
+
+(zeroIn BoundedTemporalEntity-12287 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chimbote))

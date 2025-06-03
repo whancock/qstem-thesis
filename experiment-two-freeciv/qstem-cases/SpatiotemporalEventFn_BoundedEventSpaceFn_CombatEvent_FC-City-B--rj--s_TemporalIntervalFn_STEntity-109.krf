@@ -1,0 +1,128 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Bårjås) (TemporalIntervalFn STEntity-109)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Bårjås) (TemporalIntervalFn STEntity-109)))
+((Area (AtFn (EndFn STEntity-109) STEntity-109)) (FreecivTileArea 25))
+
+((Area (AtFn (EndFn STEntity-109) STEntity-109)) (FreecivTileArea 40))
+
+((Area (AtFn (StartFn STEntity-109) STEntity-109)) (FreecivTileArea 25))
+
+((Area (AtFn (StartFn STEntity-109) STEntity-109)) (FreecivTileArea 40))
+
+((Defenders (AtFn (EndFn STEntity-109) STEntity-109)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-109) STEntity-109)) (FreecivUnitCountFn 12))
+
+((Defenders (AtFn (EndFn STEntity-109) STEntity-109)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-109) STEntity-109)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-109) STEntity-109)) (FreecivUnitCountFn 12))
+
+((Defenders (AtFn (StartFn STEntity-109) STEntity-109)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-109) STEntity-109)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-109) STEntity-109)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-5602 BoundedTemporalEntity-5668)
+
+(aia-MI BoundedTemporalEntity-5543 BoundedTemporalEntity-5467)
+
+(aia-MI BoundedTemporalEntity-5544 BoundedTemporalEntity-5468)
+
+(aia-MI BoundedTemporalEntity-5587 BoundedTemporalEntity-5543)
+
+(aia-MI BoundedTemporalEntity-5588 BoundedTemporalEntity-5544)
+
+(aia-MI BoundedTemporalEntity-5602 BoundedTemporalEntity-5588)
+
+(aia-MI BoundedTemporalEntity-5668 BoundedTemporalEntity-5587)
+
+(aia-MI BoundedTemporalEntity-5724 BoundedTemporalEntity-5716)
+
+(aia-MI BoundedTemporalEntity-5728 BoundedTemporalEntity-5724)
+
+(aia-MI BoundedTemporalEntity-5747 BoundedTemporalEntity-5668)
+
+(aia-MI BoundedTemporalEntity-5749 BoundedTemporalEntity-5728)
+
+(aia-MI BoundedTemporalEntity-5752 BoundedTemporalEntity-5718)
+
+(aia-OI BoundedTemporalEntity-5602 BoundedTemporalEntity-5467)
+
+(aia-OI BoundedTemporalEntity-5602 BoundedTemporalEntity-5543)
+
+(aia-OI BoundedTemporalEntity-5602 BoundedTemporalEntity-5587)
+
+(aia-OI BoundedTemporalEntity-5752 BoundedTemporalEntity-5716)
+
+(aia-OI BoundedTemporalEntity-5752 BoundedTemporalEntity-5724)
+
+(aia-OI BoundedTemporalEntity-5752 BoundedTemporalEntity-5728)
+
+(cityOwner FC-City-Bårjås FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5467 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(constantIn BoundedTemporalEntity-5706 ((MeasurableQuantityFn citySize) FC-City-Bårjås))
+
+(constantIn BoundedTemporalEntity-5707 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bårjås))
+
+(constantIn BoundedTemporalEntity-5716 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-95999))
+
+(constantIn BoundedTemporalEntity-5747 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(defenseBonus FC-City-Bårjås 0)
+
+(fcObjectAt FC-City-Bårjås (FreecivLocationFn 20 8))
+
+(fcObjectAt Unit-194 (FreecivLocationFn 20 8))
+
+(footprintOf FC-City-Bårjås CityFootprint-FC-City-Bårjås)
+
+(isa CityFootprint-FC-City-Bårjås CityFootprint)
+
+(isa FC-City-Bårjås FreeCiv-City)
+
+(isa STEntity-109 DefensiveEpisodeFailure)
+
+(isa STEntity-109 SpatiotemporalEvent)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-92558 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-95999 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5543 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(nondecreasingIn BoundedTemporalEntity-5602 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-92558))
+
+(nondecreasingIn BoundedTemporalEntity-5668 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(nondecreasingIn BoundedTemporalEntity-5728 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-95999))
+
+(nonincreasingIn BoundedTemporalEntity-5587 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92558))
+
+(nonincreasingIn BoundedTemporalEntity-5724 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-95999))
+
+(nonincreasingIn BoundedTemporalEntity-5749 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-95999))
+
+(nonincreasingIn BoundedTemporalEntity-5752 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-95999))
+
+(startsAfterStartingOf BoundedTemporalEntity-5752 BoundedTemporalEntity-5749)
+
+(startsAtSameTime BoundedTemporalEntity-5706 BoundedTemporalEntity-5707)
+
+(startsAtSameTime BoundedTemporalEntity-5706 BoundedTemporalEntity-5708)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5602 BoundedTemporalEntity-5747)
+
+(terrainAt (FreecivLocationFn 20 8) FC-Terrain-Grassland)
+
+(unitOwner Unit-194 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5708 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Bårjås))

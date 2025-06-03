@@ -1,0 +1,118 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lautoka) (TemporalIntervalFn STEntity-64)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lautoka) (TemporalIntervalFn STEntity-64)))
+((Area (AtFn (EndFn STEntity-64) STEntity-64)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-64) STEntity-64)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-64) STEntity-64)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-64) STEntity-64)) (FreecivCitizenCountFn 3))
+
+((citySize (AtFn (StartFn STEntity-64) STEntity-64)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-2534 BoundedTemporalEntity-2510)
+
+(aia-MI BoundedTemporalEntity-2624 BoundedTemporalEntity-2534)
+
+(aia-MI BoundedTemporalEntity-2676 BoundedTemporalEntity-2624)
+
+(cityOwner FC-City-Lautoka FC-Player-UNu)
+
+(constantIn BoundedTemporalEntity-2511 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lautoka))
+
+(constantIn BoundedTemporalEntity-2712 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-155536))
+
+(constantIn BoundedTemporalEntity-2715 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-155536))
+
+(constantIn BoundedTemporalEntity-2753 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-157410))
+
+(constantIn BoundedTemporalEntity-2757 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-157410))
+
+(constantIn BoundedTemporalEntity-2772 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-158786))
+
+(constantIn BoundedTemporalEntity-2774 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-158786))
+
+(constantIn BoundedTemporalEntity-2775 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-159276))
+
+(constantIn BoundedTemporalEntity-2777 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-159276))
+
+(currentActivity Unit-180 FC-ActivityFortifying)
+
+(currentActivity Unit-264 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Lautoka (FreecivLocationFn 36 6))
+
+(fcObjectAt Unit-264 (FreecivLocationFn 36 6))
+
+(footprintOf FC-City-Lautoka CityFootprint-FC-City-Lautoka)
+
+(isa CityFootprint-FC-City-Lautoka CityFootprint)
+
+(isa FC-City-Lautoka FreeCiv-City)
+
+(isa STEntity-64 DefensiveEpisodeFailure)
+
+(isa STEntity-64 SpatiotemporalEvent)
+
+(isa Unit-180 FC-Unit-Horsemen)
+
+(isa Unit-264 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-136054 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-136524 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-139977 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-143934 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-150157 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-155536 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-156722 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-157126 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-157410 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-158178 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-158786 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-159276 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-159316 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-2676 ((MeasurableQuantityFn citySize) FC-City-Lautoka))
+
+(startsAfterStartingOf BoundedTemporalEntity-2676 BoundedTemporalEntity-2511)
+
+(startsAfterStartingOf BoundedTemporalEntity-2676 BoundedTemporalEntity-2512)
+
+(startsAtSameTime BoundedTemporalEntity-2715 BoundedTemporalEntity-2712)
+
+(startsAtSameTime BoundedTemporalEntity-2757 BoundedTemporalEntity-2753)
+
+(startsAtSameTime BoundedTemporalEntity-2774 BoundedTemporalEntity-2772)
+
+(startsAtSameTime BoundedTemporalEntity-2777 BoundedTemporalEntity-2775)
+
+(unitOwner Unit-264 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-2512 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lautoka))

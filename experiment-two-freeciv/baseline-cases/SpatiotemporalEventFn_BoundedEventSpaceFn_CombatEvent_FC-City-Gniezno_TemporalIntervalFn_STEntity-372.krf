@@ -1,0 +1,98 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gniezno) (TemporalIntervalFn STEntity-372)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Gniezno) (TemporalIntervalFn STEntity-372)))
+((Area (AtFn (EndFn STEntity-372) STEntity-372)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-372) STEntity-372)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-372) STEntity-372)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-372) STEntity-372)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-372) STEntity-372)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7460 BoundedTemporalEntity-7448)
+
+(aia-MI BoundedTemporalEntity-7470 BoundedTemporalEntity-7460)
+
+(aia-MI BoundedTemporalEntity-7493 BoundedTemporalEntity-7470)
+
+(aia-MI BoundedTemporalEntity-7511 BoundedTemporalEntity-7493)
+
+(aia-MI BoundedTemporalEntity-7537 BoundedTemporalEntity-7511)
+
+(aia-MI BoundedTemporalEntity-7648 BoundedTemporalEntity-7537)
+
+(aia-MI BoundedTemporalEntity-7820 BoundedTemporalEntity-7648)
+
+(aia-MI BoundedTemporalEntity-7879 BoundedTemporalEntity-7820)
+
+(aia-MI BoundedTemporalEntity-7942 BoundedTemporalEntity-7879)
+
+(cityOwner FC-City-Gniezno FC-Player-W≈?adys≈?awJagie≈?≈?o)
+
+(constantIn BoundedTemporalEntity-7449 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gniezno))
+
+(constantIn BoundedTemporalEntity-7926 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6314664))
+
+(constantIn BoundedTemporalEntity-7936 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6314664))
+
+(constantIn BoundedTemporalEntity-8139 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6732803))
+
+(constantIn BoundedTemporalEntity-8155 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6732803))
+
+(currentActivity Unit-218 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Gniezno (FreecivLocationFn 18 28))
+
+(fcObjectAt Unit-218 (FreecivLocationFn 18 28))
+
+(footprintOf FC-City-Gniezno CityFootprint-FC-City-Gniezno)
+
+(isa CityFootprint-FC-City-Gniezno CityFootprint)
+
+(isa FC-City-Gniezno FreeCiv-City)
+
+(isa STEntity-372 DefensiveEpisodeFailure)
+
+(isa STEntity-372 SpatiotemporalEvent)
+
+(isa Unit-218 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-6314664 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6556398 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6659807 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6732803 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-6732951 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-7942 ((MeasurableQuantityFn citySize) FC-City-Gniezno))
+
+(startsAfterStartingOf BoundedTemporalEntity-7942 BoundedTemporalEntity-7449)
+
+(startsAfterStartingOf BoundedTemporalEntity-7942 BoundedTemporalEntity-7450)
+
+(startsAtSameTime BoundedTemporalEntity-7936 BoundedTemporalEntity-7926)
+
+(startsAtSameTime BoundedTemporalEntity-8155 BoundedTemporalEntity-8139)
+
+(unitOwner Unit-218 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7450 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Gniezno))

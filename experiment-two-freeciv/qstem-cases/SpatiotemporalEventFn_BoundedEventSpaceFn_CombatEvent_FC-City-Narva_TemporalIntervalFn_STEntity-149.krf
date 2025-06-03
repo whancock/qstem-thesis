@@ -1,0 +1,190 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Narva) (TemporalIntervalFn STEntity-149)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Narva) (TemporalIntervalFn STEntity-149)))
+((Area (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivTileArea 29))
+
+((Area (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivTileArea 59))
+
+((Area (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivTileArea 82))
+
+((Area (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivTileArea 126))
+
+((Area (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivTileArea 32))
+
+((Area (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivTileArea 43))
+
+((Defenders (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 12))
+
+((Defenders (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 9))
+
+((Defenders (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 13))
+
+((Defenders (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 16))
+
+((Defenders (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivUnitCountFn 4))
+
+((HasImprovementFn FC-Building-Barracks) FC-City-Narva)
+
+((HasImprovementFn FC-Building-CityWalls) FC-City-Narva)
+
+((citySize (AtFn (EndFn STEntity-149) STEntity-149)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-149) STEntity-149)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7540 BoundedTemporalEntity-7536)
+
+(aia-MI BoundedTemporalEntity-7541 BoundedTemporalEntity-7540)
+
+(aia-MI BoundedTemporalEntity-7551 BoundedTemporalEntity-7541)
+
+(aia-MI BoundedTemporalEntity-7556 BoundedTemporalEntity-7551)
+
+(aia-MI BoundedTemporalEntity-7567 BoundedTemporalEntity-7556)
+
+(aia-MI BoundedTemporalEntity-7583 BoundedTemporalEntity-7567)
+
+(aia-MI BoundedTemporalEntity-7617 BoundedTemporalEntity-7583)
+
+(aia-MI BoundedTemporalEntity-7629 BoundedTemporalEntity-7603)
+
+(aia-MI BoundedTemporalEntity-7642 BoundedTemporalEntity-7602)
+
+(aia-MI BoundedTemporalEntity-7682 BoundedTemporalEntity-7537)
+
+(aia-MI BoundedTemporalEntity-7683 BoundedTemporalEntity-7538)
+
+(aia-MI BoundedTemporalEntity-7708 BoundedTemporalEntity-7629)
+
+(aia-MI BoundedTemporalEntity-7709 BoundedTemporalEntity-7617)
+
+(aia-MI BoundedTemporalEntity-7725 BoundedTemporalEntity-7708)
+
+(aia-MI BoundedTemporalEntity-7770 BoundedTemporalEntity-7709)
+
+(aia-MI BoundedTemporalEntity-7784 BoundedTemporalEntity-7725)
+
+(aia-MI BoundedTemporalEntity-7808 BoundedTemporalEntity-7642)
+
+(aia-MI BoundedTemporalEntity-7862 BoundedTemporalEntity-7770)
+
+(aia-MI BoundedTemporalEntity-7867 BoundedTemporalEntity-7682)
+
+(aia-MI BoundedTemporalEntity-7880 BoundedTemporalEntity-7874)
+
+(aia-MI BoundedTemporalEntity-7881 BoundedTemporalEntity-7875)
+
+(aia-MI BoundedTemporalEntity-7886 BoundedTemporalEntity-7880)
+
+(aia-MI BoundedTemporalEntity-7887 BoundedTemporalEntity-7881)
+
+(aia-MI BoundedTemporalEntity-7896 BoundedTemporalEntity-7886)
+
+(aia-MI BoundedTemporalEntity-7897 BoundedTemporalEntity-7887)
+
+(aia-MI BoundedTemporalEntity-7908 BoundedTemporalEntity-7683)
+
+(aia-MI BoundedTemporalEntity-7909 BoundedTemporalEntity-7897)
+
+(aia-OI BoundedTemporalEntity-7784 BoundedTemporalEntity-7602)
+
+(aia-OI BoundedTemporalEntity-7784 BoundedTemporalEntity-7642)
+
+(aia-OI BoundedTemporalEntity-7862 BoundedTemporalEntity-7537)
+
+(aia-OI BoundedTemporalEntity-7862 BoundedTemporalEntity-7538)
+
+(aia-OI BoundedTemporalEntity-7862 BoundedTemporalEntity-7682)
+
+(aia-OI BoundedTemporalEntity-7862 BoundedTemporalEntity-7683)
+
+(aia-OI BoundedTemporalEntity-7909 BoundedTemporalEntity-7874)
+
+(aia-OI BoundedTemporalEntity-7909 BoundedTemporalEntity-7880)
+
+(aia-OI BoundedTemporalEntity-7909 BoundedTemporalEntity-7886)
+
+(cityOwner FC-City-Narva FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-7537 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Narva))
+
+(constantIn BoundedTemporalEntity-7602 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129398))
+
+(constantIn BoundedTemporalEntity-7874 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-132567))
+
+(currentActivity Unit-251 FC-ActivityFortifying)
+
+(currentActivity Unit-271 FC-ActivityIdle)
+
+(currentActivity Unit-284 FC-ActivityIdle)
+
+(defenseBonus FC-City-Narva 0)
+
+(fcObjectAt FC-City-Narva (FreecivLocationFn 45 8))
+
+(fcObjectAt Unit-284 (FreecivLocationFn 45 8))
+
+(footprintOf FC-City-Narva CityFootprint-FC-City-Narva)
+
+(isa CityFootprint-FC-City-Narva CityFootprint)
+
+(isa FC-City-Narva FreeCiv-City)
+
+(isa STEntity-149 DefensiveEpisodeFailure)
+
+(isa STEntity-149 SpatiotemporalEvent)
+
+(isa Unit-251 FC-Unit-Catapult)
+
+(isa Unit-271 FC-Unit-Catapult)
+
+(isa Unit-284 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-129398 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-132567 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7642 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129398))
+
+(nondecreasingIn BoundedTemporalEntity-7682 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Narva))
+
+(nondecreasingIn BoundedTemporalEntity-7880 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-132567))
+
+(nondecreasingIn BoundedTemporalEntity-7896 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-132567))
+
+(nonincreasingIn BoundedTemporalEntity-7784 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-129398))
+
+(nonincreasingIn BoundedTemporalEntity-7808 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-129398))
+
+(nonincreasingIn BoundedTemporalEntity-7862 ((MeasurableQuantityFn citySize) FC-City-Narva))
+
+(nonincreasingIn BoundedTemporalEntity-7867 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Narva))
+
+(nonincreasingIn BoundedTemporalEntity-7886 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-132567))
+
+(nonincreasingIn BoundedTemporalEntity-7909 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-132567))
+
+(someIn BoundedTemporalEntity-7683 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Narva))
+
+(startsAfterStartingOf BoundedTemporalEntity-7909 BoundedTemporalEntity-7896)
+
+(startsBeforeStartingOf BoundedTemporalEntity-7784 BoundedTemporalEntity-7808)
+
+(startsBeforeStartingOf BoundedTemporalEntity-7862 BoundedTemporalEntity-7867)
+
+(startsBeforeStartingOf BoundedTemporalEntity-7862 BoundedTemporalEntity-7908)
+
+(terrainAt (FreecivLocationFn 45 8) FC-Terrain-Plains)
+
+(unitOwner Unit-251 FC-Player-ElizabethNicholls)
+
+(unitOwner Unit-284 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-7538 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Narva))
+
+(zeroIn BoundedTemporalEntity-7908 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Narva))

@@ -1,0 +1,98 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Timbuktu) (TemporalIntervalFn STEntity-86)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Timbuktu) (TemporalIntervalFn STEntity-86)))
+((Area (AtFn (EndFn STEntity-86) STEntity-86)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-86) STEntity-86)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-86) STEntity-86)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-86) STEntity-86)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-86) STEntity-86)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-86) STEntity-86)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-86) STEntity-86)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-86) STEntity-86)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-86) STEntity-86)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-86) STEntity-86)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3115 BoundedTemporalEntity-3103)
+
+(aia-MI BoundedTemporalEntity-3123 BoundedTemporalEntity-3115)
+
+(aia-MI BoundedTemporalEntity-3150 BoundedTemporalEntity-3123)
+
+(aia-MI BoundedTemporalEntity-3152 BoundedTemporalEntity-3150)
+
+(aia-MI BoundedTemporalEntity-3186 BoundedTemporalEntity-3167)
+
+(aia-MI BoundedTemporalEntity-3191 BoundedTemporalEntity-3186)
+
+(cityOwner FC-City-Timbuktu FC-Player-Sakura)
+
+(constantIn BoundedTemporalEntity-3104 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Timbuktu))
+
+(constantIn BoundedTemporalEntity-3166 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-190300))
+
+(constantIn BoundedTemporalEntity-3183 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-193031))
+
+(constantIn BoundedTemporalEntity-3185 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-193031))
+
+(constantIn BoundedTemporalEntity-3187 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-194925))
+
+(constantIn BoundedTemporalEntity-3188 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-194931))
+
+(constantIn BoundedTemporalEntity-3189 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-194925))
+
+(constantIn BoundedTemporalEntity-3190 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-194931))
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Timbuktu (FreecivLocationFn 0 26))
+
+(fcObjectAt Unit-194 (FreecivLocationFn 0 26))
+
+(footprintOf FC-City-Timbuktu CityFootprint-FC-City-Timbuktu)
+
+(isa CityFootprint-FC-City-Timbuktu CityFootprint)
+
+(isa FC-City-Timbuktu FreeCiv-City)
+
+(isa STEntity-86 DefensiveEpisodeFailure)
+
+(isa STEntity-86 SpatiotemporalEvent)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-190300 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-193031 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-194925 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-194931 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-3152 ((MeasurableQuantityFn citySize) FC-City-Timbuktu))
+
+(nonincreasingIn BoundedTemporalEntity-3191 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-190300))
+
+(startsAfterStartingOf BoundedTemporalEntity-3152 BoundedTemporalEntity-3104)
+
+(startsAfterStartingOf BoundedTemporalEntity-3152 BoundedTemporalEntity-3105)
+
+(startsAfterStartingOf BoundedTemporalEntity-3191 BoundedTemporalEntity-3166)
+
+(startsAtSameTime BoundedTemporalEntity-3185 BoundedTemporalEntity-3183)
+
+(startsAtSameTime BoundedTemporalEntity-3189 BoundedTemporalEntity-3187)
+
+(startsAtSameTime BoundedTemporalEntity-3190 BoundedTemporalEntity-3188)
+
+(unitOwner Unit-194 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3105 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Timbuktu))

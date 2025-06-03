@@ -1,0 +1,146 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Butterworth) (TemporalIntervalFn STEntity-478)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Butterworth) (TemporalIntervalFn STEntity-478)))
+((Area (AtFn (EndFn STEntity-478) STEntity-478)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-478) STEntity-478)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-478) STEntity-478)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-478) STEntity-478)) (FreecivCitizenCountFn 3))
+
+((citySize (AtFn (StartFn STEntity-478) STEntity-478)) (FreecivCitizenCountFn 3))
+
+(aia-MI BoundedTemporalEntity-10500 BoundedTemporalEntity-10487)
+
+(aia-MI BoundedTemporalEntity-10511 BoundedTemporalEntity-10441)
+
+(aia-MI BoundedTemporalEntity-10516 BoundedTemporalEntity-10500)
+
+(aia-MI BoundedTemporalEntity-10530 BoundedTemporalEntity-10516)
+
+(aia-MI BoundedTemporalEntity-10629 BoundedTemporalEntity-10609)
+
+(aia-MI BoundedTemporalEntity-10649 BoundedTemporalEntity-10511)
+
+(aia-MI BoundedTemporalEntity-10663 BoundedTemporalEntity-10629)
+
+(aia-MI BoundedTemporalEntity-10665 BoundedTemporalEntity-10530)
+
+(aia-MI BoundedTemporalEntity-10666 BoundedTemporalEntity-10661)
+
+(aia-MI BoundedTemporalEntity-10676 BoundedTemporalEntity-10666)
+
+(aia-MI BoundedTemporalEntity-10677 BoundedTemporalEntity-10665)
+
+(aia-MI BoundedTemporalEntity-10698 BoundedTemporalEntity-10649)
+
+(aia-MI BoundedTemporalEntity-10703 BoundedTemporalEntity-10677)
+
+(aia-MI BoundedTemporalEntity-10719 BoundedTemporalEntity-10676)
+
+(aia-OI BoundedTemporalEntity-10698 BoundedTemporalEntity-10487)
+
+(aia-OI BoundedTemporalEntity-10698 BoundedTemporalEntity-10500)
+
+(aia-OI BoundedTemporalEntity-10698 BoundedTemporalEntity-10516)
+
+(aia-OI BoundedTemporalEntity-10698 BoundedTemporalEntity-10530)
+
+(aia-OI BoundedTemporalEntity-10698 BoundedTemporalEntity-10665)
+
+(aia-OI BoundedTemporalEntity-10698 BoundedTemporalEntity-10677)
+
+(cityOwner FC-City-Butterworth FC-Player-DavitIV)
+
+(constantIn BoundedTemporalEntity-10442 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Butterworth))
+
+(constantIn BoundedTemporalEntity-10607 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-12497414))
+
+(constantIn BoundedTemporalEntity-10655 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13054672))
+
+(constantIn BoundedTemporalEntity-10682 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13379718))
+
+(constantIn BoundedTemporalEntity-10684 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-13379888))
+
+(constantIn BoundedTemporalEntity-10689 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13379718))
+
+(constantIn BoundedTemporalEntity-10691 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13379888))
+
+(currentActivity Unit-170 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Butterworth (FreecivLocationFn 19 4))
+
+(fcObjectAt Unit-170 (FreecivLocationFn 19 4))
+
+(footprintOf FC-City-Butterworth CityFootprint-FC-City-Butterworth)
+
+(isa CityFootprint-FC-City-Butterworth CityFootprint)
+
+(isa FC-City-Butterworth FreeCiv-City)
+
+(isa STEntity-478 DefensiveEpisodeFailure)
+
+(isa STEntity-478 SpatiotemporalEvent)
+
+(isa Unit-170 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-12497414 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-13054672 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-13379718 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-13379888 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10500 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Butterworth))
+
+(nondecreasingIn BoundedTemporalEntity-10530 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Butterworth))
+
+(nondecreasingIn BoundedTemporalEntity-10677 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Butterworth))
+
+(nondecreasingIn BoundedTemporalEntity-10698 ((MeasurableQuantityFn citySize) FC-City-Butterworth))
+
+(nondecreasingIn BoundedTemporalEntity-10703 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Butterworth))
+
+(nondecreasingIn BoundedTemporalEntity-10719 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-13054672))
+
+(nonincreasingIn BoundedTemporalEntity-10487 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Butterworth))
+
+(nonincreasingIn BoundedTemporalEntity-10516 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Butterworth))
+
+(nonincreasingIn BoundedTemporalEntity-10663 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-12497414))
+
+(nonincreasingIn BoundedTemporalEntity-10665 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Butterworth))
+
+(startsAfterStartingOf BoundedTemporalEntity-10663 BoundedTemporalEntity-10607)
+
+(startsAfterStartingOf BoundedTemporalEntity-10698 BoundedTemporalEntity-10442)
+
+(startsAfterStartingOf BoundedTemporalEntity-10698 BoundedTemporalEntity-10443)
+
+(startsAfterStartingOf BoundedTemporalEntity-10719 BoundedTemporalEntity-10655)
+
+(startsAtSameTime BoundedTemporalEntity-10689 BoundedTemporalEntity-10682)
+
+(startsAtSameTime BoundedTemporalEntity-10691 BoundedTemporalEntity-10684)
+
+(startsBeforeStartingOf BoundedTemporalEntity-10698 BoundedTemporalEntity-10703)
+
+(unitOwner Unit-170 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10443 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Butterworth))

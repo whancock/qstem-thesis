@@ -1,0 +1,66 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Charlottetown) (TemporalIntervalFn STEntity-139)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Charlottetown) (TemporalIntervalFn STEntity-139)))
+((Area (AtFn (EndFn STEntity-139) STEntity-139)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-139) STEntity-139)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-139) STEntity-139)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-139) STEntity-139)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-139) STEntity-139)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-139) STEntity-139)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-139) STEntity-139)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-139) STEntity-139)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-139) STEntity-139)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-139) STEntity-139)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-4990 BoundedTemporalEntity-4913)
+
+(aia-MI BoundedTemporalEntity-4991 BoundedTemporalEntity-4990)
+
+(cityOwner FC-City-Charlottetown FC-Player-BrianMulroney)
+
+(constantIn BoundedTemporalEntity-4914 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Charlottetown))
+
+(constantIn BoundedTemporalEntity-4994 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-694605))
+
+(constantIn BoundedTemporalEntity-4995 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-694605))
+
+(currentActivity Unit-156 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Charlottetown (FreecivLocationFn 3 12))
+
+(fcObjectAt Unit-156 (FreecivLocationFn 3 12))
+
+(footprintOf FC-City-Charlottetown CityFootprint-FC-City-Charlottetown)
+
+(isa CityFootprint-FC-City-Charlottetown CityFootprint)
+
+(isa FC-City-Charlottetown FreeCiv-City)
+
+(isa STEntity-139 DefensiveEpisodeFailure)
+
+(isa STEntity-139 SpatiotemporalEvent)
+
+(isa Unit-156 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-694605 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-4991 ((MeasurableQuantityFn citySize) FC-City-Charlottetown))
+
+(startsAfterStartingOf BoundedTemporalEntity-4991 BoundedTemporalEntity-4914)
+
+(startsAfterStartingOf BoundedTemporalEntity-4991 BoundedTemporalEntity-4915)
+
+(startsAtSameTime BoundedTemporalEntity-4995 BoundedTemporalEntity-4994)
+
+(unitOwner Unit-156 FC-Player-JagatMalla)
+
+(zeroIn BoundedTemporalEntity-4915 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Charlottetown))

@@ -1,0 +1,270 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kongresurbo) (TemporalIntervalFn STEntity-286)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kongresurbo) (TemporalIntervalFn STEntity-286)))
+((Area (AtFn (EndFn STEntity-286) STEntity-286)) (FreecivTileArea 135))
+
+((Area (AtFn (EndFn STEntity-286) STEntity-286)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-286) STEntity-286)) (FreecivTileArea 135))
+
+((Area (AtFn (StartFn STEntity-286) STEntity-286)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-286) STEntity-286)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-286) STEntity-286)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-286) STEntity-286)) (FreecivUnitCountFn 10))
+
+((Defenders (AtFn (StartFn STEntity-286) STEntity-286)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-286) STEntity-286)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-286) STEntity-286)) (FreecivUnitCountFn 10))
+
+((citySize (AtFn (EndFn STEntity-286) STEntity-286)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-286) STEntity-286)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-16314 BoundedTemporalEntity-16309)
+
+(aia-MI BoundedTemporalEntity-16315 BoundedTemporalEntity-16310)
+
+(aia-MI BoundedTemporalEntity-16317 BoundedTemporalEntity-16314)
+
+(aia-MI BoundedTemporalEntity-16318 BoundedTemporalEntity-16315)
+
+(aia-MI BoundedTemporalEntity-16319 BoundedTemporalEntity-16317)
+
+(aia-MI BoundedTemporalEntity-16320 BoundedTemporalEntity-16318)
+
+(aia-MI BoundedTemporalEntity-16323 BoundedTemporalEntity-16319)
+
+(aia-MI BoundedTemporalEntity-16324 BoundedTemporalEntity-16320)
+
+(aia-MI BoundedTemporalEntity-16327 BoundedTemporalEntity-16323)
+
+(aia-MI BoundedTemporalEntity-16328 BoundedTemporalEntity-16324)
+
+(aia-MI BoundedTemporalEntity-16332 BoundedTemporalEntity-16327)
+
+(aia-MI BoundedTemporalEntity-16333 BoundedTemporalEntity-16328)
+
+(aia-MI BoundedTemporalEntity-16337 BoundedTemporalEntity-16332)
+
+(aia-MI BoundedTemporalEntity-16338 BoundedTemporalEntity-16333)
+
+(aia-MI BoundedTemporalEntity-16342 BoundedTemporalEntity-16338)
+
+(aia-MI BoundedTemporalEntity-16345 BoundedTemporalEntity-16337)
+
+(aia-MI BoundedTemporalEntity-16346 BoundedTemporalEntity-16342)
+
+(aia-MI BoundedTemporalEntity-16347 BoundedTemporalEntity-16346)
+
+(aia-MI BoundedTemporalEntity-16348 BoundedTemporalEntity-16345)
+
+(aia-MI BoundedTemporalEntity-16350 BoundedTemporalEntity-16348)
+
+(aia-MI BoundedTemporalEntity-16352 BoundedTemporalEntity-16350)
+
+(aia-MI BoundedTemporalEntity-16354 BoundedTemporalEntity-16347)
+
+(aia-MI BoundedTemporalEntity-16355 BoundedTemporalEntity-16354)
+
+(aia-MI BoundedTemporalEntity-16356 BoundedTemporalEntity-16352)
+
+(aia-MI BoundedTemporalEntity-16357 BoundedTemporalEntity-16356)
+
+(aia-MI BoundedTemporalEntity-16358 BoundedTemporalEntity-16357)
+
+(aia-MI BoundedTemporalEntity-16362 BoundedTemporalEntity-16358)
+
+(aia-MI BoundedTemporalEntity-16366 BoundedTemporalEntity-16339)
+
+(aia-MI BoundedTemporalEntity-16367 BoundedTemporalEntity-16355)
+
+(aia-MI BoundedTemporalEntity-16371 BoundedTemporalEntity-16362)
+
+(aia-MI BoundedTemporalEntity-16372 BoundedTemporalEntity-16367)
+
+(aia-MI BoundedTemporalEntity-16373 BoundedTemporalEntity-16371)
+
+(aia-MI BoundedTemporalEntity-16375 BoundedTemporalEntity-16373)
+
+(aia-MI BoundedTemporalEntity-16376 BoundedTemporalEntity-16375)
+
+(aia-MI BoundedTemporalEntity-16377 BoundedTemporalEntity-16372)
+
+(aia-MI BoundedTemporalEntity-16383 BoundedTemporalEntity-16376)
+
+(aia-MI BoundedTemporalEntity-16384 BoundedTemporalEntity-16377)
+
+(aia-MI BoundedTemporalEntity-16387 BoundedTemporalEntity-16383)
+
+(aia-MI BoundedTemporalEntity-16390 BoundedTemporalEntity-16387)
+
+(aia-MI BoundedTemporalEntity-16391 BoundedTemporalEntity-16390)
+
+(aia-MI BoundedTemporalEntity-16398 BoundedTemporalEntity-16391)
+
+(aia-MI BoundedTemporalEntity-16399 BoundedTemporalEntity-16398)
+
+(aia-MI BoundedTemporalEntity-16400 BoundedTemporalEntity-16384)
+
+(aia-MI BoundedTemporalEntity-16400 BoundedTemporalEntity-16398)
+
+(aia-MI BoundedTemporalEntity-16403 BoundedTemporalEntity-16399)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16309)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16314)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16317)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16319)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16323)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16327)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16332)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16337)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16345)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16348)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16350)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16352)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16356)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16357)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16358)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16362)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16371)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16373)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16375)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16376)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16383)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16387)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16390)
+
+(aia-OI BoundedTemporalEntity-16400 BoundedTemporalEntity-16391)
+
+(aia-SI BoundedTemporalEntity-16400 BoundedTemporalEntity-16399)
+
+(cityOwner FC-City-Kongresurbo FC-Player-MarttiAhtisaari)
+
+(constantIn BoundedTemporalEntity-16309 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(constantIn BoundedTemporalEntity-16340 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kongresurbo))
+
+(constantIn BoundedTemporalEntity-16401 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265995))
+
+(constantIn BoundedTemporalEntity-16402 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-265995))
+
+(currentActivity Unit-164 FC-ActivityIdle)
+
+(defenseBonus FC-City-Kongresurbo 0)
+
+(fcObjectAt FC-City-Kongresurbo (FreecivLocationFn 17 6))
+
+(fcObjectAt Unit-164 (FreecivLocationFn 17 6))
+
+(footprintOf FC-City-Kongresurbo CityFootprint-FC-City-Kongresurbo)
+
+(isa CityFootprint-FC-City-Kongresurbo CityFootprint)
+
+(isa FC-City-Kongresurbo FreeCiv-City)
+
+(isa STEntity-286 DefensiveEpisodeFailure)
+
+(isa STEntity-286 SpatiotemporalEvent)
+
+(isa Unit-164 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-265152 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-265995 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-16314 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16319 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16327 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16337 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16348 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16352 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16357 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16362 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16366 ((MeasurableQuantityFn citySize) FC-City-Kongresurbo))
+
+(nondecreasingIn BoundedTemporalEntity-16373 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16376 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16387 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16391 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16399 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nondecreasingIn BoundedTemporalEntity-16400 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16317 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16323 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16332 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16345 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16350 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16356 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16358 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16371 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16375 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16383 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16390 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16398 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(nonincreasingIn BoundedTemporalEntity-16403 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-265152))
+
+(startsAfterStartingOf BoundedTemporalEntity-16366 BoundedTemporalEntity-16340)
+
+(startsAfterStartingOf BoundedTemporalEntity-16366 BoundedTemporalEntity-16341)
+
+(startsAtSameTime BoundedTemporalEntity-16402 BoundedTemporalEntity-16401)
+
+(startsBeforeStartingOf BoundedTemporalEntity-16400 BoundedTemporalEntity-16403)
+
+(terrainAt (FreecivLocationFn 17 6) FC-Terrain-Plains)
+
+(unitOwner Unit-164 FC-Player-MarttiAhtisaari)
+
+(zeroIn BoundedTemporalEntity-16341 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kongresurbo))

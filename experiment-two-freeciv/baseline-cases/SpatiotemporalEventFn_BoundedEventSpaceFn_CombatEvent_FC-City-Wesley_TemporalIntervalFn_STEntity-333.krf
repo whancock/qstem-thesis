@@ -1,0 +1,106 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wesley) (TemporalIntervalFn STEntity-333)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wesley) (TemporalIntervalFn STEntity-333)))
+((Area (AtFn (EndFn STEntity-333) STEntity-333)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-333) STEntity-333)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (EndFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-333) STEntity-333)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Wesley)
+
+((citySize (AtFn (EndFn STEntity-333) STEntity-333)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-333) STEntity-333)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7296 BoundedTemporalEntity-7247)
+
+(aia-MI BoundedTemporalEntity-7370 BoundedTemporalEntity-7356)
+
+(aia-MI BoundedTemporalEntity-7371 BoundedTemporalEntity-7296)
+
+(cityOwner FC-City-Wesley FC-Player-PierreCharles)
+
+(constantIn BoundedTemporalEntity-7248 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))
+
+(constantIn BoundedTemporalEntity-7334 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4398714))
+
+(constantIn BoundedTemporalEntity-7339 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4398714))
+
+(constantIn BoundedTemporalEntity-7347 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4420808))
+
+(constantIn BoundedTemporalEntity-7348 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4420827))
+
+(constantIn BoundedTemporalEntity-7357 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4420827))
+
+(constantIn BoundedTemporalEntity-7372 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4439017))
+
+(constantIn BoundedTemporalEntity-7373 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4439017))
+
+(currentActivity Unit-227 FC-ActivityIdle)
+
+(currentActivity Unit-232 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Wesley (FreecivLocationFn 12 31))
+
+(fcObjectAt Unit-227 (FreecivLocationFn 12 31))
+
+(footprintOf FC-City-Wesley CityFootprint-FC-City-Wesley)
+
+(isa CityFootprint-FC-City-Wesley CityFootprint)
+
+(isa FC-City-Wesley FreeCiv-City)
+
+(isa STEntity-333 DefensiveEpisodeFailure)
+
+(isa STEntity-333 SpatiotemporalEvent)
+
+(isa Unit-227 FC-Unit-Chariot)
+
+(isa Unit-232 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-4398714 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4420808 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4420827 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4424732 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4439017 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-7370 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4420808))
+
+(nonincreasingIn BoundedTemporalEntity-7371 ((MeasurableQuantityFn citySize) FC-City-Wesley))
+
+(startsAfterStartingOf BoundedTemporalEntity-7370 BoundedTemporalEntity-7347)
+
+(startsAfterStartingOf BoundedTemporalEntity-7371 BoundedTemporalEntity-7248)
+
+(startsAfterStartingOf BoundedTemporalEntity-7371 BoundedTemporalEntity-7249)
+
+(startsAtSameTime BoundedTemporalEntity-7339 BoundedTemporalEntity-7334)
+
+(startsAtSameTime BoundedTemporalEntity-7357 BoundedTemporalEntity-7348)
+
+(startsAtSameTime BoundedTemporalEntity-7373 BoundedTemporalEntity-7372)
+
+(unitOwner Unit-227 FC-Player-Mansur)
+
+(unitOwner Unit-232 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7249 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wesley))

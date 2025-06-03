@@ -1,0 +1,108 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wroc≈?aw) (TemporalIntervalFn STEntity-367)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Wroc≈?aw) (TemporalIntervalFn STEntity-367)))
+((Area (AtFn (EndFn STEntity-367) STEntity-367)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-367) STEntity-367)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 7))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (EndFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-367) STEntity-367)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-367) STEntity-367)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-367) STEntity-367)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7604 BoundedTemporalEntity-7543)
+
+(aia-MI BoundedTemporalEntity-7647 BoundedTemporalEntity-7604)
+
+(aia-MI BoundedTemporalEntity-7733 BoundedTemporalEntity-7647)
+
+(aia-MI BoundedTemporalEntity-7778 BoundedTemporalEntity-7654)
+
+(aia-MI BoundedTemporalEntity-7790 BoundedTemporalEntity-7733)
+
+(cityOwner FC-City-Wroc≈?aw FC-Player-W≈?adys≈?awJagie≈?≈?o)
+
+(constantIn BoundedTemporalEntity-7544 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))
+
+(constantIn BoundedTemporalEntity-7652 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4968506))
+
+(constantIn BoundedTemporalEntity-7761 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5423934))
+
+(constantIn BoundedTemporalEntity-7763 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5423934))
+
+(constantIn BoundedTemporalEntity-7766 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5508443))
+
+(constantIn BoundedTemporalEntity-7771 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5508443))
+
+(constantIn BoundedTemporalEntity-7779 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5551010))
+
+(constantIn BoundedTemporalEntity-7780 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5551010))
+
+(constantIn BoundedTemporalEntity-7800 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-5706631))
+
+(constantIn BoundedTemporalEntity-7804 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-5706631))
+
+(currentActivity Unit-331 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Wroc≈?aw (FreecivLocationFn 16 18))
+
+(fcObjectAt Unit-331 (FreecivLocationFn 16 18))
+
+(footprintOf FC-City-Wroc≈?aw CityFootprint-FC-City-Wroc≈?aw)
+
+(isa CityFootprint-FC-City-Wroc≈?aw CityFootprint)
+
+(isa FC-City-Wroc≈?aw FreeCiv-City)
+
+(isa STEntity-367 DefensiveEpisodeFailure)
+
+(isa STEntity-367 SpatiotemporalEvent)
+
+(isa Unit-331 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-4968506 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-5423934 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-5508443 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-5551010 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-5706631 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7778 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4968506))
+
+(nonincreasingIn BoundedTemporalEntity-7790 ((MeasurableQuantityFn citySize) FC-City-Wroc≈?aw))
+
+(startsAfterStartingOf BoundedTemporalEntity-7778 BoundedTemporalEntity-7652)
+
+(startsAfterStartingOf BoundedTemporalEntity-7790 BoundedTemporalEntity-7544)
+
+(startsAfterStartingOf BoundedTemporalEntity-7790 BoundedTemporalEntity-7545)
+
+(startsAtSameTime BoundedTemporalEntity-7763 BoundedTemporalEntity-7761)
+
+(startsAtSameTime BoundedTemporalEntity-7771 BoundedTemporalEntity-7766)
+
+(startsAtSameTime BoundedTemporalEntity-7780 BoundedTemporalEntity-7779)
+
+(startsAtSameTime BoundedTemporalEntity-7804 BoundedTemporalEntity-7800)
+
+(unitOwner Unit-331 FC-Player-Algmins)
+
+(zeroIn BoundedTemporalEntity-7545 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Wroc≈?aw))

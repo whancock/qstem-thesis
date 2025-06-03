@@ -1,0 +1,108 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guovdageaidnu) (TemporalIntervalFn STEntity-103)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guovdageaidnu) (TemporalIntervalFn STEntity-103)))
+((Area (AtFn (EndFn STEntity-103) STEntity-103)) (FreecivTileArea 22))
+
+((Area (AtFn (EndFn STEntity-103) STEntity-103)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-103) STEntity-103)) (FreecivTileArea 101))
+
+((Area (AtFn (StartFn STEntity-103) STEntity-103)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-103) STEntity-103)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-103) STEntity-103)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-103) STEntity-103)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-103) STEntity-103)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-103) STEntity-103)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-103) STEntity-103)) (FreecivUnitCountFn 5))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Guovdageaidnu)
+
+((citySize (AtFn (EndFn STEntity-103) STEntity-103)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-103) STEntity-103)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-5378 BoundedTemporalEntity-5364)
+
+(aia-MI BoundedTemporalEntity-5380 BoundedTemporalEntity-5378)
+
+(aia-MI BoundedTemporalEntity-5384 BoundedTemporalEntity-5380)
+
+(aia-MI BoundedTemporalEntity-5385 BoundedTemporalEntity-5384)
+
+(aia-MI BoundedTemporalEntity-5389 BoundedTemporalEntity-5385)
+
+(aia-MI BoundedTemporalEntity-5397 BoundedTemporalEntity-5389)
+
+(aia-MI BoundedTemporalEntity-5415 BoundedTemporalEntity-5397)
+
+(aia-MI BoundedTemporalEntity-5431 BoundedTemporalEntity-5415)
+
+(aia-MI BoundedTemporalEntity-5474 BoundedTemporalEntity-5431)
+
+(aia-MI BoundedTemporalEntity-5479 BoundedTemporalEntity-5474)
+
+(aia-MI BoundedTemporalEntity-5513 BoundedTemporalEntity-5479)
+
+(cityOwner FC-City-Guovdageaidnu FC-Player-Shulgi)
+
+(constantIn BoundedTemporalEntity-5366 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))
+
+(constantIn BoundedTemporalEntity-5445 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-92450))
+
+(constantIn BoundedTemporalEntity-5447 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-92450))
+
+(constantIn BoundedTemporalEntity-5519 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-93297))
+
+(constantIn BoundedTemporalEntity-5520 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-93297))
+
+(currentActivity Unit-167 FC-ActivityIdle)
+
+(currentActivity Unit-194 FC-ActivityIdle)
+
+(defenseBonus FC-City-Guovdageaidnu 0)
+
+(fcObjectAt FC-City-Guovdageaidnu (FreecivLocationFn 35 5))
+
+(fcObjectAt Unit-194 (FreecivLocationFn 35 5))
+
+(footprintOf FC-City-Guovdageaidnu CityFootprint-FC-City-Guovdageaidnu)
+
+(isa CityFootprint-FC-City-Guovdageaidnu CityFootprint)
+
+(isa FC-City-Guovdageaidnu FreeCiv-City)
+
+(isa STEntity-103 DefensiveEpisodeFailure)
+
+(isa STEntity-103 SpatiotemporalEvent)
+
+(isa Unit-167 FC-Unit-Horsemen)
+
+(isa Unit-194 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-92155 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-92450 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-93297 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5513 ((MeasurableQuantityFn citySize) FC-City-Guovdageaidnu))
+
+(startsAfterStartingOf BoundedTemporalEntity-5513 BoundedTemporalEntity-5366)
+
+(startsAfterStartingOf BoundedTemporalEntity-5513 BoundedTemporalEntity-5367)
+
+(startsAtSameTime BoundedTemporalEntity-5447 BoundedTemporalEntity-5445)
+
+(startsAtSameTime BoundedTemporalEntity-5520 BoundedTemporalEntity-5519)
+
+(terrainAt (FreecivLocationFn 35 5) FC-Terrain-Plains)
+
+(unitOwner Unit-194 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5367 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guovdageaidnu))

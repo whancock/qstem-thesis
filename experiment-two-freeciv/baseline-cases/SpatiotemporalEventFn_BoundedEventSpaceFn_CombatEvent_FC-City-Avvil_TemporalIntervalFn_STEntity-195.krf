@@ -1,0 +1,62 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Avvil) (TemporalIntervalFn STEntity-195)), dumped 5/23/2025 14:18:44 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Avvil) (TemporalIntervalFn STEntity-195)))
+((Area (AtFn (EndFn STEntity-195) STEntity-195)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-195) STEntity-195)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-195) STEntity-195)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-195) STEntity-195)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-195) STEntity-195)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-195) STEntity-195)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-195) STEntity-195)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-195) STEntity-195)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-195) STEntity-195)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-195) STEntity-195)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Avvil FC-Player-OleHenrikMagga)
+
+(constantIn BoundedTemporalEntity-5584 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1264368))
+
+(constantIn BoundedTemporalEntity-5585 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1264368))
+
+(constantIn BoundedTemporalEntity-5624 ((MeasurableQuantityFn citySize) FC-City-Avvil))
+
+(constantIn BoundedTemporalEntity-5625 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Avvil))
+
+(currentActivity Unit-245 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Avvil (FreecivLocationFn 27 14))
+
+(fcObjectAt Unit-245 (FreecivLocationFn 27 14))
+
+(footprintOf FC-City-Avvil CityFootprint-FC-City-Avvil)
+
+(isa CityFootprint-FC-City-Avvil CityFootprint)
+
+(isa FC-City-Avvil FreeCiv-City)
+
+(isa STEntity-195 DefensiveEpisodeFailure)
+
+(isa STEntity-195 SpatiotemporalEvent)
+
+(isa Unit-245 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1264368 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-5585 BoundedTemporalEntity-5584)
+
+(startsAtSameTime BoundedTemporalEntity-5624 BoundedTemporalEntity-5625)
+
+(startsAtSameTime BoundedTemporalEntity-5624 BoundedTemporalEntity-5626)
+
+(unitOwner Unit-245 FC-Player-Shulgi)
+
+(zeroIn BoundedTemporalEntity-5626 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Avvil))

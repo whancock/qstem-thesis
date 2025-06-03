@@ -1,0 +1,190 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Butterworth) (TemporalIntervalFn STEntity-249)), dumped 5/23/2025 14:11:14 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Butterworth) (TemporalIntervalFn STEntity-249)))
+((Area (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivTileArea 47))
+
+((Area (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivTileArea 47))
+
+((Defenders (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 6))
+
+((citySize (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivCitizenCountFn 3))
+
+((citySize (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivCitizenCountFn 3))
+
+(aia-MI BoundedTemporalEntity-12627 BoundedTemporalEntity-12621)
+
+(aia-MI BoundedTemporalEntity-12628 BoundedTemporalEntity-12622)
+
+(aia-MI BoundedTemporalEntity-12631 BoundedTemporalEntity-12627)
+
+(aia-MI BoundedTemporalEntity-12632 BoundedTemporalEntity-12631)
+
+(aia-MI BoundedTemporalEntity-12635 BoundedTemporalEntity-12632)
+
+(aia-MI BoundedTemporalEntity-12643 BoundedTemporalEntity-12635)
+
+(aia-MI BoundedTemporalEntity-12644 BoundedTemporalEntity-12610)
+
+(aia-MI BoundedTemporalEntity-12653 BoundedTemporalEntity-12643)
+
+(aia-MI BoundedTemporalEntity-12660 BoundedTemporalEntity-12653)
+
+(aia-MI BoundedTemporalEntity-12661 BoundedTemporalEntity-12628)
+
+(aia-MI BoundedTemporalEntity-12670 BoundedTemporalEntity-12660)
+
+(aia-MI BoundedTemporalEntity-12671 BoundedTemporalEntity-12661)
+
+(aia-MI BoundedTemporalEntity-12680 BoundedTemporalEntity-12670)
+
+(aia-MI BoundedTemporalEntity-12681 BoundedTemporalEntity-12671)
+
+(aia-MI BoundedTemporalEntity-12705 BoundedTemporalEntity-12680)
+
+(aia-MI BoundedTemporalEntity-12706 BoundedTemporalEntity-12681)
+
+(aia-MI BoundedTemporalEntity-12731 BoundedTemporalEntity-12705)
+
+(aia-MI BoundedTemporalEntity-12734 BoundedTemporalEntity-12706)
+
+(aia-MI BoundedTemporalEntity-12738 BoundedTemporalEntity-12731)
+
+(aia-MI BoundedTemporalEntity-12739 BoundedTemporalEntity-12734)
+
+(aia-MI BoundedTemporalEntity-12746 BoundedTemporalEntity-12738)
+
+(aia-MI BoundedTemporalEntity-12747 BoundedTemporalEntity-12739)
+
+(aia-MI BoundedTemporalEntity-12759 BoundedTemporalEntity-12746)
+
+(aia-MI BoundedTemporalEntity-12760 BoundedTemporalEntity-12747)
+
+(aia-MI BoundedTemporalEntity-12774 BoundedTemporalEntity-12759)
+
+(aia-MI BoundedTemporalEntity-12785 BoundedTemporalEntity-12774)
+
+(aia-MI BoundedTemporalEntity-12786 BoundedTemporalEntity-12760)
+
+(aia-MI BoundedTemporalEntity-12793 BoundedTemporalEntity-12785)
+
+(aia-MI BoundedTemporalEntity-12805 BoundedTemporalEntity-12644)
+
+(aia-MI BoundedTemporalEntity-12814 BoundedTemporalEntity-12786)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12621)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12627)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12631)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12632)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12635)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12643)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12653)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12660)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12670)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12680)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12705)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12731)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12738)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12746)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12759)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12774)
+
+(aia-OI BoundedTemporalEntity-12814 BoundedTemporalEntity-12785)
+
+(cityOwner FC-City-Butterworth FC-Player-DavitIV)
+
+(constantIn BoundedTemporalEntity-12611 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Butterworth))
+
+(constantIn BoundedTemporalEntity-12621 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(currentActivity Unit-170 FC-ActivityIdle)
+
+(defenseBonus FC-City-Butterworth 0)
+
+(fcObjectAt FC-City-Butterworth (FreecivLocationFn 19 4))
+
+(fcObjectAt Unit-170 (FreecivLocationFn 19 4))
+
+(footprintOf FC-City-Butterworth CityFootprint-FC-City-Butterworth)
+
+(isa CityFootprint-FC-City-Butterworth CityFootprint)
+
+(isa FC-City-Butterworth FreeCiv-City)
+
+(isa STEntity-249 DefensiveEpisodeFailure)
+
+(isa STEntity-249 SpatiotemporalEvent)
+
+(isa Unit-170 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-205010 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12631 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12635 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12653 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12670 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12738 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12759 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12785 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nondecreasingIn BoundedTemporalEntity-12805 ((MeasurableQuantityFn citySize) FC-City-Butterworth))
+
+(nondecreasingIn BoundedTemporalEntity-12814 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12627 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12632 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12643 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12660 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12680 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12731 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12746 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12774 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(nonincreasingIn BoundedTemporalEntity-12793 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-205010))
+
+(startsAfterStartingOf BoundedTemporalEntity-12805 BoundedTemporalEntity-12611)
+
+(startsAfterStartingOf BoundedTemporalEntity-12805 BoundedTemporalEntity-12612)
+
+(startsAfterStartingOf BoundedTemporalEntity-12814 BoundedTemporalEntity-12793)
+
+(terrainAt (FreecivLocationFn 19 4) FC-Terrain-Plains)
+
+(unitOwner Unit-170 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-12612 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Butterworth))

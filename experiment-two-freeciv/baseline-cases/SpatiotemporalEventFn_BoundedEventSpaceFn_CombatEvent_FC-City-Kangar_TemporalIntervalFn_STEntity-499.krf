@@ -1,0 +1,96 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kangar) (TemporalIntervalFn STEntity-499)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kangar) (TemporalIntervalFn STEntity-499)))
+((Area (AtFn (EndFn STEntity-499) STEntity-499)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-499) STEntity-499)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-499) STEntity-499)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-499) STEntity-499)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-499) STEntity-499)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-499) STEntity-499)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-499) STEntity-499)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-499) STEntity-499)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Kangar)
+
+((citySize (AtFn (EndFn STEntity-499) STEntity-499)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-499) STEntity-499)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-10697 BoundedTemporalEntity-10544)
+
+(aia-MI BoundedTemporalEntity-10827 BoundedTemporalEntity-10697)
+
+(aia-MI BoundedTemporalEntity-10885 BoundedTemporalEntity-10827)
+
+(aia-MI BoundedTemporalEntity-10954 BoundedTemporalEntity-10925)
+
+(aia-MI BoundedTemporalEntity-10986 BoundedTemporalEntity-10885)
+
+(aia-MI BoundedTemporalEntity-11027 BoundedTemporalEntity-10954)
+
+(aia-OI BoundedTemporalEntity-10986 BoundedTemporalEntity-10925)
+
+(aia-OI BoundedTemporalEntity-10986 BoundedTemporalEntity-10954)
+
+(cityOwner FC-City-Kangar FC-Player-DavitIV)
+
+(constantIn BoundedTemporalEntity-10545 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kangar))
+
+(constantIn BoundedTemporalEntity-10838 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-15547689))
+
+(constantIn BoundedTemporalEntity-10842 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-15547689))
+
+(constantIn BoundedTemporalEntity-11034 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-17281656))
+
+(constantIn BoundedTemporalEntity-11036 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-17281656))
+
+(currentActivity Unit-218 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kangar (FreecivLocationFn 34 16))
+
+(fcObjectAt Unit-218 (FreecivLocationFn 34 16))
+
+(footprintOf FC-City-Kangar CityFootprint-FC-City-Kangar)
+
+(isa CityFootprint-FC-City-Kangar CityFootprint)
+
+(isa FC-City-Kangar FreeCiv-City)
+
+(isa STEntity-499 DefensiveEpisodeFailure)
+
+(isa STEntity-499 SpatiotemporalEvent)
+
+(isa Unit-218 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-15547689 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-17281656 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10954 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Kangar))
+
+(nondecreasingIn BoundedTemporalEntity-10986 ((MeasurableQuantityFn citySize) FC-City-Kangar))
+
+(nondecreasingIn BoundedTemporalEntity-11027 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Kangar))
+
+(nonincreasingIn BoundedTemporalEntity-10925 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Kangar))
+
+(startsAfterStartingOf BoundedTemporalEntity-10986 BoundedTemporalEntity-10545)
+
+(startsAfterStartingOf BoundedTemporalEntity-10986 BoundedTemporalEntity-10546)
+
+(startsAtSameTime BoundedTemporalEntity-10842 BoundedTemporalEntity-10838)
+
+(startsAtSameTime BoundedTemporalEntity-11036 BoundedTemporalEntity-11034)
+
+(startsBeforeStartingOf BoundedTemporalEntity-10986 BoundedTemporalEntity-11027)
+
+(unitOwner Unit-218 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10546 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kangar))

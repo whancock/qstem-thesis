@@ -1,0 +1,62 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-52)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Honolulu) (TemporalIntervalFn STEntity-52)))
+((Area (AtFn (EndFn STEntity-52) STEntity-52)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-52) STEntity-52)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-52) STEntity-52)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-52) STEntity-52)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-52) STEntity-52)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-52) STEntity-52)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-52) STEntity-52)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-52) STEntity-52)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-52) STEntity-52)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-52) STEntity-52)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Honolulu FC-Player-Kamehameha)
+
+(constantIn BoundedTemporalEntity-2543 ((MeasurableQuantityFn citySize) FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-2544 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))
+
+(constantIn BoundedTemporalEntity-2556 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-131605))
+
+(constantIn BoundedTemporalEntity-2558 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-131605))
+
+(currentActivity Unit-180 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Honolulu (FreecivLocationFn 34 10))
+
+(fcObjectAt Unit-180 (FreecivLocationFn 34 10))
+
+(footprintOf FC-City-Honolulu CityFootprint-FC-City-Honolulu)
+
+(isa CityFootprint-FC-City-Honolulu CityFootprint)
+
+(isa FC-City-Honolulu FreeCiv-City)
+
+(isa STEntity-52 DefensiveEpisodeFailure)
+
+(isa STEntity-52 SpatiotemporalEvent)
+
+(isa Unit-180 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-131605 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-2543 BoundedTemporalEntity-2544)
+
+(startsAtSameTime BoundedTemporalEntity-2543 BoundedTemporalEntity-2545)
+
+(startsAtSameTime BoundedTemporalEntity-2558 BoundedTemporalEntity-2556)
+
+(unitOwner Unit-180 FC-Player-UNu)
+
+(zeroIn BoundedTemporalEntity-2545 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Honolulu))

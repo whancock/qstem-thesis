@@ -1,0 +1,76 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Marigot) (TemporalIntervalFn STEntity-328)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Marigot) (TemporalIntervalFn STEntity-328)))
+((Area (AtFn (EndFn STEntity-328) STEntity-328)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-328) STEntity-328)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-328) STEntity-328)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-328) STEntity-328)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-328) STEntity-328)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-328) STEntity-328)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-328) STEntity-328)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-328) STEntity-328)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-328) STEntity-328)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-328) STEntity-328)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7183 BoundedTemporalEntity-7170)
+
+(aia-MI BoundedTemporalEntity-7217 BoundedTemporalEntity-7183)
+
+(aia-MI BoundedTemporalEntity-7267 BoundedTemporalEntity-7217)
+
+(cityOwner FC-City-Marigot FC-Player-Mansur)
+
+(constantIn BoundedTemporalEntity-7171 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Marigot))
+
+(constantIn BoundedTemporalEntity-7272 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4243950))
+
+(constantIn BoundedTemporalEntity-7273 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4243950))
+
+(constantIn BoundedTemporalEntity-7275 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4257465))
+
+(constantIn BoundedTemporalEntity-7276 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4257465))
+
+(currentActivity Unit-201 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Marigot (FreecivLocationFn 9 28))
+
+(fcObjectAt Unit-201 (FreecivLocationFn 9 28))
+
+(footprintOf FC-City-Marigot CityFootprint-FC-City-Marigot)
+
+(isa CityFootprint-FC-City-Marigot CityFootprint)
+
+(isa FC-City-Marigot FreeCiv-City)
+
+(isa STEntity-328 DefensiveEpisodeFailure)
+
+(isa STEntity-328 SpatiotemporalEvent)
+
+(isa Unit-201 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-4243950 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4257465 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7267 ((MeasurableQuantityFn citySize) FC-City-Marigot))
+
+(startsAfterStartingOf BoundedTemporalEntity-7267 BoundedTemporalEntity-7171)
+
+(startsAfterStartingOf BoundedTemporalEntity-7267 BoundedTemporalEntity-7172)
+
+(startsAtSameTime BoundedTemporalEntity-7273 BoundedTemporalEntity-7272)
+
+(startsAtSameTime BoundedTemporalEntity-7276 BoundedTemporalEntity-7275)
+
+(unitOwner Unit-201 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7172 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Marigot))

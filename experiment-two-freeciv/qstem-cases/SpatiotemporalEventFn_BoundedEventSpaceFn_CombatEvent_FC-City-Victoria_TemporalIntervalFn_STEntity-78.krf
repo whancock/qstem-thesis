@@ -1,0 +1,200 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Victoria) (TemporalIntervalFn STEntity-78)), dumped 5/23/2025 14:11:16 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Victoria) (TemporalIntervalFn STEntity-78)))
+((Area (AtFn (EndFn STEntity-78) STEntity-78)) (FreecivTileArea 62))
+
+((Area (AtFn (EndFn STEntity-78) STEntity-78)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-78) STEntity-78)) (FreecivTileArea 22))
+
+((Area (AtFn (StartFn STEntity-78) STEntity-78)) (FreecivTileArea 8))
+
+((Defenders (AtFn (EndFn STEntity-78) STEntity-78)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-78) STEntity-78)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-78) STEntity-78)) (FreecivUnitCountFn 5))
+
+((Defenders (AtFn (StartFn STEntity-78) STEntity-78)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-78) STEntity-78)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-78) STEntity-78)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Victoria)
+
+((citySize (AtFn (EndFn STEntity-78) STEntity-78)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-78) STEntity-78)) (FreecivCitizenCountFn 1))
+
+(aia-DI BoundedTemporalEntity-5013 BoundedTemporalEntity-5019)
+
+(aia-DI BoundedTemporalEntity-5013 BoundedTemporalEntity-5020)
+
+(aia-DI BoundedTemporalEntity-5013 BoundedTemporalEntity-5023)
+
+(aia-DI BoundedTemporalEntity-5013 BoundedTemporalEntity-5024)
+
+(aia-DI BoundedTemporalEntity-5013 BoundedTemporalEntity-5030)
+
+(aia-DI BoundedTemporalEntity-5013 BoundedTemporalEntity-5031)
+
+(aia-MI BoundedTemporalEntity-4992 BoundedTemporalEntity-4974)
+
+(aia-MI BoundedTemporalEntity-4993 BoundedTemporalEntity-4992)
+
+(aia-MI BoundedTemporalEntity-5005 BoundedTemporalEntity-4999)
+
+(aia-MI BoundedTemporalEntity-5006 BoundedTemporalEntity-5000)
+
+(aia-MI BoundedTemporalEntity-5009 BoundedTemporalEntity-5005)
+
+(aia-MI BoundedTemporalEntity-5010 BoundedTemporalEntity-4993)
+
+(aia-MI BoundedTemporalEntity-5013 BoundedTemporalEntity-5010)
+
+(aia-MI BoundedTemporalEntity-5018 BoundedTemporalEntity-5009)
+
+(aia-MI BoundedTemporalEntity-5019 BoundedTemporalEntity-4976)
+
+(aia-MI BoundedTemporalEntity-5020 BoundedTemporalEntity-4977)
+
+(aia-MI BoundedTemporalEntity-5023 BoundedTemporalEntity-5019)
+
+(aia-MI BoundedTemporalEntity-5024 BoundedTemporalEntity-5020)
+
+(aia-MI BoundedTemporalEntity-5029 BoundedTemporalEntity-5018)
+
+(aia-MI BoundedTemporalEntity-5030 BoundedTemporalEntity-5023)
+
+(aia-MI BoundedTemporalEntity-5031 BoundedTemporalEntity-5024)
+
+(aia-MI BoundedTemporalEntity-5034 BoundedTemporalEntity-5029)
+
+(aia-MI BoundedTemporalEntity-5035 BoundedTemporalEntity-5030)
+
+(aia-MI BoundedTemporalEntity-5036 BoundedTemporalEntity-5031)
+
+(aia-MI BoundedTemporalEntity-5040 BoundedTemporalEntity-5034)
+
+(aia-MI BoundedTemporalEntity-5043 BoundedTemporalEntity-5040)
+
+(aia-MI BoundedTemporalEntity-5044 BoundedTemporalEntity-5006)
+
+(aia-MI BoundedTemporalEntity-5047 BoundedTemporalEntity-5044)
+
+(aia-OI BoundedTemporalEntity-5013 BoundedTemporalEntity-4976)
+
+(aia-OI BoundedTemporalEntity-5013 BoundedTemporalEntity-4977)
+
+(aia-OI BoundedTemporalEntity-5047 BoundedTemporalEntity-4999)
+
+(aia-OI BoundedTemporalEntity-5047 BoundedTemporalEntity-5005)
+
+(aia-OI BoundedTemporalEntity-5047 BoundedTemporalEntity-5009)
+
+(aia-OI BoundedTemporalEntity-5047 BoundedTemporalEntity-5018)
+
+(aia-OI BoundedTemporalEntity-5047 BoundedTemporalEntity-5029)
+
+(aia-OI BoundedTemporalEntity-5047 BoundedTemporalEntity-5034)
+
+(aia-OI BoundedTemporalEntity-5047 BoundedTemporalEntity-5040)
+
+(cityOwner FC-City-Victoria FC-Player-BrianMulroney)
+
+(constantIn BoundedTemporalEntity-4976 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(constantIn BoundedTemporalEntity-4999 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(currentActivity Unit-152 FC-ActivityIdle)
+
+(currentActivity Unit-156 FC-ActivityFortifying)
+
+(currentActivity Unit-158 FC-ActivityFortifying)
+
+(currentActivity Unit-160 FC-ActivityIdle)
+
+(currentActivity Unit-164 FC-ActivityFortifying)
+
+(defenseBonus FC-City-Victoria 0)
+
+(fcObjectAt FC-City-Victoria (FreecivLocationFn 6 15))
+
+(fcObjectAt Unit-160 (FreecivLocationFn 6 15))
+
+(footprintOf FC-City-Victoria CityFootprint-FC-City-Victoria)
+
+(isa CityFootprint-FC-City-Victoria CityFootprint)
+
+(isa FC-City-Victoria FreeCiv-City)
+
+(isa STEntity-78 DefensiveEpisodeFailure)
+
+(isa STEntity-78 SpatiotemporalEvent)
+
+(isa Unit-152 FC-Unit-Archers)
+
+(isa Unit-156 FC-Unit-Chariot)
+
+(isa Unit-158 FC-Unit-Chariot)
+
+(isa Unit-160 FC-Unit-Chariot)
+
+(isa Unit-164 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-88210 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-88504 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-5005 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(nondecreasingIn BoundedTemporalEntity-5018 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(nondecreasingIn BoundedTemporalEntity-5019 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(nondecreasingIn BoundedTemporalEntity-5030 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(nondecreasingIn BoundedTemporalEntity-5034 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(nondecreasingIn BoundedTemporalEntity-5043 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(nondecreasingIn BoundedTemporalEntity-5047 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-88210))
+
+(nonincreasingIn BoundedTemporalEntity-5009 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(nonincreasingIn BoundedTemporalEntity-5013 ((MeasurableQuantityFn citySize) FC-City-Victoria))
+
+(nonincreasingIn BoundedTemporalEntity-5023 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(nonincreasingIn BoundedTemporalEntity-5029 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(nonincreasingIn BoundedTemporalEntity-5035 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(nonincreasingIn BoundedTemporalEntity-5040 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-88210))
+
+(someIn BoundedTemporalEntity-5020 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(someIn BoundedTemporalEntity-5031 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(startsAfterStartingOf BoundedTemporalEntity-5047 BoundedTemporalEntity-5043)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5013 BoundedTemporalEntity-5035)
+
+(startsBeforeStartingOf BoundedTemporalEntity-5013 BoundedTemporalEntity-5036)
+
+(terrainAt (FreecivLocationFn 6 15) FC-Terrain-Grassland)
+
+(unitOwner Unit-156 FC-Player-JagatMalla)
+
+(unitOwner Unit-158 FC-Player-JagatMalla)
+
+(unitOwner Unit-160 FC-Player-JagatMalla)
+
+(unitOwner Unit-164 FC-Player-JagatMalla)
+
+(zeroIn BoundedTemporalEntity-4977 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(zeroIn BoundedTemporalEntity-5024 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))
+
+(zeroIn BoundedTemporalEntity-5036 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Victoria))

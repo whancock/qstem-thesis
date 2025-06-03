@@ -1,0 +1,72 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Arequipa) (TemporalIntervalFn STEntity-427)), dumped 5/23/2025 14:18:44 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Arequipa) (TemporalIntervalFn STEntity-427)))
+((Area (AtFn (EndFn STEntity-427) STEntity-427)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-427) STEntity-427)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-427) STEntity-427)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-427) STEntity-427)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-427) STEntity-427)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-427) STEntity-427)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-427) STEntity-427)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-427) STEntity-427)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-427) STEntity-427)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-427) STEntity-427)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-9472 BoundedTemporalEntity-9452)
+
+(aia-MI BoundedTemporalEntity-9481 BoundedTemporalEntity-9472)
+
+(aia-MI BoundedTemporalEntity-9494 BoundedTemporalEntity-9481)
+
+(aia-MI BoundedTemporalEntity-9497 BoundedTemporalEntity-9494)
+
+(aia-MI BoundedTemporalEntity-9532 BoundedTemporalEntity-9497)
+
+(cityOwner FC-City-Arequipa FC-Player-WangKon)
+
+(constantIn BoundedTemporalEntity-9453 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Arequipa))
+
+(constantIn BoundedTemporalEntity-9495 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9552637))
+
+(constantIn BoundedTemporalEntity-9496 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9552637))
+
+(currentActivity Unit-181 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Arequipa (FreecivLocationFn 11 21))
+
+(fcObjectAt Unit-181 (FreecivLocationFn 11 21))
+
+(footprintOf FC-City-Arequipa CityFootprint-FC-City-Arequipa)
+
+(isa CityFootprint-FC-City-Arequipa CityFootprint)
+
+(isa FC-City-Arequipa FreeCiv-City)
+
+(isa STEntity-427 DefensiveEpisodeFailure)
+
+(isa STEntity-427 SpatiotemporalEvent)
+
+(isa Unit-181 FC-Unit-Horsemen)
+
+(isa UnitGroupFootprint-9552637 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-9532 ((MeasurableQuantityFn citySize) FC-City-Arequipa))
+
+(startsAfterStartingOf BoundedTemporalEntity-9532 BoundedTemporalEntity-9453)
+
+(startsAfterStartingOf BoundedTemporalEntity-9532 BoundedTemporalEntity-9454)
+
+(startsAtSameTime BoundedTemporalEntity-9496 BoundedTemporalEntity-9495)
+
+(unitOwner Unit-181 FC-Player-WangKon)
+
+(zeroIn BoundedTemporalEntity-9454 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Arequipa))

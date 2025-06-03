@@ -1,0 +1,78 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Rajshahi) (TemporalIntervalFn STEntity-234)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Rajshahi) (TemporalIntervalFn STEntity-234)))
+((Area (AtFn (EndFn STEntity-234) STEntity-234)) (FreecivTileArea 32))
+
+((Area (AtFn (StartFn STEntity-234) STEntity-234)) (FreecivTileArea 32))
+
+((Defenders (AtFn (EndFn STEntity-234) STEntity-234)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-234) STEntity-234)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (StartFn STEntity-234) STEntity-234)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-234) STEntity-234)) (FreecivUnitCountFn 4))
+
+((citySize (AtFn (EndFn STEntity-234) STEntity-234)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-234) STEntity-234)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-12411 BoundedTemporalEntity-12394)
+
+(aia-MI BoundedTemporalEntity-12452 BoundedTemporalEntity-12449)
+
+(aia-MI BoundedTemporalEntity-12453 BoundedTemporalEntity-12449)
+
+(aia-MI BoundedTemporalEntity-12453 BoundedTemporalEntity-12451)
+
+(aia-MI BoundedTemporalEntity-12457 BoundedTemporalEntity-12452)
+
+(aia-SI BoundedTemporalEntity-12453 BoundedTemporalEntity-12452)
+
+(cityOwner FC-City-Rajshahi FC-Player-TomasZumalakarregiImaz)
+
+(constantIn BoundedTemporalEntity-12395 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rajshahi))
+
+(constantIn BoundedTemporalEntity-12449 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-204083))
+
+(currentActivity Unit-206 FC-ActivityIdle)
+
+(defenseBonus FC-City-Rajshahi 100)
+
+(fcObjectAt FC-City-Rajshahi (FreecivLocationFn 34 22))
+
+(fcObjectAt Unit-206 (FreecivLocationFn 34 22))
+
+(footprintOf FC-City-Rajshahi CityFootprint-FC-City-Rajshahi)
+
+(isa CityFootprint-FC-City-Rajshahi CityFootprint)
+
+(isa FC-City-Rajshahi FreeCiv-City)
+
+(isa STEntity-234 DefensiveEpisodeFailure)
+
+(isa STEntity-234 SpatiotemporalEvent)
+
+(isa Unit-206 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-204083 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-12411 ((MeasurableQuantityFn citySize) FC-City-Rajshahi))
+
+(nondecreasingIn BoundedTemporalEntity-12452 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-204083))
+
+(nondecreasingIn BoundedTemporalEntity-12453 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-204083))
+
+(nonincreasingIn BoundedTemporalEntity-12457 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-204083))
+
+(startsAfterStartingOf BoundedTemporalEntity-12411 BoundedTemporalEntity-12395)
+
+(startsAfterStartingOf BoundedTemporalEntity-12411 BoundedTemporalEntity-12396)
+
+(startsBeforeStartingOf BoundedTemporalEntity-12453 BoundedTemporalEntity-12457)
+
+(terrainAt (FreecivLocationFn 34 22) FC-Terrain-Hills)
+
+(unitOwner Unit-206 FC-Player-TomasZumalakarregiImaz)
+
+(zeroIn BoundedTemporalEntity-12396 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rajshahi))

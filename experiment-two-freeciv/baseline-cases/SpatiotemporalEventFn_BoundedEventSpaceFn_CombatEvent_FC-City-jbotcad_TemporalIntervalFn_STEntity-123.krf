@@ -1,0 +1,126 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-jbotcad) (TemporalIntervalFn STEntity-123)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-jbotcad) (TemporalIntervalFn STEntity-123)))
+((Area (AtFn (EndFn STEntity-123) STEntity-123)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-123) STEntity-123)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 7))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (EndFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-123) STEntity-123)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-123) STEntity-123)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-123) STEntity-123)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-4404 BoundedTemporalEntity-4388)
+
+(aia-MI BoundedTemporalEntity-4406 BoundedTemporalEntity-4404)
+
+(aia-MI BoundedTemporalEntity-4435 BoundedTemporalEntity-4406)
+
+(aia-MI BoundedTemporalEntity-4439 BoundedTemporalEntity-4435)
+
+(aia-MI BoundedTemporalEntity-4544 BoundedTemporalEntity-4439)
+
+(aia-MI BoundedTemporalEntity-4660 BoundedTemporalEntity-4544)
+
+(aia-MI BoundedTemporalEntity-4665 BoundedTemporalEntity-4660)
+
+(aia-MI BoundedTemporalEntity-4676 BoundedTemporalEntity-4604)
+
+(aia-MI BoundedTemporalEntity-4679 BoundedTemporalEntity-4676)
+
+(aia-MI BoundedTemporalEntity-4687 BoundedTemporalEntity-4626)
+
+(cityOwner FC-City-jbotcad FC-Player-lojbab)
+
+(constantIn BoundedTemporalEntity-4389 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-jbotcad))
+
+(constantIn BoundedTemporalEntity-4593 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-553878))
+
+(constantIn BoundedTemporalEntity-4625 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-578642))
+
+(constantIn BoundedTemporalEntity-4642 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-605701))
+
+(constantIn BoundedTemporalEntity-4644 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-605701))
+
+(constantIn BoundedTemporalEntity-4655 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-618796))
+
+(constantIn BoundedTemporalEntity-4656 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-618862))
+
+(constantIn BoundedTemporalEntity-4657 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-618796))
+
+(constantIn BoundedTemporalEntity-4658 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-618862))
+
+(constantIn BoundedTemporalEntity-4666 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-625377))
+
+(constantIn BoundedTemporalEntity-4667 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-625377))
+
+(currentActivity Unit-299 FC-ActivityIdle)
+
+(fcObjectAt FC-City-jbotcad (FreecivLocationFn 7 31))
+
+(fcObjectAt Unit-299 (FreecivLocationFn 7 31))
+
+(footprintOf FC-City-jbotcad CityFootprint-FC-City-jbotcad)
+
+(isa CityFootprint-FC-City-jbotcad CityFootprint)
+
+(isa FC-City-jbotcad FreeCiv-City)
+
+(isa STEntity-123 DefensiveEpisodeFailure)
+
+(isa STEntity-123 SpatiotemporalEvent)
+
+(isa Unit-299 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-553878 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-578642 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-605701 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-618796 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-618862 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-625377 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-4687 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-578642))
+
+(nonincreasingIn BoundedTemporalEntity-4665 ((MeasurableQuantityFn citySize) FC-City-jbotcad))
+
+(nonincreasingIn BoundedTemporalEntity-4679 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-553878))
+
+(startsAfterStartingOf BoundedTemporalEntity-4665 BoundedTemporalEntity-4389)
+
+(startsAfterStartingOf BoundedTemporalEntity-4665 BoundedTemporalEntity-4390)
+
+(startsAfterStartingOf BoundedTemporalEntity-4679 BoundedTemporalEntity-4593)
+
+(startsAfterStartingOf BoundedTemporalEntity-4687 BoundedTemporalEntity-4625)
+
+(startsAtSameTime BoundedTemporalEntity-4644 BoundedTemporalEntity-4642)
+
+(startsAtSameTime BoundedTemporalEntity-4657 BoundedTemporalEntity-4655)
+
+(startsAtSameTime BoundedTemporalEntity-4658 BoundedTemporalEntity-4656)
+
+(startsAtSameTime BoundedTemporalEntity-4667 BoundedTemporalEntity-4666)
+
+(unitOwner Unit-299 FC-Player-WalterHallstein)
+
+(zeroIn BoundedTemporalEntity-4390 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-jbotcad))

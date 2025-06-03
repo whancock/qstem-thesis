@@ -1,0 +1,32 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guangzhou) (TemporalIntervalFn STEntity-240)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Guangzhou) (TemporalIntervalFn STEntity-240)))
+(aia-MI BoundedTemporalEntity-6101 BoundedTemporalEntity-6069)
+
+(aia-MI BoundedTemporalEntity-6143 BoundedTemporalEntity-6101)
+
+(aia-MI BoundedTemporalEntity-6206 BoundedTemporalEntity-6143)
+
+(cityOwner FC-City-Guangzhou FC-Player-Bảo�?ại)
+
+(constantIn BoundedTemporalEntity-6070 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guangzhou))
+
+(fcObjectAt FC-City-Guangzhou (FreecivLocationFn 25 29))
+
+(footprintOf FC-City-Guangzhou CityFootprint-FC-City-Guangzhou)
+
+(isa CityFootprint-FC-City-Guangzhou CityFootprint)
+
+(isa FC-City-Guangzhou FreeCiv-City)
+
+(isa STEntity-240 DefensiveEpisodeFailure)
+
+(isa STEntity-240 SpatiotemporalEvent)
+
+(nondecreasingIn BoundedTemporalEntity-6206 ((MeasurableQuantityFn citySize) FC-City-Guangzhou))
+
+(startsAfterStartingOf BoundedTemporalEntity-6206 BoundedTemporalEntity-6070)
+
+(startsAfterStartingOf BoundedTemporalEntity-6206 BoundedTemporalEntity-6071)
+
+(zeroIn BoundedTemporalEntity-6071 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Guangzhou))

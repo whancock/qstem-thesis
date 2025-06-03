@@ -1,0 +1,122 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-PetalingJaya) (TemporalIntervalFn STEntity-501)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-PetalingJaya) (TemporalIntervalFn STEntity-501)))
+((Area (AtFn (EndFn STEntity-501) STEntity-501)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-501) STEntity-501)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-501) STEntity-501)) (FreecivUnitCountFn 2))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-501) STEntity-501)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-501) STEntity-501)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-501) STEntity-501)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-501) STEntity-501)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-501) STEntity-501)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-501) STEntity-501)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-501) STEntity-501)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-10800 BoundedTemporalEntity-10597)
+
+(aia-MI BoundedTemporalEntity-10831 BoundedTemporalEntity-10816)
+
+(aia-MI BoundedTemporalEntity-10884 BoundedTemporalEntity-10800)
+
+(aia-MI BoundedTemporalEntity-10889 BoundedTemporalEntity-10831)
+
+(aia-MI BoundedTemporalEntity-10913 BoundedTemporalEntity-10889)
+
+(aia-MI BoundedTemporalEntity-10946 BoundedTemporalEntity-10913)
+
+(aia-MI BoundedTemporalEntity-10975 BoundedTemporalEntity-10946)
+
+(aia-MI BoundedTemporalEntity-11030 BoundedTemporalEntity-10975)
+
+(aia-MI BoundedTemporalEntity-11046 BoundedTemporalEntity-10884)
+
+(aia-MI BoundedTemporalEntity-11059 BoundedTemporalEntity-11030)
+
+(aia-OI BoundedTemporalEntity-11046 BoundedTemporalEntity-10816)
+
+(aia-OI BoundedTemporalEntity-11046 BoundedTemporalEntity-10831)
+
+(aia-OI BoundedTemporalEntity-11046 BoundedTemporalEntity-10889)
+
+(aia-OI BoundedTemporalEntity-11046 BoundedTemporalEntity-10913)
+
+(aia-OI BoundedTemporalEntity-11046 BoundedTemporalEntity-10946)
+
+(aia-OI BoundedTemporalEntity-11046 BoundedTemporalEntity-10975)
+
+(aia-OI BoundedTemporalEntity-11046 BoundedTemporalEntity-11030)
+
+(cityOwner FC-City-PetalingJaya FC-Player-Parameswara)
+
+(constantIn BoundedTemporalEntity-10598 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))
+
+(constantIn BoundedTemporalEntity-10932 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-16605126))
+
+(constantIn BoundedTemporalEntity-10935 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-16605126))
+
+(constantIn BoundedTemporalEntity-10968 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-16866559))
+
+(constantIn BoundedTemporalEntity-10972 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-16866559))
+
+(constantIn BoundedTemporalEntity-11046 ((MeasurableQuantityFn citySize) FC-City-PetalingJaya))
+
+(constantIn BoundedTemporalEntity-11059 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(currentActivity Unit-245 FC-ActivityIdle)
+
+(fcObjectAt FC-City-PetalingJaya (FreecivLocationFn 18 13))
+
+(fcObjectAt Unit-245 (FreecivLocationFn 18 13))
+
+(footprintOf FC-City-PetalingJaya CityFootprint-FC-City-PetalingJaya)
+
+(isa CityFootprint-FC-City-PetalingJaya CityFootprint)
+
+(isa FC-City-PetalingJaya FreeCiv-City)
+
+(isa STEntity-501 DefensiveEpisodeFailure)
+
+(isa STEntity-501 SpatiotemporalEvent)
+
+(isa Unit-245 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-16605126 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-16866559 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10831 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(nondecreasingIn BoundedTemporalEntity-10913 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(nondecreasingIn BoundedTemporalEntity-11030 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(nonincreasingIn BoundedTemporalEntity-10816 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(nonincreasingIn BoundedTemporalEntity-10889 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(nonincreasingIn BoundedTemporalEntity-10946 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(nonincreasingIn BoundedTemporalEntity-10975 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-PetalingJaya))
+
+(startsAfterStartingOf BoundedTemporalEntity-11046 BoundedTemporalEntity-10598)
+
+(startsAfterStartingOf BoundedTemporalEntity-11046 BoundedTemporalEntity-10599)
+
+(startsAtSameTime BoundedTemporalEntity-10935 BoundedTemporalEntity-10932)
+
+(startsAtSameTime BoundedTemporalEntity-10972 BoundedTemporalEntity-10968)
+
+(startsBeforeStartingOf BoundedTemporalEntity-11046 BoundedTemporalEntity-11059)
+
+(unitOwner Unit-245 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10599 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-PetalingJaya))

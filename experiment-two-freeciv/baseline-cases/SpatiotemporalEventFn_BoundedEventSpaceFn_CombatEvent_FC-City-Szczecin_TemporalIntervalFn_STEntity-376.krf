@@ -1,0 +1,180 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Szczecin) (TemporalIntervalFn STEntity-376)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Szczecin) (TemporalIntervalFn STEntity-376)))
+((Area (AtFn (EndFn STEntity-376) STEntity-376)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-376) STEntity-376)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 14))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 14))
+
+((Defenders (AtFn (EndFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-376) STEntity-376)) (FreecivUnitCountFn 3))
+
+((citySize (AtFn (EndFn STEntity-376) STEntity-376)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-376) STEntity-376)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-7506 BoundedTemporalEntity-7484)
+
+(aia-MI BoundedTemporalEntity-7522 BoundedTemporalEntity-7506)
+
+(aia-MI BoundedTemporalEntity-7581 BoundedTemporalEntity-7522)
+
+(aia-MI BoundedTemporalEntity-7592 BoundedTemporalEntity-7581)
+
+(aia-MI BoundedTemporalEntity-7734 BoundedTemporalEntity-7592)
+
+(aia-MI BoundedTemporalEntity-8365 BoundedTemporalEntity-8319)
+
+(aia-MI BoundedTemporalEntity-8371 BoundedTemporalEntity-8365)
+
+(aia-MI BoundedTemporalEntity-8374 BoundedTemporalEntity-8363)
+
+(aia-MI BoundedTemporalEntity-8381 BoundedTemporalEntity-8371)
+
+(aia-MI BoundedTemporalEntity-8401 BoundedTemporalEntity-8381)
+
+(aia-MI BoundedTemporalEntity-8405 BoundedTemporalEntity-8401)
+
+(aia-MI BoundedTemporalEntity-8424 BoundedTemporalEntity-8374)
+
+(cityOwner FC-City-Szczecin FC-Player-W≈?adys≈?awJagie≈?≈?o)
+
+(constantIn BoundedTemporalEntity-7485 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Szczecin))
+
+(constantIn BoundedTemporalEntity-7734 ((MeasurableQuantityFn citySize) FC-City-Szczecin))
+
+(constantIn BoundedTemporalEntity-8224 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-6921830))
+
+(constantIn BoundedTemporalEntity-8226 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-6921830))
+
+(constantIn BoundedTemporalEntity-8309 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7036229))
+
+(constantIn BoundedTemporalEntity-8311 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7036300))
+
+(constantIn BoundedTemporalEntity-8321 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7036300))
+
+(constantIn BoundedTemporalEntity-8341 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7047482))
+
+(constantIn BoundedTemporalEntity-8342 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7047503))
+
+(constantIn BoundedTemporalEntity-8362 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7047482))
+
+(constantIn BoundedTemporalEntity-8390 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7100975))
+
+(constantIn BoundedTemporalEntity-8399 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7100975))
+
+(constantIn BoundedTemporalEntity-8403 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7124009))
+
+(constantIn BoundedTemporalEntity-8404 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7124009))
+
+(constantIn BoundedTemporalEntity-8410 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7139681))
+
+(constantIn BoundedTemporalEntity-8411 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7139727))
+
+(constantIn BoundedTemporalEntity-8412 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7139753))
+
+(constantIn BoundedTemporalEntity-8413 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7139760))
+
+(constantIn BoundedTemporalEntity-8415 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7139681))
+
+(constantIn BoundedTemporalEntity-8416 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7139727))
+
+(constantIn BoundedTemporalEntity-8417 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7139753))
+
+(constantIn BoundedTemporalEntity-8418 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7139760))
+
+(constantIn BoundedTemporalEntity-8422 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7156991))
+
+(constantIn BoundedTemporalEntity-8423 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7156991))
+
+(currentActivity Unit-248 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Szczecin (FreecivLocationFn 23 32))
+
+(fcObjectAt Unit-248 (FreecivLocationFn 23 32))
+
+(footprintOf FC-City-Szczecin CityFootprint-FC-City-Szczecin)
+
+(isa CityFootprint-FC-City-Szczecin CityFootprint)
+
+(isa FC-City-Szczecin FreeCiv-City)
+
+(isa STEntity-376 DefensiveEpisodeFailure)
+
+(isa STEntity-376 SpatiotemporalEvent)
+
+(isa Unit-248 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-6921830 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7036229 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7036300 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7047482 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7047503 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7100975 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7124009 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7139681 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7139727 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7139753 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7139760 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-7156991 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-8405 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7036229))
+
+(nonincreasingIn BoundedTemporalEntity-8424 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7047503))
+
+(startsAfterStartingOf BoundedTemporalEntity-7734 BoundedTemporalEntity-7485)
+
+(startsAfterStartingOf BoundedTemporalEntity-7734 BoundedTemporalEntity-7486)
+
+(startsAfterStartingOf BoundedTemporalEntity-8405 BoundedTemporalEntity-8309)
+
+(startsAfterStartingOf BoundedTemporalEntity-8424 BoundedTemporalEntity-8342)
+
+(startsAtSameTime BoundedTemporalEntity-8226 BoundedTemporalEntity-8224)
+
+(startsAtSameTime BoundedTemporalEntity-8321 BoundedTemporalEntity-8311)
+
+(startsAtSameTime BoundedTemporalEntity-8362 BoundedTemporalEntity-8341)
+
+(startsAtSameTime BoundedTemporalEntity-8399 BoundedTemporalEntity-8390)
+
+(startsAtSameTime BoundedTemporalEntity-8404 BoundedTemporalEntity-8403)
+
+(startsAtSameTime BoundedTemporalEntity-8415 BoundedTemporalEntity-8410)
+
+(startsAtSameTime BoundedTemporalEntity-8416 BoundedTemporalEntity-8411)
+
+(startsAtSameTime BoundedTemporalEntity-8417 BoundedTemporalEntity-8412)
+
+(startsAtSameTime BoundedTemporalEntity-8418 BoundedTemporalEntity-8413)
+
+(startsAtSameTime BoundedTemporalEntity-8423 BoundedTemporalEntity-8422)
+
+(unitOwner Unit-248 FC-Player-RajendraCholaII)
+
+(zeroIn BoundedTemporalEntity-7486 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Szczecin))

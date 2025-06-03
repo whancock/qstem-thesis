@@ -1,0 +1,64 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Jalalabad) (TemporalIntervalFn STEntity-398)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Jalalabad) (TemporalIntervalFn STEntity-398)))
+((Area (AtFn (EndFn STEntity-398) STEntity-398)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-398) STEntity-398)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-398) STEntity-398)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-398) STEntity-398)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-398) STEntity-398)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-398) STEntity-398)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-398) STEntity-398)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-398) STEntity-398)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Jalalabad)
+
+((citySize (AtFn (EndFn STEntity-398) STEntity-398)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-398) STEntity-398)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Jalalabad FC-Player-DaoudKhan)
+
+(constantIn BoundedTemporalEntity-8664 ((MeasurableQuantityFn citySize) FC-City-Jalalabad))
+
+(constantIn BoundedTemporalEntity-8665 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Jalalabad))
+
+(constantIn BoundedTemporalEntity-9110 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-9029177))
+
+(constantIn BoundedTemporalEntity-9113 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-9029177))
+
+(currentActivity Unit-433 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Jalalabad (FreecivLocationFn 35 14))
+
+(fcObjectAt Unit-433 (FreecivLocationFn 35 14))
+
+(footprintOf FC-City-Jalalabad CityFootprint-FC-City-Jalalabad)
+
+(isa CityFootprint-FC-City-Jalalabad CityFootprint)
+
+(isa FC-City-Jalalabad FreeCiv-City)
+
+(isa STEntity-398 DefensiveEpisodeFailure)
+
+(isa STEntity-398 SpatiotemporalEvent)
+
+(isa Unit-433 FC-Unit-Musketeers)
+
+(isa UnitGroupFootprint-9029177 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-8664 BoundedTemporalEntity-8665)
+
+(startsAtSameTime BoundedTemporalEntity-8664 BoundedTemporalEntity-8666)
+
+(startsAtSameTime BoundedTemporalEntity-9113 BoundedTemporalEntity-9110)
+
+(unitOwner Unit-433 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-8666 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Jalalabad))

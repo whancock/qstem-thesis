@@ -1,0 +1,100 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Dhaka) (TemporalIntervalFn STEntity-454)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Dhaka) (TemporalIntervalFn STEntity-454)))
+((Area (AtFn (EndFn STEntity-454) STEntity-454)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-454) STEntity-454)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-454) STEntity-454)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Dhaka)
+
+((citySize (AtFn (EndFn STEntity-454) STEntity-454)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-454) STEntity-454)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-10186 BoundedTemporalEntity-10152)
+
+(aia-MI BoundedTemporalEntity-10187 BoundedTemporalEntity-10186)
+
+(aia-MI BoundedTemporalEntity-10228 BoundedTemporalEntity-10187)
+
+(aia-MI BoundedTemporalEntity-10229 BoundedTemporalEntity-10228)
+
+(aia-MI BoundedTemporalEntity-10287 BoundedTemporalEntity-10229)
+
+(aia-MI BoundedTemporalEntity-10289 BoundedTemporalEntity-10287)
+
+(cityOwner FC-City-Dhaka FC-Player-ZiaurRahman)
+
+(constantIn BoundedTemporalEntity-10154 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dhaka))
+
+(constantIn BoundedTemporalEntity-10310 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11595597))
+
+(constantIn BoundedTemporalEntity-10312 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11595597))
+
+(constantIn BoundedTemporalEntity-10317 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-11597073))
+
+(constantIn BoundedTemporalEntity-10323 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-11597073))
+
+(currentActivity Unit-206 FC-ActivityIdle)
+
+(currentActivity Unit-220 FC-ActivityIdle)
+
+(currentActivity Unit-227 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Dhaka (FreecivLocationFn 39 25))
+
+(fcObjectAt Unit-220 (FreecivLocationFn 39 25))
+
+(footprintOf FC-City-Dhaka CityFootprint-FC-City-Dhaka)
+
+(isa CityFootprint-FC-City-Dhaka CityFootprint)
+
+(isa FC-City-Dhaka FreeCiv-City)
+
+(isa STEntity-454 DefensiveEpisodeFailure)
+
+(isa STEntity-454 SpatiotemporalEvent)
+
+(isa Unit-206 FC-Unit-Chariot)
+
+(isa Unit-220 FC-Unit-Chariot)
+
+(isa Unit-227 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-11595597 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-11597073 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-11597106 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-10289 ((MeasurableQuantityFn citySize) FC-City-Dhaka))
+
+(startsAfterStartingOf BoundedTemporalEntity-10289 BoundedTemporalEntity-10154)
+
+(startsAfterStartingOf BoundedTemporalEntity-10289 BoundedTemporalEntity-10155)
+
+(startsAtSameTime BoundedTemporalEntity-10312 BoundedTemporalEntity-10310)
+
+(startsAtSameTime BoundedTemporalEntity-10323 BoundedTemporalEntity-10317)
+
+(unitOwner Unit-220 FC-Player-TomasZumalakarregiImaz)
+
+(unitOwner Unit-227 FC-Player-TomasZumalakarregiImaz)
+
+(zeroIn BoundedTemporalEntity-10155 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Dhaka))

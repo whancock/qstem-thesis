@@ -1,0 +1,62 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chengdu) (TemporalIntervalFn STEntity-249)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Chengdu) (TemporalIntervalFn STEntity-249)))
+((Area (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-249) STEntity-249)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-249) STEntity-249)) (FreecivCitizenCountFn 1))
+
+(cityOwner FC-City-Chengdu FC-Player-DengXiaoping)
+
+(constantIn BoundedTemporalEntity-6179 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-1849844))
+
+(constantIn BoundedTemporalEntity-6181 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-1849844))
+
+(constantIn BoundedTemporalEntity-6212 ((MeasurableQuantityFn citySize) FC-City-Chengdu))
+
+(constantIn BoundedTemporalEntity-6213 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chengdu))
+
+(currentActivity Unit-196 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Chengdu (FreecivLocationFn 33 25))
+
+(fcObjectAt Unit-196 (FreecivLocationFn 33 25))
+
+(footprintOf FC-City-Chengdu CityFootprint-FC-City-Chengdu)
+
+(isa CityFootprint-FC-City-Chengdu CityFootprint)
+
+(isa FC-City-Chengdu FreeCiv-City)
+
+(isa STEntity-249 DefensiveEpisodeFailure)
+
+(isa STEntity-249 SpatiotemporalEvent)
+
+(isa Unit-196 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-1849844 UnitGroupFootprint)
+
+(startsAtSameTime BoundedTemporalEntity-6181 BoundedTemporalEntity-6179)
+
+(startsAtSameTime BoundedTemporalEntity-6212 BoundedTemporalEntity-6213)
+
+(startsAtSameTime BoundedTemporalEntity-6212 BoundedTemporalEntity-6214)
+
+(unitOwner Unit-196 FC-Player-GiacomoMatteotti)
+
+(zeroIn BoundedTemporalEntity-6214 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Chengdu))

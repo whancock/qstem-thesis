@@ -1,0 +1,88 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-WHO) (TemporalIntervalFn STEntity-18)), dumped 5/23/2025 14:11:16 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-WHO) (TemporalIntervalFn STEntity-18)))
+((Area (AtFn (EndFn STEntity-18) STEntity-18)) (FreecivTileArea 145))
+
+((Area (AtFn (StartFn STEntity-18) STEntity-18)) (FreecivTileArea 136))
+
+((Defenders (AtFn (EndFn STEntity-18) STEntity-18)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-18) STEntity-18)) (FreecivUnitCountFn 9))
+
+((Defenders (AtFn (StartFn STEntity-18) STEntity-18)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-18) STEntity-18)) (FreecivUnitCountFn 9))
+
+((citySize (AtFn (EndFn STEntity-18) STEntity-18)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-18) STEntity-18)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-220 BoundedTemporalEntity-133)
+
+(aia-MI BoundedTemporalEntity-249 BoundedTemporalEntity-220)
+
+(aia-MI BoundedTemporalEntity-397 BoundedTemporalEntity-249)
+
+(aia-MI BoundedTemporalEntity-490 BoundedTemporalEntity-397)
+
+(aia-MI BoundedTemporalEntity-503 BoundedTemporalEntity-490)
+
+(aia-MI BoundedTemporalEntity-683 BoundedTemporalEntity-503)
+
+(aia-MI BoundedTemporalEntity-763 BoundedTemporalEntity-719)
+
+(aia-MI BoundedTemporalEntity-764 BoundedTemporalEntity-719)
+
+(aia-MI BoundedTemporalEntity-764 BoundedTemporalEntity-721)
+
+(cityOwner FC-City-WHO FC-Player-TrygveLie)
+
+(constantIn BoundedTemporalEntity-134 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-WHO))
+
+(constantIn BoundedTemporalEntity-683 ((MeasurableQuantityFn citySize) FC-City-WHO))
+
+(constantIn BoundedTemporalEntity-719 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7732))
+
+(currentActivity Unit-244 FC-ActivityFortifying)
+
+(currentActivity Unit-328 FC-ActivityIdle)
+
+(defenseBonus FC-City-WHO 100)
+
+(fcObjectAt FC-City-WHO (FreecivLocationFn 17 20))
+
+(fcObjectAt Unit-328 (FreecivLocationFn 17 20))
+
+(footprintOf FC-City-WHO CityFootprint-FC-City-WHO)
+
+(isa CityFootprint-FC-City-WHO CityFootprint)
+
+(isa FC-City-WHO FreeCiv-City)
+
+(isa STEntity-18 DefensiveEpisodeFailure)
+
+(isa STEntity-18 SpatiotemporalEvent)
+
+(isa Unit-244 FC-Unit-Catapult)
+
+(isa Unit-328 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-7732 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-763 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-7732))
+
+(nondecreasingIn BoundedTemporalEntity-764 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-7732))
+
+(startsAfterStartingOf BoundedTemporalEntity-683 BoundedTemporalEntity-134)
+
+(startsAfterStartingOf BoundedTemporalEntity-683 BoundedTemporalEntity-135)
+
+(startsAtSameTime BoundedTemporalEntity-764 BoundedTemporalEntity-763)
+
+(terrainAt (FreecivLocationFn 17 20) FC-Terrain-Hills)
+
+(unitOwner Unit-244 FC-Player-DarkDante)
+
+(unitOwner Unit-328 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-135 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-WHO))

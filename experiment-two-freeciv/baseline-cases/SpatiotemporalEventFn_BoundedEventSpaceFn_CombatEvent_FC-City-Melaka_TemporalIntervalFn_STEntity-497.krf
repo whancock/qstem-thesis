@@ -1,0 +1,114 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Melaka) (TemporalIntervalFn STEntity-497)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Melaka) (TemporalIntervalFn STEntity-497)))
+((Area (AtFn (EndFn STEntity-497) STEntity-497)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-497) STEntity-497)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-497) STEntity-497)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-497) STEntity-497)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-497) STEntity-497)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-497) STEntity-497)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-497) STEntity-497)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-497) STEntity-497)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-497) STEntity-497)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-497) STEntity-497)) (FreecivCitizenCountFn 2))
+
+(aia-DI BoundedTemporalEntity-10886 BoundedTemporalEntity-10891)
+
+(aia-DI BoundedTemporalEntity-10886 BoundedTemporalEntity-10914)
+
+(aia-DI BoundedTemporalEntity-10886 BoundedTemporalEntity-10926)
+
+(aia-MI BoundedTemporalEntity-10519 BoundedTemporalEntity-10451)
+
+(aia-MI BoundedTemporalEntity-10577 BoundedTemporalEntity-10554)
+
+(aia-MI BoundedTemporalEntity-10592 BoundedTemporalEntity-10519)
+
+(aia-MI BoundedTemporalEntity-10668 BoundedTemporalEntity-10592)
+
+(aia-MI BoundedTemporalEntity-10812 BoundedTemporalEntity-10668)
+
+(aia-MI BoundedTemporalEntity-10823 BoundedTemporalEntity-10577)
+
+(aia-MI BoundedTemporalEntity-10860 BoundedTemporalEntity-10812)
+
+(aia-MI BoundedTemporalEntity-10886 BoundedTemporalEntity-10860)
+
+(aia-MI BoundedTemporalEntity-10891 BoundedTemporalEntity-10823)
+
+(aia-MI BoundedTemporalEntity-10914 BoundedTemporalEntity-10891)
+
+(aia-MI BoundedTemporalEntity-10926 BoundedTemporalEntity-10914)
+
+(aia-MI BoundedTemporalEntity-10947 BoundedTemporalEntity-10926)
+
+(aia-OI BoundedTemporalEntity-10886 BoundedTemporalEntity-10554)
+
+(aia-OI BoundedTemporalEntity-10886 BoundedTemporalEntity-10577)
+
+(aia-OI BoundedTemporalEntity-10886 BoundedTemporalEntity-10823)
+
+(cityOwner FC-City-Melaka FC-Player-DavitIV)
+
+(constantIn BoundedTemporalEntity-10452 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Melaka))
+
+(constantIn BoundedTemporalEntity-10918 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-16453506))
+
+(constantIn BoundedTemporalEntity-10920 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-16453506))
+
+(constantIn BoundedTemporalEntity-10947 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Melaka))
+
+(currentActivity Unit-189 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Melaka (FreecivLocationFn 21 14))
+
+(fcObjectAt Unit-189 (FreecivLocationFn 21 14))
+
+(footprintOf FC-City-Melaka CityFootprint-FC-City-Melaka)
+
+(isa CityFootprint-FC-City-Melaka CityFootprint)
+
+(isa FC-City-Melaka FreeCiv-City)
+
+(isa STEntity-497 DefensiveEpisodeFailure)
+
+(isa STEntity-497 SpatiotemporalEvent)
+
+(isa Unit-189 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-16453506 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10577 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Melaka))
+
+(nondecreasingIn BoundedTemporalEntity-10886 ((MeasurableQuantityFn citySize) FC-City-Melaka))
+
+(nondecreasingIn BoundedTemporalEntity-10891 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Melaka))
+
+(nondecreasingIn BoundedTemporalEntity-10914 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Melaka))
+
+(nonincreasingIn BoundedTemporalEntity-10554 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Melaka))
+
+(nonincreasingIn BoundedTemporalEntity-10823 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Melaka))
+
+(nonincreasingIn BoundedTemporalEntity-10926 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Melaka))
+
+(startsAfterStartingOf BoundedTemporalEntity-10886 BoundedTemporalEntity-10452)
+
+(startsAfterStartingOf BoundedTemporalEntity-10886 BoundedTemporalEntity-10453)
+
+(startsAtSameTime BoundedTemporalEntity-10920 BoundedTemporalEntity-10918)
+
+(startsBeforeStartingOf BoundedTemporalEntity-10886 BoundedTemporalEntity-10947)
+
+(unitOwner Unit-189 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10453 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Melaka))

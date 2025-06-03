@@ -1,0 +1,86 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SaintJoseph) (TemporalIntervalFn STEntity-336)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-SaintJoseph) (TemporalIntervalFn STEntity-336)))
+((Area (AtFn (EndFn STEntity-336) STEntity-336)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-336) STEntity-336)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-336) STEntity-336)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-336) STEntity-336)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-336) STEntity-336)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-336) STEntity-336)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-336) STEntity-336)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-336) STEntity-336)) (FreecivUnitCountFn 1))
+
+((HasImprovementFn FC-Building-Palace) FC-City-SaintJoseph)
+
+((citySize (AtFn (EndFn STEntity-336) STEntity-336)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-336) STEntity-336)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-7289 BoundedTemporalEntity-7234)
+
+(aia-MI BoundedTemporalEntity-7384 BoundedTemporalEntity-7368)
+
+(aia-MI BoundedTemporalEntity-7397 BoundedTemporalEntity-7384)
+
+(cityOwner FC-City-SaintJoseph FC-Player-Mansur)
+
+(constantIn BoundedTemporalEntity-7235 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SaintJoseph))
+
+(constantIn BoundedTemporalEntity-7363 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4424726))
+
+(constantIn BoundedTemporalEntity-7390 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4477582))
+
+(constantIn BoundedTemporalEntity-7391 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-4477608))
+
+(constantIn BoundedTemporalEntity-7395 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4477582))
+
+(constantIn BoundedTemporalEntity-7396 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4477608))
+
+(currentActivity Unit-247 FC-ActivityIdle)
+
+(fcObjectAt FC-City-SaintJoseph (FreecivLocationFn 51 32))
+
+(fcObjectAt Unit-247 (FreecivLocationFn 51 32))
+
+(footprintOf FC-City-SaintJoseph CityFootprint-FC-City-SaintJoseph)
+
+(isa CityFootprint-FC-City-SaintJoseph CityFootprint)
+
+(isa FC-City-SaintJoseph FreeCiv-City)
+
+(isa STEntity-336 DefensiveEpisodeFailure)
+
+(isa STEntity-336 SpatiotemporalEvent)
+
+(isa Unit-247 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-4424726 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4477582 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-4477608 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-7289 ((MeasurableQuantityFn citySize) FC-City-SaintJoseph))
+
+(nonincreasingIn BoundedTemporalEntity-7397 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-4424726))
+
+(startsAfterStartingOf BoundedTemporalEntity-7289 BoundedTemporalEntity-7235)
+
+(startsAfterStartingOf BoundedTemporalEntity-7289 BoundedTemporalEntity-7236)
+
+(startsAfterStartingOf BoundedTemporalEntity-7397 BoundedTemporalEntity-7363)
+
+(startsAtSameTime BoundedTemporalEntity-7395 BoundedTemporalEntity-7390)
+
+(startsAtSameTime BoundedTemporalEntity-7396 BoundedTemporalEntity-7391)
+
+(unitOwner Unit-247 FC-Player-Mansur)
+
+(zeroIn BoundedTemporalEntity-7236 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-SaintJoseph))

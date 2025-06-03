@@ -1,0 +1,130 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lima) (TemporalIntervalFn STEntity-441)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Lima) (TemporalIntervalFn STEntity-441)))
+((Area (AtFn (EndFn STEntity-441) STEntity-441)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-441) STEntity-441)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-441) STEntity-441)) (FreecivUnitCountFn 6))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-441) STEntity-441)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-441) STEntity-441)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-441) STEntity-441)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-441) STEntity-441)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-441) STEntity-441)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-441) STEntity-441)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-441) STEntity-441)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-441) STEntity-441)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-9450 BoundedTemporalEntity-9440)
+
+(aia-MI BoundedTemporalEntity-9451 BoundedTemporalEntity-9450)
+
+(aia-MI BoundedTemporalEntity-9462 BoundedTemporalEntity-9451)
+
+(aia-MI BoundedTemporalEntity-9471 BoundedTemporalEntity-9462)
+
+(aia-MI BoundedTemporalEntity-9483 BoundedTemporalEntity-9471)
+
+(aia-MI BoundedTemporalEntity-9493 BoundedTemporalEntity-9483)
+
+(aia-MI BoundedTemporalEntity-9539 BoundedTemporalEntity-9493)
+
+(aia-MI BoundedTemporalEntity-9542 BoundedTemporalEntity-9539)
+
+(aia-MI BoundedTemporalEntity-9628 BoundedTemporalEntity-9542)
+
+(aia-MI BoundedTemporalEntity-9682 BoundedTemporalEntity-9628)
+
+(aia-MI BoundedTemporalEntity-9717 BoundedTemporalEntity-9682)
+
+(aia-MI BoundedTemporalEntity-9728 BoundedTemporalEntity-9644)
+
+(aia-MI BoundedTemporalEntity-9732 BoundedTemporalEntity-9728)
+
+(cityOwner FC-City-Lima FC-Player-ManuelA.Odría)
+
+(constantIn BoundedTemporalEntity-9441 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lima))
+
+(constantIn BoundedTemporalEntity-9641 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10489054))
+
+(constantIn BoundedTemporalEntity-9702 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10694029))
+
+(constantIn BoundedTemporalEntity-9703 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10694065))
+
+(constantIn BoundedTemporalEntity-9705 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10694097))
+
+(constantIn BoundedTemporalEntity-9711 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10694029))
+
+(constantIn BoundedTemporalEntity-9712 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10694065))
+
+(constantIn BoundedTemporalEntity-9714 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10694097))
+
+(constantIn BoundedTemporalEntity-9722 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10727250))
+
+(constantIn BoundedTemporalEntity-9727 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10727250))
+
+(constantIn BoundedTemporalEntity-9730 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-10849757))
+
+(constantIn BoundedTemporalEntity-9731 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10849757))
+
+(currentActivity Unit-240 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Lima (FreecivLocationFn 13 18))
+
+(fcObjectAt Unit-240 (FreecivLocationFn 13 18))
+
+(footprintOf FC-City-Lima CityFootprint-FC-City-Lima)
+
+(isa CityFootprint-FC-City-Lima CityFootprint)
+
+(isa FC-City-Lima FreeCiv-City)
+
+(isa STEntity-441 DefensiveEpisodeFailure)
+
+(isa STEntity-441 SpatiotemporalEvent)
+
+(isa Unit-240 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-10489054 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10694029 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10694065 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10694097 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10727250 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-10849757 UnitGroupFootprint)
+
+(nonincreasingIn BoundedTemporalEntity-9717 ((MeasurableQuantityFn citySize) FC-City-Lima))
+
+(nonincreasingIn BoundedTemporalEntity-9732 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-10489054))
+
+(startsAfterStartingOf BoundedTemporalEntity-9717 BoundedTemporalEntity-9441)
+
+(startsAfterStartingOf BoundedTemporalEntity-9717 BoundedTemporalEntity-9442)
+
+(startsAfterStartingOf BoundedTemporalEntity-9732 BoundedTemporalEntity-9641)
+
+(startsAtSameTime BoundedTemporalEntity-9711 BoundedTemporalEntity-9702)
+
+(startsAtSameTime BoundedTemporalEntity-9712 BoundedTemporalEntity-9703)
+
+(startsAtSameTime BoundedTemporalEntity-9714 BoundedTemporalEntity-9705)
+
+(startsAtSameTime BoundedTemporalEntity-9727 BoundedTemporalEntity-9722)
+
+(startsAtSameTime BoundedTemporalEntity-9731 BoundedTemporalEntity-9730)
+
+(unitOwner Unit-240 FC-Player-Sukarno)
+
+(zeroIn BoundedTemporalEntity-9442 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Lima))

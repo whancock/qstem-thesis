@@ -1,0 +1,182 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Djenné) (TemporalIntervalFn STEntity-93)), dumped 5/23/2025 14:18:45 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Djenné) (TemporalIntervalFn STEntity-93)))
+((Area (AtFn (EndFn STEntity-93) STEntity-93)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-93) STEntity-93)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 5))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 11))
+
+((Defenders (AtFn (EndFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (EndFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (StartFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-93) STEntity-93)) (FreecivUnitCountFn 3))
+
+((HasImprovementFn FC-Building-Palace) FC-City-Djenné)
+
+((citySize (AtFn (EndFn STEntity-93) STEntity-93)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-93) STEntity-93)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-3091 BoundedTemporalEntity-3072)
+
+(aia-MI BoundedTemporalEntity-3093 BoundedTemporalEntity-3091)
+
+(aia-MI BoundedTemporalEntity-3110 BoundedTemporalEntity-3093)
+
+(aia-MI BoundedTemporalEntity-3111 BoundedTemporalEntity-3110)
+
+(aia-MI BoundedTemporalEntity-3132 BoundedTemporalEntity-3111)
+
+(aia-MI BoundedTemporalEntity-3140 BoundedTemporalEntity-3132)
+
+(aia-MI BoundedTemporalEntity-3169 BoundedTemporalEntity-3140)
+
+(aia-MI BoundedTemporalEntity-3180 BoundedTemporalEntity-3169)
+
+(aia-MI BoundedTemporalEntity-3202 BoundedTemporalEntity-3180)
+
+(aia-MI BoundedTemporalEntity-3203 BoundedTemporalEntity-3202)
+
+(aia-MI BoundedTemporalEntity-3216 BoundedTemporalEntity-3203)
+
+(aia-MI BoundedTemporalEntity-3219 BoundedTemporalEntity-3216)
+
+(aia-MI BoundedTemporalEntity-3319 BoundedTemporalEntity-3219)
+
+(aia-MI BoundedTemporalEntity-3408 BoundedTemporalEntity-3396)
+
+(aia-MI BoundedTemporalEntity-3409 BoundedTemporalEntity-3370)
+
+(aia-MI BoundedTemporalEntity-3422 BoundedTemporalEntity-3395)
+
+(aia-MI BoundedTemporalEntity-3423 BoundedTemporalEntity-3380)
+
+(aia-MI BoundedTemporalEntity-3426 BoundedTemporalEntity-3397)
+
+(cityOwner FC-City-Djenné FC-Player-Sakura)
+
+(constantIn BoundedTemporalEntity-3074 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Djenné))
+
+(constantIn BoundedTemporalEntity-3319 ((MeasurableQuantityFn citySize) FC-City-Djenné))
+
+(constantIn BoundedTemporalEntity-3363 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-224476))
+
+(constantIn BoundedTemporalEntity-3377 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-224888))
+
+(constantIn BoundedTemporalEntity-3389 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-225449))
+
+(constantIn BoundedTemporalEntity-3390 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-225483))
+
+(constantIn BoundedTemporalEntity-3391 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-225497))
+
+(constantIn BoundedTemporalEntity-3420 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-228942))
+
+(constantIn BoundedTemporalEntity-3421 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-228942))
+
+(currentActivity Unit-312 FC-ActivityFortifying)
+
+(currentActivity Unit-360 FC-ActivityFortifying)
+
+(currentActivity Unit-361 FC-ActivityIdle)
+
+(currentActivity Unit-362 FC-ActivityIdle)
+
+(currentActivity Unit-363 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-Djenné (FreecivLocationFn 3 30))
+
+(fcObjectAt Unit-361 (FreecivLocationFn 3 30))
+
+(footprintOf FC-City-Djenné CityFootprint-FC-City-Djenné)
+
+(isa CityFootprint-FC-City-Djenné CityFootprint)
+
+(isa FC-City-Djenné FreeCiv-City)
+
+(isa STEntity-93 DefensiveEpisodeFailure)
+
+(isa STEntity-93 SpatiotemporalEvent)
+
+(isa Unit-312 FC-Unit-Catapult)
+
+(isa Unit-360 FC-Unit-Musketeers)
+
+(isa Unit-361 FC-Unit-Musketeers)
+
+(isa Unit-362 FC-Unit-Musketeers)
+
+(isa Unit-363 FC-Unit-Musketeers)
+
+(isa UnitGroupFootprint-224466 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-224476 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-224499 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-224888 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-225436 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-225449 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-225483 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-225497 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-226576 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-228942 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-3206 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-Djenné))
+
+(nondecreasingIn BoundedTemporalEntity-3409 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-224476))
+
+(nondecreasingIn BoundedTemporalEntity-3422 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-225449))
+
+(nondecreasingIn BoundedTemporalEntity-3423 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-224888))
+
+(nondecreasingIn BoundedTemporalEntity-3426 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-225497))
+
+(nonincreasingIn BoundedTemporalEntity-3408 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-225483))
+
+(startsAfterStartingOf BoundedTemporalEntity-3319 BoundedTemporalEntity-3074)
+
+(startsAfterStartingOf BoundedTemporalEntity-3319 BoundedTemporalEntity-3075)
+
+(startsAfterStartingOf BoundedTemporalEntity-3319 BoundedTemporalEntity-3206)
+
+(startsAfterStartingOf BoundedTemporalEntity-3408 BoundedTemporalEntity-3390)
+
+(startsAfterStartingOf BoundedTemporalEntity-3409 BoundedTemporalEntity-3363)
+
+(startsAfterStartingOf BoundedTemporalEntity-3422 BoundedTemporalEntity-3389)
+
+(startsAfterStartingOf BoundedTemporalEntity-3423 BoundedTemporalEntity-3377)
+
+(startsAfterStartingOf BoundedTemporalEntity-3426 BoundedTemporalEntity-3391)
+
+(startsAtSameTime BoundedTemporalEntity-3421 BoundedTemporalEntity-3420)
+
+(unitOwner Unit-312 FC-Player-VasileLupu)
+
+(unitOwner Unit-360 FC-Player-VasileLupu)
+
+(unitOwner Unit-361 FC-Player-VasileLupu)
+
+(unitOwner Unit-363 FC-Player-VasileLupu)
+
+(zeroIn BoundedTemporalEntity-3075 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Djenné))

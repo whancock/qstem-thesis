@@ -1,0 +1,96 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kandahar) (TemporalIntervalFn STEntity-387)), dumped 5/23/2025 14:18:46 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Kandahar) (TemporalIntervalFn STEntity-387)))
+((Area (AtFn (EndFn STEntity-387) STEntity-387)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-387) STEntity-387)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-387) STEntity-387)) (FreecivUnitCountFn 4))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-387) STEntity-387)) (FreecivUnitCountFn 4))
+
+((Defenders (AtFn (EndFn STEntity-387) STEntity-387)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-387) STEntity-387)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-387) STEntity-387)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-387) STEntity-387)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-387) STEntity-387)) (FreecivCitizenCountFn 2))
+
+((citySize (AtFn (StartFn STEntity-387) STEntity-387)) (FreecivCitizenCountFn 2))
+
+(aia-MI BoundedTemporalEntity-8596 BoundedTemporalEntity-8584)
+
+(aia-MI BoundedTemporalEntity-8598 BoundedTemporalEntity-8596)
+
+(aia-MI BoundedTemporalEntity-8619 BoundedTemporalEntity-8598)
+
+(aia-MI BoundedTemporalEntity-8622 BoundedTemporalEntity-8619)
+
+(aia-MI BoundedTemporalEntity-8634 BoundedTemporalEntity-8622)
+
+(aia-MI BoundedTemporalEntity-8647 BoundedTemporalEntity-8634)
+
+(aia-MI BoundedTemporalEntity-8675 BoundedTemporalEntity-8647)
+
+(aia-MI BoundedTemporalEntity-8683 BoundedTemporalEntity-8675)
+
+(aia-MI BoundedTemporalEntity-8707 BoundedTemporalEntity-8683)
+
+(aia-MI BoundedTemporalEntity-8711 BoundedTemporalEntity-8707)
+
+(aia-MI BoundedTemporalEntity-8814 BoundedTemporalEntity-8711)
+
+(aia-MI BoundedTemporalEntity-8933 BoundedTemporalEntity-8863)
+
+(aia-MI BoundedTemporalEntity-8934 BoundedTemporalEntity-8814)
+
+(cityOwner FC-City-Kandahar FC-Player-GuadalupeVictoria)
+
+(constantIn BoundedTemporalEntity-8585 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kandahar))
+
+(constantIn BoundedTemporalEntity-8859 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8048675))
+
+(constantIn BoundedTemporalEntity-8914 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-8265751))
+
+(constantIn BoundedTemporalEntity-8922 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8265751))
+
+(currentActivity Unit-287 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Kandahar (FreecivLocationFn 36 6))
+
+(fcObjectAt Unit-287 (FreecivLocationFn 36 6))
+
+(footprintOf FC-City-Kandahar CityFootprint-FC-City-Kandahar)
+
+(isa CityFootprint-FC-City-Kandahar CityFootprint)
+
+(isa FC-City-Kandahar FreeCiv-City)
+
+(isa STEntity-387 DefensiveEpisodeFailure)
+
+(isa STEntity-387 SpatiotemporalEvent)
+
+(isa Unit-287 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-8048675 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-8265751 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-8933 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-8048675))
+
+(nondecreasingIn BoundedTemporalEntity-8934 ((MeasurableQuantityFn citySize) FC-City-Kandahar))
+
+(startsAfterStartingOf BoundedTemporalEntity-8933 BoundedTemporalEntity-8859)
+
+(startsAfterStartingOf BoundedTemporalEntity-8934 BoundedTemporalEntity-8585)
+
+(startsAfterStartingOf BoundedTemporalEntity-8934 BoundedTemporalEntity-8586)
+
+(startsAtSameTime BoundedTemporalEntity-8922 BoundedTemporalEntity-8914)
+
+(unitOwner Unit-287 FC-Player-GuadalupeVictoria)
+
+(zeroIn BoundedTemporalEntity-8586 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Kandahar))

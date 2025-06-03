@@ -1,0 +1,272 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KualaLumpur) (TemporalIntervalFn STEntity-511)), dumped 5/23/2025 14:18:47 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-KualaLumpur) (TemporalIntervalFn STEntity-511)))
+((Area (AtFn (EndFn STEntity-511) STEntity-511)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-511) STEntity-511)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 6))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 6))
+
+((Defenders (AtFn (EndFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-511) STEntity-511)) (FreecivUnitCountFn 2))
+
+((HasImprovementFn FC-Building-Palace) FC-City-KualaLumpur)
+
+((citySize (AtFn (EndFn STEntity-511) STEntity-511)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-511) STEntity-511)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-10409 BoundedTemporalEntity-10377)
+
+(aia-MI BoundedTemporalEntity-10411 BoundedTemporalEntity-10409)
+
+(aia-MI BoundedTemporalEntity-10422 BoundedTemporalEntity-10411)
+
+(aia-MI BoundedTemporalEntity-10423 BoundedTemporalEntity-10422)
+
+(aia-MI BoundedTemporalEntity-10435 BoundedTemporalEntity-10423)
+
+(aia-MI BoundedTemporalEntity-10436 BoundedTemporalEntity-10435)
+
+(aia-MI BoundedTemporalEntity-10461 BoundedTemporalEntity-10436)
+
+(aia-MI BoundedTemporalEntity-10484 BoundedTemporalEntity-10461)
+
+(aia-MI BoundedTemporalEntity-10543 BoundedTemporalEntity-10484)
+
+(aia-MI BoundedTemporalEntity-10555 BoundedTemporalEntity-10522)
+
+(aia-MI BoundedTemporalEntity-10593 BoundedTemporalEntity-10543)
+
+(aia-MI BoundedTemporalEntity-10715 BoundedTemporalEntity-10593)
+
+(aia-MI BoundedTemporalEntity-10722 BoundedTemporalEntity-10555)
+
+(aia-MI BoundedTemporalEntity-10732 BoundedTemporalEntity-10722)
+
+(aia-MI BoundedTemporalEntity-10759 BoundedTemporalEntity-10732)
+
+(aia-MI BoundedTemporalEntity-10767 BoundedTemporalEntity-10715)
+
+(aia-MI BoundedTemporalEntity-10771 BoundedTemporalEntity-10759)
+
+(aia-MI BoundedTemporalEntity-10773 BoundedTemporalEntity-10771)
+
+(aia-MI BoundedTemporalEntity-10927 BoundedTemporalEntity-10773)
+
+(aia-MI BoundedTemporalEntity-10949 BoundedTemporalEntity-10927)
+
+(aia-MI BoundedTemporalEntity-11028 BoundedTemporalEntity-10949)
+
+(aia-MI BoundedTemporalEntity-11032 BoundedTemporalEntity-10767)
+
+(aia-MI BoundedTemporalEntity-11060 BoundedTemporalEntity-11028)
+
+(aia-MI BoundedTemporalEntity-11067 BoundedTemporalEntity-11060)
+
+(aia-MI BoundedTemporalEntity-11107 BoundedTemporalEntity-11067)
+
+(aia-MI BoundedTemporalEntity-11118 BoundedTemporalEntity-11107)
+
+(aia-MI BoundedTemporalEntity-11151 BoundedTemporalEntity-11118)
+
+(aia-MI BoundedTemporalEntity-11161 BoundedTemporalEntity-11151)
+
+(aia-MI BoundedTemporalEntity-11172 BoundedTemporalEntity-11161)
+
+(aia-MI BoundedTemporalEntity-11186 BoundedTemporalEntity-11172)
+
+(aia-MI BoundedTemporalEntity-11217 BoundedTemporalEntity-11032)
+
+(aia-MI BoundedTemporalEntity-11421 BoundedTemporalEntity-11217)
+
+(aia-MI BoundedTemporalEntity-11438 BoundedTemporalEntity-11421)
+
+(aia-MI BoundedTemporalEntity-11521 BoundedTemporalEntity-11186)
+
+(aia-MI BoundedTemporalEntity-11538 BoundedTemporalEntity-11521)
+
+(aia-MI BoundedTemporalEntity-11602 BoundedTemporalEntity-11576)
+
+(aia-MI BoundedTemporalEntity-11623 BoundedTemporalEntity-11538)
+
+(aia-MI BoundedTemporalEntity-11642 BoundedTemporalEntity-11438)
+
+(aia-MI BoundedTemporalEntity-11642 BoundedTemporalEntity-11623)
+
+(aia-MI BoundedTemporalEntity-11643 BoundedTemporalEntity-11623)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10522)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10555)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10722)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10732)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10759)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10771)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10773)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10927)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-10949)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11028)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11060)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11067)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11107)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11118)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11151)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11161)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11172)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11186)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11521)
+
+(aia-OI BoundedTemporalEntity-11642 BoundedTemporalEntity-11538)
+
+(cityOwner FC-City-KualaLumpur FC-Player-Parameswara)
+
+(constantIn BoundedTemporalEntity-10379 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KualaLumpur))
+
+(constantIn BoundedTemporalEntity-11567 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19138097))
+
+(constantIn BoundedTemporalEntity-11584 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19166740))
+
+(constantIn BoundedTemporalEntity-11594 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19166740))
+
+(constantIn BoundedTemporalEntity-11608 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19182381))
+
+(constantIn BoundedTemporalEntity-11616 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19182381))
+
+(constantIn BoundedTemporalEntity-11629 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19208344))
+
+(constantIn BoundedTemporalEntity-11631 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-19208521))
+
+(constantIn BoundedTemporalEntity-11637 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19208344))
+
+(constantIn BoundedTemporalEntity-11639 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19208521))
+
+(constantIn BoundedTemporalEntity-11642 ((MeasurableQuantityFn citySize) FC-City-KualaLumpur))
+
+(constantIn BoundedTemporalEntity-11643 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(currentActivity Unit-372 FC-ActivityIdle)
+
+(currentActivity Unit-373 FC-ActivityFortifying)
+
+(fcObjectAt FC-City-KualaLumpur (FreecivLocationFn 18 15))
+
+(fcObjectAt Unit-372 (FreecivLocationFn 18 15))
+
+(footprintOf FC-City-KualaLumpur CityFootprint-FC-City-KualaLumpur)
+
+(isa CityFootprint-FC-City-KualaLumpur CityFootprint)
+
+(isa FC-City-KualaLumpur FreeCiv-City)
+
+(isa STEntity-511 DefensiveEpisodeFailure)
+
+(isa STEntity-511 SpatiotemporalEvent)
+
+(isa Unit-372 FC-Unit-Musketeers)
+
+(isa Unit-373 FC-Unit-Musketeers)
+
+(isa UnitGroupFootprint-19138097 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19166740 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19182381 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19208344 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-19208521 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-10555 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-10722 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-10732 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-10759 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-10949 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-11028 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-11107 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-11118 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-11161 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-11186 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-11538 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nondecreasingIn BoundedTemporalEntity-11602 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-19138097))
+
+(nondecreasingIn BoundedTemporalEntity-11623 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-10522 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-10771 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-10773 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-10927 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-11060 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-11067 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-11151 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-11172 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(nonincreasingIn BoundedTemporalEntity-11521 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-KualaLumpur))
+
+(startsAfterStartingOf BoundedTemporalEntity-11602 BoundedTemporalEntity-11567)
+
+(startsAfterStartingOf BoundedTemporalEntity-11642 BoundedTemporalEntity-10379)
+
+(startsAfterStartingOf BoundedTemporalEntity-11642 BoundedTemporalEntity-10380)
+
+(startsAtSameTime BoundedTemporalEntity-11594 BoundedTemporalEntity-11584)
+
+(startsAtSameTime BoundedTemporalEntity-11616 BoundedTemporalEntity-11608)
+
+(startsAtSameTime BoundedTemporalEntity-11637 BoundedTemporalEntity-11629)
+
+(startsAtSameTime BoundedTemporalEntity-11639 BoundedTemporalEntity-11631)
+
+(startsAtSameTime BoundedTemporalEntity-11642 BoundedTemporalEntity-11643)
+
+(unitOwner Unit-372 FC-Player-DavitIV)
+
+(unitOwner Unit-373 FC-Player-DavitIV)
+
+(zeroIn BoundedTemporalEntity-10380 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-KualaLumpur))

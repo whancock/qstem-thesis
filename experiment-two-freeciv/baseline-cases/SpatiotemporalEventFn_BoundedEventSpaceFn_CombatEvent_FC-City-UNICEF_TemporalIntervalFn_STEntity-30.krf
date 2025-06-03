@@ -1,0 +1,82 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNICEF) (TemporalIntervalFn STEntity-30)), dumped 5/23/2025 14:18:49 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-UNICEF) (TemporalIntervalFn STEntity-30)))
+((Area (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivUnitCountFn 1))
+
+((citySize (AtFn (EndFn STEntity-30) STEntity-30)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-30) STEntity-30)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-356 BoundedTemporalEntity-330)
+
+(aia-MI BoundedTemporalEntity-357 BoundedTemporalEntity-331)
+
+(aia-SI BoundedTemporalEntity-327 BoundedTemporalEntity-330)
+
+(aia-SI BoundedTemporalEntity-327 BoundedTemporalEntity-331)
+
+(cityOwner FC-City-UNICEF FC-Player-TrygveLie)
+
+(constantIn BoundedTemporalEntity-327 ((MeasurableQuantityFn citySize) FC-City-UNICEF))
+
+(constantIn BoundedTemporalEntity-328 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNICEF))
+
+(constantIn BoundedTemporalEntity-331 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNICEF))
+
+(constantIn BoundedTemporalEntity-354 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-18991))
+
+(constantIn BoundedTemporalEntity-355 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-18991))
+
+(currentActivity Unit-217 FC-ActivityIdle)
+
+(fcObjectAt FC-City-UNICEF (FreecivLocationFn 5 30))
+
+(fcObjectAt Unit-217 (FreecivLocationFn 5 30))
+
+(footprintOf FC-City-UNICEF CityFootprint-FC-City-UNICEF)
+
+(isa CityFootprint-FC-City-UNICEF CityFootprint)
+
+(isa FC-City-UNICEF FreeCiv-City)
+
+(isa STEntity-30 DefensiveEpisodeFailure)
+
+(isa STEntity-30 SpatiotemporalEvent)
+
+(isa Unit-217 FC-Unit-Archers)
+
+(isa UnitGroupFootprint-18991 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-357 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNICEF))
+
+(someIn BoundedTemporalEntity-356 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNICEF))
+
+(startsAtSameTime BoundedTemporalEntity-327 BoundedTemporalEntity-328)
+
+(startsAtSameTime BoundedTemporalEntity-327 BoundedTemporalEntity-329)
+
+(startsAtSameTime BoundedTemporalEntity-355 BoundedTemporalEntity-354)
+
+(startsBeforeStartingOf BoundedTemporalEntity-327 BoundedTemporalEntity-356)
+
+(startsBeforeStartingOf BoundedTemporalEntity-327 BoundedTemporalEntity-357)
+
+(unitOwner Unit-217 FC-Player-DarkDante)
+
+(zeroIn BoundedTemporalEntity-329 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-UNICEF))
+
+(zeroIn BoundedTemporalEntity-330 ((MeasurableQuantityFn enemyUnitCardinality) FC-City-UNICEF))

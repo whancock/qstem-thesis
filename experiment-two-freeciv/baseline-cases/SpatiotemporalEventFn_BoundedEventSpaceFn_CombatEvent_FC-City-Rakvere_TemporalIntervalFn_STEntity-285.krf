@@ -1,0 +1,86 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Rakvere) (TemporalIntervalFn STEntity-285)), dumped 5/23/2025 14:18:48 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Rakvere) (TemporalIntervalFn STEntity-285)))
+((Area (AtFn (EndFn STEntity-285) STEntity-285)) (FreecivTileArea 1))
+
+((Area (AtFn (StartFn STEntity-285) STEntity-285)) (FreecivTileArea 1))
+
+((BattleOpposingUnitCardinality (AtFn (EndFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 3))
+
+((BattleOpposingUnitCardinality (AtFn (StartFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 3))
+
+((Defenders (AtFn (EndFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (EndFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 2))
+
+((Defenders (AtFn (StartFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 0))
+
+((Defenders (AtFn (StartFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-285) STEntity-285)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-285) STEntity-285)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-285) STEntity-285)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-6433 BoundedTemporalEntity-6398)
+
+(aia-MI BoundedTemporalEntity-6462 BoundedTemporalEntity-6433)
+
+(aia-MI BoundedTemporalEntity-6492 BoundedTemporalEntity-6462)
+
+(aia-MI BoundedTemporalEntity-6557 BoundedTemporalEntity-6492)
+
+(aia-MI BoundedTemporalEntity-6585 BoundedTemporalEntity-6578)
+
+(aia-MI BoundedTemporalEntity-6596 BoundedTemporalEntity-6585)
+
+(cityOwner FC-City-Rakvere FC-Player-KonstantinPäts)
+
+(constantIn BoundedTemporalEntity-6399 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))
+
+(constantIn BoundedTemporalEntity-6529 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2635607))
+
+(constantIn BoundedTemporalEntity-6530 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2635607))
+
+(constantIn BoundedTemporalEntity-6577 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-2994168))
+
+(currentActivity Unit-270 FC-ActivityIdle)
+
+(fcObjectAt FC-City-Rakvere (FreecivLocationFn 41 17))
+
+(fcObjectAt Unit-270 (FreecivLocationFn 41 17))
+
+(footprintOf FC-City-Rakvere CityFootprint-FC-City-Rakvere)
+
+(isa CityFootprint-FC-City-Rakvere CityFootprint)
+
+(isa FC-City-Rakvere FreeCiv-City)
+
+(isa STEntity-285 DefensiveEpisodeFailure)
+
+(isa STEntity-285 SpatiotemporalEvent)
+
+(isa Unit-270 FC-Unit-Chariot)
+
+(isa UnitGroupFootprint-2635607 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-2994168 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-6596 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-2994168))
+
+(nonincreasingIn BoundedTemporalEntity-6557 ((MeasurableQuantityFn citySize) FC-City-Rakvere))
+
+(startsAfterStartingOf BoundedTemporalEntity-6557 BoundedTemporalEntity-6399)
+
+(startsAfterStartingOf BoundedTemporalEntity-6557 BoundedTemporalEntity-6400)
+
+(startsAfterStartingOf BoundedTemporalEntity-6596 BoundedTemporalEntity-6577)
+
+(startsAtSameTime BoundedTemporalEntity-6530 BoundedTemporalEntity-6529)
+
+(unitOwner Unit-270 FC-Player-ElizabethNicholls)
+
+(zeroIn BoundedTemporalEntity-6400 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Rakvere))

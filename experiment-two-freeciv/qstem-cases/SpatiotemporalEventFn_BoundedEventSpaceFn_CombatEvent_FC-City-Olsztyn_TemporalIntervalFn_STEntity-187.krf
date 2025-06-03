@@ -1,0 +1,118 @@
+;;; Case (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Olsztyn) (TemporalIntervalFn STEntity-187)), dumped 5/23/2025 14:11:15 from chum.
+
+(in-microtheory (SpatiotemporalEventFn (BoundedEventSpaceFn CombatEvent FC-City-Olsztyn) (TemporalIntervalFn STEntity-187)))
+((Area (AtFn (EndFn STEntity-187) STEntity-187)) (FreecivTileArea 124))
+
+((Area (AtFn (EndFn STEntity-187) STEntity-187)) (FreecivTileArea 8))
+
+((Area (AtFn (StartFn STEntity-187) STEntity-187)) (FreecivTileArea 14))
+
+((Area (AtFn (StartFn STEntity-187) STEntity-187)) (FreecivTileArea 56))
+
+((Defenders (AtFn (EndFn STEntity-187) STEntity-187)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (EndFn STEntity-187) STEntity-187)) (FreecivUnitCountFn 7))
+
+((Defenders (AtFn (StartFn STEntity-187) STEntity-187)) (FreecivUnitCountFn 1))
+
+((Defenders (AtFn (StartFn STEntity-187) STEntity-187)) (FreecivUnitCountFn 2))
+
+((citySize (AtFn (EndFn STEntity-187) STEntity-187)) (FreecivCitizenCountFn 1))
+
+((citySize (AtFn (StartFn STEntity-187) STEntity-187)) (FreecivCitizenCountFn 1))
+
+(aia-MI BoundedTemporalEntity-9533 BoundedTemporalEntity-9501)
+
+(aia-MI BoundedTemporalEntity-9572 BoundedTemporalEntity-9533)
+
+(aia-MI BoundedTemporalEntity-9671 BoundedTemporalEntity-9502)
+
+(aia-MI BoundedTemporalEntity-9672 BoundedTemporalEntity-9503)
+
+(aia-MI BoundedTemporalEntity-9675 BoundedTemporalEntity-9666)
+
+(aia-MI BoundedTemporalEntity-9676 BoundedTemporalEntity-9667)
+
+(aia-MI BoundedTemporalEntity-9767 BoundedTemporalEntity-9756)
+
+(aia-MI BoundedTemporalEntity-9768 BoundedTemporalEntity-9675)
+
+(aia-MI BoundedTemporalEntity-9769 BoundedTemporalEntity-9675)
+
+(aia-MI BoundedTemporalEntity-9769 BoundedTemporalEntity-9676)
+
+(aia-MI BoundedTemporalEntity-9775 BoundedTemporalEntity-9767)
+
+(aia-MI BoundedTemporalEntity-9776 BoundedTemporalEntity-9759)
+
+(aia-MI BoundedTemporalEntity-9776 BoundedTemporalEntity-9767)
+
+(aia-OI BoundedTemporalEntity-9572 BoundedTemporalEntity-9502)
+
+(aia-OI BoundedTemporalEntity-9572 BoundedTemporalEntity-9503)
+
+(aia-OI BoundedTemporalEntity-9769 BoundedTemporalEntity-9666)
+
+(aia-OI BoundedTemporalEntity-9776 BoundedTemporalEntity-9756)
+
+(cityOwner FC-City-Olsztyn FC-Player-Algmins)
+
+(constantIn BoundedTemporalEntity-9502 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Olsztyn))
+
+(constantIn BoundedTemporalEntity-9666 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-152566))
+
+(constantIn BoundedTemporalEntity-9756 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-153984))
+
+(currentActivity Unit-341 FC-ActivityFortifying)
+
+(defenseBonus FC-City-Olsztyn 50)
+
+(fcObjectAt FC-City-Olsztyn (FreecivLocationFn 13 18))
+
+(footprintOf FC-City-Olsztyn CityFootprint-FC-City-Olsztyn)
+
+(isa CityFootprint-FC-City-Olsztyn CityFootprint)
+
+(isa FC-City-Olsztyn FreeCiv-City)
+
+(isa STEntity-187 DefensiveEpisodeFailure)
+
+(isa STEntity-187 SpatiotemporalEvent)
+
+(isa Unit-341 FC-Unit-Catapult)
+
+(isa UnitGroupFootprint-152566 UnitGroupFootprint)
+
+(isa UnitGroupFootprint-153984 UnitGroupFootprint)
+
+(nondecreasingIn BoundedTemporalEntity-9671 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Olsztyn))
+
+(nondecreasingIn BoundedTemporalEntity-9675 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-152566))
+
+(nondecreasingIn BoundedTemporalEntity-9775 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-153984))
+
+(nondecreasingIn BoundedTemporalEntity-9776 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-153984))
+
+(nonincreasingIn BoundedTemporalEntity-9572 ((MeasurableQuantityFn citySize) FC-City-Olsztyn))
+
+(nonincreasingIn BoundedTemporalEntity-9767 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-153984))
+
+(nonincreasingIn BoundedTemporalEntity-9768 ((MeasurableQuantityFn blobArea) UnitGroupFootprint-152566))
+
+(nonincreasingIn BoundedTemporalEntity-9769 ((MeasurableQuantityFn footprintParticipantCardinality) UnitGroupFootprint-152566))
+
+(someIn BoundedTemporalEntity-9672 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Olsztyn))
+
+(startsAtSameTime BoundedTemporalEntity-9769 BoundedTemporalEntity-9768)
+
+(startsAtSameTime BoundedTemporalEntity-9776 BoundedTemporalEntity-9775)
+
+(startsBeforeStartingOf BoundedTemporalEntity-9572 BoundedTemporalEntity-9671)
+
+(startsBeforeStartingOf BoundedTemporalEntity-9572 BoundedTemporalEntity-9672)
+
+(terrainAt (FreecivLocationFn 13 18) FC-Terrain-Jungle)
+
+(unitOwner Unit-341 FC-Player-Algmins)
+
+(zeroIn BoundedTemporalEntity-9503 ((MeasurableQuantityFn numMilitaryUnitsInBlob) CityFootprint-FC-City-Olsztyn))
