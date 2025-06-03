@@ -1,0 +1,123 @@
+;;; Case (ExperimentalFoldFn (DatasetMtFn AileenComplexEventExpOrig)
+
+(in-microtheory (ExperimentalFoldFn (DatasetMtFn AileenComplexEventExpOrig) 2) :exclude-globals t)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-805f60d7) 39)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-20146645) 38)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-8cef63b8) 37)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-c592b95e) 36)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-a936e465) 35)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-e57f872a) 34)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-17649a3f) 33)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-2b77612e) 32)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-69d0aa0d) 31)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-20af8de5) 30)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-804d96eb) 29)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-03ac4542) 28)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-9bdd9147) 27)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-d13aa8b4) 26)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-d68dd6ce) 25)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-c5d483bb) 24)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-20f3e621) 23)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-aed9863f) 22)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-d68f6114) 21)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-6bf3d5d1) 20)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-b8f9b4b6) 19)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-1d7f970c) 18)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-ae7fd36e) 17)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-be868d7e) 16)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-bf01a6a8) 15)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-ddd79cd5) 14)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-965e2580) 13)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-845ab673) 12)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-97548cb5) 11)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-b458a53e) 10)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-d505d0ac) 9)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-2c63e373) 8)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-dfda9f78) 7)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-1be93a96) 6)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-6aa8c4b9) 5)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-4a00614a) 4)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-92a56d5c) 3)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-1ad1ce03) 2)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-63088685) 1)
+
+(trainExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-03beddad) 0)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-ef565e0f) 19)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-c6fdf470) 18)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-51f3bfcf) 17)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-8f8cd557) 16)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-8c52bd79) 15)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-bd2ec4a8) 14)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-f6183fc5) 13)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-60f980e8) 12)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-d56d57b8) 11)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition partition partition-698f974d) 10)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-4fc7058d) 9)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-88671e5a) 8)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-d6ddbfb1) 7)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-b86c6ea2) 6)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-1c73a15a) 5)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-4dba3522) 4)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-32fae024) 3)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-c1b840f0) 2)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-7f63caaa) 1)
+
+(testExampleOrderInFold (AileenEventMtFn HistoryCondition spread spread-0dc0eccd) 0)

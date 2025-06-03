@@ -1,0 +1,183 @@
+;;; Case (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-drop) 2) :exclude-globals t, dumped 8/7/2024 12:40:25 from desky.
+
+(in-microtheory (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-drop) 2) :exclude-globals t)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-7328b54f) 39)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-e79f6a68) 38)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-d2702a22) 37)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-8f98bc24) 36)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-74692c87) 35)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-6283f561) 34)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-17160493) 33)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-583f250d) 32)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-db5aea7e) 31)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-89a4ce42) 30)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-5ef2655a) 29)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-fb844038) 28)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-4676233c) 27)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-626e65d8) 26)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-6a0c095c) 25)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-3bf88c4f) 24)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-bfc92085) 23)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-00cef936) 22)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-9b39fbd6) 21)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-c6d78a86) 20)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-20d1c55a) 19)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-48973e26) 18)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-651412e6) 17)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-a14c251b) 16)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-e6cb64c3) 15)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-2fb5c969) 14)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-40a2f779) 13)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-d03b02fa) 12)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-c601a6f4) 11)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-35b173b8) 10)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-c102dd60) 9)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-67ff8ad7) 8)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-95481b45) 7)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-aa653c59) 6)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-e865d2cd) 5)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-21b68e4c) 4)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-a685ae02) 3)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-68a58d09) 2)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-6bf99109) 1)
+
+(trainExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-f8b3e041) 0)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pick-up pick-up-d27742ad) 19)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pull pull-c264e5a7) 18)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pull pull-181eb442) 17)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pull pull-64c3bbcf) 16)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pick-up pick-up-6b7c9484) 15)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pick-up pick-up-fcef790f) 14)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition push push-b535f590) 13)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pick-up pick-up-d581458c) 12)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pull pull-04c00a52) 11)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition pick-up pick-up-dd963d19) 10)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-c82506a5) 9)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-b5b0bc19) 8)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-c6067fcb) 7)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-77e00b37) 6)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-5f08d6a9) 5)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-aeafc506) 4)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-e0894cb2) 3)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-a3b6da87) 2)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-269e1072) 1)
+
+(testExampleOrderInFold
+ (AileenEventMtFn HistoryCondition drop drop-1f6c24d4) 0)
