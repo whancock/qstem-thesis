@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 310) (currentlyBuilding FC-City-LeónDeLosAldamas FC-Coinage)), dumped 7/29/2022 11:39:17 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 310) (currentlyBuilding FC-City-LeónDeLosAldamas FC-Coinage)))
+(numTurnsToBuild FC-City-LeónDeLosAldamas (Turns 250))
+
+(numTurnsToGrow FC-City-LeónDeLosAldamas (Turns 13))
+
+(cityGrowthRate FC-City-LeónDeLosAldamas (Percent 5))
+
+(cityOwner FC-City-LeónDeLosAldamas FC-Player-BenitoJuárez)
+
+(citySize FC-City-LeónDeLosAldamas (FreecivCitizenCountFn 1))
+
+(isa FC-City-LeónDeLosAldamas FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 191))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

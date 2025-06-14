@@ -1,0 +1,228 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 864) (currentlyBuilding FC-City-Ulsan FC-Unit-Archers)), dumped 8/10/2022 17:5:15 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 864) (currentlyBuilding FC-City-Ulsan FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Ulsan CityFootprint)
+
+(footprintOf FC-City-Ulsan CityFootprint-FC-City-Ulsan)
+
+(numTurnsToBuild FC-City-Ulsan (Turns 2))
+
+(numTurnsToGrow FC-City-Ulsan (Turns 4))
+
+(cityGrowthRate FC-City-Ulsan (Percent 10))
+
+(cityOwner FC-City-Ulsan FC-Player-JoséArtigas)
+
+(cityOwner FC-City-Ulsan FC-Player-ParkGeun-hye)
+
+(citySize FC-City-Ulsan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ulsan FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Ulsan) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Ulsan) Some))
+
+(rcc8-PO CityFootprint-FC-City-Ulsan ContinentBlob-2)
+
+(rcc8-NTPP CityFootprint-FC-City-Ulsan ContinentBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-Ulsan CityFootprint-FC-City-Butare)
+
+(rcc8-EC CityFootprint-FC-City-Ulsan CityFootprint-FC-City-CiudadDelEste)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-151)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-195)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-205)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-207)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-212)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-218)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-221)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-228)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-230)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-236)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-239)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-260)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-270)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-283)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-290)
+
+(rcc8-TPP CityFootprint-FC-City-Ulsan TerritoryBlob-0)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-151)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-150)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-195)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-205)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-207)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-212)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-218)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-221)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-228)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-230)
+
+(rcc8-EC TerritoryBlob-1 UnitFootprint-Unit-224)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-236)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-239)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-247)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-253)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-260)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-270)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-268)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-283)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-290)
+
+(rcc8-EC CityFootprint-FC-City-Ulsan TerritoryBlob-1)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MutaraIII TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MutaraIII (GoldPoints 0))
+
+(currentGovernment FC-Player-MutaraIII FC-Anarchy)
+
+(isa FC-Player-MutaraIII FreeCiv-Player)
+
+(isa UnitFootprint-Unit-268 UnitFootprint)
+
+(isa UnitFootprint-Unit-253 UnitFootprint)
+
+(isa UnitFootprint-Unit-247 UnitFootprint)
+
+(isa UnitFootprint-Unit-224 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 286))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-290 UnitFootprint)
+
+(isa UnitFootprint-Unit-283 UnitFootprint)
+
+(isa UnitFootprint-Unit-270 UnitFootprint)
+
+(isa UnitFootprint-Unit-260 UnitFootprint)
+
+(isa UnitFootprint-Unit-239 UnitFootprint)
+
+(isa UnitFootprint-Unit-236 UnitFootprint)
+
+(isa UnitFootprint-Unit-230 UnitFootprint)
+
+(isa UnitFootprint-Unit-228 UnitFootprint)
+
+(isa UnitFootprint-Unit-221 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-205 UnitFootprint)
+
+(isa UnitFootprint-Unit-195 UnitFootprint)
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa UnitFootprint-Unit-151 UnitFootprint)
+
+(isa CityFootprint-FC-City-CiudadDelEste CityFootprint)
+
+(footprintOf FC-City-CiudadDelEste CityFootprint-FC-City-CiudadDelEste)
+
+(numTurnsToBuild FC-City-CiudadDelEste (Turns 7))
+
+(numTurnsToGrow FC-City-CiudadDelEste (Turns 1))
+
+(cityGrowthRate FC-City-CiudadDelEste (Percent 1))
+
+(cityOwner FC-City-CiudadDelEste FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-Barracks)
+
+(citySize FC-City-CiudadDelEste (FreecivCitizenCountFn 3))
+
+(isa FC-City-CiudadDelEste FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(isa CityFootprint-FC-City-Butare CityFootprint)
+
+(footprintOf FC-City-Butare CityFootprint-FC-City-Butare)
+
+(cityOwner FC-City-Butare FC-Player-MutaraIII)
+
+(cityHasImprovement FC-City-Butare FC-Building-CityWalls)
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 1))
+
+(isa FC-City-Butare FreeCiv-City)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)

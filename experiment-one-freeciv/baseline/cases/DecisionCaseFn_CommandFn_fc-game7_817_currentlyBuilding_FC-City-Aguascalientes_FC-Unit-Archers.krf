@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 817) (currentlyBuilding FC-City-Aguascalientes FC-Unit-Archers)), dumped 7/29/2022 11:44:18 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 817) (currentlyBuilding FC-City-Aguascalientes FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Aguascalientes (Turns 7))
+
+(numTurnsToGrow FC-City-Aguascalientes (Turns 13))
+
+(cityGrowthRate FC-City-Aguascalientes (Percent 2))
+
+(cityOwner FC-City-Aguascalientes FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-Barracks)
+
+(citySize FC-City-Aguascalientes (FreecivCitizenCountFn 3))
+
+(isa FC-City-Aguascalientes FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 1024))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

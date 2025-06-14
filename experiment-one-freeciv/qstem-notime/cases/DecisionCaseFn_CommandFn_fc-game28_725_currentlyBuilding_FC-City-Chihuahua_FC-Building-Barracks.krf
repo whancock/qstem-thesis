@@ -1,0 +1,46 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 725) (currentlyBuilding FC-City-Chihuahua FC-Building-Barracks)), dumped 8/10/2022 17:42:35 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 725) (currentlyBuilding FC-City-Chihuahua FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Chihuahua CityFootprint)
+
+(footprintOf FC-City-Chihuahua CityFootprint-FC-City-Chihuahua)
+
+(numTurnsToBuild FC-City-Chihuahua (Turns 10))
+
+(numTurnsToGrow FC-City-Chihuahua (Turns 15))
+
+(cityGrowthRate FC-City-Chihuahua (Percent 3))
+
+(cityOwner FC-City-Chihuahua FC-Player-BenitoJuárez)
+
+(citySize FC-City-Chihuahua (FreecivCitizenCountFn 2))
+
+(isa FC-City-Chihuahua FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Chihuahua ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-Chihuahua ContinentBlob-1421)
+
+(rcc8-EC CityFootprint-FC-City-Chihuahua CityFootprint-FC-City-Aguascalientes)
+
+(isa CityFootprint-FC-City-Aguascalientes CityFootprint)
+
+(footprintOf FC-City-Aguascalientes CityFootprint-FC-City-Aguascalientes)
+
+(numTurnsToBuild FC-City-Aguascalientes (Turns 8))
+
+(numTurnsToGrow FC-City-Aguascalientes (Turns 1))
+
+(cityGrowthRate FC-City-Aguascalientes (Percent 3))
+
+(cityOwner FC-City-Aguascalientes FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-Barracks)
+
+(citySize FC-City-Aguascalientes (FreecivCitizenCountFn 2))
+
+(isa FC-City-Aguascalientes FreeCiv-City)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

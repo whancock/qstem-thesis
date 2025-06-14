@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game11 563) (currentlyBuilding FC-City-Lviv FC-Building-CityWalls)), dumped 7/29/2022 12:28:4 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game11 563) (currentlyBuilding FC-City-Lviv FC-Building-CityWalls)))
+(numTurnsToBuild FC-City-Lviv (Turns 20))
+
+(numTurnsToGrow FC-City-Lviv (Turns 40))
+
+(cityGrowthRate FC-City-Lviv (Percent 1))
+
+(cityOwner FC-City-Lviv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Lviv FC-Building-Barracks)
+
+(citySize FC-City-Lviv (FreecivCitizenCountFn 3))
+
+(isa FC-City-Lviv FreeCiv-City)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 450))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)

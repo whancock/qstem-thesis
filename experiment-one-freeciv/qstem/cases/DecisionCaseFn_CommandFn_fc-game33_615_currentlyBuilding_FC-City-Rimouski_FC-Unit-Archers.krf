@@ -1,0 +1,156 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 615) (currentlyBuilding FC-City-Rimouski FC-Unit-Archers)), dumped 8/10/2022 19:36:39 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 615) (currentlyBuilding FC-City-Rimouski FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Rimouski CityFootprint)
+
+(footprintOf FC-City-Rimouski CityFootprint-FC-City-Rimouski)
+
+(numTurnsToBuild FC-City-Rimouski (Turns 29))
+
+(numTurnsToGrow FC-City-Rimouski (Turns 7))
+
+(cityGrowthRate FC-City-Rimouski (Percent 10))
+
+(cityOwner FC-City-Rimouski FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Rimouski FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Rimouski FC-Building-CityWalls)
+
+(citySize FC-City-Rimouski (FreecivCitizenCountFn 1))
+
+(isa FC-City-Rimouski FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Rimouski) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Rimouski) Some))
+
+(rcc8-PO CityFootprint-FC-City-Rimouski ContinentBlob-7657)
+
+(rcc8-PO CityFootprint-FC-City-Rimouski ContinentBlob-7654)
+
+(rcc8-PO CityFootprint-FC-City-Rimouski ContinentBlob-7652)
+
+(rcc8-PO CityFootprint-FC-City-Rimouski CityFootprint-FC-City-Montréal)
+
+(rcc8-EC CityFootprint-FC-City-Rimouski CityFootprint-FC-City-Québec)
+
+(rcc8-EC CityFootprint-FC-City-Rimouski CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-181)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-171)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-170)
+
+(rcc8-TPP CityFootprint-FC-City-Rimouski TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Rimouski TerritoryBlob-7944)
+
+(isa TerritoryBlob-7944 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 182))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyDecreasingFunction))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyDecreasingFunction))
+
+(isa UnitFootprint-Unit-170 UnitFootprint)
+
+(isa UnitFootprint-Unit-171 UnitFootprint)
+
+(isa UnitFootprint-Unit-181 UnitFootprint)
+
+(isa CityFootprint-FC-City-Trois-Rivières CityFootprint)
+
+(footprintOf FC-City-Trois-Rivières CityFootprint-FC-City-Trois-Rivières)
+
+(numTurnsToBuild FC-City-Trois-Rivières (Turns 143))
+
+(cityGrowthRate FC-City-Trois-Rivières (Percent 0))
+
+(cityOwner FC-City-Trois-Rivières FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Trois-Rivières FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Trois-Rivières FC-Building-Barracks)
+
+(citySize FC-City-Trois-Rivières (FreecivCitizenCountFn 3))
+
+(isa FC-City-Trois-Rivières FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(isa CityFootprint-FC-City-Québec CityFootprint)
+
+(footprintOf FC-City-Québec CityFootprint-FC-City-Québec)
+
+(numTurnsToBuild FC-City-Québec (Turns 2))
+
+(numTurnsToGrow FC-City-Québec (Turns 11))
+
+(cityGrowthRate FC-City-Québec (Percent 3))
+
+(cityOwner FC-City-Québec FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Québec FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Québec FC-Building-Barracks)
+
+(citySize FC-City-Québec (FreecivCitizenCountFn 2))
+
+(isa FC-City-Québec FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(isa CityFootprint-FC-City-Montréal CityFootprint)
+
+(footprintOf FC-City-Montréal CityFootprint-FC-City-Montréal)
+
+(numTurnsToBuild FC-City-Montréal (Turns 100))
+
+(numTurnsToGrow FC-City-Montréal (Turns 16))
+
+(cityGrowthRate FC-City-Montréal (Percent 1))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 3))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montréal) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montréal) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montréal) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montréal) Some))
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-7657 FreeCiv-TerrainBlob-Land)

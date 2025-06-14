@@ -1,0 +1,46 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 383) (currentlyBuilding FC-City-Batumi FC-Building-Barracks)), dumped 8/10/2022 17:16:1 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 383) (currentlyBuilding FC-City-Batumi FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Batumi CityFootprint)
+
+(footprintOf FC-City-Batumi CityFootprint-FC-City-Batumi)
+
+(numTurnsToBuild FC-City-Batumi (Turns 7))
+
+(numTurnsToGrow FC-City-Batumi (Turns 15))
+
+(cityGrowthRate FC-City-Batumi (Percent 3))
+
+(cityOwner FC-City-Batumi FC-Player-GiorgiIII)
+
+(citySize FC-City-Batumi (FreecivCitizenCountFn 2))
+
+(isa FC-City-Batumi FreeCiv-City)
+
+(aia-MI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Batumi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Batumi) Some))
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Batumi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Batumi) Some))
+
+(rcc8-PO CityFootprint-FC-City-Batumi ContinentBlob-405)
+
+(rcc8-NTPP CityFootprint-FC-City-Batumi ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Batumi TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 189))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

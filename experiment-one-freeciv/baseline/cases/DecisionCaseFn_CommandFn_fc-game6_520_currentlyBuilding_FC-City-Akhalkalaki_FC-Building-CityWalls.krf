@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game6 520) (currentlyBuilding FC-City-Akhalkalaki FC-Building-CityWalls)), dumped 7/29/2022 11:33:43 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game6 520) (currentlyBuilding FC-City-Akhalkalaki FC-Building-CityWalls)))
+(numTurnsToBuild FC-City-Akhalkalaki (Turns 15))
+
+(numTurnsToGrow FC-City-Akhalkalaki (Turns 14))
+
+(cityGrowthRate FC-City-Akhalkalaki (Percent 2))
+
+(cityOwner FC-City-Akhalkalaki FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Akhalkalaki FC-Building-Barracks)
+
+(citySize FC-City-Akhalkalaki (FreecivCitizenCountFn 3))
+
+(isa FC-City-Akhalkalaki FreeCiv-City)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 289))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)

@@ -1,0 +1,52 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 621) (currentlyBuilding FC-City-Poti FC-Coinage)), dumped 8/10/2022 17:23:4 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 621) (currentlyBuilding FC-City-Poti FC-Coinage)))
+(isa CityFootprint-FC-City-Poti CityFootprint)
+
+(footprintOf FC-City-Poti CityFootprint-FC-City-Poti)
+
+(numTurnsToBuild FC-City-Poti (Turns 200))
+
+(cityGrowthRate FC-City-Poti (Percent 0))
+
+(cityOwner FC-City-Poti FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Poti FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Poti FC-Building-Barracks)
+
+(citySize FC-City-Poti (FreecivCitizenCountFn 3))
+
+(isa FC-City-Poti FreeCiv-City)
+
+(aia-MI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Poti) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Poti) Some))
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Poti) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Poti) Some))
+
+(rcc8-PO CityFootprint-FC-City-Poti ContinentBlob-405)
+
+(rcc8-TPP CityFootprint-FC-City-Poti ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Poti TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 452))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

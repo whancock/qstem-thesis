@@ -1,0 +1,86 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game32 380) (currentlyBuilding FC-City-Zhytomyr FC-Unit-Catapult)), dumped 8/10/2022 19:13:56 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game32 380) (currentlyBuilding FC-City-Zhytomyr FC-Unit-Catapult)))
+(isa CityFootprint-FC-City-Zhytomyr CityFootprint)
+
+(footprintOf FC-City-Zhytomyr CityFootprint-FC-City-Zhytomyr)
+
+(numTurnsToBuild FC-City-Zhytomyr (Turns 8))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 33))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 1))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-Barracks)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 3))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Zhytomyr ContinentBlob-7302)
+
+(rcc8-TPP CityFootprint-FC-City-Zhytomyr ContinentBlob-7300)
+
+(rcc8-PO CityFootprint-FC-City-Zhytomyr CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-TPP CityFootprint-FC-City-Zhytomyr TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-7454 UnitFootprint-Unit-148)
+
+(rcc8-EC TerritoryBlob-7454 UnitFootprint-Unit-161)
+
+(rcc8-EC TerritoryBlob-7454 UnitFootprint-Unit-212)
+
+(rcc8-EC TerritoryBlob-7454 UnitFootprint-Unit-175)
+
+(rcc8-EC CityFootprint-FC-City-Zhytomyr TerritoryBlob-7454)
+
+(isa TerritoryBlob-7454 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-175 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-161 UnitFootprint)
+
+(isa UnitFootprint-Unit-148 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 185))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Pereyeslav CityFootprint)
+
+(footprintOf FC-City-Pereyeslav CityFootprint-FC-City-Pereyeslav)
+
+(numTurnsToBuild FC-City-Pereyeslav (Turns 3))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 36))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 1))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-Barracks)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 3))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(isa ContinentBlob-7300 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7302 FreeCiv-TerrainBlob-Land)

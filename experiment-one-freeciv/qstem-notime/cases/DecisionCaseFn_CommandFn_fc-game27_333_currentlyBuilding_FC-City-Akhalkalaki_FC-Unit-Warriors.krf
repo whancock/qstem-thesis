@@ -1,0 +1,44 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 333) (currentlyBuilding FC-City-Akhalkalaki FC-Unit-Warriors)), dumped 8/10/2022 17:14:47 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 333) (currentlyBuilding FC-City-Akhalkalaki FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Akhalkalaki CityFootprint)
+
+(footprintOf FC-City-Akhalkalaki CityFootprint-FC-City-Akhalkalaki)
+
+(numTurnsToBuild FC-City-Akhalkalaki (Turns 4))
+
+(numTurnsToGrow FC-City-Akhalkalaki (Turns 10))
+
+(cityGrowthRate FC-City-Akhalkalaki (Percent 10))
+
+(cityOwner FC-City-Akhalkalaki FC-Player-GiorgiIII)
+
+(citySize FC-City-Akhalkalaki (FreecivCitizenCountFn 1))
+
+(isa FC-City-Akhalkalaki FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Akhalkalaki ContinentBlob-405)
+
+(rcc8-NTPP CityFootprint-FC-City-Akhalkalaki ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Akhalkalaki TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Akhalkalaki TerritoryBlob-856)
+
+(isa TerritoryBlob-856 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 99))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,272 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game4 27) (currentlyBuilding FC-City-Meroë FC-Unit-Settlers)), dumped 9/1/2022 17:21:17 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game4 27) (currentlyBuilding FC-City-Meroë FC-Unit-Settlers)))
+(rcc8-NTPP ContinentBlob-24896 ContinentBlob-24895)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Brno)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Yerevan)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-AddisAbeba)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Praha)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Meroë)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-3)
+
+(rcc8-TPPi ContinentBlob-24896 TerritoryBlob-24954)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-4)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-1)
+
+(rcc8-TPPi ContinentBlob-24896 TerritoryBlob-24993)
+
+(rcc8-TPPi ContinentBlob-24896 TerritoryBlob-25000)
+
+(rcc8-TPPi ContinentBlob-24896 TerritoryBlob-25029)
+
+(rcc8-TPPi ContinentBlob-24896 TerritoryBlob-25023)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Meroë ContinentBlob-24896)
+
+(rcc8-EC ContinentBlob-24895 ContinentBlob-24899)
+
+(rcc8-PO ContinentBlob-24895 ContinentBlob-24898)
+
+(rcc8-EC ContinentBlob-24895 ContinentBlob-24897)
+
+(rcc8-NTPPi ContinentBlob-24895 ContinentBlob-24896)
+
+(rcc8-EC ContinentBlob-24895 ContinentBlob-24894)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Brno)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Yerevan)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-AddisAbeba)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Praha)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Meroë)
+
+(rcc8-PO ContinentBlob-24895 TerritoryBlob-24904)
+
+(rcc8-EC ContinentBlob-24895 TerritoryBlob-24903)
+
+(rcc8-EC ContinentBlob-24895 TerritoryBlob-24902)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-3)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-24954)
+
+(rcc8-EC ContinentBlob-24895 TerritoryBlob-24953)
+
+(rcc8-EC ContinentBlob-24895 TerritoryBlob-24952)
+
+(rcc8-PO ContinentBlob-24895 TerritoryBlob-4)
+
+(rcc8-TPPi ContinentBlob-24895 TerritoryBlob-1)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-24993)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-25000)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-25029)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-25023)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-0)
+
+(rcc8-NTPP CityFootprint-FC-City-Meroë ContinentBlob-24895)
+
+(rcc8-TPP TerritoryBlob-25029 ContinentBlob-24896)
+
+(rcc8-NTPP TerritoryBlob-25029 ContinentBlob-24895)
+
+(rcc8-EC TerritoryBlob-25029 CityFootprint-FC-City-Meroë)
+
+(rcc8-EC TerritoryBlob-25029 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Meroë TerritoryBlob-25029)
+
+(rcc8-TPP TerritoryBlob-25023 ContinentBlob-24896)
+
+(rcc8-NTPP TerritoryBlob-25023 ContinentBlob-24895)
+
+(rcc8-EC TerritoryBlob-25023 CityFootprint-FC-City-Brno)
+
+(rcc8-EC TerritoryBlob-25023 CityFootprint-FC-City-AddisAbeba)
+
+(rcc8-EC TerritoryBlob-25023 CityFootprint-FC-City-Meroë)
+
+(rcc8-EC TerritoryBlob-25023 TerritoryBlob-3)
+
+(rcc8-EC TerritoryBlob-25023 TerritoryBlob-1)
+
+(rcc8-EC TerritoryBlob-25023 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Meroë TerritoryBlob-25023)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-24896)
+
+(rcc8-NTPP TerritoryBlob-0 ContinentBlob-24895)
+
+(rcc8-EQ TerritoryBlob-0 CityFootprint-FC-City-Meroë)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-25029)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-25023)
+
+(rcc8-EQ CityFootprint-FC-City-Meroë TerritoryBlob-0)
+
+(isa TerritoryBlob-24952 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-24953 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-24902 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-24903 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-24904 NationalTerritoryFootprint)
+
+(isa ContinentBlob-24894 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24897 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24898 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24899 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24896 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 50))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) ConstantFunction))
+
+(isa TerritoryBlob-25023 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-25029 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-25000 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-24993 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Gedara TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Gedara (GoldPoints 0))
+
+(currentGovernment FC-Player-Gedara FC-Anarchy)
+
+(isa FC-Player-Gedara FreeCiv-Player)
+
+(isa TerritoryBlob-4 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-ArgishtisI TerritoryBlob-4)
+
+(isa TerritoryBlob-4 NationalTerritoryFootprint)
+
+(currentGold FC-Player-ArgishtisI (GoldPoints 0))
+
+(currentGovernment FC-Player-ArgishtisI FC-Anarchy)
+
+(isa FC-Player-ArgishtisI FreeCiv-Player)
+
+(isa TerritoryBlob-24954 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-KarelIV TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KarelIV (GoldPoints 0))
+
+(currentGovernment FC-Player-KarelIV FC-Anarchy)
+
+(isa FC-Player-KarelIV FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Meroë CityFootprint)
+
+(footprintOf FC-City-Meroë CityFootprint-FC-City-Meroë)
+
+(numTurnsToBuild FC-City-Meroë (Turns 14))
+
+(numTurnsToGrow FC-City-Meroë (Turns 10))
+
+(cityGrowthRate FC-City-Meroë (Percent 10))
+
+(cityOwner FC-City-Meroë FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Palace)
+
+(citySize FC-City-Meroë (FreecivCitizenCountFn 1))
+
+(isa FC-City-Meroë FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Meroë) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Meroë) Some))
+
+(isa CityFootprint-FC-City-Praha CityFootprint)
+
+(footprintOf FC-City-Praha CityFootprint-FC-City-Praha)
+
+(cityOwner FC-City-Praha FC-Player-KarelIV)
+
+(citySize FC-City-Praha (FreecivCitizenCountFn 1))
+
+(isa FC-City-Praha FreeCiv-City)
+
+(isa CityFootprint-FC-City-AddisAbeba CityFootprint)
+
+(footprintOf FC-City-AddisAbeba CityFootprint-FC-City-AddisAbeba)
+
+(cityOwner FC-City-AddisAbeba FC-Player-Gedara)
+
+(cityHasImprovement FC-City-AddisAbeba FC-Building-Palace)
+
+(citySize FC-City-AddisAbeba (FreecivCitizenCountFn 1))
+
+(isa FC-City-AddisAbeba FreeCiv-City)
+
+(isa CityFootprint-FC-City-Yerevan CityFootprint)
+
+(footprintOf FC-City-Yerevan CityFootprint-FC-City-Yerevan)
+
+(cityOwner FC-City-Yerevan FC-Player-ArgishtisI)
+
+(cityHasImprovement FC-City-Yerevan FC-Building-Palace)
+
+(citySize FC-City-Yerevan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Yerevan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Brno CityFootprint)
+
+(footprintOf FC-City-Brno CityFootprint-FC-City-Brno)
+
+(cityOwner FC-City-Brno FC-Player-KarelIV)
+
+(cityHasImprovement FC-City-Brno FC-Building-Palace)
+
+(citySize FC-City-Brno (FreecivCitizenCountFn 1))
+
+(isa FC-City-Brno FreeCiv-City)
+
+(isa ContinentBlob-24895 FreeCiv-TerrainBlob-Water)

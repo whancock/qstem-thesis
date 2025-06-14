@@ -1,0 +1,94 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game34 638) (currentlyBuilding FC-City-Guantánamo FC-Coinage)), dumped 8/10/2022 20:6:24 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game34 638) (currentlyBuilding FC-City-Guantánamo FC-Coinage)))
+(isa CityFootprint-FC-City-Guantánamo CityFootprint)
+
+(footprintOf FC-City-Guantánamo CityFootprint-FC-City-Guantánamo)
+
+(numTurnsToBuild FC-City-Guantánamo (Turns 200))
+
+(numTurnsToGrow FC-City-Guantánamo (Turns 16))
+
+(cityGrowthRate FC-City-Guantánamo (Percent 2))
+
+(cityOwner FC-City-Guantánamo FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-Barracks)
+
+(citySize FC-City-Guantánamo (FreecivCitizenCountFn 3))
+
+(isa FC-City-Guantánamo FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guantánamo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guantánamo) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guantánamo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guantánamo) Some))
+
+(rcc8-PO CityFootprint-FC-City-Guantánamo ContinentBlob-8146)
+
+(rcc8-PO CityFootprint-FC-City-Guantánamo ContinentBlob-8145)
+
+(rcc8-EC CityFootprint-FC-City-Guantánamo CityFootprint-FC-City-LaHabana)
+
+(rcc8-TPP CityFootprint-FC-City-Guantánamo TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-8577 UnitFootprint-Unit-161)
+
+(rcc8-EC TerritoryBlob-8577 UnitFootprint-Unit-257)
+
+(rcc8-EC CityFootprint-FC-City-Guantánamo TerritoryBlob-8577)
+
+(isa TerritoryBlob-8577 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-257 UnitFootprint)
+
+(isa UnitFootprint-Unit-161 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséMartí TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 176))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-LaHabana CityFootprint)
+
+(footprintOf FC-City-LaHabana CityFootprint-FC-City-LaHabana)
+
+(numTurnsToBuild FC-City-LaHabana (Turns 167))
+
+(numTurnsToGrow FC-City-LaHabana (Turns 16))
+
+(cityGrowthRate FC-City-LaHabana (Percent 2))
+
+(cityOwner FC-City-LaHabana FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Barracks)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Palace)
+
+(citySize FC-City-LaHabana (FreecivCitizenCountFn 2))
+
+(isa FC-City-LaHabana FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LaHabana) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LaHabana) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LaHabana) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LaHabana) Some))
+
+(isa ContinentBlob-8145 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8146 FreeCiv-TerrainBlob-Land)

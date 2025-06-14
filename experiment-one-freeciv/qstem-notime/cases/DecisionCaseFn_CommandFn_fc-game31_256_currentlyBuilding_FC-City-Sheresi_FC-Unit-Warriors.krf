@@ -1,0 +1,52 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game31 256) (currentlyBuilding FC-City-Sheresi FC-Unit-Warriors)), dumped 8/10/2022 18:59:52 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game31 256) (currentlyBuilding FC-City-Sheresi FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Sheresi CityFootprint)
+
+(footprintOf FC-City-Sheresi CityFootprint-FC-City-Sheresi)
+
+(numTurnsToBuild FC-City-Sheresi (Turns 5))
+
+(numTurnsToGrow FC-City-Sheresi (Turns 10))
+
+(cityGrowthRate FC-City-Sheresi (Percent 10))
+
+(cityOwner FC-City-Sheresi FC-Player-Tutankhamun)
+
+(citySize FC-City-Sheresi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sheresi FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Sheresi ContinentBlob-6790)
+
+(rcc8-PO CityFootprint-FC-City-Sheresi ContinentBlob-6789)
+
+(rcc8-EC CityFootprint-FC-City-Sheresi ContinentBlob-6788)
+
+(rcc8-PO CityFootprint-FC-City-Sheresi CityFootprint-FC-City-Suentet)
+
+(rcc8-EC CityFootprint-FC-City-Sheresi TerritoryBlob-7170)
+
+(isa TerritoryBlob-7170 NationalTerritoryFootprint)
+
+(isa CityFootprint-FC-City-Suentet CityFootprint)
+
+(footprintOf FC-City-Suentet CityFootprint-FC-City-Suentet)
+
+(numTurnsToBuild FC-City-Suentet (Turns 13))
+
+(numTurnsToGrow FC-City-Suentet (Turns 13))
+
+(cityGrowthRate FC-City-Suentet (Percent 3))
+
+(cityOwner FC-City-Suentet FC-Player-Tutankhamun)
+
+(citySize FC-City-Suentet (FreecivCitizenCountFn 2))
+
+(isa FC-City-Suentet FreeCiv-City)
+
+(isa ContinentBlob-6788 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6789 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-6790 FreeCiv-TerrainBlob-Water)

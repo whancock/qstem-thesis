@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game10 256) (currentlyBuilding FC-City-Sheresi FC-Unit-Warriors)), dumped 7/29/2022 12:18:55 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game10 256) (currentlyBuilding FC-City-Sheresi FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Sheresi (Turns 5))
+
+(numTurnsToGrow FC-City-Sheresi (Turns 10))
+
+(cityGrowthRate FC-City-Sheresi (Percent 10))
+
+(cityOwner FC-City-Sheresi FC-Player-Tutankhamun)
+
+(citySize FC-City-Sheresi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sheresi FreeCiv-City)
+
+(currentGold FC-Player-Tutankhamun (GoldPoints 85))
+
+(currentGovernment FC-Player-Tutankhamun FC-Despotism)
+
+(isa FC-Player-Tutankhamun FreeCiv-Player)

@@ -1,0 +1,624 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game7 551) (currentlyBuilding FC-City-Lutsk FC-Building-Barracks)), dumped 9/1/2022 21:21:59 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game7 551) (currentlyBuilding FC-City-Lutsk FC-Building-Barracks)))
+(rcc8-NTPP ContinentBlob-52056 ContinentBlob-52054)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Kyiv)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Lahore)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Karachi)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Faisalabad)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Rawalpindi)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Novosibirsk)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Briansk)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Lviv)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Gujranwala)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Multan)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Volgograd)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Hyderabad)
+
+(rcc8-TPPi ContinentBlob-52056 CityFootprint-FC-City-Lutsk)
+
+(rcc8-TPPi ContinentBlob-52056 UnitFootprint-Unit-148)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-147)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-153)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-160)
+
+(rcc8-TPPi ContinentBlob-52056 UnitFootprint-Unit-161)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-164)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-174)
+
+(rcc8-TPPi ContinentBlob-52056 UnitFootprint-Unit-212)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-214)
+
+(rcc8-TPPi ContinentBlob-52056 UnitFootprint-Unit-175)
+
+(rcc8-EC ContinentBlob-52056 UnitFootprint-Unit-191)
+
+(rcc8-TPPi ContinentBlob-52056 UnitFootprint-Unit-254)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-327)
+
+(rcc8-PO ContinentBlob-52056 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-52056 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-52056 TerritoryBlob-4)
+
+(rcc8-TPPi ContinentBlob-52056 TerritoryBlob-53199)
+
+(rcc8-TPPi ContinentBlob-52056 TerritoryBlob-53198)
+
+(rcc8-TPPi ContinentBlob-52056 TerritoryBlob-53196)
+
+(rcc8-TPP CityFootprint-FC-City-Lutsk ContinentBlob-52056)
+
+(rcc8-NTPPi ContinentBlob-52054 ContinentBlob-52056)
+
+(rcc8-EC ContinentBlob-52054 ContinentBlob-52055)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Kyiv)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Lahore)
+
+(rcc8-PO ContinentBlob-52054 CityFootprint-FC-City-Karachi)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-TPPi ContinentBlob-52054 CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Faisalabad)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Rawalpindi)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Novosibirsk)
+
+(rcc8-TPPi ContinentBlob-52054 CityFootprint-FC-City-Briansk)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Lviv)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Gujranwala)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Multan)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Volgograd)
+
+(rcc8-TPPi ContinentBlob-52054 CityFootprint-FC-City-Hyderabad)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Lutsk)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-148)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-147)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-153)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-160)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-161)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-164)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-174)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-214)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-175)
+
+(rcc8-TPPi ContinentBlob-52054 UnitFootprint-Unit-165)
+
+(rcc8-TPPi ContinentBlob-52054 UnitFootprint-Unit-191)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-254)
+
+(rcc8-TPPi ContinentBlob-52054 UnitFootprint-Unit-180)
+
+(rcc8-TPPi ContinentBlob-52054 UnitFootprint-Unit-327)
+
+(rcc8-EC ContinentBlob-52054 TerritoryBlob-52058)
+
+(rcc8-TPPi ContinentBlob-52054 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-52054 TerritoryBlob-1)
+
+(rcc8-TPPi ContinentBlob-52054 TerritoryBlob-4)
+
+(rcc8-NTPPi ContinentBlob-52054 TerritoryBlob-53199)
+
+(rcc8-NTPPi ContinentBlob-52054 TerritoryBlob-53198)
+
+(rcc8-NTPPi ContinentBlob-52054 TerritoryBlob-53196)
+
+(rcc8-NTPP CityFootprint-FC-City-Lutsk ContinentBlob-52054)
+
+(rcc8-PO CityFootprint-FC-City-Novosibirsk ContinentBlob-52056)
+
+(rcc8-NTPP CityFootprint-FC-City-Novosibirsk ContinentBlob-52054)
+
+(rcc8-EC CityFootprint-FC-City-Novosibirsk CityFootprint-FC-City-Lutsk)
+
+(rcc8-PO CityFootprint-FC-City-Novosibirsk TerritoryBlob-0)
+
+(rcc8-TPP CityFootprint-FC-City-Novosibirsk TerritoryBlob-4)
+
+(rcc8-EC CityFootprint-FC-City-Lutsk CityFootprint-FC-City-Novosibirsk)
+
+(rcc8-PO CityFootprint-FC-City-Volgograd ContinentBlob-52056)
+
+(rcc8-NTPP CityFootprint-FC-City-Volgograd ContinentBlob-52054)
+
+(rcc8-PO CityFootprint-FC-City-Volgograd CityFootprint-FC-City-Briansk)
+
+(rcc8-EC CityFootprint-FC-City-Volgograd CityFootprint-FC-City-Lutsk)
+
+(rcc8-EC CityFootprint-FC-City-Volgograd UnitFootprint-Unit-165)
+
+(rcc8-EC CityFootprint-FC-City-Volgograd UnitFootprint-Unit-191)
+
+(rcc8-EC CityFootprint-FC-City-Volgograd TerritoryBlob-0)
+
+(rcc8-TPP CityFootprint-FC-City-Volgograd TerritoryBlob-4)
+
+(rcc8-EC CityFootprint-FC-City-Volgograd TerritoryBlob-53196)
+
+(rcc8-EC CityFootprint-FC-City-Lutsk CityFootprint-FC-City-Volgograd)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-52056)
+
+(rcc8-TPP TerritoryBlob-0 ContinentBlob-52054)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Kyiv)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-PO TerritoryBlob-0 CityFootprint-FC-City-Novosibirsk)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Lviv)
+
+(rcc8-PO TerritoryBlob-0 CityFootprint-FC-City-Multan)
+
+(rcc8-EC TerritoryBlob-0 CityFootprint-FC-City-Volgograd)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Lutsk)
+
+(rcc8-PO TerritoryBlob-0 TerritoryBlob-1)
+
+(rcc8-PO TerritoryBlob-0 TerritoryBlob-4)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-53199)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-53198)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-53196)
+
+(rcc8-TPP CityFootprint-FC-City-Lutsk TerritoryBlob-0)
+
+(rcc8-PO TerritoryBlob-4 ContinentBlob-52056)
+
+(rcc8-TPP TerritoryBlob-4 ContinentBlob-52054)
+
+(rcc8-TPPi TerritoryBlob-4 CityFootprint-FC-City-Novosibirsk)
+
+(rcc8-TPPi TerritoryBlob-4 CityFootprint-FC-City-Briansk)
+
+(rcc8-TPPi TerritoryBlob-4 CityFootprint-FC-City-Volgograd)
+
+(rcc8-PO TerritoryBlob-4 CityFootprint-FC-City-Lutsk)
+
+(rcc8-PO TerritoryBlob-4 UnitFootprint-Unit-165)
+
+(rcc8-PO TerritoryBlob-4 UnitFootprint-Unit-191)
+
+(rcc8-PO TerritoryBlob-4 TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-4 TerritoryBlob-53196)
+
+(rcc8-PO CityFootprint-FC-City-Lutsk TerritoryBlob-4)
+
+(rcc8-TPP TerritoryBlob-53196 ContinentBlob-52056)
+
+(rcc8-NTPP TerritoryBlob-53196 ContinentBlob-52054)
+
+(rcc8-EC TerritoryBlob-53196 CityFootprint-FC-City-Karachi)
+
+(rcc8-EC TerritoryBlob-53196 CityFootprint-FC-City-Multan)
+
+(rcc8-EC TerritoryBlob-53196 CityFootprint-FC-City-Volgograd)
+
+(rcc8-EC TerritoryBlob-53196 CityFootprint-FC-City-Lutsk)
+
+(rcc8-EC TerritoryBlob-53196 UnitFootprint-Unit-148)
+
+(rcc8-EC TerritoryBlob-53196 UnitFootprint-Unit-161)
+
+(rcc8-EC TerritoryBlob-53196 UnitFootprint-Unit-212)
+
+(rcc8-EC TerritoryBlob-53196 UnitFootprint-Unit-175)
+
+(rcc8-EC TerritoryBlob-53196 UnitFootprint-Unit-254)
+
+(rcc8-PO TerritoryBlob-53196 UnitFootprint-Unit-327)
+
+(rcc8-EC TerritoryBlob-53196 TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-53196 TerritoryBlob-1)
+
+(rcc8-EC TerritoryBlob-53196 TerritoryBlob-4)
+
+(rcc8-EC CityFootprint-FC-City-Lutsk TerritoryBlob-53196)
+
+(isa TerritoryBlob-52058 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-180 UnitFootprint)
+
+(isa UnitFootprint-Unit-165 UnitFootprint)
+
+(isa ContinentBlob-52055 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-52056 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-53196 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-53198 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-53199 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-4 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Svyatoslav TerritoryBlob-4)
+
+(isa TerritoryBlob-4 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Svyatoslav (GoldPoints 0))
+
+(currentGovernment FC-Player-Svyatoslav FC-Anarchy)
+
+(isa FC-Player-Svyatoslav FreeCiv-Player)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MuhammadZia-ul-Haq TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MuhammadZia-ul-Haq (GoldPoints 0))
+
+(currentGovernment FC-Player-MuhammadZia-ul-Haq FC-Anarchy)
+
+(isa FC-Player-MuhammadZia-ul-Haq FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 440))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyDecreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyDecreasingFunction))
+
+(isa UnitFootprint-Unit-327 UnitFootprint)
+
+(isa UnitFootprint-Unit-254 UnitFootprint)
+
+(isa UnitFootprint-Unit-191 UnitFootprint)
+
+(isa UnitFootprint-Unit-175 UnitFootprint)
+
+(isa UnitFootprint-Unit-214 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-174 UnitFootprint)
+
+(isa UnitFootprint-Unit-164 UnitFootprint)
+
+(isa UnitFootprint-Unit-161 UnitFootprint)
+
+(isa UnitFootprint-Unit-160 UnitFootprint)
+
+(isa UnitFootprint-Unit-153 UnitFootprint)
+
+(isa UnitFootprint-Unit-147 UnitFootprint)
+
+(isa UnitFootprint-Unit-148 UnitFootprint)
+
+(isa CityFootprint-FC-City-Lutsk CityFootprint)
+
+(footprintOf FC-City-Lutsk CityFootprint-FC-City-Lutsk)
+
+(numTurnsToBuild FC-City-Lutsk (Turns 14))
+
+(numTurnsToGrow FC-City-Lutsk (Turns 8))
+
+(cityGrowthRate FC-City-Lutsk (Percent 10))
+
+(cityOwner FC-City-Lutsk FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Lutsk FC-Building-CityWalls)
+
+(citySize FC-City-Lutsk (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lutsk FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lutsk) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lutsk) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lutsk) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lutsk) Some))
+
+(isa CityFootprint-FC-City-Hyderabad CityFootprint)
+
+(footprintOf FC-City-Hyderabad CityFootprint-FC-City-Hyderabad)
+
+(cityOwner FC-City-Hyderabad FC-Player-MuhammadZia-ul-Haq)
+
+(citySize FC-City-Hyderabad (FreecivCitizenCountFn 1))
+
+(isa FC-City-Hyderabad FreeCiv-City)
+
+(isa CityFootprint-FC-City-Volgograd CityFootprint)
+
+(footprintOf FC-City-Volgograd CityFootprint-FC-City-Volgograd)
+
+(cityOwner FC-City-Volgograd FC-Player-Svyatoslav)
+
+(citySize FC-City-Volgograd (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Volgograd (FreecivCitizenCountFn 1))
+
+(isa FC-City-Volgograd FreeCiv-City)
+
+(isa CityFootprint-FC-City-Multan CityFootprint)
+
+(footprintOf FC-City-Multan CityFootprint-FC-City-Multan)
+
+(cityOwner FC-City-Multan FC-Player-MuhammadZia-ul-Haq)
+
+(citySize FC-City-Multan (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Multan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Multan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Gujranwala CityFootprint)
+
+(footprintOf FC-City-Gujranwala CityFootprint-FC-City-Gujranwala)
+
+(cityOwner FC-City-Gujranwala FC-Player-MuhammadZia-ul-Haq)
+
+(cityHasImprovement FC-City-Gujranwala FC-Building-CityWalls)
+
+(citySize FC-City-Gujranwala (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Gujranwala (FreecivCitizenCountFn 1))
+
+(isa FC-City-Gujranwala FreeCiv-City)
+
+(isa CityFootprint-FC-City-Lviv CityFootprint)
+
+(footprintOf FC-City-Lviv CityFootprint-FC-City-Lviv)
+
+(numTurnsToBuild FC-City-Lviv (Turns 7))
+
+(numTurnsToGrow FC-City-Lviv (Turns 2))
+
+(cityGrowthRate FC-City-Lviv (Percent 3))
+
+(cityOwner FC-City-Lviv FC-Player-SimonPetlura)
+
+(citySize FC-City-Lviv (FreecivCitizenCountFn 2))
+
+(isa FC-City-Lviv FreeCiv-City)
+
+(aia-MI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lviv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lviv) Some))
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lviv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lviv) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lviv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lviv) Some))
+
+(isa CityFootprint-FC-City-Briansk CityFootprint)
+
+(footprintOf FC-City-Briansk CityFootprint-FC-City-Briansk)
+
+(cityOwner FC-City-Briansk FC-Player-Svyatoslav)
+
+(citySize FC-City-Briansk (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Briansk (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Briansk (FreecivCitizenCountFn 1))
+
+(isa FC-City-Briansk FreeCiv-City)
+
+(isa CityFootprint-FC-City-Novosibirsk CityFootprint)
+
+(footprintOf FC-City-Novosibirsk CityFootprint-FC-City-Novosibirsk)
+
+(cityOwner FC-City-Novosibirsk FC-Player-Svyatoslav)
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 1))
+
+(isa FC-City-Novosibirsk FreeCiv-City)
+
+(isa CityFootprint-FC-City-Rawalpindi CityFootprint)
+
+(footprintOf FC-City-Rawalpindi CityFootprint-FC-City-Rawalpindi)
+
+(cityOwner FC-City-Rawalpindi FC-Player-MuhammadZia-ul-Haq)
+
+(cityHasImprovement FC-City-Rawalpindi FC-Building-CityWalls)
+
+(citySize FC-City-Rawalpindi (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Rawalpindi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Rawalpindi FreeCiv-City)
+
+(isa CityFootprint-FC-City-Faisalabad CityFootprint)
+
+(footprintOf FC-City-Faisalabad CityFootprint-FC-City-Faisalabad)
+
+(cityOwner FC-City-Faisalabad FC-Player-MuhammadZia-ul-Haq)
+
+(cityHasImprovement FC-City-Faisalabad FC-Building-CityWalls)
+
+(citySize FC-City-Faisalabad (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Faisalabad (FreecivCitizenCountFn 1))
+
+(isa FC-City-Faisalabad FreeCiv-City)
+
+(isa CityFootprint-FC-City-Zhytomyr CityFootprint)
+
+(footprintOf FC-City-Zhytomyr CityFootprint-FC-City-Zhytomyr)
+
+(numTurnsToBuild FC-City-Zhytomyr (Turns 200))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 49))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 0))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-Barracks)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 4))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(isa CityFootprint-FC-City-Pereyeslav CityFootprint)
+
+(footprintOf FC-City-Pereyeslav CityFootprint-FC-City-Pereyeslav)
+
+(numTurnsToBuild FC-City-Pereyeslav (Turns 200))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 2))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 1))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-Barracks)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 3))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Pereyeslav) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Pereyeslav) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Pereyeslav) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Pereyeslav) Some))
+
+(isa CityFootprint-FC-City-Karachi CityFootprint)
+
+(footprintOf FC-City-Karachi CityFootprint-FC-City-Karachi)
+
+(cityOwner FC-City-Karachi FC-Player-MuhammadZia-ul-Haq)
+
+(cityHasImprovement FC-City-Karachi FC-Building-CityWalls)
+
+(citySize FC-City-Karachi (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Karachi (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Karachi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Karachi FreeCiv-City)
+
+(isa CityFootprint-FC-City-Lahore CityFootprint)
+
+(footprintOf FC-City-Lahore CityFootprint-FC-City-Lahore)
+
+(cityOwner FC-City-Lahore FC-Player-MuhammadZia-ul-Haq)
+
+(cityHasImprovement FC-City-Lahore FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Lahore FC-Building-Palace)
+
+(citySize FC-City-Lahore (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Lahore (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lahore FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kyiv CityFootprint)
+
+(footprintOf FC-City-Kyiv CityFootprint-FC-City-Kyiv)
+
+(numTurnsToBuild FC-City-Kyiv (Turns 4))
+
+(numTurnsToGrow FC-City-Kyiv (Turns 30))
+
+(cityGrowthRate FC-City-Kyiv (Percent 2))
+
+(cityOwner FC-City-Kyiv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Palace)
+
+(citySize FC-City-Kyiv (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kyiv FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(isa ContinentBlob-52054 FreeCiv-TerrainBlob-Water)

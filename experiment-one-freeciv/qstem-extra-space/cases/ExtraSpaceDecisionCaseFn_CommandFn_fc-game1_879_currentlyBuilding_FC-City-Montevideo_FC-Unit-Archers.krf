@@ -1,0 +1,484 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game1 879) (currentlyBuilding FC-City-Montevideo FC-Unit-Archers)), dumped 9/1/2022 15:40:39 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game1 879) (currentlyBuilding FC-City-Montevideo FC-Unit-Archers)))
+(rcc8-NTPP ContinentBlob-4 ContinentBlob-2)
+
+(rcc8-NTPP ContinentBlob-4 ContinentBlob-1)
+
+(rcc8-PO ContinentBlob-4 CityFootprint-FC-City-Montevideo)
+
+(rcc8-PO ContinentBlob-4 CityFootprint-FC-City-Salto)
+
+(rcc8-PO ContinentBlob-4 CityFootprint-FC-City-LasPiedras)
+
+(rcc8-NTPP ContinentBlob-4 TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo ContinentBlob-4)
+
+(rcc8-NTPPi ContinentBlob-2 ContinentBlob-4)
+
+(rcc8-NTPP ContinentBlob-2 ContinentBlob-1)
+
+(rcc8-PO ContinentBlob-2 CityFootprint-FC-City-Montevideo)
+
+(rcc8-PO ContinentBlob-2 CityFootprint-FC-City-Kigali)
+
+(rcc8-PO ContinentBlob-2 CityFootprint-FC-City-Butare)
+
+(rcc8-PO ContinentBlob-2 CityFootprint-FC-City-Salto)
+
+(rcc8-PO ContinentBlob-2 CityFootprint-FC-City-LasPiedras)
+
+(rcc8-PO ContinentBlob-2 CityFootprint-FC-City-CiudadDelEste)
+
+(rcc8-PO ContinentBlob-2 CityFootprint-FC-City-Ruhengeri)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-151)
+
+(rcc8-PO ContinentBlob-2 UnitFootprint-Unit-150)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-195)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-205)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-207)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-212)
+
+(rcc8-PO ContinentBlob-2 UnitFootprint-Unit-218)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-221)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-228)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-230)
+
+(rcc8-EC ContinentBlob-2 UnitFootprint-Unit-224)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-236)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-239)
+
+(rcc8-EC ContinentBlob-2 UnitFootprint-Unit-229)
+
+(rcc8-PO ContinentBlob-2 UnitFootprint-Unit-247)
+
+(rcc8-PO ContinentBlob-2 UnitFootprint-Unit-253)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-260)
+
+(rcc8-PO ContinentBlob-2 UnitFootprint-Unit-270)
+
+(rcc8-EC ContinentBlob-2 UnitFootprint-Unit-268)
+
+(rcc8-PO ContinentBlob-2 UnitFootprint-Unit-283)
+
+(rcc8-TPPi ContinentBlob-2 UnitFootprint-Unit-290)
+
+(rcc8-PO ContinentBlob-2 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-2 TerritoryBlob-1)
+
+(rcc8-TPPi ContinentBlob-2 TerritoryBlob-1676)
+
+(rcc8-TPPi ContinentBlob-2 TerritoryBlob-1679)
+
+(rcc8-TPPi ContinentBlob-2 TerritoryBlob-1716)
+
+(rcc8-TPPi ContinentBlob-2 TerritoryBlob-1717)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo ContinentBlob-2)
+
+(rcc8-EC ContinentBlob-1 ContinentBlob-6)
+
+(rcc8-EC ContinentBlob-1 ContinentBlob-5)
+
+(rcc8-NTPPi ContinentBlob-1 ContinentBlob-4)
+
+(rcc8-EC ContinentBlob-1 ContinentBlob-3)
+
+(rcc8-NTPPi ContinentBlob-1 ContinentBlob-2)
+
+(rcc8-NTPPi ContinentBlob-1 CityFootprint-FC-City-Montevideo)
+
+(rcc8-NTPPi ContinentBlob-1 CityFootprint-FC-City-Kigali)
+
+(rcc8-NTPPi ContinentBlob-1 CityFootprint-FC-City-Butare)
+
+(rcc8-NTPPi ContinentBlob-1 CityFootprint-FC-City-Salto)
+
+(rcc8-NTPPi ContinentBlob-1 CityFootprint-FC-City-LasPiedras)
+
+(rcc8-TPPi ContinentBlob-1 CityFootprint-FC-City-CiudadDelEste)
+
+(rcc8-NTPPi ContinentBlob-1 CityFootprint-FC-City-Ruhengeri)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-151)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-150)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-195)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-205)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-207)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-218)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-221)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-228)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-230)
+
+(rcc8-PO ContinentBlob-1 UnitFootprint-Unit-224)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-236)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-239)
+
+(rcc8-TPPi ContinentBlob-1 UnitFootprint-Unit-229)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-247)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-253)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-260)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-270)
+
+(rcc8-TPPi ContinentBlob-1 UnitFootprint-Unit-268)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-283)
+
+(rcc8-NTPPi ContinentBlob-1 UnitFootprint-Unit-290)
+
+(rcc8-EC ContinentBlob-1 TerritoryBlob-9)
+
+(rcc8-EC ContinentBlob-1 TerritoryBlob-8)
+
+(rcc8-TPPi ContinentBlob-1 TerritoryBlob-0)
+
+(rcc8-NTPPi ContinentBlob-1 TerritoryBlob-1)
+
+(rcc8-EC ContinentBlob-1 TerritoryBlob-1672)
+
+(rcc8-NTPPi ContinentBlob-1 TerritoryBlob-1676)
+
+(rcc8-NTPPi ContinentBlob-1 TerritoryBlob-1679)
+
+(rcc8-NTPPi ContinentBlob-1 TerritoryBlob-1716)
+
+(rcc8-NTPPi ContinentBlob-1 TerritoryBlob-1717)
+
+(rcc8-NTPP CityFootprint-FC-City-Montevideo ContinentBlob-1)
+
+(rcc8-PO CityFootprint-FC-City-LasPiedras ContinentBlob-4)
+
+(rcc8-PO CityFootprint-FC-City-LasPiedras ContinentBlob-2)
+
+(rcc8-NTPP CityFootprint-FC-City-LasPiedras ContinentBlob-1)
+
+(rcc8-PO CityFootprint-FC-City-LasPiedras CityFootprint-FC-City-Montevideo)
+
+(rcc8-TPP CityFootprint-FC-City-LasPiedras TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-LasPiedras TerritoryBlob-1676)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo CityFootprint-FC-City-LasPiedras)
+
+(rcc8-EC TerritoryBlob-0 ContinentBlob-6)
+
+(rcc8-NTPPi TerritoryBlob-0 ContinentBlob-4)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-2)
+
+(rcc8-TPP TerritoryBlob-0 ContinentBlob-1)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Montevideo)
+
+(rcc8-PO TerritoryBlob-0 CityFootprint-FC-City-Butare)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Salto)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-LasPiedras)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-CiudadDelEste)
+
+(rcc8-PO TerritoryBlob-0 CityFootprint-FC-City-Ruhengeri)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-207)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-218)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-230)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-239)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-260)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-270)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-283)
+
+(rcc8-PO TerritoryBlob-0 TerritoryBlob-1)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-1672)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-1676)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-1679)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-1717)
+
+(rcc8-TPP CityFootprint-FC-City-Montevideo TerritoryBlob-0)
+
+(isa TerritoryBlob-1672 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-8 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-9 NationalTerritoryFootprint)
+
+(isa ContinentBlob-3 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-5 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-6 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-1717 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1716 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1679 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1676 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MutaraIII TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MutaraIII (GoldPoints 0))
+
+(currentGovernment FC-Player-MutaraIII FC-Despotism)
+
+(currentGovernment FC-Player-MutaraIII FC-Anarchy)
+
+(isa FC-Player-MutaraIII FreeCiv-Player)
+
+(isa UnitFootprint-Unit-290 UnitFootprint)
+
+(isa UnitFootprint-Unit-283 UnitFootprint)
+
+(isa UnitFootprint-Unit-268 UnitFootprint)
+
+(isa UnitFootprint-Unit-270 UnitFootprint)
+
+(isa UnitFootprint-Unit-260 UnitFootprint)
+
+(isa UnitFootprint-Unit-253 UnitFootprint)
+
+(isa UnitFootprint-Unit-247 UnitFootprint)
+
+(isa UnitFootprint-Unit-229 UnitFootprint)
+
+(isa UnitFootprint-Unit-239 UnitFootprint)
+
+(isa UnitFootprint-Unit-236 UnitFootprint)
+
+(isa UnitFootprint-Unit-224 UnitFootprint)
+
+(isa UnitFootprint-Unit-230 UnitFootprint)
+
+(isa UnitFootprint-Unit-228 UnitFootprint)
+
+(isa UnitFootprint-Unit-221 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-205 UnitFootprint)
+
+(isa UnitFootprint-Unit-195 UnitFootprint)
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa UnitFootprint-Unit-151 UnitFootprint)
+
+(isa CityFootprint-FC-City-Ruhengeri CityFootprint)
+
+(footprintOf FC-City-Ruhengeri CityFootprint-FC-City-Ruhengeri)
+
+(cityOwner FC-City-Ruhengeri FC-Player-MutaraIII)
+
+(citySize FC-City-Ruhengeri (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ruhengeri FreeCiv-City)
+
+(isa CityFootprint-FC-City-CiudadDelEste CityFootprint)
+
+(footprintOf FC-City-CiudadDelEste CityFootprint-FC-City-CiudadDelEste)
+
+(numTurnsToBuild FC-City-CiudadDelEste (Turns 4))
+
+(cityGrowthRate FC-City-CiudadDelEste (Percent 0))
+
+(cityOwner FC-City-CiudadDelEste FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-Barracks)
+
+(citySize FC-City-CiudadDelEste (FreecivCitizenCountFn 4))
+
+(isa FC-City-CiudadDelEste FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(isa CityFootprint-FC-City-Butare CityFootprint)
+
+(footprintOf FC-City-Butare CityFootprint-FC-City-Butare)
+
+(cityOwner FC-City-Butare FC-Player-MutaraIII)
+
+(cityHasImprovement FC-City-Butare FC-Building-CityWalls)
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 1))
+
+(isa FC-City-Butare FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kigali CityFootprint)
+
+(footprintOf FC-City-Kigali CityFootprint-FC-City-Kigali)
+
+(cityOwner FC-City-Kigali FC-Player-MutaraIII)
+
+(cityHasImprovement FC-City-Kigali FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Kigali FC-Building-Palace)
+
+(citySize FC-City-Kigali (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Kigali (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Kigali (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kigali FreeCiv-City)
+
+(isa ContinentBlob-4 FreeCiv-TerrainBlob-Water)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 296))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-LasPiedras CityFootprint)
+
+(footprintOf FC-City-LasPiedras CityFootprint-FC-City-LasPiedras)
+
+(numTurnsToBuild FC-City-LasPiedras (Turns 2))
+
+(numTurnsToGrow FC-City-LasPiedras (Turns 12))
+
+(cityGrowthRate FC-City-LasPiedras (Percent 1))
+
+(cityOwner FC-City-LasPiedras FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-LasPiedras FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-LasPiedras FC-Building-Barracks)
+
+(citySize FC-City-LasPiedras (FreecivCitizenCountFn 3))
+
+(isa FC-City-LasPiedras FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LasPiedras) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LasPiedras) Some))
+
+(isa CityFootprint-FC-City-Salto CityFootprint)
+
+(footprintOf FC-City-Salto CityFootprint-FC-City-Salto)
+
+(numTurnsToBuild FC-City-Salto (Turns 15))
+
+(numTurnsToGrow FC-City-Salto (Turns 7))
+
+(cityGrowthRate FC-City-Salto (Percent 1))
+
+(cityOwner FC-City-Salto FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Salto FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Salto FC-Building-Barracks)
+
+(citySize FC-City-Salto (FreecivCitizenCountFn 3))
+
+(isa FC-City-Salto FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Salto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Salto) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Salto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Salto) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Salto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Salto) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Salto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Salto) Some))
+
+(isa CityFootprint-FC-City-Montevideo CityFootprint)
+
+(footprintOf FC-City-Montevideo CityFootprint-FC-City-Montevideo)
+
+(numTurnsToBuild FC-City-Montevideo (Turns 6))
+
+(cityGrowthRate FC-City-Montevideo (Percent 0))
+
+(cityOwner FC-City-Montevideo FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-Palace)
+
+(citySize FC-City-Montevideo (FreecivCitizenCountFn 2))
+
+(isa FC-City-Montevideo FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montevideo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montevideo) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montevideo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montevideo) Some))
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)

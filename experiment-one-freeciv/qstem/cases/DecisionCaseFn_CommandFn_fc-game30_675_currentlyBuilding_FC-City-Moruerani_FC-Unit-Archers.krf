@@ -1,0 +1,170 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 675) (currentlyBuilding FC-City-Moruerani FC-Unit-Archers)), dumped 8/10/2022 18:50:40 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 675) (currentlyBuilding FC-City-Moruerani FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Moruerani CityFootprint)
+
+(footprintOf FC-City-Moruerani CityFootprint-FC-City-Moruerani)
+
+(numTurnsToBuild FC-City-Moruerani (Turns 6))
+
+(numTurnsToGrow FC-City-Moruerani (Turns 36))
+
+(cityGrowthRate FC-City-Moruerani (Percent 0))
+
+(cityOwner FC-City-Moruerani FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Moruerani FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Moruerani FC-Building-Barracks)
+
+(citySize FC-City-Moruerani (FreecivCitizenCountFn 4))
+
+(isa FC-City-Moruerani FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(rcc8-PO CityFootprint-FC-City-Moruerani ContinentBlob-6132)
+
+(rcc8-PO CityFootprint-FC-City-Moruerani ContinentBlob-6131)
+
+(rcc8-PO CityFootprint-FC-City-Moruerani CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-EC CityFootprint-FC-City-Moruerani CityFootprint-FC-City-Klagenfurt)
+
+(rcc8-TPP CityFootprint-FC-City-Moruerani TerritoryBlob-0)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-165)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-184)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-197)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-204)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-211)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-220)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-219)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-218)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-243)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-250)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-263)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-262)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-261)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-279)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-278)
+
+(rcc8-EC CityFootprint-FC-City-Moruerani TerritoryBlob-2)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-FranzJoseph TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-FranzJoseph (GoldPoints 0))
+
+(currentGovernment FC-Player-FranzJoseph FC-Anarchy)
+
+(isa FC-Player-FranzJoseph FreeCiv-Player)
+
+(isa UnitFootprint-Unit-278 UnitFootprint)
+
+(isa UnitFootprint-Unit-279 UnitFootprint)
+
+(isa UnitFootprint-Unit-261 UnitFootprint)
+
+(isa UnitFootprint-Unit-262 UnitFootprint)
+
+(isa UnitFootprint-Unit-263 UnitFootprint)
+
+(isa UnitFootprint-Unit-250 UnitFootprint)
+
+(isa UnitFootprint-Unit-243 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-219 UnitFootprint)
+
+(isa UnitFootprint-Unit-220 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-211 UnitFootprint)
+
+(isa UnitFootprint-Unit-204 UnitFootprint)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa UnitFootprint-Unit-184 UnitFootprint)
+
+(isa UnitFootprint-Unit-165 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 408))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Klagenfurt CityFootprint)
+
+(footprintOf FC-City-Klagenfurt CityFootprint-FC-City-Klagenfurt)
+
+(cityOwner FC-City-Klagenfurt FC-Player-FranzJoseph)
+
+(citySize FC-City-Klagenfurt (FreecivCitizenCountFn 1))
+
+(isa FC-City-Klagenfurt FreeCiv-City)
+
+(isa CityFootprint-FC-City-Tomakomanay CityFootprint)
+
+(footprintOf FC-City-Tomakomanay CityFootprint-FC-City-Tomakomanay)
+
+(numTurnsToBuild FC-City-Tomakomanay (Turns 200))
+
+(numTurnsToGrow FC-City-Tomakomanay (Turns 31))
+
+(cityGrowthRate FC-City-Tomakomanay (Percent 0))
+
+(cityOwner FC-City-Tomakomanay FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Tomakomanay FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Tomakomanay FC-Building-Barracks)
+
+(citySize FC-City-Tomakomanay (FreecivCitizenCountFn 4))
+
+(isa FC-City-Tomakomanay FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tomakomanay) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tomakomanay) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tomakomanay) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tomakomanay) Some))
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

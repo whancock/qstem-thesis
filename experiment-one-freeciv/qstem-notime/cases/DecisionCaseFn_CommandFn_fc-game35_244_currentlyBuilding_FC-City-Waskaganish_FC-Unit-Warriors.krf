@@ -1,0 +1,58 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 244) (currentlyBuilding FC-City-Waskaganish FC-Unit-Warriors)), dumped 8/10/2022 20:24:32 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 244) (currentlyBuilding FC-City-Waskaganish FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Waskaganish CityFootprint)
+
+(footprintOf FC-City-Waskaganish CityFootprint-FC-City-Waskaganish)
+
+(numTurnsToBuild FC-City-Waskaganish (Turns 1))
+
+(numTurnsToGrow FC-City-Waskaganish (Turns 12))
+
+(cityGrowthRate FC-City-Waskaganish (Percent 3))
+
+(cityOwner FC-City-Waskaganish FC-Player-Awashish)
+
+(citySize FC-City-Waskaganish (FreecivCitizenCountFn 2))
+
+(isa FC-City-Waskaganish FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Waskaganish ContinentBlob-8763)
+
+(rcc8-PO CityFootprint-FC-City-Waskaganish ContinentBlob-8762)
+
+(rcc8-EC CityFootprint-FC-City-Waskaganish CityFootprint-FC-City-Mistissini)
+
+(rcc8-TPP CityFootprint-FC-City-Waskaganish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 88))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Mistissini CityFootprint)
+
+(footprintOf FC-City-Mistissini CityFootprint-FC-City-Mistissini)
+
+(numTurnsToBuild FC-City-Mistissini (Turns 3))
+
+(numTurnsToGrow FC-City-Mistissini (Turns 8))
+
+(cityGrowthRate FC-City-Mistissini (Percent 10))
+
+(cityOwner FC-City-Mistissini FC-Player-Awashish)
+
+(citySize FC-City-Mistissini (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mistissini FreeCiv-City)
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)

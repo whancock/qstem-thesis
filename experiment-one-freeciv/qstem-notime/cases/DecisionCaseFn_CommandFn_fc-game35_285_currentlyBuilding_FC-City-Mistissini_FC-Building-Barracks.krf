@@ -1,0 +1,80 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 285) (currentlyBuilding FC-City-Mistissini FC-Building-Barracks)), dumped 8/10/2022 20:25:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 285) (currentlyBuilding FC-City-Mistissini FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Mistissini CityFootprint)
+
+(footprintOf FC-City-Mistissini CityFootprint-FC-City-Mistissini)
+
+(numTurnsToBuild FC-City-Mistissini (Turns 15))
+
+(numTurnsToGrow FC-City-Mistissini (Turns 5))
+
+(cityGrowthRate FC-City-Mistissini (Percent 10))
+
+(cityOwner FC-City-Mistissini FC-Player-Awashish)
+
+(citySize FC-City-Mistissini (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mistissini FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Mistissini ContinentBlob-8763)
+
+(rcc8-NTPP CityFootprint-FC-City-Mistissini ContinentBlob-8762)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini CityFootprint-FC-City-Waskaganish)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini CityFootprint-FC-City-Nemaska)
+
+(rcc8-TPP CityFootprint-FC-City-Mistissini TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini TerritoryBlob-9028)
+
+(isa TerritoryBlob-9028 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 91))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Nemaska CityFootprint)
+
+(footprintOf FC-City-Nemaska CityFootprint-FC-City-Nemaska)
+
+(numTurnsToBuild FC-City-Nemaska (Turns 2))
+
+(numTurnsToGrow FC-City-Nemaska (Turns 2))
+
+(cityGrowthRate FC-City-Nemaska (Percent 10))
+
+(cityOwner FC-City-Nemaska FC-Player-Awashish)
+
+(citySize FC-City-Nemaska (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nemaska FreeCiv-City)
+
+(isa CityFootprint-FC-City-Waskaganish CityFootprint)
+
+(footprintOf FC-City-Waskaganish CityFootprint-FC-City-Waskaganish)
+
+(numTurnsToBuild FC-City-Waskaganish (Turns 8))
+
+(numTurnsToGrow FC-City-Waskaganish (Turns 9))
+
+(cityGrowthRate FC-City-Waskaganish (Percent 3))
+
+(cityOwner FC-City-Waskaganish FC-Player-Awashish)
+
+(citySize FC-City-Waskaganish (FreecivCitizenCountFn 2))
+
+(isa FC-City-Waskaganish FreeCiv-City)
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)

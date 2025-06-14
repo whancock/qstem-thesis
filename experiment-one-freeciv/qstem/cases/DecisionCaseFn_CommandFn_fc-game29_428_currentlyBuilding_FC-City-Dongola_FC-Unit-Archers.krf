@@ -1,0 +1,68 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 428) (currentlyBuilding FC-City-Dongola FC-Unit-Archers)), dumped 8/10/2022 17:57:29 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 428) (currentlyBuilding FC-City-Dongola FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Dongola CityFootprint)
+
+(footprintOf FC-City-Dongola CityFootprint-FC-City-Dongola)
+
+(numTurnsToBuild FC-City-Dongola (Turns 15))
+
+(numTurnsToGrow FC-City-Dongola (Turns 5))
+
+(cityGrowthRate FC-City-Dongola (Percent 10))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 1))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(rcc8-PO CityFootprint-FC-City-Dongola ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Dongola ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Dongola CityFootprint-FC-City-Faras)
+
+(rcc8-TPP CityFootprint-FC-City-Dongola TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Dongola TerritoryBlob-4842)
+
+(isa TerritoryBlob-4842 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 97))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Faras CityFootprint)
+
+(footprintOf FC-City-Faras CityFootprint-FC-City-Faras)
+
+(numTurnsToBuild FC-City-Faras (Turns 39))
+
+(numTurnsToGrow FC-City-Faras (Turns 9))
+
+(cityGrowthRate FC-City-Faras (Percent 5))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 1))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Faras) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Faras) Some))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

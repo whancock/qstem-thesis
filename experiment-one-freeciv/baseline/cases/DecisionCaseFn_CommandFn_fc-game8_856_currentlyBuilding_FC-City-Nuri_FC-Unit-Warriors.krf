@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 856) (currentlyBuilding FC-City-Nuri FC-Unit-Warriors)), dumped 7/29/2022 11:54:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 856) (currentlyBuilding FC-City-Nuri FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Nuri (Turns 2))
+
+(numTurnsToGrow FC-City-Nuri (Turns 4))
+
+(cityGrowthRate FC-City-Nuri (Percent 10))
+
+(cityOwner FC-City-Nuri FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Nuri FC-Building-Barracks)
+
+(citySize FC-City-Nuri (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nuri FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 44))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

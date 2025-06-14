@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game10 136) (currentlyBuilding FC-City-Suentet FC-Unit-Settlers)), dumped 7/29/2022 12:17:40 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game10 136) (currentlyBuilding FC-City-Suentet FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-Suentet (Turns 20))
+
+(numTurnsToGrow FC-City-Suentet (Turns 10))
+
+(cityGrowthRate FC-City-Suentet (Percent 10))
+
+(cityOwner FC-City-Suentet FC-Player-Tutankhamun)
+
+(citySize FC-City-Suentet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Suentet FreeCiv-City)
+
+(currentGold FC-Player-Tutankhamun (GoldPoints 65))
+
+(currentGovernment FC-Player-Tutankhamun FC-Despotism)
+
+(isa FC-Player-Tutankhamun FreeCiv-Player)

@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 786) (currentlyBuilding FC-City-CuliacánRosales FC-Unit-Archers)), dumped 7/29/2022 11:44:0 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 786) (currentlyBuilding FC-City-CuliacánRosales FC-Unit-Archers)))
+(numTurnsToBuild FC-City-CuliacánRosales (Turns 6))
+
+(numTurnsToGrow FC-City-CuliacánRosales (Turns 11))
+
+(cityGrowthRate FC-City-CuliacánRosales (Percent 3))
+
+(cityOwner FC-City-CuliacánRosales FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CuliacánRosales FC-Building-Barracks)
+
+(citySize FC-City-CuliacánRosales (FreecivCitizenCountFn 2))
+
+(isa FC-City-CuliacánRosales FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 990))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

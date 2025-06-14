@@ -1,0 +1,72 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 128) (currentlyBuilding FC-City-Trois-Rivières FC-Unit-Warriors)), dumped 8/10/2022 19:23:25 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 128) (currentlyBuilding FC-City-Trois-Rivières FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Trois-Rivières CityFootprint)
+
+(footprintOf FC-City-Trois-Rivières CityFootprint-FC-City-Trois-Rivières)
+
+(numTurnsToBuild FC-City-Trois-Rivières (Turns 5))
+
+(numTurnsToGrow FC-City-Trois-Rivières (Turns 10))
+
+(cityGrowthRate FC-City-Trois-Rivières (Percent 10))
+
+(cityOwner FC-City-Trois-Rivières FC-Player-RenéLévesque)
+
+(citySize FC-City-Trois-Rivières (FreecivCitizenCountFn 1))
+
+(isa FC-City-Trois-Rivières FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-7657)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-7654)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-7652)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières CityFootprint-FC-City-Québec)
+
+(rcc8-TPP CityFootprint-FC-City-Trois-Rivières TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Trois-Rivières TerritoryBlob-7773)
+
+(isa TerritoryBlob-7773 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 77))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Québec CityFootprint)
+
+(footprintOf FC-City-Québec CityFootprint-FC-City-Québec)
+
+(numTurnsToBuild FC-City-Québec (Turns 1))
+
+(numTurnsToGrow FC-City-Québec (Turns 8))
+
+(cityGrowthRate FC-City-Québec (Percent 10))
+
+(cityOwner FC-City-Québec FC-Player-RenéLévesque)
+
+(citySize FC-City-Québec (FreecivCitizenCountFn 1))
+
+(isa FC-City-Québec FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-7657 FreeCiv-TerrainBlob-Land)

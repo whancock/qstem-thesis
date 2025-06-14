@@ -1,0 +1,80 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 217) (currentlyBuilding FC-City-LasPiedras FC-Coinage)), dumped 8/10/2022 16:50:33 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 217) (currentlyBuilding FC-City-LasPiedras FC-Coinage)))
+(isa CityFootprint-FC-City-LasPiedras CityFootprint)
+
+(footprintOf FC-City-LasPiedras CityFootprint-FC-City-LasPiedras)
+
+(numTurnsToBuild FC-City-LasPiedras (Turns 496))
+
+(numTurnsToGrow FC-City-LasPiedras (Turns 3))
+
+(cityGrowthRate FC-City-LasPiedras (Percent 10))
+
+(cityOwner FC-City-LasPiedras FC-Player-JoséArtigas)
+
+(citySize FC-City-LasPiedras (FreecivCitizenCountFn 1))
+
+(isa FC-City-LasPiedras FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LasPiedras) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LasPiedras) Some))
+
+(rcc8-PO CityFootprint-FC-City-LasPiedras ContinentBlob-4)
+
+(rcc8-PO CityFootprint-FC-City-LasPiedras ContinentBlob-2)
+
+(rcc8-NTPP CityFootprint-FC-City-LasPiedras ContinentBlob-1)
+
+(rcc8-PO CityFootprint-FC-City-LasPiedras CityFootprint-FC-City-Montevideo)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-TPP CityFootprint-FC-City-LasPiedras TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-LasPiedras TerritoryBlob-125)
+
+(isa TerritoryBlob-125 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 111))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa CityFootprint-FC-City-Montevideo CityFootprint)
+
+(footprintOf FC-City-Montevideo CityFootprint-FC-City-Montevideo)
+
+(numTurnsToBuild FC-City-Montevideo (Turns 1))
+
+(numTurnsToGrow FC-City-Montevideo (Turns 13))
+
+(cityGrowthRate FC-City-Montevideo (Percent 5))
+
+(cityOwner FC-City-Montevideo FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-Palace)
+
+(citySize FC-City-Montevideo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Montevideo FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montevideo) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montevideo) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montevideo) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montevideo) Some))
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-4 FreeCiv-TerrainBlob-Water)

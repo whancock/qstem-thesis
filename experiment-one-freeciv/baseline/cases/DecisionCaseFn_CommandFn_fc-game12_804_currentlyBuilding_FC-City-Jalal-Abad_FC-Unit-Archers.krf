@@ -1,0 +1,26 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 804) (currentlyBuilding FC-City-Jalal-Abad FC-Unit-Archers)), dumped 7/29/2022 12:38:45 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 804) (currentlyBuilding FC-City-Jalal-Abad FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Jalal-Abad (Turns 29))
+
+(numTurnsToGrow FC-City-Jalal-Abad (Turns 5))
+
+(cityGrowthRate FC-City-Jalal-Abad (Percent 10))
+
+(cityOwner FC-City-Jalal-Abad FC-Player-RenéLévesque)
+
+(cityOwner FC-City-Jalal-Abad FC-Player-Yshbeg)
+
+(cityHasImprovement FC-City-Jalal-Abad FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Jalal-Abad FC-Building-Barracks)
+
+(citySize FC-City-Jalal-Abad (FreecivCitizenCountFn 1))
+
+(isa FC-City-Jalal-Abad FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 452))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

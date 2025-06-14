@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 764) (currentlyBuilding FC-City-Rimouski FC-Unit-Archers)), dumped 7/29/2022 12:38:13 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 764) (currentlyBuilding FC-City-Rimouski FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Rimouski (Turns 6))
+
+(numTurnsToGrow FC-City-Rimouski (Turns 19))
+
+(cityGrowthRate FC-City-Rimouski (Percent 2))
+
+(cityOwner FC-City-Rimouski FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Rimouski FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Rimouski FC-Building-CityWalls)
+
+(citySize FC-City-Rimouski (FreecivCitizenCountFn 2))
+
+(isa FC-City-Rimouski FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 533))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game5 156) (currentlyBuilding FC-City-LasPiedras FC-Unit-Settlers)), dumped 7/29/2022 11:22:0 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game5 156) (currentlyBuilding FC-City-LasPiedras FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-LasPiedras (Turns 19))
+
+(numTurnsToGrow FC-City-LasPiedras (Turns 9))
+
+(cityGrowthRate FC-City-LasPiedras (Percent 10))
+
+(cityOwner FC-City-LasPiedras FC-Player-JoséArtigas)
+
+(citySize FC-City-LasPiedras (FreecivCitizenCountFn 1))
+
+(isa FC-City-LasPiedras FreeCiv-City)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 93))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)

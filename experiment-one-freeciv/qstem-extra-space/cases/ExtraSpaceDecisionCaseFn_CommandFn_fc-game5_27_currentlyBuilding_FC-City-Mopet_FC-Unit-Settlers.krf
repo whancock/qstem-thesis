@@ -1,0 +1,252 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game5 27) (currentlyBuilding FC-City-Mopet FC-Unit-Settlers)), dumped 9/1/2022 19:9:51 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game5 27) (currentlyBuilding FC-City-Mopet FC-Unit-Settlers)))
+(rcc8-NTPP ContinentBlob-47262 ContinentBlob-47261)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-TPPi ContinentBlob-47262 CityFootprint-FC-City-Wien)
+
+(rcc8-TPPi ContinentBlob-47262 CityFootprint-FC-City-Tehran)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Mopet)
+
+(rcc8-PO ContinentBlob-47262 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-47262 TerritoryBlob-0)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-2)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47328)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47326)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47340)
+
+(rcc8-PO CityFootprint-FC-City-Mopet ContinentBlob-47262)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47266)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47265)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47264)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47263)
+
+(rcc8-NTPPi ContinentBlob-47261 ContinentBlob-47262)
+
+(rcc8-TPPi ContinentBlob-47261 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-PO ContinentBlob-47261 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Wien)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Tehran)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Mopet)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47271)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47270)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47268)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47267)
+
+(rcc8-TPPi ContinentBlob-47261 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-47261 TerritoryBlob-0)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-2)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47328)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47326)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47340)
+
+(rcc8-NTPP CityFootprint-FC-City-Mopet ContinentBlob-47261)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-47262)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-47261)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri CityFootprint-FC-City-Mopet)
+
+(rcc8-TPP CityFootprint-FC-City-Cipasiri TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Cipasiri TerritoryBlob-47340)
+
+(rcc8-PO CityFootprint-FC-City-Mopet CityFootprint-FC-City-Cipasiri)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-47262)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-47261)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Mopet)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-47340)
+
+(rcc8-TPP CityFootprint-FC-City-Mopet TerritoryBlob-0)
+
+(rcc8-TPP TerritoryBlob-47340 ContinentBlob-47262)
+
+(rcc8-NTPP TerritoryBlob-47340 ContinentBlob-47261)
+
+(rcc8-EC TerritoryBlob-47340 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-EC TerritoryBlob-47340 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC TerritoryBlob-47340 CityFootprint-FC-City-Wien)
+
+(rcc8-EC TerritoryBlob-47340 CityFootprint-FC-City-Tehran)
+
+(rcc8-EC TerritoryBlob-47340 CityFootprint-FC-City-Mopet)
+
+(rcc8-EC TerritoryBlob-47340 TerritoryBlob-3)
+
+(rcc8-EC TerritoryBlob-47340 TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-47340 TerritoryBlob-2)
+
+(rcc8-EC CityFootprint-FC-City-Mopet TerritoryBlob-47340)
+
+(isa TerritoryBlob-47267 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47268 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47270 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47271 NationalTerritoryFootprint)
+
+(isa ContinentBlob-47263 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47264 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47265 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47266 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47262 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-47340 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47326 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47328 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-FranzJoseph TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-FranzJoseph (GoldPoints 0))
+
+(currentGovernment FC-Player-FranzJoseph FC-Anarchy)
+
+(isa FC-Player-FranzJoseph FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 51))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-IsmailI TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-IsmailI (GoldPoints 0))
+
+(currentGovernment FC-Player-IsmailI FC-Anarchy)
+
+(isa FC-Player-IsmailI FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Mopet CityFootprint)
+
+(footprintOf FC-City-Mopet CityFootprint-FC-City-Mopet)
+
+(numTurnsToBuild FC-City-Mopet (Turns 20))
+
+(numTurnsToGrow FC-City-Mopet (Turns 10))
+
+(cityGrowthRate FC-City-Mopet (Percent 10))
+
+(cityOwner FC-City-Mopet FC-Player-KayanoShigeru)
+
+(citySize FC-City-Mopet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mopet FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mopet) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mopet) Some))
+
+(isa CityFootprint-FC-City-Tehran CityFootprint)
+
+(footprintOf FC-City-Tehran CityFootprint-FC-City-Tehran)
+
+(cityOwner FC-City-Tehran FC-Player-IsmailI)
+
+(citySize FC-City-Tehran (FreecivCitizenCountFn 1))
+
+(isa FC-City-Tehran FreeCiv-City)
+
+(isa CityFootprint-FC-City-Wien CityFootprint)
+
+(footprintOf FC-City-Wien CityFootprint-FC-City-Wien)
+
+(cityOwner FC-City-Wien FC-Player-FranzJoseph)
+
+(cityHasImprovement FC-City-Wien FC-Building-Palace)
+
+(citySize FC-City-Wien (FreecivCitizenCountFn 1))
+
+(isa FC-City-Wien FreeCiv-City)
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 13))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 9))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 10))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 1))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(isa CityFootprint-FC-City-Ahvaz CityFootprint)
+
+(footprintOf FC-City-Ahvaz CityFootprint-FC-City-Ahvaz)
+
+(cityOwner FC-City-Ahvaz FC-Player-IsmailI)
+
+(cityHasImprovement FC-City-Ahvaz FC-Building-Palace)
+
+(citySize FC-City-Ahvaz (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ahvaz FreeCiv-City)
+
+(isa ContinentBlob-47261 FreeCiv-TerrainBlob-Water)

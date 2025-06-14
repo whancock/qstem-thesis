@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 271) (currentlyBuilding FC-City-Lévis FC-Unit-Archers)), dumped 7/29/2022 12:31:49 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 271) (currentlyBuilding FC-City-Lévis FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Lévis (Turns 6))
+
+(numTurnsToGrow FC-City-Lévis (Turns 30))
+
+(cityGrowthRate FC-City-Lévis (Percent 2))
+
+(cityOwner FC-City-Lévis FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Lévis FC-Building-Barracks)
+
+(citySize FC-City-Lévis (FreecivCitizenCountFn 2))
+
+(isa FC-City-Lévis FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 87))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

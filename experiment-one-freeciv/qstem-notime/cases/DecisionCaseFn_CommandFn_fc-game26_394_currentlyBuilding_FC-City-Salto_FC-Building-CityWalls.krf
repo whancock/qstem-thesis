@@ -1,0 +1,118 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 394) (currentlyBuilding FC-City-Salto FC-Building-CityWalls)), dumped 8/10/2022 16:53:55 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 394) (currentlyBuilding FC-City-Salto FC-Building-CityWalls)))
+(isa CityFootprint-FC-City-Salto CityFootprint)
+
+(footprintOf FC-City-Salto CityFootprint-FC-City-Salto)
+
+(numTurnsToBuild FC-City-Salto (Turns 15))
+
+(numTurnsToGrow FC-City-Salto (Turns 11))
+
+(cityGrowthRate FC-City-Salto (Percent 2))
+
+(cityOwner FC-City-Salto FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Salto FC-Building-Barracks)
+
+(citySize FC-City-Salto (FreecivCitizenCountFn 2))
+
+(isa FC-City-Salto FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Salto ContinentBlob-4)
+
+(rcc8-PO CityFootprint-FC-City-Salto ContinentBlob-2)
+
+(rcc8-NTPP CityFootprint-FC-City-Salto ContinentBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-Salto CityFootprint-FC-City-Butare)
+
+(rcc8-EC CityFootprint-FC-City-Salto CityFootprint-FC-City-Gitarama)
+
+(rcc8-EC CityFootprint-FC-City-Salto UnitFootprint-Unit-150)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-TPP CityFootprint-FC-City-Salto TerritoryBlob-0)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-151)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-150)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-195)
+
+(rcc8-EC CityFootprint-FC-City-Salto TerritoryBlob-1)
+
+(rcc8-EC TerritoryBlob-189 UnitFootprint-Unit-151)
+
+(rcc8-EC TerritoryBlob-189 UnitFootprint-Unit-150)
+
+(rcc8-EC TerritoryBlob-189 UnitFootprint-Unit-195)
+
+(rcc8-EC CityFootprint-FC-City-Salto TerritoryBlob-189)
+
+(isa TerritoryBlob-189 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MutaraIII TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MutaraIII (GoldPoints 0))
+
+(currentGovernment FC-Player-MutaraIII FC-Anarchy)
+
+(isa FC-Player-MutaraIII FreeCiv-Player)
+
+(isa UnitFootprint-Unit-195 UnitFootprint)
+
+(isa UnitFootprint-Unit-151 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 209))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa CityFootprint-FC-City-Gitarama CityFootprint)
+
+(footprintOf FC-City-Gitarama CityFootprint-FC-City-Gitarama)
+
+(cityOwner FC-City-Gitarama FC-Player-MutaraIII)
+
+(citySize FC-City-Gitarama (FreecivCitizenCountFn 1))
+
+(isa FC-City-Gitarama FreeCiv-City)
+
+(isa CityFootprint-FC-City-Butare CityFootprint)
+
+(footprintOf FC-City-Butare CityFootprint-FC-City-Butare)
+
+(cityOwner FC-City-Butare FC-Player-MutaraIII)
+
+(cityHasImprovement FC-City-Butare FC-Building-CityWalls)
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 1))
+
+(isa FC-City-Butare FreeCiv-City)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-4 FreeCiv-TerrainBlob-Water)

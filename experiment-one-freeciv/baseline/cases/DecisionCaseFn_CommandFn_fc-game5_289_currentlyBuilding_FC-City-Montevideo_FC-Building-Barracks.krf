@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game5 289) (currentlyBuilding FC-City-Montevideo FC-Building-Barracks)), dumped 7/29/2022 11:22:52 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game5 289) (currentlyBuilding FC-City-Montevideo FC-Building-Barracks)))
+(numTurnsToBuild FC-City-Montevideo (Turns 10))
+
+(numTurnsToGrow FC-City-Montevideo (Turns 5))
+
+(cityGrowthRate FC-City-Montevideo (Percent 5))
+
+(cityOwner FC-City-Montevideo FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-Palace)
+
+(citySize FC-City-Montevideo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Montevideo FreeCiv-City)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 158))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)

@@ -1,0 +1,66 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 308) (currentlyBuilding FC-City-Meroë FC-Building-Barracks)), dumped 8/10/2022 17:54:37 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 308) (currentlyBuilding FC-City-Meroë FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Meroë CityFootprint)
+
+(footprintOf FC-City-Meroë CityFootprint-FC-City-Meroë)
+
+(numTurnsToBuild FC-City-Meroë (Turns 6))
+
+(numTurnsToGrow FC-City-Meroë (Turns 2))
+
+(cityGrowthRate FC-City-Meroë (Percent 10))
+
+(cityOwner FC-City-Meroë FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Palace)
+
+(citySize FC-City-Meroë (FreecivCitizenCountFn 1))
+
+(isa FC-City-Meroë FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Meroë) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Meroë) Some))
+
+(rcc8-PO CityFootprint-FC-City-Meroë ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Meroë ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Meroë CityFootprint-FC-City-Napata)
+
+(rcc8-TPP CityFootprint-FC-City-Meroë TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 88))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Napata CityFootprint)
+
+(footprintOf FC-City-Napata CityFootprint-FC-City-Napata)
+
+(numTurnsToBuild FC-City-Napata (Turns 6))
+
+(numTurnsToGrow FC-City-Napata (Turns 5))
+
+(cityGrowthRate FC-City-Napata (Percent 10))
+
+(cityOwner FC-City-Napata FC-Player-Amanishakheto)
+
+(citySize FC-City-Napata (FreecivCitizenCountFn 1))
+
+(isa FC-City-Napata FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Napata) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Napata) Some))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

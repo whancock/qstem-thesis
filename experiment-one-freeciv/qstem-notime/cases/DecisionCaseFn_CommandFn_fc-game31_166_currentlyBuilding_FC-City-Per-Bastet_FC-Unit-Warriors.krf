@@ -1,0 +1,62 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game31 166) (currentlyBuilding FC-City-Per-Bastet FC-Unit-Warriors)), dumped 8/10/2022 18:57:25 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game31 166) (currentlyBuilding FC-City-Per-Bastet FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Per-Bastet CityFootprint)
+
+(footprintOf FC-City-Per-Bastet CityFootprint-FC-City-Per-Bastet)
+
+(numTurnsToBuild FC-City-Per-Bastet (Turns 8))
+
+(numTurnsToGrow FC-City-Per-Bastet (Turns 8))
+
+(cityGrowthRate FC-City-Per-Bastet (Percent 10))
+
+(cityOwner FC-City-Per-Bastet FC-Player-Tutankhamun)
+
+(citySize FC-City-Per-Bastet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Per-Bastet FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Per-Bastet ContinentBlob-6789)
+
+(rcc8-PO CityFootprint-FC-City-Per-Bastet ContinentBlob-6788)
+
+(rcc8-EC CityFootprint-FC-City-Per-Bastet CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-PO CityFootprint-FC-City-Per-Bastet CityFootprint-FC-City-Suentet)
+
+(isa CityFootprint-FC-City-Suentet CityFootprint)
+
+(footprintOf FC-City-Suentet CityFootprint-FC-City-Suentet)
+
+(numTurnsToBuild FC-City-Suentet (Turns 14))
+
+(numTurnsToGrow FC-City-Suentet (Turns 4))
+
+(cityGrowthRate FC-City-Suentet (Percent 10))
+
+(cityOwner FC-City-Suentet FC-Player-Tutankhamun)
+
+(citySize FC-City-Suentet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Suentet FreeCiv-City)
+
+(isa CityFootprint-FC-City-Ineb-Hedj CityFootprint)
+
+(footprintOf FC-City-Ineb-Hedj CityFootprint-FC-City-Ineb-Hedj)
+
+(numTurnsToBuild FC-City-Ineb-Hedj (Turns 7))
+
+(numTurnsToGrow FC-City-Ineb-Hedj (Turns 13))
+
+(cityGrowthRate FC-City-Ineb-Hedj (Percent 3))
+
+(cityOwner FC-City-Ineb-Hedj FC-Player-Tutankhamun)
+
+(citySize FC-City-Ineb-Hedj (FreecivCitizenCountFn 2))
+
+(isa FC-City-Ineb-Hedj FreeCiv-City)
+
+(isa ContinentBlob-6788 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6789 FreeCiv-TerrainBlob-Land)

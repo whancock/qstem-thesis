@@ -1,0 +1,76 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 574) (currentlyBuilding FC-City-Kerma FC-Unit-Warriors)), dumped 8/10/2022 18:0:54 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 574) (currentlyBuilding FC-City-Kerma FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 3))
+
+(numTurnsToGrow FC-City-Kerma (Turns 10))
+
+(cityGrowthRate FC-City-Kerma (Percent 10))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Kerma ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Kerma ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Kerma CityFootprint-FC-City-Faras)
+
+(rcc8-PO CityFootprint-FC-City-Kerma CityFootprint-FC-City-Naqa)
+
+(rcc8-NTPP CityFootprint-FC-City-Kerma TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 28))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Naqa CityFootprint)
+
+(footprintOf FC-City-Naqa CityFootprint-FC-City-Naqa)
+
+(numTurnsToBuild FC-City-Naqa (Turns 5))
+
+(numTurnsToGrow FC-City-Naqa (Turns 1))
+
+(cityGrowthRate FC-City-Naqa (Percent 5))
+
+(cityOwner FC-City-Naqa FC-Player-Amanishakheto)
+
+(citySize FC-City-Naqa (FreecivCitizenCountFn 1))
+
+(isa FC-City-Naqa FreeCiv-City)
+
+(isa CityFootprint-FC-City-Faras CityFootprint)
+
+(footprintOf FC-City-Faras CityFootprint-FC-City-Faras)
+
+(numTurnsToBuild FC-City-Faras (Turns 9))
+
+(numTurnsToGrow FC-City-Faras (Turns 28))
+
+(cityGrowthRate FC-City-Faras (Percent 2))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 2))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

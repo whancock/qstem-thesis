@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game9 232) (currentlyBuilding FC-City-Moruerani FC-Unit-Warriors)), dumped 7/29/2022 12:8:15 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game9 232) (currentlyBuilding FC-City-Moruerani FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Moruerani (Turns 5))
+
+(numTurnsToGrow FC-City-Moruerani (Turns 10))
+
+(cityGrowthRate FC-City-Moruerani (Percent 10))
+
+(cityOwner FC-City-Moruerani FC-Player-KayanoShigeru)
+
+(citySize FC-City-Moruerani (FreecivCitizenCountFn 1))
+
+(isa FC-City-Moruerani FreeCiv-City)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 121))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)

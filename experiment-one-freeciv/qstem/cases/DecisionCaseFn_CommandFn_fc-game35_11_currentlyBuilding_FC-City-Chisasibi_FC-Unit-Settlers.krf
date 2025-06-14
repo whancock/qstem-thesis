@@ -1,0 +1,70 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 11) (currentlyBuilding FC-City-Chisasibi FC-Unit-Settlers)), dumped 8/10/2022 20:17:7 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 11) (currentlyBuilding FC-City-Chisasibi FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Chisasibi CityFootprint)
+
+(footprintOf FC-City-Chisasibi CityFootprint-FC-City-Chisasibi)
+
+(numTurnsToBuild FC-City-Chisasibi (Turns 14))
+
+(numTurnsToGrow FC-City-Chisasibi (Turns 7))
+
+(cityGrowthRate FC-City-Chisasibi (Percent 15))
+
+(cityOwner FC-City-Chisasibi FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Palace)
+
+(citySize FC-City-Chisasibi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Chisasibi FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chisasibi) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chisasibi) Some))
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-8766)
+
+(rcc8-TPPi CityFootprint-FC-City-Chisasibi ContinentBlob-8765)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-8764)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-8763)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-8762)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-8778)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-8777)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-8779)
+
+(rcc8-EQ CityFootprint-FC-City-Chisasibi TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 50))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) ConstantFunction))
+
+(isa TerritoryBlob-8779 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-8777 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-8778 NationalTerritoryFootprint)
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8764 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8765 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8766 FreeCiv-TerrainBlob-Land)

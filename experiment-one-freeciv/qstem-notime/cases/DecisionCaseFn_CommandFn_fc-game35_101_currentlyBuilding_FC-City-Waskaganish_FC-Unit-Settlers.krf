@@ -1,0 +1,44 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 101) (currentlyBuilding FC-City-Waskaganish FC-Unit-Settlers)), dumped 8/10/2022 20:20:1 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 101) (currentlyBuilding FC-City-Waskaganish FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Waskaganish CityFootprint)
+
+(footprintOf FC-City-Waskaganish CityFootprint-FC-City-Waskaganish)
+
+(numTurnsToBuild FC-City-Waskaganish (Turns 18))
+
+(numTurnsToGrow FC-City-Waskaganish (Turns 8))
+
+(cityGrowthRate FC-City-Waskaganish (Percent 10))
+
+(cityOwner FC-City-Waskaganish FC-Player-Awashish)
+
+(citySize FC-City-Waskaganish (FreecivCitizenCountFn 1))
+
+(isa FC-City-Waskaganish FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Waskaganish ContinentBlob-8763)
+
+(rcc8-PO CityFootprint-FC-City-Waskaganish ContinentBlob-8762)
+
+(rcc8-TPP CityFootprint-FC-City-Waskaganish TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Waskaganish TerritoryBlob-8922)
+
+(isa TerritoryBlob-8922 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 66))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)

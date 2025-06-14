@@ -1,0 +1,26 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game6 547) (currentlyBuilding FC-City-Kutaisi FC-Coinage)), dumped 7/29/2022 11:34:18 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game6 547) (currentlyBuilding FC-City-Kutaisi FC-Coinage)))
+(numTurnsToBuild FC-City-Kutaisi (Turns 143))
+
+(numTurnsToGrow FC-City-Kutaisi (Turns 8))
+
+(cityGrowthRate FC-City-Kutaisi (Percent 2))
+
+(cityOwner FC-City-Kutaisi FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-Palace)
+
+(citySize FC-City-Kutaisi (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kutaisi FreeCiv-City)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 299))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)

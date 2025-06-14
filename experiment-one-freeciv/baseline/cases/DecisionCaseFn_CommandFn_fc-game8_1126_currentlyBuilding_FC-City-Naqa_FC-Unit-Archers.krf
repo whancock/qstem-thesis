@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 1126) (currentlyBuilding FC-City-Naqa FC-Unit-Archers)), dumped 7/29/2022 11:58:26 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 1126) (currentlyBuilding FC-City-Naqa FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Naqa (Turns 8))
+
+(cityGrowthRate FC-City-Naqa (Percent 0))
+
+(cityOwner FC-City-Naqa FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Naqa FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Naqa FC-Building-Barracks)
+
+(citySize FC-City-Naqa (FreecivCitizenCountFn 2))
+
+(isa FC-City-Naqa FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 101))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

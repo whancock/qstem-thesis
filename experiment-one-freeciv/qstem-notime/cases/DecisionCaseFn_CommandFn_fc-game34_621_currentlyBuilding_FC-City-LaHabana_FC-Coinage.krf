@@ -1,0 +1,98 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game34 621) (currentlyBuilding FC-City-LaHabana FC-Coinage)), dumped 8/10/2022 20:5:36 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game34 621) (currentlyBuilding FC-City-LaHabana FC-Coinage)))
+(isa CityFootprint-FC-City-LaHabana CityFootprint)
+
+(footprintOf FC-City-LaHabana CityFootprint-FC-City-LaHabana)
+
+(numTurnsToBuild FC-City-LaHabana (Turns 166))
+
+(numTurnsToGrow FC-City-LaHabana (Turns 18))
+
+(cityGrowthRate FC-City-LaHabana (Percent 2))
+
+(cityOwner FC-City-LaHabana FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Barracks)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Palace)
+
+(citySize FC-City-LaHabana (FreecivCitizenCountFn 2))
+
+(isa FC-City-LaHabana FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-8146)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-8145)
+
+(rcc8-EC CityFootprint-FC-City-LaHabana CityFootprint-FC-City-Guantánamo)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana CityFootprint-FC-City-SantiagoDeCuba)
+
+(rcc8-TPP CityFootprint-FC-City-LaHabana TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-8556 UnitFootprint-Unit-161)
+
+(rcc8-EC CityFootprint-FC-City-LaHabana TerritoryBlob-8556)
+
+(isa TerritoryBlob-8556 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-161 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséMartí TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 157))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)
+
+(isa CityFootprint-FC-City-SantiagoDeCuba CityFootprint)
+
+(footprintOf FC-City-SantiagoDeCuba CityFootprint-FC-City-SantiagoDeCuba)
+
+(numTurnsToBuild FC-City-SantiagoDeCuba (Turns 7))
+
+(numTurnsToGrow FC-City-SantiagoDeCuba (Turns 2))
+
+(cityGrowthRate FC-City-SantiagoDeCuba (Percent 2))
+
+(cityOwner FC-City-SantiagoDeCuba FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-Barracks)
+
+(citySize FC-City-SantiagoDeCuba (FreecivCitizenCountFn 2))
+
+(isa FC-City-SantiagoDeCuba FreeCiv-City)
+
+(isa CityFootprint-FC-City-Guantánamo CityFootprint)
+
+(footprintOf FC-City-Guantánamo CityFootprint-FC-City-Guantánamo)
+
+(numTurnsToBuild FC-City-Guantánamo (Turns 2))
+
+(numTurnsToGrow FC-City-Guantánamo (Turns 36))
+
+(cityGrowthRate FC-City-Guantánamo (Percent 1))
+
+(cityOwner FC-City-Guantánamo FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-Barracks)
+
+(citySize FC-City-Guantánamo (FreecivCitizenCountFn 3))
+
+(isa FC-City-Guantánamo FreeCiv-City)
+
+(isa ContinentBlob-8145 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8146 FreeCiv-TerrainBlob-Land)

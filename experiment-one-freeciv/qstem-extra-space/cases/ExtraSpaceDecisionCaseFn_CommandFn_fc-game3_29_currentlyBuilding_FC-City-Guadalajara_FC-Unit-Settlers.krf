@@ -1,0 +1,246 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game3 29) (currentlyBuilding FC-City-Guadalajara FC-Unit-Settlers)), dumped 9/1/2022 16:28:21 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game3 29) (currentlyBuilding FC-City-Guadalajara FC-Unit-Settlers)))
+(rcc8-NTPP ContinentBlob-9062 ContinentBlob-9061)
+
+(rcc8-NTPP ContinentBlob-9062 ContinentBlob-9060)
+
+(rcc8-PO ContinentBlob-9062 CityFootprint-FC-City-Guadalajara)
+
+(rcc8-EC ContinentBlob-9062 TerritoryBlob-9289)
+
+(rcc8-PO CityFootprint-FC-City-Guadalajara ContinentBlob-9062)
+
+(rcc8-NTPPi ContinentBlob-9061 ContinentBlob-9063)
+
+(rcc8-NTPPi ContinentBlob-9061 ContinentBlob-9062)
+
+(rcc8-NTPP ContinentBlob-9061 ContinentBlob-9060)
+
+(rcc8-TPPi ContinentBlob-9061 CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Taipei)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Kaohsiung)
+
+(rcc8-NTPPi ContinentBlob-9061 CityFootprint-FC-City-Guadalajara)
+
+(rcc8-TPPi ContinentBlob-9061 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-9061 TerritoryBlob-2)
+
+(rcc8-TPPi ContinentBlob-9061 TerritoryBlob-9269)
+
+(rcc8-TPPi ContinentBlob-9061 TerritoryBlob-9268)
+
+(rcc8-TPPi ContinentBlob-9061 TerritoryBlob-9289)
+
+(rcc8-NTPP CityFootprint-FC-City-Guadalajara ContinentBlob-9061)
+
+(rcc8-EC ContinentBlob-9060 ContinentBlob-9066)
+
+(rcc8-EC ContinentBlob-9060 ContinentBlob-9065)
+
+(rcc8-PO ContinentBlob-9060 ContinentBlob-9064)
+
+(rcc8-NTPPi ContinentBlob-9060 ContinentBlob-9063)
+
+(rcc8-NTPPi ContinentBlob-9060 ContinentBlob-9062)
+
+(rcc8-NTPPi ContinentBlob-9060 ContinentBlob-9061)
+
+(rcc8-EC ContinentBlob-9060 ContinentBlob-9059)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Taipei)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Kaohsiung)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Guadalajara)
+
+(rcc8-PO ContinentBlob-9060 TerritoryBlob-9071)
+
+(rcc8-EC ContinentBlob-9060 TerritoryBlob-9070)
+
+(rcc8-EC ContinentBlob-9060 TerritoryBlob-9069)
+
+(rcc8-EC ContinentBlob-9060 TerritoryBlob-9068)
+
+(rcc8-NTPPi ContinentBlob-9060 TerritoryBlob-0)
+
+(rcc8-NTPPi ContinentBlob-9060 TerritoryBlob-2)
+
+(rcc8-NTPPi ContinentBlob-9060 TerritoryBlob-9269)
+
+(rcc8-NTPPi ContinentBlob-9060 TerritoryBlob-9268)
+
+(rcc8-NTPPi ContinentBlob-9060 TerritoryBlob-9289)
+
+(rcc8-NTPP CityFootprint-FC-City-Guadalajara ContinentBlob-9060)
+
+(rcc8-TPPi CityFootprint-FC-City-CiudadDeMéxico ContinentBlob-9063)
+
+(rcc8-TPP CityFootprint-FC-City-CiudadDeMéxico ContinentBlob-9061)
+
+(rcc8-NTPP CityFootprint-FC-City-CiudadDeMéxico ContinentBlob-9060)
+
+(rcc8-EC CityFootprint-FC-City-CiudadDeMéxico CityFootprint-FC-City-Guadalajara)
+
+(rcc8-EQ CityFootprint-FC-City-CiudadDeMéxico TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-CiudadDeMéxico TerritoryBlob-9289)
+
+(rcc8-EC CityFootprint-FC-City-Guadalajara CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-TPPi TerritoryBlob-0 ContinentBlob-9063)
+
+(rcc8-TPP TerritoryBlob-0 ContinentBlob-9061)
+
+(rcc8-NTPP TerritoryBlob-0 ContinentBlob-9060)
+
+(rcc8-EQ TerritoryBlob-0 CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-EC TerritoryBlob-0 CityFootprint-FC-City-Guadalajara)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-9289)
+
+(rcc8-EC CityFootprint-FC-City-Guadalajara TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-9289 ContinentBlob-9063)
+
+(rcc8-EC TerritoryBlob-9289 ContinentBlob-9062)
+
+(rcc8-TPP TerritoryBlob-9289 ContinentBlob-9061)
+
+(rcc8-NTPP TerritoryBlob-9289 ContinentBlob-9060)
+
+(rcc8-EC TerritoryBlob-9289 CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-EC TerritoryBlob-9289 CityFootprint-FC-City-Taipei)
+
+(rcc8-EC TerritoryBlob-9289 CityFootprint-FC-City-Kaohsiung)
+
+(rcc8-EC TerritoryBlob-9289 CityFootprint-FC-City-Guadalajara)
+
+(rcc8-EC TerritoryBlob-9289 TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-9289 TerritoryBlob-2)
+
+(rcc8-EC CityFootprint-FC-City-Guadalajara TerritoryBlob-9289)
+
+(isa TerritoryBlob-9068 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-9069 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-9070 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-9071 NationalTerritoryFootprint)
+
+(isa ContinentBlob-9059 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-9064 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-9065 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-9066 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-9268 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-9269 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-ChiangKaiShek TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-ChiangKaiShek (GoldPoints 0))
+
+(currentGovernment FC-Player-ChiangKaiShek FC-Anarchy)
+
+(isa FC-Player-ChiangKaiShek FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-BenitoJuárez TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 53))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-BenitoJuárez) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-BenitoJuárez) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Kaohsiung CityFootprint)
+
+(footprintOf FC-City-Kaohsiung CityFootprint-FC-City-Kaohsiung)
+
+(cityOwner FC-City-Kaohsiung FC-Player-ChiangKaiShek)
+
+(citySize FC-City-Kaohsiung (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kaohsiung FreeCiv-City)
+
+(isa CityFootprint-FC-City-Taipei CityFootprint)
+
+(footprintOf FC-City-Taipei CityFootprint-FC-City-Taipei)
+
+(cityOwner FC-City-Taipei FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Taipei FC-Building-Palace)
+
+(citySize FC-City-Taipei (FreecivCitizenCountFn 1))
+
+(isa FC-City-Taipei FreeCiv-City)
+
+(isa CityFootprint-FC-City-CiudadDeMéxico CityFootprint)
+
+(footprintOf FC-City-CiudadDeMéxico CityFootprint-FC-City-CiudadDeMéxico)
+
+(numTurnsToBuild FC-City-CiudadDeMéxico (Turns 5))
+
+(numTurnsToGrow FC-City-CiudadDeMéxico (Turns 7))
+
+(cityGrowthRate FC-City-CiudadDeMéxico (Percent 10))
+
+(cityOwner FC-City-CiudadDeMéxico FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CiudadDeMéxico FC-Building-Palace)
+
+(citySize FC-City-CiudadDeMéxico (FreecivCitizenCountFn 1))
+
+(isa FC-City-CiudadDeMéxico FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDeMéxico) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDeMéxico) Some))
+
+(isa ContinentBlob-9063 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-9062 FreeCiv-TerrainBlob-Water)
+
+(isa TerritoryBlob-9289 NationalTerritoryFootprint)
+
+(isa CityFootprint-FC-City-Guadalajara CityFootprint)
+
+(footprintOf FC-City-Guadalajara CityFootprint-FC-City-Guadalajara)
+
+(numTurnsToBuild FC-City-Guadalajara (Turns 40))
+
+(numTurnsToGrow FC-City-Guadalajara (Turns 10))
+
+(cityGrowthRate FC-City-Guadalajara (Percent 10))
+
+(cityOwner FC-City-Guadalajara FC-Player-BenitoJuárez)
+
+(citySize FC-City-Guadalajara (FreecivCitizenCountFn 1))
+
+(isa FC-City-Guadalajara FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guadalajara) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guadalajara) Some))
+
+(isa ContinentBlob-9060 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-9061 FreeCiv-TerrainBlob-Land)

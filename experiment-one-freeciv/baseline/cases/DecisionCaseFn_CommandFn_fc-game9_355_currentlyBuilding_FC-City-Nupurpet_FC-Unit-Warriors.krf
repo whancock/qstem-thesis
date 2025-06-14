@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game9 355) (currentlyBuilding FC-City-Nupurpet FC-Unit-Warriors)), dumped 7/29/2022 12:9:32 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game9 355) (currentlyBuilding FC-City-Nupurpet FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Nupurpet (Turns 4))
+
+(numTurnsToGrow FC-City-Nupurpet (Turns 10))
+
+(cityGrowthRate FC-City-Nupurpet (Percent 10))
+
+(cityOwner FC-City-Nupurpet FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Nupurpet FC-Building-Barracks)
+
+(citySize FC-City-Nupurpet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nupurpet FreeCiv-City)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 166))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)

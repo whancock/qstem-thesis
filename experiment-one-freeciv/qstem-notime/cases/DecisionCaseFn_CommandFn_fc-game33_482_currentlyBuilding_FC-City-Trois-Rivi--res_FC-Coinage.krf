@@ -1,0 +1,92 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 482) (currentlyBuilding FC-City-Trois-Rivières FC-Coinage)), dumped 8/10/2022 19:33:8 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 482) (currentlyBuilding FC-City-Trois-Rivières FC-Coinage)))
+(isa CityFootprint-FC-City-Trois-Rivières CityFootprint)
+
+(footprintOf FC-City-Trois-Rivières CityFootprint-FC-City-Trois-Rivières)
+
+(numTurnsToBuild FC-City-Trois-Rivières (Turns 200))
+
+(numTurnsToGrow FC-City-Trois-Rivières (Turns 3))
+
+(cityGrowthRate FC-City-Trois-Rivières (Percent 2))
+
+(cityOwner FC-City-Trois-Rivières FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Trois-Rivières FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Trois-Rivières FC-Building-Barracks)
+
+(citySize FC-City-Trois-Rivières (FreecivCitizenCountFn 2))
+
+(isa FC-City-Trois-Rivières FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-7657)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-7654)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-7652)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières CityFootprint-FC-City-Québec)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières UnitFootprint-Unit-181)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières UnitFootprint-Unit-171)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières UnitFootprint-Unit-170)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-181)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-171)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-170)
+
+(rcc8-TPP CityFootprint-FC-City-Trois-Rivières TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Trois-Rivières TerritoryBlob-7860)
+
+(isa TerritoryBlob-7860 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 186))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(isa UnitFootprint-Unit-170 UnitFootprint)
+
+(isa UnitFootprint-Unit-171 UnitFootprint)
+
+(isa UnitFootprint-Unit-181 UnitFootprint)
+
+(isa CityFootprint-FC-City-Québec CityFootprint)
+
+(footprintOf FC-City-Québec CityFootprint-FC-City-Québec)
+
+(numTurnsToBuild FC-City-Québec (Turns 2))
+
+(numTurnsToGrow FC-City-Québec (Turns 1))
+
+(cityGrowthRate FC-City-Québec (Percent 2))
+
+(cityOwner FC-City-Québec FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Québec FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Québec FC-Building-Barracks)
+
+(citySize FC-City-Québec (FreecivCitizenCountFn 2))
+
+(isa FC-City-Québec FreeCiv-City)
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-7657 FreeCiv-TerrainBlob-Land)

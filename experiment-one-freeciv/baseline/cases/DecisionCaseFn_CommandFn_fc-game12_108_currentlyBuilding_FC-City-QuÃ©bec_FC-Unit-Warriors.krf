@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 108) (currentlyBuilding FC-City-Québec FC-Unit-Warriors)), dumped 7/29/2022 12:30:8 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 108) (currentlyBuilding FC-City-Québec FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Québec (Turns 3))
+
+(numTurnsToGrow FC-City-Québec (Turns 18))
+
+(cityGrowthRate FC-City-Québec (Percent 5))
+
+(cityOwner FC-City-Québec FC-Player-RenéLévesque)
+
+(citySize FC-City-Québec (FreecivCitizenCountFn 1))
+
+(isa FC-City-Québec FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 73))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

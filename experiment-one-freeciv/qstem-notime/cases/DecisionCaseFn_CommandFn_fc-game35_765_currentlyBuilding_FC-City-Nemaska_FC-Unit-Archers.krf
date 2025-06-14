@@ -1,0 +1,88 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 765) (currentlyBuilding FC-City-Nemaska FC-Unit-Archers)), dumped 8/10/2022 20:42:21 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 765) (currentlyBuilding FC-City-Nemaska FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Nemaska CityFootprint)
+
+(footprintOf FC-City-Nemaska CityFootprint-FC-City-Nemaska)
+
+(numTurnsToBuild FC-City-Nemaska (Turns 7))
+
+(numTurnsToGrow FC-City-Nemaska (Turns 18))
+
+(cityGrowthRate FC-City-Nemaska (Percent 1))
+
+(cityOwner FC-City-Nemaska FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Nemaska FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Nemaska FC-Building-Barracks)
+
+(citySize FC-City-Nemaska (FreecivCitizenCountFn 3))
+
+(isa FC-City-Nemaska FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Nemaska ContinentBlob-8763)
+
+(rcc8-NTPP CityFootprint-FC-City-Nemaska ContinentBlob-8762)
+
+(rcc8-PO CityFootprint-FC-City-Nemaska CityFootprint-FC-City-Whapmagoostui)
+
+(rcc8-EC CityFootprint-FC-City-Nemaska CityFootprint-FC-City-Mistissini)
+
+(rcc8-TPP CityFootprint-FC-City-Nemaska TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 331))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Mistissini CityFootprint)
+
+(footprintOf FC-City-Mistissini CityFootprint-FC-City-Mistissini)
+
+(numTurnsToBuild FC-City-Mistissini (Turns 1))
+
+(numTurnsToGrow FC-City-Mistissini (Turns 41))
+
+(cityGrowthRate FC-City-Mistissini (Percent 0))
+
+(cityOwner FC-City-Mistissini FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-Barracks)
+
+(citySize FC-City-Mistissini (FreecivCitizenCountFn 4))
+
+(isa FC-City-Mistissini FreeCiv-City)
+
+(isa CityFootprint-FC-City-Whapmagoostui CityFootprint)
+
+(footprintOf FC-City-Whapmagoostui CityFootprint-FC-City-Whapmagoostui)
+
+(numTurnsToBuild FC-City-Whapmagoostui (Turns 4))
+
+(numTurnsToGrow FC-City-Whapmagoostui (Turns 51))
+
+(cityGrowthRate FC-City-Whapmagoostui (Percent 0))
+
+(cityOwner FC-City-Whapmagoostui FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Whapmagoostui FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Whapmagoostui FC-Building-Barracks)
+
+(citySize FC-City-Whapmagoostui (FreecivCitizenCountFn 5))
+
+(isa FC-City-Whapmagoostui FreeCiv-City)
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)

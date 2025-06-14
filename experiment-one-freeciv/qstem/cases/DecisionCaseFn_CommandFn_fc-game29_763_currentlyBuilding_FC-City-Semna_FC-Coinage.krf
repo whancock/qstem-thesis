@@ -1,0 +1,108 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 763) (currentlyBuilding FC-City-Semna FC-Coinage)), dumped 8/10/2022 18:6:6 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 763) (currentlyBuilding FC-City-Semna FC-Coinage)))
+(isa CityFootprint-FC-City-Semna CityFootprint)
+
+(footprintOf FC-City-Semna CityFootprint-FC-City-Semna)
+
+(numTurnsToBuild FC-City-Semna (Turns 329))
+
+(numTurnsToGrow FC-City-Semna (Turns 2))
+
+(cityGrowthRate FC-City-Semna (Percent 5))
+
+(cityOwner FC-City-Semna FC-Player-Amanishakheto)
+
+(citySize FC-City-Semna (FreecivCitizenCountFn 1))
+
+(isa FC-City-Semna FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Semna) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Semna) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Semna) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Semna) Some))
+
+(rcc8-PO CityFootprint-FC-City-Semna ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Semna ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Semna CityFootprint-FC-City-Dongola)
+
+(rcc8-PO CityFootprint-FC-City-Semna CityFootprint-FC-City-Moratuwa)
+
+(rcc8-PO CityFootprint-FC-City-Semna UnitFootprint-Unit-197)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-197)
+
+(rcc8-TPP CityFootprint-FC-City-Semna TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-2 UnitFootprint-Unit-197)
+
+(rcc8-PO CityFootprint-FC-City-Semna TerritoryBlob-2)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Vijaya TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Vijaya (GoldPoints 0))
+
+(currentGovernment FC-Player-Vijaya FC-Anarchy)
+
+(isa FC-Player-Vijaya FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 30))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa CityFootprint-FC-City-Moratuwa CityFootprint)
+
+(footprintOf FC-City-Moratuwa CityFootprint-FC-City-Moratuwa)
+
+(cityOwner FC-City-Moratuwa FC-Player-Vijaya)
+
+(citySize FC-City-Moratuwa (FreecivCitizenCountFn 1))
+
+(isa FC-City-Moratuwa FreeCiv-City)
+
+(isa CityFootprint-FC-City-Dongola CityFootprint)
+
+(footprintOf FC-City-Dongola CityFootprint-FC-City-Dongola)
+
+(numTurnsToBuild FC-City-Dongola (Turns 2))
+
+(numTurnsToGrow FC-City-Dongola (Turns 20))
+
+(cityGrowthRate FC-City-Dongola (Percent 2))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 3))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

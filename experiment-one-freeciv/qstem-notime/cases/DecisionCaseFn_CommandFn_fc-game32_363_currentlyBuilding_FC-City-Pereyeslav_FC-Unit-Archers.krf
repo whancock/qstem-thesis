@@ -1,0 +1,90 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game32 363) (currentlyBuilding FC-City-Pereyeslav FC-Unit-Archers)), dumped 8/10/2022 19:13:28 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game32 363) (currentlyBuilding FC-City-Pereyeslav FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Pereyeslav CityFootprint)
+
+(footprintOf FC-City-Pereyeslav CityFootprint-FC-City-Pereyeslav)
+
+(numTurnsToBuild FC-City-Pereyeslav (Turns 6))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 39))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 1))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-Barracks)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 3))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav ContinentBlob-7302)
+
+(rcc8-NTPP CityFootprint-FC-City-Pereyeslav ContinentBlob-7300)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav CityFootprint-FC-City-Kyiv)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-TPP CityFootprint-FC-City-Pereyeslav TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Pereyeslav TerritoryBlob-7391)
+
+(isa TerritoryBlob-7391 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 164))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Zhytomyr CityFootprint)
+
+(footprintOf FC-City-Zhytomyr CityFootprint-FC-City-Zhytomyr)
+
+(numTurnsToBuild FC-City-Zhytomyr (Turns 3))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 36))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 1))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-Barracks)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 3))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kyiv CityFootprint)
+
+(footprintOf FC-City-Kyiv CityFootprint-FC-City-Kyiv)
+
+(numTurnsToBuild FC-City-Kyiv (Turns 1))
+
+(cityGrowthRate FC-City-Kyiv (Percent 0))
+
+(cityOwner FC-City-Kyiv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Palace)
+
+(citySize FC-City-Kyiv (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kyiv FreeCiv-City)
+
+(isa ContinentBlob-7300 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7302 FreeCiv-TerrainBlob-Land)

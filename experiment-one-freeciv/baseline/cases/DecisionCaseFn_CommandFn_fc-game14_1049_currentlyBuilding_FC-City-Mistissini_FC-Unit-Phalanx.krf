@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game14 1049) (currentlyBuilding FC-City-Mistissini FC-Unit-Phalanx)), dumped 7/29/2022 13:12:15 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game14 1049) (currentlyBuilding FC-City-Mistissini FC-Unit-Phalanx)))
+(numTurnsToBuild FC-City-Mistissini (Turns 6))
+
+(numTurnsToGrow FC-City-Mistissini (Turns 27))
+
+(cityGrowthRate FC-City-Mistissini (Percent 0))
+
+(cityOwner FC-City-Mistissini FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-Barracks)
+
+(citySize FC-City-Mistissini (FreecivCitizenCountFn 4))
+
+(isa FC-City-Mistissini FreeCiv-City)
+
+(currentGold FC-Player-Awashish (GoldPoints 436))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)

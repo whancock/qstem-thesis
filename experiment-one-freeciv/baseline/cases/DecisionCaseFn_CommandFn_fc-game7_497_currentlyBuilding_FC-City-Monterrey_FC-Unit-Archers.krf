@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 497) (currentlyBuilding FC-City-Monterrey FC-Unit-Archers)), dumped 7/29/2022 11:40:53 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 497) (currentlyBuilding FC-City-Monterrey FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Monterrey (Turns 5))
+
+(numTurnsToGrow FC-City-Monterrey (Turns 11))
+
+(cityGrowthRate FC-City-Monterrey (Percent 2))
+
+(cityOwner FC-City-Monterrey FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Monterrey FC-Building-Barracks)
+
+(citySize FC-City-Monterrey (FreecivCitizenCountFn 2))
+
+(isa FC-City-Monterrey FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 404))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

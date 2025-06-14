@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game10 277) (currentlyBuilding FC-City-Waset FC-Building-Barracks)), dumped 7/29/2022 12:19:8 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game10 277) (currentlyBuilding FC-City-Waset FC-Building-Barracks)))
+(numTurnsToBuild FC-City-Waset (Turns 5))
+
+(numTurnsToGrow FC-City-Waset (Turns 13))
+
+(cityGrowthRate FC-City-Waset (Percent 3))
+
+(cityOwner FC-City-Waset FC-Player-Tutankhamun)
+
+(cityHasImprovement FC-City-Waset FC-Building-Palace)
+
+(citySize FC-City-Waset (FreecivCitizenCountFn 2))
+
+(isa FC-City-Waset FreeCiv-City)
+
+(currentGold FC-Player-Tutankhamun (GoldPoints 89))
+
+(currentGovernment FC-Player-Tutankhamun FC-Despotism)
+
+(isa FC-Player-Tutankhamun FreeCiv-Player)

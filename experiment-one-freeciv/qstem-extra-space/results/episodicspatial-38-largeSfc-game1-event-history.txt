@@ -1,0 +1,1793 @@
+
+-4000 (T0)
+  1: (GameStartedEvent spatial-38-large)
+  2: (GoalActivationEvent (GoalFn 0))
+  3: (GoalActivationEvent (GoalFn 2))
+  4: (GoalActivationEvent (GoalFn 1))
+  5: (GoalActivationEvent (GoalFn 3))
+  6: (GoalActivationEvent (GoalFn 4))
+  7: (GoalActivationEvent (GoalFn 21))
+  8: (GoalActivationEvent (GoalFn 20))
+  9: (GoalActivationEvent (GoalFn 19))
+  10: (GoalActivationEvent (GoalFn 18))
+  11: (GoalActivationEvent (GoalFn 17))
+  12: (GoalActivationEvent (GoalFn 16))
+  13: (GoalActivationEvent (GoalFn 15))
+  14: (GoalActivationEvent (GoalFn 14))
+  15: (GoalActivationEvent (GoalFn 13))
+  16: (GoalActivationEvent (GoalFn 12))
+  17: (GoalActivationEvent (GoalFn 11))
+  18: (GoalActivationEvent (GoalFn 10))
+  19: (GoalActivationEvent (GoalFn 6))
+  20: (GoalActivationEvent (GoalFn 5))
+  21: (GoalActivationEvent (GoalFn 7))
+  22: (GoalActivationEvent (GoalFn 8))
+  23: (GoalActivationEvent (GoalFn 9))
+  24: (GoalActivationEvent (GoalFn 22))
+  25: (GoalActivationEvent (GoalFn 41))
+  26: (GoalActivationEvent (GoalFn 40))
+  27: (GoalActivationEvent (GoalFn 39))
+  28: (GoalActivationEvent (GoalFn 37))
+  29: (GoalActivationEvent (GoalFn 28))
+  30: (GoalActivationEvent (GoalFn 36))
+  31: (GoalActivationEvent (GoalFn 34))
+  32: (GoalActivationEvent (GoalFn 33))
+  33: (GoalActivationEvent (GoalFn 24))
+  34: (GoalActivationEvent (GoalFn 23))
+  35: (GoalActivationEvent (GoalFn 26))
+  36: (GoalActivationEvent (GoalFn 43))
+  37: (GoalActivationEvent (GoalFn 42))
+  38: (GoalActivationEvent (GoalFn 86))
+  39: (GoalActivationEvent (GoalFn 46))
+  40: (GoalActivationEvent (GoalFn 48))
+  41: (GoalActivationEvent (GoalFn 49))
+  42: (GoalActivationEvent (GoalFn 94))
+  43: (GoalActivationEvent (GoalFn 93))
+  44: (GoalActivationEvent (GoalFn 96))
+  45: (GoalActivationEvent (GoalFn 97))
+  46: (GoalActivationEvent (GoalFn 98))
+  47: (GoalActivationEvent (GoalFn 99))
+  48: (GoalActivationEvent (GoalFn 100))
+  49: (GoalActivationEvent (GoalFn 101))
+  50: (GoalActivationEvent (GoalFn 113))
+  51: (StrategyActivationEvent
+       (MFInstanceFn DefendBuild
+        (TheList FC-Player-TajAl-DinAl-Hasani (GoalFn 1) (GoalFn 6))))
+  52: (StrategyActivationEvent
+       (MFInstanceFn ConditionOnState
+        (TheList FC-Player-TajAl-DinAl-Hasani (GoalFn 42) ConquestPhase)))
+  53: (GoalDeactivationEvent (GoalFn 42))
+  54: (StrategyActivationEvent
+       (MFInstanceFn ConditionOnState
+        (TheList FC-Player-TajAl-DinAl-Hasani (GoalFn 44) LowFunds)))
+  55: (StrategyActivationEvent
+       (MFInstanceFn BuildGrow
+        (TheList FC-Player-TajAl-DinAl-Hasani (GoalFn 28))))
+  56: (GoalDeactivationEvent (GoalFn 98))
+  57: (GoalDeactivationEvent (GoalFn 99))
+  58: (GoalDeactivationEvent (GoalFn 100))
+  59: (GoalDeactivationEvent (GoalFn 101))
+  60: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-Alphabet)
+  61: (doExplore Unit-109)
+  62: (doBuildCity Unit-106 (FreecivLocationFn 4 8))
+  63: (CityBuiltEvent FC-City-DimashqAsh-Sham (FreecivLocationFn 4 8))
+  64: (GoalActivationEvent (GoalFn 28))
+  65: (GoalActivationEvent (GoalFn 35))
+  66: (GoalActivationEvent (GoalFn 32))
+  67: (GoalActivationEvent (GoalFn 31))
+  68: (GoalActivationEvent (GoalFn 30))
+  69: (GoalActivationEvent (GoalFn 29))
+  70: (GoalActivationEvent (GoalFn 27))
+  71: (GoalActivationEvent (GoalFn 25))
+  72: (GoalActivationEvent (GoalFn 45))
+  73: (GoalActivationEvent (GoalFn 44))
+  74: (GoalActivationEvent (GoalFn 91))
+  75: (GoalActivationEvent (GoalFn 103))
+  76: (GoalActivationEvent (GoalFn 102))
+  77: (GoalActivationEvent (GoalFn 133))
+  78: (GoalActivationEvent (GoalFn 136))
+  79: (GoalActivationEvent (GoalFn 135))
+  80: (GoalActivationEvent (GoalFn 130))
+  81: (GoalActivationEvent (GoalFn 129))
+  82: (GoalActivationEvent (GoalFn 146))
+  83: (GoalActivationEvent (GoalFn 35))
+  84: (GoalActivationEvent (GoalFn 32))
+  85: (GoalActivationEvent (GoalFn 31))
+  86: (GoalActivationEvent (GoalFn 30))
+  87: (GoalActivationEvent (GoalFn 29))
+  88: (GoalActivationEvent (GoalFn 27))
+  89: (GoalActivationEvent (GoalFn 25))
+  90: (GoalActivationEvent (GoalFn 45))
+  91: (GoalActivationEvent (GoalFn 38))
+  92: (GoalActivationEvent (GoalFn 47))
+  93: (GoalActivationEvent (GoalFn 92))
+  94: (GoalActivationEvent (GoalFn 91))
+  95: (GoalActivationEvent (GoalFn 90))
+  96: (GoalActivationEvent (GoalFn 89))
+  97: (GoalActivationEvent (GoalFn 111))
+  98: (GoalActivationEvent (GoalFn 110))
+  99: (GoalActivationEvent (GoalFn 109))
+  100: (GoalActivationEvent (GoalFn 104))
+  101: (GoalActivationEvent (GoalFn 108))
+  102: (GoalActivationEvent (GoalFn 106))
+  103: (GoalActivationEvent (GoalFn 105))
+  104: (GoalActivationEvent (GoalFn 125))
+  105: (GoalActivationEvent (GoalFn 124))
+  106: (GoalActivationEvent (GoalFn 123))
+  107: (GoalActivationEvent (GoalFn 120))
+  108: (GoalActivationEvent (GoalFn 119))
+  109: (GoalActivationEvent (GoalFn 135))
+  110: (GoalActivationEvent (GoalFn 130))
+  111: (GoalActivationEvent (GoalFn 128))
+  112: (GoalActivationEvent (GoalFn 133))
+  113: (GoalActivationEvent (GoalFn 131))
+  114: (GoalActivationEvent (GoalFn 129))
+  115: (GoalActivationEvent (GoalFn 136))
+  116: (GoalActivationEvent (GoalFn 139))
+  117: (GoalActivationEvent (GoalFn 145))
+  118: (GoalActivationEvent (GoalFn 144))
+  119: (GoalActivationEvent (GoalFn 147))
+  120: (GoalActivationEvent (GoalFn 146))
+  121: (ImprovementBuiltEvent FC-City-DimashqAsh-Sham
+        (BuildingInstanceFn FC-City-DimashqAsh-Sham FC-Building-Palace))
+  122: (doGoToDest Unit-101 (FreecivLocationFn 8 13)
+        (TheList (doMove Unit-101 (FreecivLocationFn 5 9))
+         (doMove Unit-101 (FreecivLocationFn 6 10))
+         (doMove Unit-101 (FreecivLocationFn 7 11))
+         (doMove Unit-101 (FreecivLocationFn 7 12))
+         (doMove Unit-101 (FreecivLocationFn 8 13))))
+  123: (doChangeProduction FC-City-DimashqAsh-Sham FC-Unit-Settlers)
+  124: (CityProductionChangedEvent FC-City-DimashqAsh-Sham)
+-3950 (T1)
+  125: (doExplore Unit-109)
+  126: (ObjectDetectedEvent FC-City-Helsinki (FreecivLocationFn 29 21))
+  127: (GoalActivationEvent (GoalFn 43))
+  128: (ObjectDetectedEvent FC-City-Amsterdam (FreecivLocationFn 12 17))
+  129: (ObjectDetectedEvent FC-City-Nijmegen (FreecivLocationFn 14 18))
+  130: (ObjectDetectedEvent FC-City-London (FreecivLocationFn 29 30))
+  131: (ObjectDetectedEvent FC-City-Zagreb (FreecivLocationFn 48 30))
+-3900 (T2)
+  132: (doExplore Unit-109)
+  133: (ObjectDetectedEvent FC-City-Turku (FreecivLocationFn 29 18))
+-3850 (T3)
+  134: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 25 30)))
+  135: (doExplore Unit-109)
+  136: (ObjectDetectedEvent FC-City-Bristol (FreecivLocationFn 27 28))
+-3800 (T4)
+  137: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 44 28)))
+  138: (doExplore Unit-109)
+  139: (ObjectDetectedEvent FC-City-Split (FreecivLocationFn 44 28))
+-3750 (T5)
+  140: (doBuildCity Unit-101 (FreecivLocationFn 8 13))
+  141: (CityBuiltEvent FC-City-Hims (FreecivLocationFn 8 13))
+  142: (doExplore Unit-109)
+  143: (doChangeProduction FC-City-Hims FC-Unit-Warriors)
+  144: (GoalActivationEvent (SGoalFn 6))
+  145: (doConnectBy Unit-108 (FreecivLocationFn 8 13) FC-Special-Road
+        (TheList (doMove Unit-108 (FreecivLocationFn 5 9))
+         (doMove Unit-108 (FreecivLocationFn 6 10))
+         (doMove Unit-108 (FreecivLocationFn 7 11))
+         (doMove Unit-108 (FreecivLocationFn 7 12))
+         (doMove Unit-108 (FreecivLocationFn 8 13))))
+-3700 (T6)
+  146: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 32 16)))
+  147: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 27 21)))
+  148: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  149: (doExplore Unit-109)
+-3650 (T7)
+  150: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 18)))
+  151: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  152: (doExplore Unit-109)
+-3600 (T8)
+  153: (ActivityCompletedEvent Unit-108 FC-ActivityRoad (FreecivLocationFn 5 9))
+  154: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 15)))
+  155: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  156: (doExplore Unit-109)
+-3550 (T9)
+  157: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 32 19)))
+  158: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  159: (doExplore Unit-109)
+-3500 (T10)
+  160: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 2 17)))
+  161: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  162: (doExplore Unit-109)
+  163: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-Alphabet)
+  164: (CityMaySoonGrowEvent FC-City-Hims (FreecivLocationFn 8 13))
+-3450 (T11)
+  165: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-CodeOfLaws)
+  166: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 24)))
+  167: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  168: (doExplore Unit-109)
+  169: (GoalActivationEvent (GoalFn 140))
+  170: (GoalActivationEvent (GoalFn 148))
+  171: (GoalActivationEvent (GoalFn 149))
+  172: (CityGrowthEvent FC-City-Hims FC-City-Hims)
+-3400 (T12)
+  173: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 27 27)))
+  174: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 17)))
+  175: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  176: (doExplore Unit-109)
+  177: (doGoToDest Unit-107 (FreecivLocationFn 6 13)
+        (TheList (doMove Unit-107 (FreecivLocationFn 5 9))
+         (doMove Unit-107 (FreecivLocationFn 4 10))
+         (doMove Unit-107 (FreecivLocationFn 5 11))
+         (doMove Unit-107 (FreecivLocationFn 6 12))
+         (doMove Unit-107 (FreecivLocationFn 6 13))))
+  178: (ObjectDetectedEvent Unit-136 (FreecivLocationFn 11 16))
+  179: (ObjectDetectedEvent Unit-137 (FreecivLocationFn 28 20))
+  180: (GoalActivationEvent (GoalFn 95))
+  181: (UnitBuiltEvent FC-City-Hims Unit-138)
+-3350 (T13)
+  182: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 6 10))
+  183: (EnemyDetectedEvent Unit-138 Unit-113 (FreecivLocationFn 8 15))
+  184: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 7 14))
+  185: (FirstContactEvent (FreecivLocationFn 7 14))
+  186: (DiplomaticMessageEvent)
+  187: (MeetingRequestedEvent FC-Player-FranjoFrankopan
+        FC-Player-TajAl-DinAl-Hasani)
+  188: (doChangeProduction FC-City-Hims FC-Unit-Warriors)
+  189: (doAcceptTreaty FC-Player-TajAl-DinAl-Hasani FC-Player-FranjoFrankopan)
+  190: (MeetingCancelledEvent FC-Player-FranjoFrankopan
+        FC-Player-TajAl-DinAl-Hasani)
+  191: (DiplomaticMessageEvent)
+  192: (DiplomaticMessageEvent)
+  193: (TreatyCeaseFireEvent)
+  194: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 30 30)))
+  195: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 32 15)))
+  196: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 14)))
+  197: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  198: (doExplore Unit-109)
+  199: (doGoToDest Unit-138 (FreecivLocationFn 4 8)
+        (TheList (doMove Unit-138 (FreecivLocationFn 7 12))
+         (doMove Unit-138 (FreecivLocationFn 7 11))
+         (doMove Unit-138 (FreecivLocationFn 6 10))
+         (doMove Unit-138 (FreecivLocationFn 5 9))
+         (doMove Unit-138 (FreecivLocationFn 4 8))))
+  200: (EnemyDetectedEvent Unit-138 Unit-113 (FreecivLocationFn 7 14))
+  201: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-3300 (T14)
+  202: (EnemyDetectedEvent Unit-107 Unit-113 (FreecivLocationFn 7 14))
+  203: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 5 13))
+  204: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 32)))
+  205: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 34 18)))
+  206: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 4 13)))
+  207: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  208: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 15)))
+  209: (doExplore Unit-109)
+  210: (ObjectDetectedEvent FC-City-DenHaag (FreecivLocationFn 11 15))
+  211: (ObjectDetectedEvent Unit-139 (FreecivLocationFn 27 27))
+  212: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-3250 (T15)
+  213: (EnemyDetectedEvent Unit-107 Unit-113 (FreecivLocationFn 4 13))
+  214: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 25 32)))
+  215: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 12)))
+  216: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  217: (doMine Unit-107 (FreecivLocationFn 6 13))
+  218: (doExplore Unit-109)
+  219: (doMine Unit-107 (FreecivLocationFn 6 13))
+  220: (ObjectDetectedEvent FC-City-Vaasa (FreecivLocationFn 26 22))
+  221: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-3200 (T16)
+  222: (EnemyDetectedEvent Unit-138 Unit-113 (FreecivLocationFn 3 10))
+  223: (EnemyDetectedEvent Unit-109 Unit-113 (FreecivLocationFn 3 10))
+  224: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  225: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  226: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 32 21)))
+  227: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 2 9)))
+  228: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  229: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 27 26)))
+  230: (doExplore Unit-109)
+  231: (UnitBuiltEvent FC-City-Hims Unit-142)
+  232: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-3150 (T17)
+  233: (doChangeProduction FC-City-Hims FC-Unit-Settlers)
+  234: (CityProductionChangedEvent FC-City-Hims)
+  235: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 25 31)))
+  236: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 31 20)))
+  237: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 7)))
+  238: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  239: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  240: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 27 25)))
+  241: (doExplore Unit-109)
+  242: (ObjectDetectedEvent FC-City-Plymouth (FreecivLocationFn 27 25))
+  243: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-3100 (T18)
+  244: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 7 11))
+  245: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 28)))
+  246: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 21)))
+  247: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 1 4)))
+  248: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  249: (doExplore Unit-109)
+  250: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  251: (CityMaySoonGrowEvent FC-City-DimashqAsh-Sham (FreecivLocationFn 4 8))
+-3050 (T19)
+  252: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 23 27)))
+  253: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 24)))
+  254: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 3)))
+  255: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  256: (doExplore Unit-109)
+  257: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  258: (CityGrowthEvent FC-City-DimashqAsh-Sham FC-City-DimashqAsh-Sham)
+-3000 (T20)
+  259: (EnemyDetectedEvent Unit-138 Unit-113 (FreecivLocationFn 3 6))
+  260: (EnemyDetectedEvent Unit-109 Unit-113 (FreecivLocationFn 3 6))
+  261: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 27 26)))
+  262: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 6)))
+  263: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  264: (doExplore Unit-109)
+  265: (GoalActivationEvent (GoalFn 147))
+  266: (UnitBuiltEvent FC-City-DimashqAsh-Sham Unit-144)
+  267: (EnemyDetectedEvent Unit-144 Unit-113 (FreecivLocationFn 3 6))
+-2950 (T21)
+  268: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 4 7))
+  269: (EnemyDetectedEvent Unit-138 Unit-113 (FreecivLocationFn 4 7))
+  270: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 5 7))
+  271: (EnemyDetectedEvent Unit-109 Unit-113 (FreecivLocationFn 5 7))
+  272: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 5 8))
+  273: (doChangeProduction FC-City-DimashqAsh-Sham FC-Unit-Settlers)
+  274: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 29)))
+  275: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 8)))
+  276: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  277: (doExplore Unit-109)
+  278: (doGoToDest Unit-144 (FreecivLocationFn 4 11)
+        (TheList (doMove Unit-144 (FreecivLocationFn 5 9))
+         (doMove Unit-144 (FreecivLocationFn 6 10))
+         (doMove Unit-144 (FreecivLocationFn 5 11))
+         (doMove Unit-144 (FreecivLocationFn 4 11))))
+  279: (EnemyDetectedEvent Unit-144 Unit-113 (FreecivLocationFn 5 8))
+  280: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  281: (doSentry Unit-138 (FreecivLocationFn 4 8))
+-2900 (T22)
+  282: (EnemyDetectedEvent Unit-138 Unit-113 (FreecivLocationFn 5 8))
+  283: (EnemyDetectedEvent Unit-109 Unit-113 (FreecivLocationFn 6 9))
+  284: (EnemyDetectedEvent Unit-108 Unit-113 (FreecivLocationFn 7 10))
+  285: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 7 11))
+  286: (EnemyDetectedEvent Unit-107 Unit-113 (FreecivLocationFn 7 11))
+  287: (EnemyDetectedEvent Unit-142 Unit-113 (FreecivLocationFn 7 11))
+  288: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 24 32)))
+  289: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 52 30)))
+  290: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 11)))
+  291: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  292: (doExplore Unit-109)
+  293: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  294: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  295: (ObjectDetectedEvent Unit-145 (FreecivLocationFn 49 29))
+-2850 (T23)
+  296: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 7 12))
+  297: (EnemyDetectedEvent Unit-108 Unit-113 (FreecivLocationFn 7 11))
+  298: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 8 12))
+  299: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 7 13))
+  300: (EnemyDetectedEvent Unit-107 Unit-113 (FreecivLocationFn 7 13))
+  301: (EnemyDetectedEvent Unit-142 Unit-113 (FreecivLocationFn 7 13))
+  302: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 8 14))
+  303: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 49 30)))
+  304: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 8 14)))
+  305: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  306: (doBuildCity Unit-144 (FreecivLocationFn 4 11))
+  307: (CityBuiltEvent FC-City-Halab (FreecivLocationFn 4 11))
+  308: (doExplore Unit-109)
+  309: (doChangeProduction FC-City-Halab FC-Unit-Settlers)
+  310: (CityProductionChangedEvent FC-City-Halab)
+  311: (GoalActivationEvent (SGoalFn 15))
+  312: (doGoToDest Unit-108 (FreecivLocationFn 4 8)
+        (TheList (doMove Unit-108 (FreecivLocationFn 7 12))
+         (doMove Unit-108 (FreecivLocationFn 7 11))
+         (doMove Unit-108 (FreecivLocationFn 6 10))
+         (doMove Unit-108 (FreecivLocationFn 5 9))
+         (doMove Unit-108 (FreecivLocationFn 4 8))))
+  313: (EnemyDetectedEvent Unit-108 Unit-113 (FreecivLocationFn 8 14))
+-2800 (T24)
+  314: (EnemyAdjacentEvent Unit-113 (FreecivLocationFn 9 14))
+  315: (EnemyDetectedEvent Unit-142 Unit-113 (FreecivLocationFn 9 14))
+  316: (doConnectBy Unit-108 (FreecivLocationFn 4 11) FC-Special-Road
+        (TheList (doMove Unit-108 (FreecivLocationFn 5 9))
+         (doMove Unit-108 (FreecivLocationFn 6 10))
+         (doMove Unit-108 (FreecivLocationFn 5 11))
+         (doMove Unit-108 (FreecivLocationFn 4 11))))
+  317: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 32)))
+  318: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 46 31)))
+  319: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 16)))
+  320: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  321: (doExplore Unit-109)
+-2750 (T25)
+  322: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 29 31)))
+  323: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 43 32)))
+  324: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 13 19)))
+  325: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  326: (doExplore Unit-109)
+  327: (ObjectDetectedEvent Unit-147 (FreecivLocationFn 11 18))
+  328: (CityMaySoonGrowEvent FC-City-Hims (FreecivLocationFn 8 13))
+-2700 (T26)
+  329: (ActivityCompletedEvent Unit-107 FC-ActivityMine
+        (FreecivLocationFn 6 13))
+  330: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 21)))
+  331: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 29 29)))
+  332: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 42 29)))
+  333: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 16 22)))
+  334: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  335: (doExplore Unit-109)
+  336: (doGoToDest Unit-107 (FreecivLocationFn 4 11)
+        (TheList (doMove Unit-107 (FreecivLocationFn 6 12))
+         (doMove Unit-107 (FreecivLocationFn 5 11))
+         (doMove Unit-107 (FreecivLocationFn 4 11))))
+  337: (ObjectDetectedEvent FC-City-Rijeka (FreecivLocationFn 48 26))
+  338: (GoalActivationEvent (GoalFn 137))
+  339: (GoalActivationEvent (GoalFn 138))
+  340: (CityGrowthEvent FC-City-Hims FC-City-Hims)
+  341: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-2650 (T27)
+  342: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 28)))
+  343: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 16)))
+  344: (doExplore Unit-109)
+  345: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  346: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-CodeOfLaws)
+  347: (DiplomaticMessageEvent)
+-2600 (T28)
+  348: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 5 11))
+  349: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-Masonry)
+  350: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 23 27)))
+  351: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 15)))
+  352: (doMine Unit-107 (FreecivLocationFn 4 11))
+  353: (doExplore Unit-109)
+  354: (doMine Unit-107 (FreecivLocationFn 4 11))
+  355: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  356: (GoalActivationEvent (GoalFn 147))
+  357: (UnitBuiltEvent FC-City-Hims Unit-149)
+  358: (GoalDeactivationEvent (GoalFn 137))
+  359: (GoalDeactivationEvent (GoalFn 138))
+  360: (DiplomaticMessageEvent)
+-2550 (T29)
+  361: (WarDeclarationEvent FC-Player-TajAl-DinAl-Hasani
+        FC-Player-FranjoFrankopan)
+  362: (GoalActivationEvent (SGoalFn 16))
+  363: (doChangeProduction FC-City-Hims FC-Unit-Settlers)
+  364: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 44 26)))
+  365: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 16)))
+  366: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 21)))
+  367: (doExplore Unit-109)
+  368: (doGoToDest Unit-149 (FreecivLocationFn 8 16)
+        (TheList (doMove Unit-149 (FreecivLocationFn 8 14))
+         (doMove Unit-149 (FreecivLocationFn 9 15))
+         (doMove Unit-149 (FreecivLocationFn 8 16))))
+  369: (EnemyDetectedEvent Unit-149 Unit-119 (FreecivLocationFn 9 16))
+  370: (doMove Unit-142 (FreecivLocationFn 8 14))
+  371: (EnemyDetectedEvent Unit-142 Unit-119 (FreecivLocationFn 9 16))
+  372: (doFortify Unit-142)
+  373: (doFortify Unit-142)
+  374: (ObjectDetectedEvent FC-City-Middelburg (FreecivLocationFn 9 21))
+  375: (ObjectDetectedEvent Unit-150 (FreecivLocationFn 49 29))
+  376: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-2500 (T30)
+  377: (EnemyDetectedEvent Unit-149 Unit-119 (FreecivLocationFn 10 17))
+  378: (doMove Unit-142 (FreecivLocationFn 9 15))
+  379: (EnemyDetectedEvent Unit-142 Unit-119 (FreecivLocationFn 10 17))
+  380: (doFortify Unit-142)
+  381: (doFortify Unit-142)
+  382: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 44 29)))
+  383: (doExplore Unit-109)
+  384: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-2450 (T31)
+  385: (doMove Unit-142 (FreecivLocationFn 8 16))
+  386: (doFortify Unit-142)
+  387: (doFortify Unit-142)
+  388: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 47 29)))
+  389: (doExplore Unit-109)
+  390: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  391: (CityMaySoonGrowEvent FC-City-Halab (FreecivLocationFn 4 11))
+-2400 (T32)
+  392: (ObjectDetectedEvent Unit-153 (FreecivLocationFn 27 23))
+  393: (doMove Unit-142 (FreecivLocationFn 7 17))
+  394: (doFortify Unit-142)
+  395: (doFortify Unit-142)
+  396: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 47 26)))
+  397: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 27 24)))
+  398: (doBuildCity Unit-149 (FreecivLocationFn 8 16))
+  399: (CityBuiltEvent FC-City-Al-Ladhiqiyah (FreecivLocationFn 8 16))
+  400: (doExplore Unit-109)
+  401: (doChangeProduction FC-City-Al-Ladhiqiyah FC-Building-Barracks)
+  402: (GoalActivationEvent (SGoalFn 20))
+  403: (doGoToDest Unit-108 (FreecivLocationFn 8 13)
+        (TheList (doMove Unit-108 (FreecivLocationFn 5 11))
+         (doMove Unit-108 (FreecivLocationFn 6 10))
+         (doMove Unit-108 (FreecivLocationFn 7 11))
+         (doMove Unit-108 (FreecivLocationFn 7 12))
+         (doMove Unit-108 (FreecivLocationFn 8 13))))
+  404: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  405: (GoalActivationEvent (GoalFn 137))
+  406: (GoalActivationEvent (GoalFn 138))
+  407: (CityGrowthEvent FC-City-Halab FC-City-Halab)
+-2350 (T33)
+  408: (ObjectDetectedEvent Unit-152 (FreecivLocationFn 10 15))
+  409: (doConnectBy Unit-108 (FreecivLocationFn 8 16) FC-Special-Road
+        (TheList (doMove Unit-108 (FreecivLocationFn 8 14))
+         (doMove Unit-108 (FreecivLocationFn 9 15))
+         (doMove Unit-108 (FreecivLocationFn 8 16))))
+  410: (EnemyDetectedEvent Unit-108 Unit-152 (FreecivLocationFn 10 15))
+  411: (doMove Unit-142 (FreecivLocationFn 7 18))
+  412: (doFortify Unit-142)
+  413: (doFortify Unit-142)
+  414: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 24)))
+  415: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 50 25)))
+  416: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 24)))
+  417: (doExplore Unit-109)
+  418: (ObjectDetectedEvent Unit-155 (FreecivLocationFn 28 30))
+  419: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-2300 (T34)
+  420: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 9 14))
+  421: (FirstContactEvent (FreecivLocationFn 9 14))
+  422: (DiplomaticMessageEvent)
+  423: (MeetingRequestedEvent FC-Player-JohanDeWitt
+        FC-Player-TajAl-DinAl-Hasani)
+  424: (doMove Unit-142 (FreecivLocationFn 6 19))
+  425: (doFortify Unit-142)
+  426: (doFortify Unit-142)
+  427: (doAcceptTreaty FC-Player-TajAl-DinAl-Hasani FC-Player-JohanDeWitt)
+  428: (MeetingCancelledEvent FC-Player-JohanDeWitt
+        FC-Player-TajAl-DinAl-Hasani)
+  429: (DiplomaticMessageEvent)
+  430: (DiplomaticMessageEvent)
+  431: (TreatyCeaseFireEvent)
+  432: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 51 26)))
+  433: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 21)))
+  434: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 14)))
+  435: (doExplore Unit-109)
+  436: (ObjectDetectedEvent FC-City-Varazdin (FreecivLocationFn 1 26))
+  437: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  438: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-Masonry)
+-2250 (T35)
+  439: (EnemyDetectedEvent Unit-108 Unit-152 (FreecivLocationFn 10 15))
+  440: (doMove Unit-142 (FreecivLocationFn 5 19))
+  441: (doFortify Unit-142)
+  442: (doFortify Unit-142)
+  443: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-Pottery)
+  444: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 50 27)))
+  445: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 13 24)))
+  446: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 15)))
+  447: (doExplore Unit-109)
+  448: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  449: (GoalActivationEvent (GoalFn 147))
+  450: (UnitBuiltEvent FC-City-Halab Unit-157)
+  451: (GoalDeactivationEvent (GoalFn 137))
+  452: (GoalDeactivationEvent (GoalFn 138))
+-2200 (T36)
+  453: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 9 16))
+  454: (doMove Unit-142 (FreecivLocationFn 4 19))
+  455: (doFortify Unit-142)
+  456: (doFortify Unit-142)
+  457: (doChangeProduction FC-City-Halab FC-Unit-Settlers)
+  458: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 53 30)))
+  459: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 53 24)))
+  460: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 15 21)))
+  461: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 16)))
+  462: (doExplore Unit-109)
+  463: (doGoToDest Unit-157 (FreecivLocationFn 0 8)
+        (TheList (doMove Unit-157 (FreecivLocationFn 3 10))
+         (doMove Unit-157 (FreecivLocationFn 2 9))
+         (doMove Unit-157 (FreecivLocationFn 1 8))
+         (doMove Unit-157 (FreecivLocationFn 0 8))))
+  464: (ObjectDetectedEvent Unit-158 (FreecivLocationFn 30 20))
+  465: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  466: (UnitBuiltEvent FC-City-Hims Unit-159)
+  467: (GoalDeactivationEvent (GoalFn 148))
+  468: (GoalDeactivationEvent (GoalFn 149))
+-2150 (T37)
+  469: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 8 15))
+  470: (EnemyDetectedEvent Unit-159 Unit-152 (FreecivLocationFn 8 15))
+  471: (EnemyDetectedEvent Unit-108 Unit-152 (FreecivLocationFn 8 15))
+  472: (doMove Unit-142 (FreecivLocationFn 3 20))
+  473: (doFortify Unit-142)
+  474: (doFortify Unit-142)
+  475: (doChangeProduction FC-City-Hims FC-Building-Barracks)
+  476: (CityProductionChangedEvent FC-City-Hims)
+  477: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 50 30)))
+  478: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 26)))
+  479: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 21)))
+  480: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 18 18)))
+  481: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 8 15)))
+  482: (doExplore Unit-109)
+  483: (doGoToDest Unit-159 (FreecivLocationFn 4 20)
+        (TheList (doMove Unit-159 (FreecivLocationFn 8 14))
+         (doMove Unit-159 (FreecivLocationFn 9 15))
+         (doMove Unit-159 (FreecivLocationFn 8 16))
+         (doMove Unit-159 (FreecivLocationFn 7 17))
+         (doMove Unit-159 (FreecivLocationFn 7 18))
+         (doMove Unit-159 (FreecivLocationFn 6 19))
+         (doMove Unit-159 (FreecivLocationFn 5 19))
+         (doMove Unit-159 (FreecivLocationFn 4 20))))
+  484: (ObjectDetectedEvent FC-City-Southampton (FreecivLocationFn 25 31))
+  485: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  486: (CityMaySoonGrowEvent FC-City-Hims (FreecivLocationFn 8 13))
+-2100 (T38)
+  487: (BadCommandEvent (FreecivLocationFn 8 14))
+  488: (UnitOrdersEvent Unit-159 (FreecivLocationFn 8 14))
+  489: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 8 14))
+  490: (UnitOrdersEvent Unit-159 (FreecivLocationFn 8 14))
+  491: (ActivityCompletedEvent Unit-107 FC-ActivityMine
+        (FreecivLocationFn 4 11))
+  492: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 9 16))
+  493: (EnemyDetectedEvent Unit-159 Unit-152 (FreecivLocationFn 9 16))
+  494: (doMove Unit-142 (FreecivLocationFn 2 21))
+  495: (doFortify Unit-142)
+  496: (doFortify Unit-142)
+  497: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 47 31)))
+  498: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 16)))
+  499: (doExplore Unit-109)
+  500: (doGoToDest Unit-159 (FreecivLocationFn 4 19)
+        (TheList (doMove Unit-159 (FreecivLocationFn 9 15))
+         (doMove Unit-159 (FreecivLocationFn 8 16))
+         (doMove Unit-159 (FreecivLocationFn 7 17))
+         (doMove Unit-159 (FreecivLocationFn 7 18))
+         (doMove Unit-159 (FreecivLocationFn 6 19))
+         (doMove Unit-159 (FreecivLocationFn 5 19))
+         (doMove Unit-159 (FreecivLocationFn 4 19))))
+  501: (GoalActivationEvent (SGoalFn 23))
+  502: (doGoToDest Unit-108 (FreecivLocationFn 4 11)
+        (TheList (doMove Unit-108 (FreecivLocationFn 8 13))
+         (doMove Unit-108 (FreecivLocationFn 7 12))
+         (doMove Unit-108 (FreecivLocationFn 7 11))
+         (doMove Unit-108 (FreecivLocationFn 6 10))
+         (doMove Unit-108 (FreecivLocationFn 5 11))
+         (doMove Unit-108 (FreecivLocationFn 4 11))))
+  503: (ObjectDetectedEvent Unit-160 (FreecivLocationFn 13 17))
+  504: (ObjectDetectedEvent Unit-163 (FreecivLocationFn 43 27))
+  505: (ObjectDetectedEvent Unit-162 (FreecivLocationFn 30 17))
+  506: (GoalActivationEvent (GoalFn 148))
+  507: (GoalActivationEvent (GoalFn 149))
+  508: (CityGrowthEvent FC-City-Hims FC-City-Hims)
+  509: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-2050 (T39)
+  510: (EnemyDetectedEvent Unit-159 Unit-152 (FreecivLocationFn 9 16))
+  511: (doConnectBy Unit-108 (FreecivLocationFn 8 16) FC-Special-Road
+        (TheList (doMove Unit-108 (FreecivLocationFn 5 11))
+         (doMove Unit-108 (FreecivLocationFn 6 10))
+         (doMove Unit-108 (FreecivLocationFn 7 11))
+         (doMove Unit-108 (FreecivLocationFn 7 12))
+         (doMove Unit-108 (FreecivLocationFn 8 13))
+         (doMove Unit-108 (FreecivLocationFn 8 14))
+         (doMove Unit-108 (FreecivLocationFn 9 15))
+         (doMove Unit-108 (FreecivLocationFn 8 16))))
+  512: (doMove Unit-142 (FreecivLocationFn 1 21))
+  513: (doFortify Unit-142)
+  514: (doFortify Unit-142)
+  515: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 44 32)))
+  516: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 17 22)))
+  517: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 2 17)))
+  518: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 24)))
+  519: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 15)))
+  520: (doExplore Unit-109)
+  521: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-2000 (T40)
+  522: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 9 14))
+  523: (EnemyDetectedEvent Unit-159 Unit-125 (FreecivLocationFn 5 18))
+  524: (doMove Unit-142 (FreecivLocationFn 0 22))
+  525: (doFortify Unit-142)
+  526: (doFortify Unit-142)
+  527: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 42 30)))
+  528: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 18)))
+  529: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 24)))
+  530: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 14)))
+  531: (doBuildCity Unit-157 (FreecivLocationFn 0 8))
+  532: (CityBuiltEvent FC-City-Hama (FreecivLocationFn 0 8))
+  533: (GoalActivationEvent (GoalFn 137))
+  534: (GoalActivationEvent (GoalFn 138))
+  535: (doExplore Unit-109)
+  536: (doGoToDest Unit-107 (FreecivLocationFn 0 6)
+        (TheList (doMove Unit-107 (FreecivLocationFn 5 11))
+         (doMove Unit-107 (FreecivLocationFn 6 10))
+         (doMove Unit-107 (FreecivLocationFn 5 9))
+         (doMove Unit-107 (FreecivLocationFn 4 8))
+         (doMove Unit-107 (FreecivLocationFn 3 7))
+         (doMove Unit-107 (FreecivLocationFn 2 6))
+         (doMove Unit-107 (FreecivLocationFn 1 5))
+         (doMove Unit-107 (FreecivLocationFn 0 6))))
+  537: (doChangeProduction FC-City-Hama FC-Building-Barracks)
+  538: (ObjectDetectedEvent FC-City-Tampere (FreecivLocationFn 33 17))
+  539: (ObjectDetectedEvent Unit-164 (FreecivLocationFn 26 27))
+  540: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  541: (CityMaySoonGrowEvent FC-City-Al-Ladhiqiyah (FreecivLocationFn 8 16))
+-1950 (T41)
+  542: (EnemyDetectedEvent Unit-108 Unit-152 (FreecivLocationFn 9 14))
+  543: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 6 19))
+  544: (EnemyDetectedEvent Unit-159 Unit-125 (FreecivLocationFn 6 19))
+  545: (FirstContactEvent (FreecivLocationFn 6 19))
+  546: (DiplomaticMessageEvent)
+  547: (MeetingRequestedEvent FC-Player-WilliamGladstone
+        FC-Player-TajAl-DinAl-Hasani)
+  548: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 7 19))
+  549: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 8 18))
+  550: (doMove Unit-142 (FreecivLocationFn 53 23))
+  551: (doFortify Unit-142)
+  552: (doFortify Unit-142)
+  553: (doAcceptTreaty FC-Player-TajAl-DinAl-Hasani FC-Player-WilliamGladstone)
+  554: (MeetingCancelledEvent FC-Player-WilliamGladstone
+        FC-Player-TajAl-DinAl-Hasani)
+  555: (DiplomaticMessageEvent)
+  556: (DiplomaticMessageEvent)
+  557: (TreatyCeaseFireEvent)
+  558: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 41 27)))
+  559: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 8 18)))
+  560: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 23 23)))
+  561: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 24)))
+  562: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 15)))
+  563: (doExplore Unit-109)
+  564: (ObjectDetectedEvent FC-City-Oulu (FreecivLocationFn 28 14))
+  565: (ObjectDetectedEvent Unit-167 (FreecivLocationFn 47 31))
+  566: (ObjectDetectedEvent FC-City-Osijek (FreecivLocationFn 41 25))
+  567: (CityGrowthEvent FC-City-Al-Ladhiqiyah FC-City-Al-Ladhiqiyah)
+  568: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-Pottery)
+  569: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  570: (CityMaySoonGrowEvent FC-City-DimashqAsh-Sham (FreecivLocationFn 4 8))
+-1900 (T42)
+  571: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 7 17))
+  572: (EnemyDetectedEvent Unit-159 Unit-125 (FreecivLocationFn 7 17))
+  573: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 8 17))
+  574: (EnemyDetectedEvent Unit-108 Unit-125 (FreecivLocationFn 8 17))
+  575: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 9 17))
+  576: (EnemyDetectedEvent Unit-108 Unit-152 (FreecivLocationFn 11 16))
+  577: (doMove Unit-142 (FreecivLocationFn 52 24))
+  578: (doFortify Unit-142)
+  579: (doFortify Unit-142)
+  580: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-WarriorCode)
+  581: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 41 26)))
+  582: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 17)))
+  583: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 26 24)))
+  584: (doExplore Unit-109)
+  585: (ObjectDetectedEvent FC-City-Rotterdam (FreecivLocationFn 18 18))
+  586: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  587: (CityGrowthEvent FC-City-DimashqAsh-Sham FC-City-DimashqAsh-Sham)
+-1850 (T43)
+  588: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 10 16))
+  589: (EnemyDetectedEvent Unit-108 Unit-125 (FreecivLocationFn 10 16))
+  590: (ObjectDetectedEvent Unit-172 (FreecivLocationFn 12 17))
+  591: (doMove Unit-142 (FreecivLocationFn 51 24))
+  592: (doFortify Unit-142)
+  593: (doFortify Unit-142)
+  594: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 44 25)))
+  595: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 24)))
+  596: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 12 18)))
+  597: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 21)))
+  598: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 17)))
+  599: (doExplore Unit-109)
+  600: (ObjectDetectedEvent FC-City-Rovinj (FreecivLocationFn 45 31))
+  601: (ObjectDetectedEvent FC-City-Portsmouth (FreecivLocationFn 24 27))
+  602: (ImprovementSelectedByDefaultEvent FC-City-Hims (FreecivLocationFn 8 13))
+  603: (UnitBuiltEvent FC-City-DimashqAsh-Sham Unit-175)
+  604: (CityProductionChangedEvent FC-City-Hims)
+  605: (ImprovementBuiltEvent FC-City-Hims
+        (BuildingInstanceFn FC-City-Hims FC-Building-Barracks))
+-1800 (T44)
+  606: (doMove Unit-142 (FreecivLocationFn 50 25))
+  607: (doFortify Unit-142)
+  608: (doFortify Unit-142)
+  609: (doChangeProduction FC-City-DimashqAsh-Sham FC-Unit-Settlers)
+  610: (doChangeProduction FC-City-Hims FC-Coinage)
+  611: (CityProductionChangedEvent FC-City-Hims)
+  612: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 43 26)))
+  613: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 15 21)))
+  614: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 31 21)))
+  615: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 18)))
+  616: (doIrrigate Unit-107 (FreecivLocationFn 0 6))
+  617: (doExplore Unit-109)
+  618: (doIrrigate Unit-107 (FreecivLocationFn 0 6))
+  619: (doGoToDest Unit-175 (FreecivLocationFn 1 5)
+        (TheList (doMove Unit-175 (FreecivLocationFn 3 7))
+         (doMove Unit-175 (FreecivLocationFn 2 6))
+         (doMove Unit-175 (FreecivLocationFn 1 5))))
+  620: (ImprovementSelectedByDefaultEvent FC-City-Al-Ladhiqiyah
+        (FreecivLocationFn 8 16))
+  621: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  622: (CityProductionChangedEvent FC-City-Al-Ladhiqiyah)
+  623: (ImprovementBuiltEvent FC-City-Al-Ladhiqiyah
+        (BuildingInstanceFn FC-City-Al-Ladhiqiyah FC-Building-Barracks))
+  624: (CityMaySoonGrowEvent FC-City-Halab (FreecivLocationFn 4 11))
+-1750 (T45)
+  625: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 9 15))
+  626: (EnemyDetectedEvent Unit-108 Unit-152 (FreecivLocationFn 9 18))
+  627: (ObjectDetectedEvent Unit-176 (FreecivLocationFn 28 21))
+  628: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 8 17))
+  629: (EnemyDetectedEvent Unit-159 Unit-121 (FreecivLocationFn 6 19))
+  630: (doMove Unit-142 (FreecivLocationFn 49 25))
+  631: (doFortify Unit-142)
+  632: (doFortify Unit-142)
+  633: (doAttack Unit-142 Unit-145)
+  634: (doChangeProduction FC-City-Al-Ladhiqiyah FC-Building-CityWalls)
+  635: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 42 25)))
+  636: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 6 19)))
+  637: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 18 22)))
+  638: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 34 21)))
+  639: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 8 17)))
+  640: (doBuildCity Unit-159 (FreecivLocationFn 4 19))
+  641: (CityBuiltEvent FC-City-DayrAs-Zawr (FreecivLocationFn 4 19))
+  642: (doExplore Unit-109)
+  643: (doChangeProduction FC-City-DayrAs-Zawr FC-Unit-Settlers)
+  644: (CityProductionChangedEvent FC-City-DayrAs-Zawr)
+  645: (GoalActivationEvent (SGoalFn 26))
+  646: (GoalActivationEvent (SGoalFn 27))
+  647: (doConnectBy Unit-108 (FreecivLocationFn 4 19) FC-Special-Road
+        (TheList (doMove Unit-108 (FreecivLocationFn 7 17))
+         (doMove Unit-108 (FreecivLocationFn 7 18))
+         (doMove Unit-108 (FreecivLocationFn 6 19))
+         (doMove Unit-108 (FreecivLocationFn 5 19))
+         (doMove Unit-108 (FreecivLocationFn 4 19))))
+  648: (EnemyDetectedEvent Unit-108 Unit-152 (FreecivLocationFn 8 17))
+  649: (EnemyDetectedEvent Unit-108 Unit-121 (FreecivLocationFn 6 19))
+  650: (doFortify Unit-142)
+  651: (CityCantBuildEvent FC-City-Halab)
+  652: (CityGrowthEvent FC-City-Halab FC-City-Halab)
+  653: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1700 (T46)
+  654: (ObjectDetectedEvent Unit-179 (FreecivLocationFn 28 22))
+  655: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 9 16))
+  656: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 5 20))
+  657: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 4 20))
+  658: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 3 20))
+  659: (doMove Unit-142 (FreecivLocationFn 48 26))
+  660: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 43 28)))
+  661: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 20)))
+  662: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 19)))
+  663: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 35 19)))
+  664: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 16)))
+  665: (doExplore Unit-109)
+  666: (UnitBuiltEvent FC-City-Halab Unit-183)
+  667: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-WarriorCode)
+  668: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1650 (T47)
+  669: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 9 15))
+  670: (doChangeProduction FC-City-Halab FC-Coinage)
+  671: (CityProductionChangedEvent FC-City-Halab)
+  672: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-HorsebackRiding)
+  673: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 46 29)))
+  674: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 22)))
+  675: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 16)))
+  676: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 32 17)))
+  677: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 15)))
+  678: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 24 24)))
+  679: (doBuildCity Unit-175 (FreecivLocationFn 1 5))
+  680: (CityBuiltEvent FC-City-Al-Bab (FreecivLocationFn 1 5))
+  681: (doExplore Unit-109)
+  682: (doGoToDest Unit-183 (FreecivLocationFn 7 10)
+        (TheList (doMove Unit-183 (FreecivLocationFn 5 11))
+         (doMove Unit-183 (FreecivLocationFn 6 10))
+         (doMove Unit-183 (FreecivLocationFn 7 10))))
+  683: (doChangeProduction FC-City-Al-Bab FC-Coinage)
+  684: (CityProductionChangedEvent FC-City-Al-Bab)
+  685: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1600 (T48)
+  686: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 8 14))
+  687: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 7 13))
+  688: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 47 27)))
+  689: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 25)))
+  690: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 19 17)))
+  691: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 31 14)))
+  692: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 13)))
+  693: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 23 24)))
+  694: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 23)))
+  695: (doBuildCity Unit-183 (FreecivLocationFn 7 10))
+  696: (CityBuiltEvent FC-City-Duma (FreecivLocationFn 7 10))
+  697: (doExplore Unit-109)
+  698: (doChangeProduction FC-City-Duma FC-Building-CityWalls)
+  699: (CityProductionChangedEvent FC-City-Duma)
+  700: (ObjectDetectedEvent Unit-185 (FreecivLocationFn 28 31))
+  701: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  702: (DiplomaticMessageEvent)
+  703: (CityMaySoonGrowEvent FC-City-Hama (FreecivLocationFn 0 8))
+-1550 (T49)
+  704: (ObjectDetectedEvent Unit-187 (FreecivLocationFn 13 17))
+  705: (ObjectDetectedEvent Unit-182 (FreecivLocationFn 28 22))
+  706: (EnemyDetectedEvent Unit-142 Unit-117 (FreecivLocationFn 47 26))
+  707: (FirstContactEvent (FreecivLocationFn 48 25))
+  708: (DiplomaticMessageEvent)
+  709: (MeetingRequestedEvent FC-Player-UrhoKekkonen
+        FC-Player-TajAl-DinAl-Hasani)
+  710: (doAcceptTreaty FC-Player-TajAl-DinAl-Hasani FC-Player-UrhoKekkonen)
+  711: (MeetingCancelledEvent FC-Player-UrhoKekkonen
+        FC-Player-TajAl-DinAl-Hasani)
+  712: (DiplomaticMessageEvent)
+  713: (DiplomaticMessageEvent)
+  714: (TreatyCeaseFireEvent)
+  715: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 49 26)))
+  716: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 51 28)))
+  717: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 17 18)))
+  718: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 32 11)))
+  719: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 6 14)))
+  720: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 23)))
+  721: (doExplore Unit-109)
+  722: (EnemyDetectedEvent Unit-142 Unit-112 (FreecivLocationFn 48 27))
+  723: (CityGrowthEvent FC-City-Hama FC-City-Hama)
+  724: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  725: (DiplomaticMessageEvent)
+-1500 (T50)
+  726: (WarDeclarationEvent FC-Player-TajAl-DinAl-Hasani FC-Player-JohanDeWitt)
+  727: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 7 17))
+  728: (ActivityCompletedEvent Unit-107 FC-ActivityIrrigate
+        (FreecivLocationFn 0 6))
+  729: (ObjectDetectedEvent Unit-189 (FreecivLocationFn 14 19))
+  730: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 7 14))
+  731: (EnemyDetectedEvent Unit-142 Unit-117 (FreecivLocationFn 51 24))
+  732: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 52 24)))
+  733: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 48 31)))
+  734: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 18 20)))
+  735: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 14)))
+  736: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 22)))
+  737: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 18 22)))
+  738: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 24 24)))
+  739: (doExplore Unit-109)
+  740: (doGoToDest Unit-107 (FreecivLocationFn 3 4)
+        (TheList (doMove Unit-107 (FreecivLocationFn 1 6))
+         (doMove Unit-107 (FreecivLocationFn 2 5))
+         (doMove Unit-107 (FreecivLocationFn 3 4))))
+  741: (ObjectDetectedEvent FC-City-Cardiff (FreecivLocationFn 28 32))
+  742: (ObjectDetectedEvent Unit-190 (FreecivLocationFn 30 17))
+  743: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-HorsebackRiding)
+  744: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1450 (T51)
+  745: (TransferringPossession Unit-152 (FreecivLocationFn 8 13))
+  746: (EnemyDiplomatTheftEvent)
+  747: (UnitLostEvent (FreecivLocationFn 49 25))
+  748: (ObjectDetectedEvent Unit-178 (FreecivLocationFn 49 25))
+  749: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-CeremonialBurial)
+  750: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 21)))
+  751: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 45 30)))
+  752: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 15 21)))
+  753: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 30 10)))
+  754: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 20 21)))
+  755: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 17 22)))
+  756: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 24)))
+  757: (doBuildRoad Unit-107 (FreecivLocationFn 3 4))
+  758: (doExplore Unit-109)
+  759: (doBuildRoad Unit-107 (FreecivLocationFn 3 4))
+  760: (ObjectDetectedEvent Unit-192 (FreecivLocationFn 49 29))
+  761: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1400 (T52)
+  762: (ObjectDetectedEvent Unit-193 (FreecivLocationFn 10 16))
+  763: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 9 15))
+  764: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 7 11))
+  765: (CityDestructionEvent FC-City-Duma (FreecivLocationFn 7 10))
+  766: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 18)))
+  767: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 44 32)))
+  768: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 13)))
+  769: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 10)))
+  770: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 19 20)))
+  771: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 18 19)))
+  772: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 15)))
+  773: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 23)))
+  774: (doExplore Unit-109)
+  775: (ObjectDetectedEvent Unit-194 (FreecivLocationFn 44 27))
+  776: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1350 (T53)
+  777: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 7 18))
+  778: (ObjectDetectedEvent Unit-195 (FreecivLocationFn 18 18))
+  779: (EnemyAdjacentEvent Unit-193 (FreecivLocationFn 9 15))
+  780: (TransferringPossession Unit-193 (FreecivLocationFn 8 16))
+  781: (EnemyDetectedEvent Unit-108 Unit-187 (FreecivLocationFn 7 17))
+  782: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 7 18))
+  783: (DefenderDestroyedEvent Unit-108 (FreecivLocationFn 6 19))
+  784: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 5 11))
+  785: (CityDestructionEvent FC-City-Halab (FreecivLocationFn 4 11))
+  786: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 2 17)))
+  787: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 42 29)))
+  788: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 28 16)))
+  789: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 4 11)))
+  790: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 20 19)))
+  791: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 18)))
+  792: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 18 22)))
+  793: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 51 24)))
+  794: (doExplore Unit-109)
+  795: (ObjectDetectedEvent FC-City-Rauma (FreecivLocationFn 31 14))
+  796: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  797: (CityMaySoonGrowEvent FC-City-DayrAs-Zawr (FreecivLocationFn 4 19))
+-1300 (T54)
+  798: (ActivityCompletedEvent Unit-107 FC-ActivityRoad (FreecivLocationFn 3 4))
+  799: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 4 18))
+  800: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 5 18))
+  801: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 18)))
+  802: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 40 26)))
+  803: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 29 19)))
+  804: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 12)))
+  805: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 18)))
+  806: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 19 25)))
+  807: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 12)))
+  808: (doExplore Unit-109)
+  809: (doIrrigate Unit-107 (FreecivLocationFn 3 4))
+  810: (ObjectDetectedEvent FC-City-Sisak (FreecivLocationFn 44 26))
+  811: (ImprovementSelectedByDefaultEvent FC-City-Hama (FreecivLocationFn 0 8))
+  812: (CityGrowthEvent FC-City-DayrAs-Zawr FC-City-DayrAs-Zawr)
+  813: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  814: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-CeremonialBurial)
+  815: (CityProductionChangedEvent FC-City-Hama)
+  816: (ImprovementBuiltEvent FC-City-Hama
+        (BuildingInstanceFn FC-City-Hama FC-Building-Barracks))
+-1250 (T55)
+  817: (ObjectDetectedEvent Unit-188 (FreecivLocationFn 29 21))
+  818: (EnemyAdjacentEvent Unit-193 (FreecivLocationFn 5 9))
+  819: (EnemyDetectedEvent Unit-138 Unit-193 (FreecivLocationFn 5 9))
+  820: (EnemyDetectedEvent Unit-109 Unit-193 (FreecivLocationFn 5 9))
+  821: (DefenderSurvivedEvent Unit-138 (FreecivLocationFn 4 8))
+  822: (GoalDeactivationEvent (SGoalFn 33))
+  823: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-Mysticism)
+  824: (doChangeProduction FC-City-Hama FC-Coinage)
+  825: (CityProductionChangedEvent FC-City-Hama)
+  826: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 42 25)))
+  827: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 4 11)))
+  828: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 17)))
+  829: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 53 23)))
+  830: (doExplore Unit-109)
+  831: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  832: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  833: (WonderStarted (FreecivLocationFn 27 28))
+  834: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  835: (DiplomaticMessageEvent)
+  836: (CityMaySoonGrowEvent FC-City-Al-Bab (FreecivLocationFn 1 5))
+-1200 (T56)
+  837: (ObjectDetectedEvent Unit-200 (FreecivLocationFn 8 20))
+  838: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 5 9))
+  839: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 5 9))
+  840: (EnemyDetectedEvent Unit-109 Unit-152 (FreecivLocationFn 5 9))
+  841: (ObjectDetectedEvent Unit-171 (FreecivLocationFn 26 24))
+  842: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 43 24)))
+  843: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 9)))
+  844: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 16)))
+  845: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 15)))
+  846: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 22)))
+  847: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 19)))
+  848: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 23 23)))
+  849: (doExplore Unit-109)
+  850: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  851: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  852: (WonderStarted (FreecivLocationFn 12 17))
+  853: (ObjectDetectedEvent Unit-199 (FreecivLocationFn 30 21))
+  854: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 5 9))
+  855: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  856: (CityGrowthEvent FC-City-Al-Bab FC-City-Al-Bab)
+  857: (DiplomaticMessageEvent)
+-1150 (T57)
+  858: (ObjectDetectedEvent Unit-177 (FreecivLocationFn 25 23))
+  859: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 43 26)))
+  860: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 6 9)))
+  861: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 15)))
+  862: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 12)))
+  863: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 1 22)))
+  864: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 6 19)))
+  865: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 24)))
+  866: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 24 24)))
+  867: (doExplore Unit-109)
+  868: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  869: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  870: (ObjectDetectedEvent FC-City-Vukovar (FreecivLocationFn 0 30))
+  871: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1100 (T58)
+  872: (EnemyAdjacentEvent Unit-200 (FreecivLocationFn 5 19))
+  873: (EnemyDiplomatEmbassyEvent (FreecivLocationFn 4 19))
+  874: (GoalDeactivationEvent (SGoalFn 35))
+  875: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 5 8))
+  876: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 5 8))
+  877: (EnemyDetectedEvent Unit-109 Unit-152 (FreecivLocationFn 5 8))
+  878: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 42 29)))
+  879: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 8)))
+  880: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 20 16)))
+  881: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 24)))
+  882: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 6 13)))
+  883: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 2 21)))
+  884: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 23)))
+  885: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 23 25)))
+  886: (doExplore Unit-109)
+  887: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  888: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  889: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1050 (T59)
+  890: (ActivityCompletedEvent Unit-107 FC-ActivityIrrigate
+        (FreecivLocationFn 3 4))
+  891: (EnemyAdjacentEvent Unit-178 (FreecivLocationFn 3 20))
+  892: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 5 8))
+  893: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 42 29)))
+  894: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 6 9)))
+  895: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 17)))
+  896: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 22)))
+  897: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 13)))
+  898: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 20)))
+  899: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 18 22)))
+  900: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 25)))
+  901: (doExplore Unit-109)
+  902: (doGoToDest Unit-107 (FreecivLocationFn 4 13)
+        (TheList (doMove Unit-107 (FreecivLocationFn 2 5))
+         (doMove Unit-107 (FreecivLocationFn 2 6))
+         (doMove Unit-107 (FreecivLocationFn 3 7))
+         (doMove Unit-107 (FreecivLocationFn 4 8))
+         (doMove Unit-107 (FreecivLocationFn 5 9))
+         (doMove Unit-107 (FreecivLocationFn 6 10))
+         (doMove Unit-107 (FreecivLocationFn 5 11))
+         (doMove Unit-107 (FreecivLocationFn 4 12))
+         (doMove Unit-107 (FreecivLocationFn 4 13))))
+  903: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  904: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  905: (ObjectDetectedEvent FC-City-Kokkola (FreecivLocationFn 32 21))
+  906: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-1000 (T60)
+  907: (ObjectDetectedEvent Unit-204 (FreecivLocationFn 9 21))
+  908: (TransferringPossession Unit-178 (FreecivLocationFn 4 19))
+  909: (EnemyDiplomatTheftEvent)
+  910: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 5 10))
+  911: (EnemyDetectedEvent Unit-109 Unit-152 (FreecivLocationFn 5 10))
+  912: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 45 29)))
+  913: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 10)))
+  914: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 18)))
+  915: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 9 22)))
+  916: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 4 13)))
+  917: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 17 22)))
+  918: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 22 24)))
+  919: (doExplore Unit-109)
+  920: (WonderStarted (FreecivLocationFn 45 31))
+  921: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-975 (T61)
+  922: (ObjectDetectedEvent Unit-198 (FreecivLocationFn 26 26))
+  923: (ObjectDetectedEvent Unit-207 (FreecivLocationFn 19 18))
+  924: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 47 27)))
+  925: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 4 11)))
+  926: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 21)))
+  927: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 13)))
+  928: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 16 22)))
+  929: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 23)))
+  930: (doExplore Unit-109)
+  931: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-950 (T62)
+  932: (EnemyDetectedEvent Unit-107 Unit-152 (FreecivLocationFn 3 10))
+  933: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 3 10))
+  934: (EnemyDetectedEvent Unit-109 Unit-152 (FreecivLocationFn 3 10))
+  935: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 49 25)))
+  936: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 10)))
+  937: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 21)))
+  938: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 2 13)))
+  939: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 15 21)))
+  940: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 20 22)))
+  941: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 19 25)))
+  942: (doExplore Unit-109)
+  943: (ObjectDetectedEvent Unit-208 (FreecivLocationFn 34 18))
+  944: (ObjectDetectedEvent Unit-209 (FreecivLocationFn 10 16))
+  945: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+-925 (T63)
+  946: (EnemyDetectedEvent Unit-107 Unit-152 (FreecivLocationFn 3 10))
+  947: (EnemyDetectedEvent Unit-107 Unit-189 (FreecivLocationFn 3 12))
+  948: (EnemyDetectedEvent Unit-107 Unit-187 (FreecivLocationFn 7 12))
+  949: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 4 11))
+  950: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 52 24)))
+  951: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 4 11)))
+  952: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 6 10)))
+  953: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 12 22)))
+  954: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 12)))
+  955: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 15 21)))
+  956: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 21)))
+  957: (doExplore Unit-109)
+  958: (ObjectDetectedEvent Unit-210 (FreecivLocationFn 30 17))
+  959: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  960: (DiplomaticMessageEvent)
+  961: (CityMaySoonGrowEvent FC-City-Hama (FreecivLocationFn 0 8))
+-900 (T64)
+  962: (BadCommandEvent (FreecivLocationFn 5 11))
+  963: (UnitOrdersEvent Unit-107 (FreecivLocationFn 5 11))
+  964: (DefenderDestroyedEvent Unit-107 (FreecivLocationFn 5 11))
+  965: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 5 11))
+  966: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 3 10))
+  967: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 3 10))
+  968: (EnemyDetectedEvent Unit-109 Unit-152 (FreecivLocationFn 3 10))
+  969: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 21)))
+  970: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 10)))
+  971: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 5 11)))
+  972: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 13 23)))
+  973: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 4 11)))
+  974: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 11 19)))
+  975: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 20 20)))
+  976: (doExplore Unit-109)
+  977: (ObjectDetectedEvent FC-City-Porvoo (FreecivLocationFn 35 19))
+  978: (WonderStarted (FreecivLocationFn 29 21))
+  979: (ObjectDetectedEvent Unit-213 (FreecivLocationFn 29 29))
+  980: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  981: (CityGrowthEvent FC-City-Hama FC-City-Hama)
+  982: (DiplomaticMessageEvent)
+-875 (T65)
+  983: (EnemyDetectedEvent Unit-138 Unit-189 (FreecivLocationFn 3 10))
+  984: (EnemyDetectedEvent Unit-109 Unit-189 (FreecivLocationFn 3 10))
+  985: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 4 11))
+  986: (EnemyDetectedEvent Unit-138 Unit-187 (FreecivLocationFn 3 10))
+  987: (EnemyDetectedEvent Unit-109 Unit-187 (FreecivLocationFn 3 10))
+  988: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 2 9))
+  989: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 0 18)))
+  990: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 2 9)))
+  991: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 10)))
+  992: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 14 23)))
+  993: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 3 10)))
+  994: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 10 20)))
+  995: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 21 19)))
+  996: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 19 23)))
+  997: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+        ((FreecivLocationFn 7 12)))
+  998: (doExplore Unit-109)
+  999: (WonderStopped (FreecivLocationFn 12 17))
+  1000: (WonderStarted (FreecivLocationFn 12 17))
+  1001: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  1002: (TechLearnedEvent FC-Player-TajAl-DinAl-Hasani FC-Tech-Mysticism)
+  1003: (CityMaySoonGrowEvent FC-City-DimashqAsh-Sham (FreecivLocationFn 4 8))
+-850 (T66)
+  1004: (EnemyAdjacentEvent Unit-189 (FreecivLocationFn 2 11))
+  1005: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 1 9))
+  1006: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 1 8))
+  1007: (doResearch FC-Player-TajAl-DinAl-Hasani FC-Tech-Monarchy)
+  1008: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 17)))
+  1009: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 1 8)))
+  1010: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 1 9)))
+  1011: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 11)))
+  1012: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 22 18)))
+  1013: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 20 22)))
+  1014: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 6 11)))
+  1015: (doExplore Unit-109)
+  1016: (CityCantBuildEvent FC-City-DimashqAsh-Sham)
+  1017: (CityGrowthEvent FC-City-DimashqAsh-Sham FC-City-DimashqAsh-Sham)
+-825 (T67)
+  1018: (ObjectDetectedEvent Unit-216 (FreecivLocationFn 29 31))
+  1019: (EnemyDetectedEvent Unit-138 Unit-189 (FreecivLocationFn 3 10))
+  1020: (EnemyDetectedEvent Unit-109 Unit-189 (FreecivLocationFn 3 10))
+  1021: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 0 8))
+  1022: (TransferringPossession Unit-187 (FreecivLocationFn 0 8))
+  1023: (EnemyDiplomatTheftEvent)
+  1024: (EnemyDetectedEvent Unit-138 Unit-152 (FreecivLocationFn 2 7))
+  1025: (EnemyDetectedEvent Unit-109 Unit-152 (FreecivLocationFn 2 7))
+  1026: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 7)))
+  1027: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 1 7)))
+  1028: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 3 10)))
+  1029: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 21 17)))
+  1030: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 11 23)))
+  1031: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 20 24)))
+  1032: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 5 12)))
+  1033: (doExplore Unit-109)
+  1034: (ObjectDetectedEvent Unit-215 (FreecivLocationFn 29 13))
+  1035: (GoalActivationEvent (GoalFn 147))
+  1036: (UnitBuiltEvent FC-City-DimashqAsh-Sham Unit-217)
+  1037: (EnemyDetectedEvent Unit-217 Unit-189 (FreecivLocationFn 3 10))
+  1038: (EnemyDetectedEvent Unit-217 Unit-152 (FreecivLocationFn 2 7))
+-800 (T68)
+  1039: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 1 6))
+  1040: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 2 6))
+  1041: (doChangeProduction FC-City-DimashqAsh-Sham FC-Coinage)
+  1042: (CityProductionChangedEvent FC-City-DimashqAsh-Sham)
+  1043: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 6)))
+  1044: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 1 6)))
+  1045: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 9)))
+  1046: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 20 18)))
+  1047: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 13 21)))
+  1048: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 21 24)))
+  1049: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 4 13)))
+  1050: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 25 23)))
+  1051: (doExplore Unit-109)
+  1052: (doGoToDest Unit-217 (FreecivLocationFn 3 13)
+         (TheList (doMove Unit-217 (FreecivLocationFn 5 9))
+          (doMove Unit-217 (FreecivLocationFn 6 10))
+          (doMove Unit-217 (FreecivLocationFn 5 11))
+          (doMove Unit-217 (FreecivLocationFn 4 12))
+          (doMove Unit-217 (FreecivLocationFn 3 13))))
+  1053: (EnemyDetectedEvent Unit-217 Unit-209 (FreecivLocationFn 4 13))
+  1054: (ObjectDetectedEvent FC-City-Pori (FreecivLocationFn 28 12))
+  1055: (ObjectDetectedEvent FC-City-Utrecht (FreecivLocationFn 4 13))
+-775 (T69)
+  1056: (EnemyDetectedEvent Unit-138 Unit-189 (FreecivLocationFn 2 8))
+  1057: (EnemyDetectedEvent Unit-109 Unit-189 (FreecivLocationFn 2 8))
+  1058: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 1 5))
+  1059: (TransferringPossession Unit-187 (FreecivLocationFn 1 5))
+  1060: (EnemyDiplomatTheftEvent)
+  1061: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 3 5)))
+  1062: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 1 6)))
+  1063: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 8)))
+  1064: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1065: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 19 17)))
+  1066: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 18)))
+  1067: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 23 24)))
+  1068: (doExplore Unit-109)
+  1069: (ObjectDetectedEvent Unit-220 (FreecivLocationFn 45 29))
+  1070: (ObjectDetectedEvent FC-City-Lahti (FreecivLocationFn 32 12))
+  1071: (ObjectDetectedEvent FC-City-Falmouth (FreecivLocationFn 20 27))
+-750 (T70)
+  1072: (ObjectDetectedEvent Unit-206 (FreecivLocationFn 26 24))
+  1073: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 18 25)))
+  1074: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 7)))
+  1075: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1076: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 20 18)))
+  1077: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 18)))
+  1078: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 24 23)))
+  1079: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 25 24)))
+  1080: (doExplore Unit-109)
+  1081: (doGoToDest Unit-217 (FreecivLocationFn 10 16)
+         (TheList (doMove Unit-217 (FreecivLocationFn 4 12))
+          (doMove Unit-217 (FreecivLocationFn 5 11))
+          (doMove Unit-217 (FreecivLocationFn 6 10))
+          (doMove Unit-217 (FreecivLocationFn 7 11))
+          (doMove Unit-217 (FreecivLocationFn 7 12))
+          (doMove Unit-217 (FreecivLocationFn 8 13))
+          (doMove Unit-217 (FreecivLocationFn 8 14))
+          (doMove Unit-217 (FreecivLocationFn 9 15))
+          (doMove Unit-217 (FreecivLocationFn 10 16))))
+  1082: (ObjectDetectedEvent Unit-223 (FreecivLocationFn 49 29))
+-725 (T71)
+  1083: (ObjectDetectedEvent Unit-227 (FreecivLocationFn 13 17))
+  1084: (EnemyDetectedEvent Unit-138 Unit-189 (FreecivLocationFn 3 6))
+  1085: (EnemyDetectedEvent Unit-109 Unit-189 (FreecivLocationFn 3 6))
+  1086: (ObjectDetectedEvent Unit-225 (FreecivLocationFn 26 24))
+  1087: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 18 25)))
+  1088: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 3 6)))
+  1089: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1090: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 20 19)))
+  1091: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 17)))
+  1092: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 26 24)))
+  1093: (doExplore Unit-109)
+  1094: (ObjectDetectedEvent Unit-226 (FreecivLocationFn 49 27))
+  1095: (WonderStopped (FreecivLocationFn 27 28))
+  1096: (WonderStarted (FreecivLocationFn 27 28))
+-700 (T72)
+  1097: (EnemyAdjacentEvent Unit-189 (FreecivLocationFn 4 7))
+  1098: (EnemyDetectedEvent Unit-138 Unit-189 (FreecivLocationFn 4 7))
+  1099: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 4)))
+  1100: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 19 24)))
+  1101: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 4 7)))
+  1102: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1103: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 19 20)))
+  1104: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 17)))
+  1105: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 28 24)))
+  1106: (doExplore Unit-109)
+  1107: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  1108: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  1109: (ObjectDetectedEvent FC-City-Pula (FreecivLocationFn 49 28))
+-675 (T73)
+  1110: (ObjectDetectedEvent Unit-212 (FreecivLocationFn 8 13))
+  1111: (EnemyDetectedEvent Unit-217 Unit-212 (FreecivLocationFn 8 13))
+  1112: (DefenderDestroyedEvent Unit-217 (FreecivLocationFn 7 12))
+  1113: (EnemyDetectedEvent Unit-138 Unit-189 (FreecivLocationFn 4 7))
+  1114: (EnemyDetectedEvent Unit-109 Unit-189 (FreecivLocationFn 3 6))
+  1115: (ObjectDetectedEvent Unit-180 (FreecivLocationFn 25 23))
+  1116: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 20 23)))
+  1117: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 3 6)))
+  1118: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1119: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 17 19)))
+  1120: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 17)))
+  1121: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 28 24)))
+  1122: (doExplore Unit-109)
+  1123: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  1124: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  1125: (ObjectDetectedEvent FC-City-Pazin (FreecivLocationFn 43 32))
+-650 (T74)
+  1126: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 21 23)))
+  1127: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 5)))
+  1128: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1129: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 17)))
+  1130: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 28 24)))
+  1131: (doExplore Unit-109)
+  1132: (ObjectDetectedEvent FC-City-Zadar (FreecivLocationFn 51 25))
+  1133: (ObjectDetectedEvent Unit-233 (FreecivLocationFn 30 17))
+-625 (T75)
+  1134: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 22 24)))
+  1135: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1136: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 17)))
+  1137: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 28 24)))
+  1138: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 22 23)))
+  1139: (doExplore Unit-109)
+-600 (T76)
+  1140: (ObjectDetectedEvent Unit-236 (FreecivLocationFn 15 18))
+  1141: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 23 25)))
+  1142: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 9 19)))
+  1143: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 17)))
+  1144: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 28 24)))
+  1145: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 21 22)))
+  1146: (doExplore Unit-109)
+-575 (T77)
+  1147: (ObjectDetectedEvent Unit-238 (FreecivLocationFn 10 15))
+  1148: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 24 24)))
+  1149: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 10 18)))
+  1150: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 28 24)))
+  1151: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 20 23)))
+  1152: (doExplore Unit-109)
+-550 (T78)
+  1153: (ObjectDetectedEvent Unit-224 (FreecivLocationFn 11 15))
+  1154: (ObjectDetectedEvent Unit-211 (FreecivLocationFn 9 15))
+  1155: (EnemyAdjacentEvent Unit-187 (FreecivLocationFn 3 7))
+  1156: (EnemyDetectedEvent Unit-138 Unit-187 (FreecivLocationFn 3 7))
+  1157: (EnemyDetectedEvent Unit-109 Unit-187 (FreecivLocationFn 3 7))
+  1158: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 2 6))
+  1159: (ObjectDetectedEvent Unit-230 (FreecivLocationFn 25 23))
+  1160: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 2 6)))
+  1161: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 3 7)))
+  1162: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 28 24)))
+  1163: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 19 22)))
+  1164: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 23 25)))
+  1165: (doExplore Unit-109)
+  1166: (doMakeHomeCity Unit-138 FC-City-DimashqAsh-Sham)
+  1167: (doSentry Unit-138 (FreecivLocationFn 4 8))
+  1168: (ObjectDetectedEvent Unit-239 (FreecivLocationFn 29 13))
+-525 (T79)
+  1169: (ObjectDetectedEvent Unit-240 (FreecivLocationFn 29 29))
+  1170: (DefenderDestroyedEvent Unit-138 (FreecivLocationFn 4 8))
+  1171: (GoalDeactivationEvent (GoalFn 95))
+  1172: (DefenderDestroyedEvent Unit-109 (FreecivLocationFn 4 8))
+  1173: (GoalDeactivationEvent (GoalFn 40))
+  1174: (GoalDeactivationEvent (GoalFn 26))
+  1175: (GoalDeactivationEvent (GoalFn 86))
+  1176: (GoalDeactivationEvent (GoalFn 48))
+  1177: (GoalDeactivationEvent (GoalFn 49))
+  1178: (GoalDeactivationEvent (GoalFn 94))
+  1179: (GoalDeactivationEvent (GoalFn 93))
+  1180: (GoalDeactivationEvent (GoalFn 96))
+  1181: (GoalDeactivationEvent (GoalFn 97))
+  1182: (GoalDeactivationEvent (GoalFn 113))
+  1183: (EnemyAdjacentEvent Unit-152 (FreecivLocationFn 3 7))
+  1184: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 3 7)))
+  1185: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 3 7)))
+  1186: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 18 24)))
+  1187: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 21 27)))
+  1188: (ThreatDetectedEvent FC-Player-TajAl-DinAl-Hasani
+         ((FreecivLocationFn 6 10)))
+-500 (T80)
+  1189: (EnemyAdjacentEvent Unit-212 (FreecivLocationFn 5 9))
+  1190: (EnemyAdjacentEvent Unit-212 (FreecivLocationFn 4 8))
+  1191: (CityDestructionEvent FC-City-DimashqAsh-Sham (FreecivLocationFn 4 8))
+  1192: (ObjectDetectedEvent Unit-202 (FreecivLocationFn 8 14))
+  1193: (PlayerDestroyedEvent FC-Player-TajAl-DinAl-Hasani)

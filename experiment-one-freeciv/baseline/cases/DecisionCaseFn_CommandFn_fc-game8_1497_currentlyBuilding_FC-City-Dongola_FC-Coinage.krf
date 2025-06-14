@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 1497) (currentlyBuilding FC-City-Dongola FC-Coinage)), dumped 7/29/2022 12:4:32 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 1497) (currentlyBuilding FC-City-Dongola FC-Coinage)))
+(numTurnsToBuild FC-City-Dongola (Turns 165))
+
+(cityGrowthRate FC-City-Dongola (Percent 0))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Dongola FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Dongola FC-Building-Barracks)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 4))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 166))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

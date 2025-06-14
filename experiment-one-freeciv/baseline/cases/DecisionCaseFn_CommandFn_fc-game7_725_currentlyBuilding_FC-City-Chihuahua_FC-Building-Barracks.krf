@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 725) (currentlyBuilding FC-City-Chihuahua FC-Building-Barracks)), dumped 7/29/2022 11:43:20 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 725) (currentlyBuilding FC-City-Chihuahua FC-Building-Barracks)))
+(numTurnsToBuild FC-City-Chihuahua (Turns 10))
+
+(numTurnsToGrow FC-City-Chihuahua (Turns 15))
+
+(cityGrowthRate FC-City-Chihuahua (Percent 3))
+
+(cityOwner FC-City-Chihuahua FC-Player-BenitoJuárez)
+
+(citySize FC-City-Chihuahua (FreecivCitizenCountFn 2))
+
+(isa FC-City-Chihuahua FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 884))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

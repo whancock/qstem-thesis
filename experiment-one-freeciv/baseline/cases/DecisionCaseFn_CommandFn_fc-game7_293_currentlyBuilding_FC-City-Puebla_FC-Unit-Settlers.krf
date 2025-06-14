@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 293) (currentlyBuilding FC-City-Puebla FC-Unit-Settlers)), dumped 7/29/2022 11:39:7 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 293) (currentlyBuilding FC-City-Puebla FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-Puebla (Turns 14))
+
+(numTurnsToGrow FC-City-Puebla (Turns 16))
+
+(cityGrowthRate FC-City-Puebla (Percent 5))
+
+(cityOwner FC-City-Puebla FC-Player-BenitoJuárez)
+
+(citySize FC-City-Puebla (FreecivCitizenCountFn 1))
+
+(isa FC-City-Puebla FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 182))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

@@ -1,0 +1,58 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 558) (currentlyBuilding FC-City-Semna FC-Unit-Archers)), dumped 8/10/2022 18:0:31 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 558) (currentlyBuilding FC-City-Semna FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Semna CityFootprint)
+
+(footprintOf FC-City-Semna CityFootprint-FC-City-Semna)
+
+(numTurnsToBuild FC-City-Semna (Turns 9))
+
+(numTurnsToGrow FC-City-Semna (Turns 15))
+
+(cityGrowthRate FC-City-Semna (Percent 5))
+
+(cityOwner FC-City-Semna FC-Player-Amanishakheto)
+
+(citySize FC-City-Semna (FreecivCitizenCountFn 1))
+
+(isa FC-City-Semna FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Semna ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Semna ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Semna CityFootprint-FC-City-Dongola)
+
+(rcc8-TPP CityFootprint-FC-City-Semna TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 27))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Dongola CityFootprint)
+
+(footprintOf FC-City-Dongola CityFootprint-FC-City-Dongola)
+
+(numTurnsToBuild FC-City-Dongola (Turns 5))
+
+(numTurnsToGrow FC-City-Dongola (Turns 13))
+
+(cityGrowthRate FC-City-Dongola (Percent 3))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 2))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

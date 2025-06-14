@@ -1,0 +1,84 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 1497) (currentlyBuilding FC-City-Dongola FC-Coinage)), dumped 8/10/2022 18:30:9 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 1497) (currentlyBuilding FC-City-Dongola FC-Coinage)))
+(isa CityFootprint-FC-City-Dongola CityFootprint)
+
+(footprintOf FC-City-Dongola CityFootprint-FC-City-Dongola)
+
+(numTurnsToBuild FC-City-Dongola (Turns 165))
+
+(cityGrowthRate FC-City-Dongola (Percent 0))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Dongola FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Dongola FC-Building-Barracks)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 4))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(rcc8-PO CityFootprint-FC-City-Dongola ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Dongola ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Dongola CityFootprint-FC-City-Faras)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-332)
+
+(rcc8-TPP CityFootprint-FC-City-Dongola TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Dongola TerritoryBlob-6055)
+
+(isa TerritoryBlob-6055 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 166))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-332 UnitFootprint)
+
+(isa CityFootprint-FC-City-Faras CityFootprint)
+
+(footprintOf FC-City-Faras CityFootprint-FC-City-Faras)
+
+(numTurnsToBuild FC-City-Faras (Turns 5))
+
+(cityGrowthRate FC-City-Faras (Percent 0))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Faras FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Faras FC-Building-CityWalls)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 3))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Faras) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Faras) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Faras) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Faras) Some))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

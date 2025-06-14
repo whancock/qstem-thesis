@@ -1,0 +1,42 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 510) (currentlyBuilding FC-City-Batumi FC-Unit-Archers)), dumped 8/10/2022 17:18:58 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 510) (currentlyBuilding FC-City-Batumi FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Batumi CityFootprint)
+
+(footprintOf FC-City-Batumi CityFootprint-FC-City-Batumi)
+
+(numTurnsToBuild FC-City-Batumi (Turns 5))
+
+(numTurnsToGrow FC-City-Batumi (Turns 40))
+
+(cityGrowthRate FC-City-Batumi (Percent 1))
+
+(cityOwner FC-City-Batumi FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Batumi FC-Building-Barracks)
+
+(citySize FC-City-Batumi (FreecivCitizenCountFn 3))
+
+(isa FC-City-Batumi FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Batumi ContinentBlob-405)
+
+(rcc8-NTPP CityFootprint-FC-City-Batumi ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Batumi TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 288))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

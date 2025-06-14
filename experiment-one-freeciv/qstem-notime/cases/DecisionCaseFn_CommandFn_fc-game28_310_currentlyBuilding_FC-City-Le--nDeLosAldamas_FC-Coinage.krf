@@ -1,0 +1,44 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 310) (currentlyBuilding FC-City-LeónDeLosAldamas FC-Coinage)), dumped 8/10/2022 17:33:14 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 310) (currentlyBuilding FC-City-LeónDeLosAldamas FC-Coinage)))
+(isa CityFootprint-FC-City-LeónDeLosAldamas CityFootprint)
+
+(footprintOf FC-City-LeónDeLosAldamas CityFootprint-FC-City-LeónDeLosAldamas)
+
+(numTurnsToBuild FC-City-LeónDeLosAldamas (Turns 250))
+
+(numTurnsToGrow FC-City-LeónDeLosAldamas (Turns 13))
+
+(cityGrowthRate FC-City-LeónDeLosAldamas (Percent 5))
+
+(cityOwner FC-City-LeónDeLosAldamas FC-Player-BenitoJuárez)
+
+(citySize FC-City-LeónDeLosAldamas (FreecivCitizenCountFn 1))
+
+(isa FC-City-LeónDeLosAldamas FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-LeónDeLosAldamas ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-LeónDeLosAldamas ContinentBlob-1421)
+
+(rcc8-PO CityFootprint-FC-City-LeónDeLosAldamas CityFootprint-FC-City-Monterrey)
+
+(isa CityFootprint-FC-City-Monterrey CityFootprint)
+
+(footprintOf FC-City-Monterrey CityFootprint-FC-City-Monterrey)
+
+(numTurnsToBuild FC-City-Monterrey (Turns 1))
+
+(numTurnsToGrow FC-City-Monterrey (Turns 26))
+
+(cityGrowthRate FC-City-Monterrey (Percent 2))
+
+(cityOwner FC-City-Monterrey FC-Player-BenitoJuárez)
+
+(citySize FC-City-Monterrey (FreecivCitizenCountFn 2))
+
+(isa FC-City-Monterrey FreeCiv-City)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

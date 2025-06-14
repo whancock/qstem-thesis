@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game6 356) (currentlyBuilding FC-City-Batumi FC-Unit-Warriors)), dumped 7/29/2022 11:31:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game6 356) (currentlyBuilding FC-City-Batumi FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Batumi (Turns 4))
+
+(numTurnsToGrow FC-City-Batumi (Turns 4))
+
+(cityGrowthRate FC-City-Batumi (Percent 10))
+
+(cityOwner FC-City-Batumi FC-Player-GiorgiIII)
+
+(citySize FC-City-Batumi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Batumi FreeCiv-City)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 100))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)

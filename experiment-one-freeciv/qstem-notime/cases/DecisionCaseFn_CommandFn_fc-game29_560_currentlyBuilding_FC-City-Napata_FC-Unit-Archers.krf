@@ -1,0 +1,84 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 560) (currentlyBuilding FC-City-Napata FC-Unit-Archers)), dumped 8/10/2022 18:0:34 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 560) (currentlyBuilding FC-City-Napata FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Napata CityFootprint)
+
+(footprintOf FC-City-Napata CityFootprint-FC-City-Napata)
+
+(numTurnsToBuild FC-City-Napata (Turns 5))
+
+(numTurnsToGrow FC-City-Napata (Turns 19))
+
+(cityGrowthRate FC-City-Napata (Percent 2))
+
+(cityOwner FC-City-Napata FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Napata FC-Building-Barracks)
+
+(citySize FC-City-Napata (FreecivCitizenCountFn 2))
+
+(isa FC-City-Napata FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Napata ContinentBlob-3906)
+
+(rcc8-TPP CityFootprint-FC-City-Napata ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Napata CityFootprint-FC-City-Meroë)
+
+(rcc8-EC CityFootprint-FC-City-Napata CityFootprint-FC-City-Nuri)
+
+(rcc8-TPP CityFootprint-FC-City-Napata TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 27))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Nuri CityFootprint)
+
+(footprintOf FC-City-Nuri CityFootprint-FC-City-Nuri)
+
+(numTurnsToBuild FC-City-Nuri (Turns 2))
+
+(numTurnsToGrow FC-City-Nuri (Turns 7))
+
+(cityGrowthRate FC-City-Nuri (Percent 3))
+
+(cityOwner FC-City-Nuri FC-Player-Amanishakheto)
+
+(citySize FC-City-Nuri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Nuri FreeCiv-City)
+
+(isa CityFootprint-FC-City-Meroë CityFootprint)
+
+(footprintOf FC-City-Meroë CityFootprint-FC-City-Meroë)
+
+(numTurnsToBuild FC-City-Meroë (Turns 3))
+
+(numTurnsToGrow FC-City-Meroë (Turns 1))
+
+(cityGrowthRate FC-City-Meroë (Percent 3))
+
+(cityOwner FC-City-Meroë FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Meroë FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Palace)
+
+(citySize FC-City-Meroë (FreecivCitizenCountFn 2))
+
+(isa FC-City-Meroë FreeCiv-City)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

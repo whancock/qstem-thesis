@@ -1,0 +1,84 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 273) (currentlyBuilding FC-City-Sorel FC-Unit-Archers)), dumped 8/10/2022 19:27:24 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 273) (currentlyBuilding FC-City-Sorel FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Sorel CityFootprint)
+
+(footprintOf FC-City-Sorel CityFootprint-FC-City-Sorel)
+
+(numTurnsToBuild FC-City-Sorel (Turns 9))
+
+(numTurnsToGrow FC-City-Sorel (Turns 1))
+
+(cityGrowthRate FC-City-Sorel (Percent 10))
+
+(cityOwner FC-City-Sorel FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Sorel FC-Building-Barracks)
+
+(citySize FC-City-Sorel (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sorel FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Sorel ContinentBlob-7654)
+
+(rcc8-NTPP CityFootprint-FC-City-Sorel ContinentBlob-7652)
+
+(rcc8-PO CityFootprint-FC-City-Sorel CityFootprint-FC-City-Montréal)
+
+(rcc8-PO CityFootprint-FC-City-Sorel CityFootprint-FC-City-Lévis)
+
+(rcc8-TPP CityFootprint-FC-City-Sorel TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 87))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Lévis CityFootprint)
+
+(footprintOf FC-City-Lévis CityFootprint-FC-City-Lévis)
+
+(numTurnsToBuild FC-City-Lévis (Turns 6))
+
+(numTurnsToGrow FC-City-Lévis (Turns 30))
+
+(cityGrowthRate FC-City-Lévis (Percent 2))
+
+(cityOwner FC-City-Lévis FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Lévis FC-Building-Barracks)
+
+(citySize FC-City-Lévis (FreecivCitizenCountFn 2))
+
+(isa FC-City-Lévis FreeCiv-City)
+
+(isa CityFootprint-FC-City-Montréal CityFootprint)
+
+(footprintOf FC-City-Montréal CityFootprint-FC-City-Montréal)
+
+(numTurnsToBuild FC-City-Montréal (Turns 4))
+
+(numTurnsToGrow FC-City-Montréal (Turns 6))
+
+(cityGrowthRate FC-City-Montréal (Percent 3))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 2))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)

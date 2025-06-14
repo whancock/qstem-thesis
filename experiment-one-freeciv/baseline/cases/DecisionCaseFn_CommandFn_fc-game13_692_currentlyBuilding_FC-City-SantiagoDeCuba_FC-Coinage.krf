@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game13 692) (currentlyBuilding FC-City-SantiagoDeCuba FC-Coinage)), dumped 7/29/2022 12:50:27 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game13 692) (currentlyBuilding FC-City-SantiagoDeCuba FC-Coinage)))
+(numTurnsToBuild FC-City-SantiagoDeCuba (Turns 250))
+
+(numTurnsToGrow FC-City-SantiagoDeCuba (Turns 35))
+
+(cityGrowthRate FC-City-SantiagoDeCuba (Percent 1))
+
+(cityOwner FC-City-SantiagoDeCuba FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-Barracks)
+
+(citySize FC-City-SantiagoDeCuba (FreecivCitizenCountFn 3))
+
+(isa FC-City-SantiagoDeCuba FreeCiv-City)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 238))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)

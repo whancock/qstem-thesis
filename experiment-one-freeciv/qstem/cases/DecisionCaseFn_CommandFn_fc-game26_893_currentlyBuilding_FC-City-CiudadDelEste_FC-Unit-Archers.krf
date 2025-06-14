@@ -1,0 +1,182 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 893) (currentlyBuilding FC-City-CiudadDelEste FC-Unit-Archers)), dumped 8/10/2022 17:6:33 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 893) (currentlyBuilding FC-City-CiudadDelEste FC-Unit-Archers)))
+(isa CityFootprint-FC-City-CiudadDelEste CityFootprint)
+
+(footprintOf FC-City-CiudadDelEste CityFootprint-FC-City-CiudadDelEste)
+
+(numTurnsToBuild FC-City-CiudadDelEste (Turns 6))
+
+(cityGrowthRate FC-City-CiudadDelEste (Percent 0))
+
+(cityOwner FC-City-CiudadDelEste FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-Barracks)
+
+(citySize FC-City-CiudadDelEste (FreecivCitizenCountFn 4))
+
+(isa FC-City-CiudadDelEste FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(rcc8-PO CityFootprint-FC-City-CiudadDelEste ContinentBlob-2)
+
+(rcc8-TPP CityFootprint-FC-City-CiudadDelEste ContinentBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-CiudadDelEste CityFootprint-FC-City-Nyanza)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-207)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-218)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-230)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-239)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-260)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-270)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-283)
+
+(rcc8-TPP CityFootprint-FC-City-CiudadDelEste TerritoryBlob-0)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-151)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-150)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-195)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-205)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-207)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-218)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-221)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-228)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-230)
+
+(rcc8-EC TerritoryBlob-1 UnitFootprint-Unit-224)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-236)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-239)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-247)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-253)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-260)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-270)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-268)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-283)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-290)
+
+(rcc8-EC CityFootprint-FC-City-CiudadDelEste TerritoryBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-CiudadDelEste TerritoryBlob-397)
+
+(isa TerritoryBlob-397 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MutaraIII TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MutaraIII (GoldPoints 0))
+
+(currentGovernment FC-Player-MutaraIII FC-Anarchy)
+
+(isa FC-Player-MutaraIII FreeCiv-Player)
+
+(isa UnitFootprint-Unit-290 UnitFootprint)
+
+(isa UnitFootprint-Unit-268 UnitFootprint)
+
+(isa UnitFootprint-Unit-253 UnitFootprint)
+
+(isa UnitFootprint-Unit-247 UnitFootprint)
+
+(isa UnitFootprint-Unit-236 UnitFootprint)
+
+(isa UnitFootprint-Unit-224 UnitFootprint)
+
+(isa UnitFootprint-Unit-228 UnitFootprint)
+
+(isa UnitFootprint-Unit-221 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-205 UnitFootprint)
+
+(isa UnitFootprint-Unit-195 UnitFootprint)
+
+(isa UnitFootprint-Unit-151 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 292))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyDecreasingFunction))
+
+(isa UnitFootprint-Unit-283 UnitFootprint)
+
+(isa UnitFootprint-Unit-270 UnitFootprint)
+
+(isa UnitFootprint-Unit-260 UnitFootprint)
+
+(isa UnitFootprint-Unit-239 UnitFootprint)
+
+(isa UnitFootprint-Unit-230 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa CityFootprint-FC-City-Nyanza CityFootprint)
+
+(footprintOf FC-City-Nyanza CityFootprint-FC-City-Nyanza)
+
+(cityOwner FC-City-Nyanza FC-Player-MutaraIII)
+
+(citySize FC-City-Nyanza (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nyanza FreeCiv-City)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)

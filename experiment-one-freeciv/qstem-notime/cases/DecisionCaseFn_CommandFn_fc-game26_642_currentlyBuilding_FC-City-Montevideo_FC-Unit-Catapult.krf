@@ -1,0 +1,82 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 642) (currentlyBuilding FC-City-Montevideo FC-Unit-Catapult)), dumped 8/10/2022 16:59:17 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 642) (currentlyBuilding FC-City-Montevideo FC-Unit-Catapult)))
+(isa CityFootprint-FC-City-Montevideo CityFootprint)
+
+(footprintOf FC-City-Montevideo CityFootprint-FC-City-Montevideo)
+
+(numTurnsToBuild FC-City-Montevideo (Turns 6))
+
+(cityGrowthRate FC-City-Montevideo (Percent 0))
+
+(cityOwner FC-City-Montevideo FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-Palace)
+
+(citySize FC-City-Montevideo (FreecivCitizenCountFn 2))
+
+(isa FC-City-Montevideo FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo ContinentBlob-4)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo ContinentBlob-2)
+
+(rcc8-NTPP CityFootprint-FC-City-Montevideo ContinentBlob-1)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo CityFootprint-FC-City-LasPiedras)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-207)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-218)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-230)
+
+(rcc8-TPP CityFootprint-FC-City-Montevideo TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 206))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(isa UnitFootprint-Unit-230 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa CityFootprint-FC-City-LasPiedras CityFootprint)
+
+(footprintOf FC-City-LasPiedras CityFootprint-FC-City-LasPiedras)
+
+(numTurnsToBuild FC-City-LasPiedras (Turns 3))
+
+(numTurnsToGrow FC-City-LasPiedras (Turns 35))
+
+(cityGrowthRate FC-City-LasPiedras (Percent 1))
+
+(cityOwner FC-City-LasPiedras FC-Player-JoséArtigas)
+
+(citySize FC-City-LasPiedras (FreecivCitizenCountFn 3))
+
+(isa FC-City-LasPiedras FreeCiv-City)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-4 FreeCiv-TerrainBlob-Water)

@@ -1,0 +1,86 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 355) (currentlyBuilding FC-City-Nupurpet FC-Unit-Warriors)), dumped 8/10/2022 18:40:34 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 355) (currentlyBuilding FC-City-Nupurpet FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Nupurpet CityFootprint)
+
+(footprintOf FC-City-Nupurpet CityFootprint-FC-City-Nupurpet)
+
+(numTurnsToBuild FC-City-Nupurpet (Turns 4))
+
+(numTurnsToGrow FC-City-Nupurpet (Turns 10))
+
+(cityGrowthRate FC-City-Nupurpet (Percent 10))
+
+(cityOwner FC-City-Nupurpet FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Nupurpet FC-Building-Barracks)
+
+(citySize FC-City-Nupurpet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nupurpet FreeCiv-City)
+
+(rcc8-TPP CityFootprint-FC-City-Nupurpet ContinentBlob-6132)
+
+(rcc8-NTPP CityFootprint-FC-City-Nupurpet ContinentBlob-6131)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet CityFootprint-FC-City-Nayoroputo)
+
+(rcc8-TPP CityFootprint-FC-City-Nupurpet TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet TerritoryBlob-6378)
+
+(isa TerritoryBlob-6378 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 166))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Nayoroputo CityFootprint)
+
+(footprintOf FC-City-Nayoroputo CityFootprint-FC-City-Nayoroputo)
+
+(numTurnsToBuild FC-City-Nayoroputo (Turns 4))
+
+(numTurnsToGrow FC-City-Nayoroputo (Turns 14))
+
+(cityGrowthRate FC-City-Nayoroputo (Percent 5))
+
+(cityOwner FC-City-Nayoroputo FC-Player-KayanoShigeru)
+
+(citySize FC-City-Nayoroputo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nayoroputo FreeCiv-City)
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 1))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 26))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 2))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

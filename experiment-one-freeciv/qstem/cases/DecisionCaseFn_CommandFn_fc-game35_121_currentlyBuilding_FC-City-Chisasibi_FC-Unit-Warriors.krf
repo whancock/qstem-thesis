@@ -1,0 +1,66 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 121) (currentlyBuilding FC-City-Chisasibi FC-Unit-Warriors)), dumped 8/10/2022 20:20:35 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 121) (currentlyBuilding FC-City-Chisasibi FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Chisasibi CityFootprint)
+
+(footprintOf FC-City-Chisasibi CityFootprint-FC-City-Chisasibi)
+
+(numTurnsToBuild FC-City-Chisasibi (Turns 2))
+
+(numTurnsToGrow FC-City-Chisasibi (Turns 7))
+
+(cityGrowthRate FC-City-Chisasibi (Percent 10))
+
+(cityOwner FC-City-Chisasibi FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Palace)
+
+(citySize FC-City-Chisasibi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Chisasibi FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chisasibi) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chisasibi) Some))
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-8766)
+
+(rcc8-TPPi CityFootprint-FC-City-Chisasibi ContinentBlob-8765)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-8764)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-8763)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-8762)
+
+(rcc8-TPP CityFootprint-FC-City-Chisasibi TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-8925)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-8926)
+
+(isa TerritoryBlob-8926 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-8925 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 70))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8764 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8765 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8766 FreeCiv-TerrainBlob-Land)

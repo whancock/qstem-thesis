@@ -1,0 +1,3156 @@
+
+-4000 (T0)
+  1: (GameStartedEvent spatial-24-large)
+  2: (GoalActivationEvent (GoalFn 0))
+  3: (GoalActivationEvent (GoalFn 2))
+  4: (GoalActivationEvent (GoalFn 1))
+  5: (GoalActivationEvent (GoalFn 3))
+  6: (GoalActivationEvent (GoalFn 4))
+  7: (GoalActivationEvent (GoalFn 21))
+  8: (GoalActivationEvent (GoalFn 20))
+  9: (GoalActivationEvent (GoalFn 19))
+  10: (GoalActivationEvent (GoalFn 18))
+  11: (GoalActivationEvent (GoalFn 17))
+  12: (GoalActivationEvent (GoalFn 16))
+  13: (GoalActivationEvent (GoalFn 15))
+  14: (GoalActivationEvent (GoalFn 14))
+  15: (GoalActivationEvent (GoalFn 13))
+  16: (GoalActivationEvent (GoalFn 12))
+  17: (GoalActivationEvent (GoalFn 11))
+  18: (GoalActivationEvent (GoalFn 10))
+  19: (GoalActivationEvent (GoalFn 6))
+  20: (GoalActivationEvent (GoalFn 5))
+  21: (GoalActivationEvent (GoalFn 7))
+  22: (GoalActivationEvent (GoalFn 8))
+  23: (GoalActivationEvent (GoalFn 9))
+  24: (GoalActivationEvent (GoalFn 22))
+  25: (GoalActivationEvent (GoalFn 41))
+  26: (GoalActivationEvent (GoalFn 40))
+  27: (GoalActivationEvent (GoalFn 39))
+  28: (GoalActivationEvent (GoalFn 37))
+  29: (GoalActivationEvent (GoalFn 28))
+  30: (GoalActivationEvent (GoalFn 36))
+  31: (GoalActivationEvent (GoalFn 34))
+  32: (GoalActivationEvent (GoalFn 33))
+  33: (GoalActivationEvent (GoalFn 24))
+  34: (GoalActivationEvent (GoalFn 23))
+  35: (GoalActivationEvent (GoalFn 26))
+  36: (GoalActivationEvent (GoalFn 43))
+  37: (GoalActivationEvent (GoalFn 42))
+  38: (GoalActivationEvent (GoalFn 86))
+  39: (GoalActivationEvent (GoalFn 46))
+  40: (GoalActivationEvent (GoalFn 48))
+  41: (GoalActivationEvent (GoalFn 49))
+  42: (GoalActivationEvent (GoalFn 94))
+  43: (GoalActivationEvent (GoalFn 93))
+  44: (GoalActivationEvent (GoalFn 96))
+  45: (GoalActivationEvent (GoalFn 97))
+  46: (GoalActivationEvent (GoalFn 98))
+  47: (GoalActivationEvent (GoalFn 99))
+  48: (GoalActivationEvent (GoalFn 100))
+  49: (GoalActivationEvent (GoalFn 101))
+  50: (GoalActivationEvent (GoalFn 113))
+  51: (StrategyActivationEvent
+       (MFInstanceFn DefendBuild
+        (TheList FC-Player-MalandelaKaLuzumana (GoalFn 1) (GoalFn 6))))
+  52: (StrategyActivationEvent
+       (MFInstanceFn ConditionOnState
+        (TheList FC-Player-MalandelaKaLuzumana (GoalFn 42) ConquestPhase)))
+  53: (GoalDeactivationEvent (GoalFn 42))
+  54: (StrategyActivationEvent
+       (MFInstanceFn ConditionOnState
+        (TheList FC-Player-MalandelaKaLuzumana (GoalFn 44) LowFunds)))
+  55: (StrategyActivationEvent
+       (MFInstanceFn BuildGrow
+        (TheList FC-Player-MalandelaKaLuzumana (GoalFn 28))))
+  56: (GoalDeactivationEvent (GoalFn 98))
+  57: (GoalDeactivationEvent (GoalFn 99))
+  58: (GoalDeactivationEvent (GoalFn 100))
+  59: (GoalDeactivationEvent (GoalFn 101))
+  60: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Alphabet)
+  61: (doExplore Unit-109)
+  62: (doBuildCity Unit-106 (FreecivLocationFn 32 4))
+  63: (CityBuiltEvent FC-City-Zimbabwe (FreecivLocationFn 32 4))
+  64: (GoalActivationEvent (GoalFn 28))
+  65: (GoalActivationEvent (GoalFn 35))
+  66: (GoalActivationEvent (GoalFn 32))
+  67: (GoalActivationEvent (GoalFn 31))
+  68: (GoalActivationEvent (GoalFn 30))
+  69: (GoalActivationEvent (GoalFn 29))
+  70: (GoalActivationEvent (GoalFn 27))
+  71: (GoalActivationEvent (GoalFn 25))
+  72: (GoalActivationEvent (GoalFn 45))
+  73: (GoalActivationEvent (GoalFn 44))
+  74: (GoalActivationEvent (GoalFn 91))
+  75: (GoalActivationEvent (GoalFn 103))
+  76: (GoalActivationEvent (GoalFn 102))
+  77: (GoalActivationEvent (GoalFn 133))
+  78: (GoalActivationEvent (GoalFn 136))
+  79: (GoalActivationEvent (GoalFn 135))
+  80: (GoalActivationEvent (GoalFn 130))
+  81: (GoalActivationEvent (GoalFn 129))
+  82: (GoalActivationEvent (GoalFn 146))
+  83: (GoalActivationEvent (GoalFn 35))
+  84: (GoalActivationEvent (GoalFn 32))
+  85: (GoalActivationEvent (GoalFn 31))
+  86: (GoalActivationEvent (GoalFn 30))
+  87: (GoalActivationEvent (GoalFn 29))
+  88: (GoalActivationEvent (GoalFn 27))
+  89: (GoalActivationEvent (GoalFn 25))
+  90: (GoalActivationEvent (GoalFn 45))
+  91: (GoalActivationEvent (GoalFn 38))
+  92: (GoalActivationEvent (GoalFn 47))
+  93: (GoalActivationEvent (GoalFn 92))
+  94: (GoalActivationEvent (GoalFn 91))
+  95: (GoalActivationEvent (GoalFn 90))
+  96: (GoalActivationEvent (GoalFn 89))
+  97: (GoalActivationEvent (GoalFn 111))
+  98: (GoalActivationEvent (GoalFn 110))
+  99: (GoalActivationEvent (GoalFn 109))
+  100: (GoalActivationEvent (GoalFn 104))
+  101: (GoalActivationEvent (GoalFn 108))
+  102: (GoalActivationEvent (GoalFn 106))
+  103: (GoalActivationEvent (GoalFn 105))
+  104: (GoalActivationEvent (GoalFn 125))
+  105: (GoalActivationEvent (GoalFn 124))
+  106: (GoalActivationEvent (GoalFn 123))
+  107: (GoalActivationEvent (GoalFn 120))
+  108: (GoalActivationEvent (GoalFn 119))
+  109: (GoalActivationEvent (GoalFn 135))
+  110: (GoalActivationEvent (GoalFn 130))
+  111: (GoalActivationEvent (GoalFn 128))
+  112: (GoalActivationEvent (GoalFn 133))
+  113: (GoalActivationEvent (GoalFn 131))
+  114: (GoalActivationEvent (GoalFn 129))
+  115: (GoalActivationEvent (GoalFn 136))
+  116: (GoalActivationEvent (GoalFn 139))
+  117: (GoalActivationEvent (GoalFn 145))
+  118: (GoalActivationEvent (GoalFn 144))
+  119: (GoalActivationEvent (GoalFn 147))
+  120: (GoalActivationEvent (GoalFn 146))
+  121: (ImprovementBuiltEvent FC-City-Zimbabwe
+        (BuildingInstanceFn FC-City-Zimbabwe FC-Building-Palace))
+  122: (doGoToDest Unit-101 (FreecivLocationFn 39 7)
+        (TheList (doMove Unit-101 (FreecivLocationFn 33 5))
+         (doMove Unit-101 (FreecivLocationFn 34 5))
+         (doMove Unit-101 (FreecivLocationFn 35 5))
+         (doMove Unit-101 (FreecivLocationFn 36 4))
+         (doMove Unit-101 (FreecivLocationFn 37 5))
+         (doMove Unit-101 (FreecivLocationFn 38 6))
+         (doMove Unit-101 (FreecivLocationFn 39 7))))
+  123: (doChangeProduction FC-City-Zimbabwe FC-Unit-Settlers)
+  124: (CityProductionChangedEvent FC-City-Zimbabwe)
+  125: (ObjectDetectedEvent FC-City-Beograd (FreecivLocationFn 2 10))
+  126: (GoalActivationEvent (GoalFn 43))
+  127: (ObjectDetectedEvent FC-City-Lhasa (FreecivLocationFn 41 16))
+  128: (ObjectDetectedEvent FC-City-Gyantse (FreecivLocationFn 38 15))
+-3950 (T1)
+  129: (ObjectDetectedEvent Unit-113 (FreecivLocationFn 41 25))
+  130: (doExplore Unit-109)
+  131: (ObjectDetectedEvent FC-City-Fortaleza (FreecivLocationFn 13 9))
+  132: (ObjectDetectedEvent FC-City-NoviSad (FreecivLocationFn 3 14))
+-3900 (T2)
+  133: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 38 6)))
+  134: (doExplore Unit-109)
+-3850 (T3)
+  135: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 37 5))
+  136: (EnemyDetectedEvent Unit-101 Unit-121 (FreecivLocationFn 37 5))
+  137: (FirstContactEvent (FreecivLocationFn 37 5))
+  138: (DiplomaticMessageEvent)
+  139: (MeetingRequestedEvent FC-Player-ThuptenGyatso
+        FC-Player-MalandelaKaLuzumana)
+  140: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 36 5))
+  141: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 35 5))
+  142: (doAcceptTreaty FC-Player-MalandelaKaLuzumana FC-Player-ThuptenGyatso)
+  143: (MeetingCancelledEvent FC-Player-ThuptenGyatso
+        FC-Player-MalandelaKaLuzumana)
+  144: (DiplomaticMessageEvent)
+  145: (DiplomaticMessageEvent)
+  146: (TreatyCeaseFireEvent)
+  147: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 35 5)))
+  148: (doExplore Unit-109)
+  149: (ObjectDetectedEvent FC-City-Recife (FreecivLocationFn 12 7))
+-3800 (T4)
+  150: (EnemyDetectedEvent Unit-107 Unit-121 (FreecivLocationFn 34 5))
+  151: (EnemyDetectedEvent Unit-108 Unit-121 (FreecivLocationFn 34 5))
+  152: (EnemyDetectedEvent Unit-109 Unit-121 (FreecivLocationFn 34 5))
+  153: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 33 5))
+  154: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 33 4))
+  155: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 33 4)))
+  156: (doExplore Unit-109)
+-3750 (T5)
+  157: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 32 3))
+  158: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 31 3))
+  159: (EnemyDetectedEvent Unit-107 Unit-121 (FreecivLocationFn 31 3))
+  160: (EnemyDetectedEvent Unit-108 Unit-121 (FreecivLocationFn 31 3))
+  161: (EnemyDetectedEvent Unit-109 Unit-121 (FreecivLocationFn 31 3))
+  162: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 30 3)))
+  163: (doExplore Unit-109)
+-3700 (T6)
+  164: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 27 3)))
+  165: (doExplore Unit-109)
+-3650 (T7)
+  166: (EnemyDetectedEvent Unit-107 Unit-121 (FreecivLocationFn 30 4))
+  167: (EnemyDetectedEvent Unit-108 Unit-121 (FreecivLocationFn 30 4))
+  168: (EnemyDetectedEvent Unit-109 Unit-121 (FreecivLocationFn 30 4))
+  169: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 30 4)))
+  170: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 37 17)))
+  171: (doBuildCity Unit-101 (FreecivLocationFn 39 7))
+  172: (CityBuiltEvent FC-City-Ethekwini (FreecivLocationFn 39 7))
+  173: (doExplore Unit-109)
+  174: (doChangeProduction FC-City-Ethekwini FC-Unit-Settlers)
+  175: (CityProductionChangedEvent FC-City-Ethekwini)
+  176: (GoalActivationEvent (SGoalFn 6))
+  177: (doConnectBy Unit-108 (FreecivLocationFn 39 7) FC-Special-Road
+        (TheList (doMove Unit-108 (FreecivLocationFn 33 5))
+         (doMove Unit-108 (FreecivLocationFn 34 5))
+         (doMove Unit-108 (FreecivLocationFn 35 4))
+         (doMove Unit-108 (FreecivLocationFn 36 4))
+         (doMove Unit-108 (FreecivLocationFn 37 5))
+         (doMove Unit-108 (FreecivLocationFn 38 6))
+         (doMove Unit-108 (FreecivLocationFn 39 7))))
+-3600 (T8)
+  178: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 31 3))
+  179: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 32 3))
+  180: (EnemyDetectedEvent Unit-107 Unit-121 (FreecivLocationFn 32 3))
+  181: (EnemyDetectedEvent Unit-109 Unit-121 (FreecivLocationFn 32 3))
+  182: (EnemyDetectedEvent Unit-108 Unit-121 (FreecivLocationFn 32 3))
+  183: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 33 3))
+  184: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 33 3)))
+  185: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 38 16)))
+  186: (doExplore Unit-109)
+-3550 (T9)
+  187: (EnemyDetectedEvent Unit-108 Unit-121 (FreecivLocationFn 34 3))
+  188: (EnemyDetectedEvent Unit-107 Unit-121 (FreecivLocationFn 34 3))
+  189: (EnemyDetectedEvent Unit-109 Unit-121 (FreecivLocationFn 34 3))
+  190: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 36 4)))
+  191: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 17 11)))
+  192: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 13)))
+  193: (doExplore Unit-109)
+-3500 (T10)
+  194: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 38 6))
+  195: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 5)))
+  196: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 10)))
+  197: (doExplore Unit-109)
+-3450 (T11)
+  198: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 39 8))
+  199: (FirstContactEvent (FreecivLocationFn 39 8))
+  200: (DiplomaticMessageEvent)
+  201: (MeetingRequestedEvent FC-Player-StefanMilutin
+        FC-Player-MalandelaKaLuzumana)
+  202: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 40 7))
+  203: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 40 6))
+  204: (EnemyAdjacentEvent Unit-121 (FreecivLocationFn 41 6))
+  205: (doAcceptTreaty FC-Player-MalandelaKaLuzumana FC-Player-StefanMilutin)
+  206: (MeetingCancelledEvent FC-Player-StefanMilutin
+        FC-Player-MalandelaKaLuzumana)
+  207: (DiplomaticMessageEvent)
+  208: (DiplomaticMessageEvent)
+  209: (TreatyCeaseFireEvent)
+  210: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 6)))
+  211: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 7)))
+  212: (doExplore Unit-109)
+  213: (ObjectDetectedEvent Unit-136 (FreecivLocationFn 3 9))
+  214: (ObjectDetectedEvent Unit-137 (FreecivLocationFn 42 17))
+  215: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-Alphabet)
+-3400 (T12)
+  216: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 33 5))
+  217: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 39 6))
+  218: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 38 6))
+  219: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-CodeOfLaws)
+  220: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 9)))
+  221: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 37 5)))
+  222: (doExplore Unit-109)
+  223: (ObjectDetectedEvent Unit-138 (FreecivLocationFn 13 8))
+  224: (CityMaySoonGrowEvent FC-City-Ethekwini (FreecivLocationFn 39 7))
+-3350 (T13)
+  225: (EnemyDetectedEvent Unit-108 Unit-117 (FreecivLocationFn 36 4))
+  226: (EnemyDetectedEvent Unit-107 Unit-117 (FreecivLocationFn 34 3))
+  227: (EnemyDetectedEvent Unit-109 Unit-117 (FreecivLocationFn 34 3))
+  228: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 43 12)))
+  229: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 3)))
+  230: (doExplore Unit-109)
+  231: (ObjectDetectedEvent FC-City-SÃ£oPaulo (FreecivLocationFn 14 7))
+  232: (ObjectDetectedEvent FC-City-Shigatse (FreecivLocationFn 44 18))
+  233: (ObjectDetectedEvent FC-City-NiÅ¡ (FreecivLocationFn 4 8))
+  234: (CityGrowthEvent FC-City-Ethekwini FC-City-Ethekwini)
+  235: (CityCantBuildEvent FC-City-Zimbabwe)
+-3300 (T14)
+  236: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 33 3))
+  237: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 32 3))
+  238: (EnemyDetectedEvent Unit-107 Unit-117 (FreecivLocationFn 32 3))
+  239: (EnemyDetectedEvent Unit-109 Unit-117 (FreecivLocationFn 32 3))
+  240: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 31 3))
+  241: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 9 10)))
+  242: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 31 3)))
+  243: (doExplore Unit-109)
+  244: (ObjectDetectedEvent Unit-143 (FreecivLocationFn 2 15))
+  245: (CityCantBuildEvent FC-City-Zimbabwe)
+-3250 (T15)
+  246: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 34 5))
+  247: (EnemyDetectedEvent Unit-107 Unit-117 (FreecivLocationFn 30 3))
+  248: (EnemyDetectedEvent Unit-109 Unit-117 (FreecivLocationFn 30 3))
+  249: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  250: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 8)))
+  251: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 28 3)))
+  252: (doExplore Unit-109)
+  253: (CityCantBuildEvent FC-City-Zimbabwe)
+-3200 (T16)
+  254: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 5 6)))
+  255: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 29 4)))
+  256: (doExplore Unit-109)
+  257: (CityCantBuildEvent FC-City-Zimbabwe)
+-3150 (T17)
+  258: (EnemyDetectedEvent Unit-107 Unit-117 (FreecivLocationFn 30 4))
+  259: (EnemyDetectedEvent Unit-109 Unit-117 (FreecivLocationFn 30 4))
+  260: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 31 4))
+  261: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 32 3))
+  262: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 32 3)))
+  263: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 17)))
+  264: (doExplore Unit-109)
+  265: (ObjectDetectedEvent FC-City-Subotica (FreecivLocationFn 53 17))
+  266: (CityCantBuildEvent FC-City-Zimbabwe)
+  267: (DiplomaticMessageEvent)
+-3100 (T18)
+  268: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 33 4))
+  269: (EnemyDetectedEvent Unit-108 Unit-117 (FreecivLocationFn 33 4))
+  270: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 33 5))
+  271: (EnemyDetectedEvent Unit-107 Unit-117 (FreecivLocationFn 33 5))
+  272: (EnemyDetectedEvent Unit-109 Unit-117 (FreecivLocationFn 33 5))
+  273: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 34 5))
+  274: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  275: (doExplore Unit-109)
+  276: (CityCantBuildEvent FC-City-Zimbabwe)
+  277: (DiplomaticMessageEvent)
+  278: (CityMaySoonGrowEvent FC-City-Zimbabwe (FreecivLocationFn 32 4))
+-3050 (T19)
+  279: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 35 5))
+  280: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 36 5))
+  281: (EnemyDetectedEvent Unit-108 Unit-117 (FreecivLocationFn 36 5))
+  282: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 37 5)))
+  283: (doExplore Unit-109)
+  284: (CityCantBuildEvent FC-City-Zimbabwe)
+  285: (GoalActivationEvent (GoalFn 137))
+  286: (GoalActivationEvent (GoalFn 138))
+  287: (GoalActivationEvent (GoalFn 148))
+  288: (GoalActivationEvent (GoalFn 149))
+  289: (CityGrowthEvent FC-City-Zimbabwe FC-City-Zimbabwe)
+-3000 (T20)
+  290: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 35 4))
+  291: (EnemyDetectedEvent Unit-108 Unit-117 (FreecivLocationFn 37 5))
+  292: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 38 6))
+  293: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 40 6))
+  294: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 6)))
+  295: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 44 16)))
+  296: (doExplore Unit-109)
+  297: (doMove Unit-107 (FreecivLocationFn 32 3))
+  298: (doBuildRoad Unit-107 (FreecivLocationFn 32 3))
+  299: (GoalActivationEvent (GoalFn 147))
+  300: (UnitBuiltEvent FC-City-Ethekwini Unit-148)
+  301: (EnemyDetectedEvent Unit-148 Unit-117 (FreecivLocationFn 40 6))
+  302: (UnitBuiltEvent FC-City-Zimbabwe Unit-149)
+  303: (GoalDeactivationEvent (GoalFn 137))
+  304: (GoalDeactivationEvent (GoalFn 138))
+  305: (GoalDeactivationEvent (GoalFn 148))
+  306: (GoalDeactivationEvent (GoalFn 149))
+-2950 (T21)
+  307: (doChangeProduction FC-City-Ethekwini FC-Unit-Warriors)
+  308: (CityProductionChangedEvent FC-City-Ethekwini)
+  309: (doChangeProduction FC-City-Zimbabwe FC-Unit-Warriors)
+  310: (CityProductionChangedEvent FC-City-Zimbabwe)
+  311: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 8)))
+  312: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 7)))
+  313: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 44 16)))
+  314: (doExplore Unit-109)
+  315: (doGoToDest Unit-148 (FreecivLocationFn 39 10)
+        (TheList (doMove Unit-148 (FreecivLocationFn 40 7))
+         (doMove Unit-148 (FreecivLocationFn 41 8))
+         (doMove Unit-148 (FreecivLocationFn 40 9))
+         (doMove Unit-148 (FreecivLocationFn 39 10))))
+  316: (EnemyDetectedEvent Unit-148 Unit-117 (FreecivLocationFn 41 7))
+  317: (BadCommandEvent (FreecivLocationFn 40 7))
+  318: (UnitOrdersEvent Unit-148 (FreecivLocationFn 40 7))
+  319: (doGoToDest Unit-149 (FreecivLocationFn 29 3)
+        (TheList (doMove Unit-149 (FreecivLocationFn 31 3))
+         (doMove Unit-149 (FreecivLocationFn 30 3))
+         (doMove Unit-149 (FreecivLocationFn 29 3))))
+  320: (GoalActivationEvent (GoalFn 95))
+  321: (UnitBuiltEvent FC-City-Zimbabwe Unit-150)
+-2900 (T22)
+  322: (EnemyAdjacentEvent Unit-117 (FreecivLocationFn 41 8))
+  323: (EnemyDetectedEvent Unit-148 Unit-117 (FreecivLocationFn 41 9))
+  324: (doChangeProduction FC-City-Zimbabwe FC-Unit-Settlers)
+  325: (CityProductionChangedEvent FC-City-Zimbabwe)
+  326: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 10)))
+  327: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 44 16)))
+  328: (doGoToDest Unit-148 (FreecivLocationFn 41 11)
+        (TheList (doMove Unit-148 (FreecivLocationFn 41 8))
+         (doMove Unit-148 (FreecivLocationFn 41 9))
+         (doMove Unit-148 (FreecivLocationFn 41 10))
+         (doMove Unit-148 (FreecivLocationFn 41 11))))
+  329: (EnemyDetectedEvent Unit-148 Unit-117 (FreecivLocationFn 41 10))
+  330: (doExplore Unit-109)
+  331: (doMakeHomeCity Unit-150 FC-City-Zimbabwe)
+  332: (doSentry Unit-150 (FreecivLocationFn 32 4))
+  333: (CityMaySoonGrowEvent FC-City-Ethekwini (FreecivLocationFn 39 7))
+-2850 (T23)
+  334: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 36 4))
+  335: (ActivityCompletedEvent Unit-107 FC-ActivityRoad
+        (FreecivLocationFn 32 3))
+  336: (EnemyDetectedEvent Unit-148 Unit-117 (FreecivLocationFn 42 11))
+  337: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 44 12)))
+  338: (doExplore Unit-109)
+  339: (CityGrowthEvent FC-City-Ethekwini FC-City-Ethekwini)
+-2800 (T24)
+  340: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 47 14)))
+  341: (doBuildCity Unit-149 (FreecivLocationFn 29 3))
+  342: (CityBuiltEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+  343: (doExplore Unit-109)
+  344: (doChangeProduction FC-City-Ulundi FC-Building-Barracks)
+  345: (UnitBuiltEvent FC-City-Ethekwini Unit-155)
+-2750 (T25)
+  346: (doChangeProduction FC-City-Ethekwini FC-Unit-Settlers)
+  347: (CityProductionChangedEvent FC-City-Ethekwini)
+  348: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  349: (doExplore Unit-109)
+  350: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  351: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  352: (ObjectDetectedEvent Unit-153 (FreecivLocationFn 1 10))
+  353: (ObjectDetectedEvent Unit-154 (FreecivLocationFn 12 8))
+  354: (DiplomaticMessageEvent)
+-2700 (T26)
+  355: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 4 7)))
+  356: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  357: (doBuildCity Unit-148 (FreecivLocationFn 41 11))
+  358: (CityBuiltEvent FC-City-Harare (FreecivLocationFn 41 11))
+  359: (GoalActivationEvent (GoalFn 140))
+  360: (doExplore Unit-109)
+  361: (doGoToDest Unit-107 (FreecivLocationFn 41 11)
+        (TheList (doMove Unit-107 (FreecivLocationFn 32 4))
+         (doMove Unit-107 (FreecivLocationFn 33 5))
+         (doMove Unit-107 (FreecivLocationFn 34 5))
+         (doMove Unit-107 (FreecivLocationFn 35 4))
+         (doMove Unit-107 (FreecivLocationFn 36 4))
+         (doMove Unit-107 (FreecivLocationFn 37 5))
+         (doMove Unit-107 (FreecivLocationFn 38 6))
+         (doMove Unit-107 (FreecivLocationFn 39 7))
+         (doMove Unit-107 (FreecivLocationFn 40 7))
+         (doMove Unit-107 (FreecivLocationFn 41 8))
+         (doMove Unit-107 (FreecivLocationFn 41 9))
+         (doMove Unit-107 (FreecivLocationFn 41 10))
+         (doMove Unit-107 (FreecivLocationFn 41 11))))
+  362: (doChangeProduction FC-City-Harare FC-Unit-Settlers)
+  363: (CityProductionChangedEvent FC-City-Harare)
+  364: (DiplomaticMessageEvent)
+-2650 (T27)
+  365: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 3 10)))
+  366: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 47 14)))
+  367: (doExplore Unit-109)
+  368: (ObjectDetectedEvent FC-City-PanÄevo (FreecivLocationFn 53 7))
+  369: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-CodeOfLaws)
+-2600 (T28)
+  370: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 37 5))
+  371: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Masonry)
+  372: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 4 13)))
+  373: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 44 12)))
+  374: (doExplore Unit-109)
+-2550 (T29)
+  375: (ObjectDetectedEvent Unit-161 (FreecivLocationFn 44 19))
+  376: (ObjectDetectedEvent Unit-160 (FreecivLocationFn 41 17))
+  377: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 42 11))
+  378: (FirstContactEvent (FreecivLocationFn 42 11))
+  379: (DiplomaticMessageEvent)
+  380: (MeetingRequestedEvent FC-Player-GetÃºlioVargas
+        FC-Player-MalandelaKaLuzumana)
+  381: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 41 10))
+  382: (doAcceptTreaty FC-Player-MalandelaKaLuzumana FC-Player-GetÃºlioVargas)
+  383: (MeetingCancelledEvent FC-Player-GetÃºlioVargas
+        FC-Player-MalandelaKaLuzumana)
+  384: (DiplomaticMessageEvent)
+  385: (DiplomaticMessageEvent)
+  386: (TreatyCeaseFireEvent)
+  387: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 4 16)))
+  388: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 10)))
+  389: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 19)))
+  390: (doExplore Unit-109)
+  391: (ObjectDetectedEvent FC-City-Curitiba (FreecivLocationFn 9 10))
+  392: (CityCantBuildEvent FC-City-Zimbabwe)
+-2500 (T30)
+  393: (EnemyDetectedEvent Unit-107 Unit-125 (FreecivLocationFn 41 10))
+  394: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 41 9))
+  395: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 40 8))
+  396: (EnemyDetectedEvent Unit-155 Unit-125 (FreecivLocationFn 40 8))
+  397: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 41 7))
+  398: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 1 16)))
+  399: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 7)))
+  400: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 21)))
+  401: (doExplore Unit-109)
+  402: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  403: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  404: (CityCantBuildEvent FC-City-Zimbabwe)
+-2450 (T31)
+  405: (EnemyDetectedEvent Unit-107 Unit-125 (FreecivLocationFn 41 7))
+  406: (EnemyDetectedEvent Unit-155 Unit-125 (FreecivLocationFn 41 6))
+  407: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 40 6))
+  408: (EnemyDetectedEvent Unit-108 Unit-125 (FreecivLocationFn 40 6))
+  409: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 17)))
+  410: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 6)))
+  411: (doExplore Unit-109)
+  412: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  413: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  414: (CityCantBuildEvent FC-City-Zimbabwe)
+-2400 (T32)
+  415: (EnemyDetectedEvent Unit-155 Unit-125 (FreecivLocationFn 40 6))
+  416: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 39 5))
+  417: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 39 6))
+  418: (EnemyDetectedEvent Unit-108 Unit-125 (FreecivLocationFn 39 6))
+  419: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 40 7))
+  420: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 17)))
+  421: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 7)))
+  422: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 21)))
+  423: (doExplore Unit-109)
+  424: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  425: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  426: (ObjectDetectedEvent Unit-164 (FreecivLocationFn 42 17))
+  427: (CityCantBuildEvent FC-City-Zimbabwe)
+  428: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-Masonry)
+  429: (CityMaySoonGrowEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+-2350 (T33)
+  430: (ActivityCompletedEvent Unit-108 FC-ActivityRoad
+        (FreecivLocationFn 38 6))
+  431: (EnemyDetectedEvent Unit-108 Unit-125 (FreecivLocationFn 40 7))
+  432: (EnemyDetectedEvent Unit-155 Unit-125 (FreecivLocationFn 40 7))
+  433: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 39 6))
+  434: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 38 6))
+  435: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Pottery)
+  436: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 14)))
+  437: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 37 5)))
+  438: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 2 3)))
+  439: (doMine Unit-107 (FreecivLocationFn 41 11))
+  440: (doExplore Unit-109)
+  441: (doMine Unit-107 (FreecivLocationFn 41 11))
+  442: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  443: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  444: (GoalActivationEvent (SGoalFn 13))
+  445: (doGoToDest Unit-108 (FreecivLocationFn 32 4)
+        (TheList (doMove Unit-108 (FreecivLocationFn 38 6))
+         (doMove Unit-108 (FreecivLocationFn 37 5))
+         (doMove Unit-108 (FreecivLocationFn 36 4))
+         (doMove Unit-108 (FreecivLocationFn 35 4))
+         (doMove Unit-108 (FreecivLocationFn 34 5))
+         (doMove Unit-108 (FreecivLocationFn 33 5))
+         (doMove Unit-108 (FreecivLocationFn 32 4))))
+  446: (EnemyDetectedEvent Unit-108 Unit-125 (FreecivLocationFn 37 5))
+  447: (UnitOrdersEvent Unit-108 (FreecivLocationFn 38 6))
+  448: (CityCantBuildEvent FC-City-Zimbabwe)
+  449: (CityGrowthEvent FC-City-Ulundi FC-City-Ulundi)
+-2300 (T34)
+  450: (ObjectDetectedEvent Unit-166 (FreecivLocationFn 40 25))
+  451: (EnemyDetectedEvent Unit-150 Unit-125 (FreecivLocationFn 34 3))
+  452: (EnemyDetectedEvent Unit-109 Unit-125 (FreecivLocationFn 34 3))
+  453: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 1 13)))
+  454: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 3)))
+  455: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 38 18)))
+  456: (doExplore Unit-109)
+  457: (CityCantBuildEvent FC-City-Zimbabwe)
+  458: (GoalActivationEvent (GoalFn 147))
+  459: (UnitBuiltEvent FC-City-Ethekwini Unit-170)
+  460: (CityGrowthEvent FC-City-Ethekwini FC-City-Ethekwini)
+  461: (CityMaySoonGrowEvent FC-City-Harare (FreecivLocationFn 41 11))
+-2250 (T35)
+  462: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 33 3))
+  463: (EnemyDetectedEvent Unit-150 Unit-125 (FreecivLocationFn 33 3))
+  464: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 32 3))
+  465: (EnemyDetectedEvent Unit-109 Unit-125 (FreecivLocationFn 32 3))
+  466: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 31 3))
+  467: (ObjectDetectedEvent Unit-169 (FreecivLocationFn 2 11))
+  468: (ObjectDetectedEvent Unit-168 (FreecivLocationFn 40 25))
+  469: (EnemyDetectedEvent Unit-107 Unit-161 (FreecivLocationFn 41 13))
+  470: (doChangeProduction FC-City-Ethekwini FC-Unit-Settlers)
+  471: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 31 3)))
+  472: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 5)))
+  473: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 13)))
+  474: (doExplore Unit-109)
+  475: (doGoToDest Unit-170 (FreecivLocationFn 35 5)
+        (TheList (doMove Unit-170 (FreecivLocationFn 38 6))
+         (doMove Unit-170 (FreecivLocationFn 37 5))
+         (doMove Unit-170 (FreecivLocationFn 36 4))
+         (doMove Unit-170 (FreecivLocationFn 35 5))))
+  476: (doMakeHomeCity Unit-150 FC-City-Zimbabwe)
+  477: (doSentry Unit-150 (FreecivLocationFn 32 4))
+  478: (CityGrowthEvent FC-City-Harare FC-City-Harare)
+  479: (CityCantBuildEvent FC-City-Zimbabwe)
+-2200 (T36)
+  480: (ObjectDetectedEvent Unit-175 (FreecivLocationFn 41 15))
+  481: (EnemyAdjacentEvent Unit-175 (FreecivLocationFn 40 14))
+  482: (ObjectDetectedEvent Unit-174 (FreecivLocationFn 43 18))
+  483: (ObjectDetectedEvent Unit-173 (FreecivLocationFn 39 15))
+  484: (EnemyAdjacentEvent Unit-173 (FreecivLocationFn 40 13))
+  485: (EnemyDetectedEvent Unit-107 Unit-173 (FreecivLocationFn 40 13))
+  486: (EnemyAdjacentEvent Unit-173 (FreecivLocationFn 41 12))
+  487: (EnemyAdjacentEvent Unit-161 (FreecivLocationFn 42 12))
+  488: (EnemyAdjacentEvent Unit-160 (FreecivLocationFn 40 13))
+  489: (EnemyDetectedEvent Unit-107 Unit-160 (FreecivLocationFn 40 13))
+  490: (EnemyAdjacentEvent Unit-160 (FreecivLocationFn 40 12))
+  491: (EnemyDetectedEvent Unit-150 Unit-125 (FreecivLocationFn 31 3))
+  492: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 30 3))
+  493: (EnemyDetectedEvent Unit-109 Unit-125 (FreecivLocationFn 30 3))
+  494: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 29 4))
+  495: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 28 3))
+  496: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 28 3)))
+  497: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 42 12)))
+  498: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 12)))
+  499: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 13)))
+  500: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 15)))
+  501: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 12)))
+  502: (doExplore Unit-109)
+  503: (doMakeHomeCity Unit-150 FC-City-Zimbabwe)
+  504: (doSentry Unit-150 (FreecivLocationFn 32 4))
+  505: (ObjectDetectedEvent FC-City-Chamdo (FreecivLocationFn 47 16))
+  506: (ObjectDetectedEvent Unit-172 (FreecivLocationFn 12 9))
+  507: (ObjectDetectedEvent Unit-171 (FreecivLocationFn 13 8))
+  508: (CityCantBuildEvent FC-City-Zimbabwe)
+-2150 (T37)
+  509: (EnemyAdjacentEvent Unit-175 (FreecivLocationFn 40 12))
+  510: (EnemyDetectedEvent Unit-107 Unit-175 (FreecivLocationFn 40 12))
+  511: (EnemyAdjacentEvent Unit-174 (FreecivLocationFn 40 13))
+  512: (EnemyDetectedEvent Unit-107 Unit-174 (FreecivLocationFn 40 13))
+  513: (DefenderDestroyedEvent Unit-107 (FreecivLocationFn 41 11))
+  514: (EnemyAdjacentEvent Unit-161 (FreecivLocationFn 41 11))
+  515: (CityDestructionEvent FC-City-Harare (FreecivLocationFn 41 11))
+  516: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 28 3))
+  517: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 29 4))
+  518: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 29 4)))
+  519: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 8 10)))
+  520: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 10)))
+  521: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 11)))
+  522: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 12)))
+  523: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 13)))
+  524: (doBuildCity Unit-170 (FreecivLocationFn 35 5))
+  525: (CityBuiltEvent FC-City-Maputo (FreecivLocationFn 35 5))
+  526: (doExplore Unit-109)
+  527: (doChangeProduction FC-City-Maputo FC-Building-CityWalls)
+  528: (CityProductionChangedEvent FC-City-Maputo)
+  529: (ObjectDetectedEvent Unit-177 (FreecivLocationFn 1 11))
+  530: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-Pottery)
+  531: (CityCantBuildEvent FC-City-Zimbabwe)
+-2100 (T38)
+  532: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 30 4))
+  533: (EnemyDetectedEvent Unit-150 Unit-125 (FreecivLocationFn 30 4))
+  534: (EnemyDetectedEvent Unit-109 Unit-125 (FreecivLocationFn 30 4))
+  535: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 31 4))
+  536: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 32 3))
+  537: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-WarriorCode)
+  538: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 32 3)))
+  539: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 11)))
+  540: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 10)))
+  541: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 10)))
+  542: (doExplore Unit-109)
+  543: (doMakeHomeCity Unit-150 FC-City-Zimbabwe)
+  544: (doSentry Unit-150 (FreecivLocationFn 32 4))
+  545: (ImprovementSelectedByDefaultEvent FC-City-Ulundi
+        (FreecivLocationFn 29 3))
+  546: (CityCantBuildEvent FC-City-Zimbabwe)
+  547: (CityProductionChangedEvent FC-City-Ulundi)
+  548: (ImprovementBuiltEvent FC-City-Ulundi
+        (BuildingInstanceFn FC-City-Ulundi FC-Building-Barracks))
+-2050 (T39)
+  549: (EnemyDetectedEvent Unit-155 Unit-161 (FreecivLocationFn 41 8))
+  550: (EnemyDetectedEvent Unit-150 Unit-125 (FreecivLocationFn 32 3))
+  551: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 33 4))
+  552: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 33 5))
+  553: (EnemyDetectedEvent Unit-109 Unit-125 (FreecivLocationFn 33 5))
+  554: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 34 5))
+  555: (doChangeProduction FC-City-Ulundi FC-Building-CityWalls)
+  556: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  557: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 10)))
+  558: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 8)))
+  559: (doExplore Unit-109)
+  560: (doMakeHomeCity Unit-150 FC-City-Zimbabwe)
+  561: (doSentry Unit-150 (FreecivLocationFn 32 4))
+  562: (ObjectDetectedEvent FC-City-Zemun (FreecivLocationFn 0 10))
+  563: (CityCantBuildEvent FC-City-Zimbabwe)
+-2000 (T40)
+  564: (EnemyAdjacentEvent Unit-161 (FreecivLocationFn 40 7))
+  565: (EnemyDetectedEvent Unit-108 Unit-161 (FreecivLocationFn 40 7))
+  566: (GoalActivationEvent (GoalFn 137))
+  567: (GoalActivationEvent (GoalFn 138))
+  568: (GoalActivationEvent (GoalFn 148))
+  569: (GoalActivationEvent (GoalFn 149))
+  570: (EnemyDetectedEvent Unit-155 Unit-161 (FreecivLocationFn 40 7))
+  571: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  572: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 10)))
+  573: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 7)))
+  574: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 21)))
+  575: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 21)))
+  576: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 10)))
+  577: (doExplore Unit-109)
+  578: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  579: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  580: (ObjectDetectedEvent FC-City-Salvador (FreecivLocationFn 7 10))
+  581: (ObjectDetectedEvent FC-City-RioDeJaneiro (FreecivLocationFn 17 10))
+  582: (CityCantBuildEvent FC-City-Zimbabwe)
+-1950 (T41)
+  583: (DefenderSurvivedEvent Unit-155 (FreecivLocationFn 39 7))
+  584: (GoalDeactivationEvent (SGoalFn 11))
+  585: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  586: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 14)))
+  587: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 10)))
+  588: (doExplore Unit-109)
+  589: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-WarriorCode)
+  590: (CityCantBuildEvent FC-City-Zimbabwe)
+-1900 (T42)
+  591: (ObjectDetectedEvent Unit-186 (FreecivLocationFn 39 16))
+  592: (ObjectDetectedEvent Unit-185 (FreecivLocationFn 41 17))
+  593: (ObjectDetectedEvent Unit-184 (FreecivLocationFn 43 19))
+  594: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-HorsebackRiding)
+  595: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  596: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  597: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 10)))
+  598: (doExplore Unit-109)
+  599: (CityCantBuildEvent FC-City-Zimbabwe)
+  600: (CityMaySoonGrowEvent FC-City-Zimbabwe (FreecivLocationFn 32 4))
+-1850 (T43)
+  601: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  602: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 9)))
+  603: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 20)))
+  604: (doExplore Unit-109)
+  605: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  606: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  607: (ObjectDetectedEvent Unit-187 (FreecivLocationFn 13 6))
+  608: (CityCantBuildEvent FC-City-Zimbabwe)
+  609: (CityGrowthEvent FC-City-Zimbabwe FC-City-Zimbabwe)
+  610: (DiplomaticMessageEvent)
+-1800 (T44)
+  611: (ObjectDetectedEvent Unit-188 (FreecivLocationFn 52 16))
+  612: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  613: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 9)))
+  614: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  615: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 21)))
+  616: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 21)))
+  617: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 21)))
+  618: (doExplore Unit-109)
+  619: (WonderStarted (FreecivLocationFn 2 10))
+  620: (GoalActivationEvent (GoalFn 147))
+  621: (UnitBuiltEvent FC-City-Zimbabwe Unit-194)
+  622: (EnemyDetectedEvent Unit-194 Unit-125 (FreecivLocationFn 34 5))
+  623: (DiplomaticMessageEvent)
+-1750 (T45)
+  624: (ObjectDetectedEvent Unit-158 (FreecivLocationFn 40 25))
+  625: (doChangeProduction FC-City-Zimbabwe FC-Coinage)
+  626: (CityProductionChangedEvent FC-City-Zimbabwe)
+  627: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  628: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 9)))
+  629: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  630: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 15)))
+  631: (doExplore Unit-109)
+  632: (doGoToDest Unit-194 (FreecivLocationFn 41 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 33 5))
+         (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 41 10))
+         (doMove Unit-194 (FreecivLocationFn 41 11))))
+  633: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  634: (ObjectDetectedEvent FC-City-BeloHorizonte (FreecivLocationFn 12 5))
+  635: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-HorsebackRiding)
+  636: (CityMaySoonGrowEvent FC-City-Maputo (FreecivLocationFn 35 5))
+-1700 (T46)
+  637: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-CeremonialBurial)
+  638: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  639: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  640: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 21)))
+  641: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 16)))
+  642: (doExplore Unit-109)
+  643: (doGoToDest Unit-194 (FreecivLocationFn 41 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 41 10))
+         (doMove Unit-194 (FreecivLocationFn 41 11))))
+  644: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  645: (ObjectDetectedEvent Unit-196 (FreecivLocationFn 41 15))
+  646: (CityGrowthEvent FC-City-Maputo FC-City-Maputo)
+  647: (CityMaySoonGrowEvent FC-City-Ethekwini (FreecivLocationFn 39 7))
+-1650 (T47)
+  648: (ObjectDetectedEvent Unit-191 (FreecivLocationFn 52 8))
+  649: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  650: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  651: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  652: (doExplore Unit-109)
+  653: (doGoToDest Unit-194 (FreecivLocationFn 41 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 41 10))
+         (doMove Unit-194 (FreecivLocationFn 41 11))))
+  654: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  655: (CityGrowthEvent FC-City-Ethekwini FC-City-Ethekwini)
+  656: (CityMaySoonGrowEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+-1600 (T48)
+  657: (CityDestructionEvent FC-City-Chamdo (FreecivLocationFn 47 16))
+  658: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  659: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 45 15)))
+  660: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  661: (doExplore Unit-109)
+  662: (doGoToDest Unit-194 (FreecivLocationFn 41 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 41 10))
+         (doMove Unit-194 (FreecivLocationFn 41 11))))
+  663: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  664: (ObjectDetectedEvent Unit-201 (FreecivLocationFn 2 15))
+  665: (CityGrowthEvent FC-City-Ulundi FC-City-Ulundi)
+  666: (UnitBuiltEvent FC-City-Ethekwini Unit-202)
+-1550 (T49)
+  667: (doChangeProduction FC-City-Ethekwini FC-Unit-Archers)
+  668: (CityProductionChangedEvent FC-City-Ethekwini)
+  669: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  670: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  671: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 15)))
+  672: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  673: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  674: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  675: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 44 12)))
+  676: (doExplore Unit-109)
+  677: (doGoToDest Unit-194 (FreecivLocationFn 27 3)
+        (TheList (doMove Unit-194 (FreecivLocationFn 32 4))
+         (doMove Unit-194 (FreecivLocationFn 31 3))
+         (doMove Unit-194 (FreecivLocationFn 30 3))
+         (doMove Unit-194 (FreecivLocationFn 29 3))
+         (doMove Unit-194 (FreecivLocationFn 28 3))
+         (doMove Unit-194 (FreecivLocationFn 27 3))))
+  678: (EnemyDetectedEvent Unit-194 Unit-125 (FreecivLocationFn 34 5))
+  679: (doGoToDest Unit-202 (FreecivLocationFn 39 11)
+        (TheList (doMove Unit-202 (FreecivLocationFn 40 7))
+         (doMove Unit-202 (FreecivLocationFn 41 8))
+         (doMove Unit-202 (FreecivLocationFn 41 9))
+         (doMove Unit-202 (FreecivLocationFn 40 10))
+         (doMove Unit-202 (FreecivLocationFn 39 11))))
+  680: (ObjectDetectedEvent FC-City-Chamdo (FreecivLocationFn 44 12))
+  681: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-CeremonialBurial)
+-1500 (T50)
+  682: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Mysticism)
+  683: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  684: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  685: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 14)))
+  686: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  687: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 15)))
+  688: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  689: (doExplore Unit-109)
+  690: (ObjectDetectedEvent FC-City-Kragujevac (FreecivLocationFn 3 16))
+-1450 (T51)
+  691: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  692: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  693: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 14)))
+  694: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 14)))
+  695: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 14)))
+  696: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 14)))
+  697: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  698: (doExplore Unit-109)
+  699: (WonderStarted (FreecivLocationFn 13 9))
+-1400 (T52)
+  700: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  701: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  702: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 13)))
+  703: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 13)))
+  704: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 13)))
+  705: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 13)))
+  706: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  707: (doExplore Unit-109)
+  708: (ObjectDetectedEvent Unit-197 (FreecivLocationFn 38 21))
+  709: (ObjectDetectedEvent Unit-208 (FreecivLocationFn 13 8))
+-1350 (T53)
+  710: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  711: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 13)))
+  712: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  713: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 12)))
+  714: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 14)))
+  715: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 14)))
+  716: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 12)))
+  717: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  718: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 14)))
+  719: (doBuildCity Unit-202 (FreecivLocationFn 39 11))
+  720: (CityBuiltEvent FC-City-Harare (FreecivLocationFn 39 11))
+  721: (doBuildRoad Unit-194 (FreecivLocationFn 27 3))
+  722: (doExplore Unit-109)
+  723: (doBuildRoad Unit-194 (FreecivLocationFn 27 3))
+  724: (doChangeProduction FC-City-Harare FC-Building-CityWalls)
+  725: (CityProductionChangedEvent FC-City-Harare)
+  726: (ObjectDetectedEvent Unit-213 (FreecivLocationFn 14 8))
+  727: (ObjectDetectedEvent FC-City-PiteÅti (FreecivLocationFn 38 21))
+  728: (ObjectDetectedEvent Unit-112 (FreecivLocationFn 42 25))
+-1300 (T54)
+  729: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  730: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 42 12)))
+  731: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  732: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 13)))
+  733: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 25)))
+  734: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 12)))
+  735: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 13)))
+  736: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 11)))
+  737: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  738: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 14)))
+  739: (doExplore Unit-109)
+-1250 (T55)
+  740: (ObjectDetectedEvent Unit-212 (FreecivLocationFn 0 10))
+  741: (ObjectDetectedEvent Unit-204 (FreecivLocationFn 52 16))
+  742: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  743: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 42 12)))
+  744: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  745: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 14)))
+  746: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 14)))
+  747: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 14)))
+  748: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 14)))
+  749: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 13)))
+  750: (doExplore Unit-109)
+  751: (ObjectDetectedEvent FC-City-BelÃ©m (FreecivLocationFn 14 12))
+  752: (ObjectDetectedEvent Unit-219 (FreecivLocationFn 52 17))
+  753: (UnitBuiltEvent FC-City-Ethekwini Unit-224)
+-1200 (T56)
+  754: (ActivityCompletedEvent Unit-194 FC-ActivityRoad
+        (FreecivLocationFn 27 3))
+  755: (ObjectDetectedEvent Unit-225 (FreecivLocationFn 45 18))
+  756: (ObjectDetectedEvent Unit-220 (FreecivLocationFn 39 15))
+  757: (ObjectDetectedEvent Unit-217 (FreecivLocationFn 41 15))
+  758: (doChangeProduction FC-City-Ethekwini FC-Coinage)
+  759: (CityProductionChangedEvent FC-City-Ethekwini)
+  760: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  761: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 42 12)))
+  762: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 6 10)))
+  763: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 13)))
+  764: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 13)))
+  765: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 13)))
+  766: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 14)))
+  767: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 14)))
+  768: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 13)))
+  769: (doExplore Unit-109)
+  770: (doIrrigate Unit-194 (FreecivLocationFn 27 3))
+  771: (GoalActivationEvent (SGoalFn 26))
+  772: (doMove Unit-224 (FreecivLocationFn 40 7))
+  773: (doFortify Unit-224)
+  774: (doMove Unit-224 (FreecivLocationFn 41 8))
+  775: (doFortify Unit-224)
+  776: (doFortify Unit-224)
+  777: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-Mysticism)
+-1150 (T57)
+  778: (ObjectDetectedEvent Unit-199 (FreecivLocationFn 52 8))
+  779: (doMove Unit-224 (FreecivLocationFn 41 9))
+  780: (doFortify Unit-224)
+  781: (doFortify Unit-224)
+  782: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Monarchy)
+  783: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  784: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 42 12)))
+  785: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 7 9)))
+  786: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 1 12)))
+  787: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 12)))
+  788: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 13)))
+  789: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 1 13)))
+  790: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  791: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 13)))
+  792: (doExplore Unit-109)
+-1100 (T58)
+  793: (EnemyAdjacentEvent Unit-220 (FreecivLocationFn 40 12))
+  794: (doMove Unit-224 (FreecivLocationFn 41 10))
+  795: (EnemyDetectedEvent Unit-224 Unit-220 (FreecivLocationFn 40 12))
+  796: (EnemyDetectedEvent Unit-224 Unit-119 (FreecivLocationFn 42 12))
+  797: (doFortify Unit-224)
+  798: (doFortify Unit-224)
+  799: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  800: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 42 12)))
+  801: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 2 11)))
+  802: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 12)))
+  803: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 12)))
+  804: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 12)))
+  805: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 17)))
+  806: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 12)))
+  807: (doExplore Unit-109)
+  808: (WonderStopped (FreecivLocationFn 2 10))
+-1050 (T59)
+  809: (ObjectDetectedEvent Unit-227 (FreecivLocationFn 2 10))
+  810: (CityDestructionEvent FC-City-Harare (FreecivLocationFn 39 11))
+  811: (doMove Unit-224 (FreecivLocationFn 42 11))
+  812: (doFortify Unit-224)
+  813: (doFortify Unit-224)
+  814: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  815: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 1 13)))
+  816: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 13)))
+  817: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 1 12)))
+  818: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  819: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  820: (doExplore Unit-109)
+-1000 (T60)
+  821: (ObjectDetectedEvent Unit-233 (FreecivLocationFn 2 11))
+  822: (EnemyDetectedEvent Unit-224 Unit-217 (FreecivLocationFn 42 13))
+  823: (doMove Unit-224 (FreecivLocationFn 43 12))
+  824: (BadCommandEvent (FreecivLocationFn 42 11))
+  825: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  826: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 13)))
+  827: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 14)))
+  828: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 18 16)))
+  829: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 17)))
+  830: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  831: (doExplore Unit-109)
+  832: (ObjectDetectedEvent Unit-234 (FreecivLocationFn 42 17))
+-975 (T61)
+  833: (ActivityCompletedEvent Unit-194 FC-ActivityIrrigate
+        (FreecivLocationFn 27 3))
+  834: (ObjectDetectedEvent Unit-236 (FreecivLocationFn 1 11))
+  835: (ObjectDetectedEvent Unit-192 (FreecivLocationFn 5 8))
+  836: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  837: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 53 12)))
+  838: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  839: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 17)))
+  840: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  841: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 12)))
+  842: (doExplore Unit-109)
+  843: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 28 3))
+         (doMove Unit-194 (FreecivLocationFn 29 3))
+         (doMove Unit-194 (FreecivLocationFn 30 3))
+         (doMove Unit-194 (FreecivLocationFn 31 3))
+         (doMove Unit-194 (FreecivLocationFn 32 3))
+         (doMove Unit-194 (FreecivLocationFn 32 4))
+         (doMove Unit-194 (FreecivLocationFn 33 5))
+         (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 40 10))
+         (doMove Unit-194 (FreecivLocationFn 39 11))))
+  844: (ObjectDetectedEvent Unit-237 (FreecivLocationFn 13 8))
+  845: (ObjectDetectedEvent FC-City-Campinas (FreecivLocationFn 19 17))
+-950 (T62)
+  846: (ObjectDetectedEvent Unit-240 (FreecivLocationFn 44 17))
+  847: (DefenderDestroyedEvent Unit-224 (FreecivLocationFn 42 11))
+  848: (ObjectDetectedEvent Unit-241 (FreecivLocationFn 0 7))
+  849: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  850: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 0 13)))
+  851: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  852: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  853: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  854: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 41 12)))
+  855: (doExplore Unit-109)
+  856: (ObjectDetectedEvent FC-City-Nagchu (FreecivLocationFn 47 16))
+  857: (WonderStarted)
+  858: (ObjectDetectedEvent Unit-242 (FreecivLocationFn 52 16))
+-925 (T63)
+  859: (ObjectDetectedEvent Unit-245 (FreecivLocationFn 8 10))
+  860: (ObjectDetectedEvent Unit-198 (FreecivLocationFn 45 18))
+  861: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  862: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 1 13)))
+  863: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  864: (doExplore Unit-109)
+  865: (ObjectDetectedEvent Unit-244 (FreecivLocationFn 2 15))
+  866: (ImprovementSelectedByDefaultEvent FC-City-Maputo
+        (FreecivLocationFn 35 5))
+  867: (CityProductionChangedEvent FC-City-Maputo)
+  868: (ImprovementBuiltEvent FC-City-Maputo
+        (BuildingInstanceFn FC-City-Maputo FC-Building-CityWalls))
+-900 (T64)
+  869: (ObjectDetectedEvent Unit-218 (FreecivLocationFn 2 14))
+  870: (doChangeProduction FC-City-Maputo FC-Unit-Settlers)
+  871: (CityProductionChangedEvent FC-City-Maputo)
+  872: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  873: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 2 12)))
+  874: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  875: (doExplore Unit-109)
+  876: (WonderStopped (FreecivLocationFn 13 9))
+  877: (WonderStarted (FreecivLocationFn 13 9))
+  878: (CityMaySoonGrowEvent FC-City-Ethekwini (FreecivLocationFn 39 7))
+-875 (T65)
+  879: (ObjectDetectedEvent Unit-235 (FreecivLocationFn 3 9))
+  880: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  881: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  882: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 15)))
+  883: (doExplore Unit-109)
+  884: (ObjectDetectedEvent FC-City-Zrenjanin (FreecivLocationFn 50 15))
+  885: (CityGrowthEvent FC-City-Ethekwini FC-City-Ethekwini)
+-850 (T66)
+  886: (EnemyDetectedEvent Unit-194 Unit-125 (FreecivLocationFn 34 5))
+  887: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  888: (ObjectDetectedEvent Unit-250 (FreecivLocationFn 53 8))
+  889: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  890: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  891: (doExplore Unit-109)
+  892: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 40 10))
+         (doMove Unit-194 (FreecivLocationFn 39 11))))
+  893: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  894: (ObjectDetectedEvent Unit-251 (FreecivLocationFn 13 8))
+  895: (WonderStarted (FreecivLocationFn 2 10))
+-825 (T67)
+  896: (ObjectDetectedEvent Unit-252 (FreecivLocationFn 39 16))
+  897: (ObjectDetectedEvent Unit-256 (FreecivLocationFn 53 11))
+  898: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  899: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  900: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  901: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  902: (doExplore Unit-109)
+  903: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 40 10))
+         (doMove Unit-194 (FreecivLocationFn 39 11))))
+  904: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  905: (CityMaySoonGrowEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+-800 (T68)
+  906: (ObjectDetectedEvent Unit-258 (FreecivLocationFn 38 20))
+  907: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  908: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  909: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  910: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 17)))
+  911: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  912: (doExplore Unit-109)
+  913: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+        (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+         (doMove Unit-194 (FreecivLocationFn 35 5))
+         (doMove Unit-194 (FreecivLocationFn 36 4))
+         (doMove Unit-194 (FreecivLocationFn 37 5))
+         (doMove Unit-194 (FreecivLocationFn 38 6))
+         (doMove Unit-194 (FreecivLocationFn 39 7))
+         (doMove Unit-194 (FreecivLocationFn 40 7))
+         (doMove Unit-194 (FreecivLocationFn 41 8))
+         (doMove Unit-194 (FreecivLocationFn 41 9))
+         (doMove Unit-194 (FreecivLocationFn 40 10))
+         (doMove Unit-194 (FreecivLocationFn 39 11))))
+  914: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  915: (ObjectDetectedEvent FC-City-BrasÃ­lia (FreecivLocationFn 16 16))
+  916: (ImprovementSelectedByDefaultEvent FC-City-Ulundi
+        (FreecivLocationFn 29 3))
+  917: (CityGrowthEvent FC-City-Ulundi FC-City-Ulundi)
+  918: (CityProductionChangedEvent FC-City-Ulundi)
+  919: (ImprovementBuiltEvent FC-City-Ulundi
+        (BuildingInstanceFn FC-City-Ulundi FC-Building-CityWalls))
+-775 (T69)
+  920: (ObjectDetectedEvent Unit-262 (FreecivLocationFn 43 18))
+  921: (ObjectDetectedEvent Unit-253 (FreecivLocationFn 41 17))
+  922: (CityDestructionEvent FC-City-Zrenjanin (FreecivLocationFn 50 15))
+  923: (doChangeProduction FC-City-Ulundi FC-Unit-Archers)
+  924: (CityProductionChangedEvent FC-City-Ulundi)
+  925: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  926: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 16)))
+  927: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  928: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 14)))
+  929: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 13)))
+  930: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 17)))
+  931: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  932: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 19)))
+  933: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 18)))
+  934: (doExplore Unit-109)
+  935: (doGoToDest Unit-194 (FreecivLocationFn 31 3)
+        (TheList (doMove Unit-194 (FreecivLocationFn 32 4))
+         (doMove Unit-194 (FreecivLocationFn 31 3))))
+  936: (EnemyDetectedEvent Unit-194 Unit-125 (FreecivLocationFn 34 5))
+  937: (doBuildRoad Unit-194 (FreecivLocationFn 31 3))
+  938: (ObjectDetectedEvent Unit-264 (FreecivLocationFn 52 16))
+  939: (ObjectDetectedEvent FC-City-Zrenjanin (FreecivLocationFn 50 10))
+-750 (T70)
+  940: (ObjectDetectedEvent Unit-269 (FreecivLocationFn 0 7))
+  941: (ObjectDetectedEvent Unit-268 (FreecivLocationFn 53 11))
+  942: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  943: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 16)))
+  944: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  945: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 14)))
+  946: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 17)))
+  947: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  948: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 19)))
+  949: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 18)))
+  950: (doExplore Unit-109)
+  951: (LearnedGovernmentEvent FC-Player-MalandelaKaLuzumana)
+  952: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-Monarchy)
+-725 (T71)
+  953: (ObjectDetectedEvent Unit-273 (FreecivLocationFn 8 10))
+  954: (doSetGov FC-Player-MalandelaKaLuzumana FC-Monarchy)
+  955: (RevolutionStartedEvent FC-Player-MalandelaKaLuzumana)
+  956: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-BronzeWorking)
+  957: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  958: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 17)))
+  959: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  960: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 17)))
+  961: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 48 16)))
+  962: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 14)))
+  963: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 19)))
+  964: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 18)))
+  965: (doExplore Unit-109)
+-700 (T72)
+  966: (ActivityCompletedEvent Unit-194 FC-ActivityRoad
+        (FreecivLocationFn 31 3))
+  967: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  968: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 52 17)))
+  969: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  970: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 16)))
+  971: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 13)))
+  972: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 19)))
+  973: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 18)))
+  974: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 13)))
+  975: (doExplore Unit-109)
+  976: (doIrrigate Unit-194 (FreecivLocationFn 31 3))
+  977: (ObjectDetectedEvent Unit-257 (FreecivLocationFn 44 25))
+  978: (ObjectDetectedEvent FC-City-PortoAlegre (FreecivLocationFn 19 12))
+  979: (CityCelebrationEvent FC-City-Ethekwini (FreecivLocationFn 39 7))
+  980: (CityCelebrationEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+-675 (T73)
+  981: (ObjectDetectedEvent Unit-276 (FreecivLocationFn 53 17))
+  982: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  983: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 43 24)))
+  984: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  985: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 15)))
+  986: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 19)))
+  987: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 49 15)))
+  988: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 18)))
+  989: (doExplore Unit-109)
+  990: (ObjectDetectedEvent Unit-281 (FreecivLocationFn 42 17))
+-650 (T74)
+  991: (ObjectDetectedEvent Unit-247 (FreecivLocationFn 5 9))
+  992: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 34 5)))
+  993: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 11)))
+  994: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 51 16)))
+  995: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 39 19)))
+  996: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 50 14)))
+  997: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+        ((FreecivLocationFn 40 18)))
+  998: (doExplore Unit-109)
+  999: (ObjectDetectedEvent FC-City-PriÅ¡tina (FreecivLocationFn 52 15))
+-625 (T75)
+  1000: (RevolutionEndedEvent FC-Player-MalandelaKaLuzumana)
+  1001: (CityDestructionEvent FC-City-PriÅ¡tina (FreecivLocationFn 52 15))
+  1002: (ObjectDetectedEvent Unit-292 (FreecivLocationFn 1 11))
+  1003: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 5)))
+  1004: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 10)))
+  1005: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 52 14)))
+  1006: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 51 16)))
+  1007: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1008: (doExplore Unit-109)
+  1009: (WonderStopped (FreecivLocationFn 13 9))
+  1010: (WonderStarted (FreecivLocationFn 13 9))
+  1011: (ObjectDetectedEvent Unit-278 (FreecivLocationFn 40 25))
+  1012: (ObjectDetectedEvent Unit-293 (FreecivLocationFn 2 15))
+  1013: (ObjectDetectedEvent Unit-291 (FreecivLocationFn 0 6))
+  1014: (CityReturnToNormalEvent FC-City-Ethekwini (FreecivLocationFn 39 7))
+  1015: (CityGrowthEvent FC-City-Maputo FC-City-Maputo)
+  1016: (CityReturnToNormalEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+-600 (T76)
+  1017: (EnemyDetectedEvent Unit-155 Unit-220 (FreecivLocationFn 39 9))
+  1018: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 5)))
+  1019: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 9)))
+  1020: (doExplore Unit-109)
+  1021: (ObjectDetectedEvent FC-City-Sombor (FreecivLocationFn 0 4))
+  1022: (WonderFinished (FreecivLocationFn 13 9))
+  1023: (WonderStarted (FreecivLocationFn 13 9))
+  1024: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-BronzeWorking)
+  1025: (UnitBuiltEvent FC-City-Maputo Unit-301)
+  1026: (EnemyDetectedEvent Unit-301 Unit-125 (FreecivLocationFn 34 5))
+-575 (T77)
+  1027: (ActivityCompletedEvent Unit-194 FC-ActivityIrrigate
+         (FreecivLocationFn 31 3))
+  1028: (ObjectDetectedEvent Unit-300 (FreecivLocationFn 14 11))
+  1029: (EnemyAdjacentEvent Unit-220 (FreecivLocationFn 40 8))
+  1030: (EnemyDetectedEvent Unit-155 Unit-220 (FreecivLocationFn 40 8))
+  1031: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-IronWorking)
+  1032: (doChangeProduction FC-City-Maputo FC-Unit-Phalanx)
+  1033: (CityProductionChangedEvent FC-City-Maputo)
+  1034: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 5)))
+  1035: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 8)))
+  1036: (doExplore Unit-109)
+  1037: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+         (TheList (doMove Unit-194 (FreecivLocationFn 32 4))
+          (doMove Unit-194 (FreecivLocationFn 33 5))
+          (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 35 5))
+          (doMove Unit-194 (FreecivLocationFn 36 4))
+          (doMove Unit-194 (FreecivLocationFn 37 5))
+          (doMove Unit-194 (FreecivLocationFn 38 6))
+          (doMove Unit-194 (FreecivLocationFn 39 7))
+          (doMove Unit-194 (FreecivLocationFn 40 7))
+          (doMove Unit-194 (FreecivLocationFn 41 8))
+          (doMove Unit-194 (FreecivLocationFn 41 9))
+          (doMove Unit-194 (FreecivLocationFn 40 10))
+          (doMove Unit-194 (FreecivLocationFn 39 11))))
+  1038: (EnemyDetectedEvent Unit-194 Unit-125 (FreecivLocationFn 34 5))
+  1039: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  1040: (doGoToDest Unit-301 (FreecivLocationFn 41 10)
+         (TheList (doMove Unit-301 (FreecivLocationFn 36 4))
+          (doMove Unit-301 (FreecivLocationFn 37 5))
+          (doMove Unit-301 (FreecivLocationFn 38 6))
+          (doMove Unit-301 (FreecivLocationFn 39 7))
+          (doMove Unit-301 (FreecivLocationFn 40 7))
+          (doMove Unit-301 (FreecivLocationFn 41 8))
+          (doMove Unit-301 (FreecivLocationFn 41 9))
+          (doMove Unit-301 (FreecivLocationFn 41 10))))
+  1041: (doMakeHomeCity Unit-155 FC-City-Ethekwini)
+  1042: (doSentry Unit-155 (FreecivLocationFn 39 7))
+  1043: (WonderStopped (FreecivLocationFn 2 10))
+  1044: (WonderStarted (FreecivLocationFn 2 10))
+  1045: (ObjectDetectedEvent Unit-299 (FreecivLocationFn 39 15))
+-550 (T78)
+  1046: (EnemyDetectedEvent Unit-301 Unit-220 (FreecivLocationFn 40 8))
+  1047: (BadCommandEvent (FreecivLocationFn 40 7))
+  1048: (UnitOrdersEvent Unit-301 (FreecivLocationFn 40 7))
+  1049: (ObjectDetectedEvent Unit-303 (FreecivLocationFn 52 16))
+  1050: (ObjectDetectedEvent Unit-270 (FreecivLocationFn 4 13))
+  1051: (ObjectDetectedEvent Unit-305 (FreecivLocationFn 16 10))
+  1052: (DefenderDestroyedEvent Unit-301 (FreecivLocationFn 40 7))
+  1053: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 5)))
+  1054: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 19)))
+  1055: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 8)))
+  1056: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 16)))
+  1057: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 17)))
+  1058: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1059: (doExplore Unit-109)
+  1060: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+         (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 35 5))
+          (doMove Unit-194 (FreecivLocationFn 36 4))
+          (doMove Unit-194 (FreecivLocationFn 37 5))
+          (doMove Unit-194 (FreecivLocationFn 38 6))
+          (doMove Unit-194 (FreecivLocationFn 39 7))
+          (doMove Unit-194 (FreecivLocationFn 40 7))
+          (doMove Unit-194 (FreecivLocationFn 41 8))
+          (doMove Unit-194 (FreecivLocationFn 41 9))
+          (doMove Unit-194 (FreecivLocationFn 40 10))
+          (doMove Unit-194 (FreecivLocationFn 39 11))))
+  1061: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  1062: (ObjectDetectedEvent FC-City-Nyingchi (FreecivLocationFn 49 16))
+  1063: (UnitBuiltEvent FC-City-Ulundi Unit-308)
+-525 (T79)
+  1064: (ObjectDetectedEvent Unit-309 (FreecivLocationFn 45 18))
+  1065: (DefenderDestroyedEvent Unit-155 (FreecivLocationFn 39 7))
+  1066: (CityDestructionEvent FC-City-Nyingchi (FreecivLocationFn 49 16))
+  1067: (doChangeProduction FC-City-Ulundi FC-Coinage)
+  1068: (CityProductionChangedEvent FC-City-Ulundi)
+  1069: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 5)))
+  1070: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 16)))
+  1071: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 8)))
+  1072: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 16)))
+  1073: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 51 15)))
+  1074: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 51 15)))
+  1075: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 12)))
+  1076: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 51 15)))
+  1077: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+         (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 35 5))
+          (doMove Unit-194 (FreecivLocationFn 36 4))
+          (doMove Unit-194 (FreecivLocationFn 37 5))
+          (doMove Unit-194 (FreecivLocationFn 38 6))
+          (doMove Unit-194 (FreecivLocationFn 39 7))
+          (doMove Unit-194 (FreecivLocationFn 40 7))
+          (doMove Unit-194 (FreecivLocationFn 41 8))
+          (doMove Unit-194 (FreecivLocationFn 41 9))
+          (doMove Unit-194 (FreecivLocationFn 40 10))
+          (doMove Unit-194 (FreecivLocationFn 39 11))))
+  1078: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  1079: (doExplore Unit-109)
+  1080: (doMakeHomeCity Unit-308 FC-City-Ulundi)
+  1081: (doSentry Unit-308 (FreecivLocationFn 29 3))
+  1082: (ObjectDetectedEvent FC-City-PriÅ¡tina (FreecivLocationFn 51 15))
+  1083: (CityGrowthEvent FC-City-Ethekwini FC-City-Ethekwini)
+-500 (T80)
+  1084: (EnemyAdjacentEvent Unit-220 (FreecivLocationFn 39 7))
+  1085: (EnemyDetectedEvent Unit-108 Unit-220 (FreecivLocationFn 39 7))
+  1086: (TransferringPossession Unit-220 (FreecivLocationFn 39 7))
+  1087: (EnemyDiplomatTheftEvent)
+  1088: (ObjectDetectedEvent Unit-316 (FreecivLocationFn 13 6))
+  1089: (ObjectDetectedEvent Unit-315 (FreecivLocationFn 14 11))
+  1090: (ObjectDetectedEvent Unit-313 (FreecivLocationFn 13 8))
+  1091: (ObjectDetectedEvent Unit-286 (FreecivLocationFn 13 8))
+  1092: (ObjectDetectedEvent Unit-321 (FreecivLocationFn 53 11))
+  1093: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 5)))
+  1094: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 11)))
+  1095: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 48 16)))
+  1096: (doExplore Unit-109)
+  1097: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+         (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 35 5))
+          (doMove Unit-194 (FreecivLocationFn 36 4))
+          (doMove Unit-194 (FreecivLocationFn 37 5))
+          (doMove Unit-194 (FreecivLocationFn 38 6))
+          (doMove Unit-194 (FreecivLocationFn 39 7))
+          (doMove Unit-194 (FreecivLocationFn 40 7))
+          (doMove Unit-194 (FreecivLocationFn 41 8))
+          (doMove Unit-194 (FreecivLocationFn 41 9))
+          (doMove Unit-194 (FreecivLocationFn 40 10))
+          (doMove Unit-194 (FreecivLocationFn 39 11))))
+  1098: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  1099: (ObjectDetectedEvent FC-City-Nyingchi (FreecivLocationFn 39 11))
+-475 (T81)
+  1100: (ObjectDetectedEvent Unit-304 (FreecivLocationFn 2 15))
+  1101: (DefenderDestroyedEvent Unit-108 (FreecivLocationFn 38 6))
+  1102: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 5)))
+  1103: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 17)))
+  1104: (doExplore Unit-109)
+  1105: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+         (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 35 5))
+          (doMove Unit-194 (FreecivLocationFn 36 4))
+          (doMove Unit-194 (FreecivLocationFn 37 5))
+          (doMove Unit-194 (FreecivLocationFn 38 6))
+          (doMove Unit-194 (FreecivLocationFn 39 7))
+          (doMove Unit-194 (FreecivLocationFn 40 7))
+          (doMove Unit-194 (FreecivLocationFn 41 8))
+          (doMove Unit-194 (FreecivLocationFn 41 9))
+          (doMove Unit-194 (FreecivLocationFn 40 10))
+          (doMove Unit-194 (FreecivLocationFn 39 11))))
+  1106: (UnitOrdersEvent Unit-194 (FreecivLocationFn 33 5))
+  1107: (WonderFinished)
+  1108: (WonderStarted)
+  1109: (CityMaySoonGrowEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+-450 (T82)
+  1110: (ObjectDetectedEvent Unit-317 (FreecivLocationFn 39 16))
+  1111: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 35 4))
+  1112: (EnemyDetectedEvent Unit-194 Unit-125 (FreecivLocationFn 35 4))
+  1113: (EnemyAdjacentEvent Unit-125 (FreecivLocationFn 36 5))
+  1114: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 5)))
+  1115: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 21)))
+  1116: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1117: (doExplore Unit-109)
+  1118: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+         (TheList (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 35 5))
+          (doMove Unit-194 (FreecivLocationFn 36 4))
+          (doMove Unit-194 (FreecivLocationFn 37 5))
+          (doMove Unit-194 (FreecivLocationFn 38 6))
+          (doMove Unit-194 (FreecivLocationFn 39 7))
+          (doMove Unit-194 (FreecivLocationFn 40 7))
+          (doMove Unit-194 (FreecivLocationFn 41 8))
+          (doMove Unit-194 (FreecivLocationFn 41 9))
+          (doMove Unit-194 (FreecivLocationFn 40 10))
+          (doMove Unit-194 (FreecivLocationFn 39 11))))
+  1119: (EnemyDetectedEvent Unit-194 Unit-125 (FreecivLocationFn 37 5))
+  1120: (ObjectDetectedEvent Unit-327 (FreecivLocationFn 0 7))
+  1121: (UnitBuiltEvent FC-City-Maputo Unit-330)
+  1122: (EnemyDetectedEvent Unit-330 Unit-125 (FreecivLocationFn 37 5))
+  1123: (CityGrowthEvent FC-City-Ulundi FC-City-Ulundi)
+-425 (T83)
+  1124: (UnitOrdersEvent Unit-194 (FreecivLocationFn 36 4))
+  1125: (ObjectDetectedEvent Unit-328 (FreecivLocationFn 39 21))
+  1126: (doChangeProduction FC-City-Maputo FC-Unit-Phalanx)
+  1127: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 5)))
+  1128: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1129: (doExplore Unit-109)
+  1130: (doGoToDest Unit-194 (FreecivLocationFn 31 4)
+         (TheList (doMove Unit-194 (FreecivLocationFn 35 4))
+          (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 33 5))
+          (doMove Unit-194 (FreecivLocationFn 32 4))
+          (doMove Unit-194 (FreecivLocationFn 31 4))))
+  1131: (doFortify Unit-330)
+-400 (T84)
+  1132: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 8)))
+  1133: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1134: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1135: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1136: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 19)))
+  1137: (doBuildRoad Unit-194 (FreecivLocationFn 31 4))
+  1138: (doExplore Unit-109)
+  1139: (doBuildRoad Unit-194 (FreecivLocationFn 31 4))
+  1140: (doFortify Unit-330)
+  1141: (doChangeProduction FC-City-Maputo FC-Unit-Phalanx)
+  1142: (ObjectDetectedEvent Unit-335 (FreecivLocationFn 2 14))
+  1143: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-IronWorking)
+-375 (T85)
+  1144: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-TheWheel)
+  1145: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 10)))
+  1146: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1147: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 42 19)))
+  1148: (doExplore Unit-109)
+  1149: (doFortify Unit-330)
+  1150: (ObjectDetectedEvent Unit-337 (FreecivLocationFn 52 16))
+  1151: (ObjectDetectedEvent Unit-338 (FreecivLocationFn 13 6))
+-350 (T86)
+  1152: (ObjectDetectedEvent Unit-165 (FreecivLocationFn 7 18))
+  1153: (ObjectDetectedEvent Unit-341 (FreecivLocationFn 44 18))
+  1154: (ObjectDetectedEvent Unit-342 (FreecivLocationFn 18 16))
+  1155: (ObjectDetectedEvent Unit-329 (FreecivLocationFn 15 13))
+  1156: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 13)))
+  1157: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 43 23)))
+  1158: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 48 16)))
+  1159: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1160: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1161: (doExplore Unit-109)
+  1162: (doFortify Unit-330)
+  1163: (ObjectDetectedEvent Unit-296 (FreecivLocationFn 38 25))
+  1164: (WonderStarted (FreecivLocationFn 41 16))
+  1165: (ObjectDetectedEvent Unit-343 (FreecivLocationFn 14 8))
+-325 (T87)
+  1166: (ActivityCompletedEvent Unit-194 FC-ActivityRoad
+         (FreecivLocationFn 31 4))
+  1167: (ObjectDetectedEvent Unit-347 (FreecivLocationFn 2 15))
+  1168: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 16)))
+  1169: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 24)))
+  1170: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1171: (doExplore Unit-109)
+  1172: (doIrrigate Unit-194 (FreecivLocationFn 31 4))
+  1173: (doFortify Unit-330)
+  1174: (ObjectDetectedEvent Unit-275 (FreecivLocationFn 38 25))
+  1175: (ObjectDetectedEvent FC-City-Senta (FreecivLocationFn 0 12))
+-300 (T88)
+  1176: (ObjectDetectedEvent Unit-352 (FreecivLocationFn 2 15))
+  1177: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 19)))
+  1178: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1179: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1180: (doExplore Unit-109)
+  1181: (doFortify Unit-330)
+  1182: (ObjectDetectedEvent Unit-349 (FreecivLocationFn 18 11))
+  1183: (ObjectDetectedEvent Unit-353 (FreecivLocationFn 52 8))
+  1184: (ObjectDetectedEvent FC-City-BeÄej (FreecivLocationFn 5 5))
+-275 (T89)
+  1185: (ObjectDetectedEvent Unit-360 (FreecivLocationFn 48 16))
+  1186: (ObjectDetectedEvent Unit-340 (FreecivLocationFn 45 13))
+  1187: (ObjectDetectedEvent Unit-359 (FreecivLocationFn 18 11))
+  1188: (ObjectDetectedEvent Unit-358 (FreecivLocationFn 11 8))
+  1189: (ObjectDetectedEvent Unit-357 (FreecivLocationFn 8 10))
+  1190: (ObjectDetectedEvent Unit-326 (FreecivLocationFn 16 10))
+  1191: (ObjectDetectedEvent Unit-306 (FreecivLocationFn 18 16))
+  1192: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 19)))
+  1193: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 11)))
+  1194: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 16)))
+  1195: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1196: (doExplore Unit-109)
+  1197: (doFortify Unit-330)
+  1198: (ObjectDetectedEvent FC-City-PoÅ¾arevac (FreecivLocationFn 51 13))
+  1199: (UnitBuiltEvent FC-City-Maputo Unit-370)
+-250 (T90)
+  1200: (ObjectDetectedEvent Unit-369 (FreecivLocationFn 15 15))
+  1201: (ObjectDetectedEvent Unit-336 (FreecivLocationFn 7 10))
+  1202: (ObjectDetectedEvent Unit-365 (FreecivLocationFn 4 13))
+  1203: (doChangeProduction FC-City-Maputo FC-Coinage)
+  1204: (CityProductionChangedEvent FC-City-Maputo)
+  1205: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 21)))
+  1206: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1207: (doExplore Unit-109)
+  1208: (doFortify Unit-330)
+  1209: (doFortify Unit-370)
+  1210: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-TheWheel)
+  1211: (CityMaySoonGrowEvent FC-City-Maputo (FreecivLocationFn 35 5))
+-225 (T91)
+  1212: (ObjectDetectedEvent Unit-375 (FreecivLocationFn 2 15))
+  1213: (ObjectDetectedEvent Unit-373 (FreecivLocationFn 13 6))
+  1214: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Currency)
+  1215: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 10)))
+  1216: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1217: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 18)))
+  1218: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1219: (doExplore Unit-109)
+  1220: (doFortify Unit-330)
+  1221: (doFortify Unit-370)
+  1222: (ObjectDetectedEvent Unit-374 (FreecivLocationFn 52 16))
+  1223: (CityGrowthEvent FC-City-Maputo FC-City-Maputo)
+  1224: (WonderFinished (FreecivLocationFn 2 10))
+  1225: (WonderStarted (FreecivLocationFn 2 10))
+-200 (T92)
+  1226: (ActivityCompletedEvent Unit-194 FC-ActivityIrrigate
+         (FreecivLocationFn 31 4))
+  1227: (ObjectDetectedEvent Unit-379 (FreecivLocationFn 18 16))
+  1228: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 9)))
+  1229: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 15)))
+  1230: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1231: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 18)))
+  1232: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1233: (doExplore Unit-109)
+  1234: (doGoToDest Unit-194 (FreecivLocationFn 39 11)
+         (TheList (doMove Unit-194 (FreecivLocationFn 32 4))
+          (doMove Unit-194 (FreecivLocationFn 33 5))
+          (doMove Unit-194 (FreecivLocationFn 34 5))
+          (doMove Unit-194 (FreecivLocationFn 35 5))
+          (doMove Unit-194 (FreecivLocationFn 36 4))
+          (doMove Unit-194 (FreecivLocationFn 37 5))
+          (doMove Unit-194 (FreecivLocationFn 38 6))
+          (doMove Unit-194 (FreecivLocationFn 39 7))
+          (doMove Unit-194 (FreecivLocationFn 40 7))
+          (doMove Unit-194 (FreecivLocationFn 41 8))
+          (doMove Unit-194 (FreecivLocationFn 41 9))
+          (doMove Unit-194 (FreecivLocationFn 40 10))
+          (doMove Unit-194 (FreecivLocationFn 39 11))))
+  1235: (doFortify Unit-330)
+  1236: (doFortify Unit-370)
+  1237: (WonderStopped (FreecivLocationFn 13 9))
+  1238: (WonderStarted (FreecivLocationFn 13 9))
+  1239: (WonderFinished (FreecivLocationFn 13 9))
+-175 (T93)
+  1240: (ObjectDetectedEvent Unit-380 (FreecivLocationFn 8 10))
+  1241: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 18)))
+  1242: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1243: (doExplore Unit-109)
+  1244: (doFortify Unit-330)
+  1245: (doFortify Unit-370)
+  1246: (WonderStopped)
+  1247: (WonderStarted (FreecivLocationFn 2 10))
+  1248: (CityMaySoonGrowEvent FC-City-Zimbabwe (FreecivLocationFn 32 4))
+-150 (T94)
+  1249: (UnitOrdersEvent Unit-194 (FreecivLocationFn 38 6))
+  1250: (ObjectDetectedEvent Unit-386 (FreecivLocationFn 1 10))
+  1251: (ObjectDetectedEvent Unit-391 (FreecivLocationFn 48 16))
+  1252: (DefenderDestroyedEvent Unit-194 (FreecivLocationFn 38 6))
+  1253: (ObjectDetectedEvent Unit-388 (FreecivLocationFn 11 8))
+  1254: (ObjectDetectedEvent Unit-387 (FreecivLocationFn 15 15))
+  1255: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 23)))
+  1256: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1257: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 48 16)))
+  1258: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1259: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 15)))
+  1260: (doExplore Unit-109)
+  1261: (doFortify Unit-330)
+  1262: (doFortify Unit-370)
+  1263: (ObjectDetectedEvent FC-City-VrÅ¡ac (FreecivLocationFn 0 14))
+  1264: (WonderStarted (FreecivLocationFn 41 16))
+  1265: (EnemyDetectedEvent Unit-308 Unit-166 (FreecivLocationFn 28 5))
+  1266: (CityGrowthEvent FC-City-Zimbabwe FC-City-Zimbabwe)
+-125 (T95)
+  1267: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1268: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1269: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 46 7)))
+  1270: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 8)))
+  1271: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1272: (doExplore Unit-109)
+  1273: (doFortify Unit-330)
+  1274: (doFortify Unit-370)
+  1275: (ObjectDetectedEvent Unit-395 (FreecivLocationFn 53 8))
+  1276: (ObjectDetectedEvent FC-City-SremskaMitrovica (FreecivLocationFn 46 7))
+  1277: (ObjectDetectedEvent FC-City-SÃ£oLuÃ­s (FreecivLocationFn 18 19))
+  1278: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-Currency)
+  1279: (CityMaySoonGrowEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+-100 (T96)
+  1280: (ObjectDetectedEvent Unit-405 (FreecivLocationFn 17 11))
+  1281: (ObjectDetectedEvent Unit-404 (FreecivLocationFn 15 15))
+  1282: (ObjectDetectedEvent Unit-385 (FreecivLocationFn 7 10))
+  1283: (ObjectDetectedEvent Unit-259 (FreecivLocationFn 14 8))
+  1284: (ObjectDetectedEvent Unit-362 (FreecivLocationFn 39 16))
+  1285: (ObjectDetectedEvent Unit-361 (FreecivLocationFn 45 13))
+  1286: (ObjectDetectedEvent Unit-396 (FreecivLocationFn 1 11))
+  1287: (ObjectDetectedEvent Unit-394 (FreecivLocationFn 1 11))
+  1288: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Construction)
+  1289: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1290: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1291: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1292: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1293: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1294: (doExplore Unit-109)
+  1295: (doFortify Unit-330)
+  1296: (doFortify Unit-370)
+  1297: (ObjectDetectedEvent Unit-402 (FreecivLocationFn 18 16))
+  1298: (WonderFinished (FreecivLocationFn 13 9))
+  1299: (CityGrowthEvent FC-City-Ulundi FC-City-Ulundi)
+-75 (T97)
+  1300: (ObjectDetectedEvent Unit-413 (FreecivLocationFn 50 15))
+  1301: (ObjectDetectedEvent Unit-408 (FreecivLocationFn 13 6))
+  1302: (ObjectDetectedEvent Unit-390 (FreecivLocationFn 14 11))
+  1303: (ObjectDetectedEvent Unit-389 (FreecivLocationFn 18 12))
+  1304: (doExplore Unit-109)
+  1305: (doFortify Unit-330)
+  1306: (doFortify Unit-370)
+  1307: (ObjectDetectedEvent Unit-412 (FreecivLocationFn 2 15))
+  1308: (ObjectDetectedEvent Unit-401 (FreecivLocationFn 50 11))
+  1309: (ObjectDetectedEvent FC-City-Kikinda (FreecivLocationFn 52 9))
+  1310: (WonderStopped (FreecivLocationFn 2 10))
+  1311: (WonderStarted (FreecivLocationFn 2 10))
+-50 (T98)
+  1312: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1313: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1314: (doExplore Unit-109)
+  1315: (doFortify Unit-330)
+  1316: (doFortify Unit-370)
+  1317: (ObjectDetectedEvent Unit-415 (FreecivLocationFn 0 16))
+  1318: (ObjectDetectedEvent Unit-420 (FreecivLocationFn 37 16))
+-25 (T99)
+  1319: (ObjectDetectedEvent Unit-421 (FreecivLocationFn 8 10))
+  1320: (ObjectDetectedEvent Unit-416 (FreecivLocationFn 7 10))
+  1321: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 22)))
+  1322: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1323: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1324: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 38 18)))
+  1325: (doExplore Unit-109)
+  1326: (doFortify Unit-330)
+  1327: (doFortify Unit-370)
+  1328: (WonderStarted)
+  1329: (ObjectDetectedEvent Unit-422 (FreecivLocationFn 45 13))
+  1330: (ObjectDetectedEvent FC-City-Dartsendo (FreecivLocationFn 38 18))
+1 (T100)
+  1331: (ObjectDetectedEvent Unit-432 (FreecivLocationFn 18 16))
+  1332: (ObjectDetectedEvent Unit-431 (FreecivLocationFn 11 8))
+  1333: (ObjectDetectedEvent Unit-429 (FreecivLocationFn 14 11))
+  1334: (ObjectDetectedEvent Unit-428 (FreecivLocationFn 17 17))
+  1335: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 18)))
+  1336: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1337: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1338: (doExplore Unit-109)
+  1339: (ObjectDetectedEvent Unit-418 (FreecivLocationFn 5 9))
+  1340: (doFortify Unit-330)
+  1341: (ObjectDetectedEvent Unit-417 (FreecivLocationFn 4 13))
+  1342: (doFortify Unit-370)
+  1343: (ObjectDetectedEvent Unit-411 (FreecivLocationFn 1 13))
+  1344: (ObjectDetectedEvent Unit-427 (FreecivLocationFn 46 17))
+  1345: (ObjectDetectedEvent Unit-426 (FreecivLocationFn 45 18))
+  1346: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1347: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1348: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1349: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 8 10)))
+  1350: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 15)))
+20 (T101)
+  1351: (doExplore Unit-109)
+  1352: (ObjectDetectedEvent Unit-433 (FreecivLocationFn 18 12))
+  1353: (doFortify Unit-330)
+  1354: (ObjectDetectedEvent Unit-430 (FreecivLocationFn 16 10))
+  1355: (doFortify Unit-370)
+  1356: (ObjectDetectedEvent Unit-437 (FreecivLocationFn 7 10))
+  1357: (CityDestructionEvent FC-City-Salvador (FreecivLocationFn 7 10))
+  1358: (ObjectDetectedEvent Unit-294 (FreecivLocationFn 12 6))
+  1359: (ObjectDetectedEvent Unit-287 (FreecivLocationFn 5 9))
+  1360: (ObjectDetectedEvent Unit-436 (FreecivLocationFn 17 17))
+40 (T102)
+  1361: (ObjectDetectedEvent Unit-441 (FreecivLocationFn 1 10))
+  1362: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 21)))
+  1363: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1364: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 48 16)))
+  1365: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1366: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1367: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1368: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1369: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1370: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1371: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1372: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1373: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1374: (doExplore Unit-109)
+  1375: (doFortify Unit-330)
+  1376: (doFortify Unit-370)
+  1377: (ObjectDetectedEvent Unit-442 (FreecivLocationFn 40 8))
+  1378: (ObjectDetectedEvent Unit-439 (FreecivLocationFn 13 6))
+  1379: (ObjectDetectedEvent Unit-440 (FreecivLocationFn 0 8))
+  1380: (WonderFinished (FreecivLocationFn 2 10))
+60 (T103)
+  1381: (ObjectDetectedEvent Unit-446 (FreecivLocationFn 50 15))
+  1382: (ObjectDetectedEvent Unit-444 (FreecivLocationFn 40 10))
+  1383: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1384: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1385: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 16)))
+  1386: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1387: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1388: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1389: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1390: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1391: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1392: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1393: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 15)))
+  1394: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1395: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1396: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1397: (doExplore Unit-109)
+  1398: (doFortify Unit-330)
+  1399: (doFortify Unit-370)
+  1400: (WonderStopped (FreecivLocationFn 13 9))
+  1401: (ObjectDetectedEvent FC-City-Smederevo (FreecivLocationFn 49 16))
+  1402: (ObjectDetectedEvent Unit-445 (FreecivLocationFn 43 13))
+80 (T104)
+  1403: (ObjectDetectedEvent Unit-314 (FreecivLocationFn 11 8))
+  1404: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1405: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1406: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1407: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1408: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1409: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1410: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1411: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1412: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1413: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1414: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 21)))
+  1415: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1416: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1417: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 8)))
+  1418: (doExplore Unit-109)
+  1419: (doFortify Unit-330)
+  1420: (doFortify Unit-370)
+  1421: (ObjectDetectedEvent FC-City-Nedong (FreecivLocationFn 41 21))
+  1422: (ObjectDetectedEvent Unit-454 (FreecivLocationFn 15 15))
+  1423: (ObjectDetectedEvent Unit-453 (FreecivLocationFn 18 11))
+  1424: (ObjectDetectedEvent Unit-452 (FreecivLocationFn 18 16))
+  1425: (ObjectDetectedEvent Unit-451 (FreecivLocationFn 13 8))
+  1426: (ObjectDetectedEvent Unit-450 (FreecivLocationFn 10 10))
+  1427: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1428: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1429: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1430: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+100 (T105)
+  1431: (ObjectDetectedEvent Unit-461 (FreecivLocationFn 11 8))
+  1432: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1433: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1434: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1435: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1436: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1437: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1438: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1439: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1440: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 8)))
+  1441: (doExplore Unit-109)
+  1442: (doFortify Unit-330)
+  1443: (ObjectDetectedEvent Unit-216 (FreecivLocationFn 8 10))
+  1444: (doFortify Unit-370)
+  1445: (EnemyDetectedEvent Unit-370 Unit-444 (FreecivLocationFn 37 5))
+  1446: (EnemyDetectedEvent Unit-330 Unit-444 (FreecivLocationFn 37 5))
+  1447: (ObjectDetectedEvent FC-City-ÄaÄak (FreecivLocationFn 2 3))
+  1448: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 18)))
+  1449: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1450: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 12)))
+  1451: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 11)))
+  1452: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1453: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1454: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 12)))
+  1455: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1456: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1457: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1458: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1459: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 11)))
+  1460: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 49 16)))
+  1461: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 5)))
+  1462: (doExplore Unit-109)
+120 (T106)
+  1463: (ObjectDetectedEvent Unit-464 (FreecivLocationFn 19 18))
+  1464: (doFortify Unit-330)
+  1465: (ObjectDetectedEvent Unit-403 (FreecivLocationFn 13 8))
+  1466: (doFortify Unit-370)
+  1467: (EnemyAdjacentEvent Unit-444 (FreecivLocationFn 36 4))
+  1468: (EnemyDiplomatEmbassyEvent (FreecivLocationFn 35 5))
+  1469: (GoalDeactivationEvent (SGoalFn 93))
+  1470: (ObjectDetectedEvent Unit-468 (FreecivLocationFn 48 16))
+  1471: (ObjectDetectedEvent Unit-466 (FreecivLocationFn 40 8))
+140 (T107)
+  1472: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1473: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 21)))
+  1474: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1475: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1476: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1477: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1478: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1479: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1480: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1481: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 11)))
+  1482: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1483: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1484: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1485: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1486: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1487: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 10)))
+  1488: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1489: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1490: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1491: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 9)))
+  1492: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1493: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 18)))
+  1494: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1495: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1496: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1497: (doExplore Unit-109)
+  1498: (doFortify Unit-330)
+  1499: (doFortify Unit-370)
+  1500: (ObjectDetectedEvent Unit-472 (FreecivLocationFn 17 15))
+  1501: (ObjectDetectedEvent Unit-471 (FreecivLocationFn 20 12))
+160 (T108)
+  1502: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1503: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1504: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1505: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1506: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1507: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1508: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 9)))
+  1509: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 10)))
+  1510: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 9)))
+  1511: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1512: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1513: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1514: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1515: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 9)))
+  1516: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1517: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1518: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1519: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1520: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1521: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1522: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1523: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1524: (doExplore Unit-109)
+  1525: (doFortify Unit-330)
+  1526: (doFortify Unit-370)
+  1527: (TechLearnedEvent FC-Player-MalandelaKaLuzumana FC-Tech-Construction)
+180 (T109)
+  1528: (ObjectDetectedEvent Unit-480 (FreecivLocationFn 3 14))
+  1529: (doResearch FC-Player-MalandelaKaLuzumana FC-Tech-Engineering)
+  1530: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1531: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1532: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1533: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1534: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1535: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1536: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1537: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1538: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1539: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 11)))
+  1540: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1541: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1542: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 13)))
+  1543: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 12)))
+  1544: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1545: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 12)))
+  1546: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1547: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1548: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1549: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 20)))
+  1550: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1551: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1552: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1553: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1554: (doExplore Unit-109)
+  1555: (doFortify Unit-330)
+  1556: (doFortify Unit-370)
+200 (T110)
+  1557: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1558: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1559: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1560: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 17)))
+  1561: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1562: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1563: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1564: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1565: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1566: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1567: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 11)))
+  1568: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1569: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1570: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1571: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1572: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 12)))
+  1573: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1574: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1575: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 9)))
+  1576: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 12)))
+  1577: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1578: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1579: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1580: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 9)))
+  1581: (doExplore Unit-109)
+  1582: (doFortify Unit-330)
+  1583: (doFortify Unit-370)
+  1584: (ObjectDetectedEvent Unit-487 (FreecivLocationFn 19 18))
+  1585: (WonderFinished)
+  1586: (WonderStarted)
+220 (T111)
+  1587: (ObjectDetectedEvent Unit-438 (FreecivLocationFn 5 8))
+  1588: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1589: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 43 22)))
+  1590: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 25)))
+  1591: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1592: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 11)))
+  1593: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 21)))
+  1594: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1595: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1596: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 11)))
+  1597: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 11)))
+  1598: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 9)))
+  1599: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 11)))
+  1600: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1601: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1602: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1603: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1604: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 11)))
+  1605: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1606: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1607: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1608: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 8)))
+  1609: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1610: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1611: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1612: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 9)))
+  1613: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1614: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 8)))
+  1615: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 9)))
+  1616: (doExplore Unit-109)
+  1617: (doFortify Unit-330)
+  1618: (doFortify Unit-370)
+240 (T112)
+  1619: (ObjectDetectedEvent Unit-485 (FreecivLocationFn 1 9))
+  1620: (ObjectDetectedEvent Unit-493 (FreecivLocationFn 14 11))
+  1621: (ObjectDetectedEvent Unit-491 (FreecivLocationFn 18 11))
+  1622: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1623: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1624: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1625: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1626: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1627: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1628: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 8)))
+  1629: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1630: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1631: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1632: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1633: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1634: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1635: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1636: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1637: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1638: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1639: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1640: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 7)))
+  1641: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1642: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1643: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1644: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1645: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 7)))
+  1646: (doExplore Unit-109)
+  1647: (doFortify Unit-330)
+  1648: (doFortify Unit-370)
+  1649: (ObjectDetectedEvent FC-City-Golmud (FreecivLocationFn 39 5))
+260 (T113)
+  1650: (ObjectDetectedEvent Unit-508 (FreecivLocationFn 43 11))
+  1651: (ObjectDetectedEvent Unit-507 (FreecivLocationFn 38 8))
+  1652: (ObjectDetectedEvent Unit-476 (FreecivLocationFn 40 10))
+  1653: (ObjectDetectedEvent Unit-506 (FreecivLocationFn 18 11))
+  1654: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1655: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1656: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1657: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1658: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1659: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1660: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 8)))
+  1661: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1662: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1663: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1664: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1665: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1666: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1667: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1668: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1669: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1670: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1671: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1672: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 7)))
+  1673: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1674: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 12)))
+  1675: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1676: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1677: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 7)))
+  1678: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 42 9)))
+  1679: (doExplore Unit-109)
+  1680: (ObjectDetectedEvent Unit-505 (FreecivLocationFn 12 6))
+  1681: (doFortify Unit-330)
+  1682: (doFortify Unit-370)
+  1683: (ObjectDetectedEvent Unit-498 (FreecivLocationFn 2 13))
+  1684: (ObjectDetectedEvent Unit-497 (FreecivLocationFn 53 11))
+  1685: (ObjectDetectedEvent Unit-489 (FreecivLocationFn 5 8))
+  1686: (ObjectDetectedEvent Unit-486 (FreecivLocationFn 51 11))
+  1687: (ObjectDetectedEvent Unit-478 (FreecivLocationFn 4 5))
+  1688: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1689: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1690: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1691: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1692: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1693: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 7)))
+  1694: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1695: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1696: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1697: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1698: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1699: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1700: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1701: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1702: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 6)))
+  1703: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1704: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 11)))
+  1705: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 11)))
+  1706: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1707: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 8)))
+  1708: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 42 9)))
+  1709: (doExplore Unit-109)
+  1710: (ObjectDetectedEvent Unit-477 (FreecivLocationFn 52 16))
+  1711: (doFortify Unit-330)
+  1712: (doFortify Unit-370)
+  1713: (ObjectDetectedEvent Unit-467 (FreecivLocationFn 53 8))
+  1714: (ObjectDetectedEvent Unit-455 (FreecivLocationFn 0 5))
+  1715: (ObjectDetectedEvent Unit-499 (FreecivLocationFn 39 21))
+  1716: (WonderStarted (FreecivLocationFn 13 9))
+280 (T114)
+  1717: (ObjectDetectedEvent Unit-513 (FreecivLocationFn 18 11))
+  1718: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1719: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 16)))
+  1720: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 7)))
+  1721: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1722: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1723: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1724: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 6)))
+  1725: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1726: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 11)))
+  1727: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 13)))
+  1728: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 8)))
+  1729: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 42 9)))
+  1730: (doExplore Unit-109)
+  1731: (ObjectDetectedEvent Unit-512 (FreecivLocationFn 14 11))
+  1732: (doFortify Unit-330)
+  1733: (doFortify Unit-370)
+  1734: (ObjectDetectedEvent Unit-494 (FreecivLocationFn 2 11))
+  1735: (ObjectDetectedEvent Unit-511 (FreecivLocationFn 37 14))
+  1736: (ObjectDetectedEvent Unit-510 (FreecivLocationFn 47 17))
+  1737: (ObjectDetectedEvent Unit-479 (FreecivLocationFn 41 21))
+  1738: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1739: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 16)))
+  1740: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 8)))
+  1741: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1742: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1743: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1744: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 1 7)))
+  1745: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1746: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1747: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 0 9)))
+  1748: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 42 6)))
+  1749: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 38 13)))
+  1750: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 20)))
+  1751: (doExplore Unit-109)
+  1752: (doFortify Unit-330)
+300 (T115)
+  1753: (doFortify Unit-370)
+  1754: (EnemyDetectedEvent Unit-370 Unit-158 (FreecivLocationFn 36 7))
+  1755: (EnemyDetectedEvent Unit-330 Unit-158 (FreecivLocationFn 36 7))
+320 (T116)
+  1756: (ObjectDetectedEvent Unit-529 (FreecivLocationFn 39 12))
+  1757: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1758: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 8)))
+  1759: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 38 5)))
+  1760: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 9)))
+  1761: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1762: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1763: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1764: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 9)))
+  1765: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1766: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1767: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1768: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 8)))
+  1769: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 14)))
+  1770: (doExplore Unit-109)
+  1771: (doFortify Unit-330)
+  1772: (doFortify Unit-370)
+  1773: (EnemyDetectedEvent Unit-370 Unit-158 (FreecivLocationFn 37 4))
+  1774: (EnemyDetectedEvent Unit-330 Unit-158 (FreecivLocationFn 37 4))
+340 (T117)
+  1775: (ObjectDetectedEvent Unit-533 (FreecivLocationFn 45 19))
+  1776: (EnemyDetectedEvent Unit-370 Unit-220 (FreecivLocationFn 37 5))
+  1777: (EnemyDetectedEvent Unit-330 Unit-220 (FreecivLocationFn 37 5))
+  1778: (ObjectDetectedEvent Unit-535 (FreecivLocationFn 8 9))
+  1779: (ObjectDetectedEvent Unit-534 (FreecivLocationFn 20 16))
+  1780: (ObjectDetectedEvent Unit-495 (FreecivLocationFn 0 5))
+  1781: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1782: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 5)))
+  1783: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1784: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1785: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1786: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1787: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1788: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1789: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1790: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 9)))
+  1791: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 9)))
+  1792: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 44 6)))
+  1793: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 11)))
+  1794: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 14)))
+  1795: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 43 21)))
+  1796: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 10 7)))
+  1797: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 20 14)))
+  1798: (doExplore Unit-109)
+  1799: (doFortify Unit-330)
+  1800: (doFortify Unit-370)
+360 (T118)
+  1801: (EnemyAdjacentEvent Unit-220 (FreecivLocationFn 36 4))
+  1802: (EnemyDetectedEvent Unit-370 Unit-220 (FreecivLocationFn 35 3))
+  1803: (EnemyDetectedEvent Unit-330 Unit-220 (FreecivLocationFn 35 3))
+  1804: (ObjectDetectedEvent Unit-541 (FreecivLocationFn 39 21))
+  1805: (ObjectDetectedEvent Unit-538 (FreecivLocationFn 19 18))
+  1806: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1807: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 35 3)))
+  1808: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 11)))
+  1809: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1810: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 2 13)))
+  1811: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1812: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1813: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 4 10)))
+  1814: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 4)))
+  1815: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 8)))
+  1816: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 46 18)))
+  1817: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 10 7)))
+  1818: (doExplore Unit-109)
+  1819: (doFortify Unit-330)
+  1820: (doFortify Unit-370)
+  1821: (EnemyDetectedEvent Unit-308 Unit-168 (FreecivLocationFn 28 5))
+380 (T119)
+  1822: (ObjectDetectedEvent Unit-549 (FreecivLocationFn 19 18))
+  1823: (ObjectDetectedEvent Unit-548 (FreecivLocationFn 13 8))
+  1824: (EnemyDetectedEvent Unit-150 Unit-220 (FreecivLocationFn 34 3))
+  1825: (EnemyDetectedEvent Unit-109 Unit-220 (FreecivLocationFn 34 3))
+  1826: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1827: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 26 3)))
+  1828: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 3)))
+  1829: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1830: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1831: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1832: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1833: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1834: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1835: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 38 5)))
+  1836: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 8)))
+  1837: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 14)))
+  1838: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 48 16)))
+  1839: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 43 21)))
+  1840: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 19)))
+  1841: (doExplore Unit-109)
+  1842: (doFortify Unit-330)
+  1843: (doFortify Unit-370)
+  1844: (EnemyDetectedEvent Unit-308 Unit-168 (FreecivLocationFn 27 2))
+  1845: (ObjectDetectedEvent Unit-367 (FreecivLocationFn 28 1))
+  1846: (EnemyDetectedEvent Unit-308 Unit-367 (FreecivLocationFn 28 1))
+  1847: (ObjectDetectedEvent Unit-544 (FreecivLocationFn 38 6))
+  1848: (ObjectDetectedEvent Unit-543 (FreecivLocationFn 39 10))
+  1849: (CityMaySoonGrowEvent FC-City-Ulundi (FreecivLocationFn 29 3))
+400 (T120)
+  1850: (ObjectDetectedEvent Unit-551 (FreecivLocationFn 53 3))
+  1851: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 40 19)))
+  1852: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 27 2)))
+  1853: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 34 3)))
+  1854: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 11)))
+  1855: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1856: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 3 12)))
+  1857: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 10)))
+  1858: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1859: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 10)))
+  1860: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 38 5)))
+  1861: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 8)))
+  1862: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 14)))
+  1863: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 48 16)))
+  1864: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 43 21)))
+  1865: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 41 19)))
+  1866: (doExplore Unit-109)
+  1867: (EnemyAdjacentEvent Unit-158 (FreecivLocationFn 35 2))
+  1868: (EnemyAdjacentEvent Unit-220 (FreecivLocationFn 33 4))
+  1869: (EnemyDetectedEvent Unit-370 Unit-220 (FreecivLocationFn 33 4))
+  1870: (EnemyDetectedEvent Unit-330 Unit-220 (FreecivLocationFn 33 4))
+  1871: (EnemyDetectedEvent Unit-150 Unit-220 (FreecivLocationFn 33 4))
+  1872: (doFortify Unit-330)
+  1873: (doFortify Unit-370)
+  1874: (ObjectDetectedEvent Unit-552 (FreecivLocationFn 46 15))
+  1875: (CityGrowthEvent FC-City-Ulundi FC-City-Ulundi)
+420 (T121)
+  1876: (EnemyDetectedEvent Unit-370 Unit-507 (FreecivLocationFn 36 7))
+  1877: (EnemyDetectedEvent Unit-330 Unit-507 (FreecivLocationFn 36 7))
+  1878: (DefenderDestroyedEvent Unit-150 (FreecivLocationFn 32 4))
+  1879: (EnemyAdjacentEvent Unit-168 (FreecivLocationFn 28 2))
+  1880: (EnemyDetectedEvent Unit-308 Unit-168 (FreecivLocationFn 28 2))
+  1881: (FirstContactEvent (FreecivLocationFn 28 2))
+  1882: (DiplomaticMessageEvent)
+  1883: (MeetingRequestedEvent FC-Player-AvramIancu
+         FC-Player-MalandelaKaLuzumana)
+  1884: (EnemyAdjacentEvent Unit-168 (FreecivLocationFn 29 2))
+  1885: (EnemyAdjacentEvent Unit-168 (FreecivLocationFn 30 2))
+  1886: (EnemyDetectedEvent Unit-109 Unit-168 (FreecivLocationFn 31 2))
+  1887: (EnemyDetectedEvent Unit-370 Unit-158 (FreecivLocationFn 36 3))
+  1888: (EnemyDetectedEvent Unit-330 Unit-158 (FreecivLocationFn 36 3))
+  1889: (ObjectDetectedEvent Unit-546 (FreecivLocationFn 1 11))
+  1890: (doAcceptTreaty FC-Player-MalandelaKaLuzumana FC-Player-AvramIancu)
+  1891: (MeetingCancelledEvent FC-Player-AvramIancu
+         FC-Player-MalandelaKaLuzumana)
+  1892: (DiplomaticMessageEvent)
+  1893: (DiplomaticMessageEvent)
+  1894: (TreatyCeaseFireEvent)
+  1895: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 31 2)))
+  1896: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 3)))
+  1897: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 33 4)))
+  1898: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1899: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 39 18)))
+  1900: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 9)))
+  1901: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 44 7)))
+  1902: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 38 5)))
+  1903: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 23)))
+  1904: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 20 15)))
+  1905: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 8)))
+  1906: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 43 18)))
+  1907: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 48 6)))
+  1908: (doExplore Unit-109)
+  1909: (doFortify Unit-330)
+  1910: (doFortify Unit-370)
+  1911: (doMakeHomeCity Unit-308 FC-City-Ulundi)
+  1912: (doSentry Unit-308 (FreecivLocationFn 29 3))
+  1913: (EnemyDetectedEvent Unit-308 Unit-367 (FreecivLocationFn 30 1))
+  1914: (CityGrowthEvent FC-City-Zimbabwe FC-City-Zimbabwe)
+440 (T122)
+  1915: (ObjectDetectedEvent Unit-556 (FreecivLocationFn 47 8))
+  1916: (ObjectDetectedEvent Unit-516 (FreecivLocationFn 47 8))
+  1917: (ObjectDetectedEvent Unit-555 (FreecivLocationFn 44 18))
+  1918: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 31 2)))
+  1919: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 36 3)))
+  1920: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 33 4)))
+  1921: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1922: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1923: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 9)))
+  1924: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 44 7)))
+  1925: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 38 5)))
+  1926: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 37 23)))
+  1927: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 20 15)))
+  1928: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 6 8)))
+  1929: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 43 18)))
+  1930: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 30 1)))
+  1931: (doExplore Unit-109)
+  1932: (ObjectDetectedEvent Unit-554 (FreecivLocationFn 40 10))
+  1933: (doFortify Unit-330)
+  1934: (doFortify Unit-370)
+  1935: (EnemyDetectedEvent Unit-370 Unit-511 (FreecivLocationFn 36 7))
+  1936: (EnemyDetectedEvent Unit-330 Unit-511 (FreecivLocationFn 36 7))
+  1937: (EnemyAdjacentEvent Unit-511 (FreecivLocationFn 35 6))
+  1938: (ObjectDetectedEvent Unit-509 (FreecivLocationFn 39 10))
+  1939: (EnemyDetectedEvent Unit-370 Unit-507 (FreecivLocationFn 37 4))
+  1940: (EnemyDetectedEvent Unit-330 Unit-507 (FreecivLocationFn 37 4))
+  1941: (DefenderDestroyedEvent Unit-109 (FreecivLocationFn 32 4))
+  1942: (GoalDeactivationEvent (GoalFn 86))
+  1943: (GoalDeactivationEvent (GoalFn 96))
+  1944: (GoalDeactivationEvent (GoalFn 97))
+  1945: (ObjectDetectedEvent Unit-557 (FreecivLocationFn 14 11))
+460 (T123)
+  1946: (EnemyDetectedEvent Unit-370 Unit-168 (FreecivLocationFn 36 3))
+  1947: (EnemyDetectedEvent Unit-330 Unit-168 (FreecivLocationFn 36 3))
+  1948: (EnemyAdjacentEvent Unit-511 (FreecivLocationFn 34 6))
+  1949: (EnemyDetectedEvent Unit-370 Unit-511 (FreecivLocationFn 34 6))
+  1950: (EnemyDetectedEvent Unit-330 Unit-511 (FreecivLocationFn 34 6))
+  1951: (CityDestructionEvent FC-City-Zimbabwe (FreecivLocationFn 32 4))
+  1952: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 42 5)))
+  1953: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 32 4)))
+  1954: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 50 14)))
+  1955: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1956: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 7 10)))
+  1957: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 5 9)))
+  1958: (ThreatDetectedEvent FC-Player-MalandelaKaLuzumana
+         ((FreecivLocationFn 21 12)))
+  1959: (ImprovementBuiltEvent FC-City-Ulundi
+         (BuildingInstanceFn FC-City-Ulundi FC-Building-Palace))
+  1960: (ObjectDetectedEvent Unit-536 (FreecivLocationFn 5 8))
+  1961: (WonderStarted (FreecivLocationFn 2 10))
+480 (T124)
+  1962: (ObjectDetectedEvent Unit-566 (FreecivLocationFn 0 8))

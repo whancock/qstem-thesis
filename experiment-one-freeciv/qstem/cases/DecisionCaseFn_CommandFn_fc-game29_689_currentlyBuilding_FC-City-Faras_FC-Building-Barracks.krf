@@ -1,0 +1,98 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 689) (currentlyBuilding FC-City-Faras FC-Building-Barracks)), dumped 8/10/2022 18:3:48 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 689) (currentlyBuilding FC-City-Faras FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Faras CityFootprint)
+
+(footprintOf FC-City-Faras CityFootprint-FC-City-Faras)
+
+(numTurnsToBuild FC-City-Faras (Turns 10))
+
+(numTurnsToGrow FC-City-Faras (Turns 19))
+
+(cityGrowthRate FC-City-Faras (Percent 2))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 2))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Faras) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Faras) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Faras) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Faras) Some))
+
+(rcc8-PO CityFootprint-FC-City-Faras ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Faras ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Faras CityFootprint-FC-City-Kerma)
+
+(rcc8-PO CityFootprint-FC-City-Faras CityFootprint-FC-City-Dongola)
+
+(rcc8-TPP CityFootprint-FC-City-Faras TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 29))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Dongola CityFootprint)
+
+(footprintOf FC-City-Dongola CityFootprint-FC-City-Dongola)
+
+(numTurnsToBuild FC-City-Dongola (Turns 5))
+
+(numTurnsToGrow FC-City-Dongola (Turns 3))
+
+(cityGrowthRate FC-City-Dongola (Percent 3))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 2))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 6))
+
+(numTurnsToGrow FC-City-Kerma (Turns 1))
+
+(cityGrowthRate FC-City-Kerma (Percent 10))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(aia-MI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

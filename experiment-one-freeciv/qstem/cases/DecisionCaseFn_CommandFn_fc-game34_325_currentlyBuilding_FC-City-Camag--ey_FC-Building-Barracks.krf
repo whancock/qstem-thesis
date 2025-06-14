@@ -1,0 +1,70 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game34 325) (currentlyBuilding FC-City-Camagüey FC-Building-Barracks)), dumped 8/10/2022 19:56:24 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game34 325) (currentlyBuilding FC-City-Camagüey FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Camagüey CityFootprint)
+
+(footprintOf FC-City-Camagüey CityFootprint-FC-City-Camagüey)
+
+(numTurnsToBuild FC-City-Camagüey (Turns 10))
+
+(numTurnsToGrow FC-City-Camagüey (Turns 11))
+
+(cityGrowthRate FC-City-Camagüey (Percent 3))
+
+(cityOwner FC-City-Camagüey FC-Player-JoséMartí)
+
+(citySize FC-City-Camagüey (FreecivCitizenCountFn 2))
+
+(isa FC-City-Camagüey FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Camagüey) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Camagüey) Some))
+
+(rcc8-PO CityFootprint-FC-City-Camagüey ContinentBlob-8146)
+
+(rcc8-PO CityFootprint-FC-City-Camagüey ContinentBlob-8145)
+
+(rcc8-EC CityFootprint-FC-City-Camagüey CityFootprint-FC-City-SantiagoDeCuba)
+
+(rcc8-TPP CityFootprint-FC-City-Camagüey TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséMartí TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 90))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-SantiagoDeCuba CityFootprint)
+
+(footprintOf FC-City-SantiagoDeCuba CityFootprint-FC-City-SantiagoDeCuba)
+
+(numTurnsToBuild FC-City-SantiagoDeCuba (Turns 12))
+
+(numTurnsToGrow FC-City-SantiagoDeCuba (Turns 2))
+
+(cityGrowthRate FC-City-SantiagoDeCuba (Percent 10))
+
+(cityOwner FC-City-SantiagoDeCuba FC-Player-JoséMartí)
+
+(citySize FC-City-SantiagoDeCuba (FreecivCitizenCountFn 1))
+
+(isa FC-City-SantiagoDeCuba FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-SantiagoDeCuba) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-SantiagoDeCuba) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-SantiagoDeCuba) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-SantiagoDeCuba) Some))
+
+(isa ContinentBlob-8145 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8146 FreeCiv-TerrainBlob-Land)

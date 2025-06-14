@@ -1,0 +1,68 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 417) (currentlyBuilding FC-City-Whapmagoostui FC-Unit-Archers)), dumped 8/10/2022 20:30:19 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 417) (currentlyBuilding FC-City-Whapmagoostui FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Whapmagoostui CityFootprint)
+
+(footprintOf FC-City-Whapmagoostui CityFootprint-FC-City-Whapmagoostui)
+
+(numTurnsToBuild FC-City-Whapmagoostui (Turns 6))
+
+(numTurnsToGrow FC-City-Whapmagoostui (Turns 20))
+
+(cityGrowthRate FC-City-Whapmagoostui (Percent 1))
+
+(cityOwner FC-City-Whapmagoostui FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Whapmagoostui FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Whapmagoostui FC-Building-Barracks)
+
+(citySize FC-City-Whapmagoostui (FreecivCitizenCountFn 4))
+
+(isa FC-City-Whapmagoostui FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Whapmagoostui ContinentBlob-8763)
+
+(rcc8-NTPP CityFootprint-FC-City-Whapmagoostui ContinentBlob-8762)
+
+(rcc8-PO CityFootprint-FC-City-Whapmagoostui CityFootprint-FC-City-Nemaska)
+
+(rcc8-TPP CityFootprint-FC-City-Whapmagoostui TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Whapmagoostui TerritoryBlob-9003)
+
+(isa TerritoryBlob-9003 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 94))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Nemaska CityFootprint)
+
+(footprintOf FC-City-Nemaska CityFootprint-FC-City-Nemaska)
+
+(numTurnsToBuild FC-City-Nemaska (Turns 13))
+
+(numTurnsToGrow FC-City-Nemaska (Turns 13))
+
+(cityGrowthRate FC-City-Nemaska (Percent 2))
+
+(cityOwner FC-City-Nemaska FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Nemaska FC-Building-Barracks)
+
+(citySize FC-City-Nemaska (FreecivCitizenCountFn 2))
+
+(isa FC-City-Nemaska FreeCiv-City)
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)

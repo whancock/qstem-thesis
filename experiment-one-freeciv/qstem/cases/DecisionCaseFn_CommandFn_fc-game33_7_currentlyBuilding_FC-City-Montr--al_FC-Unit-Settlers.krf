@@ -1,0 +1,50 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 7) (currentlyBuilding FC-City-Montréal FC-Unit-Settlers)), dumped 8/10/2022 19:20:27 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 7) (currentlyBuilding FC-City-Montréal FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Montréal CityFootprint)
+
+(footprintOf FC-City-Montréal CityFootprint-FC-City-Montréal)
+
+(numTurnsToBuild FC-City-Montréal (Turns 14))
+
+(numTurnsToGrow FC-City-Montréal (Turns 7))
+
+(cityGrowthRate FC-City-Montréal (Percent 15))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 1))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montréal) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montréal) Some))
+
+(rcc8-PO CityFootprint-FC-City-Montréal ContinentBlob-7654)
+
+(rcc8-NTPP CityFootprint-FC-City-Montréal ContinentBlob-7652)
+
+(rcc8-EC CityFootprint-FC-City-Montréal TerritoryBlob-7668)
+
+(rcc8-EQ CityFootprint-FC-City-Montréal TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 50))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) ConstantFunction))
+
+(isa TerritoryBlob-7668 NationalTerritoryFootprint)
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)

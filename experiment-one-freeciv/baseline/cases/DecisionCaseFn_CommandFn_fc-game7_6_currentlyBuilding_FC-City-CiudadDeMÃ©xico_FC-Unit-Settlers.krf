@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 6) (currentlyBuilding FC-City-CiudadDeMéxico FC-Unit-Settlers)), dumped 7/29/2022 11:36:35 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 6) (currentlyBuilding FC-City-CiudadDeMéxico FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-CiudadDeMéxico (Turns 8))
+
+(numTurnsToGrow FC-City-CiudadDeMéxico (Turns 10))
+
+(cityGrowthRate FC-City-CiudadDeMéxico (Percent 10))
+
+(cityOwner FC-City-CiudadDeMéxico FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CiudadDeMéxico FC-Building-Palace)
+
+(citySize FC-City-CiudadDeMéxico (FreecivCitizenCountFn 1))
+
+(isa FC-City-CiudadDeMéxico FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 50))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

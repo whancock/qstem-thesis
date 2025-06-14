@@ -1,0 +1,92 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 761) (currentlyBuilding FC-City-Nuri FC-Unit-Archers)), dumped 8/10/2022 18:5:58 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 761) (currentlyBuilding FC-City-Nuri FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Nuri CityFootprint)
+
+(footprintOf FC-City-Nuri CityFootprint-FC-City-Nuri)
+
+(numTurnsToBuild FC-City-Nuri (Turns 10))
+
+(numTurnsToGrow FC-City-Nuri (Turns 24))
+
+(cityGrowthRate FC-City-Nuri (Percent 2))
+
+(cityOwner FC-City-Nuri FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Nuri FC-Building-Barracks)
+
+(citySize FC-City-Nuri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Nuri FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Nuri ContinentBlob-3907)
+
+(rcc8-PO CityFootprint-FC-City-Nuri ContinentBlob-3906)
+
+(rcc8-PO CityFootprint-FC-City-Nuri ContinentBlob-3905)
+
+(rcc8-EC CityFootprint-FC-City-Nuri CityFootprint-FC-City-Napata)
+
+(rcc8-EC CityFootprint-FC-City-Nuri CityFootprint-FC-City-Naqa)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-197)
+
+(rcc8-TPP CityFootprint-FC-City-Nuri TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Nuri TerritoryBlob-5007)
+
+(isa TerritoryBlob-5007 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 30))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa CityFootprint-FC-City-Naqa CityFootprint)
+
+(footprintOf FC-City-Naqa CityFootprint-FC-City-Naqa)
+
+(numTurnsToBuild FC-City-Naqa (Turns 7))
+
+(cityGrowthRate FC-City-Naqa (Percent 0))
+
+(cityOwner FC-City-Naqa FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Naqa FC-Building-Barracks)
+
+(citySize FC-City-Naqa (FreecivCitizenCountFn 2))
+
+(isa FC-City-Naqa FreeCiv-City)
+
+(isa CityFootprint-FC-City-Napata CityFootprint)
+
+(footprintOf FC-City-Napata CityFootprint-FC-City-Napata)
+
+(numTurnsToBuild FC-City-Napata (Turns 12))
+
+(numTurnsToGrow FC-City-Napata (Turns 6))
+
+(cityGrowthRate FC-City-Napata (Percent 2))
+
+(cityOwner FC-City-Napata FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Napata FC-Building-Barracks)
+
+(citySize FC-City-Napata (FreecivCitizenCountFn 2))
+
+(isa FC-City-Napata FreeCiv-City)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-3907 FreeCiv-TerrainBlob-Land)

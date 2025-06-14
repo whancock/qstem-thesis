@@ -1,0 +1,170 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game10 11) (currentlyBuilding FC-City-Chisasibi FC-Unit-Settlers)), dumped 9/1/2022 23:4:8 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game10 11) (currentlyBuilding FC-City-Chisasibi FC-Unit-Settlers)))
+(rcc8-EC ContinentBlob-58402 ContinentBlob-58398)
+
+(rcc8-EC ContinentBlob-58402 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-EQ ContinentBlob-58402 TerritoryBlob-58414)
+
+(rcc8-EC ContinentBlob-58402 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-58402)
+
+(rcc8-EC ContinentBlob-58401 ContinentBlob-58398)
+
+(rcc8-TPP ContinentBlob-58401 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-TPP ContinentBlob-58401 TerritoryBlob-0)
+
+(rcc8-TPPi CityFootprint-FC-City-Chisasibi ContinentBlob-58401)
+
+(rcc8-EC ContinentBlob-58400 ContinentBlob-58398)
+
+(rcc8-EC ContinentBlob-58400 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-EQ ContinentBlob-58400 TerritoryBlob-58415)
+
+(rcc8-EC ContinentBlob-58400 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-58400)
+
+(rcc8-NTPP ContinentBlob-58399 ContinentBlob-58398)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-TPPi ContinentBlob-58399 TerritoryBlob-58413)
+
+(rcc8-PO ContinentBlob-58399 TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-58399)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58403)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58402)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58401)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58400)
+
+(rcc8-NTPPi ContinentBlob-58398 ContinentBlob-58399)
+
+(rcc8-PO ContinentBlob-58398 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-EC ContinentBlob-58398 TerritoryBlob-58404)
+
+(rcc8-EC ContinentBlob-58398 TerritoryBlob-58414)
+
+(rcc8-NTPPi ContinentBlob-58398 TerritoryBlob-58413)
+
+(rcc8-EC ContinentBlob-58398 TerritoryBlob-58415)
+
+(rcc8-PO ContinentBlob-58398 TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-58398)
+
+(rcc8-EQ TerritoryBlob-58414 ContinentBlob-58402)
+
+(rcc8-EC TerritoryBlob-58414 ContinentBlob-58398)
+
+(rcc8-EC TerritoryBlob-58414 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-EC TerritoryBlob-58414 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-58414)
+
+(rcc8-TPP TerritoryBlob-58413 ContinentBlob-58399)
+
+(rcc8-NTPP TerritoryBlob-58413 ContinentBlob-58398)
+
+(rcc8-EC TerritoryBlob-58413 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-EC TerritoryBlob-58413 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-58413)
+
+(rcc8-EQ TerritoryBlob-58415 ContinentBlob-58400)
+
+(rcc8-EC TerritoryBlob-58415 ContinentBlob-58398)
+
+(rcc8-EC TerritoryBlob-58415 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-EC TerritoryBlob-58415 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-58415)
+
+(rcc8-EC TerritoryBlob-0 ContinentBlob-58402)
+
+(rcc8-TPPi TerritoryBlob-0 ContinentBlob-58401)
+
+(rcc8-EC TerritoryBlob-0 ContinentBlob-58400)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-58399)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-58398)
+
+(rcc8-EQ TerritoryBlob-0 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-58414)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-58413)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-58415)
+
+(rcc8-EQ CityFootprint-FC-City-Chisasibi TerritoryBlob-0)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) ConstantFunction))
+
+(isa TerritoryBlob-58404 NationalTerritoryFootprint)
+
+(isa ContinentBlob-58403 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-58399 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-58413 NationalTerritoryFootprint)
+
+(isa ContinentBlob-58400 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-58415 NationalTerritoryFootprint)
+
+(isa ContinentBlob-58401 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-58402 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 50))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) ConstantFunction))
+
+(isa TerritoryBlob-58414 NationalTerritoryFootprint)
+
+(isa CityFootprint-FC-City-Chisasibi CityFootprint)
+
+(footprintOf FC-City-Chisasibi CityFootprint-FC-City-Chisasibi)
+
+(numTurnsToBuild FC-City-Chisasibi (Turns 14))
+
+(numTurnsToGrow FC-City-Chisasibi (Turns 7))
+
+(cityGrowthRate FC-City-Chisasibi (Percent 15))
+
+(cityOwner FC-City-Chisasibi FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Palace)
+
+(citySize FC-City-Chisasibi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Chisasibi FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chisasibi) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chisasibi) Some))
+
+(isa ContinentBlob-58398 FreeCiv-TerrainBlob-Water)

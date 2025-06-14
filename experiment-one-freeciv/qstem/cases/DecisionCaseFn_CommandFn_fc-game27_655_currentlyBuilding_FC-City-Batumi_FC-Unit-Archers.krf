@@ -1,0 +1,116 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 655) (currentlyBuilding FC-City-Batumi FC-Unit-Archers)), dumped 8/10/2022 17:24:28 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 655) (currentlyBuilding FC-City-Batumi FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Batumi CityFootprint)
+
+(footprintOf FC-City-Batumi CityFootprint-FC-City-Batumi)
+
+(numTurnsToBuild FC-City-Batumi (Turns 6))
+
+(numTurnsToGrow FC-City-Batumi (Turns 11))
+
+(cityGrowthRate FC-City-Batumi (Percent 1))
+
+(cityOwner FC-City-Batumi FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Batumi FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Batumi FC-Building-Barracks)
+
+(citySize FC-City-Batumi (FreecivCitizenCountFn 3))
+
+(isa FC-City-Batumi FreeCiv-City)
+
+(aia-MI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Batumi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Batumi) Some))
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Batumi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Batumi) Some))
+
+(rcc8-PO CityFootprint-FC-City-Batumi ContinentBlob-405)
+
+(rcc8-NTPP CityFootprint-FC-City-Batumi ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Batumi TerritoryBlob-0)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-158)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-159)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-182)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-199)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-198)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-197)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-206)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-265)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-268)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-277)
+
+(rcc8-PO TerritoryBlob-4 UnitFootprint-Unit-276)
+
+(rcc8-NTPPi TerritoryBlob-4 UnitFootprint-Unit-285)
+
+(rcc8-EC CityFootprint-FC-City-Batumi TerritoryBlob-4)
+
+(isa TerritoryBlob-4 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-AmbrosioAlfinger TerritoryBlob-4)
+
+(isa TerritoryBlob-4 NationalTerritoryFootprint)
+
+(currentGold FC-Player-AmbrosioAlfinger (GoldPoints 0))
+
+(currentGovernment FC-Player-AmbrosioAlfinger FC-Anarchy)
+
+(isa FC-Player-AmbrosioAlfinger FreeCiv-Player)
+
+(isa UnitFootprint-Unit-285 UnitFootprint)
+
+(isa UnitFootprint-Unit-276 UnitFootprint)
+
+(isa UnitFootprint-Unit-277 UnitFootprint)
+
+(isa UnitFootprint-Unit-268 UnitFootprint)
+
+(isa UnitFootprint-Unit-265 UnitFootprint)
+
+(isa UnitFootprint-Unit-206 UnitFootprint)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa UnitFootprint-Unit-198 UnitFootprint)
+
+(isa UnitFootprint-Unit-199 UnitFootprint)
+
+(isa UnitFootprint-Unit-182 UnitFootprint)
+
+(isa UnitFootprint-Unit-159 UnitFootprint)
+
+(isa UnitFootprint-Unit-158 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 628))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

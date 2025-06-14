@@ -1,0 +1,72 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 448) (currentlyBuilding FC-City-Moruerani FC-Building-CityWalls)), dumped 8/10/2022 18:43:44 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 448) (currentlyBuilding FC-City-Moruerani FC-Building-CityWalls)))
+(isa CityFootprint-FC-City-Moruerani CityFootprint)
+
+(footprintOf FC-City-Moruerani CityFootprint-FC-City-Moruerani)
+
+(numTurnsToBuild FC-City-Moruerani (Turns 20))
+
+(numTurnsToGrow FC-City-Moruerani (Turns 18))
+
+(cityGrowthRate FC-City-Moruerani (Percent 2))
+
+(cityOwner FC-City-Moruerani FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Moruerani FC-Building-Barracks)
+
+(citySize FC-City-Moruerani (FreecivCitizenCountFn 3))
+
+(isa FC-City-Moruerani FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(rcc8-PO CityFootprint-FC-City-Moruerani ContinentBlob-6132)
+
+(rcc8-PO CityFootprint-FC-City-Moruerani ContinentBlob-6131)
+
+(rcc8-PO CityFootprint-FC-City-Moruerani CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-TPP CityFootprint-FC-City-Moruerani TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 177))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Tomakomanay CityFootprint)
+
+(footprintOf FC-City-Tomakomanay CityFootprint-FC-City-Tomakomanay)
+
+(numTurnsToBuild FC-City-Tomakomanay (Turns 3))
+
+(numTurnsToGrow FC-City-Tomakomanay (Turns 13))
+
+(cityGrowthRate FC-City-Tomakomanay (Percent 2))
+
+(cityOwner FC-City-Tomakomanay FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Tomakomanay FC-Building-Barracks)
+
+(citySize FC-City-Tomakomanay (FreecivCitizenCountFn 3))
+
+(isa FC-City-Tomakomanay FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tomakomanay) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tomakomanay) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tomakomanay) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tomakomanay) Some))
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

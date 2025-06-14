@@ -1,0 +1,482 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game6 253) (currentlyBuilding FC-City-Ineb-Hedj FC-Building-Barracks)), dumped 9/1/2022 20:32:38 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game6 253) (currentlyBuilding FC-City-Ineb-Hedj FC-Building-Barracks)))
+(rcc8-EC ContinentBlob-49971 ContinentBlob-49972)
+
+(rcc8-EC ContinentBlob-49971 ContinentBlob-49970)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Kalhu)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Aram)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Commagene)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Ashur)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Waset)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Amid)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Suentet)
+
+(rcc8-PO ContinentBlob-49971 CityFootprint-FC-City-Nineveh)
+
+(rcc8-TPPi ContinentBlob-49971 UnitFootprint-Unit-137)
+
+(rcc8-TPPi ContinentBlob-49971 UnitFootprint-Unit-157)
+
+(rcc8-TPPi ContinentBlob-49971 UnitFootprint-Unit-158)
+
+(rcc8-TPPi ContinentBlob-49971 UnitFootprint-Unit-163)
+
+(rcc8-PO ContinentBlob-49971 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-49971 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-49971 TerritoryBlob-0)
+
+(rcc8-TPPi ContinentBlob-49971 TerritoryBlob-50739)
+
+(rcc8-TPPi ContinentBlob-49971 TerritoryBlob-50741)
+
+(rcc8-TPPi ContinentBlob-49971 TerritoryBlob-50754)
+
+(rcc8-TPPi ContinentBlob-49971 TerritoryBlob-50755)
+
+(rcc8-TPPi ContinentBlob-49971 TerritoryBlob-50758)
+
+(rcc8-TPPi ContinentBlob-49971 TerritoryBlob-50756)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj ContinentBlob-49971)
+
+(rcc8-EC ContinentBlob-49970 ContinentBlob-49974)
+
+(rcc8-EC ContinentBlob-49970 ContinentBlob-49973)
+
+(rcc8-EC ContinentBlob-49970 ContinentBlob-49971)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Kalhu)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Aram)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Commagene)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Ashur)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Waset)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Amid)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Suentet)
+
+(rcc8-PO ContinentBlob-49970 CityFootprint-FC-City-Nineveh)
+
+(rcc8-EC ContinentBlob-49970 UnitFootprint-Unit-137)
+
+(rcc8-EC ContinentBlob-49970 UnitFootprint-Unit-157)
+
+(rcc8-EC ContinentBlob-49970 UnitFootprint-Unit-158)
+
+(rcc8-EC ContinentBlob-49970 UnitFootprint-Unit-163)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-49977)
+
+(rcc8-PO ContinentBlob-49970 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-49970 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-49970 TerritoryBlob-0)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-50739)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-50741)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-50740)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-50754)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-50755)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-50758)
+
+(rcc8-EC ContinentBlob-49970 TerritoryBlob-50756)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj ContinentBlob-49970)
+
+(rcc8-PO CityFootprint-FC-City-Aram ContinentBlob-49971)
+
+(rcc8-PO CityFootprint-FC-City-Aram ContinentBlob-49970)
+
+(rcc8-EC CityFootprint-FC-City-Aram CityFootprint-FC-City-Commagene)
+
+(rcc8-PO CityFootprint-FC-City-Aram CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-TPPi CityFootprint-FC-City-Aram UnitFootprint-Unit-137)
+
+(rcc8-TPPi CityFootprint-FC-City-Aram UnitFootprint-Unit-157)
+
+(rcc8-EC CityFootprint-FC-City-Aram UnitFootprint-Unit-158)
+
+(rcc8-TPPi CityFootprint-FC-City-Aram UnitFootprint-Unit-163)
+
+(rcc8-TPP CityFootprint-FC-City-Aram TerritoryBlob-3)
+
+(rcc8-EC CityFootprint-FC-City-Aram TerritoryBlob-50739)
+
+(rcc8-EC CityFootprint-FC-City-Aram TerritoryBlob-50754)
+
+(rcc8-EC CityFootprint-FC-City-Aram TerritoryBlob-50755)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj CityFootprint-FC-City-Aram)
+
+(rcc8-TPP UnitFootprint-Unit-137 ContinentBlob-49971)
+
+(rcc8-EC UnitFootprint-Unit-137 ContinentBlob-49970)
+
+(rcc8-TPP UnitFootprint-Unit-137 CityFootprint-FC-City-Aram)
+
+(rcc8-PO UnitFootprint-Unit-137 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-EQ UnitFootprint-Unit-137 UnitFootprint-Unit-157)
+
+(rcc8-EQ UnitFootprint-Unit-137 UnitFootprint-Unit-163)
+
+(rcc8-TPP UnitFootprint-Unit-137 TerritoryBlob-3)
+
+(rcc8-EC UnitFootprint-Unit-137 TerritoryBlob-50755)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj UnitFootprint-Unit-137)
+
+(rcc8-TPP UnitFootprint-Unit-157 ContinentBlob-49971)
+
+(rcc8-EC UnitFootprint-Unit-157 ContinentBlob-49970)
+
+(rcc8-TPP UnitFootprint-Unit-157 CityFootprint-FC-City-Aram)
+
+(rcc8-PO UnitFootprint-Unit-157 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-EQ UnitFootprint-Unit-157 UnitFootprint-Unit-137)
+
+(rcc8-EQ UnitFootprint-Unit-157 UnitFootprint-Unit-163)
+
+(rcc8-TPP UnitFootprint-Unit-157 TerritoryBlob-3)
+
+(rcc8-EC UnitFootprint-Unit-157 TerritoryBlob-50755)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj UnitFootprint-Unit-157)
+
+(rcc8-TPP UnitFootprint-Unit-163 ContinentBlob-49971)
+
+(rcc8-EC UnitFootprint-Unit-163 ContinentBlob-49970)
+
+(rcc8-TPP UnitFootprint-Unit-163 CityFootprint-FC-City-Aram)
+
+(rcc8-PO UnitFootprint-Unit-163 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-EQ UnitFootprint-Unit-163 UnitFootprint-Unit-137)
+
+(rcc8-EQ UnitFootprint-Unit-163 UnitFootprint-Unit-157)
+
+(rcc8-TPP UnitFootprint-Unit-163 TerritoryBlob-3)
+
+(rcc8-EC UnitFootprint-Unit-163 TerritoryBlob-50755)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj UnitFootprint-Unit-163)
+
+(rcc8-PO TerritoryBlob-3 ContinentBlob-49971)
+
+(rcc8-PO TerritoryBlob-3 ContinentBlob-49970)
+
+(rcc8-TPPi TerritoryBlob-3 CityFootprint-FC-City-Aram)
+
+(rcc8-TPPi TerritoryBlob-3 CityFootprint-FC-City-Commagene)
+
+(rcc8-PO TerritoryBlob-3 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-TPPi TerritoryBlob-3 CityFootprint-FC-City-Amid)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-137)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-157)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-158)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-163)
+
+(rcc8-PO TerritoryBlob-3 TerritoryBlob-1)
+
+(rcc8-EC TerritoryBlob-3 TerritoryBlob-50739)
+
+(rcc8-EC TerritoryBlob-3 TerritoryBlob-50754)
+
+(rcc8-EC TerritoryBlob-3 TerritoryBlob-50755)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-3)
+
+(rcc8-TPP TerritoryBlob-50754 ContinentBlob-49971)
+
+(rcc8-EC TerritoryBlob-50754 ContinentBlob-49970)
+
+(rcc8-EC TerritoryBlob-50754 CityFootprint-FC-City-Aram)
+
+(rcc8-EC TerritoryBlob-50754 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-EC TerritoryBlob-50754 TerritoryBlob-3)
+
+(rcc8-EC CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-50754)
+
+(rcc8-EC TerritoryBlob-50755 ContinentBlob-49972)
+
+(rcc8-TPP TerritoryBlob-50755 ContinentBlob-49971)
+
+(rcc8-EC TerritoryBlob-50755 ContinentBlob-49970)
+
+(rcc8-EC TerritoryBlob-50755 CityFootprint-FC-City-Aram)
+
+(rcc8-EC TerritoryBlob-50755 CityFootprint-FC-City-Commagene)
+
+(rcc8-EC TerritoryBlob-50755 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-EC TerritoryBlob-50755 CityFootprint-FC-City-Suentet)
+
+(rcc8-EC TerritoryBlob-50755 UnitFootprint-Unit-137)
+
+(rcc8-EC TerritoryBlob-50755 UnitFootprint-Unit-157)
+
+(rcc8-EC TerritoryBlob-50755 UnitFootprint-Unit-158)
+
+(rcc8-EC TerritoryBlob-50755 UnitFootprint-Unit-163)
+
+(rcc8-EC TerritoryBlob-50755 TerritoryBlob-3)
+
+(rcc8-EC CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-50755)
+
+(rcc8-TPP TerritoryBlob-50756 ContinentBlob-49971)
+
+(rcc8-EC TerritoryBlob-50756 ContinentBlob-49970)
+
+(rcc8-EC TerritoryBlob-50756 CityFootprint-FC-City-Ineb-Hedj)
+
+(rcc8-EC CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-50756)
+
+(isa TerritoryBlob-50740 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-49977 NationalTerritoryFootprint)
+
+(isa ContinentBlob-49973 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-49974 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-49971 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-50756 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-50758 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-50755 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-50754 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-50741 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-50739 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Tutankhamun TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Tutankhamun (GoldPoints 85))
+
+(currentGovernment FC-Player-Tutankhamun FC-Despotism)
+
+(isa FC-Player-Tutankhamun FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Tutankhamun) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Tutankhamun) MonotonicallyIncreasingFunction))
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Zenobia TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Zenobia (GoldPoints 0))
+
+(currentGovernment FC-Player-Zenobia FC-Despotism)
+
+(currentGovernment FC-Player-Zenobia FC-Anarchy)
+
+(isa FC-Player-Zenobia FreeCiv-Player)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-AghaPetros TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-AghaPetros (GoldPoints 0))
+
+(currentGovernment FC-Player-AghaPetros FC-Despotism)
+
+(currentGovernment FC-Player-AghaPetros FC-Anarchy)
+
+(isa FC-Player-AghaPetros FreeCiv-Player)
+
+(isa UnitFootprint-Unit-163 UnitFootprint)
+
+(isa UnitFootprint-Unit-158 UnitFootprint)
+
+(isa UnitFootprint-Unit-157 UnitFootprint)
+
+(isa UnitFootprint-Unit-137 UnitFootprint)
+
+(isa CityFootprint-FC-City-Nineveh CityFootprint)
+
+(footprintOf FC-City-Nineveh CityFootprint-FC-City-Nineveh)
+
+(cityOwner FC-City-Nineveh FC-Player-AghaPetros)
+
+(citySize FC-City-Nineveh (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nineveh FreeCiv-City)
+
+(isa CityFootprint-FC-City-Suentet CityFootprint)
+
+(footprintOf FC-City-Suentet CityFootprint-FC-City-Suentet)
+
+(numTurnsToBuild FC-City-Suentet (Turns 13))
+
+(numTurnsToGrow FC-City-Suentet (Turns 13))
+
+(cityGrowthRate FC-City-Suentet (Percent 3))
+
+(cityOwner FC-City-Suentet FC-Player-Tutankhamun)
+
+(citySize FC-City-Suentet (FreecivCitizenCountFn 2))
+
+(isa FC-City-Suentet FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Suentet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Suentet) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Suentet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Suentet) Some))
+
+(isa CityFootprint-FC-City-Amid CityFootprint)
+
+(footprintOf FC-City-Amid CityFootprint-FC-City-Amid)
+
+(cityOwner FC-City-Amid FC-Player-Zenobia)
+
+(citySize FC-City-Amid (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Amid (FreecivCitizenCountFn 1))
+
+(isa FC-City-Amid FreeCiv-City)
+
+(isa CityFootprint-FC-City-Ineb-Hedj CityFootprint)
+
+(footprintOf FC-City-Ineb-Hedj CityFootprint-FC-City-Ineb-Hedj)
+
+(numTurnsToBuild FC-City-Ineb-Hedj (Turns 4))
+
+(numTurnsToGrow FC-City-Ineb-Hedj (Turns 7))
+
+(cityGrowthRate FC-City-Ineb-Hedj (Percent 3))
+
+(cityOwner FC-City-Ineb-Hedj FC-Player-Tutankhamun)
+
+(citySize FC-City-Ineb-Hedj (FreecivCitizenCountFn 2))
+
+(isa FC-City-Ineb-Hedj FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Ineb-Hedj) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Ineb-Hedj) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Ineb-Hedj) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Ineb-Hedj) Some))
+
+(isa CityFootprint-FC-City-Waset CityFootprint)
+
+(footprintOf FC-City-Waset CityFootprint-FC-City-Waset)
+
+(numTurnsToBuild FC-City-Waset (Turns 1))
+
+(numTurnsToGrow FC-City-Waset (Turns 30))
+
+(cityGrowthRate FC-City-Waset (Percent 2))
+
+(cityOwner FC-City-Waset FC-Player-Tutankhamun)
+
+(cityHasImprovement FC-City-Waset FC-Building-Palace)
+
+(citySize FC-City-Waset (FreecivCitizenCountFn 2))
+
+(isa FC-City-Waset FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Waset) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Waset) Some))
+
+(isa CityFootprint-FC-City-Ashur CityFootprint)
+
+(footprintOf FC-City-Ashur CityFootprint-FC-City-Ashur)
+
+(cityOwner FC-City-Ashur FC-Player-AghaPetros)
+
+(cityHasImprovement FC-City-Ashur FC-Building-CityWalls)
+
+(citySize FC-City-Ashur (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Ashur (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Ashur (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ashur FreeCiv-City)
+
+(isa CityFootprint-FC-City-Commagene CityFootprint)
+
+(footprintOf FC-City-Commagene CityFootprint-FC-City-Commagene)
+
+(cityOwner FC-City-Commagene FC-Player-Zenobia)
+
+(citySize FC-City-Commagene (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Commagene (FreecivCitizenCountFn 1))
+
+(isa FC-City-Commagene FreeCiv-City)
+
+(isa CityFootprint-FC-City-Aram CityFootprint)
+
+(footprintOf FC-City-Aram CityFootprint-FC-City-Aram)
+
+(cityOwner FC-City-Aram FC-Player-Zenobia)
+
+(cityHasImprovement FC-City-Aram FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Aram FC-Building-Palace)
+
+(citySize FC-City-Aram (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Aram (FreecivCitizenCountFn 1))
+
+(isa FC-City-Aram FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kalhu CityFootprint)
+
+(footprintOf FC-City-Kalhu CityFootprint-FC-City-Kalhu)
+
+(cityOwner FC-City-Kalhu FC-Player-AghaPetros)
+
+(cityHasImprovement FC-City-Kalhu FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Kalhu FC-Building-Palace)
+
+(citySize FC-City-Kalhu (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Kalhu (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kalhu FreeCiv-City)
+
+(isa ContinentBlob-49970 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-49972 FreeCiv-TerrainBlob-Water)

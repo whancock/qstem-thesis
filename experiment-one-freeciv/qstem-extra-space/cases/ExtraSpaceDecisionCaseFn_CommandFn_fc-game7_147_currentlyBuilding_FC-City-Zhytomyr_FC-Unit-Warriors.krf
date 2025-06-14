@@ -1,0 +1,252 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game7 147) (currentlyBuilding FC-City-Zhytomyr FC-Unit-Warriors)), dumped 9/1/2022 20:51:54 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game7 147) (currentlyBuilding FC-City-Zhytomyr FC-Unit-Warriors)))
+(rcc8-NTPP ContinentBlob-52056 ContinentBlob-52054)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Kyiv)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Lahore)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Karachi)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-PO ContinentBlob-52056 CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-TPPi ContinentBlob-52056 UnitFootprint-Unit-148)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-147)
+
+(rcc8-PO ContinentBlob-52056 UnitFootprint-Unit-153)
+
+(rcc8-PO ContinentBlob-52056 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-52056 TerritoryBlob-1)
+
+(rcc8-TPPi ContinentBlob-52056 TerritoryBlob-52078)
+
+(rcc8-TPPi ContinentBlob-52056 TerritoryBlob-52289)
+
+(rcc8-TPPi ContinentBlob-52056 TerritoryBlob-52288)
+
+(rcc8-TPPi ContinentBlob-52056 TerritoryBlob-52286)
+
+(rcc8-PO CityFootprint-FC-City-Zhytomyr ContinentBlob-52056)
+
+(rcc8-NTPPi ContinentBlob-52054 ContinentBlob-52056)
+
+(rcc8-EC ContinentBlob-52054 ContinentBlob-52055)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Kyiv)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Lahore)
+
+(rcc8-PO ContinentBlob-52054 CityFootprint-FC-City-Karachi)
+
+(rcc8-NTPPi ContinentBlob-52054 CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-TPPi ContinentBlob-52054 CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-148)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-147)
+
+(rcc8-NTPPi ContinentBlob-52054 UnitFootprint-Unit-153)
+
+(rcc8-EC ContinentBlob-52054 TerritoryBlob-52058)
+
+(rcc8-TPPi ContinentBlob-52054 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-52054 TerritoryBlob-1)
+
+(rcc8-NTPPi ContinentBlob-52054 TerritoryBlob-52078)
+
+(rcc8-NTPPi ContinentBlob-52054 TerritoryBlob-52289)
+
+(rcc8-NTPPi ContinentBlob-52054 TerritoryBlob-52288)
+
+(rcc8-NTPPi ContinentBlob-52054 TerritoryBlob-52286)
+
+(rcc8-TPP CityFootprint-FC-City-Zhytomyr ContinentBlob-52054)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav ContinentBlob-52056)
+
+(rcc8-NTPP CityFootprint-FC-City-Pereyeslav ContinentBlob-52054)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav CityFootprint-FC-City-Kyiv)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-TPP CityFootprint-FC-City-Pereyeslav TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Pereyeslav TerritoryBlob-52289)
+
+(rcc8-PO CityFootprint-FC-City-Zhytomyr CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-52056)
+
+(rcc8-TPP TerritoryBlob-0 ContinentBlob-52054)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Kyiv)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-52289)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-52288)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-52286)
+
+(rcc8-TPP CityFootprint-FC-City-Zhytomyr TerritoryBlob-0)
+
+(rcc8-TPP TerritoryBlob-52286 ContinentBlob-52056)
+
+(rcc8-NTPP TerritoryBlob-52286 ContinentBlob-52054)
+
+(rcc8-EC TerritoryBlob-52286 CityFootprint-FC-City-Lahore)
+
+(rcc8-EC TerritoryBlob-52286 CityFootprint-FC-City-Karachi)
+
+(rcc8-EC TerritoryBlob-52286 CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-EC TerritoryBlob-52286 UnitFootprint-Unit-148)
+
+(rcc8-EC TerritoryBlob-52286 TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-52286 TerritoryBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-Zhytomyr TerritoryBlob-52286)
+
+(isa TerritoryBlob-52058 NationalTerritoryFootprint)
+
+(isa ContinentBlob-52055 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-52056 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-52286 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-52288 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-52289 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-52078 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MuhammadZia-ul-Haq TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MuhammadZia-ul-Haq (GoldPoints 0))
+
+(currentGovernment FC-Player-MuhammadZia-ul-Haq FC-Anarchy)
+
+(isa FC-Player-MuhammadZia-ul-Haq FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 93))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-153 UnitFootprint)
+
+(isa UnitFootprint-Unit-147 UnitFootprint)
+
+(isa UnitFootprint-Unit-148 UnitFootprint)
+
+(isa CityFootprint-FC-City-Zhytomyr CityFootprint)
+
+(footprintOf FC-City-Zhytomyr CityFootprint-FC-City-Zhytomyr)
+
+(numTurnsToBuild FC-City-Zhytomyr (Turns 5))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 5))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 10))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 1))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(isa CityFootprint-FC-City-Pereyeslav CityFootprint)
+
+(footprintOf FC-City-Pereyeslav CityFootprint-FC-City-Pereyeslav)
+
+(numTurnsToBuild FC-City-Pereyeslav (Turns 8))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 4))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 10))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 1))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Pereyeslav) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Pereyeslav) Some))
+
+(isa CityFootprint-FC-City-Karachi CityFootprint)
+
+(footprintOf FC-City-Karachi CityFootprint-FC-City-Karachi)
+
+(cityOwner FC-City-Karachi FC-Player-MuhammadZia-ul-Haq)
+
+(citySize FC-City-Karachi (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Karachi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Karachi FreeCiv-City)
+
+(isa CityFootprint-FC-City-Lahore CityFootprint)
+
+(footprintOf FC-City-Lahore CityFootprint-FC-City-Lahore)
+
+(cityOwner FC-City-Lahore FC-Player-MuhammadZia-ul-Haq)
+
+(cityHasImprovement FC-City-Lahore FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Lahore FC-Building-Palace)
+
+(citySize FC-City-Lahore (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Lahore (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lahore FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kyiv CityFootprint)
+
+(footprintOf FC-City-Kyiv CityFootprint-FC-City-Kyiv)
+
+(numTurnsToBuild FC-City-Kyiv (Turns 8))
+
+(numTurnsToGrow FC-City-Kyiv (Turns 4))
+
+(cityGrowthRate FC-City-Kyiv (Percent 10))
+
+(cityOwner FC-City-Kyiv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Palace)
+
+(citySize FC-City-Kyiv (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kyiv FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(isa ContinentBlob-52054 FreeCiv-TerrainBlob-Water)

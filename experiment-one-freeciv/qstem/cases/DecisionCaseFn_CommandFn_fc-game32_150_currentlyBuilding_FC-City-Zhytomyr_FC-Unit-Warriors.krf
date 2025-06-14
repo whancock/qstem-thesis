@@ -1,0 +1,72 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game32 150) (currentlyBuilding FC-City-Zhytomyr FC-Unit-Warriors)), dumped 8/10/2022 19:7:48 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game32 150) (currentlyBuilding FC-City-Zhytomyr FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Zhytomyr CityFootprint)
+
+(footprintOf FC-City-Zhytomyr CityFootprint-FC-City-Zhytomyr)
+
+(numTurnsToBuild FC-City-Zhytomyr (Turns 5))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 5))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 10))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 1))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(rcc8-PO CityFootprint-FC-City-Zhytomyr ContinentBlob-7302)
+
+(rcc8-TPP CityFootprint-FC-City-Zhytomyr ContinentBlob-7300)
+
+(rcc8-PO CityFootprint-FC-City-Zhytomyr CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-TPP CityFootprint-FC-City-Zhytomyr TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-7388 UnitFootprint-Unit-148)
+
+(rcc8-EC CityFootprint-FC-City-Zhytomyr TerritoryBlob-7388)
+
+(isa TerritoryBlob-7388 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-148 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 93))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Pereyeslav CityFootprint)
+
+(footprintOf FC-City-Pereyeslav CityFootprint-FC-City-Pereyeslav)
+
+(numTurnsToBuild FC-City-Pereyeslav (Turns 1))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 4))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 10))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 1))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Pereyeslav) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Pereyeslav) Some))
+
+(isa ContinentBlob-7300 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7302 FreeCiv-TerrainBlob-Land)

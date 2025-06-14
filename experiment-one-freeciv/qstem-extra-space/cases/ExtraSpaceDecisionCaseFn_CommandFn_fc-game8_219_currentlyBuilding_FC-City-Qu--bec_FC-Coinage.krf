@@ -1,0 +1,418 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game8 219) (currentlyBuilding FC-City-Québec FC-Coinage)), dumped 9/1/2022 21:36:53 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game8 219) (currentlyBuilding FC-City-Québec FC-Coinage)))
+(rcc8-NTPP ContinentBlob-53486 ContinentBlob-53484)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Montréal)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Bishkek)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Karakol)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Québec)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Lévis)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Talas)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Sherbrooke)
+
+(rcc8-PO ContinentBlob-53486 CityFootprint-FC-City-Sorel)
+
+(rcc8-TPPi ContinentBlob-53486 UnitFootprint-Unit-166)
+
+(rcc8-TPPi ContinentBlob-53486 UnitFootprint-Unit-169)
+
+(rcc8-PO ContinentBlob-53486 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-53486 TerritoryBlob-1)
+
+(rcc8-TPPi ContinentBlob-53486 TerritoryBlob-53675)
+
+(rcc8-TPPi ContinentBlob-53486 TerritoryBlob-54016)
+
+(rcc8-PO CityFootprint-FC-City-Québec ContinentBlob-53486)
+
+(rcc8-EC ContinentBlob-53484 ContinentBlob-53490)
+
+(rcc8-EC ContinentBlob-53484 ContinentBlob-53489)
+
+(rcc8-EC ContinentBlob-53484 ContinentBlob-53488)
+
+(rcc8-EC ContinentBlob-53484 ContinentBlob-53487)
+
+(rcc8-NTPPi ContinentBlob-53484 ContinentBlob-53486)
+
+(rcc8-EC ContinentBlob-53484 ContinentBlob-53485)
+
+(rcc8-NTPPi ContinentBlob-53484 CityFootprint-FC-City-Montréal)
+
+(rcc8-NTPPi ContinentBlob-53484 CityFootprint-FC-City-Bishkek)
+
+(rcc8-NTPPi ContinentBlob-53484 CityFootprint-FC-City-Karakol)
+
+(rcc8-NTPPi ContinentBlob-53484 CityFootprint-FC-City-Québec)
+
+(rcc8-TPPi ContinentBlob-53484 CityFootprint-FC-City-Lévis)
+
+(rcc8-NTPPi ContinentBlob-53484 CityFootprint-FC-City-Talas)
+
+(rcc8-PO ContinentBlob-53484 CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-PO ContinentBlob-53484 CityFootprint-FC-City-Sherbrooke)
+
+(rcc8-NTPPi ContinentBlob-53484 CityFootprint-FC-City-Sorel)
+
+(rcc8-NTPPi ContinentBlob-53484 UnitFootprint-Unit-166)
+
+(rcc8-NTPPi ContinentBlob-53484 UnitFootprint-Unit-169)
+
+(rcc8-EC ContinentBlob-53484 TerritoryBlob-53496)
+
+(rcc8-EC ContinentBlob-53484 TerritoryBlob-53494)
+
+(rcc8-PO ContinentBlob-53484 TerritoryBlob-0)
+
+(rcc8-NTPPi ContinentBlob-53484 TerritoryBlob-1)
+
+(rcc8-NTPPi ContinentBlob-53484 TerritoryBlob-53675)
+
+(rcc8-NTPPi ContinentBlob-53484 TerritoryBlob-54016)
+
+(rcc8-EC ContinentBlob-53484 TerritoryBlob-54015)
+
+(rcc8-EC ContinentBlob-53484 TerritoryBlob-54017)
+
+(rcc8-EC ContinentBlob-53484 TerritoryBlob-54020)
+
+(rcc8-NTPP CityFootprint-FC-City-Québec ContinentBlob-53484)
+
+(rcc8-PO CityFootprint-FC-City-Karakol ContinentBlob-53486)
+
+(rcc8-NTPP CityFootprint-FC-City-Karakol ContinentBlob-53484)
+
+(rcc8-PO CityFootprint-FC-City-Karakol CityFootprint-FC-City-Bishkek)
+
+(rcc8-EC CityFootprint-FC-City-Karakol CityFootprint-FC-City-Québec)
+
+(rcc8-PO CityFootprint-FC-City-Karakol CityFootprint-FC-City-Talas)
+
+(rcc8-PO CityFootprint-FC-City-Karakol UnitFootprint-Unit-166)
+
+(rcc8-PO CityFootprint-FC-City-Karakol UnitFootprint-Unit-169)
+
+(rcc8-EC CityFootprint-FC-City-Karakol TerritoryBlob-0)
+
+(rcc8-TPP CityFootprint-FC-City-Karakol TerritoryBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-Karakol TerritoryBlob-53675)
+
+(rcc8-EC CityFootprint-FC-City-Québec CityFootprint-FC-City-Karakol)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-53489)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-53486)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières ContinentBlob-53484)
+
+(rcc8-PO CityFootprint-FC-City-Trois-Rivières CityFootprint-FC-City-Québec)
+
+(rcc8-EC CityFootprint-FC-City-Trois-Rivières CityFootprint-FC-City-Sherbrooke)
+
+(rcc8-TPP CityFootprint-FC-City-Trois-Rivières TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Trois-Rivières TerritoryBlob-54017)
+
+(rcc8-PO CityFootprint-FC-City-Québec CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-PO CityFootprint-FC-City-Sherbrooke ContinentBlob-53489)
+
+(rcc8-PO CityFootprint-FC-City-Sherbrooke ContinentBlob-53486)
+
+(rcc8-PO CityFootprint-FC-City-Sherbrooke ContinentBlob-53484)
+
+(rcc8-PO CityFootprint-FC-City-Sherbrooke CityFootprint-FC-City-Montréal)
+
+(rcc8-EC CityFootprint-FC-City-Sherbrooke CityFootprint-FC-City-Québec)
+
+(rcc8-EC CityFootprint-FC-City-Sherbrooke CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-TPP CityFootprint-FC-City-Sherbrooke TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Sherbrooke TerritoryBlob-54017)
+
+(rcc8-EC CityFootprint-FC-City-Québec CityFootprint-FC-City-Sherbrooke)
+
+(rcc8-EC TerritoryBlob-0 ContinentBlob-53490)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-53489)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-53486)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-53484)
+
+(rcc8-NTPPi TerritoryBlob-0 CityFootprint-FC-City-Montréal)
+
+(rcc8-EC TerritoryBlob-0 CityFootprint-FC-City-Karakol)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Québec)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Lévis)
+
+(rcc8-PO TerritoryBlob-0 CityFootprint-FC-City-Talas)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Sherbrooke)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Sorel)
+
+(rcc8-PO TerritoryBlob-0 TerritoryBlob-1)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-54015)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-54017)
+
+(rcc8-TPP CityFootprint-FC-City-Québec TerritoryBlob-0)
+
+(rcc8-PO TerritoryBlob-1 ContinentBlob-53486)
+
+(rcc8-NTPP TerritoryBlob-1 ContinentBlob-53484)
+
+(rcc8-EC TerritoryBlob-1 CityFootprint-FC-City-Montréal)
+
+(rcc8-TPPi TerritoryBlob-1 CityFootprint-FC-City-Bishkek)
+
+(rcc8-TPPi TerritoryBlob-1 CityFootprint-FC-City-Karakol)
+
+(rcc8-EC TerritoryBlob-1 CityFootprint-FC-City-Québec)
+
+(rcc8-TPPi TerritoryBlob-1 CityFootprint-FC-City-Talas)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-166)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-169)
+
+(rcc8-PO TerritoryBlob-1 TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-1 TerritoryBlob-53675)
+
+(rcc8-EC TerritoryBlob-1 TerritoryBlob-54016)
+
+(rcc8-EC CityFootprint-FC-City-Québec TerritoryBlob-1)
+
+(isa TerritoryBlob-54020 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-54017 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-54015 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-53494 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-53496 NationalTerritoryFootprint)
+
+(isa ContinentBlob-53485 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-53487 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-53488 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-53489 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-53490 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-53486 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-54016 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-53675 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Yshbeg TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Yshbeg (GoldPoints 0))
+
+(currentGovernment FC-Player-Yshbeg FC-Anarchy)
+
+(isa FC-Player-Yshbeg FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 119))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-169 UnitFootprint)
+
+(isa UnitFootprint-Unit-166 UnitFootprint)
+
+(isa CityFootprint-FC-City-Sorel CityFootprint)
+
+(footprintOf FC-City-Sorel CityFootprint-FC-City-Sorel)
+
+(numTurnsToBuild FC-City-Sorel (Turns 8))
+
+(numTurnsToGrow FC-City-Sorel (Turns 4))
+
+(cityGrowthRate FC-City-Sorel (Percent 10))
+
+(cityOwner FC-City-Sorel FC-Player-RenéLévesque)
+
+(citySize FC-City-Sorel (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sorel FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Sorel) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Sorel) Some))
+
+(isa CityFootprint-FC-City-Sherbrooke CityFootprint)
+
+(footprintOf FC-City-Sherbrooke CityFootprint-FC-City-Sherbrooke)
+
+(numTurnsToBuild FC-City-Sherbrooke (Turns 2))
+
+(numTurnsToGrow FC-City-Sherbrooke (Turns 2))
+
+(cityGrowthRate FC-City-Sherbrooke (Percent 10))
+
+(cityOwner FC-City-Sherbrooke FC-Player-RenéLévesque)
+
+(citySize FC-City-Sherbrooke (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sherbrooke FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Sherbrooke) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Sherbrooke) Some))
+
+(isa CityFootprint-FC-City-Trois-Rivières CityFootprint)
+
+(footprintOf FC-City-Trois-Rivières CityFootprint-FC-City-Trois-Rivières)
+
+(numTurnsToBuild FC-City-Trois-Rivières (Turns 3))
+
+(numTurnsToGrow FC-City-Trois-Rivières (Turns 29))
+
+(cityGrowthRate FC-City-Trois-Rivières (Percent 2))
+
+(cityOwner FC-City-Trois-Rivières FC-Player-RenéLévesque)
+
+(citySize FC-City-Trois-Rivières (FreecivCitizenCountFn 2))
+
+(isa FC-City-Trois-Rivières FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(isa CityFootprint-FC-City-Talas CityFootprint)
+
+(footprintOf FC-City-Talas CityFootprint-FC-City-Talas)
+
+(cityOwner FC-City-Talas FC-Player-Yshbeg)
+
+(citySize FC-City-Talas (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Talas (FreecivCitizenCountFn 1))
+
+(isa FC-City-Talas FreeCiv-City)
+
+(isa CityFootprint-FC-City-Lévis CityFootprint)
+
+(footprintOf FC-City-Lévis CityFootprint-FC-City-Lévis)
+
+(numTurnsToBuild FC-City-Lévis (Turns 7))
+
+(numTurnsToGrow FC-City-Lévis (Turns 3))
+
+(cityGrowthRate FC-City-Lévis (Percent 10))
+
+(cityOwner FC-City-Lévis FC-Player-RenéLévesque)
+
+(citySize FC-City-Lévis (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lévis FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lévis) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lévis) Some))
+
+(isa CityFootprint-FC-City-Québec CityFootprint)
+
+(footprintOf FC-City-Québec CityFootprint-FC-City-Québec)
+
+(numTurnsToBuild FC-City-Québec (Turns 167))
+
+(numTurnsToGrow FC-City-Québec (Turns 27))
+
+(cityGrowthRate FC-City-Québec (Percent 2))
+
+(cityOwner FC-City-Québec FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Québec FC-Building-Barracks)
+
+(citySize FC-City-Québec (FreecivCitizenCountFn 2))
+
+(isa FC-City-Québec FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(isa CityFootprint-FC-City-Karakol CityFootprint)
+
+(footprintOf FC-City-Karakol CityFootprint-FC-City-Karakol)
+
+(cityOwner FC-City-Karakol FC-Player-Yshbeg)
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 1))
+
+(isa FC-City-Karakol FreeCiv-City)
+
+(isa CityFootprint-FC-City-Bishkek CityFootprint)
+
+(footprintOf FC-City-Bishkek CityFootprint-FC-City-Bishkek)
+
+(cityOwner FC-City-Bishkek FC-Player-Yshbeg)
+
+(cityHasImprovement FC-City-Bishkek FC-Building-Palace)
+
+(citySize FC-City-Bishkek (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Bishkek (FreecivCitizenCountFn 1))
+
+(isa FC-City-Bishkek FreeCiv-City)
+
+(isa CityFootprint-FC-City-Montréal CityFootprint)
+
+(footprintOf FC-City-Montréal CityFootprint-FC-City-Montréal)
+
+(numTurnsToBuild FC-City-Montréal (Turns 143))
+
+(numTurnsToGrow FC-City-Montréal (Turns 9))
+
+(cityGrowthRate FC-City-Montréal (Percent 3))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 2))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montréal) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montréal) Some))
+
+(isa ContinentBlob-53484 FreeCiv-TerrainBlob-Water)

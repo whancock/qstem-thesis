@@ -1,0 +1,120 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 410) (currentlyBuilding FC-City-Nayoroputo FC-Unit-Warriors)), dumped 8/10/2022 18:42:34 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 410) (currentlyBuilding FC-City-Nayoroputo FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Nayoroputo CityFootprint)
+
+(footprintOf FC-City-Nayoroputo CityFootprint-FC-City-Nayoroputo)
+
+(numTurnsToBuild FC-City-Nayoroputo (Turns 2))
+
+(numTurnsToGrow FC-City-Nayoroputo (Turns 7))
+
+(cityGrowthRate FC-City-Nayoroputo (Percent 5))
+
+(cityOwner FC-City-Nayoroputo FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Nayoroputo FC-Building-Barracks)
+
+(citySize FC-City-Nayoroputo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nayoroputo FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nayoroputo) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nayoroputo) Some))
+
+(rcc8-PO CityFootprint-FC-City-Nayoroputo ContinentBlob-6132)
+
+(rcc8-TPP CityFootprint-FC-City-Nayoroputo ContinentBlob-6131)
+
+(rcc8-PO CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Wien)
+
+(rcc8-TPP CityFootprint-FC-City-Nayoroputo TerritoryBlob-0)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-165)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-184)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo TerritoryBlob-2)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo TerritoryBlob-6426)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo TerritoryBlob-6445)
+
+(isa TerritoryBlob-6445 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-6426 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-FranzJoseph TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-FranzJoseph (GoldPoints 0))
+
+(currentGovernment FC-Player-FranzJoseph FC-Anarchy)
+
+(isa FC-Player-FranzJoseph FreeCiv-Player)
+
+(isa UnitFootprint-Unit-184 UnitFootprint)
+
+(isa UnitFootprint-Unit-165 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 174))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Wien CityFootprint)
+
+(footprintOf FC-City-Wien CityFootprint-FC-City-Wien)
+
+(cityOwner FC-City-Wien FC-Player-FranzJoseph)
+
+(cityHasImprovement FC-City-Wien FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Wien FC-Building-Palace)
+
+(citySize FC-City-Wien (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Wien (FreecivCitizenCountFn 1))
+
+(isa FC-City-Wien FreeCiv-City)
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 2))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 19))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 2))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

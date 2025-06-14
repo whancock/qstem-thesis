@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 602) (currentlyBuilding FC-City-Kerma FC-Unit-Archers)), dumped 7/29/2022 11:51:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 602) (currentlyBuilding FC-City-Kerma FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Kerma (Turns 12))
+
+(numTurnsToGrow FC-City-Kerma (Turns 7))
+
+(cityGrowthRate FC-City-Kerma (Percent 10))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 23))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

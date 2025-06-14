@@ -1,0 +1,50 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game34 700) (currentlyBuilding FC-City-Artemisa FC-Building-CityWalls)), dumped 8/10/2022 20:8:13 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game34 700) (currentlyBuilding FC-City-Artemisa FC-Building-CityWalls)))
+(isa CityFootprint-FC-City-Artemisa CityFootprint)
+
+(footprintOf FC-City-Artemisa CityFootprint-FC-City-Artemisa)
+
+(numTurnsToBuild FC-City-Artemisa (Turns 20))
+
+(numTurnsToGrow FC-City-Artemisa (Turns 12))
+
+(cityGrowthRate FC-City-Artemisa (Percent 2))
+
+(cityOwner FC-City-Artemisa FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-Artemisa FC-Building-Barracks)
+
+(citySize FC-City-Artemisa (FreecivCitizenCountFn 3))
+
+(isa FC-City-Artemisa FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Artemisa) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Artemisa) Some))
+
+(rcc8-PO CityFootprint-FC-City-Artemisa ContinentBlob-8146)
+
+(rcc8-PO CityFootprint-FC-City-Artemisa ContinentBlob-8145)
+
+(rcc8-TPP CityFootprint-FC-City-Artemisa TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséMartí TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 238))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-8145 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8146 FreeCiv-TerrainBlob-Land)

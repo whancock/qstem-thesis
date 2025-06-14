@@ -1,0 +1,98 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 391) (currentlyBuilding FC-City-Mopet FC-Building-CityWalls)), dumped 8/10/2022 18:41:47 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 391) (currentlyBuilding FC-City-Mopet FC-Building-CityWalls)))
+(isa CityFootprint-FC-City-Mopet CityFootprint)
+
+(footprintOf FC-City-Mopet CityFootprint-FC-City-Mopet)
+
+(numTurnsToBuild FC-City-Mopet (Turns 15))
+
+(numTurnsToGrow FC-City-Mopet (Turns 8))
+
+(cityGrowthRate FC-City-Mopet (Percent 2))
+
+(cityOwner FC-City-Mopet FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Mopet FC-Building-Barracks)
+
+(citySize FC-City-Mopet (FreecivCitizenCountFn 3))
+
+(isa FC-City-Mopet FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mopet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mopet) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mopet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mopet) Some))
+
+(rcc8-PO CityFootprint-FC-City-Mopet ContinentBlob-6132)
+
+(rcc8-NTPP CityFootprint-FC-City-Mopet ContinentBlob-6131)
+
+(rcc8-PO CityFootprint-FC-City-Mopet CityFootprint-FC-City-Cipasiri)
+
+(rcc8-PO CityFootprint-FC-City-Mopet CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-TPP CityFootprint-FC-City-Mopet TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 173))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Tomakomanay CityFootprint)
+
+(footprintOf FC-City-Tomakomanay CityFootprint-FC-City-Tomakomanay)
+
+(numTurnsToBuild FC-City-Tomakomanay (Turns 15))
+
+(numTurnsToGrow FC-City-Tomakomanay (Turns 5))
+
+(cityGrowthRate FC-City-Tomakomanay (Percent 3))
+
+(cityOwner FC-City-Tomakomanay FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Tomakomanay FC-Building-Barracks)
+
+(citySize FC-City-Tomakomanay (FreecivCitizenCountFn 2))
+
+(isa FC-City-Tomakomanay FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tomakomanay) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tomakomanay) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tomakomanay) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tomakomanay) Some))
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 5))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 22))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 2))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,142 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 996) (currentlyBuilding FC-City-Mistissini FC-Unit-Diplomat)), dumped 8/10/2022 20:49:24 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 996) (currentlyBuilding FC-City-Mistissini FC-Unit-Diplomat)))
+(isa CityFootprint-FC-City-Mistissini CityFootprint)
+
+(footprintOf FC-City-Mistissini CityFootprint-FC-City-Mistissini)
+
+(numTurnsToBuild FC-City-Mistissini (Turns 6))
+
+(numTurnsToGrow FC-City-Mistissini (Turns 29))
+
+(cityGrowthRate FC-City-Mistissini (Percent 0))
+
+(cityOwner FC-City-Mistissini FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-Barracks)
+
+(citySize FC-City-Mistissini (FreecivCitizenCountFn 4))
+
+(isa FC-City-Mistissini FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mistissini) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mistissini) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mistissini) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mistissini) Some))
+
+(rcc8-PO CityFootprint-FC-City-Mistissini ContinentBlob-8763)
+
+(rcc8-NTPP CityFootprint-FC-City-Mistissini ContinentBlob-8762)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini CityFootprint-FC-City-Waskaganish)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini CityFootprint-FC-City-Nemaska)
+
+(rcc8-TPP CityFootprint-FC-City-Mistissini TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-185)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-204)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-207)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-221)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-249)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-272)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-227)
+
+(rcc8-EC TerritoryBlob-9544 UnitFootprint-Unit-285)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini TerritoryBlob-9544)
+
+(isa TerritoryBlob-9544 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-285 UnitFootprint)
+
+(isa UnitFootprint-Unit-227 UnitFootprint)
+
+(isa UnitFootprint-Unit-272 UnitFootprint)
+
+(isa UnitFootprint-Unit-249 UnitFootprint)
+
+(isa UnitFootprint-Unit-221 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-204 UnitFootprint)
+
+(isa UnitFootprint-Unit-185 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 450))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Nemaska CityFootprint)
+
+(footprintOf FC-City-Nemaska CityFootprint-FC-City-Nemaska)
+
+(numTurnsToBuild FC-City-Nemaska (Turns 5))
+
+(numTurnsToGrow FC-City-Nemaska (Turns 6))
+
+(cityGrowthRate FC-City-Nemaska (Percent 1))
+
+(cityOwner FC-City-Nemaska FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Nemaska FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Nemaska FC-Building-Barracks)
+
+(citySize FC-City-Nemaska (FreecivCitizenCountFn 3))
+
+(isa FC-City-Nemaska FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nemaska) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nemaska) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nemaska) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nemaska) Some))
+
+(isa CityFootprint-FC-City-Waskaganish CityFootprint)
+
+(footprintOf FC-City-Waskaganish CityFootprint-FC-City-Waskaganish)
+
+(numTurnsToBuild FC-City-Waskaganish (Turns 7))
+
+(numTurnsToGrow FC-City-Waskaganish (Turns 35))
+
+(cityGrowthRate FC-City-Waskaganish (Percent 0))
+
+(cityOwner FC-City-Waskaganish FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Waskaganish FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Waskaganish FC-Building-Barracks)
+
+(citySize FC-City-Waskaganish (FreecivCitizenCountFn 4))
+
+(isa FC-City-Waskaganish FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Waskaganish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Waskaganish) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Waskaganish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Waskaganish) Some))
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)

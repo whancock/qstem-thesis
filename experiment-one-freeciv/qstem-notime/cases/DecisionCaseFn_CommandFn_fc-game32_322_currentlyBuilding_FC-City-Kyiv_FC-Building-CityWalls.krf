@@ -1,0 +1,66 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game32 322) (currentlyBuilding FC-City-Kyiv FC-Building-CityWalls)), dumped 8/10/2022 19:12:9 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game32 322) (currentlyBuilding FC-City-Kyiv FC-Building-CityWalls)))
+(isa CityFootprint-FC-City-Kyiv CityFootprint)
+
+(footprintOf FC-City-Kyiv CityFootprint-FC-City-Kyiv)
+
+(numTurnsToBuild FC-City-Kyiv (Turns 10))
+
+(cityGrowthRate FC-City-Kyiv (Percent 0))
+
+(cityOwner FC-City-Kyiv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Palace)
+
+(citySize FC-City-Kyiv (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kyiv FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Kyiv ContinentBlob-7302)
+
+(rcc8-NTPP CityFootprint-FC-City-Kyiv ContinentBlob-7300)
+
+(rcc8-PO CityFootprint-FC-City-Kyiv CityFootprint-FC-City-Pereyeslav)
+
+(rcc8-TPP CityFootprint-FC-City-Kyiv TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Kyiv TerritoryBlob-7390)
+
+(isa TerritoryBlob-7390 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 142))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Pereyeslav CityFootprint)
+
+(footprintOf FC-City-Pereyeslav CityFootprint-FC-City-Pereyeslav)
+
+(numTurnsToBuild FC-City-Pereyeslav (Turns 8))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 13))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 2))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-Barracks)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 2))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(isa ContinentBlob-7300 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7302 FreeCiv-TerrainBlob-Land)

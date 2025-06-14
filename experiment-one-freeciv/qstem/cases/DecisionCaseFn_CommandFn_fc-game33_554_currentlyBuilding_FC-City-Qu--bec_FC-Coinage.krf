@@ -1,0 +1,164 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 554) (currentlyBuilding FC-City-Québec FC-Coinage)), dumped 8/10/2022 19:35:0 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 554) (currentlyBuilding FC-City-Québec FC-Coinage)))
+(isa CityFootprint-FC-City-Québec CityFootprint)
+
+(footprintOf FC-City-Québec CityFootprint-FC-City-Québec)
+
+(numTurnsToBuild FC-City-Québec (Turns 249))
+
+(numTurnsToGrow FC-City-Québec (Turns 14))
+
+(cityGrowthRate FC-City-Québec (Percent 3))
+
+(cityOwner FC-City-Québec FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Québec FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Québec FC-Building-Barracks)
+
+(citySize FC-City-Québec (FreecivCitizenCountFn 2))
+
+(isa FC-City-Québec FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(rcc8-PO CityFootprint-FC-City-Québec ContinentBlob-7654)
+
+(rcc8-NTPP CityFootprint-FC-City-Québec ContinentBlob-7652)
+
+(rcc8-EC CityFootprint-FC-City-Québec CityFootprint-FC-City-Karakol)
+
+(rcc8-PO CityFootprint-FC-City-Québec CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-EC CityFootprint-FC-City-Québec CityFootprint-FC-City-Rimouski)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-181)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-171)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-170)
+
+(rcc8-TPP CityFootprint-FC-City-Québec TerritoryBlob-0)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-166)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-169)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-172)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-175)
+
+(rcc8-EC CityFootprint-FC-City-Québec TerritoryBlob-1)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Yshbeg TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Yshbeg (GoldPoints 0))
+
+(currentGovernment FC-Player-Yshbeg FC-Anarchy)
+
+(isa FC-Player-Yshbeg FreeCiv-Player)
+
+(isa UnitFootprint-Unit-175 UnitFootprint)
+
+(isa UnitFootprint-Unit-172 UnitFootprint)
+
+(isa UnitFootprint-Unit-169 UnitFootprint)
+
+(isa UnitFootprint-Unit-166 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 280))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyDecreasingFunction))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-170 UnitFootprint)
+
+(isa UnitFootprint-Unit-171 UnitFootprint)
+
+(isa UnitFootprint-Unit-181 UnitFootprint)
+
+(isa CityFootprint-FC-City-Rimouski CityFootprint)
+
+(footprintOf FC-City-Rimouski CityFootprint-FC-City-Rimouski)
+
+(numTurnsToBuild FC-City-Rimouski (Turns 60))
+
+(numTurnsToGrow FC-City-Rimouski (Turns 10))
+
+(cityGrowthRate FC-City-Rimouski (Percent 10))
+
+(cityOwner FC-City-Rimouski FC-Player-RenéLévesque)
+
+(citySize FC-City-Rimouski (FreecivCitizenCountFn 1))
+
+(isa FC-City-Rimouski FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Rimouski) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Rimouski) Some))
+
+(isa CityFootprint-FC-City-Trois-Rivières CityFootprint)
+
+(footprintOf FC-City-Trois-Rivières CityFootprint-FC-City-Trois-Rivières)
+
+(numTurnsToBuild FC-City-Trois-Rivières (Turns 143))
+
+(cityGrowthRate FC-City-Trois-Rivières (Percent 0))
+
+(cityOwner FC-City-Trois-Rivières FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Trois-Rivières FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Trois-Rivières FC-Building-Barracks)
+
+(citySize FC-City-Trois-Rivières (FreecivCitizenCountFn 3))
+
+(isa FC-City-Trois-Rivières FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(isa CityFootprint-FC-City-Karakol CityFootprint)
+
+(footprintOf FC-City-Karakol CityFootprint-FC-City-Karakol)
+
+(cityOwner FC-City-Karakol FC-Player-Yshbeg)
+
+(cityHasImprovement FC-City-Karakol FC-Building-CityWalls)
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 1))
+
+(isa FC-City-Karakol FreeCiv-City)
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)

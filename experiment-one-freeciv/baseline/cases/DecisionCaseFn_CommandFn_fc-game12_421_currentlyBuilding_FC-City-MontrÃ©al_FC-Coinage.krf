@@ -1,0 +1,26 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 421) (currentlyBuilding FC-City-Montréal FC-Coinage)), dumped 7/29/2022 12:33:30 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 421) (currentlyBuilding FC-City-Montréal FC-Coinage)))
+(numTurnsToBuild FC-City-Montréal (Turns 100))
+
+(numTurnsToGrow FC-City-Montréal (Turns 33))
+
+(cityGrowthRate FC-City-Montréal (Percent 1))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 3))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 39))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

@@ -1,0 +1,62 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 651) (currentlyBuilding FC-City-CuliacánRosales FC-Building-Barracks)), dumped 8/10/2022 17:40:43 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 651) (currentlyBuilding FC-City-CuliacánRosales FC-Building-Barracks)))
+(isa CityFootprint-FC-City-CuliacánRosales CityFootprint)
+
+(footprintOf FC-City-CuliacánRosales CityFootprint-FC-City-CuliacánRosales)
+
+(numTurnsToBuild FC-City-CuliacánRosales (Turns 10))
+
+(numTurnsToGrow FC-City-CuliacánRosales (Turns 13))
+
+(cityGrowthRate FC-City-CuliacánRosales (Percent 5))
+
+(cityOwner FC-City-CuliacánRosales FC-Player-BenitoJuárez)
+
+(citySize FC-City-CuliacánRosales (FreecivCitizenCountFn 1))
+
+(isa FC-City-CuliacánRosales FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CuliacánRosales) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CuliacánRosales) Some))
+
+(rcc8-PO CityFootprint-FC-City-CuliacánRosales ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-CuliacánRosales ContinentBlob-1421)
+
+(rcc8-EC CityFootprint-FC-City-CuliacánRosales CityFootprint-FC-City-Keelung)
+
+(rcc8-EC CityFootprint-FC-City-CuliacánRosales CityFootprint-FC-City-SanLuisPotosí)
+
+(isa CityFootprint-FC-City-SanLuisPotosí CityFootprint)
+
+(footprintOf FC-City-SanLuisPotosí CityFootprint-FC-City-SanLuisPotosí)
+
+(numTurnsToBuild FC-City-SanLuisPotosí (Turns 7))
+
+(numTurnsToGrow FC-City-SanLuisPotosí (Turns 13))
+
+(cityGrowthRate FC-City-SanLuisPotosí (Percent 5))
+
+(cityOwner FC-City-SanLuisPotosí FC-Player-BenitoJuárez)
+
+(citySize FC-City-SanLuisPotosí (FreecivCitizenCountFn 1))
+
+(isa FC-City-SanLuisPotosí FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-SanLuisPotosí) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-SanLuisPotosí) Some))
+
+(isa CityFootprint-FC-City-Keelung CityFootprint)
+
+(footprintOf FC-City-Keelung CityFootprint-FC-City-Keelung)
+
+(cityOwner FC-City-Keelung FC-Player-ChiangKaiShek)
+
+(citySize FC-City-Keelung (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Keelung (FreecivCitizenCountFn 1))
+
+(isa FC-City-Keelung FreeCiv-City)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

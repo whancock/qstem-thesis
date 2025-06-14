@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 187) (currentlyBuilding FC-City-Trois-Rivières FC-Building-Barracks)), dumped 7/29/2022 12:31:0 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 187) (currentlyBuilding FC-City-Trois-Rivières FC-Building-Barracks)))
+(numTurnsToBuild FC-City-Trois-Rivières (Turns 15))
+
+(numTurnsToGrow FC-City-Trois-Rivières (Turns 5))
+
+(cityGrowthRate FC-City-Trois-Rivières (Percent 10))
+
+(cityOwner FC-City-Trois-Rivières FC-Player-RenéLévesque)
+
+(citySize FC-City-Trois-Rivières (FreecivCitizenCountFn 1))
+
+(isa FC-City-Trois-Rivières FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 87))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

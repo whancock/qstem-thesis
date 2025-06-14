@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game13 662) (currentlyBuilding FC-City-PedroBetancourt FC-Building-Barracks)), dumped 7/29/2022 12:49:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game13 662) (currentlyBuilding FC-City-PedroBetancourt FC-Building-Barracks)))
+(numTurnsToBuild FC-City-PedroBetancourt (Turns 10))
+
+(numTurnsToGrow FC-City-PedroBetancourt (Turns 5))
+
+(cityGrowthRate FC-City-PedroBetancourt (Percent 10))
+
+(cityOwner FC-City-PedroBetancourt FC-Player-JoséMartí)
+
+(citySize FC-City-PedroBetancourt (FreecivCitizenCountFn 1))
+
+(isa FC-City-PedroBetancourt FreeCiv-City)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 215))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)

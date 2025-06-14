@@ -1,0 +1,74 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 149) (currentlyBuilding FC-City-Nupurpet FC-Unit-Settlers)), dumped 8/10/2022 18:35:45 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 149) (currentlyBuilding FC-City-Nupurpet FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Nupurpet CityFootprint)
+
+(footprintOf FC-City-Nupurpet CityFootprint-FC-City-Nupurpet)
+
+(numTurnsToBuild FC-City-Nupurpet (Turns 13))
+
+(numTurnsToGrow FC-City-Nupurpet (Turns 6))
+
+(cityGrowthRate FC-City-Nupurpet (Percent 10))
+
+(cityOwner FC-City-Nupurpet FC-Player-KayanoShigeru)
+
+(citySize FC-City-Nupurpet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nupurpet FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nupurpet) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nupurpet) Some))
+
+(rcc8-TPP CityFootprint-FC-City-Nupurpet ContinentBlob-6132)
+
+(rcc8-NTPP CityFootprint-FC-City-Nupurpet ContinentBlob-6131)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet CityFootprint-FC-City-Cipasiri)
+
+(rcc8-TPP CityFootprint-FC-City-Nupurpet TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet TerritoryBlob-6260)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet TerritoryBlob-6263)
+
+(isa TerritoryBlob-6263 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-6260 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 94))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 4))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 3))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 10))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 1))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

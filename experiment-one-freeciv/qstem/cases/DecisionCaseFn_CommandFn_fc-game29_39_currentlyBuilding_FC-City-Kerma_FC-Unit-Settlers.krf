@@ -1,0 +1,52 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 39) (currentlyBuilding FC-City-Kerma FC-Unit-Settlers)), dumped 8/10/2022 17:48:38 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 39) (currentlyBuilding FC-City-Kerma FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 20))
+
+(numTurnsToGrow FC-City-Kerma (Turns 10))
+
+(cityGrowthRate FC-City-Kerma (Percent 10))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(rcc8-PO CityFootprint-FC-City-Kerma ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Kerma ContinentBlob-3905)
+
+(rcc8-TPP CityFootprint-FC-City-Kerma TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Kerma TerritoryBlob-4161)
+
+(rcc8-EC CityFootprint-FC-City-Kerma TerritoryBlob-4159)
+
+(isa TerritoryBlob-4159 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-4161 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 52))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

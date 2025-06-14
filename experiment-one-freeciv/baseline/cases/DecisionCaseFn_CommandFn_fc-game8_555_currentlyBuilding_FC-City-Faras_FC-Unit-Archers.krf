@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 555) (currentlyBuilding FC-City-Faras FC-Unit-Archers)), dumped 7/29/2022 11:51:23 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 555) (currentlyBuilding FC-City-Faras FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Faras (Turns 10))
+
+(numTurnsToGrow FC-City-Faras (Turns 29))
+
+(cityGrowthRate FC-City-Faras (Percent 2))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 2))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 27))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

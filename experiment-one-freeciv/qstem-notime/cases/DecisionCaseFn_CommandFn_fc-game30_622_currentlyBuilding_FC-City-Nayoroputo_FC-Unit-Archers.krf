@@ -1,0 +1,188 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 622) (currentlyBuilding FC-City-Nayoroputo FC-Unit-Archers)), dumped 8/10/2022 18:48:46 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 622) (currentlyBuilding FC-City-Nayoroputo FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Nayoroputo CityFootprint)
+
+(footprintOf FC-City-Nayoroputo CityFootprint-FC-City-Nayoroputo)
+
+(numTurnsToBuild FC-City-Nayoroputo (Turns 8))
+
+(numTurnsToGrow FC-City-Nayoroputo (Turns 5))
+
+(cityGrowthRate FC-City-Nayoroputo (Percent 2))
+
+(cityOwner FC-City-Nayoroputo FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Nayoroputo FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Nayoroputo FC-Building-Barracks)
+
+(citySize FC-City-Nayoroputo (FreecivCitizenCountFn 2))
+
+(isa FC-City-Nayoroputo FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Nayoroputo ContinentBlob-6132)
+
+(rcc8-TPP CityFootprint-FC-City-Nayoroputo ContinentBlob-6131)
+
+(rcc8-PO CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Wien)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Villach)
+
+(rcc8-TPP CityFootprint-FC-City-Nayoroputo TerritoryBlob-0)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-165)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-184)
+
+(rcc8-TPPi TerritoryBlob-2 UnitFootprint-Unit-197)
+
+(rcc8-TPPi TerritoryBlob-2 UnitFootprint-Unit-204)
+
+(rcc8-TPPi TerritoryBlob-2 UnitFootprint-Unit-211)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-220)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-219)
+
+(rcc8-TPPi TerritoryBlob-2 UnitFootprint-Unit-218)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-243)
+
+(rcc8-TPPi TerritoryBlob-2 UnitFootprint-Unit-250)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-263)
+
+(rcc8-TPPi TerritoryBlob-2 UnitFootprint-Unit-262)
+
+(rcc8-NTPPi TerritoryBlob-2 UnitFootprint-Unit-261)
+
+(rcc8-PO CityFootprint-FC-City-Nayoroputo TerritoryBlob-2)
+
+(rcc8-EC TerritoryBlob-6617 UnitFootprint-Unit-197)
+
+(rcc8-EC TerritoryBlob-6617 UnitFootprint-Unit-204)
+
+(rcc8-EC TerritoryBlob-6617 UnitFootprint-Unit-211)
+
+(rcc8-EC TerritoryBlob-6617 UnitFootprint-Unit-218)
+
+(rcc8-EC TerritoryBlob-6617 UnitFootprint-Unit-250)
+
+(rcc8-EC TerritoryBlob-6617 UnitFootprint-Unit-262)
+
+(rcc8-EC TerritoryBlob-6617 UnitFootprint-Unit-269)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo TerritoryBlob-6617)
+
+(isa TerritoryBlob-6617 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-269 UnitFootprint)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-FranzJoseph TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-FranzJoseph (GoldPoints 0))
+
+(currentGovernment FC-Player-FranzJoseph FC-Anarchy)
+
+(isa FC-Player-FranzJoseph FreeCiv-Player)
+
+(isa UnitFootprint-Unit-261 UnitFootprint)
+
+(isa UnitFootprint-Unit-262 UnitFootprint)
+
+(isa UnitFootprint-Unit-263 UnitFootprint)
+
+(isa UnitFootprint-Unit-250 UnitFootprint)
+
+(isa UnitFootprint-Unit-243 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-219 UnitFootprint)
+
+(isa UnitFootprint-Unit-220 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-211 UnitFootprint)
+
+(isa UnitFootprint-Unit-204 UnitFootprint)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa UnitFootprint-Unit-184 UnitFootprint)
+
+(isa UnitFootprint-Unit-165 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 323))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Villach CityFootprint)
+
+(footprintOf FC-City-Villach CityFootprint-FC-City-Villach)
+
+(cityOwner FC-City-Villach FC-Player-FranzJoseph)
+
+(citySize FC-City-Villach (FreecivCitizenCountFn 1))
+
+(isa FC-City-Villach FreeCiv-City)
+
+(isa CityFootprint-FC-City-Wien CityFootprint)
+
+(footprintOf FC-City-Wien CityFootprint-FC-City-Wien)
+
+(cityOwner FC-City-Wien FC-Player-FranzJoseph)
+
+(cityHasImprovement FC-City-Wien FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Wien FC-Building-Palace)
+
+(citySize FC-City-Wien (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Wien (FreecivCitizenCountFn 1))
+
+(isa FC-City-Wien FreeCiv-City)
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 6))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 29))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 2))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

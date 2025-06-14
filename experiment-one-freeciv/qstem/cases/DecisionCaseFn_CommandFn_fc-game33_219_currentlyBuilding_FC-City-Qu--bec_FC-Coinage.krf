@@ -1,0 +1,126 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 219) (currentlyBuilding FC-City-Québec FC-Coinage)), dumped 8/10/2022 19:26:5 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 219) (currentlyBuilding FC-City-Québec FC-Coinage)))
+(isa CityFootprint-FC-City-Québec CityFootprint)
+
+(footprintOf FC-City-Québec CityFootprint-FC-City-Québec)
+
+(numTurnsToBuild FC-City-Québec (Turns 167))
+
+(numTurnsToGrow FC-City-Québec (Turns 27))
+
+(cityGrowthRate FC-City-Québec (Percent 2))
+
+(cityOwner FC-City-Québec FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Québec FC-Building-Barracks)
+
+(citySize FC-City-Québec (FreecivCitizenCountFn 2))
+
+(isa FC-City-Québec FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Québec) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Québec) Some))
+
+(rcc8-PO CityFootprint-FC-City-Québec ContinentBlob-7654)
+
+(rcc8-NTPP CityFootprint-FC-City-Québec ContinentBlob-7652)
+
+(rcc8-EC CityFootprint-FC-City-Québec CityFootprint-FC-City-Karakol)
+
+(rcc8-PO CityFootprint-FC-City-Québec CityFootprint-FC-City-Trois-Rivières)
+
+(rcc8-EC CityFootprint-FC-City-Québec CityFootprint-FC-City-Sherbrooke)
+
+(rcc8-TPP CityFootprint-FC-City-Québec TerritoryBlob-0)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-166)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-169)
+
+(rcc8-EC CityFootprint-FC-City-Québec TerritoryBlob-1)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Yshbeg TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Yshbeg (GoldPoints 0))
+
+(currentGovernment FC-Player-Yshbeg FC-Anarchy)
+
+(isa FC-Player-Yshbeg FreeCiv-Player)
+
+(isa UnitFootprint-Unit-169 UnitFootprint)
+
+(isa UnitFootprint-Unit-166 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 119))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Sherbrooke CityFootprint)
+
+(footprintOf FC-City-Sherbrooke CityFootprint-FC-City-Sherbrooke)
+
+(numTurnsToBuild FC-City-Sherbrooke (Turns 2))
+
+(numTurnsToGrow FC-City-Sherbrooke (Turns 2))
+
+(cityGrowthRate FC-City-Sherbrooke (Percent 10))
+
+(cityOwner FC-City-Sherbrooke FC-Player-RenéLévesque)
+
+(citySize FC-City-Sherbrooke (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sherbrooke FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Sherbrooke) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Sherbrooke) Some))
+
+(isa CityFootprint-FC-City-Trois-Rivières CityFootprint)
+
+(footprintOf FC-City-Trois-Rivières CityFootprint-FC-City-Trois-Rivières)
+
+(numTurnsToBuild FC-City-Trois-Rivières (Turns 3))
+
+(numTurnsToGrow FC-City-Trois-Rivières (Turns 29))
+
+(cityGrowthRate FC-City-Trois-Rivières (Percent 2))
+
+(cityOwner FC-City-Trois-Rivières FC-Player-RenéLévesque)
+
+(citySize FC-City-Trois-Rivières (FreecivCitizenCountFn 2))
+
+(isa FC-City-Trois-Rivières FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Trois-Rivières) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Trois-Rivières) Some))
+
+(isa CityFootprint-FC-City-Karakol CityFootprint)
+
+(footprintOf FC-City-Karakol CityFootprint-FC-City-Karakol)
+
+(cityOwner FC-City-Karakol FC-Player-Yshbeg)
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Karakol (FreecivCitizenCountFn 1))
+
+(isa FC-City-Karakol FreeCiv-City)
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)

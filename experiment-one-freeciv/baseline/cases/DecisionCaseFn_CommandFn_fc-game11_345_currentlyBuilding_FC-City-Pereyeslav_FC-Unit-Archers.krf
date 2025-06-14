@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game11 345) (currentlyBuilding FC-City-Pereyeslav FC-Unit-Archers)), dumped 7/29/2022 12:24:39 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game11 345) (currentlyBuilding FC-City-Pereyeslav FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Pereyeslav (Turns 6))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 5))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 2))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-Barracks)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 2))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 151))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)

@@ -1,0 +1,68 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 574) (currentlyBuilding FC-City-Puebla FC-Unit-Archers)), dumped 8/10/2022 17:38:50 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 574) (currentlyBuilding FC-City-Puebla FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Puebla CityFootprint)
+
+(footprintOf FC-City-Puebla CityFootprint-FC-City-Puebla)
+
+(numTurnsToBuild FC-City-Puebla (Turns 1))
+
+(numTurnsToGrow FC-City-Puebla (Turns 1))
+
+(cityGrowthRate FC-City-Puebla (Percent 10))
+
+(cityOwner FC-City-Puebla FC-Player-BenitoJuárez)
+
+(citySize FC-City-Puebla (FreecivCitizenCountFn 1))
+
+(isa FC-City-Puebla FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Puebla ContinentBlob-1423)
+
+(rcc8-PO CityFootprint-FC-City-Puebla ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-Puebla ContinentBlob-1421)
+
+(rcc8-PO CityFootprint-FC-City-Puebla CityFootprint-FC-City-Guadalajara)
+
+(rcc8-EC CityFootprint-FC-City-Puebla CityFootprint-FC-City-Tijuana)
+
+(isa CityFootprint-FC-City-Tijuana CityFootprint)
+
+(footprintOf FC-City-Tijuana CityFootprint-FC-City-Tijuana)
+
+(numTurnsToBuild FC-City-Tijuana (Turns 6))
+
+(cityGrowthRate FC-City-Tijuana (Percent 0))
+
+(cityOwner FC-City-Tijuana FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Tijuana FC-Building-Barracks)
+
+(citySize FC-City-Tijuana (FreecivCitizenCountFn 2))
+
+(isa FC-City-Tijuana FreeCiv-City)
+
+(isa CityFootprint-FC-City-Guadalajara CityFootprint)
+
+(footprintOf FC-City-Guadalajara CityFootprint-FC-City-Guadalajara)
+
+(numTurnsToBuild FC-City-Guadalajara (Turns 3))
+
+(numTurnsToGrow FC-City-Guadalajara (Turns 28))
+
+(cityGrowthRate FC-City-Guadalajara (Percent 1))
+
+(cityOwner FC-City-Guadalajara FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Guadalajara FC-Building-Barracks)
+
+(citySize FC-City-Guadalajara (FreecivCitizenCountFn 3))
+
+(isa FC-City-Guadalajara FreeCiv-City)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-1423 FreeCiv-TerrainBlob-Water)

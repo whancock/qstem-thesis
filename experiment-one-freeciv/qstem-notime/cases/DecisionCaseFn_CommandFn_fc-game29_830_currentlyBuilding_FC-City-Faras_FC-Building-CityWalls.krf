@@ -1,0 +1,82 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 830) (currentlyBuilding FC-City-Faras FC-Building-CityWalls)), dumped 8/10/2022 18:7:57 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 830) (currentlyBuilding FC-City-Faras FC-Building-CityWalls)))
+(isa CityFootprint-FC-City-Faras CityFootprint)
+
+(footprintOf FC-City-Faras CityFootprint-FC-City-Faras)
+
+(numTurnsToBuild FC-City-Faras (Turns 15))
+
+(numTurnsToGrow FC-City-Faras (Turns 14))
+
+(cityGrowthRate FC-City-Faras (Percent 2))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 2))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Faras ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Faras ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Faras CityFootprint-FC-City-Kerma)
+
+(rcc8-PO CityFootprint-FC-City-Faras CityFootprint-FC-City-Dongola)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-197)
+
+(rcc8-TPP CityFootprint-FC-City-Faras TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 38))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa CityFootprint-FC-City-Dongola CityFootprint)
+
+(footprintOf FC-City-Dongola CityFootprint-FC-City-Dongola)
+
+(numTurnsToBuild FC-City-Dongola (Turns 18))
+
+(numTurnsToGrow FC-City-Dongola (Turns 18))
+
+(cityGrowthRate FC-City-Dongola (Percent 2))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Dongola FC-Building-Barracks)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 3))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 20))
+
+(numTurnsToGrow FC-City-Kerma (Turns 11))
+
+(cityGrowthRate FC-City-Kerma (Percent 3))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

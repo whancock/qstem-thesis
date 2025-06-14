@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game6 561) (currentlyBuilding FC-City-Sokhumi FC-Unit-Archers)), dumped 7/29/2022 11:34:30 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game6 561) (currentlyBuilding FC-City-Sokhumi FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Sokhumi (Turns 8))
+
+(numTurnsToGrow FC-City-Sokhumi (Turns 5))
+
+(cityGrowthRate FC-City-Sokhumi (Percent 1))
+
+(cityOwner FC-City-Sokhumi FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Sokhumi FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Sokhumi FC-Building-Barracks)
+
+(citySize FC-City-Sokhumi (FreecivCitizenCountFn 3))
+
+(isa FC-City-Sokhumi FreeCiv-City)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 319))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)

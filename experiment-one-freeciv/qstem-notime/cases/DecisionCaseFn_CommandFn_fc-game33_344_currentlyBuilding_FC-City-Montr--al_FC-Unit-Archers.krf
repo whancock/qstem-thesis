@@ -1,0 +1,160 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 344) (currentlyBuilding FC-City-Montréal FC-Unit-Archers)), dumped 8/10/2022 19:29:6 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 344) (currentlyBuilding FC-City-Montréal FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Montréal CityFootprint)
+
+(footprintOf FC-City-Montréal CityFootprint-FC-City-Montréal)
+
+(numTurnsToBuild FC-City-Montréal (Turns 4))
+
+(numTurnsToGrow FC-City-Montréal (Turns 2))
+
+(cityGrowthRate FC-City-Montréal (Percent 3))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 2))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Montréal ContinentBlob-7654)
+
+(rcc8-NTPP CityFootprint-FC-City-Montréal ContinentBlob-7652)
+
+(rcc8-PO CityFootprint-FC-City-Montréal CityFootprint-FC-City-Lévis)
+
+(rcc8-EC CityFootprint-FC-City-Montréal CityFootprint-FC-City-Talas)
+
+(rcc8-PO CityFootprint-FC-City-Montréal CityFootprint-FC-City-Sherbrooke)
+
+(rcc8-PO CityFootprint-FC-City-Montréal CityFootprint-FC-City-Sorel)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-181)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-171)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-170)
+
+(rcc8-NTPP CityFootprint-FC-City-Montréal TerritoryBlob-0)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-166)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-169)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-172)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-175)
+
+(rcc8-EC CityFootprint-FC-City-Montréal TerritoryBlob-1)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Yshbeg TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Yshbeg (GoldPoints 0))
+
+(currentGovernment FC-Player-Yshbeg FC-Anarchy)
+
+(isa FC-Player-Yshbeg FreeCiv-Player)
+
+(isa UnitFootprint-Unit-175 UnitFootprint)
+
+(isa UnitFootprint-Unit-172 UnitFootprint)
+
+(isa UnitFootprint-Unit-169 UnitFootprint)
+
+(isa UnitFootprint-Unit-166 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 22))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(isa UnitFootprint-Unit-170 UnitFootprint)
+
+(isa UnitFootprint-Unit-171 UnitFootprint)
+
+(isa UnitFootprint-Unit-181 UnitFootprint)
+
+(isa CityFootprint-FC-City-Sorel CityFootprint)
+
+(footprintOf FC-City-Sorel CityFootprint-FC-City-Sorel)
+
+(numTurnsToBuild FC-City-Sorel (Turns 1))
+
+(numTurnsToGrow FC-City-Sorel (Turns 27))
+
+(cityGrowthRate FC-City-Sorel (Percent 2))
+
+(cityOwner FC-City-Sorel FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Sorel FC-Building-Barracks)
+
+(citySize FC-City-Sorel (FreecivCitizenCountFn 2))
+
+(isa FC-City-Sorel FreeCiv-City)
+
+(isa CityFootprint-FC-City-Sherbrooke CityFootprint)
+
+(footprintOf FC-City-Sherbrooke CityFootprint-FC-City-Sherbrooke)
+
+(numTurnsToBuild FC-City-Sherbrooke (Turns 24))
+
+(numTurnsToGrow FC-City-Sherbrooke (Turns 7))
+
+(cityGrowthRate FC-City-Sherbrooke (Percent 10))
+
+(cityOwner FC-City-Sherbrooke FC-Player-RenéLévesque)
+
+(citySize FC-City-Sherbrooke (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sherbrooke FreeCiv-City)
+
+(isa CityFootprint-FC-City-Talas CityFootprint)
+
+(footprintOf FC-City-Talas CityFootprint-FC-City-Talas)
+
+(cityOwner FC-City-Talas FC-Player-Yshbeg)
+
+(cityHasImprovement FC-City-Talas FC-Building-CityWalls)
+
+(citySize FC-City-Talas (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Talas (FreecivCitizenCountFn 1))
+
+(isa FC-City-Talas FreeCiv-City)
+
+(isa CityFootprint-FC-City-Lévis CityFootprint)
+
+(footprintOf FC-City-Lévis CityFootprint-FC-City-Lévis)
+
+(numTurnsToBuild FC-City-Lévis (Turns 2))
+
+(numTurnsToGrow FC-City-Lévis (Turns 26))
+
+(cityGrowthRate FC-City-Lévis (Percent 2))
+
+(cityOwner FC-City-Lévis FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Lévis FC-Building-Barracks)
+
+(citySize FC-City-Lévis (FreecivCitizenCountFn 2))
+
+(isa FC-City-Lévis FreeCiv-City)
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)

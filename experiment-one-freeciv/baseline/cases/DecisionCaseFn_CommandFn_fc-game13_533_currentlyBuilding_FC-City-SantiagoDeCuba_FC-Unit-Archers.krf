@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game13 533) (currentlyBuilding FC-City-SantiagoDeCuba FC-Unit-Archers)), dumped 7/29/2022 12:48:12 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game13 533) (currentlyBuilding FC-City-SantiagoDeCuba FC-Unit-Archers)))
+(numTurnsToBuild FC-City-SantiagoDeCuba (Turns 8))
+
+(numTurnsToGrow FC-City-SantiagoDeCuba (Turns 10))
+
+(cityGrowthRate FC-City-SantiagoDeCuba (Percent 2))
+
+(cityOwner FC-City-SantiagoDeCuba FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-Barracks)
+
+(citySize FC-City-SantiagoDeCuba (FreecivCitizenCountFn 2))
+
+(isa FC-City-SantiagoDeCuba FreeCiv-City)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 109))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)

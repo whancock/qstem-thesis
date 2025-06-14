@@ -1,0 +1,66 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 628) (currentlyBuilding FC-City-Moruerani FC-Unit-Archers)), dumped 8/10/2022 18:49:2 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 628) (currentlyBuilding FC-City-Moruerani FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Moruerani CityFootprint)
+
+(footprintOf FC-City-Moruerani CityFootprint-FC-City-Moruerani)
+
+(numTurnsToBuild FC-City-Moruerani (Turns 6))
+
+(numTurnsToGrow FC-City-Moruerani (Turns 42))
+
+(cityGrowthRate FC-City-Moruerani (Percent 0))
+
+(cityOwner FC-City-Moruerani FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Moruerani FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Moruerani FC-Building-Barracks)
+
+(citySize FC-City-Moruerani (FreecivCitizenCountFn 4))
+
+(isa FC-City-Moruerani FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Moruerani ContinentBlob-6132)
+
+(rcc8-PO CityFootprint-FC-City-Moruerani ContinentBlob-6131)
+
+(rcc8-PO CityFootprint-FC-City-Moruerani CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-TPP CityFootprint-FC-City-Moruerani TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 353))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Tomakomanay CityFootprint)
+
+(footprintOf FC-City-Tomakomanay CityFootprint-FC-City-Tomakomanay)
+
+(numTurnsToBuild FC-City-Tomakomanay (Turns 200))
+
+(numTurnsToGrow FC-City-Tomakomanay (Turns 37))
+
+(cityGrowthRate FC-City-Tomakomanay (Percent 0))
+
+(cityOwner FC-City-Tomakomanay FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Tomakomanay FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Tomakomanay FC-Building-Barracks)
+
+(citySize FC-City-Tomakomanay (FreecivCitizenCountFn 4))
+
+(isa FC-City-Tomakomanay FreeCiv-City)
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,26 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game13 734) (currentlyBuilding FC-City-LaHabana FC-Coinage)), dumped 7/29/2022 12:51:19 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game13 734) (currentlyBuilding FC-City-LaHabana FC-Coinage)))
+(numTurnsToBuild FC-City-LaHabana (Turns 200))
+
+(numTurnsToGrow FC-City-LaHabana (Turns 6))
+
+(cityGrowthRate FC-City-LaHabana (Percent 2))
+
+(cityOwner FC-City-LaHabana FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Barracks)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Palace)
+
+(citySize FC-City-LaHabana (FreecivCitizenCountFn 2))
+
+(isa FC-City-LaHabana FreeCiv-City)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 293))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)

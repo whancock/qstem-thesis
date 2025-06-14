@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 560) (currentlyBuilding FC-City-Napata FC-Unit-Archers)), dumped 7/29/2022 11:51:25 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 560) (currentlyBuilding FC-City-Napata FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Napata (Turns 5))
+
+(numTurnsToGrow FC-City-Napata (Turns 19))
+
+(cityGrowthRate FC-City-Napata (Percent 2))
+
+(cityOwner FC-City-Napata FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Napata FC-Building-Barracks)
+
+(citySize FC-City-Napata (FreecivCitizenCountFn 2))
+
+(isa FC-City-Napata FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 27))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

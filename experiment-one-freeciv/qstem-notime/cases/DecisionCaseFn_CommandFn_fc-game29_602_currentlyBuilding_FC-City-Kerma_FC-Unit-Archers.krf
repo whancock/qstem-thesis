@@ -1,0 +1,74 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 602) (currentlyBuilding FC-City-Kerma FC-Unit-Archers)), dumped 8/10/2022 18:1:47 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 602) (currentlyBuilding FC-City-Kerma FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 12))
+
+(numTurnsToGrow FC-City-Kerma (Turns 7))
+
+(cityGrowthRate FC-City-Kerma (Percent 10))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Kerma ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Kerma ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Kerma CityFootprint-FC-City-Faras)
+
+(rcc8-PO CityFootprint-FC-City-Kerma CityFootprint-FC-City-Naqa)
+
+(rcc8-NTPP CityFootprint-FC-City-Kerma TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 23))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Naqa CityFootprint)
+
+(footprintOf FC-City-Naqa CityFootprint-FC-City-Naqa)
+
+(numTurnsToBuild FC-City-Naqa (Turns 1))
+
+(cityGrowthRate FC-City-Naqa (Percent 0))
+
+(cityOwner FC-City-Naqa FC-Player-Amanishakheto)
+
+(citySize FC-City-Naqa (FreecivCitizenCountFn 2))
+
+(isa FC-City-Naqa FreeCiv-City)
+
+(isa CityFootprint-FC-City-Faras CityFootprint)
+
+(footprintOf FC-City-Faras CityFootprint-FC-City-Faras)
+
+(numTurnsToBuild FC-City-Faras (Turns 6))
+
+(numTurnsToGrow FC-City-Faras (Turns 25))
+
+(cityGrowthRate FC-City-Faras (Percent 2))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 2))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

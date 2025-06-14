@@ -1,0 +1,72 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 289) (currentlyBuilding FC-City-Naqa FC-Unit-Warriors)), dumped 8/10/2022 17:54:5 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 289) (currentlyBuilding FC-City-Naqa FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Naqa CityFootprint)
+
+(footprintOf FC-City-Naqa CityFootprint-FC-City-Naqa)
+
+(numTurnsToBuild FC-City-Naqa (Turns 4))
+
+(numTurnsToGrow FC-City-Naqa (Turns 20))
+
+(cityGrowthRate FC-City-Naqa (Percent 5))
+
+(cityOwner FC-City-Naqa FC-Player-Amanishakheto)
+
+(citySize FC-City-Naqa (FreecivCitizenCountFn 1))
+
+(isa FC-City-Naqa FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Naqa) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Naqa) Some))
+
+(rcc8-PO CityFootprint-FC-City-Naqa ContinentBlob-3907)
+
+(rcc8-PO CityFootprint-FC-City-Naqa ContinentBlob-3906)
+
+(rcc8-PO CityFootprint-FC-City-Naqa ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Naqa CityFootprint-FC-City-Kerma)
+
+(rcc8-TPP CityFootprint-FC-City-Naqa TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Naqa TerritoryBlob-4635)
+
+(isa TerritoryBlob-4635 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 84))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 1))
+
+(numTurnsToGrow FC-City-Kerma (Turns 7))
+
+(cityGrowthRate FC-City-Kerma (Percent 3))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-3907 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,690 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game3 817) (currentlyBuilding FC-City-Aguascalientes FC-Unit-Archers)), dumped 9/1/2022 17:15:26 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game3 817) (currentlyBuilding FC-City-Aguascalientes FC-Unit-Archers)))
+(rcc8-NTPPi ContinentBlob-9061 ContinentBlob-9063)
+
+(rcc8-NTPPi ContinentBlob-9061 ContinentBlob-9062)
+
+(rcc8-NTPP ContinentBlob-9061 ContinentBlob-9060)
+
+(rcc8-TPPi ContinentBlob-9061 CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Taipei)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Kaohsiung)
+
+(rcc8-NTPPi ContinentBlob-9061 CityFootprint-FC-City-Guadalajara)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Chungho)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Monterrey)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Puebla)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-LeónDeLosAldamas)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Taichung)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-CiudadJuárez)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Tijuana)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Mexicali)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Tainan)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Keelung)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Sanchung)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-CuliacánRosales)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Aguascalientes)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Hsinchu)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-SanLuisPotosí)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Chihuahua)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Mérida)
+
+(rcc8-PO ContinentBlob-9061 CityFootprint-FC-City-Panchiao)
+
+(rcc8-PO ContinentBlob-9061 UnitFootprint-Unit-228)
+
+(rcc8-PO ContinentBlob-9061 UnitFootprint-Unit-237)
+
+(rcc8-PO ContinentBlob-9061 UnitFootprint-Unit-200)
+
+(rcc8-PO ContinentBlob-9061 UnitFootprint-Unit-287)
+
+(rcc8-TPPi ContinentBlob-9061 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-9061 TerritoryBlob-2)
+
+(rcc8-PO CityFootprint-FC-City-Aguascalientes ContinentBlob-9061)
+
+(rcc8-EC ContinentBlob-9060 ContinentBlob-9066)
+
+(rcc8-EC ContinentBlob-9060 ContinentBlob-9065)
+
+(rcc8-PO ContinentBlob-9060 ContinentBlob-9064)
+
+(rcc8-NTPPi ContinentBlob-9060 ContinentBlob-9063)
+
+(rcc8-NTPPi ContinentBlob-9060 ContinentBlob-9062)
+
+(rcc8-NTPPi ContinentBlob-9060 ContinentBlob-9061)
+
+(rcc8-EC ContinentBlob-9060 ContinentBlob-9059)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Taipei)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Kaohsiung)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Guadalajara)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Chungho)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Monterrey)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Puebla)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-LeónDeLosAldamas)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Taichung)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-CiudadJuárez)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Tijuana)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Mexicali)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Tainan)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Keelung)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Sanchung)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-CuliacánRosales)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Aguascalientes)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Hsinchu)
+
+(rcc8-PO ContinentBlob-9060 CityFootprint-FC-City-SanLuisPotosí)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Chihuahua)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Mérida)
+
+(rcc8-NTPPi ContinentBlob-9060 CityFootprint-FC-City-Panchiao)
+
+(rcc8-TPPi ContinentBlob-9060 UnitFootprint-Unit-170)
+
+(rcc8-NTPPi ContinentBlob-9060 UnitFootprint-Unit-228)
+
+(rcc8-NTPPi ContinentBlob-9060 UnitFootprint-Unit-237)
+
+(rcc8-TPPi ContinentBlob-9060 UnitFootprint-Unit-200)
+
+(rcc8-TPPi ContinentBlob-9060 UnitFootprint-Unit-287)
+
+(rcc8-TPPi ContinentBlob-9060 UnitFootprint-Unit-297)
+
+(rcc8-TPPi ContinentBlob-9060 UnitFootprint-Unit-286)
+
+(rcc8-EC ContinentBlob-9060 TerritoryBlob-9069)
+
+(rcc8-NTPPi ContinentBlob-9060 TerritoryBlob-0)
+
+(rcc8-NTPPi ContinentBlob-9060 TerritoryBlob-2)
+
+(rcc8-EC ContinentBlob-9060 TerritoryBlob-20984)
+
+(rcc8-PO ContinentBlob-9060 TerritoryBlob-20987)
+
+(rcc8-EC ContinentBlob-9060 TerritoryBlob-20986)
+
+(rcc8-NTPP CityFootprint-FC-City-Aguascalientes ContinentBlob-9060)
+
+(rcc8-PO CityFootprint-FC-City-AcapulcoDeJuárez ContinentBlob-9061)
+
+(rcc8-NTPP CityFootprint-FC-City-AcapulcoDeJuárez ContinentBlob-9060)
+
+(rcc8-PO CityFootprint-FC-City-AcapulcoDeJuárez CityFootprint-FC-City-Aguascalientes)
+
+(rcc8-PO CityFootprint-FC-City-Aguascalientes CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(rcc8-PO CityFootprint-FC-City-Chihuahua ContinentBlob-9061)
+
+(rcc8-NTPP CityFootprint-FC-City-Chihuahua ContinentBlob-9060)
+
+(rcc8-EC CityFootprint-FC-City-Chihuahua CityFootprint-FC-City-Aguascalientes)
+
+(rcc8-EC CityFootprint-FC-City-Aguascalientes CityFootprint-FC-City-Chihuahua)
+
+(rcc8-PO CityFootprint-FC-City-Mérida ContinentBlob-9061)
+
+(rcc8-NTPP CityFootprint-FC-City-Mérida ContinentBlob-9060)
+
+(rcc8-EC CityFootprint-FC-City-Mérida CityFootprint-FC-City-CuliacánRosales)
+
+(rcc8-EC CityFootprint-FC-City-Mérida CityFootprint-FC-City-Aguascalientes)
+
+(rcc8-EC CityFootprint-FC-City-Aguascalientes CityFootprint-FC-City-Mérida)
+
+(isa TerritoryBlob-20986 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-20987 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-20984 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-9069 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-286 UnitFootprint)
+
+(isa UnitFootprint-Unit-297 UnitFootprint)
+
+(isa UnitFootprint-Unit-170 UnitFootprint)
+
+(isa ContinentBlob-9059 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-9064 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-9065 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-9066 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-9061 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-ChiangKaiShek TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-ChiangKaiShek (GoldPoints 0))
+
+(currentGovernment FC-Player-ChiangKaiShek FC-Anarchy)
+
+(isa FC-Player-ChiangKaiShek FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-BenitoJuárez TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 1024))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-BenitoJuárez) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-BenitoJuárez) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-287 UnitFootprint)
+
+(isa UnitFootprint-Unit-200 UnitFootprint)
+
+(isa UnitFootprint-Unit-237 UnitFootprint)
+
+(isa UnitFootprint-Unit-228 UnitFootprint)
+
+(isa CityFootprint-FC-City-Panchiao CityFootprint)
+
+(footprintOf FC-City-Panchiao CityFootprint-FC-City-Panchiao)
+
+(cityOwner FC-City-Panchiao FC-Player-ChiangKaiShek)
+
+(citySize FC-City-Panchiao (FreecivCitizenCountFn 1))
+
+(isa FC-City-Panchiao FreeCiv-City)
+
+(isa CityFootprint-FC-City-Mérida CityFootprint)
+
+(footprintOf FC-City-Mérida CityFootprint-FC-City-Mérida)
+
+(numTurnsToBuild FC-City-Mérida (Turns 10))
+
+(numTurnsToGrow FC-City-Mérida (Turns 15))
+
+(cityGrowthRate FC-City-Mérida (Percent 3))
+
+(cityOwner FC-City-Mérida FC-Player-BenitoJuárez)
+
+(citySize FC-City-Mérida (FreecivCitizenCountFn 2))
+
+(isa FC-City-Mérida FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mérida) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mérida) Some))
+
+(isa CityFootprint-FC-City-Chihuahua CityFootprint)
+
+(footprintOf FC-City-Chihuahua CityFootprint-FC-City-Chihuahua)
+
+(numTurnsToBuild FC-City-Chihuahua (Turns 2))
+
+(numTurnsToGrow FC-City-Chihuahua (Turns 7))
+
+(cityGrowthRate FC-City-Chihuahua (Percent 3))
+
+(cityOwner FC-City-Chihuahua FC-Player-BenitoJuárez)
+
+(citySize FC-City-Chihuahua (FreecivCitizenCountFn 2))
+
+(isa FC-City-Chihuahua FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chihuahua) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chihuahua) Some))
+
+(isa CityFootprint-FC-City-SanLuisPotosí CityFootprint)
+
+(footprintOf FC-City-SanLuisPotosí CityFootprint-FC-City-SanLuisPotosí)
+
+(numTurnsToBuild FC-City-SanLuisPotosí (Turns 5))
+
+(numTurnsToGrow FC-City-SanLuisPotosí (Turns 28))
+
+(cityGrowthRate FC-City-SanLuisPotosí (Percent 2))
+
+(cityOwner FC-City-SanLuisPotosí FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-SanLuisPotosí FC-Building-Barracks)
+
+(citySize FC-City-SanLuisPotosí (FreecivCitizenCountFn 2))
+
+(isa FC-City-SanLuisPotosí FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-SanLuisPotosí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-SanLuisPotosí) Some))
+
+(isa CityFootprint-FC-City-Hsinchu CityFootprint)
+
+(footprintOf FC-City-Hsinchu CityFootprint-FC-City-Hsinchu)
+
+(cityOwner FC-City-Hsinchu FC-Player-ChiangKaiShek)
+
+(citySize FC-City-Hsinchu (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Hsinchu (FreecivCitizenCountFn 1))
+
+(isa FC-City-Hsinchu FreeCiv-City)
+
+(isa CityFootprint-FC-City-Aguascalientes CityFootprint)
+
+(footprintOf FC-City-Aguascalientes CityFootprint-FC-City-Aguascalientes)
+
+(numTurnsToBuild FC-City-Aguascalientes (Turns 7))
+
+(numTurnsToGrow FC-City-Aguascalientes (Turns 13))
+
+(cityGrowthRate FC-City-Aguascalientes (Percent 2))
+
+(cityOwner FC-City-Aguascalientes FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-Barracks)
+
+(citySize FC-City-Aguascalientes (FreecivCitizenCountFn 3))
+
+(isa FC-City-Aguascalientes FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Aguascalientes) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Aguascalientes) Some))
+
+(isa CityFootprint-FC-City-CuliacánRosales CityFootprint)
+
+(footprintOf FC-City-CuliacánRosales CityFootprint-FC-City-CuliacánRosales)
+
+(numTurnsToBuild FC-City-CuliacánRosales (Turns 4))
+
+(numTurnsToGrow FC-City-CuliacánRosales (Turns 9))
+
+(cityGrowthRate FC-City-CuliacánRosales (Percent 3))
+
+(cityOwner FC-City-CuliacánRosales FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CuliacánRosales FC-Building-Barracks)
+
+(citySize FC-City-CuliacánRosales (FreecivCitizenCountFn 2))
+
+(isa FC-City-CuliacánRosales FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CuliacánRosales) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CuliacánRosales) Some))
+
+(isa CityFootprint-FC-City-Sanchung CityFootprint)
+
+(footprintOf FC-City-Sanchung CityFootprint-FC-City-Sanchung)
+
+(cityOwner FC-City-Sanchung FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Sanchung FC-Building-CityWalls)
+
+(citySize FC-City-Sanchung (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Sanchung (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Sanchung (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sanchung FreeCiv-City)
+
+(isa CityFootprint-FC-City-Keelung CityFootprint)
+
+(footprintOf FC-City-Keelung CityFootprint-FC-City-Keelung)
+
+(cityOwner FC-City-Keelung FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Keelung FC-Building-CityWalls)
+
+(citySize FC-City-Keelung (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Keelung (FreecivCitizenCountFn 1))
+
+(isa FC-City-Keelung FreeCiv-City)
+
+(isa CityFootprint-FC-City-Tainan CityFootprint)
+
+(footprintOf FC-City-Tainan CityFootprint-FC-City-Tainan)
+
+(cityOwner FC-City-Tainan FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Tainan FC-Building-CityWalls)
+
+(citySize FC-City-Tainan (FreecivCitizenCountFn 5))
+
+(citySize FC-City-Tainan (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Tainan (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Tainan (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Tainan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Tainan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Mexicali CityFootprint)
+
+(footprintOf FC-City-Mexicali CityFootprint-FC-City-Mexicali)
+
+(numTurnsToBuild FC-City-Mexicali (Turns 200))
+
+(numTurnsToGrow FC-City-Mexicali (Turns 5))
+
+(cityGrowthRate FC-City-Mexicali (Percent 2))
+
+(cityOwner FC-City-Mexicali FC-Player-BenitoJuárez)
+
+(citySize FC-City-Mexicali (FreecivCitizenCountFn 2))
+
+(isa FC-City-Mexicali FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mexicali) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mexicali) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mexicali) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mexicali) Some))
+
+(isa CityFootprint-FC-City-AcapulcoDeJuárez CityFootprint)
+
+(footprintOf FC-City-AcapulcoDeJuárez CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(numTurnsToBuild FC-City-AcapulcoDeJuárez (Turns 15))
+
+(numTurnsToGrow FC-City-AcapulcoDeJuárez (Turns 33))
+
+(cityGrowthRate FC-City-AcapulcoDeJuárez (Percent 1))
+
+(cityOwner FC-City-AcapulcoDeJuárez FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-AcapulcoDeJuárez FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-AcapulcoDeJuárez FC-Building-Barracks)
+
+(citySize FC-City-AcapulcoDeJuárez (FreecivCitizenCountFn 3))
+
+(isa FC-City-AcapulcoDeJuárez FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-AcapulcoDeJuárez) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-AcapulcoDeJuárez) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-AcapulcoDeJuárez) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-AcapulcoDeJuárez) Some))
+
+(isa CityFootprint-FC-City-Tijuana CityFootprint)
+
+(footprintOf FC-City-Tijuana CityFootprint-FC-City-Tijuana)
+
+(numTurnsToBuild FC-City-Tijuana (Turns 4))
+
+(cityGrowthRate FC-City-Tijuana (Percent 0))
+
+(cityOwner FC-City-Tijuana FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Tijuana FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Tijuana FC-Building-Barracks)
+
+(citySize FC-City-Tijuana (FreecivCitizenCountFn 3))
+
+(isa FC-City-Tijuana FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tijuana) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tijuana) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tijuana) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tijuana) Some))
+
+(isa CityFootprint-FC-City-CiudadJuárez CityFootprint)
+
+(footprintOf FC-City-CiudadJuárez CityFootprint-FC-City-CiudadJuárez)
+
+(numTurnsToBuild FC-City-CiudadJuárez (Turns 5))
+
+(cityGrowthRate FC-City-CiudadJuárez (Percent 0))
+
+(cityOwner FC-City-CiudadJuárez FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CiudadJuárez FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-CiudadJuárez FC-Building-Barracks)
+
+(citySize FC-City-CiudadJuárez (FreecivCitizenCountFn 2))
+
+(isa FC-City-CiudadJuárez FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadJuárez) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadJuárez) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadJuárez) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadJuárez) Some))
+
+(isa CityFootprint-FC-City-Taichung CityFootprint)
+
+(footprintOf FC-City-Taichung CityFootprint-FC-City-Taichung)
+
+(cityOwner FC-City-Taichung FC-Player-ChiangKaiShek)
+
+(citySize FC-City-Taichung (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Taichung (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Taichung (FreecivCitizenCountFn 1))
+
+(isa FC-City-Taichung FreeCiv-City)
+
+(isa CityFootprint-FC-City-LeónDeLosAldamas CityFootprint)
+
+(footprintOf FC-City-LeónDeLosAldamas CityFootprint-FC-City-LeónDeLosAldamas)
+
+(numTurnsToBuild FC-City-LeónDeLosAldamas (Turns 167))
+
+(numTurnsToGrow FC-City-LeónDeLosAldamas (Turns 16))
+
+(cityGrowthRate FC-City-LeónDeLosAldamas (Percent 1))
+
+(cityOwner FC-City-LeónDeLosAldamas FC-Player-BenitoJuárez)
+
+(citySize FC-City-LeónDeLosAldamas (FreecivCitizenCountFn 3))
+
+(isa FC-City-LeónDeLosAldamas FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LeónDeLosAldamas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LeónDeLosAldamas) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LeónDeLosAldamas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LeónDeLosAldamas) Some))
+
+(isa CityFootprint-FC-City-Puebla CityFootprint)
+
+(footprintOf FC-City-Puebla CityFootprint-FC-City-Puebla)
+
+(numTurnsToBuild FC-City-Puebla (Turns 6))
+
+(numTurnsToGrow FC-City-Puebla (Turns 1))
+
+(cityGrowthRate FC-City-Puebla (Percent 3))
+
+(cityOwner FC-City-Puebla FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Puebla FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Puebla FC-Building-Barracks)
+
+(citySize FC-City-Puebla (FreecivCitizenCountFn 2))
+
+(isa FC-City-Puebla FreeCiv-City)
+
+(aia-MI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Puebla) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Puebla) Some))
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Puebla) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Puebla) Some))
+
+(isa CityFootprint-FC-City-Monterrey CityFootprint)
+
+(footprintOf FC-City-Monterrey CityFootprint-FC-City-Monterrey)
+
+(numTurnsToBuild FC-City-Monterrey (Turns 8))
+
+(numTurnsToGrow FC-City-Monterrey (Turns 19))
+
+(cityGrowthRate FC-City-Monterrey (Percent 1))
+
+(cityOwner FC-City-Monterrey FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Monterrey FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Monterrey FC-Building-Barracks)
+
+(citySize FC-City-Monterrey (FreecivCitizenCountFn 3))
+
+(isa FC-City-Monterrey FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Monterrey) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Monterrey) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Monterrey) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Monterrey) Some))
+
+(isa CityFootprint-FC-City-Chungho CityFootprint)
+
+(footprintOf FC-City-Chungho CityFootprint-FC-City-Chungho)
+
+(cityOwner FC-City-Chungho FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Chungho FC-Building-CityWalls)
+
+(citySize FC-City-Chungho (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Chungho (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Chungho (FreecivCitizenCountFn 1))
+
+(isa FC-City-Chungho FreeCiv-City)
+
+(isa CityFootprint-FC-City-Guadalajara CityFootprint)
+
+(footprintOf FC-City-Guadalajara CityFootprint-FC-City-Guadalajara)
+
+(numTurnsToBuild FC-City-Guadalajara (Turns 333))
+
+(numTurnsToGrow FC-City-Guadalajara (Turns 4))
+
+(cityGrowthRate FC-City-Guadalajara (Percent 1))
+
+(cityOwner FC-City-Guadalajara FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Guadalajara FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Guadalajara FC-Building-Barracks)
+
+(citySize FC-City-Guadalajara (FreecivCitizenCountFn 3))
+
+(isa FC-City-Guadalajara FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guadalajara) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guadalajara) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guadalajara) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guadalajara) Some))
+
+(isa CityFootprint-FC-City-Kaohsiung CityFootprint)
+
+(footprintOf FC-City-Kaohsiung CityFootprint-FC-City-Kaohsiung)
+
+(cityOwner FC-City-Kaohsiung FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Kaohsiung FC-Building-CityWalls)
+
+(citySize FC-City-Kaohsiung (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Kaohsiung (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Kaohsiung (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Kaohsiung (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kaohsiung FreeCiv-City)
+
+(isa CityFootprint-FC-City-Taipei CityFootprint)
+
+(footprintOf FC-City-Taipei CityFootprint-FC-City-Taipei)
+
+(cityOwner FC-City-Taipei FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Taipei FC-Wonder-KingRichardsCrusade)
+
+(cityHasImprovement FC-City-Taipei FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Taipei FC-Building-Palace)
+
+(citySize FC-City-Taipei (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Taipei (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Taipei (FreecivCitizenCountFn 1))
+
+(isa FC-City-Taipei FreeCiv-City)
+
+(isa CityFootprint-FC-City-CiudadDeMéxico CityFootprint)
+
+(footprintOf FC-City-CiudadDeMéxico CityFootprint-FC-City-CiudadDeMéxico)
+
+(numTurnsToBuild FC-City-CiudadDeMéxico (Turns 125))
+
+(numTurnsToGrow FC-City-CiudadDeMéxico (Turns 27))
+
+(cityGrowthRate FC-City-CiudadDeMéxico (Percent 1))
+
+(cityOwner FC-City-CiudadDeMéxico FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CiudadDeMéxico FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-CiudadDeMéxico FC-Building-Barracks)
+
+(cityHasImprovement FC-City-CiudadDeMéxico FC-Building-Palace)
+
+(citySize FC-City-CiudadDeMéxico (FreecivCitizenCountFn 3))
+
+(isa FC-City-CiudadDeMéxico FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDeMéxico) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDeMéxico) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDeMéxico) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDeMéxico) Some))
+
+(isa ContinentBlob-9060 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-9062 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-9063 FreeCiv-TerrainBlob-Water)

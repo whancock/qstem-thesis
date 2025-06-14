@@ -1,0 +1,96 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 491) (currentlyBuilding FC-City-Naqa FC-Building-Barracks)), dumped 8/10/2022 17:58:48 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 491) (currentlyBuilding FC-City-Naqa FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Naqa CityFootprint)
+
+(footprintOf FC-City-Naqa CityFootprint-FC-City-Naqa)
+
+(numTurnsToBuild FC-City-Naqa (Turns 10))
+
+(numTurnsToGrow FC-City-Naqa (Turns 6))
+
+(cityGrowthRate FC-City-Naqa (Percent 5))
+
+(cityOwner FC-City-Naqa FC-Player-Amanishakheto)
+
+(citySize FC-City-Naqa (FreecivCitizenCountFn 1))
+
+(isa FC-City-Naqa FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Naqa) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Naqa) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Naqa) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Naqa) Some))
+
+(rcc8-PO CityFootprint-FC-City-Naqa ContinentBlob-3907)
+
+(rcc8-PO CityFootprint-FC-City-Naqa ContinentBlob-3906)
+
+(rcc8-PO CityFootprint-FC-City-Naqa ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Naqa CityFootprint-FC-City-Kerma)
+
+(rcc8-EC CityFootprint-FC-City-Naqa CityFootprint-FC-City-Nuri)
+
+(rcc8-TPP CityFootprint-FC-City-Naqa TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Naqa TerritoryBlob-5007)
+
+(isa TerritoryBlob-5007 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 25))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction))
+
+(isa CityFootprint-FC-City-Nuri CityFootprint)
+
+(footprintOf FC-City-Nuri CityFootprint-FC-City-Nuri)
+
+(numTurnsToBuild FC-City-Nuri (Turns 6))
+
+(numTurnsToGrow FC-City-Nuri (Turns 11))
+
+(cityGrowthRate FC-City-Nuri (Percent 3))
+
+(cityOwner FC-City-Nuri FC-Player-Amanishakheto)
+
+(citySize FC-City-Nuri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Nuri FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nuri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nuri) Some))
+
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 2))
+
+(numTurnsToGrow FC-City-Kerma (Turns 6))
+
+(cityGrowthRate FC-City-Kerma (Percent 3))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-3907 FreeCiv-TerrainBlob-Land)

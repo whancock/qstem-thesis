@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 426) (currentlyBuilding FC-City-Sorel FC-Unit-Archers)), dumped 7/29/2022 12:33:36 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 426) (currentlyBuilding FC-City-Sorel FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Sorel (Turns 5))
+
+(numTurnsToGrow FC-City-Sorel (Turns 16))
+
+(cityGrowthRate FC-City-Sorel (Percent 2))
+
+(cityOwner FC-City-Sorel FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Sorel FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Sorel FC-Building-Barracks)
+
+(citySize FC-City-Sorel (FreecivCitizenCountFn 2))
+
+(isa FC-City-Sorel FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 67))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

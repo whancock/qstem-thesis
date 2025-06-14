@@ -1,0 +1,116 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game32 390) (currentlyBuilding FC-City-Pereyeslav FC-Coinage)), dumped 8/10/2022 19:14:14 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game32 390) (currentlyBuilding FC-City-Pereyeslav FC-Coinage)))
+(isa CityFootprint-FC-City-Pereyeslav CityFootprint)
+
+(footprintOf FC-City-Pereyeslav CityFootprint-FC-City-Pereyeslav)
+
+(numTurnsToBuild FC-City-Pereyeslav (Turns 200))
+
+(numTurnsToGrow FC-City-Pereyeslav (Turns 33))
+
+(cityGrowthRate FC-City-Pereyeslav (Percent 1))
+
+(cityOwner FC-City-Pereyeslav FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Pereyeslav FC-Building-Barracks)
+
+(citySize FC-City-Pereyeslav (FreecivCitizenCountFn 3))
+
+(isa FC-City-Pereyeslav FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Pereyeslav) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Pereyeslav) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Pereyeslav) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Pereyeslav) Some))
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav ContinentBlob-7302)
+
+(rcc8-NTPP CityFootprint-FC-City-Pereyeslav ContinentBlob-7300)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav CityFootprint-FC-City-Kyiv)
+
+(rcc8-PO CityFootprint-FC-City-Pereyeslav CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-TPP CityFootprint-FC-City-Pereyeslav TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Pereyeslav TerritoryBlob-7391)
+
+(isa TerritoryBlob-7391 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 192))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Zhytomyr CityFootprint)
+
+(footprintOf FC-City-Zhytomyr CityFootprint-FC-City-Zhytomyr)
+
+(numTurnsToBuild FC-City-Zhytomyr (Turns 5))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 30))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 1))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-Barracks)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 3))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(isa CityFootprint-FC-City-Kyiv CityFootprint)
+
+(footprintOf FC-City-Kyiv CityFootprint-FC-City-Kyiv)
+
+(numTurnsToBuild FC-City-Kyiv (Turns 5))
+
+(numTurnsToGrow FC-City-Kyiv (Turns 26))
+
+(cityGrowthRate FC-City-Kyiv (Percent 2))
+
+(cityOwner FC-City-Kyiv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Palace)
+
+(citySize FC-City-Kyiv (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kyiv FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kyiv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kyiv) Some))
+
+(isa ContinentBlob-7300 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7302 FreeCiv-TerrainBlob-Land)

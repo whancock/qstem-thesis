@@ -1,0 +1,88 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 817) (currentlyBuilding FC-City-Aguascalientes FC-Unit-Archers)), dumped 8/10/2022 17:44:53 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 817) (currentlyBuilding FC-City-Aguascalientes FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Aguascalientes CityFootprint)
+
+(footprintOf FC-City-Aguascalientes CityFootprint-FC-City-Aguascalientes)
+
+(numTurnsToBuild FC-City-Aguascalientes (Turns 7))
+
+(numTurnsToGrow FC-City-Aguascalientes (Turns 13))
+
+(cityGrowthRate FC-City-Aguascalientes (Percent 2))
+
+(cityOwner FC-City-Aguascalientes FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-Barracks)
+
+(citySize FC-City-Aguascalientes (FreecivCitizenCountFn 3))
+
+(isa FC-City-Aguascalientes FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Aguascalientes ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-Aguascalientes ContinentBlob-1421)
+
+(rcc8-PO CityFootprint-FC-City-Aguascalientes CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(rcc8-EC CityFootprint-FC-City-Aguascalientes CityFootprint-FC-City-Chihuahua)
+
+(rcc8-EC CityFootprint-FC-City-Aguascalientes CityFootprint-FC-City-Mérida)
+
+(isa CityFootprint-FC-City-Mérida CityFootprint)
+
+(footprintOf FC-City-Mérida CityFootprint-FC-City-Mérida)
+
+(numTurnsToBuild FC-City-Mérida (Turns 10))
+
+(numTurnsToGrow FC-City-Mérida (Turns 15))
+
+(cityGrowthRate FC-City-Mérida (Percent 3))
+
+(cityOwner FC-City-Mérida FC-Player-BenitoJuárez)
+
+(citySize FC-City-Mérida (FreecivCitizenCountFn 2))
+
+(isa FC-City-Mérida FreeCiv-City)
+
+(isa CityFootprint-FC-City-Chihuahua CityFootprint)
+
+(footprintOf FC-City-Chihuahua CityFootprint-FC-City-Chihuahua)
+
+(numTurnsToBuild FC-City-Chihuahua (Turns 2))
+
+(numTurnsToGrow FC-City-Chihuahua (Turns 7))
+
+(cityGrowthRate FC-City-Chihuahua (Percent 3))
+
+(cityOwner FC-City-Chihuahua FC-Player-BenitoJuárez)
+
+(citySize FC-City-Chihuahua (FreecivCitizenCountFn 2))
+
+(isa FC-City-Chihuahua FreeCiv-City)
+
+(isa CityFootprint-FC-City-AcapulcoDeJuárez CityFootprint)
+
+(footprintOf FC-City-AcapulcoDeJuárez CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(numTurnsToBuild FC-City-AcapulcoDeJuárez (Turns 15))
+
+(numTurnsToGrow FC-City-AcapulcoDeJuárez (Turns 33))
+
+(cityGrowthRate FC-City-AcapulcoDeJuárez (Percent 1))
+
+(cityOwner FC-City-AcapulcoDeJuárez FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-AcapulcoDeJuárez FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-AcapulcoDeJuárez FC-Building-Barracks)
+
+(citySize FC-City-AcapulcoDeJuárez (FreecivCitizenCountFn 3))
+
+(isa FC-City-AcapulcoDeJuárez FreeCiv-City)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

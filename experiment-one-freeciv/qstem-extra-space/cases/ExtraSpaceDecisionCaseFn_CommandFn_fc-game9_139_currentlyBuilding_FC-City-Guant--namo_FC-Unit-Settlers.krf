@@ -1,0 +1,386 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game9 139) (currentlyBuilding FC-City-Guantánamo FC-Unit-Settlers)), dumped 9/1/2022 22:19:58 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game9 139) (currentlyBuilding FC-City-Guantánamo FC-Unit-Settlers)))
+(rcc8-EC ContinentBlob-55883 ContinentBlob-55882)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Lhasa)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Singapore)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Keppel)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Shigatse)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-LaHabana)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Guantánamo)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Esplanade)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Nagchu)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Tumasik)
+
+(rcc8-PO ContinentBlob-55883 CityFootprint-FC-City-Camagüey)
+
+(rcc8-PO ContinentBlob-55883 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-55883 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-55883 TerritoryBlob-0)
+
+(rcc8-TPPi ContinentBlob-55883 TerritoryBlob-56119)
+
+(rcc8-TPPi ContinentBlob-55883 TerritoryBlob-56133)
+
+(rcc8-TPPi ContinentBlob-55883 TerritoryBlob-56136)
+
+(rcc8-TPPi ContinentBlob-55883 TerritoryBlob-56197)
+
+(rcc8-TPPi ContinentBlob-55883 TerritoryBlob-56198)
+
+(rcc8-TPPi ContinentBlob-55883 TerritoryBlob-56192)
+
+(rcc8-PO CityFootprint-FC-City-Guantánamo ContinentBlob-55883)
+
+(rcc8-EC ContinentBlob-55882 ContinentBlob-55887)
+
+(rcc8-EC ContinentBlob-55882 ContinentBlob-55886)
+
+(rcc8-EC ContinentBlob-55882 ContinentBlob-55885)
+
+(rcc8-EC ContinentBlob-55882 ContinentBlob-55884)
+
+(rcc8-EC ContinentBlob-55882 ContinentBlob-55883)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Lhasa)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Singapore)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Keppel)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Shigatse)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-LaHabana)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Guantánamo)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Esplanade)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Nagchu)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Tumasik)
+
+(rcc8-PO ContinentBlob-55882 CityFootprint-FC-City-Camagüey)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-55892)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-55890)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-55888)
+
+(rcc8-PO ContinentBlob-55882 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-55882 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-55882 TerritoryBlob-0)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-56119)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-56133)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-56136)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-56130)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-56197)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-56198)
+
+(rcc8-EC ContinentBlob-55882 TerritoryBlob-56192)
+
+(rcc8-PO CityFootprint-FC-City-Guantánamo ContinentBlob-55882)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-55883)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-55882)
+
+(rcc8-EC CityFootprint-FC-City-LaHabana CityFootprint-FC-City-Guantánamo)
+
+(rcc8-TPP CityFootprint-FC-City-LaHabana TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-LaHabana TerritoryBlob-56192)
+
+(rcc8-EC CityFootprint-FC-City-Guantánamo CityFootprint-FC-City-LaHabana)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-55883)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-55882)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-LaHabana)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Guantánamo)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Camagüey)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-56197)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-56198)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-56192)
+
+(rcc8-TPP CityFootprint-FC-City-Guantánamo TerritoryBlob-0)
+
+(rcc8-TPP TerritoryBlob-56197 ContinentBlob-55883)
+
+(rcc8-EC TerritoryBlob-56197 ContinentBlob-55882)
+
+(rcc8-EC TerritoryBlob-56197 CityFootprint-FC-City-Guantánamo)
+
+(rcc8-EC TerritoryBlob-56197 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Guantánamo TerritoryBlob-56197)
+
+(rcc8-TPP TerritoryBlob-56192 ContinentBlob-55883)
+
+(rcc8-EC TerritoryBlob-56192 ContinentBlob-55882)
+
+(rcc8-EC TerritoryBlob-56192 CityFootprint-FC-City-Lhasa)
+
+(rcc8-EC TerritoryBlob-56192 CityFootprint-FC-City-Keppel)
+
+(rcc8-EC TerritoryBlob-56192 CityFootprint-FC-City-Shigatse)
+
+(rcc8-EC TerritoryBlob-56192 CityFootprint-FC-City-LaHabana)
+
+(rcc8-EC TerritoryBlob-56192 CityFootprint-FC-City-Guantánamo)
+
+(rcc8-EC TerritoryBlob-56192 CityFootprint-FC-City-Nagchu)
+
+(rcc8-EC TerritoryBlob-56192 CityFootprint-FC-City-Tumasik)
+
+(rcc8-EC TerritoryBlob-56192 TerritoryBlob-3)
+
+(rcc8-EC TerritoryBlob-56192 TerritoryBlob-1)
+
+(rcc8-EC TerritoryBlob-56192 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Guantánamo TerritoryBlob-56192)
+
+(isa TerritoryBlob-56130 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-55888 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-55890 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-55892 NationalTerritoryFootprint)
+
+(isa ContinentBlob-55884 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-55885 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-55886 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-55887 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-55883 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-56192 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-56198 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-56197 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-56136 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-56133 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-56119 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséMartí TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 86))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-W.A.Pickering TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-W.A.Pickering (GoldPoints 0))
+
+(currentGovernment FC-Player-W.A.Pickering FC-Despotism)
+
+(currentGovernment FC-Player-W.A.Pickering FC-Anarchy)
+
+(isa FC-Player-W.A.Pickering FreeCiv-Player)
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-ChangchubGyaltsen TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-ChangchubGyaltsen (GoldPoints 0))
+
+(currentGovernment FC-Player-ChangchubGyaltsen FC-Despotism)
+
+(currentGovernment FC-Player-ChangchubGyaltsen FC-Anarchy)
+
+(isa FC-Player-ChangchubGyaltsen FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Camagüey CityFootprint)
+
+(footprintOf FC-City-Camagüey CityFootprint-FC-City-Camagüey)
+
+(numTurnsToBuild FC-City-Camagüey (Turns 19))
+
+(numTurnsToGrow FC-City-Camagüey (Turns 9))
+
+(cityGrowthRate FC-City-Camagüey (Percent 10))
+
+(cityOwner FC-City-Camagüey FC-Player-JoséMartí)
+
+(citySize FC-City-Camagüey (FreecivCitizenCountFn 1))
+
+(isa FC-City-Camagüey FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Camagüey) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Camagüey) Some))
+
+(isa CityFootprint-FC-City-Tumasik CityFootprint)
+
+(footprintOf FC-City-Tumasik CityFootprint-FC-City-Tumasik)
+
+(cityOwner FC-City-Tumasik FC-Player-W.A.Pickering)
+
+(citySize FC-City-Tumasik (FreecivCitizenCountFn 1))
+
+(isa FC-City-Tumasik FreeCiv-City)
+
+(isa CityFootprint-FC-City-Nagchu CityFootprint)
+
+(footprintOf FC-City-Nagchu CityFootprint-FC-City-Nagchu)
+
+(cityOwner FC-City-Nagchu FC-Player-ChangchubGyaltsen)
+
+(citySize FC-City-Nagchu (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Nagchu (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nagchu FreeCiv-City)
+
+(isa CityFootprint-FC-City-Esplanade CityFootprint)
+
+(footprintOf FC-City-Esplanade CityFootprint-FC-City-Esplanade)
+
+(cityOwner FC-City-Esplanade FC-Player-W.A.Pickering)
+
+(citySize FC-City-Esplanade (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Esplanade (FreecivCitizenCountFn 1))
+
+(isa FC-City-Esplanade FreeCiv-City)
+
+(isa CityFootprint-FC-City-Guantánamo CityFootprint)
+
+(footprintOf FC-City-Guantánamo CityFootprint-FC-City-Guantánamo)
+
+(numTurnsToBuild FC-City-Guantánamo (Turns 13))
+
+(numTurnsToGrow FC-City-Guantánamo (Turns 7))
+
+(cityGrowthRate FC-City-Guantánamo (Percent 5))
+
+(cityOwner FC-City-Guantánamo FC-Player-JoséMartí)
+
+(citySize FC-City-Guantánamo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Guantánamo FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guantánamo) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guantánamo) Some))
+
+(isa CityFootprint-FC-City-LaHabana CityFootprint)
+
+(footprintOf FC-City-LaHabana CityFootprint-FC-City-LaHabana)
+
+(numTurnsToBuild FC-City-LaHabana (Turns 1))
+
+(numTurnsToGrow FC-City-LaHabana (Turns 6))
+
+(cityGrowthRate FC-City-LaHabana (Percent 10))
+
+(cityOwner FC-City-LaHabana FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Palace)
+
+(citySize FC-City-LaHabana (FreecivCitizenCountFn 1))
+
+(isa FC-City-LaHabana FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LaHabana) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LaHabana) Some))
+
+(isa CityFootprint-FC-City-Shigatse CityFootprint)
+
+(footprintOf FC-City-Shigatse CityFootprint-FC-City-Shigatse)
+
+(cityOwner FC-City-Shigatse FC-Player-ChangchubGyaltsen)
+
+(citySize FC-City-Shigatse (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Shigatse (FreecivCitizenCountFn 1))
+
+(isa FC-City-Shigatse FreeCiv-City)
+
+(isa CityFootprint-FC-City-Keppel CityFootprint)
+
+(footprintOf FC-City-Keppel CityFootprint-FC-City-Keppel)
+
+(cityOwner FC-City-Keppel FC-Player-W.A.Pickering)
+
+(citySize FC-City-Keppel (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Keppel (FreecivCitizenCountFn 1))
+
+(isa FC-City-Keppel FreeCiv-City)
+
+(isa CityFootprint-FC-City-Singapore CityFootprint)
+
+(footprintOf FC-City-Singapore CityFootprint-FC-City-Singapore)
+
+(cityOwner FC-City-Singapore FC-Player-W.A.Pickering)
+
+(cityHasImprovement FC-City-Singapore FC-Building-Palace)
+
+(citySize FC-City-Singapore (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Singapore (FreecivCitizenCountFn 1))
+
+(isa FC-City-Singapore FreeCiv-City)
+
+(isa CityFootprint-FC-City-Lhasa CityFootprint)
+
+(footprintOf FC-City-Lhasa CityFootprint-FC-City-Lhasa)
+
+(cityOwner FC-City-Lhasa FC-Player-ChangchubGyaltsen)
+
+(cityHasImprovement FC-City-Lhasa FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Lhasa FC-Building-Palace)
+
+(citySize FC-City-Lhasa (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Lhasa (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lhasa FreeCiv-City)
+
+(isa ContinentBlob-55882 FreeCiv-TerrainBlob-Water)

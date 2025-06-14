@@ -1,0 +1,82 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 36) (currentlyBuilding FC-City-Salto FC-Unit-Settlers)), dumped 8/10/2022 16:46:50 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 36) (currentlyBuilding FC-City-Salto FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Salto CityFootprint)
+
+(footprintOf FC-City-Salto CityFootprint-FC-City-Salto)
+
+(numTurnsToBuild FC-City-Salto (Turns 20))
+
+(numTurnsToGrow FC-City-Salto (Turns 10))
+
+(cityGrowthRate FC-City-Salto (Percent 10))
+
+(cityOwner FC-City-Salto FC-Player-JoséArtigas)
+
+(citySize FC-City-Salto (FreecivCitizenCountFn 1))
+
+(isa FC-City-Salto FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Salto) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Salto) Some))
+
+(rcc8-PO CityFootprint-FC-City-Salto ContinentBlob-4)
+
+(rcc8-PO CityFootprint-FC-City-Salto ContinentBlob-2)
+
+(rcc8-NTPP CityFootprint-FC-City-Salto ContinentBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-Salto CityFootprint-FC-City-Butare)
+
+(rcc8-TPP CityFootprint-FC-City-Salto TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Salto TerritoryBlob-1)
+
+(rcc8-EC CityFootprint-FC-City-Salto TerritoryBlob-52)
+
+(rcc8-EC CityFootprint-FC-City-Salto TerritoryBlob-51)
+
+(isa TerritoryBlob-51 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-52 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MutaraIII TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MutaraIII (GoldPoints 0))
+
+(currentGovernment FC-Player-MutaraIII FC-Anarchy)
+
+(isa FC-Player-MutaraIII FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 56))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Butare CityFootprint)
+
+(footprintOf FC-City-Butare CityFootprint-FC-City-Butare)
+
+(cityOwner FC-City-Butare FC-Player-MutaraIII)
+
+(citySize FC-City-Butare (FreecivCitizenCountFn 1))
+
+(isa FC-City-Butare FreeCiv-City)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-4 FreeCiv-TerrainBlob-Water)

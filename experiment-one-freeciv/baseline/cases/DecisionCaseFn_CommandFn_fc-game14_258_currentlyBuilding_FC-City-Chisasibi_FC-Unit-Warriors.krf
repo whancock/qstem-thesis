@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game14 258) (currentlyBuilding FC-City-Chisasibi FC-Unit-Warriors)), dumped 7/29/2022 12:58:48 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game14 258) (currentlyBuilding FC-City-Chisasibi FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Chisasibi (Turns 1))
+
+(numTurnsToGrow FC-City-Chisasibi (Turns 12))
+
+(cityGrowthRate FC-City-Chisasibi (Percent 3))
+
+(cityOwner FC-City-Chisasibi FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Palace)
+
+(citySize FC-City-Chisasibi (FreecivCitizenCountFn 2))
+
+(isa FC-City-Chisasibi FreeCiv-City)
+
+(currentGold FC-Player-Awashish (GoldPoints 89))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)

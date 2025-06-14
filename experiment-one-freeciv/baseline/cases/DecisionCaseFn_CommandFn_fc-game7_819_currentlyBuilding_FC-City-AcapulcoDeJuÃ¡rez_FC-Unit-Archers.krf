@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 819) (currentlyBuilding FC-City-AcapulcoDeJuárez FC-Unit-Archers)), dumped 7/29/2022 11:44:18 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 819) (currentlyBuilding FC-City-AcapulcoDeJuárez FC-Unit-Archers)))
+(numTurnsToBuild FC-City-AcapulcoDeJuárez (Turns 8))
+
+(numTurnsToGrow FC-City-AcapulcoDeJuárez (Turns 33))
+
+(cityGrowthRate FC-City-AcapulcoDeJuárez (Percent 1))
+
+(cityOwner FC-City-AcapulcoDeJuárez FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-AcapulcoDeJuárez FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-AcapulcoDeJuárez FC-Building-Barracks)
+
+(citySize FC-City-AcapulcoDeJuárez (FreecivCitizenCountFn 3))
+
+(isa FC-City-AcapulcoDeJuárez FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 1024))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

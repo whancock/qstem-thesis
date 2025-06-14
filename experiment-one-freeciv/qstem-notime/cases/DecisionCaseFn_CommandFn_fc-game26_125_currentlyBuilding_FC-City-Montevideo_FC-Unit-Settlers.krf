@@ -1,0 +1,48 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 125) (currentlyBuilding FC-City-Montevideo FC-Unit-Settlers)), dumped 8/10/2022 16:48:31 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 125) (currentlyBuilding FC-City-Montevideo FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Montevideo CityFootprint)
+
+(footprintOf FC-City-Montevideo CityFootprint-FC-City-Montevideo)
+
+(numTurnsToBuild FC-City-Montevideo (Turns 1))
+
+(cityGrowthRate FC-City-Montevideo (Percent 0))
+
+(cityOwner FC-City-Montevideo FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Montevideo FC-Building-Palace)
+
+(citySize FC-City-Montevideo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Montevideo FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo ContinentBlob-4)
+
+(rcc8-PO CityFootprint-FC-City-Montevideo ContinentBlob-2)
+
+(rcc8-NTPP CityFootprint-FC-City-Montevideo ContinentBlob-1)
+
+(rcc8-TPP CityFootprint-FC-City-Montevideo TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Montevideo TerritoryBlob-51)
+
+(isa TerritoryBlob-51 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 86))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-4 FreeCiv-TerrainBlob-Water)

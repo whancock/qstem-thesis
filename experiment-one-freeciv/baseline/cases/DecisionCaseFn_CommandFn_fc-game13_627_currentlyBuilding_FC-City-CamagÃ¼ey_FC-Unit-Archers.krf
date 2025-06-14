@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game13 627) (currentlyBuilding FC-City-Camagüey FC-Unit-Archers)), dumped 7/29/2022 12:49:30 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game13 627) (currentlyBuilding FC-City-Camagüey FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Camagüey (Turns 6))
+
+(numTurnsToGrow FC-City-Camagüey (Turns 7))
+
+(cityGrowthRate FC-City-Camagüey (Percent 2))
+
+(cityOwner FC-City-Camagüey FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-Camagüey FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Camagüey FC-Building-Barracks)
+
+(citySize FC-City-Camagüey (FreecivCitizenCountFn 3))
+
+(isa FC-City-Camagüey FreeCiv-City)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 157))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)

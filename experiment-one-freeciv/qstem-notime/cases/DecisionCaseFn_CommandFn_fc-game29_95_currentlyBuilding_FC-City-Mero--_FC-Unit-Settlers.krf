@@ -1,0 +1,50 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 95) (currentlyBuilding FC-City-Meroë FC-Unit-Settlers)), dumped 8/10/2022 17:49:40 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 95) (currentlyBuilding FC-City-Meroë FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Meroë CityFootprint)
+
+(footprintOf FC-City-Meroë CityFootprint-FC-City-Meroë)
+
+(numTurnsToBuild FC-City-Meroë (Turns 14))
+
+(numTurnsToGrow FC-City-Meroë (Turns 17))
+
+(cityGrowthRate FC-City-Meroë (Percent 5))
+
+(cityOwner FC-City-Meroë FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Palace)
+
+(citySize FC-City-Meroë (FreecivCitizenCountFn 1))
+
+(isa FC-City-Meroë FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Meroë ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Meroë ContinentBlob-3905)
+
+(rcc8-TPP CityFootprint-FC-City-Meroë TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Meroë TerritoryBlob-4152)
+
+(rcc8-EC CityFootprint-FC-City-Meroë TerritoryBlob-4161)
+
+(isa TerritoryBlob-4161 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-4152 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 62))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

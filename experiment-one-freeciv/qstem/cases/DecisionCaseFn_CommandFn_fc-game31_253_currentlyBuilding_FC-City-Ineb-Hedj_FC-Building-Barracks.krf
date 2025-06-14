@@ -1,0 +1,104 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game31 253) (currentlyBuilding FC-City-Ineb-Hedj FC-Building-Barracks)), dumped 8/10/2022 18:59:42 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game31 253) (currentlyBuilding FC-City-Ineb-Hedj FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Ineb-Hedj CityFootprint)
+
+(footprintOf FC-City-Ineb-Hedj CityFootprint-FC-City-Ineb-Hedj)
+
+(numTurnsToBuild FC-City-Ineb-Hedj (Turns 4))
+
+(numTurnsToGrow FC-City-Ineb-Hedj (Turns 7))
+
+(cityGrowthRate FC-City-Ineb-Hedj (Percent 3))
+
+(cityOwner FC-City-Ineb-Hedj FC-Player-Tutankhamun)
+
+(citySize FC-City-Ineb-Hedj (FreecivCitizenCountFn 2))
+
+(isa FC-City-Ineb-Hedj FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Ineb-Hedj) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Ineb-Hedj) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Ineb-Hedj) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Ineb-Hedj) Some))
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj ContinentBlob-6789)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj ContinentBlob-6788)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj CityFootprint-FC-City-Aram)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj UnitFootprint-Unit-137)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj UnitFootprint-Unit-157)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj UnitFootprint-Unit-163)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-137)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-157)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-158)
+
+(rcc8-TPPi TerritoryBlob-3 UnitFootprint-Unit-163)
+
+(rcc8-PO CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-3)
+
+(rcc8-EC CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-7060)
+
+(rcc8-EC TerritoryBlob-7061 UnitFootprint-Unit-137)
+
+(rcc8-EC TerritoryBlob-7061 UnitFootprint-Unit-157)
+
+(rcc8-EC TerritoryBlob-7061 UnitFootprint-Unit-158)
+
+(rcc8-EC TerritoryBlob-7061 UnitFootprint-Unit-163)
+
+(rcc8-EC CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-7061)
+
+(rcc8-EC CityFootprint-FC-City-Ineb-Hedj TerritoryBlob-7062)
+
+(isa TerritoryBlob-7062 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-7061 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-7060 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Zenobia TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Zenobia (GoldPoints 0))
+
+(currentGovernment FC-Player-Zenobia FC-Anarchy)
+
+(isa FC-Player-Zenobia FreeCiv-Player)
+
+(isa UnitFootprint-Unit-158 UnitFootprint)
+
+(isa UnitFootprint-Unit-163 UnitFootprint)
+
+(isa UnitFootprint-Unit-157 UnitFootprint)
+
+(isa UnitFootprint-Unit-137 UnitFootprint)
+
+(isa CityFootprint-FC-City-Aram CityFootprint)
+
+(footprintOf FC-City-Aram CityFootprint-FC-City-Aram)
+
+(cityOwner FC-City-Aram FC-Player-Zenobia)
+
+(cityHasImprovement FC-City-Aram FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Aram FC-Building-Palace)
+
+(citySize FC-City-Aram (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Aram (FreecivCitizenCountFn 1))
+
+(isa FC-City-Aram FreeCiv-City)
+
+(isa ContinentBlob-6788 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6789 FreeCiv-TerrainBlob-Land)

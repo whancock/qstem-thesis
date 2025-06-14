@@ -1,0 +1,112 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game34 696) (currentlyBuilding FC-City-LaHabana FC-Unit-Archers)), dumped 8/10/2022 20:8:8 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game34 696) (currentlyBuilding FC-City-LaHabana FC-Unit-Archers)))
+(isa CityFootprint-FC-City-LaHabana CityFootprint)
+
+(footprintOf FC-City-LaHabana CityFootprint-FC-City-LaHabana)
+
+(numTurnsToBuild FC-City-LaHabana (Turns 5))
+
+(numTurnsToGrow FC-City-LaHabana (Turns 11))
+
+(cityGrowthRate FC-City-LaHabana (Percent 2))
+
+(cityOwner FC-City-LaHabana FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Barracks)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Palace)
+
+(citySize FC-City-LaHabana (FreecivCitizenCountFn 2))
+
+(isa FC-City-LaHabana FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LaHabana) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LaHabana) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LaHabana) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LaHabana) Some))
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-8146)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-8145)
+
+(rcc8-EC CityFootprint-FC-City-LaHabana CityFootprint-FC-City-Guantánamo)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana CityFootprint-FC-City-SantiagoDeCuba)
+
+(rcc8-TPP CityFootprint-FC-City-LaHabana TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-LaHabana TerritoryBlob-8607)
+
+(isa TerritoryBlob-8607 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséMartí TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 238))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséMartí) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséMartí) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-SantiagoDeCuba CityFootprint)
+
+(footprintOf FC-City-SantiagoDeCuba CityFootprint-FC-City-SantiagoDeCuba)
+
+(numTurnsToBuild FC-City-SantiagoDeCuba (Turns 250))
+
+(numTurnsToGrow FC-City-SantiagoDeCuba (Turns 35))
+
+(cityGrowthRate FC-City-SantiagoDeCuba (Percent 1))
+
+(cityOwner FC-City-SantiagoDeCuba FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-SantiagoDeCuba FC-Building-Barracks)
+
+(citySize FC-City-SantiagoDeCuba (FreecivCitizenCountFn 3))
+
+(isa FC-City-SantiagoDeCuba FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-SantiagoDeCuba) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-SantiagoDeCuba) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-SantiagoDeCuba) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-SantiagoDeCuba) Some))
+
+(isa CityFootprint-FC-City-Guantánamo CityFootprint)
+
+(footprintOf FC-City-Guantánamo CityFootprint-FC-City-Guantánamo)
+
+(numTurnsToBuild FC-City-Guantánamo (Turns 200))
+
+(numTurnsToGrow FC-City-Guantánamo (Turns 11))
+
+(cityGrowthRate FC-City-Guantánamo (Percent 2))
+
+(cityOwner FC-City-Guantánamo FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-Barracks)
+
+(citySize FC-City-Guantánamo (FreecivCitizenCountFn 3))
+
+(isa FC-City-Guantánamo FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guantánamo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guantánamo) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Guantánamo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Guantánamo) Some))
+
+(isa ContinentBlob-8145 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8146 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,124 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game32 551) (currentlyBuilding FC-City-Lutsk FC-Building-Barracks)), dumped 8/10/2022 19:18:53 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game32 551) (currentlyBuilding FC-City-Lutsk FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Lutsk CityFootprint)
+
+(footprintOf FC-City-Lutsk CityFootprint-FC-City-Lutsk)
+
+(numTurnsToBuild FC-City-Lutsk (Turns 14))
+
+(numTurnsToGrow FC-City-Lutsk (Turns 8))
+
+(cityGrowthRate FC-City-Lutsk (Percent 10))
+
+(cityOwner FC-City-Lutsk FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Lutsk FC-Building-CityWalls)
+
+(citySize FC-City-Lutsk (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lutsk FreeCiv-City)
+
+(rcc8-TPP CityFootprint-FC-City-Lutsk ContinentBlob-7302)
+
+(rcc8-NTPP CityFootprint-FC-City-Lutsk ContinentBlob-7300)
+
+(rcc8-EC CityFootprint-FC-City-Lutsk CityFootprint-FC-City-Novosibirsk)
+
+(rcc8-EC CityFootprint-FC-City-Lutsk CityFootprint-FC-City-Volgograd)
+
+(rcc8-TPP CityFootprint-FC-City-Lutsk TerritoryBlob-0)
+
+(rcc8-PO TerritoryBlob-4 UnitFootprint-Unit-165)
+
+(rcc8-PO TerritoryBlob-4 UnitFootprint-Unit-191)
+
+(rcc8-PO CityFootprint-FC-City-Lutsk TerritoryBlob-4)
+
+(rcc8-EC TerritoryBlob-7619 UnitFootprint-Unit-148)
+
+(rcc8-EC TerritoryBlob-7619 UnitFootprint-Unit-161)
+
+(rcc8-EC TerritoryBlob-7619 UnitFootprint-Unit-212)
+
+(rcc8-EC TerritoryBlob-7619 UnitFootprint-Unit-175)
+
+(rcc8-EC TerritoryBlob-7619 UnitFootprint-Unit-254)
+
+(rcc8-PO TerritoryBlob-7619 UnitFootprint-Unit-327)
+
+(rcc8-EC CityFootprint-FC-City-Lutsk TerritoryBlob-7619)
+
+(isa TerritoryBlob-7619 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-327 UnitFootprint)
+
+(isa UnitFootprint-Unit-254 UnitFootprint)
+
+(isa UnitFootprint-Unit-175 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-161 UnitFootprint)
+
+(isa UnitFootprint-Unit-148 UnitFootprint)
+
+(isa TerritoryBlob-4 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Svyatoslav TerritoryBlob-4)
+
+(isa TerritoryBlob-4 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Svyatoslav (GoldPoints 0))
+
+(currentGovernment FC-Player-Svyatoslav FC-Anarchy)
+
+(isa FC-Player-Svyatoslav FreeCiv-Player)
+
+(isa UnitFootprint-Unit-191 UnitFootprint)
+
+(isa UnitFootprint-Unit-165 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 440))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Volgograd CityFootprint)
+
+(footprintOf FC-City-Volgograd CityFootprint-FC-City-Volgograd)
+
+(cityOwner FC-City-Volgograd FC-Player-Svyatoslav)
+
+(citySize FC-City-Volgograd (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Volgograd (FreecivCitizenCountFn 1))
+
+(isa FC-City-Volgograd FreeCiv-City)
+
+(isa CityFootprint-FC-City-Novosibirsk CityFootprint)
+
+(footprintOf FC-City-Novosibirsk CityFootprint-FC-City-Novosibirsk)
+
+(cityOwner FC-City-Novosibirsk FC-Player-Svyatoslav)
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Novosibirsk (FreecivCitizenCountFn 1))
+
+(isa FC-City-Novosibirsk FreeCiv-City)
+
+(isa ContinentBlob-7300 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7302 FreeCiv-TerrainBlob-Land)

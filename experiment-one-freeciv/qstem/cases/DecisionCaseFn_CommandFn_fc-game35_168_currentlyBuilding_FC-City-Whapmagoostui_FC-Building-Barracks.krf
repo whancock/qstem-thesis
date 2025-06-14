@@ -1,0 +1,52 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 168) (currentlyBuilding FC-City-Whapmagoostui FC-Building-Barracks)), dumped 8/10/2022 20:21:56 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 168) (currentlyBuilding FC-City-Whapmagoostui FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Whapmagoostui CityFootprint)
+
+(footprintOf FC-City-Whapmagoostui CityFootprint-FC-City-Whapmagoostui)
+
+(numTurnsToBuild FC-City-Whapmagoostui (Turns 9))
+
+(numTurnsToGrow FC-City-Whapmagoostui (Turns 11))
+
+(cityGrowthRate FC-City-Whapmagoostui (Percent 3))
+
+(cityOwner FC-City-Whapmagoostui FC-Player-Awashish)
+
+(citySize FC-City-Whapmagoostui (FreecivCitizenCountFn 2))
+
+(isa FC-City-Whapmagoostui FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Whapmagoostui) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Whapmagoostui) Some))
+
+(rcc8-PO CityFootprint-FC-City-Whapmagoostui ContinentBlob-8763)
+
+(rcc8-NTPP CityFootprint-FC-City-Whapmagoostui ContinentBlob-8762)
+
+(rcc8-TPP CityFootprint-FC-City-Whapmagoostui TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Whapmagoostui TerritoryBlob-8927)
+
+(rcc8-EC CityFootprint-FC-City-Whapmagoostui TerritoryBlob-8922)
+
+(isa TerritoryBlob-8922 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-8927 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 78))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)

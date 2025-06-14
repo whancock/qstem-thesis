@@ -1,0 +1,88 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 334) (currentlyBuilding FC-City-Monterrey FC-Building-Barracks)), dumped 8/10/2022 17:33:43 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 334) (currentlyBuilding FC-City-Monterrey FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Monterrey CityFootprint)
+
+(footprintOf FC-City-Monterrey CityFootprint-FC-City-Monterrey)
+
+(numTurnsToBuild FC-City-Monterrey (Turns 7))
+
+(numTurnsToGrow FC-City-Monterrey (Turns 24))
+
+(cityGrowthRate FC-City-Monterrey (Percent 2))
+
+(cityOwner FC-City-Monterrey FC-Player-BenitoJuárez)
+
+(citySize FC-City-Monterrey (FreecivCitizenCountFn 2))
+
+(isa FC-City-Monterrey FreeCiv-City)
+
+(rcc8-EC CityFootprint-FC-City-Monterrey ContinentBlob-1424)
+
+(rcc8-PO CityFootprint-FC-City-Monterrey ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-Monterrey ContinentBlob-1421)
+
+(rcc8-PO CityFootprint-FC-City-Monterrey CityFootprint-FC-City-CiudadDeMéxico)
+
+(rcc8-PO CityFootprint-FC-City-Monterrey CityFootprint-FC-City-LeónDeLosAldamas)
+
+(rcc8-EC CityFootprint-FC-City-Monterrey UnitFootprint-Unit-170)
+
+(rcc8-PO CityFootprint-FC-City-Monterrey TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-BenitoJuárez TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 209))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)
+
+(isa UnitFootprint-Unit-170 UnitFootprint)
+
+(isa CityFootprint-FC-City-LeónDeLosAldamas CityFootprint)
+
+(footprintOf FC-City-LeónDeLosAldamas CityFootprint-FC-City-LeónDeLosAldamas)
+
+(numTurnsToBuild FC-City-LeónDeLosAldamas (Turns 250))
+
+(numTurnsToGrow FC-City-LeónDeLosAldamas (Turns 11))
+
+(cityGrowthRate FC-City-LeónDeLosAldamas (Percent 5))
+
+(cityOwner FC-City-LeónDeLosAldamas FC-Player-BenitoJuárez)
+
+(citySize FC-City-LeónDeLosAldamas (FreecivCitizenCountFn 1))
+
+(isa FC-City-LeónDeLosAldamas FreeCiv-City)
+
+(isa CityFootprint-FC-City-CiudadDeMéxico CityFootprint)
+
+(footprintOf FC-City-CiudadDeMéxico CityFootprint-FC-City-CiudadDeMéxico)
+
+(numTurnsToBuild FC-City-CiudadDeMéxico (Turns 10))
+
+(numTurnsToGrow FC-City-CiudadDeMéxico (Turns 2))
+
+(cityGrowthRate FC-City-CiudadDeMéxico (Percent 10))
+
+(cityOwner FC-City-CiudadDeMéxico FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CiudadDeMéxico FC-Building-Barracks)
+
+(cityHasImprovement FC-City-CiudadDeMéxico FC-Building-Palace)
+
+(citySize FC-City-CiudadDeMéxico (FreecivCitizenCountFn 1))
+
+(isa FC-City-CiudadDeMéxico FreeCiv-City)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-1424 FreeCiv-TerrainBlob-Water)

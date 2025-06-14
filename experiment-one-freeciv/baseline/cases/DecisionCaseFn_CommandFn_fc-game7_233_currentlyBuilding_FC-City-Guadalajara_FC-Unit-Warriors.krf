@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 233) (currentlyBuilding FC-City-Guadalajara FC-Unit-Warriors)), dumped 7/29/2022 11:38:39 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 233) (currentlyBuilding FC-City-Guadalajara FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Guadalajara (Turns 2))
+
+(numTurnsToGrow FC-City-Guadalajara (Turns 29))
+
+(cityGrowthRate FC-City-Guadalajara (Percent 2))
+
+(cityOwner FC-City-Guadalajara FC-Player-BenitoJuárez)
+
+(citySize FC-City-Guadalajara (FreecivCitizenCountFn 2))
+
+(isa FC-City-Guadalajara FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 163))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

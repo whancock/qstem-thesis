@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game11 551) (currentlyBuilding FC-City-Lutsk FC-Building-Barracks)), dumped 7/29/2022 12:27:53 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game11 551) (currentlyBuilding FC-City-Lutsk FC-Building-Barracks)))
+(numTurnsToBuild FC-City-Lutsk (Turns 14))
+
+(numTurnsToGrow FC-City-Lutsk (Turns 8))
+
+(cityGrowthRate FC-City-Lutsk (Percent 10))
+
+(cityOwner FC-City-Lutsk FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Lutsk FC-Building-CityWalls)
+
+(citySize FC-City-Lutsk (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lutsk FreeCiv-City)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 440))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)

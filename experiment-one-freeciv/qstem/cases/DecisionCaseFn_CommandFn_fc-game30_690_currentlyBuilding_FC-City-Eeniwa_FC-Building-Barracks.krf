@@ -1,0 +1,108 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 690) (currentlyBuilding FC-City-Eeniwa FC-Building-Barracks)), dumped 8/10/2022 18:51:11 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 690) (currentlyBuilding FC-City-Eeniwa FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Eeniwa CityFootprint)
+
+(footprintOf FC-City-Eeniwa CityFootprint-FC-City-Eeniwa)
+
+(numTurnsToBuild FC-City-Eeniwa (Turns 15))
+
+(numTurnsToGrow FC-City-Eeniwa (Turns 10))
+
+(cityGrowthRate FC-City-Eeniwa (Percent 10))
+
+(cityOwner FC-City-Eeniwa FC-Player-KayanoShigeru)
+
+(citySize FC-City-Eeniwa (FreecivCitizenCountFn 1))
+
+(isa FC-City-Eeniwa FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Eeniwa) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Eeniwa) Some))
+
+(rcc8-PO CityFootprint-FC-City-Eeniwa ContinentBlob-6132)
+
+(rcc8-TPP CityFootprint-FC-City-Eeniwa ContinentBlob-6131)
+
+(rcc8-EC CityFootprint-FC-City-Eeniwa CityFootprint-FC-City-Moruerani)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-279)
+
+(rcc8-TPP CityFootprint-FC-City-Eeniwa TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-6723 UnitFootprint-Unit-197)
+
+(rcc8-EC TerritoryBlob-6723 UnitFootprint-Unit-204)
+
+(rcc8-EC TerritoryBlob-6723 UnitFootprint-Unit-211)
+
+(rcc8-EC TerritoryBlob-6723 UnitFootprint-Unit-218)
+
+(rcc8-EC TerritoryBlob-6723 UnitFootprint-Unit-250)
+
+(rcc8-EC TerritoryBlob-6723 UnitFootprint-Unit-262)
+
+(rcc8-PO TerritoryBlob-6723 UnitFootprint-Unit-279)
+
+(rcc8-EC CityFootprint-FC-City-Eeniwa TerritoryBlob-6723)
+
+(isa TerritoryBlob-6723 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-262 UnitFootprint)
+
+(isa UnitFootprint-Unit-250 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-211 UnitFootprint)
+
+(isa UnitFootprint-Unit-204 UnitFootprint)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 432))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-279 UnitFootprint)
+
+(isa CityFootprint-FC-City-Moruerani CityFootprint)
+
+(footprintOf FC-City-Moruerani CityFootprint-FC-City-Moruerani)
+
+(numTurnsToBuild FC-City-Moruerani (Turns 4))
+
+(numTurnsToGrow FC-City-Moruerani (Turns 34))
+
+(cityGrowthRate FC-City-Moruerani (Percent 0))
+
+(cityOwner FC-City-Moruerani FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Moruerani FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Moruerani FC-Building-Barracks)
+
+(citySize FC-City-Moruerani (FreecivCitizenCountFn 4))
+
+(isa FC-City-Moruerani FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

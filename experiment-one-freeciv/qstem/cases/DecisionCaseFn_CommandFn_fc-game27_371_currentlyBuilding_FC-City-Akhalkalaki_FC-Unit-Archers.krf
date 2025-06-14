@@ -1,0 +1,52 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 371) (currentlyBuilding FC-City-Akhalkalaki FC-Unit-Archers)), dumped 8/10/2022 17:15:44 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 371) (currentlyBuilding FC-City-Akhalkalaki FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Akhalkalaki CityFootprint)
+
+(footprintOf FC-City-Akhalkalaki CityFootprint-FC-City-Akhalkalaki)
+
+(numTurnsToBuild FC-City-Akhalkalaki (Turns 8))
+
+(numTurnsToGrow FC-City-Akhalkalaki (Turns 12))
+
+(cityGrowthRate FC-City-Akhalkalaki (Percent 3))
+
+(cityOwner FC-City-Akhalkalaki FC-Player-GiorgiIII)
+
+(citySize FC-City-Akhalkalaki (FreecivCitizenCountFn 2))
+
+(isa FC-City-Akhalkalaki FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Akhalkalaki) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Akhalkalaki) Some))
+
+(rcc8-PO CityFootprint-FC-City-Akhalkalaki ContinentBlob-405)
+
+(rcc8-NTPP CityFootprint-FC-City-Akhalkalaki ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Akhalkalaki TerritoryBlob-0)
+
+(rcc8-EC TerritoryBlob-880 UnitFootprint-Unit-182)
+
+(rcc8-EC CityFootprint-FC-City-Akhalkalaki TerritoryBlob-880)
+
+(isa TerritoryBlob-880 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-182 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 177))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

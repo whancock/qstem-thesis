@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game14 297) (currentlyBuilding FC-City-Whapmagoostui FC-Building-CityWalls)), dumped 7/29/2022 12:59:15 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game14 297) (currentlyBuilding FC-City-Whapmagoostui FC-Building-CityWalls)))
+(numTurnsToBuild FC-City-Whapmagoostui (Turns 20))
+
+(numTurnsToGrow FC-City-Whapmagoostui (Turns 13))
+
+(cityGrowthRate FC-City-Whapmagoostui (Percent 2))
+
+(cityOwner FC-City-Whapmagoostui FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Whapmagoostui FC-Building-Barracks)
+
+(citySize FC-City-Whapmagoostui (FreecivCitizenCountFn 3))
+
+(isa FC-City-Whapmagoostui FreeCiv-City)
+
+(currentGold FC-Player-Awashish (GoldPoints 91))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)

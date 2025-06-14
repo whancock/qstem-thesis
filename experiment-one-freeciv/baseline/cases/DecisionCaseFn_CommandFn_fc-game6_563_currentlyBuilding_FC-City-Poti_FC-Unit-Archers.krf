@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game6 563) (currentlyBuilding FC-City-Poti FC-Unit-Archers)), dumped 7/29/2022 11:34:31 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game6 563) (currentlyBuilding FC-City-Poti FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Poti (Turns 5))
+
+(cityGrowthRate FC-City-Poti (Percent 0))
+
+(cityOwner FC-City-Poti FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Poti FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Poti FC-Building-Barracks)
+
+(citySize FC-City-Poti (FreecivCitizenCountFn 3))
+
+(isa FC-City-Poti FreeCiv-City)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 319))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)

@@ -1,0 +1,26 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game9 652) (currentlyBuilding FC-City-Cipasiri FC-Coinage)), dumped 7/29/2022 12:13:56 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game9 652) (currentlyBuilding FC-City-Cipasiri FC-Coinage)))
+(numTurnsToBuild FC-City-Cipasiri (Turns 998))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 12))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 5))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 1))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 381))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)

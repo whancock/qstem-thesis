@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game10 390) (currentlyBuilding FC-City-Ineb-Hedj FC-Unit-Archers)), dumped 7/29/2022 12:20:27 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game10 390) (currentlyBuilding FC-City-Ineb-Hedj FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Ineb-Hedj (Turns 4))
+
+(numTurnsToGrow FC-City-Ineb-Hedj (Turns 18))
+
+(cityGrowthRate FC-City-Ineb-Hedj (Percent 2))
+
+(cityOwner FC-City-Ineb-Hedj FC-Player-Tutankhamun)
+
+(cityHasImprovement FC-City-Ineb-Hedj FC-Building-Barracks)
+
+(citySize FC-City-Ineb-Hedj (FreecivCitizenCountFn 3))
+
+(isa FC-City-Ineb-Hedj FreeCiv-City)
+
+(currentGold FC-Player-Tutankhamun (GoldPoints 72))
+
+(currentGovernment FC-Player-Tutankhamun FC-Despotism)
+
+(isa FC-Player-Tutankhamun FreeCiv-Player)

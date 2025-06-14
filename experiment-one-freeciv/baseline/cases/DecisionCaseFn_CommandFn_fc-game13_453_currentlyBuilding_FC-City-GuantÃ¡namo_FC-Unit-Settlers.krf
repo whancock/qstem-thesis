@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game13 453) (currentlyBuilding FC-City-Guantánamo FC-Unit-Settlers)), dumped 7/29/2022 12:46:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game13 453) (currentlyBuilding FC-City-Guantánamo FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-Guantánamo (Turns 8))
+
+(numTurnsToGrow FC-City-Guantánamo (Turns 15))
+
+(cityGrowthRate FC-City-Guantánamo (Percent 2))
+
+(cityOwner FC-City-Guantánamo FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Guantánamo FC-Building-Barracks)
+
+(citySize FC-City-Guantánamo (FreecivCitizenCountFn 3))
+
+(isa FC-City-Guantánamo FreeCiv-City)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 105))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)

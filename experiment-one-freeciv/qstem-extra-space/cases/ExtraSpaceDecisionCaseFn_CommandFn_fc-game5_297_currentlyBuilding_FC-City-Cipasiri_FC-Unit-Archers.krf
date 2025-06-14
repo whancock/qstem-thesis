@@ -1,0 +1,494 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game5 297) (currentlyBuilding FC-City-Cipasiri FC-Unit-Archers)), dumped 9/1/2022 19:18:53 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game5 297) (currentlyBuilding FC-City-Cipasiri FC-Unit-Archers)))
+(rcc8-NTPP ContinentBlob-47262 ContinentBlob-47261)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-TPPi ContinentBlob-47262 CityFootprint-FC-City-Wien)
+
+(rcc8-TPPi ContinentBlob-47262 CityFootprint-FC-City-Tehran)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Mopet)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Graz)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Karaj)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Mashhad)
+
+(rcc8-TPPi ContinentBlob-47262 CityFootprint-FC-City-Nupurpet)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Salzburg)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Linz)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Moruerani)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Nayoroputo)
+
+(rcc8-TPPi ContinentBlob-47262 CityFootprint-FC-City-Isfahan)
+
+(rcc8-NTPPi ContinentBlob-47262 UnitFootprint-Unit-154)
+
+(rcc8-TPPi ContinentBlob-47262 UnitFootprint-Unit-156)
+
+(rcc8-NTPPi ContinentBlob-47262 UnitFootprint-Unit-165)
+
+(rcc8-NTPPi ContinentBlob-47262 UnitFootprint-Unit-169)
+
+(rcc8-PO ContinentBlob-47262 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-47262 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-47262 TerritoryBlob-2)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47906)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47967)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47968)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-47262)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47266)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47265)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47264)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47263)
+
+(rcc8-NTPPi ContinentBlob-47261 ContinentBlob-47262)
+
+(rcc8-TPPi ContinentBlob-47261 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-PO ContinentBlob-47261 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Wien)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Tehran)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Mopet)
+
+(rcc8-PO ContinentBlob-47261 CityFootprint-FC-City-Graz)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Karaj)
+
+(rcc8-PO ContinentBlob-47261 CityFootprint-FC-City-Mashhad)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Nupurpet)
+
+(rcc8-PO ContinentBlob-47261 CityFootprint-FC-City-Salzburg)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Linz)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-PO ContinentBlob-47261 CityFootprint-FC-City-Moruerani)
+
+(rcc8-TPPi ContinentBlob-47261 CityFootprint-FC-City-Nayoroputo)
+
+(rcc8-NTPPi ContinentBlob-47261 CityFootprint-FC-City-Isfahan)
+
+(rcc8-NTPPi ContinentBlob-47261 UnitFootprint-Unit-154)
+
+(rcc8-NTPPi ContinentBlob-47261 UnitFootprint-Unit-156)
+
+(rcc8-NTPPi ContinentBlob-47261 UnitFootprint-Unit-165)
+
+(rcc8-NTPPi ContinentBlob-47261 UnitFootprint-Unit-169)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47271)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47270)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47268)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47267)
+
+(rcc8-PO ContinentBlob-47261 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-47261 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-47261 TerritoryBlob-2)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47906)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47967)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47968)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-47261)
+
+(rcc8-PO CityFootprint-FC-City-Mopet ContinentBlob-47262)
+
+(rcc8-NTPP CityFootprint-FC-City-Mopet ContinentBlob-47261)
+
+(rcc8-PO CityFootprint-FC-City-Mopet CityFootprint-FC-City-Cipasiri)
+
+(rcc8-PO CityFootprint-FC-City-Mopet CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-TPP CityFootprint-FC-City-Mopet TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri CityFootprint-FC-City-Mopet)
+
+(rcc8-TPP CityFootprint-FC-City-Nupurpet ContinentBlob-47262)
+
+(rcc8-NTPP CityFootprint-FC-City-Nupurpet ContinentBlob-47261)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet CityFootprint-FC-City-Nayoroputo)
+
+(rcc8-TPP CityFootprint-FC-City-Nupurpet TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Nupurpet TerritoryBlob-47968)
+
+(rcc8-EC CityFootprint-FC-City-Cipasiri CityFootprint-FC-City-Nupurpet)
+
+(rcc8-PO CityFootprint-FC-City-Nayoroputo ContinentBlob-47262)
+
+(rcc8-TPP CityFootprint-FC-City-Nayoroputo ContinentBlob-47261)
+
+(rcc8-PO CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Wien)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo CityFootprint-FC-City-Nupurpet)
+
+(rcc8-TPP CityFootprint-FC-City-Nayoroputo TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo TerritoryBlob-2)
+
+(rcc8-EC CityFootprint-FC-City-Nayoroputo TerritoryBlob-47906)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri CityFootprint-FC-City-Nayoroputo)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-47262)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-47261)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC TerritoryBlob-0 CityFootprint-FC-City-Wien)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Mopet)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Nupurpet)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Tomakomanay)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Moruerani)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Nayoroputo)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-2)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-47906)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-47968)
+
+(rcc8-TPP CityFootprint-FC-City-Cipasiri TerritoryBlob-0)
+
+(isa TerritoryBlob-47267 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47268 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47270 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47271 NationalTerritoryFootprint)
+
+(isa ContinentBlob-47263 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47264 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47265 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47266 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47262 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-47968 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47967 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47906 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-FranzJoseph TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-FranzJoseph (GoldPoints 0))
+
+(currentGovernment FC-Player-FranzJoseph FC-Anarchy)
+
+(isa FC-Player-FranzJoseph FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 155))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-IsmailI TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-IsmailI (GoldPoints 0))
+
+(currentGovernment FC-Player-IsmailI FC-Anarchy)
+
+(isa FC-Player-IsmailI FreeCiv-Player)
+
+(isa UnitFootprint-Unit-169 UnitFootprint)
+
+(isa UnitFootprint-Unit-165 UnitFootprint)
+
+(isa UnitFootprint-Unit-156 UnitFootprint)
+
+(isa UnitFootprint-Unit-154 UnitFootprint)
+
+(isa CityFootprint-FC-City-Isfahan CityFootprint)
+
+(footprintOf FC-City-Isfahan CityFootprint-FC-City-Isfahan)
+
+(cityOwner FC-City-Isfahan FC-Player-IsmailI)
+
+(citySize FC-City-Isfahan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Isfahan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Nayoroputo CityFootprint)
+
+(footprintOf FC-City-Nayoroputo CityFootprint-FC-City-Nayoroputo)
+
+(numTurnsToBuild FC-City-Nayoroputo (Turns 1))
+
+(numTurnsToGrow FC-City-Nayoroputo (Turns 18))
+
+(cityGrowthRate FC-City-Nayoroputo (Percent 5))
+
+(cityOwner FC-City-Nayoroputo FC-Player-KayanoShigeru)
+
+(citySize FC-City-Nayoroputo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nayoroputo FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nayoroputo) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nayoroputo) Some))
+
+(isa CityFootprint-FC-City-Moruerani CityFootprint)
+
+(footprintOf FC-City-Moruerani CityFootprint-FC-City-Moruerani)
+
+(numTurnsToBuild FC-City-Moruerani (Turns 13))
+
+(numTurnsToGrow FC-City-Moruerani (Turns 3))
+
+(cityGrowthRate FC-City-Moruerani (Percent 10))
+
+(cityOwner FC-City-Moruerani FC-Player-KayanoShigeru)
+
+(citySize FC-City-Moruerani (FreecivCitizenCountFn 1))
+
+(isa FC-City-Moruerani FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Moruerani) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Moruerani) Some))
+
+(isa CityFootprint-FC-City-Tomakomanay CityFootprint)
+
+(footprintOf FC-City-Tomakomanay CityFootprint-FC-City-Tomakomanay)
+
+(numTurnsToBuild FC-City-Tomakomanay (Turns 1))
+
+(numTurnsToGrow FC-City-Tomakomanay (Turns 13))
+
+(cityGrowthRate FC-City-Tomakomanay (Percent 3))
+
+(cityOwner FC-City-Tomakomanay FC-Player-KayanoShigeru)
+
+(citySize FC-City-Tomakomanay (FreecivCitizenCountFn 2))
+
+(isa FC-City-Tomakomanay FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Tomakomanay) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Tomakomanay) Some))
+
+(isa CityFootprint-FC-City-Linz CityFootprint)
+
+(footprintOf FC-City-Linz CityFootprint-FC-City-Linz)
+
+(cityOwner FC-City-Linz FC-Player-FranzJoseph)
+
+(citySize FC-City-Linz (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Linz (FreecivCitizenCountFn 1))
+
+(isa FC-City-Linz FreeCiv-City)
+
+(isa CityFootprint-FC-City-Salzburg CityFootprint)
+
+(footprintOf FC-City-Salzburg CityFootprint-FC-City-Salzburg)
+
+(cityOwner FC-City-Salzburg FC-Player-FranzJoseph)
+
+(citySize FC-City-Salzburg (FreecivCitizenCountFn 1))
+
+(isa FC-City-Salzburg FreeCiv-City)
+
+(isa CityFootprint-FC-City-Nupurpet CityFootprint)
+
+(footprintOf FC-City-Nupurpet CityFootprint-FC-City-Nupurpet)
+
+(numTurnsToBuild FC-City-Nupurpet (Turns 4))
+
+(numTurnsToGrow FC-City-Nupurpet (Turns 4))
+
+(cityGrowthRate FC-City-Nupurpet (Percent 10))
+
+(cityOwner FC-City-Nupurpet FC-Player-KayanoShigeru)
+
+(citySize FC-City-Nupurpet (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nupurpet FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nupurpet) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nupurpet) Some))
+
+(isa CityFootprint-FC-City-Mashhad CityFootprint)
+
+(footprintOf FC-City-Mashhad CityFootprint-FC-City-Mashhad)
+
+(cityOwner FC-City-Mashhad FC-Player-IsmailI)
+
+(citySize FC-City-Mashhad (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Mashhad (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mashhad FreeCiv-City)
+
+(isa CityFootprint-FC-City-Karaj CityFootprint)
+
+(footprintOf FC-City-Karaj CityFootprint-FC-City-Karaj)
+
+(cityOwner FC-City-Karaj FC-Player-IsmailI)
+
+(citySize FC-City-Karaj (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Karaj (FreecivCitizenCountFn 1))
+
+(isa FC-City-Karaj FreeCiv-City)
+
+(isa CityFootprint-FC-City-Graz CityFootprint)
+
+(footprintOf FC-City-Graz CityFootprint-FC-City-Graz)
+
+(cityOwner FC-City-Graz FC-Player-FranzJoseph)
+
+(citySize FC-City-Graz (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Graz (FreecivCitizenCountFn 1))
+
+(isa FC-City-Graz FreeCiv-City)
+
+(isa CityFootprint-FC-City-Mopet CityFootprint)
+
+(footprintOf FC-City-Mopet CityFootprint-FC-City-Mopet)
+
+(numTurnsToBuild FC-City-Mopet (Turns 8))
+
+(numTurnsToGrow FC-City-Mopet (Turns 16))
+
+(cityGrowthRate FC-City-Mopet (Percent 2))
+
+(cityOwner FC-City-Mopet FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Mopet FC-Building-Barracks)
+
+(citySize FC-City-Mopet (FreecivCitizenCountFn 3))
+
+(isa FC-City-Mopet FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mopet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mopet) Some))
+
+(isa CityFootprint-FC-City-Tehran CityFootprint)
+
+(footprintOf FC-City-Tehran CityFootprint-FC-City-Tehran)
+
+(cityOwner FC-City-Tehran FC-Player-IsmailI)
+
+(citySize FC-City-Tehran (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Tehran (FreecivCitizenCountFn 1))
+
+(isa FC-City-Tehran FreeCiv-City)
+
+(isa CityFootprint-FC-City-Wien CityFootprint)
+
+(footprintOf FC-City-Wien CityFootprint-FC-City-Wien)
+
+(cityOwner FC-City-Wien FC-Player-FranzJoseph)
+
+(cityHasImprovement FC-City-Wien FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Wien FC-Building-Palace)
+
+(citySize FC-City-Wien (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Wien (FreecivCitizenCountFn 1))
+
+(isa FC-City-Wien FreeCiv-City)
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 5))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 30))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 2))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(isa CityFootprint-FC-City-Ahvaz CityFootprint)
+
+(footprintOf FC-City-Ahvaz CityFootprint-FC-City-Ahvaz)
+
+(cityOwner FC-City-Ahvaz FC-Player-IsmailI)
+
+(cityHasImprovement FC-City-Ahvaz FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Ahvaz FC-Building-Palace)
+
+(citySize FC-City-Ahvaz (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Ahvaz (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ahvaz FreeCiv-City)
+
+(isa ContinentBlob-47261 FreeCiv-TerrainBlob-Water)

@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game5 729) (currentlyBuilding FC-City-Ulsan FC-Unit-Archers)), dumped 7/29/2022 11:26:16 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game5 729) (currentlyBuilding FC-City-Ulsan FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Ulsan (Turns 15))
+
+(numTurnsToGrow FC-City-Ulsan (Turns 7))
+
+(cityGrowthRate FC-City-Ulsan (Percent 10))
+
+(cityOwner FC-City-Ulsan FC-Player-ParkGeun-hye)
+
+(cityOwner FC-City-Ulsan FC-Player-JoséArtigas)
+
+(citySize FC-City-Ulsan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ulsan FreeCiv-City)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 272))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)

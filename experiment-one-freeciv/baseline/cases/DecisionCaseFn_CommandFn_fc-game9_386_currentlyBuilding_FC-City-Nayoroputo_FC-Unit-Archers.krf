@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game9 386) (currentlyBuilding FC-City-Nayoroputo FC-Unit-Archers)), dumped 7/29/2022 12:9:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game9 386) (currentlyBuilding FC-City-Nayoroputo FC-Unit-Archers)))
+(numTurnsToBuild FC-City-Nayoroputo (Turns 8))
+
+(numTurnsToGrow FC-City-Nayoroputo (Turns 10))
+
+(cityGrowthRate FC-City-Nayoroputo (Percent 5))
+
+(cityOwner FC-City-Nayoroputo FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Nayoroputo FC-Building-Barracks)
+
+(citySize FC-City-Nayoroputo (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nayoroputo FreeCiv-City)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 173))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)

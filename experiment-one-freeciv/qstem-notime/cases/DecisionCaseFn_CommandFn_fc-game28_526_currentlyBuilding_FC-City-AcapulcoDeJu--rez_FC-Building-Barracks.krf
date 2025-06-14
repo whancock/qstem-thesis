@@ -1,0 +1,44 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 526) (currentlyBuilding FC-City-AcapulcoDeJuárez FC-Building-Barracks)), dumped 8/10/2022 17:37:55 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 526) (currentlyBuilding FC-City-AcapulcoDeJuárez FC-Building-Barracks)))
+(isa CityFootprint-FC-City-AcapulcoDeJuárez CityFootprint)
+
+(footprintOf FC-City-AcapulcoDeJuárez CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(numTurnsToBuild FC-City-AcapulcoDeJuárez (Turns 10))
+
+(numTurnsToGrow FC-City-AcapulcoDeJuárez (Turns 1))
+
+(cityGrowthRate FC-City-AcapulcoDeJuárez (Percent 5))
+
+(cityOwner FC-City-AcapulcoDeJuárez FC-Player-BenitoJuárez)
+
+(citySize FC-City-AcapulcoDeJuárez (FreecivCitizenCountFn 1))
+
+(isa FC-City-AcapulcoDeJuárez FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-AcapulcoDeJuárez ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-AcapulcoDeJuárez ContinentBlob-1421)
+
+(rcc8-PO CityFootprint-FC-City-AcapulcoDeJuárez CityFootprint-FC-City-Aguascalientes)
+
+(isa CityFootprint-FC-City-Aguascalientes CityFootprint)
+
+(footprintOf FC-City-Aguascalientes CityFootprint-FC-City-Aguascalientes)
+
+(numTurnsToBuild FC-City-Aguascalientes (Turns 4))
+
+(numTurnsToGrow FC-City-Aguascalientes (Turns 6))
+
+(cityGrowthRate FC-City-Aguascalientes (Percent 15))
+
+(cityOwner FC-City-Aguascalientes FC-Player-BenitoJuárez)
+
+(citySize FC-City-Aguascalientes (FreecivCitizenCountFn 1))
+
+(isa FC-City-Aguascalientes FreeCiv-City)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

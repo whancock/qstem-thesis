@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 27) (currentlyBuilding FC-City-Meroë FC-Unit-Settlers)), dumped 7/29/2022 11:46:6 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 27) (currentlyBuilding FC-City-Meroë FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-Meroë (Turns 14))
+
+(numTurnsToGrow FC-City-Meroë (Turns 10))
+
+(cityGrowthRate FC-City-Meroë (Percent 10))
+
+(cityOwner FC-City-Meroë FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Palace)
+
+(citySize FC-City-Meroë (FreecivCitizenCountFn 1))
+
+(isa FC-City-Meroë FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 50))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

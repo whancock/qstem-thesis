@@ -1,0 +1,728 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game10 513) (currentlyBuilding FC-City-Nemaska FC-Unit-Archers)), dumped 9/1/2022 23:30:38 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game10 513) (currentlyBuilding FC-City-Nemaska FC-Unit-Archers)))
+(rcc8-NTPP ContinentBlob-58399 ContinentBlob-58398)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Konstantinoupolis)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Aalborg)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Odense)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Celje)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Dyrrachio)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Ljubljana)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Whapmagoostui)
+
+(rcc8-TPPi ContinentBlob-58399 CityFootprint-FC-City-Maribor)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Thessaloniki)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-København)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Waskaganish)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Nemaska)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Aarhus)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Mistissini)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-NovaGorica)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Ikonio)
+
+(rcc8-PO ContinentBlob-58399 CityFootprint-FC-City-Jesenice)
+
+(rcc8-NTPPi ContinentBlob-58399 UnitFootprint-Unit-172)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-175)
+
+(rcc8-NTPPi ContinentBlob-58399 UnitFootprint-Unit-176)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-168)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-167)
+
+(rcc8-NTPPi ContinentBlob-58399 UnitFootprint-Unit-185)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-183)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-189)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-196)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-180)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-184)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-205)
+
+(rcc8-NTPPi ContinentBlob-58399 UnitFootprint-Unit-204)
+
+(rcc8-NTPPi ContinentBlob-58399 UnitFootprint-Unit-207)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-186)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi ContinentBlob-58399 UnitFootprint-Unit-211)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-215)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-214)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-216)
+
+(rcc8-TPPi ContinentBlob-58399 UnitFootprint-Unit-209)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-217)
+
+(rcc8-NTPPi ContinentBlob-58399 UnitFootprint-Unit-221)
+
+(rcc8-PO ContinentBlob-58399 UnitFootprint-Unit-220)
+
+(rcc8-PO ContinentBlob-58399 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-58399 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-58399 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-58399 TerritoryBlob-4)
+
+(rcc8-TPPi ContinentBlob-58399 TerritoryBlob-59005)
+
+(rcc8-TPPi ContinentBlob-58399 TerritoryBlob-59767)
+
+(rcc8-TPPi ContinentBlob-58399 TerritoryBlob-59956)
+
+(rcc8-PO CityFootprint-FC-City-Nemaska ContinentBlob-58399)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58403)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58402)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58401)
+
+(rcc8-EC ContinentBlob-58398 ContinentBlob-58400)
+
+(rcc8-NTPPi ContinentBlob-58398 ContinentBlob-58399)
+
+(rcc8-PO ContinentBlob-58398 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-TPPi ContinentBlob-58398 CityFootprint-FC-City-Konstantinoupolis)
+
+(rcc8-TPPi ContinentBlob-58398 CityFootprint-FC-City-Aalborg)
+
+(rcc8-TPPi ContinentBlob-58398 CityFootprint-FC-City-Odense)
+
+(rcc8-TPPi ContinentBlob-58398 CityFootprint-FC-City-Celje)
+
+(rcc8-TPPi ContinentBlob-58398 CityFootprint-FC-City-Dyrrachio)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-Ljubljana)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-Whapmagoostui)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-Maribor)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-Thessaloniki)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-København)
+
+(rcc8-PO ContinentBlob-58398 CityFootprint-FC-City-Waskaganish)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-Nemaska)
+
+(rcc8-PO ContinentBlob-58398 CityFootprint-FC-City-Aarhus)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-Mistissini)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-NovaGorica)
+
+(rcc8-NTPPi ContinentBlob-58398 CityFootprint-FC-City-Ikonio)
+
+(rcc8-TPPi ContinentBlob-58398 CityFootprint-FC-City-Jesenice)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-172)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-175)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-176)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-168)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-167)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-185)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-183)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-189)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-196)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-180)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-184)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-205)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-204)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-207)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-186)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-211)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-215)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-214)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-216)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-209)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-217)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-221)
+
+(rcc8-NTPPi ContinentBlob-58398 UnitFootprint-Unit-220)
+
+(rcc8-PO ContinentBlob-58398 TerritoryBlob-0)
+
+(rcc8-TPPi ContinentBlob-58398 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-58398 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-58398 TerritoryBlob-4)
+
+(rcc8-NTPPi ContinentBlob-58398 TerritoryBlob-59005)
+
+(rcc8-EC ContinentBlob-58398 TerritoryBlob-59003)
+
+(rcc8-EC ContinentBlob-58398 TerritoryBlob-59004)
+
+(rcc8-NTPPi ContinentBlob-58398 TerritoryBlob-59767)
+
+(rcc8-EC ContinentBlob-58398 TerritoryBlob-59779)
+
+(rcc8-EC ContinentBlob-58398 TerritoryBlob-59957)
+
+(rcc8-NTPPi ContinentBlob-58398 TerritoryBlob-59956)
+
+(rcc8-NTPP CityFootprint-FC-City-Nemaska ContinentBlob-58398)
+
+(rcc8-PO CityFootprint-FC-City-Whapmagoostui ContinentBlob-58399)
+
+(rcc8-NTPP CityFootprint-FC-City-Whapmagoostui ContinentBlob-58398)
+
+(rcc8-PO CityFootprint-FC-City-Whapmagoostui CityFootprint-FC-City-Nemaska)
+
+(rcc8-TPP CityFootprint-FC-City-Whapmagoostui TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Whapmagoostui TerritoryBlob-59005)
+
+(rcc8-PO CityFootprint-FC-City-Nemaska CityFootprint-FC-City-Whapmagoostui)
+
+(rcc8-PO CityFootprint-FC-City-Mistissini ContinentBlob-58399)
+
+(rcc8-NTPP CityFootprint-FC-City-Mistissini ContinentBlob-58398)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini CityFootprint-FC-City-Waskaganish)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini CityFootprint-FC-City-Nemaska)
+
+(rcc8-TPP CityFootprint-FC-City-Mistissini TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Mistissini TerritoryBlob-59956)
+
+(rcc8-EC CityFootprint-FC-City-Nemaska CityFootprint-FC-City-Mistissini)
+
+(rcc8-EC TerritoryBlob-0 ContinentBlob-58402)
+
+(rcc8-TPPi TerritoryBlob-0 ContinentBlob-58401)
+
+(rcc8-EC TerritoryBlob-0 ContinentBlob-58400)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-58399)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-58398)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Chisasibi)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Whapmagoostui)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Waskaganish)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Nemaska)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Mistissini)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-59005)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-59003)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-59004)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-59956)
+
+(rcc8-TPP CityFootprint-FC-City-Nemaska TerritoryBlob-0)
+
+(isa TerritoryBlob-59957 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-59779 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-59004 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-59003 NationalTerritoryFootprint)
+
+(isa ContinentBlob-58400 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-58401 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-58402 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-58403 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-58399 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-59956 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-59767 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-59005 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-4 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Valuka TerritoryBlob-4)
+
+(isa TerritoryBlob-4 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Valuka (GoldPoints 0))
+
+(currentGovernment FC-Player-Valuka FC-Despotism)
+
+(currentGovernment FC-Player-Valuka FC-Anarchy)
+
+(isa FC-Player-Valuka FreeCiv-Player)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-ErikGlipping TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-ErikGlipping (GoldPoints 0))
+
+(currentGovernment FC-Player-ErikGlipping FC-Despotism)
+
+(currentGovernment FC-Player-ErikGlipping FC-Anarchy)
+
+(isa FC-Player-ErikGlipping FreeCiv-Player)
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MichaelVIIIPalaeologus TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MichaelVIIIPalaeologus (GoldPoints 0))
+
+(currentGovernment FC-Player-MichaelVIIIPalaeologus FC-Anarchy)
+
+(isa FC-Player-MichaelVIIIPalaeologus FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 180))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-220 UnitFootprint)
+
+(isa UnitFootprint-Unit-221 UnitFootprint)
+
+(isa UnitFootprint-Unit-217 UnitFootprint)
+
+(isa UnitFootprint-Unit-209 UnitFootprint)
+
+(isa UnitFootprint-Unit-216 UnitFootprint)
+
+(isa UnitFootprint-Unit-214 UnitFootprint)
+
+(isa UnitFootprint-Unit-215 UnitFootprint)
+
+(isa UnitFootprint-Unit-211 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-186 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-204 UnitFootprint)
+
+(isa UnitFootprint-Unit-205 UnitFootprint)
+
+(isa UnitFootprint-Unit-184 UnitFootprint)
+
+(isa UnitFootprint-Unit-180 UnitFootprint)
+
+(isa UnitFootprint-Unit-196 UnitFootprint)
+
+(isa UnitFootprint-Unit-189 UnitFootprint)
+
+(isa UnitFootprint-Unit-183 UnitFootprint)
+
+(isa UnitFootprint-Unit-185 UnitFootprint)
+
+(isa UnitFootprint-Unit-167 UnitFootprint)
+
+(isa UnitFootprint-Unit-168 UnitFootprint)
+
+(isa UnitFootprint-Unit-176 UnitFootprint)
+
+(isa UnitFootprint-Unit-175 UnitFootprint)
+
+(isa UnitFootprint-Unit-172 UnitFootprint)
+
+(isa CityFootprint-FC-City-Jesenice CityFootprint)
+
+(footprintOf FC-City-Jesenice CityFootprint-FC-City-Jesenice)
+
+(cityOwner FC-City-Jesenice FC-Player-Valuka)
+
+(citySize FC-City-Jesenice (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Jesenice (FreecivCitizenCountFn 1))
+
+(isa FC-City-Jesenice FreeCiv-City)
+
+(isa CityFootprint-FC-City-Ikonio CityFootprint)
+
+(footprintOf FC-City-Ikonio CityFootprint-FC-City-Ikonio)
+
+(cityOwner FC-City-Ikonio FC-Player-MichaelVIIIPalaeologus)
+
+(citySize FC-City-Ikonio (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Ikonio (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ikonio FreeCiv-City)
+
+(isa CityFootprint-FC-City-NovaGorica CityFootprint)
+
+(footprintOf FC-City-NovaGorica CityFootprint-FC-City-NovaGorica)
+
+(cityOwner FC-City-NovaGorica FC-Player-Valuka)
+
+(citySize FC-City-NovaGorica (FreecivCitizenCountFn 3))
+
+(citySize FC-City-NovaGorica (FreecivCitizenCountFn 2))
+
+(citySize FC-City-NovaGorica (FreecivCitizenCountFn 1))
+
+(isa FC-City-NovaGorica FreeCiv-City)
+
+(isa CityFootprint-FC-City-Mistissini CityFootprint)
+
+(footprintOf FC-City-Mistissini CityFootprint-FC-City-Mistissini)
+
+(numTurnsToBuild FC-City-Mistissini (Turns 6))
+
+(numTurnsToGrow FC-City-Mistissini (Turns 10))
+
+(cityGrowthRate FC-City-Mistissini (Percent 2))
+
+(cityOwner FC-City-Mistissini FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Mistissini FC-Building-Barracks)
+
+(citySize FC-City-Mistissini (FreecivCitizenCountFn 3))
+
+(isa FC-City-Mistissini FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mistissini) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mistissini) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mistissini) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mistissini) Some))
+
+(isa CityFootprint-FC-City-Aarhus CityFootprint)
+
+(footprintOf FC-City-Aarhus CityFootprint-FC-City-Aarhus)
+
+(cityOwner FC-City-Aarhus FC-Player-ErikGlipping)
+
+(cityHasImprovement FC-City-Aarhus FC-Building-CityWalls)
+
+(citySize FC-City-Aarhus (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Aarhus (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Aarhus (FreecivCitizenCountFn 1))
+
+(isa FC-City-Aarhus FreeCiv-City)
+
+(isa CityFootprint-FC-City-Nemaska CityFootprint)
+
+(footprintOf FC-City-Nemaska CityFootprint-FC-City-Nemaska)
+
+(numTurnsToBuild FC-City-Nemaska (Turns 6))
+
+(numTurnsToGrow FC-City-Nemaska (Turns 36))
+
+(cityGrowthRate FC-City-Nemaska (Percent 1))
+
+(cityOwner FC-City-Nemaska FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Nemaska FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Nemaska FC-Building-Barracks)
+
+(citySize FC-City-Nemaska (FreecivCitizenCountFn 3))
+
+(isa FC-City-Nemaska FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nemaska) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nemaska) Some))
+
+(isa CityFootprint-FC-City-Waskaganish CityFootprint)
+
+(footprintOf FC-City-Waskaganish CityFootprint-FC-City-Waskaganish)
+
+(numTurnsToBuild FC-City-Waskaganish (Turns 3))
+
+(numTurnsToGrow FC-City-Waskaganish (Turns 15))
+
+(cityGrowthRate FC-City-Waskaganish (Percent 1))
+
+(cityOwner FC-City-Waskaganish FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Waskaganish FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Waskaganish FC-Building-Barracks)
+
+(citySize FC-City-Waskaganish (FreecivCitizenCountFn 3))
+
+(isa FC-City-Waskaganish FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Waskaganish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Waskaganish) Some))
+
+(isa CityFootprint-FC-City-København CityFootprint)
+
+(footprintOf FC-City-København CityFootprint-FC-City-København)
+
+(cityOwner FC-City-København FC-Player-ErikGlipping)
+
+(cityHasImprovement FC-City-København FC-Building-CityWalls)
+
+(citySize FC-City-København (FreecivCitizenCountFn 3))
+
+(citySize FC-City-København (FreecivCitizenCountFn 2))
+
+(citySize FC-City-København (FreecivCitizenCountFn 1))
+
+(isa FC-City-København FreeCiv-City)
+
+(isa CityFootprint-FC-City-Thessaloniki CityFootprint)
+
+(footprintOf FC-City-Thessaloniki CityFootprint-FC-City-Thessaloniki)
+
+(cityOwner FC-City-Thessaloniki FC-Player-MichaelVIIIPalaeologus)
+
+(cityHasImprovement FC-City-Thessaloniki FC-Building-CityWalls)
+
+(citySize FC-City-Thessaloniki (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Thessaloniki (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Thessaloniki (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Thessaloniki (FreecivCitizenCountFn 1))
+
+(isa FC-City-Thessaloniki FreeCiv-City)
+
+(isa CityFootprint-FC-City-Maribor CityFootprint)
+
+(footprintOf FC-City-Maribor CityFootprint-FC-City-Maribor)
+
+(cityOwner FC-City-Maribor FC-Player-Valuka)
+
+(citySize FC-City-Maribor (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Maribor (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Maribor (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Maribor (FreecivCitizenCountFn 1))
+
+(isa FC-City-Maribor FreeCiv-City)
+
+(isa CityFootprint-FC-City-Whapmagoostui CityFootprint)
+
+(footprintOf FC-City-Whapmagoostui CityFootprint-FC-City-Whapmagoostui)
+
+(numTurnsToBuild FC-City-Whapmagoostui (Turns 1))
+
+(numTurnsToGrow FC-City-Whapmagoostui (Turns 9))
+
+(cityGrowthRate FC-City-Whapmagoostui (Percent 1))
+
+(cityOwner FC-City-Whapmagoostui FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Whapmagoostui FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Whapmagoostui FC-Building-Barracks)
+
+(citySize FC-City-Whapmagoostui (FreecivCitizenCountFn 4))
+
+(isa FC-City-Whapmagoostui FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Whapmagoostui) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Whapmagoostui) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Whapmagoostui) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Whapmagoostui) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Whapmagoostui) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Whapmagoostui) Some))
+
+(isa CityFootprint-FC-City-Ljubljana CityFootprint)
+
+(footprintOf FC-City-Ljubljana CityFootprint-FC-City-Ljubljana)
+
+(cityOwner FC-City-Ljubljana FC-Player-Valuka)
+
+(cityHasImprovement FC-City-Ljubljana FC-Building-CityWalls)
+
+(citySize FC-City-Ljubljana (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Ljubljana (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Ljubljana (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Ljubljana (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ljubljana FreeCiv-City)
+
+(isa CityFootprint-FC-City-Dyrrachio CityFootprint)
+
+(footprintOf FC-City-Dyrrachio CityFootprint-FC-City-Dyrrachio)
+
+(cityOwner FC-City-Dyrrachio FC-Player-MichaelVIIIPalaeologus)
+
+(cityHasImprovement FC-City-Dyrrachio FC-Building-CityWalls)
+
+(citySize FC-City-Dyrrachio (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Dyrrachio (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Dyrrachio (FreecivCitizenCountFn 1))
+
+(isa FC-City-Dyrrachio FreeCiv-City)
+
+(isa CityFootprint-FC-City-Celje CityFootprint)
+
+(footprintOf FC-City-Celje CityFootprint-FC-City-Celje)
+
+(cityOwner FC-City-Celje FC-Player-Valuka)
+
+(cityHasImprovement FC-City-Celje FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Celje FC-Building-Palace)
+
+(citySize FC-City-Celje (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Celje (FreecivCitizenCountFn 1))
+
+(isa FC-City-Celje FreeCiv-City)
+
+(isa CityFootprint-FC-City-Odense CityFootprint)
+
+(footprintOf FC-City-Odense CityFootprint-FC-City-Odense)
+
+(cityOwner FC-City-Odense FC-Player-ErikGlipping)
+
+(citySize FC-City-Odense (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Odense (FreecivCitizenCountFn 1))
+
+(isa FC-City-Odense FreeCiv-City)
+
+(isa CityFootprint-FC-City-Aalborg CityFootprint)
+
+(footprintOf FC-City-Aalborg CityFootprint-FC-City-Aalborg)
+
+(cityOwner FC-City-Aalborg FC-Player-ErikGlipping)
+
+(cityHasImprovement FC-City-Aalborg FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Aalborg FC-Building-Palace)
+
+(citySize FC-City-Aalborg (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Aalborg (FreecivCitizenCountFn 1))
+
+(isa FC-City-Aalborg FreeCiv-City)
+
+(isa CityFootprint-FC-City-Konstantinoupolis CityFootprint)
+
+(footprintOf FC-City-Konstantinoupolis CityFootprint-FC-City-Konstantinoupolis)
+
+(cityOwner FC-City-Konstantinoupolis FC-Player-MichaelVIIIPalaeologus)
+
+(cityHasImprovement FC-City-Konstantinoupolis FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Konstantinoupolis FC-Building-Palace)
+
+(citySize FC-City-Konstantinoupolis (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Konstantinoupolis (FreecivCitizenCountFn 1))
+
+(isa FC-City-Konstantinoupolis FreeCiv-City)
+
+(isa CityFootprint-FC-City-Chisasibi CityFootprint)
+
+(footprintOf FC-City-Chisasibi CityFootprint-FC-City-Chisasibi)
+
+(numTurnsToBuild FC-City-Chisasibi (Turns 111))
+
+(numTurnsToGrow FC-City-Chisasibi (Turns 20))
+
+(cityGrowthRate FC-City-Chisasibi (Percent 1))
+
+(cityOwner FC-City-Chisasibi FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Palace)
+
+(citySize FC-City-Chisasibi (FreecivCitizenCountFn 3))
+
+(isa FC-City-Chisasibi FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chisasibi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chisasibi) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chisasibi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chisasibi) Some))
+
+(isa ContinentBlob-58398 FreeCiv-TerrainBlob-Water)

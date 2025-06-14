@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 78) (currentlyBuilding FC-City-Monterrey FC-Unit-Settlers)), dumped 7/29/2022 11:37:21 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 78) (currentlyBuilding FC-City-Monterrey FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-Monterrey (Turns 20))
+
+(numTurnsToGrow FC-City-Monterrey (Turns 10))
+
+(cityGrowthRate FC-City-Monterrey (Percent 10))
+
+(cityOwner FC-City-Monterrey FC-Player-BenitoJuárez)
+
+(citySize FC-City-Monterrey (FreecivCitizenCountFn 1))
+
+(isa FC-City-Monterrey FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 78))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

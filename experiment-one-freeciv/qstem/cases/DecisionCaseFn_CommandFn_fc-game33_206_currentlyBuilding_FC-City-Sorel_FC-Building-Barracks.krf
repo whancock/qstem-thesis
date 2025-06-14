@@ -1,0 +1,88 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 206) (currentlyBuilding FC-City-Sorel FC-Building-Barracks)), dumped 8/10/2022 19:25:41 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 206) (currentlyBuilding FC-City-Sorel FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Sorel CityFootprint)
+
+(footprintOf FC-City-Sorel CityFootprint-FC-City-Sorel)
+
+(numTurnsToBuild FC-City-Sorel (Turns 10))
+
+(numTurnsToGrow FC-City-Sorel (Turns 6))
+
+(cityGrowthRate FC-City-Sorel (Percent 10))
+
+(cityOwner FC-City-Sorel FC-Player-RenéLévesque)
+
+(citySize FC-City-Sorel (FreecivCitizenCountFn 1))
+
+(isa FC-City-Sorel FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Sorel) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Sorel) Some))
+
+(rcc8-PO CityFootprint-FC-City-Sorel ContinentBlob-7654)
+
+(rcc8-NTPP CityFootprint-FC-City-Sorel ContinentBlob-7652)
+
+(rcc8-PO CityFootprint-FC-City-Sorel CityFootprint-FC-City-Montréal)
+
+(rcc8-PO CityFootprint-FC-City-Sorel CityFootprint-FC-City-Lévis)
+
+(rcc8-TPP CityFootprint-FC-City-Sorel TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 105))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-RenéLévesque) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Lévis CityFootprint)
+
+(footprintOf FC-City-Lévis CityFootprint-FC-City-Lévis)
+
+(numTurnsToBuild FC-City-Lévis (Turns 9))
+
+(numTurnsToGrow FC-City-Lévis (Turns 5))
+
+(cityGrowthRate FC-City-Lévis (Percent 10))
+
+(cityOwner FC-City-Lévis FC-Player-RenéLévesque)
+
+(citySize FC-City-Lévis (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lévis FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lévis) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lévis) Some))
+
+(isa CityFootprint-FC-City-Montréal CityFootprint)
+
+(footprintOf FC-City-Montréal CityFootprint-FC-City-Montréal)
+
+(numTurnsToBuild FC-City-Montréal (Turns 143))
+
+(numTurnsToGrow FC-City-Montréal (Turns 11))
+
+(cityGrowthRate FC-City-Montréal (Percent 3))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 2))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Montréal) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Montréal) Some))
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)

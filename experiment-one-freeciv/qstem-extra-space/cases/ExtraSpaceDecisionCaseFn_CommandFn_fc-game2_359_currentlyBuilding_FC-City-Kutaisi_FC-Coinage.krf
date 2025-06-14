@@ -1,0 +1,438 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game2 359) (currentlyBuilding FC-City-Kutaisi FC-Coinage)), dumped 9/1/2022 15:55:1 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game2 359) (currentlyBuilding FC-City-Kutaisi FC-Coinage)))
+(rcc8-NTPP ContinentBlob-1918 ContinentBlob-1915)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Kutaisi)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Zulia)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Ihuatzio)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Caracas)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Sokhumi)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Falcón)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Batumi)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Poti)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Lara)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Tingambato)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Tzintzuntzan)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Yaracuy)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Akhalkalaki)
+
+(rcc8-PO ContinentBlob-1918 CityFootprint-FC-City-Mérida)
+
+(rcc8-TPPi ContinentBlob-1918 UnitFootprint-Unit-158)
+
+(rcc8-PO ContinentBlob-1918 UnitFootprint-Unit-159)
+
+(rcc8-PO ContinentBlob-1918 UnitFootprint-Unit-182)
+
+(rcc8-PO ContinentBlob-1918 TerritoryBlob-0)
+
+(rcc8-PO ContinentBlob-1918 TerritoryBlob-4)
+
+(rcc8-PO ContinentBlob-1918 TerritoryBlob-1)
+
+(rcc8-TPPi ContinentBlob-1918 TerritoryBlob-2745)
+
+(rcc8-TPPi ContinentBlob-1918 TerritoryBlob-3904)
+
+(rcc8-TPPi ContinentBlob-1918 TerritoryBlob-3901)
+
+(rcc8-PO CityFootprint-FC-City-Kutaisi ContinentBlob-1918)
+
+(rcc8-EC ContinentBlob-1915 ContinentBlob-1920)
+
+(rcc8-EC ContinentBlob-1915 ContinentBlob-1919)
+
+(rcc8-NTPPi ContinentBlob-1915 ContinentBlob-1918)
+
+(rcc8-EC ContinentBlob-1915 ContinentBlob-1917)
+
+(rcc8-EC ContinentBlob-1915 ContinentBlob-1916)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Kutaisi)
+
+(rcc8-TPPi ContinentBlob-1915 CityFootprint-FC-City-Zulia)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Ihuatzio)
+
+(rcc8-PO ContinentBlob-1915 CityFootprint-FC-City-Caracas)
+
+(rcc8-TPPi ContinentBlob-1915 CityFootprint-FC-City-Sokhumi)
+
+(rcc8-TPPi ContinentBlob-1915 CityFootprint-FC-City-Falcón)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Batumi)
+
+(rcc8-TPPi ContinentBlob-1915 CityFootprint-FC-City-Poti)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Lara)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Tingambato)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Tzintzuntzan)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Yaracuy)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Akhalkalaki)
+
+(rcc8-NTPPi ContinentBlob-1915 CityFootprint-FC-City-Mérida)
+
+(rcc8-NTPPi ContinentBlob-1915 UnitFootprint-Unit-158)
+
+(rcc8-NTPPi ContinentBlob-1915 UnitFootprint-Unit-159)
+
+(rcc8-NTPPi ContinentBlob-1915 UnitFootprint-Unit-182)
+
+(rcc8-EC ContinentBlob-1915 TerritoryBlob-1925)
+
+(rcc8-EC ContinentBlob-1915 TerritoryBlob-1923)
+
+(rcc8-NTPPi ContinentBlob-1915 TerritoryBlob-0)
+
+(rcc8-TPPi ContinentBlob-1915 TerritoryBlob-4)
+
+(rcc8-NTPPi ContinentBlob-1915 TerritoryBlob-1)
+
+(rcc8-NTPPi ContinentBlob-1915 TerritoryBlob-2745)
+
+(rcc8-NTPPi ContinentBlob-1915 TerritoryBlob-3904)
+
+(rcc8-NTPPi ContinentBlob-1915 TerritoryBlob-3901)
+
+(rcc8-EC ContinentBlob-1915 TerritoryBlob-3900)
+
+(rcc8-EC ContinentBlob-1915 TerritoryBlob-3905)
+
+(rcc8-EC ContinentBlob-1915 TerritoryBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Kutaisi ContinentBlob-1915)
+
+(rcc8-PO CityFootprint-FC-City-Sokhumi ContinentBlob-1918)
+
+(rcc8-TPP CityFootprint-FC-City-Sokhumi ContinentBlob-1915)
+
+(rcc8-PO CityFootprint-FC-City-Sokhumi CityFootprint-FC-City-Kutaisi)
+
+(rcc8-PO CityFootprint-FC-City-Sokhumi TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Kutaisi CityFootprint-FC-City-Sokhumi)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-1918)
+
+(rcc8-NTPP TerritoryBlob-0 ContinentBlob-1915)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Kutaisi)
+
+(rcc8-PO TerritoryBlob-0 CityFootprint-FC-City-Sokhumi)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Batumi)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Poti)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Akhalkalaki)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-3901)
+
+(rcc8-TPP CityFootprint-FC-City-Kutaisi TerritoryBlob-0)
+
+(isa TerritoryBlob-3906 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-3905 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-3900 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1923 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1925 NationalTerritoryFootprint)
+
+(isa ContinentBlob-1916 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-1917 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-1919 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-1920 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-1918 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-3901 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-3904 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-2745 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Hiripan TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Hiripan (GoldPoints 0))
+
+(currentGovernment FC-Player-Hiripan FC-Anarchy)
+
+(isa FC-Player-Hiripan FreeCiv-Player)
+
+(isa TerritoryBlob-4 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-AmbrosioAlfinger TerritoryBlob-4)
+
+(isa TerritoryBlob-4 NationalTerritoryFootprint)
+
+(currentGold FC-Player-AmbrosioAlfinger (GoldPoints 0))
+
+(currentGovernment FC-Player-AmbrosioAlfinger FC-Anarchy)
+
+(isa FC-Player-AmbrosioAlfinger FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 100))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-182 UnitFootprint)
+
+(isa UnitFootprint-Unit-159 UnitFootprint)
+
+(isa UnitFootprint-Unit-158 UnitFootprint)
+
+(isa CityFootprint-FC-City-Mérida CityFootprint)
+
+(footprintOf FC-City-Mérida CityFootprint-FC-City-Mérida)
+
+(cityOwner FC-City-Mérida FC-Player-AmbrosioAlfinger)
+
+(citySize FC-City-Mérida (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mérida FreeCiv-City)
+
+(isa CityFootprint-FC-City-Akhalkalaki CityFootprint)
+
+(footprintOf FC-City-Akhalkalaki CityFootprint-FC-City-Akhalkalaki)
+
+(numTurnsToBuild FC-City-Akhalkalaki (Turns 2))
+
+(numTurnsToGrow FC-City-Akhalkalaki (Turns 14))
+
+(cityGrowthRate FC-City-Akhalkalaki (Percent 3))
+
+(cityOwner FC-City-Akhalkalaki FC-Player-GiorgiIII)
+
+(citySize FC-City-Akhalkalaki (FreecivCitizenCountFn 2))
+
+(isa FC-City-Akhalkalaki FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Akhalkalaki) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Akhalkalaki) Some))
+
+(isa CityFootprint-FC-City-Yaracuy CityFootprint)
+
+(footprintOf FC-City-Yaracuy CityFootprint-FC-City-Yaracuy)
+
+(cityOwner FC-City-Yaracuy FC-Player-AmbrosioAlfinger)
+
+(citySize FC-City-Yaracuy (FreecivCitizenCountFn 1))
+
+(isa FC-City-Yaracuy FreeCiv-City)
+
+(isa CityFootprint-FC-City-Tzintzuntzan CityFootprint)
+
+(footprintOf FC-City-Tzintzuntzan CityFootprint-FC-City-Tzintzuntzan)
+
+(cityOwner FC-City-Tzintzuntzan FC-Player-Hiripan)
+
+(citySize FC-City-Tzintzuntzan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Tzintzuntzan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Tingambato CityFootprint)
+
+(footprintOf FC-City-Tingambato CityFootprint-FC-City-Tingambato)
+
+(cityOwner FC-City-Tingambato FC-Player-AmbrosioAlfinger)
+
+(cityOwner FC-City-Tingambato FC-Player-Hiripan)
+
+(cityHasImprovement FC-City-Tingambato FC-Building-Palace)
+
+(citySize FC-City-Tingambato (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Tingambato (FreecivCitizenCountFn 1))
+
+(isa FC-City-Tingambato FreeCiv-City)
+
+(isa CityFootprint-FC-City-Lara CityFootprint)
+
+(footprintOf FC-City-Lara CityFootprint-FC-City-Lara)
+
+(cityOwner FC-City-Lara FC-Player-AmbrosioAlfinger)
+
+(citySize FC-City-Lara (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Lara (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lara FreeCiv-City)
+
+(isa CityFootprint-FC-City-Poti CityFootprint)
+
+(footprintOf FC-City-Poti CityFootprint-FC-City-Poti)
+
+(numTurnsToBuild FC-City-Poti (Turns 5))
+
+(numTurnsToGrow FC-City-Poti (Turns 11))
+
+(cityGrowthRate FC-City-Poti (Percent 5))
+
+(cityOwner FC-City-Poti FC-Player-GiorgiIII)
+
+(citySize FC-City-Poti (FreecivCitizenCountFn 1))
+
+(isa FC-City-Poti FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Poti) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Poti) Some))
+
+(isa CityFootprint-FC-City-Batumi CityFootprint)
+
+(footprintOf FC-City-Batumi CityFootprint-FC-City-Batumi)
+
+(numTurnsToBuild FC-City-Batumi (Turns 4))
+
+(numTurnsToGrow FC-City-Batumi (Turns 4))
+
+(cityGrowthRate FC-City-Batumi (Percent 10))
+
+(cityOwner FC-City-Batumi FC-Player-GiorgiIII)
+
+(citySize FC-City-Batumi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Batumi FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Batumi) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Batumi) Some))
+
+(isa CityFootprint-FC-City-Falcón CityFootprint)
+
+(footprintOf FC-City-Falcón CityFootprint-FC-City-Falcón)
+
+(cityOwner FC-City-Falcón FC-Player-AmbrosioAlfinger)
+
+(citySize FC-City-Falcón (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Falcón (FreecivCitizenCountFn 1))
+
+(isa FC-City-Falcón FreeCiv-City)
+
+(isa CityFootprint-FC-City-Sokhumi CityFootprint)
+
+(footprintOf FC-City-Sokhumi CityFootprint-FC-City-Sokhumi)
+
+(numTurnsToBuild FC-City-Sokhumi (Turns 8))
+
+(numTurnsToGrow FC-City-Sokhumi (Turns 37))
+
+(cityGrowthRate FC-City-Sokhumi (Percent 1))
+
+(cityOwner FC-City-Sokhumi FC-Player-GiorgiIII)
+
+(citySize FC-City-Sokhumi (FreecivCitizenCountFn 3))
+
+(isa FC-City-Sokhumi FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Sokhumi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Sokhumi) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Sokhumi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Sokhumi) Some))
+
+(isa CityFootprint-FC-City-Caracas CityFootprint)
+
+(footprintOf FC-City-Caracas CityFootprint-FC-City-Caracas)
+
+(cityOwner FC-City-Caracas FC-Player-AmbrosioAlfinger)
+
+(cityHasImprovement FC-City-Caracas FC-Building-CityWalls)
+
+(citySize FC-City-Caracas (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Caracas (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Caracas (FreecivCitizenCountFn 1))
+
+(isa FC-City-Caracas FreeCiv-City)
+
+(isa CityFootprint-FC-City-Ihuatzio CityFootprint)
+
+(footprintOf FC-City-Ihuatzio CityFootprint-FC-City-Ihuatzio)
+
+(cityOwner FC-City-Ihuatzio FC-Player-Hiripan)
+
+(cityHasImprovement FC-City-Ihuatzio FC-Building-Palace)
+
+(cityHasImprovement FC-City-Ihuatzio FC-Building-CityWalls)
+
+(citySize FC-City-Ihuatzio (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Ihuatzio (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Ihuatzio (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ihuatzio FreeCiv-City)
+
+(isa CityFootprint-FC-City-Zulia CityFootprint)
+
+(footprintOf FC-City-Zulia CityFootprint-FC-City-Zulia)
+
+(cityOwner FC-City-Zulia FC-Player-AmbrosioAlfinger)
+
+(cityHasImprovement FC-City-Zulia FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Zulia FC-Building-Palace)
+
+(citySize FC-City-Zulia (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Zulia (FreecivCitizenCountFn 1))
+
+(isa FC-City-Zulia FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kutaisi CityFootprint)
+
+(footprintOf FC-City-Kutaisi CityFootprint-FC-City-Kutaisi)
+
+(numTurnsToBuild FC-City-Kutaisi (Turns 187))
+
+(numTurnsToGrow FC-City-Kutaisi (Turns 8))
+
+(cityGrowthRate FC-City-Kutaisi (Percent 10))
+
+(cityOwner FC-City-Kutaisi FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-Palace)
+
+(citySize FC-City-Kutaisi (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kutaisi FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kutaisi) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kutaisi) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kutaisi) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kutaisi) Some))
+
+(isa ContinentBlob-1915 FreeCiv-TerrainBlob-Water)

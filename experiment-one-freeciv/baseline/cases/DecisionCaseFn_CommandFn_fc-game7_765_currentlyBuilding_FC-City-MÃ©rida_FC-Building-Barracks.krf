@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 765) (currentlyBuilding FC-City-Mérida FC-Building-Barracks)), dumped 7/29/2022 11:43:45 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 765) (currentlyBuilding FC-City-Mérida FC-Building-Barracks)))
+(numTurnsToBuild FC-City-Mérida (Turns 15))
+
+(numTurnsToGrow FC-City-Mérida (Turns 5))
+
+(cityGrowthRate FC-City-Mérida (Percent 10))
+
+(cityOwner FC-City-Mérida FC-Player-BenitoJuárez)
+
+(citySize FC-City-Mérida (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mérida FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 939))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

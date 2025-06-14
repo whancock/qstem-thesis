@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 540) (currentlyBuilding FC-City-Semna FC-Unit-Warriors)), dumped 7/29/2022 11:51:13 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 540) (currentlyBuilding FC-City-Semna FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Semna (Turns 1))
+
+(numTurnsToGrow FC-City-Semna (Turns 16))
+
+(cityGrowthRate FC-City-Semna (Percent 5))
+
+(cityOwner FC-City-Semna FC-Player-Amanishakheto)
+
+(citySize FC-City-Semna (FreecivCitizenCountFn 1))
+
+(isa FC-City-Semna FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 26))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

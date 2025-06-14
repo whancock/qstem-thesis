@@ -1,0 +1,70 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game29 739) (currentlyBuilding FC-City-Meroë FC-Unit-Archers)), dumped 8/10/2022 18:5:12 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game29 739) (currentlyBuilding FC-City-Meroë FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Meroë CityFootprint)
+
+(footprintOf FC-City-Meroë CityFootprint-FC-City-Meroë)
+
+(numTurnsToBuild FC-City-Meroë (Turns 6))
+
+(numTurnsToGrow FC-City-Meroë (Turns 9))
+
+(cityGrowthRate FC-City-Meroë (Percent 2))
+
+(cityOwner FC-City-Meroë FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Meroë FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Meroë FC-Building-Palace)
+
+(citySize FC-City-Meroë (FreecivCitizenCountFn 3))
+
+(isa FC-City-Meroë FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Meroë ContinentBlob-3906)
+
+(rcc8-NTPP CityFootprint-FC-City-Meroë ContinentBlob-3905)
+
+(rcc8-PO CityFootprint-FC-City-Meroë CityFootprint-FC-City-Napata)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-197)
+
+(rcc8-TPP CityFootprint-FC-City-Meroë TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 30))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa CityFootprint-FC-City-Napata CityFootprint)
+
+(footprintOf FC-City-Napata CityFootprint-FC-City-Napata)
+
+(numTurnsToBuild FC-City-Napata (Turns 13))
+
+(numTurnsToGrow FC-City-Napata (Turns 7))
+
+(cityGrowthRate FC-City-Napata (Percent 2))
+
+(cityOwner FC-City-Napata FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Napata FC-Building-Barracks)
+
+(citySize FC-City-Napata (FreecivCitizenCountFn 2))
+
+(isa FC-City-Napata FreeCiv-City)
+
+(isa ContinentBlob-3905 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-3906 FreeCiv-TerrainBlob-Land)

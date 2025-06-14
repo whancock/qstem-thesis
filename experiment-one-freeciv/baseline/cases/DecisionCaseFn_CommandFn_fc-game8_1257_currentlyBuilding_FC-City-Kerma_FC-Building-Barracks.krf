@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game8 1257) (currentlyBuilding FC-City-Kerma FC-Building-Barracks)), dumped 7/29/2022 12:0:17 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game8 1257) (currentlyBuilding FC-City-Kerma FC-Building-Barracks)))
+(numTurnsToBuild FC-City-Kerma (Turns 7))
+
+(numTurnsToGrow FC-City-Kerma (Turns 18))
+
+(cityGrowthRate FC-City-Kerma (Percent 2))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Kerma FC-Building-CityWalls)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 122))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)

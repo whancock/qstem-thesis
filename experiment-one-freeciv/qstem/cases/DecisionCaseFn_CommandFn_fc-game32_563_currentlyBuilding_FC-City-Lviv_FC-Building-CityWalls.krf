@@ -1,0 +1,168 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game32 563) (currentlyBuilding FC-City-Lviv FC-Building-CityWalls)), dumped 8/10/2022 19:19:17 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game32 563) (currentlyBuilding FC-City-Lviv FC-Building-CityWalls)))
+(isa CityFootprint-FC-City-Lviv CityFootprint)
+
+(footprintOf FC-City-Lviv CityFootprint-FC-City-Lviv)
+
+(numTurnsToBuild FC-City-Lviv (Turns 20))
+
+(numTurnsToGrow FC-City-Lviv (Turns 40))
+
+(cityGrowthRate FC-City-Lviv (Percent 1))
+
+(cityOwner FC-City-Lviv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Lviv FC-Building-Barracks)
+
+(citySize FC-City-Lviv (FreecivCitizenCountFn 3))
+
+(isa FC-City-Lviv FreeCiv-City)
+
+(aia-MI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lviv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lviv) Some))
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lviv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lviv) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Lviv) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Lviv) Some))
+
+(rcc8-PO CityFootprint-FC-City-Lviv ContinentBlob-7302)
+
+(rcc8-NTPP CityFootprint-FC-City-Lviv ContinentBlob-7300)
+
+(rcc8-PO CityFootprint-FC-City-Lviv CityFootprint-FC-City-Zhytomyr)
+
+(rcc8-PO CityFootprint-FC-City-Lviv CityFootprint-FC-City-Multan)
+
+(rcc8-TPP CityFootprint-FC-City-Lviv TerritoryBlob-0)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-148)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-147)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-153)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-160)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-161)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-164)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-174)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-212)
+
+(rcc8-NTPPi TerritoryBlob-1 UnitFootprint-Unit-214)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-175)
+
+(rcc8-TPPi TerritoryBlob-1 UnitFootprint-Unit-254)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-180)
+
+(rcc8-PO TerritoryBlob-1 UnitFootprint-Unit-327)
+
+(rcc8-PO CityFootprint-FC-City-Lviv TerritoryBlob-1)
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-MuhammadZia-ul-Haq TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-MuhammadZia-ul-Haq (GoldPoints 0))
+
+(currentGovernment FC-Player-MuhammadZia-ul-Haq FC-Anarchy)
+
+(isa FC-Player-MuhammadZia-ul-Haq FreeCiv-Player)
+
+(isa UnitFootprint-Unit-327 UnitFootprint)
+
+(isa UnitFootprint-Unit-180 UnitFootprint)
+
+(isa UnitFootprint-Unit-254 UnitFootprint)
+
+(isa UnitFootprint-Unit-175 UnitFootprint)
+
+(isa UnitFootprint-Unit-214 UnitFootprint)
+
+(isa UnitFootprint-Unit-212 UnitFootprint)
+
+(isa UnitFootprint-Unit-174 UnitFootprint)
+
+(isa UnitFootprint-Unit-164 UnitFootprint)
+
+(isa UnitFootprint-Unit-161 UnitFootprint)
+
+(isa UnitFootprint-Unit-160 UnitFootprint)
+
+(isa UnitFootprint-Unit-153 UnitFootprint)
+
+(isa UnitFootprint-Unit-147 UnitFootprint)
+
+(isa UnitFootprint-Unit-148 UnitFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-SimonPetlura TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 450))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-SimonPetlura) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Multan CityFootprint)
+
+(footprintOf FC-City-Multan CityFootprint-FC-City-Multan)
+
+(cityOwner FC-City-Multan FC-Player-MuhammadZia-ul-Haq)
+
+(citySize FC-City-Multan (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Multan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Multan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Zhytomyr CityFootprint)
+
+(footprintOf FC-City-Zhytomyr CityFootprint-FC-City-Zhytomyr)
+
+(numTurnsToBuild FC-City-Zhytomyr (Turns 200))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 47))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 0))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-Barracks)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 4))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Zhytomyr) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Zhytomyr) Some))
+
+(isa ContinentBlob-7300 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7302 FreeCiv-TerrainBlob-Land)

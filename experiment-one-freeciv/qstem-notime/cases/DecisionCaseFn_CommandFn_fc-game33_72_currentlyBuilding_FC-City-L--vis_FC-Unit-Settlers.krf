@@ -1,0 +1,72 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game33 72) (currentlyBuilding FC-City-Lévis FC-Unit-Settlers)), dumped 8/10/2022 19:21:57 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game33 72) (currentlyBuilding FC-City-Lévis FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-Lévis CityFootprint)
+
+(footprintOf FC-City-Lévis CityFootprint-FC-City-Lévis)
+
+(numTurnsToBuild FC-City-Lévis (Turns 13))
+
+(numTurnsToGrow FC-City-Lévis (Turns 9))
+
+(cityGrowthRate FC-City-Lévis (Percent 10))
+
+(cityOwner FC-City-Lévis FC-Player-RenéLévesque)
+
+(citySize FC-City-Lévis (FreecivCitizenCountFn 1))
+
+(isa FC-City-Lévis FreeCiv-City)
+
+(rcc8-EC CityFootprint-FC-City-Lévis ContinentBlob-7658)
+
+(rcc8-PO CityFootprint-FC-City-Lévis ContinentBlob-7654)
+
+(rcc8-TPP CityFootprint-FC-City-Lévis ContinentBlob-7652)
+
+(rcc8-PO CityFootprint-FC-City-Lévis CityFootprint-FC-City-Montréal)
+
+(rcc8-TPP CityFootprint-FC-City-Lévis TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Lévis TerritoryBlob-7729)
+
+(rcc8-EC CityFootprint-FC-City-Lévis TerritoryBlob-7728)
+
+(isa TerritoryBlob-7728 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-7729 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-RenéLévesque TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 63))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Montréal CityFootprint)
+
+(footprintOf FC-City-Montréal CityFootprint-FC-City-Montréal)
+
+(numTurnsToBuild FC-City-Montréal (Turns 11))
+
+(numTurnsToGrow FC-City-Montréal (Turns 3))
+
+(cityGrowthRate FC-City-Montréal (Percent 15))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 1))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(isa ContinentBlob-7652 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-7654 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-7658 FreeCiv-TerrainBlob-Land)

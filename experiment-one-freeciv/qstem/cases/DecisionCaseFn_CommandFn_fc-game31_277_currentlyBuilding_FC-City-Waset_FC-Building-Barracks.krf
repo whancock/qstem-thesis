@@ -1,0 +1,74 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game31 277) (currentlyBuilding FC-City-Waset FC-Building-Barracks)), dumped 8/10/2022 19:0:24 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game31 277) (currentlyBuilding FC-City-Waset FC-Building-Barracks)))
+(isa CityFootprint-FC-City-Waset CityFootprint)
+
+(footprintOf FC-City-Waset CityFootprint-FC-City-Waset)
+
+(numTurnsToBuild FC-City-Waset (Turns 5))
+
+(numTurnsToGrow FC-City-Waset (Turns 13))
+
+(cityGrowthRate FC-City-Waset (Percent 3))
+
+(cityOwner FC-City-Waset FC-Player-Tutankhamun)
+
+(cityHasImprovement FC-City-Waset FC-Building-Palace)
+
+(citySize FC-City-Waset (FreecivCitizenCountFn 2))
+
+(isa FC-City-Waset FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Waset) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Waset) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Waset) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Waset) Some))
+
+(rcc8-PO CityFootprint-FC-City-Waset ContinentBlob-6789)
+
+(rcc8-PO CityFootprint-FC-City-Waset ContinentBlob-6788)
+
+(rcc8-EC CityFootprint-FC-City-Waset CityFootprint-FC-City-Suentet)
+
+(rcc8-EQ CityFootprint-FC-City-Waset TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Waset TerritoryBlob-7172)
+
+(isa TerritoryBlob-7172 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Tutankhamun TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Tutankhamun (GoldPoints 89))
+
+(currentGovernment FC-Player-Tutankhamun FC-Despotism)
+
+(isa FC-Player-Tutankhamun FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Tutankhamun) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Tutankhamun) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Suentet CityFootprint)
+
+(footprintOf FC-City-Suentet CityFootprint-FC-City-Suentet)
+
+(numTurnsToBuild FC-City-Suentet (Turns 8))
+
+(numTurnsToGrow FC-City-Suentet (Turns 22))
+
+(cityGrowthRate FC-City-Suentet (Percent 2))
+
+(cityOwner FC-City-Suentet FC-Player-Tutankhamun)
+
+(citySize FC-City-Suentet (FreecivCitizenCountFn 2))
+
+(isa FC-City-Suentet FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Suentet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Suentet) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Suentet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Suentet) Some))
+
+(isa ContinentBlob-6788 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6789 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game9 591) (currentlyBuilding FC-City-Mopet FC-Coinage)), dumped 7/29/2022 12:12:48 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game9 591) (currentlyBuilding FC-City-Mopet FC-Coinage)))
+(numTurnsToBuild FC-City-Mopet (Turns 333))
+
+(numTurnsToGrow FC-City-Mopet (Turns 3))
+
+(cityGrowthRate FC-City-Mopet (Percent 1))
+
+(cityOwner FC-City-Mopet FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Mopet FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Mopet FC-Building-Barracks)
+
+(citySize FC-City-Mopet (FreecivCitizenCountFn 4))
+
+(isa FC-City-Mopet FreeCiv-City)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 254))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)

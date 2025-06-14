@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game14 362) (currentlyBuilding FC-City-Waskaganish FC-Building-CityWalls)), dumped 7/29/2022 13:0:6 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game14 362) (currentlyBuilding FC-City-Waskaganish FC-Building-CityWalls)))
+(numTurnsToBuild FC-City-Waskaganish (Turns 30))
+
+(numTurnsToGrow FC-City-Waskaganish (Turns 1))
+
+(cityGrowthRate FC-City-Waskaganish (Percent 3))
+
+(cityOwner FC-City-Waskaganish FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Waskaganish FC-Building-Barracks)
+
+(citySize FC-City-Waskaganish (FreecivCitizenCountFn 2))
+
+(isa FC-City-Waskaganish FreeCiv-City)
+
+(currentGold FC-Player-Awashish (GoldPoints 90))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)

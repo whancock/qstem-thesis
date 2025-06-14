@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game11 419) (currentlyBuilding FC-City-Zhytomyr FC-Coinage)), dumped 7/29/2022 12:25:50 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game11 419) (currentlyBuilding FC-City-Zhytomyr FC-Coinage)))
+(numTurnsToBuild FC-City-Zhytomyr (Turns 200))
+
+(numTurnsToGrow FC-City-Zhytomyr (Turns 25))
+
+(cityGrowthRate FC-City-Zhytomyr (Percent 1))
+
+(cityOwner FC-City-Zhytomyr FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Zhytomyr FC-Building-Barracks)
+
+(citySize FC-City-Zhytomyr (FreecivCitizenCountFn 3))
+
+(isa FC-City-Zhytomyr FreeCiv-City)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 229))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)

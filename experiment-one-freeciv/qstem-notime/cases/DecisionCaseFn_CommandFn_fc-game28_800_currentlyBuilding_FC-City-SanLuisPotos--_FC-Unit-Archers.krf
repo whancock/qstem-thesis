@@ -1,0 +1,72 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 800) (currentlyBuilding FC-City-SanLuisPotosí FC-Unit-Archers)), dumped 8/10/2022 17:44:31 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 800) (currentlyBuilding FC-City-SanLuisPotosí FC-Unit-Archers)))
+(isa CityFootprint-FC-City-SanLuisPotosí CityFootprint)
+
+(footprintOf FC-City-SanLuisPotosí CityFootprint-FC-City-SanLuisPotosí)
+
+(numTurnsToBuild FC-City-SanLuisPotosí (Turns 6))
+
+(numTurnsToGrow FC-City-SanLuisPotosí (Turns 29))
+
+(cityGrowthRate FC-City-SanLuisPotosí (Percent 2))
+
+(cityOwner FC-City-SanLuisPotosí FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-SanLuisPotosí FC-Building-Barracks)
+
+(citySize FC-City-SanLuisPotosí (FreecivCitizenCountFn 2))
+
+(isa FC-City-SanLuisPotosí FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-SanLuisPotosí ContinentBlob-1422)
+
+(rcc8-PO CityFootprint-FC-City-SanLuisPotosí ContinentBlob-1421)
+
+(rcc8-PO CityFootprint-FC-City-SanLuisPotosí ContinentBlob-1420)
+
+(rcc8-EC CityFootprint-FC-City-SanLuisPotosí CityFootprint-FC-City-Keelung)
+
+(rcc8-EC CityFootprint-FC-City-SanLuisPotosí CityFootprint-FC-City-CuliacánRosales)
+
+(rcc8-EC CityFootprint-FC-City-SanLuisPotosí TerritoryBlob-3574)
+
+(isa TerritoryBlob-3574 NationalTerritoryFootprint)
+
+(isa CityFootprint-FC-City-CuliacánRosales CityFootprint)
+
+(footprintOf FC-City-CuliacánRosales CityFootprint-FC-City-CuliacánRosales)
+
+(numTurnsToBuild FC-City-CuliacánRosales (Turns 5))
+
+(numTurnsToGrow FC-City-CuliacánRosales (Turns 10))
+
+(cityGrowthRate FC-City-CuliacánRosales (Percent 3))
+
+(cityOwner FC-City-CuliacánRosales FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-CuliacánRosales FC-Building-Barracks)
+
+(citySize FC-City-CuliacánRosales (FreecivCitizenCountFn 2))
+
+(isa FC-City-CuliacánRosales FreeCiv-City)
+
+(isa CityFootprint-FC-City-Keelung CityFootprint)
+
+(footprintOf FC-City-Keelung CityFootprint-FC-City-Keelung)
+
+(cityOwner FC-City-Keelung FC-Player-ChiangKaiShek)
+
+(cityHasImprovement FC-City-Keelung FC-Building-CityWalls)
+
+(citySize FC-City-Keelung (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Keelung (FreecivCitizenCountFn 1))
+
+(isa FC-City-Keelung FreeCiv-City)
+
+(isa ContinentBlob-1420 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,46 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game34 46) (currentlyBuilding FC-City-LaHabana FC-Unit-Warriors)), dumped 8/10/2022 19:47:44 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game34 46) (currentlyBuilding FC-City-LaHabana FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-LaHabana CityFootprint)
+
+(footprintOf FC-City-LaHabana CityFootprint-FC-City-LaHabana)
+
+(numTurnsToBuild FC-City-LaHabana (Turns 2))
+
+(numTurnsToGrow FC-City-LaHabana (Turns 10))
+
+(cityGrowthRate FC-City-LaHabana (Percent 10))
+
+(cityOwner FC-City-LaHabana FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-LaHabana FC-Building-Palace)
+
+(citySize FC-City-LaHabana (FreecivCitizenCountFn 1))
+
+(isa FC-City-LaHabana FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-8146)
+
+(rcc8-PO CityFootprint-FC-City-LaHabana ContinentBlob-8145)
+
+(rcc8-EC CityFootprint-FC-City-LaHabana TerritoryBlob-8208)
+
+(rcc8-EQ CityFootprint-FC-City-LaHabana TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséMartí TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 50))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)
+
+(isa TerritoryBlob-8208 NationalTerritoryFootprint)
+
+(isa ContinentBlob-8145 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8146 FreeCiv-TerrainBlob-Land)

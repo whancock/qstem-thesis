@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game5 708) (currentlyBuilding FC-City-Salto FC-Coinage)), dumped 7/29/2022 11:26:2 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game5 708) (currentlyBuilding FC-City-Salto FC-Coinage)))
+(numTurnsToBuild FC-City-Salto (Turns 332))
+
+(numTurnsToGrow FC-City-Salto (Turns 24))
+
+(cityGrowthRate FC-City-Salto (Percent 1))
+
+(cityOwner FC-City-Salto FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-Salto FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Salto FC-Building-Barracks)
+
+(citySize FC-City-Salto (FreecivCitizenCountFn 3))
+
+(isa FC-City-Salto FreeCiv-City)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 246))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)

@@ -1,0 +1,68 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 656) (currentlyBuilding FC-City-CiudadDelEste FC-Coinage)), dumped 8/10/2022 16:59:37 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 656) (currentlyBuilding FC-City-CiudadDelEste FC-Coinage)))
+(isa CityFootprint-FC-City-CiudadDelEste CityFootprint)
+
+(footprintOf FC-City-CiudadDelEste CityFootprint-FC-City-CiudadDelEste)
+
+(numTurnsToBuild FC-City-CiudadDelEste (Turns 200))
+
+(numTurnsToGrow FC-City-CiudadDelEste (Turns 21))
+
+(cityGrowthRate FC-City-CiudadDelEste (Percent 1))
+
+(cityOwner FC-City-CiudadDelEste FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-Barracks)
+
+(citySize FC-City-CiudadDelEste (FreecivCitizenCountFn 3))
+
+(isa FC-City-CiudadDelEste FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-CiudadDelEste ContinentBlob-2)
+
+(rcc8-TPP CityFootprint-FC-City-CiudadDelEste ContinentBlob-1)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-207)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-218)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-230)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-239)
+
+(rcc8-TPP CityFootprint-FC-City-CiudadDelEste TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-CiudadDelEste TerritoryBlob-128)
+
+(isa TerritoryBlob-128 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 206))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(isa UnitFootprint-Unit-239 UnitFootprint)
+
+(isa UnitFootprint-Unit-230 UnitFootprint)
+
+(isa UnitFootprint-Unit-218 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)

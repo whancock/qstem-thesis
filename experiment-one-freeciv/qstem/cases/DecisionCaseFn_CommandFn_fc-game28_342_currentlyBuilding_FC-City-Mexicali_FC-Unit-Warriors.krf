@@ -1,0 +1,50 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 342) (currentlyBuilding FC-City-Mexicali FC-Unit-Warriors)), dumped 8/10/2022 17:33:52 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 342) (currentlyBuilding FC-City-Mexicali FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Mexicali CityFootprint)
+
+(footprintOf FC-City-Mexicali CityFootprint-FC-City-Mexicali)
+
+(numTurnsToBuild FC-City-Mexicali (Turns 3))
+
+(numTurnsToGrow FC-City-Mexicali (Turns 20))
+
+(cityGrowthRate FC-City-Mexicali (Percent 5))
+
+(cityOwner FC-City-Mexicali FC-Player-BenitoJuárez)
+
+(citySize FC-City-Mexicali (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mexicali FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mexicali) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mexicali) Some))
+
+(rcc8-PO CityFootprint-FC-City-Mexicali ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-Mexicali ContinentBlob-1421)
+
+(rcc8-EC CityFootprint-FC-City-Mexicali CityFootprint-FC-City-LeónDeLosAldamas)
+
+(isa CityFootprint-FC-City-LeónDeLosAldamas CityFootprint)
+
+(footprintOf FC-City-LeónDeLosAldamas CityFootprint-FC-City-LeónDeLosAldamas)
+
+(numTurnsToBuild FC-City-LeónDeLosAldamas (Turns 250))
+
+(numTurnsToGrow FC-City-LeónDeLosAldamas (Turns 6))
+
+(cityGrowthRate FC-City-LeónDeLosAldamas (Percent 10))
+
+(cityOwner FC-City-LeónDeLosAldamas FC-Player-BenitoJuárez)
+
+(citySize FC-City-LeónDeLosAldamas (FreecivCitizenCountFn 1))
+
+(isa FC-City-LeónDeLosAldamas FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LeónDeLosAldamas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LeónDeLosAldamas) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-LeónDeLosAldamas) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-LeónDeLosAldamas) Some))
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

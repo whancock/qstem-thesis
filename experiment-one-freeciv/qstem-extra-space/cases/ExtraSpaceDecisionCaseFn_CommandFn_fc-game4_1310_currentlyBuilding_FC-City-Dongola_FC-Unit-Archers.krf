@@ -1,0 +1,1182 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game4 1310) (currentlyBuilding FC-City-Dongola FC-Unit-Archers)), dumped 9/1/2022 18:44:5 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game4 1310) (currentlyBuilding FC-City-Dongola FC-Unit-Archers)))
+(rcc8-NTPP ContinentBlob-24896 ContinentBlob-24895)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Brno)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Yerevan)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-AddisAbeba)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Praha)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-MeroÃ«)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Gyumri)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Gonder)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Kerma)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Ostrava)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Olomouc)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Napata)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Echmiadzin)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-DireDawa)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Faras)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-HradecKrÃ¡lovÃ©)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Abovyan)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Naqa)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Nuri)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-PlzeÅ?)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Jima)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Dongola)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Vanadzor)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Semna)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Hrazdan)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Artashat)
+
+(rcc8-EC ContinentBlob-24896 CityFootprint-FC-City-Moratuwa)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Opava)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Ä?eskÃ©BudÄ?jovice)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Kapan)
+
+(rcc8-PO ContinentBlob-24896 CityFootprint-FC-City-Gavar)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-164)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-167)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-165)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-181)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-190)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-193)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-195)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-192)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-202)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-162)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-210)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-209)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-205)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-224)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-226)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-225)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-217)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-213)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-234)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-233)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-240)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-239)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-245)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-248)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-265)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-271)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-250)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-275)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-274)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-273)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-278)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-252)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-270)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-286)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-289)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-280)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-295)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-294)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-272)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-305)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-311)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-279)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-255)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-328)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-327)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-334)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-333)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-343)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-342)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-347)
+
+(rcc8-TPPi ContinentBlob-24896 UnitFootprint-Unit-314)
+
+(rcc8-PO ContinentBlob-24896 UnitFootprint-Unit-363)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-4)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-1)
+
+(rcc8-PO ContinentBlob-24896 TerritoryBlob-0)
+
+(rcc8-EC ContinentBlob-24896 TerritoryBlob-2)
+
+(rcc8-TPPi ContinentBlob-24896 TerritoryBlob-41407)
+
+(rcc8-PO CityFootprint-FC-City-Dongola ContinentBlob-24896)
+
+(rcc8-EC ContinentBlob-24895 ContinentBlob-24899)
+
+(rcc8-PO ContinentBlob-24895 ContinentBlob-24898)
+
+(rcc8-EC ContinentBlob-24895 ContinentBlob-24897)
+
+(rcc8-NTPPi ContinentBlob-24895 ContinentBlob-24896)
+
+(rcc8-EC ContinentBlob-24895 ContinentBlob-24894)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Brno)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Yerevan)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-AddisAbeba)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Praha)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-MeroÃ«)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Gyumri)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-Gonder)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Kerma)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Ostrava)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Olomouc)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-Napata)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Echmiadzin)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-DireDawa)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Faras)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-HradecKrÃ¡lovÃ©)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Abovyan)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Naqa)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Nuri)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-PlzeÅ?)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-Jima)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Dongola)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Vanadzor)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Semna)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Hrazdan)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Artashat)
+
+(rcc8-PO ContinentBlob-24895 CityFootprint-FC-City-Moratuwa)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Opava)
+
+(rcc8-NTPPi ContinentBlob-24895 CityFootprint-FC-City-Ä?eskÃ©BudÄ?jovice)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-Kapan)
+
+(rcc8-TPPi ContinentBlob-24895 CityFootprint-FC-City-Gavar)
+
+(rcc8-PO ContinentBlob-24895 UnitFootprint-Unit-164)
+
+(rcc8-PO ContinentBlob-24895 UnitFootprint-Unit-167)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-165)
+
+(rcc8-PO ContinentBlob-24895 UnitFootprint-Unit-181)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-190)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-193)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-195)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-192)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-202)
+
+(rcc8-PO ContinentBlob-24895 UnitFootprint-Unit-162)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-210)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-209)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-205)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-224)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-226)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-225)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-217)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-213)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-234)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-233)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-240)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-239)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-245)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-248)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-197)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-265)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-271)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-250)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-275)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-274)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-273)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-278)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-252)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-270)
+
+(rcc8-PO ContinentBlob-24895 UnitFootprint-Unit-207)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-286)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-289)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-280)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-282)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-199)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-295)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-294)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-272)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-305)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-311)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-279)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-255)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-328)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-327)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-334)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-333)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-343)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-342)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-347)
+
+(rcc8-NTPPi ContinentBlob-24895 UnitFootprint-Unit-314)
+
+(rcc8-TPPi ContinentBlob-24895 UnitFootprint-Unit-363)
+
+(rcc8-PO ContinentBlob-24895 TerritoryBlob-24904)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-3)
+
+(rcc8-PO ContinentBlob-24895 TerritoryBlob-4)
+
+(rcc8-TPPi ContinentBlob-24895 TerritoryBlob-1)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-0)
+
+(rcc8-EC ContinentBlob-24895 TerritoryBlob-30683)
+
+(rcc8-PO ContinentBlob-24895 TerritoryBlob-2)
+
+(rcc8-EC ContinentBlob-24895 TerritoryBlob-38606)
+
+(rcc8-EC ContinentBlob-24895 TerritoryBlob-41360)
+
+(rcc8-NTPPi ContinentBlob-24895 TerritoryBlob-41407)
+
+(rcc8-NTPP CityFootprint-FC-City-Dongola ContinentBlob-24895)
+
+(rcc8-PO CityFootprint-FC-City-Faras ContinentBlob-24896)
+
+(rcc8-NTPP CityFootprint-FC-City-Faras ContinentBlob-24895)
+
+(rcc8-PO CityFootprint-FC-City-Faras CityFootprint-FC-City-Kerma)
+
+(rcc8-PO CityFootprint-FC-City-Faras CityFootprint-FC-City-Dongola)
+
+(rcc8-TPP CityFootprint-FC-City-Faras TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Dongola CityFootprint-FC-City-Faras)
+
+(rcc8-PO CityFootprint-FC-City-Semna ContinentBlob-24896)
+
+(rcc8-NTPP CityFootprint-FC-City-Semna ContinentBlob-24895)
+
+(rcc8-PO CityFootprint-FC-City-Semna CityFootprint-FC-City-Dongola)
+
+(rcc8-PO CityFootprint-FC-City-Semna CityFootprint-FC-City-Moratuwa)
+
+(rcc8-PO CityFootprint-FC-City-Semna UnitFootprint-Unit-197)
+
+(rcc8-PO CityFootprint-FC-City-Semna UnitFootprint-Unit-207)
+
+(rcc8-PO CityFootprint-FC-City-Semna UnitFootprint-Unit-282)
+
+(rcc8-EC CityFootprint-FC-City-Semna UnitFootprint-Unit-199)
+
+(rcc8-TPP CityFootprint-FC-City-Semna TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Semna TerritoryBlob-2)
+
+(rcc8-PO CityFootprint-FC-City-Dongola CityFootprint-FC-City-Semna)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-24897)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-24896)
+
+(rcc8-NTPP TerritoryBlob-0 ContinentBlob-24895)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-MeroÃ«)
+
+(rcc8-NTPPi TerritoryBlob-0 CityFootprint-FC-City-Kerma)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Napata)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Faras)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Naqa)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Nuri)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Dongola)
+
+(rcc8-TPPi TerritoryBlob-0 CityFootprint-FC-City-Semna)
+
+(rcc8-PO TerritoryBlob-0 CityFootprint-FC-City-Moratuwa)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-197)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-207)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-282)
+
+(rcc8-EC TerritoryBlob-0 UnitFootprint-Unit-199)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-30683)
+
+(rcc8-PO TerritoryBlob-0 TerritoryBlob-2)
+
+(rcc8-TPP CityFootprint-FC-City-Dongola TerritoryBlob-0)
+
+(isa TerritoryBlob-41360 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-38606 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-30683 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-24904 NationalTerritoryFootprint)
+
+(isa UnitFootprint-Unit-199 UnitFootprint)
+
+(isa UnitFootprint-Unit-282 UnitFootprint)
+
+(isa UnitFootprint-Unit-207 UnitFootprint)
+
+(isa UnitFootprint-Unit-197 UnitFootprint)
+
+(isa ContinentBlob-24894 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24897 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24898 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24899 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-24896 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-41407 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-2 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Vijaya TerritoryBlob-2)
+
+(isa TerritoryBlob-2 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Vijaya (GoldPoints 0))
+
+(currentGovernment FC-Player-Vijaya FC-Anarchy)
+
+(isa FC-Player-Vijaya FreeCiv-Player)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Amanishakheto TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Amanishakheto (GoldPoints 132))
+
+(currentGovernment FC-Player-Amanishakheto FC-Despotism)
+
+(isa FC-Player-Amanishakheto FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Amanishakheto) MonotonicallyIncreasingFunction))
+
+(isa TerritoryBlob-1 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-Gedara TerritoryBlob-1)
+
+(isa TerritoryBlob-1 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Gedara (GoldPoints 0))
+
+(currentGovernment FC-Player-Gedara FC-Anarchy)
+
+(isa FC-Player-Gedara FreeCiv-Player)
+
+(isa TerritoryBlob-4 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-ArgishtisI TerritoryBlob-4)
+
+(isa TerritoryBlob-4 NationalTerritoryFootprint)
+
+(currentGold FC-Player-ArgishtisI (GoldPoints 0))
+
+(currentGovernment FC-Player-ArgishtisI FC-Anarchy)
+
+(isa FC-Player-ArgishtisI FreeCiv-Player)
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-KarelIV TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KarelIV (GoldPoints 0))
+
+(currentGovernment FC-Player-KarelIV FC-Anarchy)
+
+(isa FC-Player-KarelIV FreeCiv-Player)
+
+(isa UnitFootprint-Unit-363 UnitFootprint)
+
+(isa UnitFootprint-Unit-314 UnitFootprint)
+
+(isa UnitFootprint-Unit-347 UnitFootprint)
+
+(isa UnitFootprint-Unit-342 UnitFootprint)
+
+(isa UnitFootprint-Unit-343 UnitFootprint)
+
+(isa UnitFootprint-Unit-333 UnitFootprint)
+
+(isa UnitFootprint-Unit-334 UnitFootprint)
+
+(isa UnitFootprint-Unit-327 UnitFootprint)
+
+(isa UnitFootprint-Unit-328 UnitFootprint)
+
+(isa UnitFootprint-Unit-255 UnitFootprint)
+
+(isa UnitFootprint-Unit-279 UnitFootprint)
+
+(isa UnitFootprint-Unit-311 UnitFootprint)
+
+(isa UnitFootprint-Unit-305 UnitFootprint)
+
+(isa UnitFootprint-Unit-272 UnitFootprint)
+
+(isa UnitFootprint-Unit-294 UnitFootprint)
+
+(isa UnitFootprint-Unit-295 UnitFootprint)
+
+(isa UnitFootprint-Unit-280 UnitFootprint)
+
+(isa UnitFootprint-Unit-289 UnitFootprint)
+
+(isa UnitFootprint-Unit-286 UnitFootprint)
+
+(isa UnitFootprint-Unit-270 UnitFootprint)
+
+(isa UnitFootprint-Unit-252 UnitFootprint)
+
+(isa UnitFootprint-Unit-278 UnitFootprint)
+
+(isa UnitFootprint-Unit-273 UnitFootprint)
+
+(isa UnitFootprint-Unit-274 UnitFootprint)
+
+(isa UnitFootprint-Unit-275 UnitFootprint)
+
+(isa UnitFootprint-Unit-250 UnitFootprint)
+
+(isa UnitFootprint-Unit-271 UnitFootprint)
+
+(isa UnitFootprint-Unit-265 UnitFootprint)
+
+(isa UnitFootprint-Unit-248 UnitFootprint)
+
+(isa UnitFootprint-Unit-245 UnitFootprint)
+
+(isa UnitFootprint-Unit-239 UnitFootprint)
+
+(isa UnitFootprint-Unit-240 UnitFootprint)
+
+(isa UnitFootprint-Unit-233 UnitFootprint)
+
+(isa UnitFootprint-Unit-234 UnitFootprint)
+
+(isa UnitFootprint-Unit-213 UnitFootprint)
+
+(isa UnitFootprint-Unit-217 UnitFootprint)
+
+(isa UnitFootprint-Unit-225 UnitFootprint)
+
+(isa UnitFootprint-Unit-226 UnitFootprint)
+
+(isa UnitFootprint-Unit-224 UnitFootprint)
+
+(isa UnitFootprint-Unit-205 UnitFootprint)
+
+(isa UnitFootprint-Unit-209 UnitFootprint)
+
+(isa UnitFootprint-Unit-210 UnitFootprint)
+
+(isa UnitFootprint-Unit-162 UnitFootprint)
+
+(isa UnitFootprint-Unit-202 UnitFootprint)
+
+(isa UnitFootprint-Unit-192 UnitFootprint)
+
+(isa UnitFootprint-Unit-195 UnitFootprint)
+
+(isa UnitFootprint-Unit-193 UnitFootprint)
+
+(isa UnitFootprint-Unit-190 UnitFootprint)
+
+(isa UnitFootprint-Unit-181 UnitFootprint)
+
+(isa UnitFootprint-Unit-165 UnitFootprint)
+
+(isa UnitFootprint-Unit-167 UnitFootprint)
+
+(isa UnitFootprint-Unit-164 UnitFootprint)
+
+(isa CityFootprint-FC-City-Gavar CityFootprint)
+
+(footprintOf FC-City-Gavar CityFootprint-FC-City-Gavar)
+
+(cityOwner FC-City-Gavar FC-Player-ArgishtisI)
+
+(citySize FC-City-Gavar (FreecivCitizenCountFn 1))
+
+(isa FC-City-Gavar FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kapan CityFootprint)
+
+(footprintOf FC-City-Kapan CityFootprint-FC-City-Kapan)
+
+(cityOwner FC-City-Kapan FC-Player-ArgishtisI)
+
+(citySize FC-City-Kapan (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Kapan (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Kapan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Kapan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Ä?eskÃ©BudÄ?jovice CityFootprint)
+
+(footprintOf FC-City-Ä?eskÃ©BudÄ?jovice CityFootprint-FC-City-Ä?eskÃ©BudÄ?jovice)
+
+(cityOwner FC-City-Ä?eskÃ©BudÄ?jovice FC-Player-ArgishtisI)
+
+(cityOwner FC-City-Ä?eskÃ©BudÄ?jovice FC-Player-KarelIV)
+
+(citySize FC-City-Ä?eskÃ©BudÄ?jovice (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Ä?eskÃ©BudÄ?jovice (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ä?eskÃ©BudÄ?jovice FreeCiv-City)
+
+(isa CityFootprint-FC-City-Opava CityFootprint)
+
+(footprintOf FC-City-Opava CityFootprint-FC-City-Opava)
+
+(cityOwner FC-City-Opava FC-Player-ArgishtisI)
+
+(cityOwner FC-City-Opava FC-Player-KarelIV)
+
+(citySize FC-City-Opava (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Opava (FreecivCitizenCountFn 1))
+
+(isa FC-City-Opava FreeCiv-City)
+
+(isa CityFootprint-FC-City-Moratuwa CityFootprint)
+
+(footprintOf FC-City-Moratuwa CityFootprint-FC-City-Moratuwa)
+
+(cityOwner FC-City-Moratuwa FC-Player-Vijaya)
+
+(citySize FC-City-Moratuwa (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Moratuwa (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Moratuwa (FreecivCitizenCountFn 1))
+
+(isa FC-City-Moratuwa FreeCiv-City)
+
+(isa CityFootprint-FC-City-Artashat CityFootprint)
+
+(footprintOf FC-City-Artashat CityFootprint-FC-City-Artashat)
+
+(cityOwner FC-City-Artashat FC-Player-ArgishtisI)
+
+(citySize FC-City-Artashat (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Artashat (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Artashat (FreecivCitizenCountFn 1))
+
+(isa FC-City-Artashat FreeCiv-City)
+
+(isa CityFootprint-FC-City-Hrazdan CityFootprint)
+
+(footprintOf FC-City-Hrazdan CityFootprint-FC-City-Hrazdan)
+
+(cityOwner FC-City-Hrazdan FC-Player-ArgishtisI)
+
+(cityHasImprovement FC-City-Hrazdan FC-Building-CityWalls)
+
+(citySize FC-City-Hrazdan (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Hrazdan (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Hrazdan (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Hrazdan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Hrazdan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Semna CityFootprint)
+
+(footprintOf FC-City-Semna CityFootprint-FC-City-Semna)
+
+(numTurnsToBuild FC-City-Semna (Turns 250))
+
+(numTurnsToGrow FC-City-Semna (Turns 11))
+
+(cityGrowthRate FC-City-Semna (Percent 2))
+
+(cityOwner FC-City-Semna FC-Player-Amanishakheto)
+
+(citySize FC-City-Semna (FreecivCitizenCountFn 2))
+
+(isa FC-City-Semna FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Semna) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Semna) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Semna) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Semna) Some))
+
+(isa CityFootprint-FC-City-Vanadzor CityFootprint)
+
+(footprintOf FC-City-Vanadzor CityFootprint-FC-City-Vanadzor)
+
+(cityOwner FC-City-Vanadzor FC-Player-ArgishtisI)
+
+(cityHasImprovement FC-City-Vanadzor FC-Building-CityWalls)
+
+(citySize FC-City-Vanadzor (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Vanadzor (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Vanadzor (FreecivCitizenCountFn 1))
+
+(isa FC-City-Vanadzor FreeCiv-City)
+
+(isa CityFootprint-FC-City-Dongola CityFootprint)
+
+(footprintOf FC-City-Dongola CityFootprint-FC-City-Dongola)
+
+(numTurnsToBuild FC-City-Dongola (Turns 6))
+
+(numTurnsToGrow FC-City-Dongola (Turns 49))
+
+(cityGrowthRate FC-City-Dongola (Percent 0))
+
+(cityOwner FC-City-Dongola FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Dongola FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Dongola FC-Building-Barracks)
+
+(citySize FC-City-Dongola (FreecivCitizenCountFn 4))
+
+(isa FC-City-Dongola FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Dongola) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Dongola) Some))
+
+(isa CityFootprint-FC-City-Jima CityFootprint)
+
+(footprintOf FC-City-Jima CityFootprint-FC-City-Jima)
+
+(cityOwner FC-City-Jima FC-Player-Gedara)
+
+(cityHasImprovement FC-City-Jima FC-Building-CityWalls)
+
+(citySize FC-City-Jima (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Jima (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Jima (FreecivCitizenCountFn 1))
+
+(isa FC-City-Jima FreeCiv-City)
+
+(isa CityFootprint-FC-City-PlzeÅ? CityFootprint)
+
+(footprintOf FC-City-PlzeÅ? CityFootprint-FC-City-PlzeÅ?)
+
+(cityOwner FC-City-PlzeÅ? FC-Player-KarelIV)
+
+(citySize FC-City-PlzeÅ? (FreecivCitizenCountFn 3))
+
+(citySize FC-City-PlzeÅ? (FreecivCitizenCountFn 2))
+
+(citySize FC-City-PlzeÅ? (FreecivCitizenCountFn 1))
+
+(isa FC-City-PlzeÅ? FreeCiv-City)
+
+(isa CityFootprint-FC-City-Nuri CityFootprint)
+
+(footprintOf FC-City-Nuri CityFootprint-FC-City-Nuri)
+
+(numTurnsToBuild FC-City-Nuri (Turns 20))
+
+(numTurnsToGrow FC-City-Nuri (Turns 12))
+
+(cityGrowthRate FC-City-Nuri (Percent 3))
+
+(cityOwner FC-City-Nuri FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Nuri FC-Building-Barracks)
+
+(citySize FC-City-Nuri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Nuri FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nuri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nuri) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nuri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nuri) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nuri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nuri) Some))
+
+(isa CityFootprint-FC-City-Naqa CityFootprint)
+
+(footprintOf FC-City-Naqa CityFootprint-FC-City-Naqa)
+
+(numTurnsToBuild FC-City-Naqa (Turns 2))
+
+(cityGrowthRate FC-City-Naqa (Percent 0))
+
+(cityOwner FC-City-Naqa FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Naqa FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Naqa FC-Building-Barracks)
+
+(citySize FC-City-Naqa (FreecivCitizenCountFn 2))
+
+(isa FC-City-Naqa FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Naqa) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Naqa) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Naqa) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Naqa) Some))
+
+(isa CityFootprint-FC-City-Abovyan CityFootprint)
+
+(footprintOf FC-City-Abovyan CityFootprint-FC-City-Abovyan)
+
+(cityOwner FC-City-Abovyan FC-Player-ArgishtisI)
+
+(cityHasImprovement FC-City-Abovyan FC-Building-CityWalls)
+
+(citySize FC-City-Abovyan (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Abovyan (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Abovyan (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Abovyan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Abovyan FreeCiv-City)
+
+(isa CityFootprint-FC-City-HradecKrÃ¡lovÃ© CityFootprint)
+
+(footprintOf FC-City-HradecKrÃ¡lovÃ© CityFootprint-FC-City-HradecKrÃ¡lovÃ©)
+
+(cityOwner FC-City-HradecKrÃ¡lovÃ© FC-Player-KarelIV)
+
+(citySize FC-City-HradecKrÃ¡lovÃ© (FreecivCitizenCountFn 3))
+
+(citySize FC-City-HradecKrÃ¡lovÃ© (FreecivCitizenCountFn 2))
+
+(citySize FC-City-HradecKrÃ¡lovÃ© (FreecivCitizenCountFn 1))
+
+(isa FC-City-HradecKrÃ¡lovÃ© FreeCiv-City)
+
+(isa CityFootprint-FC-City-Faras CityFootprint)
+
+(footprintOf FC-City-Faras CityFootprint-FC-City-Faras)
+
+(numTurnsToBuild FC-City-Faras (Turns 2))
+
+(cityGrowthRate FC-City-Faras (Percent 0))
+
+(cityOwner FC-City-Faras FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Faras FC-Building-CityWalls)
+
+(citySize FC-City-Faras (FreecivCitizenCountFn 3))
+
+(isa FC-City-Faras FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Faras) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Faras) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Faras) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Faras) Some))
+
+(isa CityFootprint-FC-City-DireDawa CityFootprint)
+
+(footprintOf FC-City-DireDawa CityFootprint-FC-City-DireDawa)
+
+(cityOwner FC-City-DireDawa FC-Player-Gedara)
+
+(citySize FC-City-DireDawa (FreecivCitizenCountFn 3))
+
+(citySize FC-City-DireDawa (FreecivCitizenCountFn 2))
+
+(citySize FC-City-DireDawa (FreecivCitizenCountFn 1))
+
+(isa FC-City-DireDawa FreeCiv-City)
+
+(isa CityFootprint-FC-City-Echmiadzin CityFootprint)
+
+(footprintOf FC-City-Echmiadzin CityFootprint-FC-City-Echmiadzin)
+
+(cityOwner FC-City-Echmiadzin FC-Player-ArgishtisI)
+
+(cityHasImprovement FC-City-Echmiadzin FC-Building-CityWalls)
+
+(citySize FC-City-Echmiadzin (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Echmiadzin (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Echmiadzin (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Echmiadzin (FreecivCitizenCountFn 1))
+
+(isa FC-City-Echmiadzin FreeCiv-City)
+
+(isa CityFootprint-FC-City-Napata CityFootprint)
+
+(footprintOf FC-City-Napata CityFootprint-FC-City-Napata)
+
+(numTurnsToBuild FC-City-Napata (Turns 9))
+
+(numTurnsToGrow FC-City-Napata (Turns 25))
+
+(cityGrowthRate FC-City-Napata (Percent 1))
+
+(cityOwner FC-City-Napata FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Napata FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Napata FC-Building-Barracks)
+
+(citySize FC-City-Napata (FreecivCitizenCountFn 3))
+
+(isa FC-City-Napata FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Napata) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Napata) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Napata) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Napata) Some))
+
+(isa CityFootprint-FC-City-Olomouc CityFootprint)
+
+(footprintOf FC-City-Olomouc CityFootprint-FC-City-Olomouc)
+
+(cityOwner FC-City-Olomouc FC-Player-KarelIV)
+
+(cityHasImprovement FC-City-Olomouc FC-Building-CityWalls)
+
+(citySize FC-City-Olomouc (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Olomouc (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Olomouc (FreecivCitizenCountFn 1))
+
+(isa FC-City-Olomouc FreeCiv-City)
+
+(isa CityFootprint-FC-City-Ostrava CityFootprint)
+
+(footprintOf FC-City-Ostrava CityFootprint-FC-City-Ostrava)
+
+(cityOwner FC-City-Ostrava FC-Player-KarelIV)
+
+(cityHasImprovement FC-City-Ostrava FC-Building-CityWalls)
+
+(citySize FC-City-Ostrava (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Ostrava (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Ostrava (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ostrava FreeCiv-City)
+
+(isa CityFootprint-FC-City-Kerma CityFootprint)
+
+(footprintOf FC-City-Kerma CityFootprint-FC-City-Kerma)
+
+(numTurnsToBuild FC-City-Kerma (Turns 5))
+
+(numTurnsToGrow FC-City-Kerma (Turns 16))
+
+(cityGrowthRate FC-City-Kerma (Percent 2))
+
+(cityOwner FC-City-Kerma FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-Kerma FC-Building-CityWalls)
+
+(citySize FC-City-Kerma (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kerma FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Kerma) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Kerma) Some))
+
+(isa CityFootprint-FC-City-Gonder CityFootprint)
+
+(footprintOf FC-City-Gonder CityFootprint-FC-City-Gonder)
+
+(cityOwner FC-City-Gonder FC-Player-Gedara)
+
+(cityHasImprovement FC-City-Gonder FC-Building-CityWalls)
+
+(citySize FC-City-Gonder (FreecivCitizenCountFn 4))
+
+(citySize FC-City-Gonder (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Gonder (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Gonder (FreecivCitizenCountFn 1))
+
+(isa FC-City-Gonder FreeCiv-City)
+
+(isa CityFootprint-FC-City-Gyumri CityFootprint)
+
+(footprintOf FC-City-Gyumri CityFootprint-FC-City-Gyumri)
+
+(cityOwner FC-City-Gyumri FC-Player-ArgishtisI)
+
+(cityHasImprovement FC-City-Gyumri FC-Building-CityWalls)
+
+(citySize FC-City-Gyumri (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Gyumri (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Gyumri (FreecivCitizenCountFn 1))
+
+(isa FC-City-Gyumri FreeCiv-City)
+
+(isa CityFootprint-FC-City-MeroÃ« CityFootprint)
+
+(footprintOf FC-City-MeroÃ« CityFootprint-FC-City-MeroÃ«)
+
+(numTurnsToBuild FC-City-MeroÃ« (Turns 8))
+
+(numTurnsToGrow FC-City-MeroÃ« (Turns 37))
+
+(cityGrowthRate FC-City-MeroÃ« (Percent 0))
+
+(cityOwner FC-City-MeroÃ« FC-Player-Amanishakheto)
+
+(cityHasImprovement FC-City-MeroÃ« FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-MeroÃ« FC-Building-Barracks)
+
+(cityHasImprovement FC-City-MeroÃ« FC-Building-Palace)
+
+(citySize FC-City-MeroÃ« (FreecivCitizenCountFn 4))
+
+(isa FC-City-MeroÃ« FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-MeroÃ«) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-MeroÃ«) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-MeroÃ«) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-MeroÃ«) Some))
+
+(isa CityFootprint-FC-City-Praha CityFootprint)
+
+(footprintOf FC-City-Praha CityFootprint-FC-City-Praha)
+
+(cityOwner FC-City-Praha FC-Player-KarelIV)
+
+(cityHasImprovement FC-City-Praha FC-Building-CityWalls)
+
+(citySize FC-City-Praha (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Praha (FreecivCitizenCountFn 1))
+
+(isa FC-City-Praha FreeCiv-City)
+
+(isa CityFootprint-FC-City-AddisAbeba CityFootprint)
+
+(footprintOf FC-City-AddisAbeba CityFootprint-FC-City-AddisAbeba)
+
+(cityOwner FC-City-AddisAbeba FC-Player-Gedara)
+
+(cityHasImprovement FC-City-AddisAbeba FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-AddisAbeba FC-Building-Palace)
+
+(citySize FC-City-AddisAbeba (FreecivCitizenCountFn 2))
+
+(citySize FC-City-AddisAbeba (FreecivCitizenCountFn 1))
+
+(isa FC-City-AddisAbeba FreeCiv-City)
+
+(isa CityFootprint-FC-City-Yerevan CityFootprint)
+
+(footprintOf FC-City-Yerevan CityFootprint-FC-City-Yerevan)
+
+(cityOwner FC-City-Yerevan FC-Player-ArgishtisI)
+
+(cityHasImprovement FC-City-Yerevan FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Yerevan FC-Building-Palace)
+
+(citySize FC-City-Yerevan (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Yerevan (FreecivCitizenCountFn 1))
+
+(isa FC-City-Yerevan FreeCiv-City)
+
+(isa CityFootprint-FC-City-Brno CityFootprint)
+
+(footprintOf FC-City-Brno CityFootprint-FC-City-Brno)
+
+(cityOwner FC-City-Brno FC-Player-KarelIV)
+
+(cityHasImprovement FC-City-Brno FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Brno FC-Building-Palace)
+
+(citySize FC-City-Brno (FreecivCitizenCountFn 3))
+
+(citySize FC-City-Brno (FreecivCitizenCountFn 2))
+
+(citySize FC-City-Brno (FreecivCitizenCountFn 1))
+
+(isa FC-City-Brno FreeCiv-City)
+
+(isa ContinentBlob-24895 FreeCiv-TerrainBlob-Water)

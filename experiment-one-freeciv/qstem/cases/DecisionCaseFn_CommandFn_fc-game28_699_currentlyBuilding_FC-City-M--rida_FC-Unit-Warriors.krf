@@ -1,0 +1,70 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 699) (currentlyBuilding FC-City-Mérida FC-Unit-Warriors)), dumped 8/10/2022 17:41:59 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 699) (currentlyBuilding FC-City-Mérida FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-Mérida CityFootprint)
+
+(footprintOf FC-City-Mérida CityFootprint-FC-City-Mérida)
+
+(numTurnsToBuild FC-City-Mérida (Turns 5))
+
+(numTurnsToGrow FC-City-Mérida (Turns 10))
+
+(cityGrowthRate FC-City-Mérida (Percent 10))
+
+(cityOwner FC-City-Mérida FC-Player-BenitoJuárez)
+
+(citySize FC-City-Mérida (FreecivCitizenCountFn 1))
+
+(isa FC-City-Mérida FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mérida) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mérida) Some))
+
+(rcc8-PO CityFootprint-FC-City-Mérida ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-Mérida ContinentBlob-1421)
+
+(rcc8-EC CityFootprint-FC-City-Mérida CityFootprint-FC-City-CuliacánRosales)
+
+(rcc8-EC CityFootprint-FC-City-Mérida CityFootprint-FC-City-Aguascalientes)
+
+(isa CityFootprint-FC-City-Aguascalientes CityFootprint)
+
+(footprintOf FC-City-Aguascalientes CityFootprint-FC-City-Aguascalientes)
+
+(numTurnsToBuild FC-City-Aguascalientes (Turns 10))
+
+(numTurnsToGrow FC-City-Aguascalientes (Turns 3))
+
+(cityGrowthRate FC-City-Aguascalientes (Percent 3))
+
+(cityOwner FC-City-Aguascalientes FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-Aguascalientes FC-Building-Barracks)
+
+(citySize FC-City-Aguascalientes (FreecivCitizenCountFn 2))
+
+(isa FC-City-Aguascalientes FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Aguascalientes) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Aguascalientes) Some))
+
+(isa CityFootprint-FC-City-CuliacánRosales CityFootprint)
+
+(footprintOf FC-City-CuliacánRosales CityFootprint-FC-City-CuliacánRosales)
+
+(numTurnsToBuild FC-City-CuliacánRosales (Turns 5))
+
+(numTurnsToGrow FC-City-CuliacánRosales (Turns 4))
+
+(cityGrowthRate FC-City-CuliacánRosales (Percent 10))
+
+(cityOwner FC-City-CuliacánRosales FC-Player-BenitoJuárez)
+
+(citySize FC-City-CuliacánRosales (FreecivCitizenCountFn 1))
+
+(isa FC-City-CuliacánRosales FreeCiv-City)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CuliacánRosales) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CuliacánRosales) Some))
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

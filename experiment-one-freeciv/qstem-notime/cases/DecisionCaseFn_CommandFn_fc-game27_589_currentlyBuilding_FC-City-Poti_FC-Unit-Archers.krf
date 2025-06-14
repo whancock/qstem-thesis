@@ -1,0 +1,42 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 589) (currentlyBuilding FC-City-Poti FC-Unit-Archers)), dumped 8/10/2022 17:21:46 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 589) (currentlyBuilding FC-City-Poti FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Poti CityFootprint)
+
+(footprintOf FC-City-Poti CityFootprint-FC-City-Poti)
+
+(numTurnsToBuild FC-City-Poti (Turns 5))
+
+(cityGrowthRate FC-City-Poti (Percent 0))
+
+(cityOwner FC-City-Poti FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Poti FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Poti FC-Building-Barracks)
+
+(citySize FC-City-Poti (FreecivCitizenCountFn 3))
+
+(isa FC-City-Poti FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Poti ContinentBlob-405)
+
+(rcc8-TPP CityFootprint-FC-City-Poti ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Poti TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 359))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

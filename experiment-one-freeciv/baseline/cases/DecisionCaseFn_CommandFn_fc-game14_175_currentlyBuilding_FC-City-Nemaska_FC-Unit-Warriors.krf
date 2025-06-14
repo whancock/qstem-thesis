@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game14 175) (currentlyBuilding FC-City-Nemaska FC-Unit-Warriors)), dumped 7/29/2022 12:57:32 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game14 175) (currentlyBuilding FC-City-Nemaska FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Nemaska (Turns 10))
+
+(numTurnsToGrow FC-City-Nemaska (Turns 10))
+
+(cityGrowthRate FC-City-Nemaska (Percent 10))
+
+(cityOwner FC-City-Nemaska FC-Player-Awashish)
+
+(citySize FC-City-Nemaska (FreecivCitizenCountFn 1))
+
+(isa FC-City-Nemaska FreeCiv-City)
+
+(currentGold FC-Player-Awashish (GoldPoints 78))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)

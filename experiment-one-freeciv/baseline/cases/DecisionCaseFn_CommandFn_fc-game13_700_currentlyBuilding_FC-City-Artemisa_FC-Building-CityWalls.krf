@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game13 700) (currentlyBuilding FC-City-Artemisa FC-Building-CityWalls)), dumped 7/29/2022 12:50:30 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game13 700) (currentlyBuilding FC-City-Artemisa FC-Building-CityWalls)))
+(numTurnsToBuild FC-City-Artemisa (Turns 20))
+
+(numTurnsToGrow FC-City-Artemisa (Turns 12))
+
+(cityGrowthRate FC-City-Artemisa (Percent 2))
+
+(cityOwner FC-City-Artemisa FC-Player-JoséMartí)
+
+(cityHasImprovement FC-City-Artemisa FC-Building-Barracks)
+
+(citySize FC-City-Artemisa (FreecivCitizenCountFn 3))
+
+(isa FC-City-Artemisa FreeCiv-City)
+
+(currentGold FC-Player-JoséMartí (GoldPoints 238))
+
+(currentGovernment FC-Player-JoséMartí FC-Despotism)
+
+(isa FC-Player-JoséMartí FreeCiv-Player)

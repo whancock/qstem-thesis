@@ -1,0 +1,66 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 547) (currentlyBuilding FC-City-Kutaisi FC-Coinage)), dumped 8/10/2022 17:20:19 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 547) (currentlyBuilding FC-City-Kutaisi FC-Coinage)))
+(isa CityFootprint-FC-City-Kutaisi CityFootprint)
+
+(footprintOf FC-City-Kutaisi CityFootprint-FC-City-Kutaisi)
+
+(numTurnsToBuild FC-City-Kutaisi (Turns 143))
+
+(numTurnsToGrow FC-City-Kutaisi (Turns 8))
+
+(cityGrowthRate FC-City-Kutaisi (Percent 2))
+
+(cityOwner FC-City-Kutaisi FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kutaisi FC-Building-Palace)
+
+(citySize FC-City-Kutaisi (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kutaisi FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-Kutaisi ContinentBlob-405)
+
+(rcc8-NTPP CityFootprint-FC-City-Kutaisi ContinentBlob-402)
+
+(rcc8-PO CityFootprint-FC-City-Kutaisi CityFootprint-FC-City-Sokhumi)
+
+(rcc8-TPP CityFootprint-FC-City-Kutaisi TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 299))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(isa CityFootprint-FC-City-Sokhumi CityFootprint)
+
+(footprintOf FC-City-Sokhumi CityFootprint-FC-City-Sokhumi)
+
+(numTurnsToBuild FC-City-Sokhumi (Turns 2))
+
+(numTurnsToGrow FC-City-Sokhumi (Turns 7))
+
+(cityGrowthRate FC-City-Sokhumi (Percent 1))
+
+(cityOwner FC-City-Sokhumi FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Sokhumi FC-Building-Barracks)
+
+(citySize FC-City-Sokhumi (FreecivCitizenCountFn 3))
+
+(isa FC-City-Sokhumi FreeCiv-City)
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

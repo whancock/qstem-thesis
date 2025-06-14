@@ -1,0 +1,156 @@
+;;; Case (ExtraSpaceDecisionCaseFn (CommandFn fc-game5 19) (currentlyBuilding FC-City-Cipasiri FC-Unit-Settlers)), dumped 9/1/2022 19:9:21 from surface.
+
+(in-microtheory (ExtraSpaceDecisionCaseFn (CommandFn fc-game5 19) (currentlyBuilding FC-City-Cipasiri FC-Unit-Settlers)))
+(rcc8-NTPP ContinentBlob-47262 ContinentBlob-47261)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-PO ContinentBlob-47262 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47278)
+
+(rcc8-PO ContinentBlob-47262 TerritoryBlob-3)
+
+(rcc8-TPPi ContinentBlob-47262 TerritoryBlob-47287)
+
+(rcc8-PO ContinentBlob-47262 TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-47262)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47266)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47265)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47264)
+
+(rcc8-EC ContinentBlob-47261 ContinentBlob-47263)
+
+(rcc8-NTPPi ContinentBlob-47261 ContinentBlob-47262)
+
+(rcc8-TPPi ContinentBlob-47261 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-PO ContinentBlob-47261 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47271)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47270)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47268)
+
+(rcc8-EC ContinentBlob-47261 TerritoryBlob-47267)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47278)
+
+(rcc8-TPPi ContinentBlob-47261 TerritoryBlob-3)
+
+(rcc8-NTPPi ContinentBlob-47261 TerritoryBlob-47287)
+
+(rcc8-PO ContinentBlob-47261 TerritoryBlob-0)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-47261)
+
+(rcc8-TPP TerritoryBlob-47287 ContinentBlob-47262)
+
+(rcc8-NTPP TerritoryBlob-47287 ContinentBlob-47261)
+
+(rcc8-EC TerritoryBlob-47287 CityFootprint-FC-City-Ahvaz)
+
+(rcc8-EC TerritoryBlob-47287 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC TerritoryBlob-47287 TerritoryBlob-3)
+
+(rcc8-EC TerritoryBlob-47287 TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Cipasiri TerritoryBlob-47287)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-47262)
+
+(rcc8-PO TerritoryBlob-0 ContinentBlob-47261)
+
+(rcc8-EQ TerritoryBlob-0 CityFootprint-FC-City-Cipasiri)
+
+(rcc8-EC TerritoryBlob-0 TerritoryBlob-47287)
+
+(rcc8-EQ CityFootprint-FC-City-Cipasiri TerritoryBlob-0)
+
+(isa TerritoryBlob-47267 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47268 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47270 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-47271 NationalTerritoryFootprint)
+
+(isa ContinentBlob-47263 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47264 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47265 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47266 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-47262 FreeCiv-TerrainBlob-Land)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 50))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) ConstantFunction))
+
+(isa TerritoryBlob-47287 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-3 FC-Region-EnemyTerritory)
+
+(footprintOf FC-Player-IsmailI TerritoryBlob-3)
+
+(isa TerritoryBlob-3 NationalTerritoryFootprint)
+
+(currentGold FC-Player-IsmailI (GoldPoints 0))
+
+(currentGovernment FC-Player-IsmailI FC-Anarchy)
+
+(isa FC-Player-IsmailI FreeCiv-Player)
+
+(isa TerritoryBlob-47278 NationalTerritoryFootprint)
+
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 14))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 10))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 10))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 1))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(isa CityFootprint-FC-City-Ahvaz CityFootprint)
+
+(footprintOf FC-City-Ahvaz CityFootprint-FC-City-Ahvaz)
+
+(cityOwner FC-City-Ahvaz FC-Player-IsmailI)
+
+(cityHasImprovement FC-City-Ahvaz FC-Building-Palace)
+
+(citySize FC-City-Ahvaz (FreecivCitizenCountFn 1))
+
+(isa FC-City-Ahvaz FreeCiv-City)
+
+(isa ContinentBlob-47261 FreeCiv-TerrainBlob-Water)

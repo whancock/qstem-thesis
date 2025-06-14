@@ -1,0 +1,100 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game30 435) (currentlyBuilding FC-City-Cipasiri FC-Unit-Archers)), dumped 8/10/2022 18:43:28 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game30 435) (currentlyBuilding FC-City-Cipasiri FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Cipasiri CityFootprint)
+
+(footprintOf FC-City-Cipasiri CityFootprint-FC-City-Cipasiri)
+
+(numTurnsToBuild FC-City-Cipasiri (Turns 4))
+
+(numTurnsToGrow FC-City-Cipasiri (Turns 12))
+
+(cityGrowthRate FC-City-Cipasiri (Percent 2))
+
+(cityOwner FC-City-Cipasiri FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Cipasiri FC-Building-Palace)
+
+(citySize FC-City-Cipasiri (FreecivCitizenCountFn 2))
+
+(isa FC-City-Cipasiri FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Cipasiri) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Cipasiri) Some))
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-6132)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri ContinentBlob-6131)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri CityFootprint-FC-City-Mopet)
+
+(rcc8-PO CityFootprint-FC-City-Cipasiri CityFootprint-FC-City-Nayoroputo)
+
+(rcc8-TPP CityFootprint-FC-City-Cipasiri TerritoryBlob-0)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-KayanoShigeru TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 175))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)
+
+(startsAfterStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-KayanoShigeru) MonotonicallyDecreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-KayanoShigeru) MonotonicallyIncreasingFunction))
+
+(isa CityFootprint-FC-City-Nayoroputo CityFootprint)
+
+(footprintOf FC-City-Nayoroputo CityFootprint-FC-City-Nayoroputo)
+
+(numTurnsToBuild FC-City-Nayoroputo (Turns 8))
+
+(numTurnsToGrow FC-City-Nayoroputo (Turns 30))
+
+(cityGrowthRate FC-City-Nayoroputo (Percent 2))
+
+(cityOwner FC-City-Nayoroputo FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Nayoroputo FC-Building-Barracks)
+
+(citySize FC-City-Nayoroputo (FreecivCitizenCountFn 2))
+
+(isa FC-City-Nayoroputo FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nayoroputo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nayoroputo) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Nayoroputo) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Nayoroputo) Some))
+
+(isa CityFootprint-FC-City-Mopet CityFootprint)
+
+(footprintOf FC-City-Mopet CityFootprint-FC-City-Mopet)
+
+(numTurnsToBuild FC-City-Mopet (Turns 12))
+
+(numTurnsToGrow FC-City-Mopet (Turns 23))
+
+(cityGrowthRate FC-City-Mopet (Percent 1))
+
+(cityOwner FC-City-Mopet FC-Player-KayanoShigeru)
+
+(cityHasImprovement FC-City-Mopet FC-Building-Barracks)
+
+(citySize FC-City-Mopet (FreecivCitizenCountFn 4))
+
+(isa FC-City-Mopet FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mopet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mopet) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Mopet) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Mopet) Some))
+
+(isa ContinentBlob-6131 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-6132 FreeCiv-TerrainBlob-Land)

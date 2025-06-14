@@ -1,0 +1,58 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game27 493) (currentlyBuilding FC-City-Akhalkalaki FC-Unit-Archers)), dumped 8/10/2022 17:18:24 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game27 493) (currentlyBuilding FC-City-Akhalkalaki FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Akhalkalaki CityFootprint)
+
+(footprintOf FC-City-Akhalkalaki CityFootprint-FC-City-Akhalkalaki)
+
+(numTurnsToBuild FC-City-Akhalkalaki (Turns 6))
+
+(numTurnsToGrow FC-City-Akhalkalaki (Turns 20))
+
+(cityGrowthRate FC-City-Akhalkalaki (Percent 2))
+
+(cityOwner FC-City-Akhalkalaki FC-Player-GiorgiIII)
+
+(cityHasImprovement FC-City-Akhalkalaki FC-Building-Barracks)
+
+(citySize FC-City-Akhalkalaki (FreecivCitizenCountFn 3))
+
+(isa FC-City-Akhalkalaki FreeCiv-City)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Akhalkalaki) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Akhalkalaki) Some))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Akhalkalaki) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Akhalkalaki) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Akhalkalaki) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Akhalkalaki) Some))
+
+(rcc8-PO CityFootprint-FC-City-Akhalkalaki ContinentBlob-405)
+
+(rcc8-NTPP CityFootprint-FC-City-Akhalkalaki ContinentBlob-402)
+
+(rcc8-TPP CityFootprint-FC-City-Akhalkalaki TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Akhalkalaki TerritoryBlob-1031)
+
+(isa TerritoryBlob-1031 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-GiorgiIII TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-GiorgiIII (GoldPoints 248))
+
+(currentGovernment FC-Player-GiorgiIII FC-Despotism)
+
+(isa FC-Player-GiorgiIII FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(aia-DI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyDecreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-GiorgiIII) MonotonicallyIncreasingFunction))
+
+(isa ContinentBlob-402 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-405 FreeCiv-TerrainBlob-Land)

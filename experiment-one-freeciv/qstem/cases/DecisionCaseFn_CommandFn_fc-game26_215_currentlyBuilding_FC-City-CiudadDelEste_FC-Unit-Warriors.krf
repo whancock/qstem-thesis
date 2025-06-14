@@ -1,0 +1,52 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game26 215) (currentlyBuilding FC-City-CiudadDelEste FC-Unit-Warriors)), dumped 8/10/2022 16:50:29 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game26 215) (currentlyBuilding FC-City-CiudadDelEste FC-Unit-Warriors)))
+(isa CityFootprint-FC-City-CiudadDelEste CityFootprint)
+
+(footprintOf FC-City-CiudadDelEste CityFootprint-FC-City-CiudadDelEste)
+
+(numTurnsToBuild FC-City-CiudadDelEste (Turns 5))
+
+(numTurnsToGrow FC-City-CiudadDelEste (Turns 10))
+
+(cityGrowthRate FC-City-CiudadDelEste (Percent 10))
+
+(cityOwner FC-City-CiudadDelEste FC-Player-JoséArtigas)
+
+(citySize FC-City-CiudadDelEste (FreecivCitizenCountFn 1))
+
+(isa FC-City-CiudadDelEste FreeCiv-City)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-CiudadDelEste) ConstantFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-CiudadDelEste) Some))
+
+(rcc8-PO CityFootprint-FC-City-CiudadDelEste ContinentBlob-2)
+
+(rcc8-TPP CityFootprint-FC-City-CiudadDelEste ContinentBlob-1)
+
+(rcc8-PO TerritoryBlob-0 UnitFootprint-Unit-150)
+
+(rcc8-TPP CityFootprint-FC-City-CiudadDelEste TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-CiudadDelEste TerritoryBlob-128)
+
+(isa TerritoryBlob-128 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-JoséArtigas TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 111))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)
+
+(startsAtSameTime (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-JoséArtigas) MonotonicallyIncreasingFunction))
+
+(isa UnitFootprint-Unit-150 UnitFootprint)
+
+(isa ContinentBlob-1 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-2 FreeCiv-TerrainBlob-Land)

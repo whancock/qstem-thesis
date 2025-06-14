@@ -1,0 +1,24 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game5 723) (currentlyBuilding FC-City-CiudadDelEste FC-Unit-Archers)), dumped 7/29/2022 11:26:10 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game5 723) (currentlyBuilding FC-City-CiudadDelEste FC-Unit-Archers)))
+(numTurnsToBuild FC-City-CiudadDelEste (Turns 6))
+
+(numTurnsToGrow FC-City-CiudadDelEste (Turns 15))
+
+(cityGrowthRate FC-City-CiudadDelEste (Percent 1))
+
+(cityOwner FC-City-CiudadDelEste FC-Player-JoséArtigas)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-CiudadDelEste FC-Building-Barracks)
+
+(citySize FC-City-CiudadDelEste (FreecivCitizenCountFn 3))
+
+(isa FC-City-CiudadDelEste FreeCiv-City)
+
+(currentGold FC-Player-JoséArtigas (GoldPoints 263))
+
+(currentGovernment FC-Player-JoséArtigas FC-Despotism)
+
+(isa FC-Player-JoséArtigas FreeCiv-Player)

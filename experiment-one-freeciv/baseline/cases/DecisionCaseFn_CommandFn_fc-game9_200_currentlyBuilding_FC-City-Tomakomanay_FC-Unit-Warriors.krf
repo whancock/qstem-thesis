@@ -1,0 +1,20 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game9 200) (currentlyBuilding FC-City-Tomakomanay FC-Unit-Warriors)), dumped 7/29/2022 12:7:55 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game9 200) (currentlyBuilding FC-City-Tomakomanay FC-Unit-Warriors)))
+(numTurnsToBuild FC-City-Tomakomanay (Turns 3))
+
+(numTurnsToGrow FC-City-Tomakomanay (Turns 9))
+
+(cityGrowthRate FC-City-Tomakomanay (Percent 10))
+
+(cityOwner FC-City-Tomakomanay FC-Player-KayanoShigeru)
+
+(citySize FC-City-Tomakomanay (FreecivCitizenCountFn 1))
+
+(isa FC-City-Tomakomanay FreeCiv-City)
+
+(currentGold FC-Player-KayanoShigeru (GoldPoints 109))
+
+(currentGovernment FC-Player-KayanoShigeru FC-Despotism)
+
+(isa FC-Player-KayanoShigeru FreeCiv-Player)

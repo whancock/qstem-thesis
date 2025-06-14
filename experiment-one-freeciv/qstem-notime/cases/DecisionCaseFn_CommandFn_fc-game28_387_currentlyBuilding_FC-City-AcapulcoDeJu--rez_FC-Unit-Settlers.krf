@@ -1,0 +1,26 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game28 387) (currentlyBuilding FC-City-AcapulcoDeJuárez FC-Unit-Settlers)), dumped 8/10/2022 17:34:57 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game28 387) (currentlyBuilding FC-City-AcapulcoDeJuárez FC-Unit-Settlers)))
+(isa CityFootprint-FC-City-AcapulcoDeJuárez CityFootprint)
+
+(footprintOf FC-City-AcapulcoDeJuárez CityFootprint-FC-City-AcapulcoDeJuárez)
+
+(numTurnsToBuild FC-City-AcapulcoDeJuárez (Turns 13))
+
+(numTurnsToGrow FC-City-AcapulcoDeJuárez (Turns 3))
+
+(cityGrowthRate FC-City-AcapulcoDeJuárez (Percent 10))
+
+(cityOwner FC-City-AcapulcoDeJuárez FC-Player-BenitoJuárez)
+
+(citySize FC-City-AcapulcoDeJuárez (FreecivCitizenCountFn 1))
+
+(isa FC-City-AcapulcoDeJuárez FreeCiv-City)
+
+(rcc8-PO CityFootprint-FC-City-AcapulcoDeJuárez ContinentBlob-1422)
+
+(rcc8-NTPP CityFootprint-FC-City-AcapulcoDeJuárez ContinentBlob-1421)
+
+(isa ContinentBlob-1421 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-1422 FreeCiv-TerrainBlob-Land)

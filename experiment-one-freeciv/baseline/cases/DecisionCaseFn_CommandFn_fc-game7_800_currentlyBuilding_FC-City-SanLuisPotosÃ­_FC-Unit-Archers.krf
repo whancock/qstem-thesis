@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game7 800) (currentlyBuilding FC-City-SanLuisPotosí FC-Unit-Archers)), dumped 7/29/2022 11:44:8 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game7 800) (currentlyBuilding FC-City-SanLuisPotosí FC-Unit-Archers)))
+(numTurnsToBuild FC-City-SanLuisPotosí (Turns 6))
+
+(numTurnsToGrow FC-City-SanLuisPotosí (Turns 29))
+
+(cityGrowthRate FC-City-SanLuisPotosí (Percent 2))
+
+(cityOwner FC-City-SanLuisPotosí FC-Player-BenitoJuárez)
+
+(cityHasImprovement FC-City-SanLuisPotosí FC-Building-Barracks)
+
+(citySize FC-City-SanLuisPotosí (FreecivCitizenCountFn 2))
+
+(isa FC-City-SanLuisPotosí FreeCiv-City)
+
+(currentGold FC-Player-BenitoJuárez (GoldPoints 1007))
+
+(currentGovernment FC-Player-BenitoJuárez FC-Despotism)
+
+(isa FC-Player-BenitoJuárez FreeCiv-Player)

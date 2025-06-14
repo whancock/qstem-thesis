@@ -1,0 +1,74 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game35 379) (currentlyBuilding FC-City-Chisasibi FC-Unit-Archers)), dumped 8/10/2022 20:28:54 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game35 379) (currentlyBuilding FC-City-Chisasibi FC-Unit-Archers)))
+(isa CityFootprint-FC-City-Chisasibi CityFootprint)
+
+(footprintOf FC-City-Chisasibi CityFootprint-FC-City-Chisasibi)
+
+(numTurnsToBuild FC-City-Chisasibi (Turns 3))
+
+(numTurnsToGrow FC-City-Chisasibi (Turns 40))
+
+(cityGrowthRate FC-City-Chisasibi (Percent 1))
+
+(cityOwner FC-City-Chisasibi FC-Player-Awashish)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-CityWalls)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Chisasibi FC-Building-Palace)
+
+(citySize FC-City-Chisasibi (FreecivCitizenCountFn 3))
+
+(isa FC-City-Chisasibi FreeCiv-City)
+
+(aia-OI (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chisasibi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chisasibi) Some))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn citySize) FC-City-Chisasibi) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn numPresentMilitaryUnits) FC-City-Chisasibi) Some))
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-8766)
+
+(rcc8-TPPi CityFootprint-FC-City-Chisasibi ContinentBlob-8765)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi ContinentBlob-8764)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-8763)
+
+(rcc8-PO CityFootprint-FC-City-Chisasibi ContinentBlob-8762)
+
+(rcc8-TPP CityFootprint-FC-City-Chisasibi TerritoryBlob-0)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-9001)
+
+(rcc8-EC CityFootprint-FC-City-Chisasibi TerritoryBlob-9002)
+
+(isa TerritoryBlob-9002 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-9001 NationalTerritoryFootprint)
+
+(isa TerritoryBlob-0 FC-Region-OurOwnTerritory)
+
+(footprintOf FC-Player-Awashish TerritoryBlob-0)
+
+(isa TerritoryBlob-0 NationalTerritoryFootprint)
+
+(currentGold FC-Player-Awashish (GoldPoints 87))
+
+(currentGovernment FC-Player-Awashish FC-Despotism)
+
+(isa FC-Player-Awashish FreeCiv-Player)
+
+(aia-SI (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyIncreasingFunction))
+
+(startsBeforeStartingOf (QuantityChangeIntervalFn ((MeasurableQuantityFn nationalFootprint) FC-Player-Awashish) MonotonicallyIncreasingFunction) (QuantityChangeIntervalFn ((MeasurableQuantityFn currentGold) FC-Player-Awashish) MonotonicallyDecreasingFunction))
+
+(isa ContinentBlob-8762 FreeCiv-TerrainBlob-Water)
+
+(isa ContinentBlob-8763 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8764 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8765 FreeCiv-TerrainBlob-Land)
+
+(isa ContinentBlob-8766 FreeCiv-TerrainBlob-Land)

@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game12 7) (currentlyBuilding FC-City-Montréal FC-Unit-Settlers)), dumped 7/29/2022 12:28:54 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game12 7) (currentlyBuilding FC-City-Montréal FC-Unit-Settlers)))
+(numTurnsToBuild FC-City-Montréal (Turns 14))
+
+(numTurnsToGrow FC-City-Montréal (Turns 7))
+
+(cityGrowthRate FC-City-Montréal (Percent 15))
+
+(cityOwner FC-City-Montréal FC-Player-RenéLévesque)
+
+(cityHasImprovement FC-City-Montréal FC-Building-Palace)
+
+(citySize FC-City-Montréal (FreecivCitizenCountFn 1))
+
+(isa FC-City-Montréal FreeCiv-City)
+
+(currentGold FC-Player-RenéLévesque (GoldPoints 50))
+
+(currentGovernment FC-Player-RenéLévesque FC-Despotism)
+
+(isa FC-Player-RenéLévesque FreeCiv-Player)

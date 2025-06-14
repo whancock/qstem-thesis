@@ -1,0 +1,22 @@
+;;; Case (DecisionCaseFn (CommandFn fc-game11 322) (currentlyBuilding FC-City-Kyiv FC-Building-CityWalls)), dumped 7/29/2022 12:24:16 from surface.
+
+(in-microtheory (DecisionCaseFn (CommandFn fc-game11 322) (currentlyBuilding FC-City-Kyiv FC-Building-CityWalls)))
+(numTurnsToBuild FC-City-Kyiv (Turns 10))
+
+(cityGrowthRate FC-City-Kyiv (Percent 0))
+
+(cityOwner FC-City-Kyiv FC-Player-SimonPetlura)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Barracks)
+
+(cityHasImprovement FC-City-Kyiv FC-Building-Palace)
+
+(citySize FC-City-Kyiv (FreecivCitizenCountFn 2))
+
+(isa FC-City-Kyiv FreeCiv-City)
+
+(currentGold FC-Player-SimonPetlura (GoldPoints 142))
+
+(currentGovernment FC-Player-SimonPetlura FC-Despotism)
+
+(isa FC-Player-SimonPetlura FreeCiv-Player)
