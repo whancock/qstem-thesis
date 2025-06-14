@@ -1,0 +1,39 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventExpOrig-baseline) 1)), dumped 6/14/2025 13:8:5 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventSpread-baseline) 1)))
+
+(learnedRulesAt 25
+ (((constantIn ?B (PositionFn ?G)) (aia-s ?B ?E) (aia-si ?C ?B)
+   (aia-s ?B ?A))))
+
+(learnedRulesAt 20
+ (((constantIn ?B (PositionFn ?G)) (aia-s ?B ?E) (aia-si ?C ?B)
+   (aia-s ?B ?A))))
+
+(resultsAt 20 (ConfusionFn 10 6 4 0))
+
+(learnedRulesAt 15
+ (((constantIn ?B (PositionFn ?G)) (aia-s ?B ?E) (aia-si ?C ?B)
+   (aia-s ?B ?A))))
+
+(resultsAt 15 (ConfusionFn 10 6 4 0))
+
+(learnedRulesAt 10
+ (((constantIn ?B (PositionFn ?G)) (aia-s ?B ?E) (aia-si ?C ?B)
+   (aia-s ?B ?A))))
+
+(resultsAt 10 (ConfusionFn 10 6 4 0))
+
+(learnedRulesAt 5
+ (((constantIn ?B (PositionFn ?G)) (aia-s ?B ?E) (aia-si ?C ?B)
+   (aia-s ?B ?A))))
+
+(resultsAt 5 (ConfusionFn 10 6 4 0))
+
+(learnedRulesAt 30
+ (((constantIn ?B (PositionFn ?G)) (aia-s ?B ?E) (aia-si ?C ?B)
+   (aia-s ?B ?A))))
+
+(resultsAt 25 (ConfusionFn 10 6 4 0))
+
+(resultsAt 30 (ConfusionFn 10 6 4 0))

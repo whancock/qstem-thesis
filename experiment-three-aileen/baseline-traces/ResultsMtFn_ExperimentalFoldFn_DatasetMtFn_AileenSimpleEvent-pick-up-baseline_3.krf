@@ -1,0 +1,33 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pick-up-baseline) 3)), dumped 6/14/2025 13:7:58 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pick-up-baseline) 3)))
+
+(learnedRulesAt 30
+ (((aia-s ?B ?D) (changingIn ?B (PositionFn ?G)) (aia-s ?B ?A))))
+
+(learnedRulesAt 25
+ (((aia-s ?B ?D) (changingIn ?B (PositionFn ?G)) (aia-s ?B ?A))))
+
+(learnedRulesAt 20
+ (((aia-s ?B ?D) (changingIn ?B (PositionFn ?G)) (aia-s ?B ?A))))
+
+(learnedRulesAt 15
+ (((aia-s ?B ?D) (changingIn ?B (PositionFn ?G)) (aia-s ?B ?A))))
+
+(learnedRulesAt 10
+ (((aia-s ?B ?D) (changingIn ?B (PositionFn ?G)) (aia-s ?B ?A))))
+
+(learnedRulesAt 5
+ (((aia-s ?B ?D) (changingIn ?B (PositionFn ?G)) (aia-s ?B ?A))))
+
+(resultsAt 25 (ConfusionFn 10 0 10 0))
+
+(resultsAt 20 (ConfusionFn 10 0 10 0))
+
+(resultsAt 15 (ConfusionFn 10 0 10 0))
+
+(resultsAt 10 (ConfusionFn 10 0 10 0))
+
+(resultsAt 5 (ConfusionFn 10 0 10 0))
+
+(resultsAt 30 (ConfusionFn 10 0 10 0))

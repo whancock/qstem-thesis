@@ -1,0 +1,33 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventPartition-baseline) 0)), dumped 6/14/2025 13:8:12 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventPartition-baseline) 0)))
+
+(learnedRulesAt 25
+ (((changingIn ?C (PositionFn ?G)) (aia-mi ?C ?D) (aia-mi ?C ?B))))
+
+(resultsAt 25 (ConfusionFn 10 10 0 0))
+
+(learnedRulesAt 20
+ (((changingIn ?C (PositionFn ?G)) (aia-mi ?C ?D) (aia-mi ?C ?B))))
+
+(resultsAt 20 (ConfusionFn 10 10 0 0))
+
+(learnedRulesAt 15
+ (((changingIn ?C (PositionFn ?G)) (aia-mi ?C ?D) (aia-mi ?C ?B))))
+
+(resultsAt 15 (ConfusionFn 10 10 0 0))
+
+(learnedRulesAt 10
+ (((changingIn ?C (PositionFn ?G)) (aia-mi ?C ?D) (aia-mi ?C ?B))))
+
+(resultsAt 10 (ConfusionFn 10 10 0 0))
+
+(learnedRulesAt 5
+ (((changingIn ?C (PositionFn ?G)) (aia-mi ?C ?D) (aia-mi ?C ?B))))
+
+(resultsAt 5 (ConfusionFn 10 10 0 0))
+
+(learnedRulesAt 30
+ (((changingIn ?C (PositionFn ?G)) (aia-mi ?C ?D) (aia-mi ?C ?B))))
+
+(resultsAt 30 (ConfusionFn 10 10 0 0))

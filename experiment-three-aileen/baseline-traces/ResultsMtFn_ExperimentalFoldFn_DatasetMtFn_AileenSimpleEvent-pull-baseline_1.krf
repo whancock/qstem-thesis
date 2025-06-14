@@ -1,0 +1,63 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pull-baseline) 1)), dumped 6/14/2025 13:7:47 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pull-baseline) 1)))
+
+(learnedRulesAt 30
+ (((holdsIn ?F (dc ?H ?I)) (aia-o ?D ?F) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((increasingIn ?J ?H) (increasingIn ?I ?F) (increasingIn ?G ?H)
+   (aia-o ?D ?G) (increasingIn ?E ?F) (aia-o ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((holdsIn ?G (dc ?I ?J)) (aia-fi ?D ?G) (changingIn ?E ?F)
+   (aia-o ?D ?E) (aia-si ?D ?B) (constantIn ?B ?C) (aia-s ?B ?A))))
+
+(learnedRulesAt 25
+ (((holdsIn ?F (dc ?H ?I)) (aia-o ?D ?F) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((increasingIn ?J ?H) (increasingIn ?I ?F) (increasingIn ?G ?H)
+   (aia-o ?D ?G) (increasingIn ?E ?F) (aia-o ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((holdsIn ?E (dc ?H ?I)) (aia-fi ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))))
+
+(resultsAt 25 (ConfusionFn 9 0 10 1))
+
+(learnedRulesAt 20
+ (((holdsIn ?F (dc ?H ?I)) (aia-o ?D ?F) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((increasingIn ?J ?H) (increasingIn ?I ?F) (increasingIn ?G ?H)
+   (aia-o ?D ?G) (increasingIn ?E ?F) (aia-o ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((holdsIn ?E (dc ?H ?I)) (aia-fi ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))))
+
+(learnedRulesAt 15
+ (((holdsIn ?F (dc ?H ?I)) (aia-o ?D ?F) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((increasingIn ?J ?H) (increasingIn ?I ?F) (increasingIn ?G ?H)
+   (aia-o ?D ?G) (increasingIn ?E ?F) (aia-o ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((holdsIn ?E (dc ?H ?I)) (aia-fi ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))))
+
+(learnedRulesAt 10
+ (((holdsIn ?F (dc ?H ?I)) (aia-o ?D ?F) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((holdsIn ?E (dc ?H ?I)) (aia-fi ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))))
+
+(resultsAt 10 (ConfusionFn 6 0 10 4))
+
+(learnedRulesAt 5
+ (((holdsIn ?F (dc ?H ?I)) (aia-o ?D ?F) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))
+  ((holdsIn ?E (dc ?H ?I)) (aia-fi ?D ?E) (aia-si ?D ?B)
+   (constantIn ?B ?C) (aia-s ?B ?A))))
+
+(resultsAt 5 (ConfusionFn 6 0 10 4))
+
+(resultsAt 20 (ConfusionFn 9 0 10 1))
+
+(resultsAt 15 (ConfusionFn 9 0 10 1))
+
+(resultsAt 30 (ConfusionFn 9 0 10 1))

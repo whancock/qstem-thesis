@@ -1,0 +1,68 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventExpOrig-baseline) 0)), dumped 6/14/2025 13:8:5 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventSpread-baseline) 0)))
+
+(learnedRulesAt 25
+ (((changingIn ?G (PositionFn ?H)) (aia-d ?B ?F)
+   (changingIn ?B (PositionFn ?H)) (aia-f ?C ?B) (aia-d ?B ?A))
+  ((changingIn ?H ?G) (changingIn ?F ?G) (aia-di ?E ?F) (aia-di ?E ?B)
+   (constantIn ?B ?D) (aia-= ?C ?B) (aia-d ?B ?A))
+  ((changingIn ?E ?H) (decreasingIn ?G ?F) (decreasingIn ?D ?F)
+   (aia-oi ?C ?E) (aia-d ?C ?D))
+  ((changingIn ?H ?G) (changingIn ?F ?G) (aia-oi ?F ?E) (aia-o ?C ?E)
+   (constantIn ?C (PositionFn ?I)) (aia-fi ?C ?B))))
+
+(resultsAt 25 (ConfusionFn 10 8 2 0))
+
+(learnedRulesAt 20
+ (((changingIn ?G (PositionFn ?H)) (aia-d ?B ?F)
+   (changingIn ?B (PositionFn ?H)) (aia-f ?C ?B) (aia-d ?B ?A))
+  ((changingIn ?H ?G) (changingIn ?F ?G) (aia-di ?E ?F) (aia-di ?E ?B)
+   (constantIn ?B ?D) (aia-= ?C ?B) (aia-d ?B ?A))
+  ((changingIn ?E ?H) (decreasingIn ?G ?F) (decreasingIn ?D ?F)
+   (aia-oi ?C ?E) (aia-d ?C ?D))
+  ((changingIn ?H ?G) (changingIn ?F ?G) (aia-oi ?F ?E) (aia-o ?C ?E)
+   (constantIn ?C (PositionFn ?I)) (aia-fi ?C ?B))))
+
+(resultsAt 20 (ConfusionFn 10 8 2 0))
+
+(learnedRulesAt 15
+ (((changingIn ?G (PositionFn ?H)) (aia-d ?B ?F)
+   (changingIn ?B (PositionFn ?H)) (aia-f ?C ?B) (aia-d ?B ?A))
+  ((changingIn ?E ?H) (decreasingIn ?G ?F) (decreasingIn ?D ?F)
+   (aia-oi ?C ?E) (aia-d ?C ?D))
+  ((changingIn ?H ?G) (changingIn ?F ?G) (aia-oi ?F ?E) (aia-o ?C ?E)
+   (constantIn ?C (PositionFn ?I)) (aia-fi ?C ?B))))
+
+(resultsAt 15 (ConfusionFn 10 8 2 0))
+
+(learnedRulesAt 10
+ (((changingIn ?I ?G) (changingIn ?H ?E) (changingIn ?F ?G)
+   (aia-oi ?F ?B) (changingIn ?B ?E) (aia-f ?C ?B) (aia-d ?B ?A))
+  ((changingIn ?E ?H) (decreasingIn ?G ?F) (decreasingIn ?D ?F)
+   (aia-oi ?C ?E) (aia-d ?C ?D))
+  ((changingIn ?H ?G) (changingIn ?F ?G) (aia-oi ?F ?E) (aia-o ?C ?E)
+   (constantIn ?C (PositionFn ?I)) (aia-fi ?C ?B))))
+
+(resultsAt 10 (ConfusionFn 9 6 4 1))
+
+(learnedRulesAt 5
+ (((changingIn ?E ?H) (decreasingIn ?G ?F) (decreasingIn ?D ?F)
+   (aia-oi ?C ?E) (aia-d ?C ?D))
+  ((changingIn ?H ?G) (changingIn ?E ?G) (aia-di ?F ?E) (aia-di ?C ?E)
+   (constantIn ?C (PositionFn ?I)) (aia-fi ?C ?B))))
+
+(resultsAt 5 (ConfusionFn 9 10 0 1))
+
+(learnedRulesAt 30
+ (((changingIn ?I ?G) (changingIn ?H ?E) (changingIn ?F ?G)
+   (aia-oi ?F ?B) (changingIn ?B ?E) (aia-f ?C ?B) (aia-d ?B ?A))
+  ((increasingIn ?D (ForwardBackwardPositionFn ?F)) (aia-d ?C ?D))
+  ((changingIn ?H ?F) (changingIn ?C ?G) (changingIn ?B ?F)
+   (aia-di ?E ?B) (aia-oi ?C ?D) (aia-f ?C ?B) (aia-d ?B ?A))
+  ((changingIn ?E ?H) (decreasingIn ?G ?F) (decreasingIn ?D ?F)
+   (aia-oi ?C ?E) (aia-d ?C ?D))
+  ((changingIn ?H ?G) (changingIn ?F ?G) (aia-oi ?F ?E) (aia-o ?C ?E)
+   (constantIn ?C (PositionFn ?I)) (aia-fi ?C ?B))))
+
+(resultsAt 30 (ConfusionFn 10 7 3 0))

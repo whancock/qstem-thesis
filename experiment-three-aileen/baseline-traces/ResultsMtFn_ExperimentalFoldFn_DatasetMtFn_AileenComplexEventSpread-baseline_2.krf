@@ -1,0 +1,41 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventExpOrig-baseline) 2)), dumped 6/14/2025 13:8:5 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenComplexEventSpread-baseline) 2)))
+
+(learnedRulesAt 25
+ (((aia-f ?C ?H) (constantIn ?C (PositionFn ?E)) (aia-d ?C ?B))
+  ((changingIn ?C (PositionFn ?F)) (aia-si ?C ?D) (aia-d ?C ?B))
+  ((aia-s ?C ?E) (changingIn ?C (PositionFn ?F)) (aia-d ?C ?B))))
+
+(resultsAt 25 (ConfusionFn 10 10 0 0))
+
+(learnedRulesAt 20
+ (((aia-f ?C ?H) (constantIn ?C (PositionFn ?E)) (aia-d ?C ?B))
+  ((changingIn ?C (PositionFn ?F)) (aia-si ?C ?D) (aia-d ?C ?B))
+  ((aia-s ?C ?E) (changingIn ?C (PositionFn ?F)) (aia-d ?C ?B))))
+
+(resultsAt 20 (ConfusionFn 10 10 0 0))
+
+(learnedRulesAt 15
+ (((aia-= ?C ?E) (changingIn ?C (PositionFn ?F)) (aia-d ?C ?B))
+  ((holdsIn ?E ?F) (aia-f ?C ?E) (constantIn ?C (PositionFn ?G))
+   (aia-d ?C ?B))))
+
+(resultsAt 15 (ConfusionFn 8 6 4 2))
+
+(learnedRulesAt 10
+ (((aia-= ?C ?E) (changingIn ?C (PositionFn ?F)) (aia-d ?C ?B))))
+
+(resultsAt 10 (ConfusionFn 8 2 8 2))
+
+(learnedRulesAt 5
+ (((aia-= ?C ?E) (changingIn ?C (PositionFn ?F)) (aia-d ?C ?B))))
+
+(resultsAt 5 (ConfusionFn 8 2 8 2))
+
+(learnedRulesAt 30
+ (((aia-f ?C ?H) (constantIn ?C (PositionFn ?E)) (aia-d ?C ?B))
+  ((changingIn ?C (PositionFn ?F)) (aia-si ?C ?D) (aia-d ?C ?B))
+  ((aia-s ?C ?E) (changingIn ?C (PositionFn ?F)) (aia-d ?C ?B))))
+
+(resultsAt 30 (ConfusionFn 10 10 0 0))

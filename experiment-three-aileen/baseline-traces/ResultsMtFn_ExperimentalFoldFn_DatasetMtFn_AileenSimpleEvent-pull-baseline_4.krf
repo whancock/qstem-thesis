@@ -1,0 +1,15 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pull-baseline) 4)), dumped 6/14/2025 13:7:47 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pull-baseline) 4)))
+
+(resultsAt 25 (ConfusionFn 0 0 10 10))
+
+(resultsAt 20 (ConfusionFn 0 0 10 10))
+
+(resultsAt 15 (ConfusionFn 0 0 10 10))
+
+(resultsAt 10 (ConfusionFn 0 0 10 10))
+
+(resultsAt 5 (ConfusionFn 0 0 10 10))
+
+(resultsAt 30 (ConfusionFn 0 0 10 10))

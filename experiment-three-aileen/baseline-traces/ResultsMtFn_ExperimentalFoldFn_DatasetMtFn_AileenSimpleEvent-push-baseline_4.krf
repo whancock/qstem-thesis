@@ -1,0 +1,50 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-push-baseline) 4)), dumped 6/14/2025 13:6:59 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-push-baseline) 4)))
+
+(learnedRulesAt 30
+ (((increasingIn ?I ?G) (increasingIn ?H ?E) (increasingIn ?F ?G)
+   (aia-mi ?C ?F) (increasingIn ?D ?E) (aia-mi ?C ?D))
+  ((increasingIn ?D (ForwardBackwardPositionFn ?G)) (aia-mi ?E ?D)
+   (aia-mi ?C ?D))
+  ((holdsIn ?D (ec ?F ?G)) (aia-m ?C ?D))))
+
+(learnedRulesAt 25
+ (((increasingIn ?I ?G) (increasingIn ?H ?E) (increasingIn ?F ?G)
+   (aia-mi ?C ?F) (increasingIn ?D ?E) (aia-mi ?C ?D))
+  ((increasingIn ?D (ForwardBackwardPositionFn ?G)) (aia-mi ?E ?D)
+   (aia-mi ?C ?D))))
+
+(learnedRulesAt 20
+ (((increasingIn ?I ?G) (increasingIn ?H ?E) (increasingIn ?F ?G)
+   (aia-mi ?C ?F) (increasingIn ?D ?E) (aia-mi ?C ?D))
+  ((increasingIn ?D (ForwardBackwardPositionFn ?G)) (aia-mi ?E ?D)
+   (aia-mi ?C ?D))))
+
+(learnedRulesAt 15
+ (((increasingIn ?I ?G) (increasingIn ?H ?E) (increasingIn ?F ?G)
+   (aia-mi ?C ?F) (increasingIn ?D ?E) (aia-mi ?C ?D))
+  ((increasingIn ?D (ForwardBackwardPositionFn ?G)) (aia-mi ?E ?D)
+   (aia-mi ?C ?D))))
+
+(learnedRulesAt 10
+ (((increasingIn ?I ?G) (increasingIn ?H ?E) (increasingIn ?F ?G)
+   (aia-mi ?C ?F) (increasingIn ?D ?E) (aia-mi ?C ?D))
+  ((increasingIn ?D (ForwardBackwardPositionFn ?G)) (aia-mi ?E ?D)
+   (aia-mi ?C ?D))))
+
+(learnedRulesAt 5
+ (((increasingIn ?D (ForwardBackwardPositionFn ?G)) (aia-mi ?E ?D)
+   (aia-mi ?C ?D))))
+
+(resultsAt 20 (ConfusionFn 10 6 4 0))
+
+(resultsAt 15 (ConfusionFn 10 6 4 0))
+
+(resultsAt 10 (ConfusionFn 10 6 4 0))
+
+(resultsAt 25 (ConfusionFn 10 6 4 0))
+
+(resultsAt 5 (ConfusionFn 10 0 10 0))
+
+(resultsAt 30 (ConfusionFn 10 6 4 0))

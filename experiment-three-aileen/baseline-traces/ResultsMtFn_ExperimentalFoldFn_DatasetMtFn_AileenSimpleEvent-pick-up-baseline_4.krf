@@ -1,0 +1,52 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pick-up-baseline) 4)), dumped 6/14/2025 13:7:58 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-pick-up-baseline) 4)))
+
+(learnedRulesAt 30
+ (((constantIn ?B (PositionFn ?G)) (aia-= ?E ?B) (aia-= ?C ?B)
+   (aia-f ?B ?A))
+  ((holdsIn ?D (tppi ?F ?G)) (aia-= ?C ?D))
+  ((changingIn ?E ?H) (changingIn ?C ?G) (changingIn ?B ?F)
+   (aia-di ?E ?D) (aia-di ?C ?D) (aia-= ?C ?B) (aia-f ?B ?A))))
+
+(resultsAt 30 (ConfusionFn 10 1 9 0))
+
+(learnedRulesAt 25
+ (((constantIn ?B (PositionFn ?G)) (aia-= ?E ?B) (aia-= ?C ?B)
+   (aia-f ?B ?A))
+  ((holdsIn ?D (tppi ?F ?G)) (aia-= ?C ?D))
+  ((changingIn ?E ?H) (changingIn ?C ?G) (changingIn ?B ?F)
+   (aia-di ?E ?D) (aia-di ?C ?D) (aia-= ?C ?B) (aia-f ?B ?A))))
+
+(resultsAt 25 (ConfusionFn 10 1 9 0))
+
+(learnedRulesAt 20
+ (((constantIn ?B (PositionFn ?G)) (aia-= ?E ?B) (aia-= ?C ?B)
+   (aia-f ?B ?A))
+  ((holdsIn ?D (tppi ?F ?G)) (aia-= ?C ?D))
+  ((changingIn ?E ?H) (changingIn ?C ?G) (changingIn ?B ?F)
+   (aia-di ?E ?D) (aia-di ?C ?D) (aia-= ?C ?B) (aia-f ?B ?A))))
+
+(resultsAt 20 (ConfusionFn 10 1 9 0))
+
+(learnedRulesAt 15
+ (((constantIn ?B (PositionFn ?G)) (aia-= ?E ?B) (aia-= ?C ?B)
+   (aia-f ?B ?A))
+  ((holdsIn ?D (tppi ?F ?G)) (aia-= ?C ?D))
+  ((changingIn ?E ?H) (changingIn ?C ?G) (changingIn ?B ?F)
+   (aia-di ?E ?D) (aia-di ?C ?D) (aia-= ?C ?B) (aia-f ?B ?A))))
+
+(resultsAt 15 (ConfusionFn 10 1 9 0))
+
+(learnedRulesAt 10
+ (((constantIn ?B (PositionFn ?G)) (aia-= ?E ?B) (aia-= ?C ?B)
+   (aia-f ?B ?A))
+  ((holdsIn ?D (tppi ?F ?G)) (aia-= ?C ?D))
+  ((changingIn ?E ?H) (changingIn ?C ?G) (changingIn ?B ?F)
+   (aia-di ?E ?D) (aia-di ?C ?D) (aia-= ?C ?B) (aia-f ?B ?A))))
+
+(resultsAt 10 (ConfusionFn 10 1 9 0))
+
+(learnedRulesAt 5 (((holdsIn ?D (tppi ?F ?G)) (aia-= ?C ?D))))
+
+(resultsAt 5 (ConfusionFn 2 0 10 8))

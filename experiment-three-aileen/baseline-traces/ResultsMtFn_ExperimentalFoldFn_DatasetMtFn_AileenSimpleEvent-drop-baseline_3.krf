@@ -1,0 +1,43 @@
+;;; Case (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-drop-baseline) 3)), dumped 6/14/2025 13:7:53 from chum.
+
+(in-microtheory (ResultsMtFn (ExperimentalFoldFn (DatasetMtFn AileenSimpleEvent-drop-baseline) 3)))
+
+(learnedRulesAt 30
+ (((increasingIn ?D (HeightFn ?F)) (aia-mi ?C ?D))
+  ((changingIn ?E ?G) (changingIn ?C ?F) (aia-mi ?E ?D) (aia-mi ?C ?D)
+   (aia-f ?C ?B))))
+
+(learnedRulesAt 25
+ (((increasingIn ?D (HeightFn ?F)) (aia-mi ?C ?D))
+  ((changingIn ?E ?G) (changingIn ?C ?F) (aia-mi ?E ?D) (aia-mi ?C ?D)
+   (aia-f ?C ?B))))
+
+(resultsAt 25 (ConfusionFn 10 4 6 0))
+
+(learnedRulesAt 20
+ (((increasingIn ?D (HeightFn ?F)) (aia-mi ?C ?D))
+  ((changingIn ?E ?G) (changingIn ?C ?F) (aia-mi ?E ?D) (aia-mi ?C ?D)
+   (aia-f ?C ?B))))
+
+(resultsAt 20 (ConfusionFn 10 4 6 0))
+
+(learnedRulesAt 15
+ (((increasingIn ?D (HeightFn ?F)) (aia-mi ?C ?D))
+  ((changingIn ?E ?G) (changingIn ?C ?F) (aia-mi ?E ?D) (aia-mi ?C ?D)
+   (aia-f ?C ?B))))
+
+(resultsAt 15 (ConfusionFn 10 4 6 0))
+
+(learnedRulesAt 10
+ (((changingIn ?E ?G) (changingIn ?C ?F) (aia-mi ?E ?D) (aia-mi ?C ?D)
+   (aia-f ?C ?B))))
+
+(resultsAt 10 (ConfusionFn 10 1 9 0))
+
+(learnedRulesAt 5
+ (((changingIn ?E ?G) (changingIn ?C ?F) (aia-mi ?E ?D) (aia-mi ?C ?D)
+   (aia-f ?C ?B))))
+
+(resultsAt 5 (ConfusionFn 10 1 9 0))
+
+(resultsAt 30 (ConfusionFn 10 4 6 0))
